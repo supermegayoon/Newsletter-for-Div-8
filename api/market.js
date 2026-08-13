@@ -1,8 +1,16 @@
-// Vercel Serverless Function
 // File: /api/market.js
-// Purpose: Fetch Yahoo Finance data server-side to avoid browser CORS blocks.
+// Vercel Serverless Function
+// Market + raw-material indicators for 8담당 newsletter.
 
-const DEFAULT_SYMBOLS = ["KSS", "ANF", "M", "KRW=X", "VND=X", "CL=F", "CT=F"];
+const DEFAULT_SYMBOLS = [
+  "KSS",
+  "ANF",
+  "M",
+  "KRW=X",
+  "CTZ26.NYB",   // ICE Cotton No.2 Dec-2026
+  "CL=F",        // WTI crude
+  "BZ=F"         // Brent crude
+];
 
 function safeNumber(v) {
   return typeof v === "number" && Number.isFinite(v) ? v : null;
@@ -10,7 +18,9 @@ function safeNumber(v) {
 
 async function fetchYahooChart(symbol) {
   const encoded = encodeURIComponent(symbol);
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encoded}?interval=1d&range=5d&includePrePost=false`;
+  const url =
+    `https://query1.finance.yahoo.com/v8/finance/chart/${encoded}` +
+    `?interval=1d&range=10d&includePrePost=false`;
 
   const response = await fetch(url, {
     headers: {
@@ -32,7 +42,9 @@ async function fetchYahooChart(symbol) {
 
   const meta = result.meta || {};
   const closes = result?.indicators?.quote?.[0]?.close || [];
-  const validCloses = closes.filter(v => typeof v === "number" && Number.isFinite(v));
+  const validCloses = closes.filter(
+    v => typeof v === "number" && Number.isFinite(v)
+  );
 
   let price = safeNumber(meta.regularMarketPrice);
   if (price === null && validCloses.length) {
@@ -60,19 +72,19 @@ async function fetchYahooChart(symbol) {
     currency: meta.currency || null,
     exchangeName: meta.exchangeName || null,
     marketState: meta.marketState || null,
-    regularMarketTime: meta.regularMarketTime || null
+    regularMarketTime: meta.regularMarketTime || null,
+    shortName: meta.shortName || meta.longName || null
   };
 }
 
 module.exports = async function handler(req, res) {
-  // Allow only GET
   if (req.method !== "GET") {
     res.setHeader("Allow", "GET");
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  // Cache briefly at Vercel edge/CDN.
-  res.setHeader("Cache-Control", "s-maxage=60, stale-while-revalidate=300");
+  // These are delayed market indicators, so a short cache is fine.
+  res.setHeader("Cache-Control", "s-maxage=120, stale-while-revalidate=600");
 
   const requested = String(req.query.symbols || "")
     .split(",")
@@ -88,6 +100,7 @@ module.exports = async function handler(req, res) {
 
   settled.forEach((result, index) => {
     const symbol = symbols[index];
+
     if (result.status === "fulfilled") {
       data[symbol] = result.value;
     } else {

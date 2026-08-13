@@ -1,8 +1,8 @@
 // File: /api/ai.js
 // Gemini-powered AI analysis for 8담당 DAILY MARKET BRIEF.
-// Store GEMINI_API_KEY only in Vercel Environment Variables.
+// Raw-material aware version.
 
-const MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+const MODEL = process.env.GEMINI_MODEL || "gemini-3.5-flash-lite";
 const API_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
 
 function cleanText(value, max = 1200) {
@@ -22,16 +22,29 @@ function normalizeNews(news) {
 
 function normalizeMarket(market) {
   if (!market || typeof market !== "object") return {};
-  const allowed = ["KSS", "ANF", "M", "KRW=X", "VND=X", "CL=F", "CT=F"];
+
+  const allowed = [
+    "KSS",
+    "ANF",
+    "M",
+    "KRW=X",
+    "CTZ26.NYB",
+    "CL=F",
+    "BZ=F"
+  ];
+
   const out = {};
+
   for (const symbol of allowed) {
     const d = market[symbol];
     if (!d || typeof d !== "object") continue;
+
     out[symbol] = {
       price: Number.isFinite(Number(d.price)) ? Number(d.price) : null,
       changePct: Number.isFinite(Number(d.changePct)) ? Number(d.changePct) : null
     };
   }
+
   return out;
 }
 
@@ -70,24 +83,37 @@ Audience:
 - Key retail/customer relevance includes Kohl's, A&F/Hollister and Macy's.
 - Main operational lenses: apparel demand, promotions, sourcing, raw materials, FX, duty/tariff, margin, chase/reorder, production and vendor risk.
 
+Important market-symbol meaning:
+- KRW=X = USD/KRW
+- CTZ26.NYB = ICE Cotton No.2 December 2026 futures, cents/lb
+- CL=F = WTI crude-oil futures, USD/bbl
+- BZ=F = Brent crude-oil futures, USD/bbl
+- KSS / ANF / M = retailer equities
+
+Raw-material analysis priority:
+1. Cotton movement and likely cotton-fabric/yarn costing pressure
+2. WTI/Brent movement as directional proxy for polyester feedstock pressure
+3. USD/KRW FX movement
+4. Retailer equity movement only as supporting sentiment, not as direct sales data
+
 Rules:
 - Analyze ONLY the information supplied below.
-- Do not invent current news, prices, policies, tariffs, dates, earnings estimates, or facts not present in the supplied data.
+- Do not invent China cotton, India cotton, PSF, DTY or yarn spot prices if they are not supplied.
+- Do not claim crude oil equals PSF/DTY price; treat it only as a directional upstream indicator.
 - Distinguish observed facts from inference.
-- If evidence is insufficient, say so clearly.
-- Keep the full response concise and under about 650 Korean characters.
+- Keep the response concise and actionable.
 
 Return exactly this structure:
 
 [오늘의 AI 한줄]
 <1 sentence>
 
-[8담당 영향도]
-• <point 1>
-• <point 2>
-• <point 3>
+[원자재 영향]
+• <cotton>
+• <polyester/oil>
+• <FX>
 
-[오늘 체크할 것]
+[8담당 체크포인트]
 1. <action 1>
 2. <action 2>
 3. <action 3>
@@ -125,7 +151,6 @@ ${JSON.stringify(news)}
           }
         ],
         generationConfig: {
-          temperature: 0.25,
           maxOutputTokens: 800
         }
       })
@@ -136,9 +161,7 @@ ${JSON.stringify(news)}
     if (!response.ok) {
       console.error("Gemini API error:", response.status, data);
       return res.status(response.status).json({
-        error:
-          data?.error?.message ||
-          `Gemini API returned ${response.status}`
+        error: data?.error?.message || `Gemini API returned ${response.status}`
       });
     }
 
