@@ -1,0 +1,207 @@
+{
+  "ok": true,
+  "asOf": "2026-08-13T00:00:00.000Z",
+  "basis": "Additional U.S. import duties only; MFN/base HTS duty excluded",
+  "stale": true,
+  "refreshStatus": "SEED",
+  "countries": [
+    {
+      "country": "Vietnam",
+      "currentAdditionalRate": null,
+      "status": "VERIFY",
+      "currentLabelKr": "첫 공식 검증 대기",
+      "currentLabelEn": "Awaiting first official verification",
+      "components": [],
+      "preference": {
+        "program": "",
+        "status": "VERIFY",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "trq": {
+        "status": "VERIFY",
+        "effectiveDate": "",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "pending": [],
+      "sources": []
+    },
+    {
+      "country": "Indonesia",
+      "currentAdditionalRate": null,
+      "status": "VERIFY",
+      "currentLabelKr": "첫 공식 검증 대기",
+      "currentLabelEn": "Awaiting first official verification",
+      "components": [],
+      "preference": {
+        "program": "",
+        "status": "VERIFY",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "trq": {
+        "status": "VERIFY",
+        "effectiveDate": "",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "pending": [],
+      "sources": []
+    },
+    {
+      "country": "Bangladesh",
+      "currentAdditionalRate": null,
+      "status": "VERIFY",
+      "currentLabelKr": "첫 공식 검증 대기",
+      "currentLabelEn": "Awaiting first official verification",
+      "components": [],
+      "preference": {
+        "program": "",
+        "status": "VERIFY",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "trq": {
+        "status": "VERIFY",
+        "effectiveDate": "",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "pending": [],
+      "sources": []
+    },
+    {
+      "country": "Cambodia",
+      "currentAdditionalRate": null,
+      "status": "VERIFY",
+      "currentLabelKr": "첫 공식 검증 대기",
+      "currentLabelEn": "Awaiting first official verification",
+      "components": [],
+      "preference": {
+        "program": "",
+        "status": "VERIFY",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "trq": {
+        "status": "VERIFY",
+        "effectiveDate": "",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "pending": [],
+      "sources": []
+    },
+    {
+      "country": "Nicaragua",
+      "currentAdditionalRate": null,
+      "status": "VERIFY",
+      "currentLabelKr": "첫 공식 검증 대기",
+      "currentLabelEn": "Awaiting first official verification",
+      "components": [],
+      "preference": {
+        "program": "",
+        "status": "VERIFY",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "trq": {
+        "status": "VERIFY",
+        "effectiveDate": "",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "pending": [],
+      "sources": []
+    },
+    {
+      "country": "Guatemala",
+      "currentAdditionalRate": null,
+      "status": "VERIFY",
+      "currentLabelKr": "첫 공식 검증 대기",
+      "currentLabelEn": "Awaiting first official verification",
+      "components": [],
+      "preference": {
+        "program": "",
+        "status": "VERIFY",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "trq": {
+        "status": "VERIFY",
+        "effectiveDate": "",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "pending": [],
+      "sources": []
+    },
+    {
+      "country": "Costa Rica",
+      "currentAdditionalRate": null,
+      "status": "VERIFY",
+      "currentLabelKr": "첫 공식 검증 대기",
+      "currentLabelEn": "Awaiting first official verification",
+      "components": [],
+      "preference": {
+        "program": "",
+        "status": "VERIFY",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "trq": {
+        "status": "VERIFY",
+        "effectiveDate": "",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "pending": [],
+      "sources": []
+    },
+    {
+      "country": "El Salvador",
+      "currentAdditionalRate": null,
+      "status": "VERIFY",
+      "currentLabelKr": "첫 공식 검증 대기",
+      "currentLabelEn": "Awaiting first official verification",
+      "components": [],
+      "preference": {
+        "program": "",
+        "status": "VERIFY",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "trq": {
+        "status": "VERIFY",
+        "effectiveDate": "",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "pending": [],
+      "sources": []
+    },
+    {
+      "country": "Haiti",
+      "currentAdditionalRate": null,
+      "status": "VERIFY",
+      "currentLabelKr": "첫 공식 검증 대기",
+      "currentLabelEn": "Awaiting first official verification",
+      "components": [],
+      "preference": {
+        "program": "",
+        "status": "VERIFY",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "trq": {
+        "status": "VERIFY",
+        "effectiveDate": "",
+        "noteKr": "",
+        "noteEn": ""
+      },
+      "pending": [],
+      "sources": []
+    }
+  ]
+}
