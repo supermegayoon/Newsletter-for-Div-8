@@ -1,10 +1,60 @@
 // File: /api/news.js
-// Fresh buyer + apparel industry news, up to 30 days.
-// Priority: <=72h, then <=7d, then <=30d.
-// No separate news API key required; uses existing GEMINI_API_KEY for curation.
+// DAILY shared news cache.
+// Gemini is used at most once per 24 hours for curation.
+// All visitors see the same news-current.json.
 
 const MODEL = process.env.GEMINI_MODEL || "gemini-3.5-flash-lite";
 const GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
+const FILE_PATH = "news-current.json";
+const MAX_AGE_MS = 24 * 60 * 60 * 1000;
+
+
+const OWNER = process.env.GITHUB_OWNER || "supermegayoon";
+const REPO = process.env.GITHUB_REPO || "Newsletter-for-Div-8";
+const BRANCH = process.env.GITHUB_BRANCH || "main";
+
+async function gh(url, options={}) {
+  if (!process.env.GITHUB_TOKEN) throw new Error("GITHUB_TOKEN missing");
+  const r = await fetch(url, {
+    ...options,
+    headers: {
+      "Authorization": `Bearer ${process.env.GITHUB_TOKEN}`,
+      "Accept": "application/vnd.github+json",
+      "X-GitHub-Api-Version": "2022-11-28",
+      ...(options.headers || {})
+    }
+  });
+  const text = await r.text();
+  let j = {};
+  try { j = text ? JSON.parse(text) : {}; } catch {}
+  if (!r.ok) throw new Error(j?.message || `GitHub ${r.status}`);
+  return j;
+}
+
+async function readGithubJson(path) {
+  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}?ref=${encodeURIComponent(BRANCH)}`;
+  const j = await gh(url);
+  const content = Buffer.from(String(j.content || "").replace(/\n/g, ""), "base64").toString("utf8");
+  return { data: JSON.parse(content), sha: j.sha };
+}
+
+async function saveGithubJson(path, obj, sha, message) {
+  const url = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}`;
+  const content = Buffer.from(JSON.stringify(obj, null, 2) + "\n", "utf8").toString("base64");
+  const body = { message, content, branch: BRANCH };
+  if (sha) body.sha = sha;
+  return gh(url, {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(body)
+  });
+}
+
+function ageMs(asOf) {
+  const t = new Date(asOf || 0).getTime();
+  return Number.isFinite(t) ? Date.now() - t : Number.MAX_SAFE_INTEGER;
+}
+
 
 const SEARCHES = [
   { key:"kohls", label:"Kohl's", q:'Kohl\'s apparel OR fashion OR promotion OR back-to-school OR kids OR activewear OR private label OR earnings OR stores' },
@@ -51,91 +101,81 @@ async function fetchRss(search){
   const xml=await r.text();
   const blocks=[...xml.matchAll(/<item>([\s\S]*?)<\/item>/gi)].map(m=>m[1]);
   return blocks.map(b=>{
-    const source=sourceTag(b), pubDate=tag(b,"pubDate"), ah=ageHours(pubDate);
+    const source=sourceTag(b),pubDate=tag(b,"pubDate"),ah=ageHours(pubDate);
     return {
-      searchKey:search.key, searchLabel:search.label,
-      title:tag(b,"title"), description:tag(b,"description"),
-      pubDate, ageHours:ah, link:linkTag(b),
-      source:source.name||"Google News", sourceHome:source.url
+      searchKey:search.key,searchLabel:search.label,title:tag(b,"title"),
+      description:tag(b,"description"),pubDate,ageHours:ah,link:linkTag(b),
+      source:source.name||"Google News"
     };
-  }).filter(x=>x.title && x.pubDate && x.ageHours<=24*30+12);
+  }).filter(x=>x.title&&x.pubDate&&x.ageHours<=24*30+12);
 }
 function dedupe(items){
   const seen=new Set(),out=[];
   for(const x of items.sort((a,b)=>a.ageHours-b.ageHours)){
-    const key=normalizeTitle(x.title); if(!key||seen.has(key))continue;
+    const key=normalizeTitle(x.title);if(!key||seen.has(key))continue;
     seen.add(key);out.push(x);
   }
   return out;
 }
-function balancedPool(items){
+function pool(items){
   const by={};for(const x of items)(by[x.searchKey]||=[]).push(x);
   const out=[];
   for(const s of SEARCHES){
     const arr=(by[s.key]||[]).sort((a,b)=>a.ageHours-b.ageHours);
-    const fresh=arr.filter(x=>x.ageHours<=72).slice(0,5);
-    const week=arr.filter(x=>x.ageHours>72&&x.ageHours<=168).slice(0,4);
-    const month=arr.filter(x=>x.ageHours>168).slice(0,3);
-    out.push(...fresh,...week,...month);
+    out.push(
+      ...arr.filter(x=>x.ageHours<=72).slice(0,5),
+      ...arr.filter(x=>x.ageHours>72&&x.ageHours<=168).slice(0,4),
+      ...arr.filter(x=>x.ageHours>168).slice(0,3)
+    );
   }
   return dedupe(out).slice(0,48);
 }
-function extractText(data){return(data?.candidates?.[0]?.content?.parts||[]).map(p=>p?.text||"").join("\n").trim();}
+function extractText(d){return(d?.candidates?.[0]?.content?.parts||[]).map(p=>p?.text||"").join("\n").trim();}
 function stripFence(t){return String(t||"").replace(/^```json\s*/i,"").replace(/^```\s*/i,"").replace(/\s*```$/i,"").trim();}
 
 async function curate(raw){
-  if(!process.env.GEMINI_API_KEY)return null;
+  if(!process.env.GEMINI_API_KEY)throw new Error("GEMINI_API_KEY missing");
   const prompt=`
-You curate a daily retail/apparel news feed for an internal apparel-vendor sales team.
+You curate a daily retail/apparel news feed for an apparel-vendor sales team.
 
 TODAY: ${new Date().toISOString()}
-INPUT WINDOW: last 30 days maximum.
+INPUT WINDOW: maximum 30 days.
 
-FRESHNESS PRIORITY:
-1. <=72 hours: highest priority.
-2. 4-7 days: second priority.
-3. 8-30 days: use only when still strategically useful, when a buyer lacks fresher meaningful news, or when it provides context.
-Never include anything older than 30 days.
+Priority:
+1) <=72h
+2) 4-7d
+3) 8-30d only when strategically useful or fresher meaningful news is unavailable.
 
-DIVERSITY:
-- Kohl's
-- A&F / Hollister
-- Macy's
-- Ann Taylor
-- Talbot's
-- Pair of Thieves when meaningful
-- Broader U.S. apparel/retail/product trend signals
+Cover:
+Kohl's, A&F/Hollister, Macy's, Ann Taylor, Talbot's, Pair of Thieves,
+plus actionable U.S. apparel/retail/product trend signals.
 
-CONTENT PRIORITY:
-promotion, seasonal programs, category/product launches, collaborations, wholesale/channel moves, stores, earnings, consumer demand, inventory, pricing/value, kids, activewear, denim, private brands, competitive positioning.
+Prioritize:
+promotion, seasonal programs, category/product launches, collaboration, wholesale/channel,
+stores, earnings, consumer demand, inventory, pricing/value, kids, activewear, denim,
+private brands, competitive positioning.
 
-RULES:
-- Avoid duplicate syndicated stories.
-- Do not force an old item if a buyer has no useful news.
-- Do not invent facts.
-- Buyer-specific news should outrank generic finance stories.
-- Broader industry news is useful only when it can inform buyer/product strategy.
-- Keep source URL exactly from input.
+Avoid duplicate syndicated stories. Do not invent facts.
 
-Return ONLY JSON array, maximum 20 items:
+Return ONLY JSON array, max 20:
 [
   {
-    "brand":"kohls|af|macys|anntaylor|talbots|pairofthieves|industry|product",
+    "brand":"...",
     "brandLabel":"...",
-    "category_kr":"프로모|상품|채널|실적|전략|트렌드|기타",
-    "category_en":"Promo|Product|Channel|Earnings|Strategy|Trend|Other",
+    "category_kr":"...",
+    "category_en":"...",
     "date":"YYYY.MM.DD",
-    "title_kr":"한국어 제목",
-    "title_en":"English title",
-    "body_kr":"2문장 이내: 사실 요약 + 벤더 관점 의미",
-    "body_en":"max 2 sentences: factual summary + vendor relevance",
+    "title_kr":"...",
+    "title_en":"...",
+    "body_kr":"2문장 이내: 사실 요약 + vendor relevance",
+    "body_en":"max 2 sentences: fact + vendor relevance",
     "source":"publisher",
     "sourceUrl":"input link exactly",
     "ageHours":number
   }
 ]
 
-RAW ITEMS:
+RAW:
 ${JSON.stringify(raw)}
 `.trim();
 
@@ -151,30 +191,47 @@ ${JSON.stringify(raw)}
   if(!r.ok)throw new Error(j?.error?.message||`Gemini ${r.status}`);
   return JSON.parse(stripFence(extractText(j)));
 }
-function fallback(raw){
-  return raw.slice(0,20).map(x=>({
-    brand:x.searchKey,brandLabel:x.searchLabel,category_kr:"뉴스",category_en:"News",
-    date:new Date(x.pubDate).toISOString().slice(0,10).replace(/-/g,"."),
-    title_kr:x.title,title_en:x.title,body_kr:x.description||"",body_en:x.description||"",
-    source:x.source,sourceUrl:x.link,ageHours:Math.round(x.ageHours)
-  }));
+
+async function buildFresh(){
+  const settled=await Promise.allSettled(SEARCHES.map(fetchRss));
+  const all=settled.flatMap(x=>x.status==="fulfilled"?x.value:[]);
+  const raw=pool(dedupe(all));
+  const items=await curate(raw);
+  return {
+    ok:true,
+    asOf:new Date().toISOString(),
+    refreshStatus:"VERIFIED",
+    stale:false,
+    freshness:{
+      within72h:items.filter(x=>Number(x.ageHours)<=72).length,
+      within7d:items.filter(x=>Number(x.ageHours)<=168).length,
+      total:items.length,windowDays:30
+    },
+    items
+  };
 }
 
 module.exports=async function handler(req,res){
   if(req.method!=="GET")return res.status(405).json({error:"Method not allowed"});
-  try{
-    const settled=await Promise.allSettled(SEARCHES.map(fetchRss));
-    const all=settled.flatMap(x=>x.status==="fulfilled"?x.value:[]);
-    const pool=balancedPool(dedupe(all));
-    let items;
-    try{items=await curate(pool);}catch(e){console.error("Gemini news curation failed",e);items=fallback(pool);}
-    const within72=items.filter(x=>Number(x.ageHours)<=72).length;
-    const within7d=items.filter(x=>Number(x.ageHours)<=168).length;
+
+  let saved=null,sha=null;
+  try{const x=await readGithubJson(FILE_PATH);saved=x.data;sha=x.sha;}catch(e){console.error("[News cache] read failed",e);}
+
+  if(saved&&saved.refreshStatus==="VERIFIED"&&ageMs(saved.asOf)<MAX_AGE_MS){
     res.setHeader("Cache-Control","s-maxage=900, stale-while-revalidate=1800");
-    return res.status(200).json({
-      ok:true,updatedAt:new Date().toISOString(),
-      freshness:{within72h:within72,within7d,total:items.length,windowDays:30},
-      items
-    });
-  }catch(e){return res.status(500).json({error:e?.message||"News fetch failed"});}
+    return res.status(200).json({...saved,stale:false,servedFrom:"saved"});
+  }
+
+  try{
+    const fresh=await buildFresh();
+    try{await saveGithubJson(FILE_PATH,fresh,sha,`Daily news refresh ${new Date().toISOString().slice(0,10)}`);}catch(e){console.error("[News cache] save failed",e);}
+    res.setHeader("Cache-Control","s-maxage=900, stale-while-revalidate=1800");
+    return res.status(200).json({...fresh,servedFrom:"fresh"});
+  }catch(e){
+    console.error("[News cache] refresh failed",e);
+    if(saved){
+      return res.status(200).json({...saved,stale:true,refreshStatus:"STALE_FALLBACK",refreshError:e.message,servedFrom:"stale"});
+    }
+    return res.status(503).json({error:e?.message||"News refresh failed"});
+  }
 };
