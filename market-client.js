@@ -13,7 +13,7 @@
   };
 
   async function getMarket(){
-    const r=await fetch(`/api/market?symbols=${encodeURIComponent(SYMBOLS.join(","))}`,{cache:"no-store"});
+    const r=await fetch(`/api/market?symbols=${encodeURIComponent(SYMBOLS.join(","))}`);
     if(!r.ok) throw new Error(`market ${r.status}`);
     return r.json();
   }
@@ -33,7 +33,7 @@
     const defs=[["KSS","Kohl's (KSS)"],["ANF","Abercrombie & Fitch (ANF)"],["M","Macy's (M)"]];
     grid.innerHTML=defs.map(([s,l])=>{
       const d=data[s];
-      if(!d?.price)return `<div class="kpi-card"><div class="kpi-label">${l}</div><div class="kpi-value" style="font-size:16px;color:var(--muted)">조회 불가</div><div class="kpi-delta flat">—</div></div>`;
+      if(!d?.price)return `<div class="kpi-card"><div class="kpi-label">${l}</div><div class="kpi-value" style="font-size:16px;color:var(--muted)">마지막 데이터 없음</div><div class="kpi-delta flat">—</div></div>`;
       return `<div class="kpi-card"><div class="kpi-label">${l}</div><div class="kpi-value">$${fmt(d.price)}</div><div class="kpi-delta ${pc(d.changePct)}">${pt(d.changePct)}</div></div>`;
     }).join("");
   }
@@ -41,7 +41,7 @@
   function renderKRW(data){
     const d=data["KRW=X"], val=document.getElementById("fx-val"), note=document.getElementById("fx-note");
     if(!val)return;
-    if(!d?.price){val.textContent="조회 불가";return;}
+    if(!d?.price){val.textContent="마지막 데이터 없음";return;}
     val.innerHTML=`₩${Number(d.price).toLocaleString("ko-KR",{minimumFractionDigits:2,maximumFractionDigits:2})} <small class="${pc(d.changePct)}">${pt(d.changePct)}</small>`;
     if(note)note.innerHTML=`<span class="kr">USD/KRW · 시장 환율</span><span class="en">USD/KRW · Market rate</span>`;
   }
@@ -100,5 +100,6 @@
     }catch(e){console.error("[dashboard]",e);}
   }
   refresh();
-  setInterval(refresh,5*60*1000);
+  // Market data is a shared daily snapshot generated after 08:00 KST.
+  // No 5-minute browser polling: each page simply reads the same saved/cached snapshot.
 })();

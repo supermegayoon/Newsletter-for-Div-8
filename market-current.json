@@ -1,0 +1,9 @@
+{
+  "ok": false,
+  "source": "Yahoo Finance daily snapshot",
+  "schedule": "08:00 KST",
+  "snapshotDateKST": "",
+  "updatedAt": "",
+  "data": {},
+  "errors": {}
+}
