@@ -1,0 +1,67 @@
+{
+  "ok": true,
+  "asOf": "2026-08-13T08:54:34.028Z",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "insight": {
+    "headline": {
+      "kr": "관세 안정권 COP 활용 및 A&F·Kohl's 백투스쿨 리오더 집중",
+      "en": "Leveraging Tariff-Secure COPs and Maximizing A&F/Kohl's BTS Reorders"
+    },
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "넷플릭스 '케이팝 데몬헌터스' IP 협업 컬렉션을 런칭하며 엔터테인먼트 연계 유스 타겟 상품 강화. 백투스쿨 시즌 판매 가속화 중.",
+        "en": "Launched an apparel collection inspired by Netflix's 'KPop Demon Hunters', strengthening youth-targeted entertainment IP collaborations as Back-to-School sales accelerate."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "북아일랜드 더 불바드 2호점 오픈 확정 등 오프라인 리테일 확장 지속. 관세 전망 개선과 주가 상승(9.5%+)으로 공급망 파트너십 환경 우호적.",
+        "en": "Continuing physical retail expansion with a second Northern Irish store at The Boulevard. Favorable tariff outlook and strong stock performance (+9.5%) support stable vendor partnerships."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "카렌 밀렌의 7년 만의 오프라인 리테일 재진입 등 옴니채널 파트너십 다각화 움직임 주목.",
+        "en": "Focusing on omnichannel partnership diversification, highlighted by Karen Millen's return to physical retail after seven years."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "니카라과·과테말라 등 CAFTA-DR 적용 COP 생산 거점을 활용해 관세 리스크를 최소화하고 바이어 마진 방어 제안",
+        "en": "Propose margin protection to buyers by leveraging production bases in CAFTA-DR secure COPs like Nicaragua and Guatemala to minimize tariff risks."
+      },
+      {
+        "kr": "Kohl's의 엔터테인먼트 IP(K-Pop 테마 등) 협업 성공 사례를 분석하여 후속 트렌디 캐주얼 아이템 선제 제안",
+        "en": "Analyze Kohl's entertainment IP (K-Pop themed) collaboration success to proactively pitch follow-up trendy casual items."
+      },
+      {
+        "kr": "홀리스터의 오프라인 매장 확장세에 맞추어 주력 유스 캐주얼 품목의 리오더 및 스토어 랩핑 물량 적기 공급",
+        "en": "Align with Hollister's physical store expansion to ensure timely delivery of core youth casual reorders and store-specific allocations."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "베트남 생산 라인의 12.5% 고정 관세 지속 및 백투스쿨 피크 시즌에 따른 단기 리오더 납기 압박",
+      "en": "Persistent 12.5% fixed tariff on Vietnam production lines and short-term reorder delivery pressure during the Back-to-School peak season."
+    },
+    "actions": [
+      {
+        "owner": "Sales Team",
+        "kr": "A&F 담당 영업팀은 관세 전망 개선 기조를 반영하여 가을·겨울 시즌 마진 협상 및 추가 발주 물량 확보",
+        "en": "A&F sales team to secure Fall/Winter volume and negotiate margins leveraging favorable tariff outlook updates."
+      },
+      {
+        "owner": "Merchandising Team",
+        "kr": "Kohl's의 IP 협업 트렌드에 맞춘 영감 상품군 샘플을 준비하고 백투스쿨 베스트셀러 긴급 리오더 생산 라인 점검",
+        "en": "Merchandising team to prepare sample lines aligned with Kohl's IP collaboration trends and inspect production capacity for urgent BTS best-seller reorders."
+      },
+      {
+        "owner": "Supply Chain Team",
+        "kr": "베트남 고정 관세(12.5%) 품목 대비 관세 우대 COP(니카라과·과테말라 등)로의 생산 분산 시나리오 최종 검증",
+        "en": "Supply chain team to validate production shift scenarios to tariff-favored COPs (Nicaragua, Guatemala, etc.) against Vietnam's fixed 12.5% tariff."
+      }
+    ]
+  }
+}
