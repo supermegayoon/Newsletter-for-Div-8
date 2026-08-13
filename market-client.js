@@ -1,49 +1,53 @@
 // File: /market-client.js
-// Raw Material Dashboard - fetches raw-materials.json published by admin updater.
-// Auto market indicators: USD/KRW, ICE Cotton Dec-26, WTI, Brent.
+// FIXED DAILY MARKET MODE
+// The page ONLY renders market-current.json (last successful shared snapshot).
+// It never renders "조회 불가" because of a temporary Yahoo/API error.
+// /api/market is pinged in the background only to refresh the NEXT shared snapshot.
 
 (() => {
-  const SYMBOLS = ["KSS","ANF","M","KRW=X","CTZ26.NYB","CL=F","BZ=F"];
-
-  const fmt = (n,d=2)=>Number(n).toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d});
-  const pc = n => Number(n)>0?"up":Number(n)<0?"down":"flat";
-  const pt = n => {
-    if (n===null || n===undefined || !Number.isFinite(Number(n))) return "—";
-    n=Number(n); return `${n>0?"▲":n<0?"▼":""} ${Math.abs(n).toFixed(2)}%`;
+  const fmt=(n,d=2)=>Number(n).toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d});
+  const pc=n=>Number(n)>0?"up":Number(n)<0?"down":"flat";
+  const pt=n=>{
+    if(n===null||n===undefined||!Number.isFinite(Number(n)))return "—";
+    n=Number(n);return `${n>0?"▲":n<0?"▼":""} ${Math.abs(n).toFixed(2)}%`;
   };
 
-  async function getMarket(){
-    const r=await fetch(`/api/market?symbols=${encodeURIComponent(SYMBOLS.join(","))}`);
-    if(!r.ok) throw new Error(`market ${r.status}`);
+  async function getFixedMarket(){
+    const r=await fetch(`/market-current.json?t=${Date.now()}`,{cache:"no-store"});
+    if(!r.ok)throw new Error(`market-current ${r.status}`);
     return r.json();
   }
 
   async function getRaw(){
     try{
       const r=await fetch(`/raw-materials.json?t=${Date.now()}`,{cache:"no-store"});
-      if(!r.ok) throw new Error();
+      if(!r.ok)throw new Error();
       return r.json();
     }catch{
-      return {rawMaterials: window.CONFIG?.rawMaterials || {}};
+      return {rawMaterials:(typeof CONFIG!=="undefined"?CONFIG.rawMaterials:{})||{}};
     }
   }
 
   function renderStocks(data){
-    const grid=document.getElementById("kpi-grid"); if(!grid)return;
+    const grid=document.getElementById("kpi-grid");if(!grid)return;
     const defs=[["KSS","Kohl's (KSS)"],["ANF","Abercrombie & Fitch (ANF)"],["M","Macy's (M)"]];
     grid.innerHTML=defs.map(([s,l])=>{
-      const d=data[s];
-      if(!d?.price)return `<div class="kpi-card"><div class="kpi-label">${l}</div><div class="kpi-value" style="font-size:16px;color:var(--muted)">마지막 데이터 없음</div><div class="kpi-delta flat">—</div></div>`;
-      return `<div class="kpi-card"><div class="kpi-label">${l}</div><div class="kpi-value">$${fmt(d.price)}</div><div class="kpi-delta ${pc(d.changePct)}">${pt(d.changePct)}</div></div>`;
+      const d=data?.[s];
+      return `<div class="kpi-card">
+        <div class="kpi-label">${l}</div>
+        <div class="kpi-value">${d?.price!=null?`$${fmt(d.price)}`:"—"}</div>
+        <div class="kpi-delta ${pc(d?.changePct)}">${pt(d?.changePct)}</div>
+      </div>`;
     }).join("");
   }
 
-  function renderKRW(data){
-    const d=data["KRW=X"], val=document.getElementById("fx-val"), note=document.getElementById("fx-note");
+  function renderKRW(data,doc){
+    const d=data?.["KRW=X"],val=document.getElementById("fx-val"),note=document.getElementById("fx-note");
     if(!val)return;
-    if(!d?.price){val.textContent="마지막 데이터 없음";return;}
-    val.innerHTML=`₩${Number(d.price).toLocaleString("ko-KR",{minimumFractionDigits:2,maximumFractionDigits:2})} <small class="${pc(d.changePct)}">${pt(d.changePct)}</small>`;
-    if(note)note.innerHTML=`<span class="kr">USD/KRW · 시장 환율</span><span class="en">USD/KRW · Market rate</span>`;
+    val.innerHTML=d?.price!=null
+      ? `₩${Number(d.price).toLocaleString("ko-KR",{minimumFractionDigits:2,maximumFractionDigits:2})} <small class="${pc(d.changePct)}">${pt(d.changePct)}</small>`
+      : "—";
+    if(note)note.innerHTML=`<span class="kr">USD/KRW · KST 08:00 Daily Fixed</span><span class="en">USD/KRW · KST 08:00 Daily Fixed</span>`;
   }
 
   function style(){
@@ -56,31 +60,26 @@
       .rm-item{background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:11px}
       .rm-name{font-size:11px;font-weight:750}.rm-src{font-size:8.5px;color:var(--muted);margin-top:2px}
       .rm-val{font-size:19px;font-weight:800;margin-top:7px}.rm-unit{font-size:8.5px;color:var(--muted)}
-      .rm-chg{font-size:10px;font-weight:700;margin-top:3px}
+      .rm-chg{font-size:10px;font-weight:700;margin-top:3px}.market-fixed-note{font-size:9px;color:var(--muted);margin-top:8px}
       @media(max-width:700px){.rm-grid{grid-template-columns:1fr}}
     `;document.head.appendChild(s);
   }
 
   function item(name,price,chg,unit,src){
-    return `<div class="rm-item"><div class="rm-name">${name}</div><div class="rm-src">${src||""}</div><div class="rm-val">${price==null?"—":fmt(price)} <span class="rm-unit">${unit||""}</span></div><div class="rm-chg ${pc(chg)}">${pt(chg)}</div></div>`;
+    return `<div class="rm-item"><div class="rm-name">${name}</div><div class="rm-src">${src||""}</div>
+      <div class="rm-val">${price==null?"—":fmt(price)} <span class="rm-unit">${unit||""}</span></div>
+      <div class="rm-chg ${pc(chg)}">${pt(chg)}</div></div>`;
   }
 
-  function renderRaw(data,rawDoc){
+  function renderRaw(data,rawDoc,marketDoc){
     style();
-    const fxCard=document.getElementById("fx-val")?.closest(".r-card"); if(!fxCard)return;
-    document.getElementById("market-extra-wrap")?.remove();
+    const fxCard=document.getElementById("fx-val")?.closest(".r-card");if(!fxCard)return;
     document.getElementById("raw-material-dashboard")?.remove();
-
-    const rm=rawDoc?.rawMaterials||{};
-    const usAuto=data["CTZ26.NYB"], wti=data["CL=F"], brent=data["BZ=F"];
-    const us = usAuto?.price ? {price:usAuto.price,changePct:usAuto.changePct,unit:"¢/lb"} : rm.usCotton;
-
-    const panel=document.createElement("section");
-    panel.id="raw-material-dashboard";panel.className="rm-dashboard";
+    const rm=rawDoc?.rawMaterials||{},usAuto=data?.["CTZ26.NYB"],wti=data?.["CL=F"],brent=data?.["BZ=F"];
+    const us=usAuto?.price!=null?{price:usAuto.price,changePct:usAuto.changePct,unit:"¢/lb"}:rm.usCotton;
+    const panel=document.createElement("section");panel.id="raw-material-dashboard";panel.className="rm-dashboard";
     panel.innerHTML=`
-      <div class="rm-head">RAW MATERIAL DASHBOARD
-        <div class="rm-sub">Live indicators + weekly raw material report</div>
-      </div>
+      <div class="rm-head">RAW MATERIAL DASHBOARD<div class="rm-sub">Daily fixed market snapshot + weekly raw material report</div></div>
       <div class="rm-grid">
         ${item("U.S. Cotton",us?.price,us?.changePct,us?.unit||"¢/lb","ICE Dec-26 / weekly fallback")}
         ${item("China Cotton",rm.chinaCotton?.price,rm.chinaCotton?.changePct,rm.chinaCotton?.unit||"¢/lb","Weekly report")}
@@ -89,17 +88,22 @@
         ${item("DTY",rm.dty?.price,rm.dty?.changePct,rm.dty?.unit||"¢/lb","Weekly report")}
         ${item("WTI Crude",wti?.price,wti?.changePct,"USD/bbl","NYMEX")}
         ${item("Brent Crude",brent?.price,brent?.changePct,"USD/bbl","Global benchmark")}
-      </div>`;
+      </div>
+      <div class="market-fixed-note">KST 08:00 Daily Fixed · ${marketDoc?.snapshotDateKST||""}</div>`;
     fxCard.insertAdjacentElement("afterend",panel);
   }
 
-  async function refresh(){
+  async function start(){
     try{
-      const [m,r]=await Promise.all([getMarket(),getRaw()]);
-      renderStocks(m.data||{}); renderKRW(m.data||{}); renderRaw(m.data||{},r);
-    }catch(e){console.error("[dashboard]",e);}
+      const [m,r]=await Promise.all([getFixedMarket(),getRaw()]);
+      renderStocks(m.data||{});renderKRW(m.data||{},m);renderRaw(m.data||{},r,m);
+    }catch(e){console.error("[Fixed Market]",e);}
+
+    // Background refresh check only. It NEVER changes today's screen directly.
+    // If today's KST snapshot is due, /api/market updates market-current.json in GitHub.
+    fetch(`/api/market?_=${Date.now()}`,{cache:"no-store"}).catch(()=>{});
   }
-  refresh();
-  // Market data is a shared daily snapshot generated after 08:00 KST.
-  // No 5-minute browser polling: each page simply reads the same saved/cached snapshot.
+
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",start,{once:true});
+  else start();
 })();
