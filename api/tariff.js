@@ -31,7 +31,9 @@ const CORE_URLS = [
   "https://ustr.gov/about/policy-offices/press-office/press-releases/2025/december/ustr-section-301-action-nicaraguas-acts-policies-and-practices-relating-labor-rights-human-rights",
   "https://ustr.gov/trade-topics/enforcement/section-301-investigations/section-301-nicaragua-labor-rights-human-rights-and-rule-law",
   "https://www.whitehouse.gov/presidential-actions/2026/02/imposing-a-temporary-import-surcharge-to-address-fundamental-international-payments-problems/",
-  "https://www.whitehouse.gov/presidential-actions/2026/02/ending-certain-tariff-actions/"
+  "https://www.whitehouse.gov/presidential-actions/2026/02/ending-certain-tariff-actions/",
+  "https://www.trade.gov/haiti-trade-preference",
+  "https://www.trade.gov/haiti-trade-preference-program-frequently-asked-questions"
 ];
 
 const INDEX_URLS = [
@@ -94,7 +96,7 @@ function official(url=""){
            h==="federalregister.gov"||h.endsWith(".federalregister.gov")||
            h==="cbp.gov"||h.endsWith(".cbp.gov")||
            h==="usitc.gov"||h.endsWith(".usitc.gov")||
-           h==="hts.usitc.gov";
+           h==="hts.usitc.gov"||h==="trade.gov"||h.endsWith(".trade.gov");
   }catch{return false;}
 }
 async function fetchPage(url){
@@ -188,10 +190,11 @@ function sanitize(obj){
   const rows=Array.isArray(obj?.countries)?obj.countries:[];
   const out={
     ok:true,asOf:new Date().toISOString(),
-    basis:"Additional U.S. import duties only; MFN/base HTS duty excluded",
+    basis:"APPAREL MODE: current effective duty treatment for qualifying apparel; FTA/preference base duty reflected.",mode:"APPAREL",
     refreshStatus:"VERIFIED",stale:false,
     countries:rows.filter(x=>COPS.includes(x?.country)).map(x=>({
       country:x.country,
+      apparelEffectiveRate:Number.isFinite(Number(x.apparelEffectiveRate))?Number(x.apparelEffectiveRate):(Number.isFinite(Number(x.currentAdditionalRate))?Number(x.currentAdditionalRate):null),
       currentAdditionalRate:Number.isFinite(Number(x.currentAdditionalRate))?Number(x.currentAdditionalRate):null,
       status:["CURRENT","PENDING","VERIFY"].includes(x.status)?x.status:"VERIFY",
       currentLabelKr:String(x.currentLabelKr||""),
@@ -228,19 +231,19 @@ You MUST use ONLY these supplied official texts.
 The previous saved result is provided only as a comparison baseline; do not preserve it when newer official evidence changes it.
 
 GOAL:
-Determine CURRENT country-wide U.S. additional import duty applicable to general textile/apparel imports.
+Determine CURRENT U.S. duty treatment specifically for QUALIFYING APPAREL. Reflect active FTA/preference duty-free treatment in the headline while separately adding any country-wide additional duties that still legally apply.
 
 CRITICAL:
-- EXCLUDE ordinary MFN/base HTS duty.
+- This dashboard is APPAREL-SPECIFIC. For CAFTA-DR-originating apparel, treat the base duty as 0% when the supplied official evidence supports preferential treatment. For Haiti HOPE/HELP/CBTPA-eligible apparel, treat the base duty as 0% when current official evidence supports the program.
 - Include only incremental/additional duties CURRENTLY effective today.
 - Stack multiple current additional duties only when official evidence says both apply.
 - Future rates or TRQs = PENDING, never included before effective date.
 - For Bangladesh/Cambodia/Indonesia textile/apparel TRQs, keep PENDING until an official implementation/effective-date notice is found.
-- CAFTA-DR and HOPE/HELP are base-duty preference programs and must be shown separately.
+- CAFTA-DR and HOPE/HELP/CBTPA are base-duty preference programs. Reflect their 0% base duty in the apparel headline, BUT do not assume they exempt a separate Section 301 duty unless official evidence says so.
 - Product/HTS-specific exceptions are CONDITIONAL and should not change a generalized apparel headline rate unless the official text supports doing so.
 - The Feb. 24, 2026 Section 122 temporary 10% surcharge expired July 24, 2026 unless supplied newer official text explicitly shows an extension. Do not include an expired surcharge.
 - Nicaragua's separate Section 301 rate is 0% during 2026 if the supplied official source confirms it; future 2027/2028 rates belong in pending.
-- Haiti was not one of the listed 60 economies in the supplied Forced Labor Section 301 action. Do not assign that tariff to Haiti.
+- Haiti was not one of the listed 60 economies in the supplied Forced Labor Section 301 action. Do not assign that tariff to Haiti. Current 2026 official U.S. trade-preference evidence should be checked for HOPE/HELP/CBTPA; if active and the apparel qualifies, headline apparelEffectiveRate should be 0.
 - If current Haiti HOPE/HELP or any separate additional-duty status cannot be established from supplied current official sources, use VERIFY instead of guessing.
 - If evidence is insufficient/conflicting: status VERIFY, currentAdditionalRate null.
 - Newer implementation/Federal Register notices override older announcements.
@@ -250,6 +253,7 @@ Return ONLY valid JSON:
  "countries":[
    {
     "country":"Vietnam",
+    "apparelEffectiveRate":12.5,
     "currentAdditionalRate":12.5,
     "status":"CURRENT|PENDING|VERIFY",
     "currentLabelKr":"...",
