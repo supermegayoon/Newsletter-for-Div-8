@@ -1,50 +1,38 @@
 // File: /api/ai.js
-// Gemini-powered AI analysis for 8담당 DAILY MARKET BRIEF.
-// Raw-material aware version.
+// Buyer-strategy focused Gemini analysis for 8담당 DAILY MARKET BRIEF.
+// Keeps raw material dashboard separate and uses materials only when they materially affect buyer strategy.
 
 const MODEL = process.env.GEMINI_MODEL || "gemini-3.5-flash-lite";
 const API_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
 
-function cleanText(value, max = 1200) {
+function cleanText(value, max = 1500) {
   return String(value ?? "").replace(/\s+/g, " ").trim().slice(0, max);
 }
 
 function normalizeNews(news) {
   if (!Array.isArray(news)) return [];
-  return news.slice(0, 12).map(n => ({
+  return news.slice(0, 16).map(n => ({
     brand: cleanText(n.brandLabel || n.brand, 80),
     date: cleanText(n.date, 30),
-    title: cleanText(n.title_kr || n.title_en, 240),
-    body: cleanText(n.body_kr || n.body_en, 600),
+    title: cleanText(n.title_kr || n.title_en, 260),
+    body: cleanText(n.body_kr || n.body_en, 700),
     source: cleanText(n.source, 100)
   }));
 }
 
 function normalizeMarket(market) {
   if (!market || typeof market !== "object") return {};
-
-  const allowed = [
-    "KSS",
-    "ANF",
-    "M",
-    "KRW=X",
-    "CTZ26.NYB",
-    "CL=F",
-    "BZ=F"
-  ];
-
+  const allowed = ["KSS", "ANF", "M", "KRW=X", "CTZ26.NYB", "CL=F", "BZ=F"];
   const out = {};
 
   for (const symbol of allowed) {
     const d = market[symbol];
     if (!d || typeof d !== "object") continue;
-
     out[symbol] = {
       price: Number.isFinite(Number(d.price)) ? Number(d.price) : null,
       changePct: Number.isFinite(Number(d.changePct)) ? Number(d.changePct) : null
     };
   }
-
   return out;
 }
 
@@ -69,57 +57,80 @@ module.exports = async function handler(req, res) {
   const news = normalizeNews(body.news);
   const market = normalizeMarket(body.market);
   const headline = cleanText(body.headline, 300);
-  const summary = cleanText(body.summary, 1500);
+  const summary = cleanText(body.summary, 1800);
 
   if (!news.length && !Object.keys(market).length) {
     return res.status(400).json({ error: "No newsletter data supplied." });
   }
 
   const prompt = `
-You are the AI market analyst for "8담당 DAILY MARKET BRIEF", an internal apparel-vendor sales and sourcing newsletter.
+You are the strategy analyst for "8담당 DAILY MARKET BRIEF", an internal apparel-vendor sales newsletter.
 
-Audience:
-- Apparel sales, merchandising, sourcing, costing, production and management teams.
-- Key retail/customer relevance includes Kohl's, A&F/Hollister and Macy's.
-- Main operational lenses: apparel demand, promotions, sourcing, raw materials, FX, duty/tariff, margin, chase/reorder, production and vendor risk.
+PRIMARY GOAL:
+Turn current buyer/retailer news into practical sales actions for the vendor team.
+Do NOT make raw materials the center of the analysis. Raw materials, FX, and oil should be mentioned only when they materially affect pricing, margin, sourcing, or buyer strategy.
 
-Important market-symbol meaning:
-- KRW=X = USD/KRW
-- CTZ26.NYB = ICE Cotton No.2 December 2026 futures, cents/lb
-- CL=F = WTI crude-oil futures, USD/bbl
-- BZ=F = Brent crude-oil futures, USD/bbl
-- KSS / ANF / M = retailer equities
+AUDIENCE:
+- Apparel sales, merchandising, sourcing, costing, product-development and management teams.
+- Main buyer relevance: Kohl's, A&F/Hollister, Macy's.
+- Other retailers/brands such as Target, Walmart, Gap, etc. can be included only when the supplied news makes them strategically relevant.
 
-Raw-material analysis priority:
-1. Cotton movement and likely cotton-fabric/yarn costing pressure
-2. WTI/Brent movement as directional proxy for polyester feedstock pressure
-3. USD/KRW FX movement
-4. Retailer equity movement only as supporting sentiment, not as direct sales data
+HOW TO THINK:
+For each buyer or relevant retailer, identify:
+1) What changed?
+2) Why does it matter to an apparel vendor?
+3) What concrete sales/product/category action should the team consider?
+4) Is there a near-term opportunity, risk, or follow-up?
 
-Rules:
-- Analyze ONLY the information supplied below.
-- Do not invent China cotton, India cotton, PSF, DTY or yarn spot prices if they are not supplied.
-- Do not claim crude oil equals PSF/DTY price; treat it only as a directional upstream indicator.
-- Distinguish observed facts from inference.
-- Keep the response concise and actionable.
+PRIORITY ORDER:
+1. Buyer strategy / sales opportunity
+2. Product & category opportunity
+3. Promotion / seasonal timing / consumer demand
+4. Chase / reorder / quick-response opportunity
+5. Competitive positioning and whitespace
+6. Margin / raw material / FX only when relevant
 
-Return exactly this structure:
+IMPORTANT:
+- Analyze ONLY the supplied information.
+- Do not invent buyer plans, category sales, inventory levels, orders, earnings guidance, tariffs, or facts not present in the supplied data.
+- Separate observed facts from inference.
+- Stock-price moves are supporting sentiment only, never direct proof of buyer demand.
+- Avoid generic advice like "monitor the market" unless tied to a specific supplied signal.
+- Give vendor-side actions that are specific enough to be useful in a sales meeting.
+- If there is not enough evidence for a buyer, say "현재 뉴스 기준 뚜렷한 액션 신호 없음" rather than inventing a strategy.
+- Keep total output concise and practical.
+
+RETURN EXACTLY THIS STRUCTURE:
 
 [오늘의 AI 한줄]
-<1 sentence>
+<1 sentence focused on the most important commercial takeaway>
 
-[원자재 영향]
-• <cotton>
-• <polyester/oil>
-• <FX>
+[Buyer별 Action Insight]
+• Kohl's — <news → implication → vendor action>
+• A&F / Hollister — <news → implication → vendor action>
+• Macy's — <news → implication → vendor action>
+• Other — <only if another retailer/brand is materially relevant; otherwise omit this line>
 
-[8담당 체크포인트]
-1. <action 1>
-2. <action 2>
-3. <action 3>
+[8담당 영업 기회]
+• <specific product/category/seasonal opportunity 1>
+• <specific commercial opportunity 2>
+• <specific sales preparation or follow-up 3>
+
+[오늘 체크할 것]
+1. <specific buyer/product action>
+2. <specific buyer/product action>
+3. <specific risk or follow-up>
 
 [리스크 레벨]
-<LOW / MEDIUM / HIGH> — <one short reason>
+<LOW / MEDIUM / HIGH> — <short commercial reason>
+
+STYLE:
+- Korean
+- Concise, management-friendly
+- Action-oriented
+- Prefer "제안/준비/확인/선점/연결/검토" style verbs
+- Avoid over-focusing on raw materials
+- Keep the full response under about 900 Korean characters
 
 Current newsletter headline:
 ${headline || "(none)"}
@@ -151,7 +162,7 @@ ${JSON.stringify(news)}
           }
         ],
         generationConfig: {
-          maxOutputTokens: 800
+          maxOutputTokens: 1000
         }
       })
     });
