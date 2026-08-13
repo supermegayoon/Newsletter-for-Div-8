@@ -1,31 +1,39 @@
 // File: /api/tariff.js
-// DAILY TARIFF WATCH — apparel/textile COPs
-// Uses Gemini + Google Search grounding and ONLY official U.S. government sources.
-// MFN/base HTS duty is EXCLUDED from the displayed additional-duty rate.
+// Cached DAILY TARIFF WATCH
+//
+// Behavior:
+// 1) Read last verified tariff-current.json from GitHub.
+// 2) If verified within the last 24 hours, return it WITHOUT calling Gemini.
+// 3) If stale, call Gemini + Google Search grounding ONCE, using only official U.S. sources.
+// 4) On success, commit tariff-current.json to GitHub.
+// 5) If Gemini quota/search fails, return the PREVIOUS saved result instead of breaking the page.
+//
+// Existing Vercel env vars used:
+// GEMINI_API_KEY
+// GEMINI_MODEL
+// GITHUB_TOKEN
+// Optional: GITHUB_OWNER / GITHUB_REPO / GITHUB_BRANCH
 
 const MODEL = process.env.GEMINI_MODEL || "gemini-3.5-flash-lite";
-const API_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
+const GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
+
+const OWNER = process.env.GITHUB_OWNER || "supermegayoon";
+const REPO = process.env.GITHUB_REPO || "Newsletter-for-Div-8";
+const BRANCH = process.env.GITHUB_BRANCH || "main";
+const FILE_PATH = "tariff-current.json";
+const MAX_AGE_MS = 24 * 60 * 60 * 1000;
 
 const COPS = [
-  "Vietnam",
-  "Indonesia",
-  "Bangladesh",
-  "Cambodia",
-  "Nicaragua",
-  "Guatemala",
-  "Costa Rica",
-  "El Salvador",
-  "Haiti"
+  "Vietnam","Indonesia","Bangladesh","Cambodia",
+  "Nicaragua","Guatemala","Costa Rica","El Salvador","Haiti"
 ];
 
 function extractText(data){
   return (data?.candidates?.[0]?.content?.parts || [])
-    .map(p => p?.text || "")
-    .join("\n")
-    .trim();
+    .map(p=>p?.text || "").join("\n").trim();
 }
 function stripFence(t){
-  return String(t || "")
+  return String(t||"")
     .replace(/^```json\s*/i,"")
     .replace(/^```\s*/i,"")
     .replace(/\s*```$/i,"")
@@ -34,126 +42,166 @@ function stripFence(t){
 function officialUrl(url=""){
   return /^https:\/\/([^/]+\.)?(ustr\.gov|whitehouse\.gov|cbp\.gov|federalregister\.gov|usitc\.gov|hts\.usitc\.gov)\//i.test(url);
 }
-function sanitizeResult(obj){
-  const countries = Array.isArray(obj?.countries) ? obj.countries : [];
-  return {
-    asOf: obj?.asOf || new Date().toISOString(),
-    basis: "Additional U.S. import duties only; MFN/base HTS duty excluded",
-    countries: countries
-      .filter(x => COPS.includes(x?.country))
-      .map(x => ({
-        country: x.country,
-        currentAdditionalRate:
-          Number.isFinite(Number(x.currentAdditionalRate))
-            ? Number(x.currentAdditionalRate)
-            : null,
-        status: ["CURRENT","PENDING","VERIFY"].includes(x.status) ? x.status : "VERIFY",
-        currentLabelKr: String(x.currentLabelKr || ""),
-        currentLabelEn: String(x.currentLabelEn || ""),
-        components: Array.isArray(x.components) ? x.components.slice(0,5).map(c=>({
-          name: String(c?.name || ""),
-          rate: Number.isFinite(Number(c?.rate)) ? Number(c.rate) : null,
-          status: ["CURRENT","PENDING","EXEMPT","CONDITIONAL"].includes(c?.status) ? c.status : "CURRENT",
-          effectiveDate: String(c?.effectiveDate || ""),
-          noteKr: String(c?.noteKr || ""),
-          noteEn: String(c?.noteEn || "")
-        })) : [],
-        preference: {
-          program: String(x?.preference?.program || ""),
-          status: String(x?.preference?.status || ""),
-          noteKr: String(x?.preference?.noteKr || ""),
-          noteEn: String(x?.preference?.noteEn || "")
-        },
-        trq: {
-          status: String(x?.trq?.status || ""),
-          effectiveDate: String(x?.trq?.effectiveDate || ""),
-          noteKr: String(x?.trq?.noteKr || ""),
-          noteEn: String(x?.trq?.noteEn || "")
-        },
-        pending: Array.isArray(x.pending) ? x.pending.slice(0,4).map(p=>({
-          name:String(p?.name||""),
-          rate:Number.isFinite(Number(p?.rate))?Number(p.rate):null,
-          effectiveDate:String(p?.effectiveDate||""),
-          noteKr:String(p?.noteKr||""),
-          noteEn:String(p?.noteEn||"")
-        })) : [],
-        sources: Array.isArray(x.sources)
-          ? x.sources.filter(s=>officialUrl(String(s?.url||""))).slice(0,5).map(s=>({
-              title:String(s?.title||"Official source"),
-              url:String(s?.url||"")
-            }))
-          : []
-      }))
+function ageMs(asOf){
+  const t = new Date(asOf || 0).getTime();
+  return Number.isFinite(t) ? Date.now() - t : Number.MAX_SAFE_INTEGER;
+}
+async function gh(url, options={}){
+  const r = await fetch(url,{
+    ...options,
+    headers:{
+      "Authorization":`Bearer ${process.env.GITHUB_TOKEN}`,
+      "Accept":"application/vnd.github+json",
+      "X-GitHub-Api-Version":"2022-11-28",
+      ...(options.headers || {})
+    }
+  });
+  const text = await r.text();
+  let j={}; try{j=text?JSON.parse(text):{};}catch{}
+  if(!r.ok) throw new Error(j?.message || `GitHub ${r.status}`);
+  return j;
+}
+async function readSaved(){
+  if(!process.env.GITHUB_TOKEN) throw new Error("GITHUB_TOKEN missing");
+  const url=`https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE_PATH}?ref=${encodeURIComponent(BRANCH)}`;
+  const j=await gh(url);
+  const content=Buffer.from(String(j.content||"").replace(/\n/g,""),"base64").toString("utf8");
+  return {data:JSON.parse(content),sha:j.sha};
+}
+async function saveResult(obj, sha){
+  const url=`https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE_PATH}`;
+  const content=Buffer.from(JSON.stringify(obj,null,2)+"\n","utf8").toString("base64");
+  const body={
+    message:`Daily tariff verification ${new Date().toISOString().slice(0,10)}`,
+    content, branch:BRANCH, sha
   };
+  return gh(url,{
+    method:"PUT",
+    headers:{"Content-Type":"application/json"},
+    body:JSON.stringify(body)
+  });
+}
+function sanitizeResult(obj){
+  const rows = Array.isArray(obj?.countries) ? obj.countries : [];
+  const out = {
+    ok:true,
+    asOf:obj?.asOf || new Date().toISOString(),
+    basis:"Additional U.S. import duties only; MFN/base HTS duty excluded",
+    stale:false,
+    refreshStatus:"VERIFIED",
+    countries:rows.filter(x=>COPS.includes(x?.country)).map(x=>({
+      country:x.country,
+      currentAdditionalRate:Number.isFinite(Number(x.currentAdditionalRate))?Number(x.currentAdditionalRate):null,
+      status:["CURRENT","PENDING","VERIFY"].includes(x.status)?x.status:"VERIFY",
+      currentLabelKr:String(x.currentLabelKr||""),
+      currentLabelEn:String(x.currentLabelEn||""),
+      components:Array.isArray(x.components)?x.components.slice(0,6).map(c=>({
+        name:String(c?.name||""),
+        rate:Number.isFinite(Number(c?.rate))?Number(c.rate):null,
+        status:["CURRENT","PENDING","EXEMPT","CONDITIONAL"].includes(c?.status)?c.status:"CURRENT",
+        effectiveDate:String(c?.effectiveDate||""),
+        noteKr:String(c?.noteKr||""),
+        noteEn:String(c?.noteEn||"")
+      })):[],
+      preference:{
+        program:String(x?.preference?.program||""),
+        status:String(x?.preference?.status||""),
+        noteKr:String(x?.preference?.noteKr||""),
+        noteEn:String(x?.preference?.noteEn||"")
+      },
+      trq:{
+        status:String(x?.trq?.status||""),
+        effectiveDate:String(x?.trq?.effectiveDate||""),
+        noteKr:String(x?.trq?.noteKr||""),
+        noteEn:String(x?.trq?.noteEn||"")
+      },
+      pending:Array.isArray(x.pending)?x.pending.slice(0,5).map(p=>({
+        name:String(p?.name||""),
+        rate:Number.isFinite(Number(p?.rate))?Number(p.rate):null,
+        effectiveDate:String(p?.effectiveDate||""),
+        noteKr:String(p?.noteKr||""),
+        noteEn:String(p?.noteEn||"")
+      })):[],
+      sources:Array.isArray(x.sources)
+        ? x.sources.filter(s=>officialUrl(String(s?.url||""))).slice(0,6).map(s=>({
+            title:String(s?.title||"Official source"),
+            url:String(s?.url||"")
+          }))
+        :[]
+    }))
+  };
+  for(const country of COPS){
+    if(!out.countries.some(x=>x.country===country)){
+      out.countries.push({
+        country,currentAdditionalRate:null,status:"VERIFY",
+        currentLabelKr:"공식 소스 확인 필요",
+        currentLabelEn:"Official-source verification required",
+        components:[],
+        preference:{program:"",status:"VERIFY",noteKr:"",noteEn:""},
+        trq:{status:"VERIFY",effectiveDate:"",noteKr:"",noteEn:""},
+        pending:[],sources:[]
+      });
+    }
+  }
+  return out;
 }
 
-module.exports = async function handler(req,res){
-  if(req.method !== "GET") return res.status(405).json({error:"Method not allowed"});
-  if(!process.env.GEMINI_API_KEY){
-    return res.status(500).json({error:"GEMINI_API_KEY is not configured."});
-  }
+async function verifyWithGemini(){
+  if(!process.env.GEMINI_API_KEY) throw new Error("GEMINI_API_KEY missing");
 
-  const today = new Date().toISOString().slice(0,10);
-
-  const prompt = `
-You are a DAILY U.S. TARIFF VERIFICATION ENGINE for an apparel vendor.
+  const today=new Date().toISOString().slice(0,10);
+  const prompt=`
+You are a U.S. TARIFF VERIFICATION ENGINE for an apparel vendor.
 
 TODAY: ${today}
 
-TASK:
-For each of these apparel sourcing countries:
+Verify CURRENT U.S. additional import duties for general textile/apparel imports from:
 ${COPS.join(", ")}
 
-determine the U.S. import duties that are CURRENTLY EFFECTIVE TODAY for general textile/apparel imports.
+CRITICAL:
+- EXCLUDE normal MFN/base HTS duty completely.
+- currentAdditionalRate = only active incremental/additional duty above MFN/base HTS.
+- Include currently active country-wide Section 301 / emergency / reciprocal / temporary additional duties when applicable to apparel/textiles.
+- If active duties stack, sum them and list components.
+- Do NOT include future announced duties before effective date.
+- TRQ is ACTIVE only if an official implementation notice confirms it is operating.
+- FTA/preference programs such as CAFTA-DR or HOPE/HELP belong under preference, not automatically inside currentAdditionalRate.
+- Product-specific or HTS-specific duties that cannot be generalized across apparel should be CONDITIONAL and not added to the headline rate.
+- If current implementation cannot be verified, use VERIFY and null rate rather than guessing.
 
-CRITICAL DEFINITION:
-- EXCLUDE the normal MFN/base HTS duty completely.
-- "currentAdditionalRate" must represent ONLY active incremental/additional U.S. duties above MFN/base HTS.
-- Include active Section 301, reciprocal/emergency/temporary import duties, or other country-wide additional duties if they currently apply to apparel/textiles.
-- If multiple active additional duties stack, SUM them for currentAdditionalRate and list each in components.
-- Do NOT include a future announced duty in currentAdditionalRate before its effective date.
-- Do NOT assume an announced TRQ is effective until an official notice establishes its effective date and operation.
-- Treat FTA/preference programs (CAFTA-DR, HOPE/HELP, etc.) separately under "preference"; do not confuse preferential base-duty treatment with an exemption from an additional tariff unless an official source explicitly says so.
-- If treatment depends on origin qualification, U.S. inputs, quota, product exclusion, or Chapter 99 classification, state that clearly.
-- If an additional duty is product-specific and cannot be generalized across apparel, do NOT add it to the headline rate; describe it as conditional.
-- If official sources conflict or current implementation cannot be verified, status must be VERIFY and currentAdditionalRate must be null rather than guessing.
+VERIFY THESE ISSUES, DO NOT ASSUME:
+- July 23, 2026 forced-labor Section 301 final action and country rates/exemptions.
+- Bangladesh/Cambodia/Indonesia/Malaysia textile/apparel TRQ implementation status.
+- Vietnam current treatment.
+- CAFTA-DR treatment for Nicaragua/Guatemala/Costa Rica/El Salvador.
+- Nicaragua separate Section 301 action and stacking.
+- Haiti HOPE/HELP current status/expiration.
+- Any current temporary/reciprocal tariff that stacks or provides an exemption.
 
 SOURCE RULE:
-Use Google Search, but rely ONLY on current official U.S. government sources:
-1) ustr.gov
-2) whitehouse.gov
-3) federalregister.gov
-4) cbp.gov
-5) usitc.gov / hts.usitc.gov
+Use Google Search grounding but use ONLY these official U.S. government sources in the final determination:
+ustr.gov
+whitehouse.gov
+federalregister.gov
+cbp.gov
+usitc.gov
+hts.usitc.gov
 
-Do NOT use law firms, blogs, news media, consultants, Wikipedia, or secondary summaries in the final determination.
-
-FRESHNESS:
-Search for changes, implementation notices, Federal Register notices, Chapter 99 updates, TRQ notices, suspension/extension notices, and effective dates through TODAY.
-Give precedence to the newest official implementation document over older rulings or announcements.
-
-IMPORTANT CURRENT ISSUES TO VERIFY, NOT ASSUME:
-- July 23, 2026 forced-labor Section 301 final action (10% / 12.5%, exemptions)
-- Bangladesh/Cambodia/Indonesia/Malaysia textile/apparel TRQ implementation status and effective date
-- Vietnam treatment under that action
-- CAFTA-DR treatment for Nicaragua/Guatemala/Costa Rica/El Salvador
-- Nicaragua's separate Section 301 action and any stacking
-- Haiti HOPE/HELP current status/expiration
-- Any temporary or reciprocal tariff that currently stacks or exempts qualifying apparel/textiles
+Newest implementation notice overrides older announcement/ruling.
 
 Return ONLY valid JSON:
 {
-  "asOf":"ISO date/time",
+  "asOf":"ISO datetime",
   "countries":[
     {
       "country":"Vietnam",
       "currentAdditionalRate":12.5,
       "status":"CURRENT|PENDING|VERIFY",
-      "currentLabelKr":"MFN 제외 현재 추가관세를 짧게 설명",
-      "currentLabelEn":"short English description",
+      "currentLabelKr":"...",
+      "currentLabelEn":"...",
       "components":[
         {
-          "name":"Section 301 ...",
+          "name":"...",
           "rate":12.5,
           "status":"CURRENT|PENDING|EXEMPT|CONDITIONAL",
           "effectiveDate":"YYYY-MM-DD or empty",
@@ -162,20 +210,20 @@ Return ONLY valid JSON:
         }
       ],
       "preference":{
-        "program":"CAFTA-DR / HOPE-HELP / None / etc.",
-        "status":"ACTIVE / NONE / CONDITIONAL / VERIFY",
+        "program":"...",
+        "status":"ACTIVE|NONE|CONDITIONAL|VERIFY",
         "noteKr":"...",
         "noteEn":"..."
       },
       "trq":{
-        "status":"ACTIVE / PENDING / NOT ELIGIBLE / NONE / VERIFY",
+        "status":"ACTIVE|PENDING|NOT ELIGIBLE|NONE|VERIFY",
         "effectiveDate":"YYYY-MM-DD or empty",
         "noteKr":"...",
         "noteEn":"..."
       },
       "pending":[
         {
-          "name":"future change",
+          "name":"...",
           "rate":10,
           "effectiveDate":"YYYY-MM-DD",
           "noteKr":"현재 세율에는 미포함",
@@ -183,72 +231,80 @@ Return ONLY valid JSON:
         }
       ],
       "sources":[
-        {"title":"official document title","url":"https://...official.gov/..."}
+        {"title":"official document","url":"https://...official.gov/..."}
       ]
     }
   ]
 }
 
-Do this for all 9 countries. Do not omit a country.
+Return all 9 countries.
 `.trim();
 
+  const r=await fetch(`${GEMINI_BASE}/${encodeURIComponent(MODEL)}:generateContent`,{
+    method:"POST",
+    headers:{
+      "x-goog-api-key":process.env.GEMINI_API_KEY,
+      "Content-Type":"application/json"
+    },
+    body:JSON.stringify({
+      contents:[{role:"user",parts:[{text:prompt}]}],
+      tools:[{google_search:{}}],
+      generationConfig:{maxOutputTokens:7000}
+    })
+  });
+  const j=await r.json();
+  if(!r.ok) throw new Error(j?.error?.message || `Gemini ${r.status}`);
+  let parsed;
+  try{parsed=JSON.parse(stripFence(extractText(j)));}catch{throw new Error("Gemini returned non-JSON tariff data");}
+  return sanitizeResult(parsed);
+}
+
+module.exports=async function handler(req,res){
+  if(req.method!=="GET") return res.status(405).json({error:"Method not allowed"});
+
+  let saved=null, sha=null;
   try{
-    const response = await fetch(`${API_BASE}/${encodeURIComponent(MODEL)}:generateContent`,{
-      method:"POST",
-      headers:{
-        "x-goog-api-key":process.env.GEMINI_API_KEY,
-        "Content-Type":"application/json"
-      },
-      body:JSON.stringify({
-        contents:[{role:"user",parts:[{text:prompt}]}],
-        tools:[{google_search:{}}],
-        generationConfig:{
-          maxOutputTokens:7000
-        }
-      })
-    });
-
-    const data = await response.json();
-    if(!response.ok){
-      return res.status(response.status).json({
-        error:data?.error?.message || `Gemini tariff verification returned ${response.status}`
-      });
-    }
-
-    let parsed;
-    try{
-      parsed = JSON.parse(stripFence(extractText(data)));
-    }catch{
-      return res.status(502).json({
-        error:"Tariff verifier returned non-JSON output.",
-        raw:extractText(data).slice(0,1200)
-      });
-    }
-
-    const clean = sanitizeResult(parsed);
-
-    // Require all 9 COPs. Missing rows are explicit VERIFY rows.
-    for(const country of COPS){
-      if(!clean.countries.some(x=>x.country===country)){
-        clean.countries.push({
-          country,
-          currentAdditionalRate:null,
-          status:"VERIFY",
-          currentLabelKr:"공식 소스 확인 필요",
-          currentLabelEn:"Official-source verification required",
-          components:[],
-          preference:{program:"",status:"VERIFY",noteKr:"",noteEn:""},
-          trq:{status:"VERIFY",effectiveDate:"",noteKr:"",noteEn:""},
-          pending:[],
-          sources:[]
-        });
-      }
-    }
-
-    res.setHeader("Cache-Control","s-maxage=21600, stale-while-revalidate=43200");
-    return res.status(200).json({ok:true,...clean});
+    const x=await readSaved(); saved=x.data; sha=x.sha;
   }catch(e){
-    console.error("[Tariff Watch]",e);
-    return res.status(500).json({error:e?.message || "Tariff watch failed"});
+    console.error("[Tariff] saved file read failed",e);
+  }
+
+  // Fast path: verified within 24h. Zero Gemini call.
+  if(saved && saved.asOf && ageMs(saved.asOf) < MAX_AGE_MS && saved.refreshStatus==="VERIFIED"){
+    res.setHeader("Cache-Control","s-maxage=3600, stale-while-revalidate=7200");
+    return res.status(200).json({...saved,stale:false,servedFrom:"saved"});
+  }
+
+  // Stale: try one fresh verification.
+  try{
+    const fresh=await verifyWithGemini();
+
+    // Persist; if commit races, still return fresh result.
+    try{
+      if(sha) await saveResult(fresh,sha);
+    }catch(e){
+      console.error("[Tariff] GitHub save failed",e);
+    }
+
+    res.setHeader("Cache-Control","s-maxage=3600, stale-while-revalidate=7200");
+    return res.status(200).json({...fresh,servedFrom:"fresh"});
+  }catch(e){
+    console.error("[Tariff] fresh verification failed",e);
+
+    // Quota/search outage safety: NEVER blank the dashboard if we have previous data.
+    if(saved){
+      return res.status(200).json({
+        ...saved,
+        ok:true,
+        stale:true,
+        refreshStatus:"STALE_FALLBACK",
+        refreshError:e?.message || "Daily verification failed",
+        servedFrom:"stale"
+      });
+    }
+
+    return res.status(503).json({
+      error:e?.message || "Tariff verification failed and no saved result exists."
+    });
   }
 };
