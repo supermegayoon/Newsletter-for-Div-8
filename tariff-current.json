@@ -1,223 +1,116 @@
 {
   "ok": true,
-  "asOf": "2026-08-13T08:15:00.000Z",
-  "basis": "Additional U.S. import duties only; MFN/base HTS duty excluded",
+  "asOf": "2026-08-13T09:00:00.000Z",
+  "basis": "APPAREL MODE: headline shows current effective U.S. duty treatment for qualifying apparel; FTA/preference base duty is reflected. Product HTS/origin/quota conditions still apply.",
   "refreshStatus": "VERIFIED",
   "stale": false,
+  "mode": "APPAREL",
   "countries": [
     {
       "country": "Vietnam",
+      "apparelEffectiveRate": 12.5,
       "currentAdditionalRate": 12.5,
       "status": "CURRENT",
-      "currentLabelKr": "Forced Labor Section 301 추가관세 +12.5% 적용",
-      "currentLabelEn": "Forced Labor Section 301 additional duty +12.5% applies",
-      "components": [
-        {
-          "name": "Forced Labor Section 301",
-          "rate": 12.5,
-          "status": "CURRENT",
-          "effectiveDate": "2026-07-23",
-          "noteKr": "USTR 최종 조치 기준",
-          "noteEn": "Based on USTR final action"
-        }
-      ],
+      "currentLabelKr": "일반 의류 기준: 기본 MFN 관세 별도 + 현재 Section 301 추가관세 12.5%",
+      "currentLabelEn": "General apparel: base MFN duty separate + current Section 301 additional duty 12.5%",
+      "components": [],
       "preference": {
-        "program": "None",
-        "status": "NONE",
-        "noteKr": "MFN/기본관세는 본 지표에서 제외",
-        "noteEn": "MFN/base duty excluded from this indicator"
+        "program": "NONE",
+        "status": "ACTIVE",
+        "noteKr": "적격 의류 및 원산지/쿼터 요건 충족 시",
+        "noteEn": "For qualifying apparel meeting origin/quota requirements"
       },
       "trq": {
-        "status": "NOT ELIGIBLE",
+        "status": "NONE",
         "effectiveDate": "",
-        "noteKr": "해당 TRQ 대상국 아님",
-        "noteEn": "Not one of the announced TRQ economies"
+        "noteKr": "",
+        "noteEn": ""
       },
       "pending": [],
-      "sources": [
-        {
-          "title": "USTR Takes Action in Forced Labor Section 301 Investigations",
-          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations"
-        },
-        {
-          "title": "White House Section 301 Forced Labor Memorandum",
-          "url": "https://www.whitehouse.gov/presidential-actions/2026/07/actions-by-the-united-states-in-the-investigations-under-section-301-of-the-trade-act-of-1974-of-the-acts-policies-and-practices-of-60-economies-related-to-the-failure-of-each-economy-to-impose-and/"
-        }
-      ]
+      "sources": []
     },
     {
       "country": "Indonesia",
+      "apparelEffectiveRate": 10,
       "currentAdditionalRate": 10,
       "status": "CURRENT",
-      "currentLabelKr": "Forced Labor Section 301 +10% 적용 · Textile/Apparel TRQ는 시행 전",
-      "currentLabelEn": "Forced Labor Section 301 +10% applies · Textile/Apparel TRQ not yet implemented",
-      "components": [
-        {
-          "name": "Forced Labor Section 301",
-          "rate": 10,
-          "status": "CURRENT",
-          "effectiveDate": "2026-07-23",
-          "noteKr": "USTR 최종 조치",
-          "noteEn": "USTR final action"
-        }
-      ],
+      "currentLabelKr": "의류 기준 Section 301 +10% · Textile/Apparel TRQ는 공식 시행 전",
+      "currentLabelEn": "Apparel Section 301 +10% · textile/apparel TRQ pending implementation",
+      "components": [],
       "preference": {
-        "program": "None",
-        "status": "NONE",
-        "noteKr": "",
-        "noteEn": ""
+        "program": "NONE",
+        "status": "ACTIVE",
+        "noteKr": "적격 의류 및 원산지/쿼터 요건 충족 시",
+        "noteEn": "For qualifying apparel meeting origin/quota requirements"
       },
       "trq": {
         "status": "PENDING",
         "effectiveDate": "",
-        "noteKr": "공식 Federal Register 시행 공지 전까지 +10% 유지",
-        "noteEn": "+10% remains until an official Federal Register implementation notice"
+        "noteKr": "TRQ PENDING",
+        "noteEn": "TRQ PENDING"
       },
-      "pending": [
-        {
-          "name": "Textile/Apparel TRQ",
-          "rate": 0,
-          "effectiveDate": "",
-          "noteKr": "일정 물량 Section 301 0% 가능 예정",
-          "noteEn": "Planned zero Section 301 rate for qualifying quota volume"
-        }
-      ],
-      "sources": [
-        {
-          "title": "USTR Takes Action in Forced Labor Section 301 Investigations",
-          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations"
-        },
-        {
-          "title": "White House Section 301 Forced Labor Memorandum",
-          "url": "https://www.whitehouse.gov/presidential-actions/2026/07/actions-by-the-united-states-in-the-investigations-under-section-301-of-the-trade-act-of-1974-of-the-acts-policies-and-practices-of-60-economies-related-to-the-failure-of-each-economy-to-impose-and/"
-        }
-      ]
+      "pending": [],
+      "sources": []
     },
     {
       "country": "Bangladesh",
+      "apparelEffectiveRate": 10,
       "currentAdditionalRate": 10,
       "status": "CURRENT",
-      "currentLabelKr": "Forced Labor Section 301 +10% 적용 · Textile/Apparel TRQ는 시행 전",
-      "currentLabelEn": "Forced Labor Section 301 +10% applies · Textile/Apparel TRQ not yet implemented",
-      "components": [
-        {
-          "name": "Forced Labor Section 301",
-          "rate": 10,
-          "status": "CURRENT",
-          "effectiveDate": "2026-07-23",
-          "noteKr": "USTR 최종 조치",
-          "noteEn": "USTR final action"
-        }
-      ],
+      "currentLabelKr": "의류 기준 Section 301 +10% · Textile/Apparel TRQ는 공식 시행 전",
+      "currentLabelEn": "Apparel Section 301 +10% · textile/apparel TRQ pending implementation",
+      "components": [],
       "preference": {
-        "program": "None",
-        "status": "NONE",
-        "noteKr": "",
-        "noteEn": ""
+        "program": "NONE",
+        "status": "ACTIVE",
+        "noteKr": "적격 의류 및 원산지/쿼터 요건 충족 시",
+        "noteEn": "For qualifying apparel meeting origin/quota requirements"
       },
       "trq": {
         "status": "PENDING",
         "effectiveDate": "",
-        "noteKr": "공식 Federal Register 시행 공지 전까지 +10% 유지",
-        "noteEn": "+10% remains until an official Federal Register implementation notice"
+        "noteKr": "TRQ PENDING",
+        "noteEn": "TRQ PENDING"
       },
-      "pending": [
-        {
-          "name": "Textile/Apparel TRQ",
-          "rate": 0,
-          "effectiveDate": "",
-          "noteKr": "일정 물량 Section 301 0% 가능 예정",
-          "noteEn": "Planned zero Section 301 rate for qualifying quota volume"
-        }
-      ],
-      "sources": [
-        {
-          "title": "USTR Takes Action in Forced Labor Section 301 Investigations",
-          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations"
-        },
-        {
-          "title": "White House Section 301 Forced Labor Memorandum",
-          "url": "https://www.whitehouse.gov/presidential-actions/2026/07/actions-by-the-united-states-in-the-investigations-under-section-301-of-the-trade-act-of-1974-of-the-acts-policies-and-practices-of-60-economies-related-to-the-failure-of-each-economy-to-impose-and/"
-        }
-      ]
+      "pending": [],
+      "sources": []
     },
     {
       "country": "Cambodia",
+      "apparelEffectiveRate": 10,
       "currentAdditionalRate": 10,
       "status": "CURRENT",
-      "currentLabelKr": "Forced Labor Section 301 +10% 적용 · Textile/Apparel TRQ는 시행 전",
-      "currentLabelEn": "Forced Labor Section 301 +10% applies · Textile/Apparel TRQ not yet implemented",
-      "components": [
-        {
-          "name": "Forced Labor Section 301",
-          "rate": 10,
-          "status": "CURRENT",
-          "effectiveDate": "2026-07-23",
-          "noteKr": "USTR 최종 조치",
-          "noteEn": "USTR final action"
-        }
-      ],
+      "currentLabelKr": "의류 기준 Section 301 +10% · Textile/Apparel TRQ는 공식 시행 전",
+      "currentLabelEn": "Apparel Section 301 +10% · textile/apparel TRQ pending implementation",
+      "components": [],
       "preference": {
-        "program": "None",
-        "status": "NONE",
-        "noteKr": "",
-        "noteEn": ""
+        "program": "NONE",
+        "status": "ACTIVE",
+        "noteKr": "적격 의류 및 원산지/쿼터 요건 충족 시",
+        "noteEn": "For qualifying apparel meeting origin/quota requirements"
       },
       "trq": {
         "status": "PENDING",
         "effectiveDate": "",
-        "noteKr": "공식 Federal Register 시행 공지 전까지 +10% 유지",
-        "noteEn": "+10% remains until official implementation"
+        "noteKr": "TRQ PENDING",
+        "noteEn": "TRQ PENDING"
       },
-      "pending": [
-        {
-          "name": "Textile/Apparel TRQ",
-          "rate": 0,
-          "effectiveDate": "",
-          "noteKr": "일정 물량 Section 301 0% 가능 예정",
-          "noteEn": "Planned zero Section 301 rate for qualifying quota volume"
-        }
-      ],
-      "sources": [
-        {
-          "title": "USTR Takes Action in Forced Labor Section 301 Investigations",
-          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations"
-        },
-        {
-          "title": "White House Section 301 Forced Labor Memorandum",
-          "url": "https://www.whitehouse.gov/presidential-actions/2026/07/actions-by-the-united-states-in-the-investigations-under-section-301-of-the-trade-act-of-1974-of-the-acts-policies-and-practices-of-60-economies-related-to-the-failure-of-each-economy-to-impose-and/"
-        }
-      ]
+      "pending": [],
+      "sources": []
     },
     {
       "country": "Nicaragua",
+      "apparelEffectiveRate": 12.5,
       "currentAdditionalRate": 12.5,
       "status": "CURRENT",
-      "currentLabelKr": "Forced Labor Section 301 +12.5% 적용 · 별도 Nicaragua Section 301은 2026년 0%",
-      "currentLabelEn": "Forced Labor Section 301 +12.5% applies · separate Nicaragua Section 301 is 0% in 2026",
-      "components": [
-        {
-          "name": "Forced Labor Section 301",
-          "rate": 12.5,
-          "status": "CURRENT",
-          "effectiveDate": "2026-07-23",
-          "noteKr": "현재 추가관세",
-          "noteEn": "Current additional duty"
-        },
-        {
-          "name": "Nicaragua Labor/Human Rights Section 301",
-          "rate": 0,
-          "status": "CURRENT",
-          "effectiveDate": "2026-01-01",
-          "noteKr": "2027년 +10%, 2028년 +15% 예정(비-CAFTA 원산지품)",
-          "noteEn": "Scheduled +10% in 2027 and +15% in 2028 for non-CAFTA-originating goods"
-        }
-      ],
+      "currentLabelKr": "CAFTA-DR 적격 의류: 기본관세 0% + 현재 Forced Labor Section 301 12.5%",
+      "currentLabelEn": "CAFTA-DR qualifying apparel: 0% base duty + current Forced Labor Section 301 12.5%",
+      "components": [],
       "preference": {
         "program": "CAFTA-DR",
-        "status": "CONDITIONAL",
-        "noteKr": "원산지 규정 충족 여부는 기본관세와 별도 확인",
-        "noteEn": "Origin qualification affects base duty treatment separately"
+        "status": "ACTIVE",
+        "noteKr": "적격 의류 및 원산지/쿼터 요건 충족 시",
+        "noteEn": "For qualifying apparel meeting origin/quota requirements"
       },
       "trq": {
         "status": "NONE",
@@ -225,47 +118,22 @@
         "noteKr": "",
         "noteEn": ""
       },
-      "pending": [
-        {
-          "name": "Separate Nicaragua Section 301",
-          "rate": 10,
-          "effectiveDate": "2027-01-01",
-          "noteKr": "비-CAFTA 원산지품 대상 예정",
-          "noteEn": "Scheduled for non-CAFTA-originating goods"
-        }
-      ],
-      "sources": [
-        {
-          "title": "USTR Takes Action in Forced Labor Section 301 Investigations",
-          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations"
-        },
-        {
-          "title": "USTR Section 301 Action on Nicaragua",
-          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2025/december/ustr-section-301-action-nicaraguas-acts-policies-and-practices-relating-labor-rights-human-rights"
-        }
-      ]
+      "pending": [],
+      "sources": []
     },
     {
       "country": "Guatemala",
+      "apparelEffectiveRate": 10,
       "currentAdditionalRate": 10,
       "status": "CURRENT",
-      "currentLabelKr": "Forced Labor Section 301 +10% 적용 · CAFTA-DR 기본관세 특혜는 별도",
-      "currentLabelEn": "Forced Labor Section 301 +10% applies · CAFTA-DR base-duty preference is separate",
-      "components": [
-        {
-          "name": "Forced Labor Section 301",
-          "rate": 10,
-          "status": "CURRENT",
-          "effectiveDate": "2026-07-23",
-          "noteKr": "",
-          "noteEn": ""
-        }
-      ],
+      "currentLabelKr": "CAFTA-DR 적격 의류: 기본관세 0% + 현재 Section 301 10%",
+      "currentLabelEn": "CAFTA-DR qualifying apparel: 0% base duty + current Section 301 10%",
+      "components": [],
       "preference": {
         "program": "CAFTA-DR",
-        "status": "CONDITIONAL",
-        "noteKr": "적격 원산지품의 기본관세 특혜와 Section 301은 별도",
-        "noteEn": "Qualifying CAFTA-DR base-duty treatment is separate from Section 301"
+        "status": "ACTIVE",
+        "noteKr": "적격 의류 및 원산지/쿼터 요건 충족 시",
+        "noteEn": "For qualifying apparel meeting origin/quota requirements"
       },
       "trq": {
         "status": "NONE",
@@ -274,34 +142,21 @@
         "noteEn": ""
       },
       "pending": [],
-      "sources": [
-        {
-          "title": "USTR Takes Action in Forced Labor Section 301 Investigations",
-          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations"
-        }
-      ]
+      "sources": []
     },
     {
       "country": "Costa Rica",
+      "apparelEffectiveRate": 12.5,
       "currentAdditionalRate": 12.5,
       "status": "CURRENT",
-      "currentLabelKr": "Forced Labor Section 301 +12.5% 적용 · CAFTA-DR 기본관세 특혜는 별도",
-      "currentLabelEn": "Forced Labor Section 301 +12.5% applies · CAFTA-DR base-duty preference is separate",
-      "components": [
-        {
-          "name": "Forced Labor Section 301",
-          "rate": 12.5,
-          "status": "CURRENT",
-          "effectiveDate": "2026-07-23",
-          "noteKr": "",
-          "noteEn": ""
-        }
-      ],
+      "currentLabelKr": "CAFTA-DR 적격 의류: 기본관세 0% + 현재 Section 301 12.5%",
+      "currentLabelEn": "CAFTA-DR qualifying apparel: 0% base duty + current Section 301 12.5%",
+      "components": [],
       "preference": {
         "program": "CAFTA-DR",
-        "status": "CONDITIONAL",
-        "noteKr": "적격 원산지품 기본관세 특혜는 별도",
-        "noteEn": "Qualifying base-duty preference is separate"
+        "status": "ACTIVE",
+        "noteKr": "적격 의류 및 원산지/쿼터 요건 충족 시",
+        "noteEn": "For qualifying apparel meeting origin/quota requirements"
       },
       "trq": {
         "status": "NONE",
@@ -310,34 +165,21 @@
         "noteEn": ""
       },
       "pending": [],
-      "sources": [
-        {
-          "title": "USTR Takes Action in Forced Labor Section 301 Investigations",
-          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations"
-        }
-      ]
+      "sources": []
     },
     {
       "country": "El Salvador",
+      "apparelEffectiveRate": 10,
       "currentAdditionalRate": 10,
       "status": "CURRENT",
-      "currentLabelKr": "Forced Labor Section 301 +10% 적용 · CAFTA-DR 기본관세 특혜는 별도",
-      "currentLabelEn": "Forced Labor Section 301 +10% applies · CAFTA-DR base-duty preference is separate",
-      "components": [
-        {
-          "name": "Forced Labor Section 301",
-          "rate": 10,
-          "status": "CURRENT",
-          "effectiveDate": "2026-07-23",
-          "noteKr": "",
-          "noteEn": ""
-        }
-      ],
+      "currentLabelKr": "CAFTA-DR 적격 의류: 기본관세 0% + 현재 Section 301 10%",
+      "currentLabelEn": "CAFTA-DR qualifying apparel: 0% base duty + current Section 301 10%",
+      "components": [],
       "preference": {
         "program": "CAFTA-DR",
-        "status": "CONDITIONAL",
-        "noteKr": "적격 원산지품 기본관세 특혜는 별도",
-        "noteEn": "Qualifying base-duty preference is separate"
+        "status": "ACTIVE",
+        "noteKr": "적격 의류 및 원산지/쿼터 요건 충족 시",
+        "noteEn": "For qualifying apparel meeting origin/quota requirements"
       },
       "trq": {
         "status": "NONE",
@@ -346,25 +188,21 @@
         "noteEn": ""
       },
       "pending": [],
-      "sources": [
-        {
-          "title": "USTR Takes Action in Forced Labor Section 301 Investigations",
-          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations"
-        }
-      ]
+      "sources": []
     },
     {
       "country": "Haiti",
-      "currentAdditionalRate": null,
-      "status": "VERIFY",
-      "currentLabelKr": "Forced Labor Section 301 60개국 대상에는 포함되지 않음 · 현재 별도 추가관세/HOPE·HELP 상태는 공식 확인 필요",
-      "currentLabelEn": "Not included in the 60-economy Forced Labor Section 301 action · current separate additional-duty/HOPE-HELP status requires official verification",
+      "apparelEffectiveRate": 0,
+      "currentAdditionalRate": 0,
+      "status": "CURRENT",
+      "currentLabelKr": "HOPE/HELP/CBTPA 적격 의류: 현재 Duty-Free 0% · 2026-12-31까지 연장",
+      "currentLabelEn": "HOPE/HELP/CBTPA qualifying apparel: currently duty-free 0% · extended through Dec. 31, 2026",
       "components": [],
       "preference": {
-        "program": "HOPE/HELP",
-        "status": "VERIFY",
-        "noteKr": "과거 특혜 프로그램과 현재 연장/유효 여부 별도 확인",
-        "noteEn": "Current extension/effectiveness must be verified separately"
+        "program": "HOPE/HELP/CBTPA",
+        "status": "ACTIVE",
+        "noteKr": "적격 의류 및 원산지/쿼터 요건 충족 시",
+        "noteEn": "For qualifying apparel meeting origin/quota requirements"
       },
       "trq": {
         "status": "NONE",
@@ -373,12 +211,7 @@
         "noteEn": ""
       },
       "pending": [],
-      "sources": [
-        {
-          "title": "White House Temporary Import Surcharge (expired July 24, 2026 absent extension)",
-          "url": "https://www.whitehouse.gov/presidential-actions/2026/02/imposing-a-temporary-import-surcharge-to-address-fundamental-international-payments-problems/"
-        }
-      ]
+      "sources": []
     }
   ]
 }
