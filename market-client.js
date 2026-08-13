@@ -1,9 +1,18 @@
 // File: /market-client.js
-// Add this line before </body> in index.html:
-// <script src="market-client.js"></script>
+// Raw Material Dashboard version
+// Auto: USD/KRW, U.S. Cotton Dec-26, WTI, Brent
+// Manual fallback from CONFIG.rawMaterials: China Cotton, India Cotton, PSF, DTY
 
 (() => {
-  const SYMBOLS = ["KSS", "ANF", "M", "KRW=X", "VND=X", "CL=F", "CT=F"];
+  const SYMBOLS = [
+    "KSS",
+    "ANF",
+    "M",
+    "KRW=X",
+    "CTZ26.NYB",
+    "CL=F",
+    "BZ=F"
+  ];
 
   const fmt = (n, digits = 2) =>
     Number(n).toLocaleString("en-US", {
@@ -11,23 +20,20 @@
       maximumFractionDigits: digits
     });
 
-  const pctHtml = (change) => {
-    if (change === null || change === undefined || !Number.isFinite(change)) {
-      return `<small class="flat">—</small>`;
-    }
-    const dir = change > 0 ? "up" : change < 0 ? "down" : "flat";
-    const arrow = change > 0 ? "▲" : change < 0 ? "▼" : "";
-    return `<small class="${dir}">${arrow} ${Math.abs(change).toFixed(2)}%</small>`;
+  const pctClass = (change) =>
+    change > 0 ? "up" : change < 0 ? "down" : "flat";
+
+  const pctText = (change) => {
+    if (change === null || change === undefined || !Number.isFinite(Number(change))) return "—";
+    const n = Number(change);
+    const arrow = n > 0 ? "▲" : n < 0 ? "▼" : "";
+    return `${arrow} ${Math.abs(n).toFixed(2)}%`;
   };
 
   async function loadMarket() {
     const url = `/api/market?symbols=${encodeURIComponent(SYMBOLS.join(","))}`;
     const res = await fetch(url, { cache: "no-store" });
-
-    if (!res.ok) {
-      throw new Error(`Market API returned ${res.status}`);
-    }
-
+    if (!res.ok) throw new Error(`Market API returned ${res.status}`);
     return res.json();
   }
 
@@ -43,7 +49,7 @@
 
     grid.innerHTML = stockDefs.map(item => {
       const d = data[item.symbol];
-      if (!d || d.price === null) {
+      if (!d || d.price == null) {
         return `
           <div class="kpi-card">
             <div class="kpi-label">${item.label}</div>
@@ -52,16 +58,11 @@
           </div>`;
       }
 
-      const dir = d.changePct > 0 ? "up" : d.changePct < 0 ? "down" : "flat";
-      const arrow = d.changePct > 0 ? "▲" : d.changePct < 0 ? "▼" : "";
-
       return `
         <div class="kpi-card">
           <div class="kpi-label">${item.label}</div>
           <div class="kpi-value">$${fmt(d.price)}</div>
-          <div class="kpi-delta ${dir}">
-            ${arrow} ${d.changePct === null ? "—" : Math.abs(d.changePct).toFixed(2) + "%"}
-          </div>
+          <div class="kpi-delta ${pctClass(d.changePct)}">${pctText(d.changePct)}</div>
         </div>`;
     }).join("");
   }
@@ -72,7 +73,7 @@
     const note = document.getElementById("fx-note");
     if (!val) return;
 
-    if (!d || d.price === null) {
+    if (!d || d.price == null) {
       val.innerHTML = `<span style="font-size:14px;color:var(--muted)">조회 불가</span>`;
       return;
     }
@@ -81,81 +82,213 @@
       `₩${Number(d.price).toLocaleString("ko-KR", {
         minimumFractionDigits: 2,
         maximumFractionDigits: 2
-      })} ${pctHtml(d.changePct)}`;
+      })} <small class="${pctClass(d.changePct)}">${pctText(d.changePct)}</small>`;
 
     if (note) {
       note.innerHTML =
-        `<span class="kr">Yahoo Finance · 서버 연동</span>` +
-        `<span class="en">Yahoo Finance · Server-side feed</span>`;
+        `<span class="kr">USD/KRW · 시장 환율</span>` +
+        `<span class="en">USD/KRW · Market rate</span>`;
     }
   }
 
-  function marketCard(id, titleKr, titleEn, valueHtml, noteKr, noteEn) {
+  function manualMaterial(key) {
+    return window.CONFIG?.rawMaterials?.[key] || null;
+  }
+
+  function buildMaterialItem({
+    labelKr, labelEn, price, changePct, unit, source, status = "auto"
+  }) {
+    const hasPrice = price !== null && price !== undefined && Number.isFinite(Number(price));
     return `
-      <div class="r-card" id="${id}">
-        <div class="r-title">
-          <span class="kr">${titleKr}</span><span class="en">${titleEn}</span>
+      <div class="rm-item">
+        <div class="rm-top">
+          <div>
+            <div class="rm-name">
+              <span class="kr">${labelKr}</span>
+              <span class="en">${labelEn}</span>
+            </div>
+            <div class="rm-source">${source || ""}</div>
+          </div>
+          <div class="rm-status ${status}">
+            ${status === "auto" ? "AUTO" : "MANUAL"}
+          </div>
         </div>
-        <div class="r-big">${valueHtml}</div>
-        <div class="r-note">
-          <span class="kr">${noteKr}</span><span class="en">${noteEn}</span>
+        <div class="rm-value">
+          ${hasPrice ? fmt(price) : "—"}
+          <span class="rm-unit">${unit || ""}</span>
+        </div>
+        <div class="rm-change ${pctClass(Number(changePct))}">
+          ${pctText(Number(changePct))}
         </div>
       </div>`;
   }
 
-  function renderExtraTicker(data) {
+  function installRawMaterialStyles() {
+    if (document.getElementById("raw-material-dashboard-style")) return;
+
+    const style = document.createElement("style");
+    style.id = "raw-material-dashboard-style";
+    style.textContent = `
+      .rm-dashboard{
+        background:var(--panel);
+        border:1px solid var(--line);
+        border-radius:14px;
+        padding:20px;
+        box-shadow:var(--shadow);
+        margin:0 0 24px;
+      }
+      .rm-header{
+        display:flex;
+        justify-content:space-between;
+        align-items:flex-end;
+        gap:12px;
+        margin-bottom:15px;
+      }
+      .rm-title{
+        font-size:15px;
+        font-weight:800;
+      }
+      .rm-subtitle{
+        font-size:10.5px;
+        color:var(--muted);
+        margin-top:3px;
+      }
+      .rm-grid{
+        display:grid;
+        grid-template-columns:repeat(2,minmax(0,1fr));
+        gap:10px;
+      }
+      .rm-item{
+        background:var(--panel2);
+        border:1px solid var(--line);
+        border-radius:10px;
+        padding:13px;
+        min-width:0;
+      }
+      .rm-top{
+        display:flex;
+        justify-content:space-between;
+        gap:8px;
+        align-items:flex-start;
+      }
+      .rm-name{
+        font-size:12px;
+        font-weight:750;
+      }
+      .rm-source{
+        font-size:9.5px;
+        color:var(--muted);
+        margin-top:2px;
+      }
+      .rm-status{
+        font:700 8px var(--mono);
+        padding:2px 5px;
+        border-radius:4px;
+        border:1px solid var(--line);
+      }
+      .rm-status.auto{color:var(--green);}
+      .rm-status.manual{color:var(--orange);}
+      .rm-value{
+        margin-top:9px;
+        font-size:21px;
+        font-weight:800;
+        letter-spacing:-.02em;
+      }
+      .rm-unit{
+        font-size:9.5px;
+        font-weight:600;
+        color:var(--muted);
+        margin-left:3px;
+      }
+      .rm-change{
+        margin-top:4px;
+        font-size:10.5px;
+        font-weight:700;
+      }
+      @media(max-width:700px){
+        .rm-grid{grid-template-columns:1fr;}
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
+  function renderRawMaterialDashboard(data) {
+    installRawMaterialStyles();
+
     const rightCol = document.querySelector(".right-col");
     const fxCard = document.getElementById("fx-val")?.closest(".r-card");
     if (!rightCol || !fxCard) return;
 
+    document.getElementById("raw-material-dashboard")?.remove();
     document.getElementById("market-extra-wrap")?.remove();
 
-    const vnd = data["VND=X"];
-    const oil = data["CL=F"];
-    const cotton = data["CT=F"];
+    const usCotton = data["CTZ26.NYB"];
+    const wti = data["CL=F"];
+    const brent = data["BZ=F"];
 
-    const vndValue = vnd?.price != null
-      ? `₫${Number(vnd.price).toLocaleString("en-US", {maximumFractionDigits: 0})} ${pctHtml(vnd.changePct)}`
-      : `<span style="font-size:14px;color:var(--muted)">조회 불가</span>`;
+    const china = manualMaterial("chinaCotton");
+    const india = manualMaterial("indiaCotton");
+    const psf = manualMaterial("psf");
+    const dty = manualMaterial("dty");
 
-    const oilValue = oil?.price != null
-      ? `$${fmt(oil.price)} ${pctHtml(oil.changePct)}`
-      : `<span style="font-size:14px;color:var(--muted)">조회 불가</span>`;
+    const panel = document.createElement("section");
+    panel.id = "raw-material-dashboard";
+    panel.className = "rm-dashboard";
 
-    const cottonValue = cotton?.price != null
-      ? `${fmt(cotton.price)} ${pctHtml(cotton.changePct)}`
-      : `<span style="font-size:14px;color:var(--muted)">조회 불가</span>`;
+    panel.innerHTML = `
+      <div class="rm-header">
+        <div>
+          <div class="rm-title">
+            <span class="kr">RAW MATERIAL DASHBOARD</span>
+            <span class="en">RAW MATERIAL DASHBOARD</span>
+          </div>
+          <div class="rm-subtitle">
+            <span class="kr">자동 시장지표 + 주간 원자재 리포트</span>
+            <span class="en">Live indicators + weekly raw material report</span>
+          </div>
+        </div>
+      </div>
 
-    const wrap = document.createElement("div");
-    wrap.id = "market-extra-wrap";
-    wrap.style.display = "contents";
-    wrap.innerHTML =
-      marketCard(
-        "fx-vnd-card",
-        "USD → VND 환율",
-        "USD → VND",
-        vndValue,
-        "실시간 시장 환율",
-        "Live market rate"
-      ) +
-      marketCard(
-        "wti-card",
-        "WTI 원유",
-        "WTI Crude Oil",
-        oilValue,
-        "NYMEX 근월물 · USD/bbl",
-        "NYMEX front month · USD/bbl"
-      ) +
-      marketCard(
-        "cotton-card",
-        "Cotton No.2",
-        "Cotton No.2",
-        cottonValue,
-        "ICE 선물 · cents/lb",
-        "ICE futures · cents/lb"
-      );
+      <div class="rm-grid">
+        ${buildMaterialItem({
+          labelKr:"미국 면", labelEn:"U.S. Cotton",
+          price:usCotton?.price, changePct:usCotton?.changePct,
+          unit:"¢/lb", source:"ICE Cotton No.2 · Dec 2026", status:"auto"
+        })}
+        ${buildMaterialItem({
+          labelKr:"중국 면", labelEn:"China Cotton",
+          price:china?.price, changePct:china?.changePct,
+          unit:china?.unit || "¢/lb", source:china?.source || "Weekly report", status:"manual"
+        })}
+        ${buildMaterialItem({
+          labelKr:"인도 면", labelEn:"India Cotton",
+          price:india?.price, changePct:india?.changePct,
+          unit:india?.unit || "¢/lb", source:india?.source || "Weekly report", status:"manual"
+        })}
+        ${buildMaterialItem({
+          labelKr:"PSF", labelEn:"PSF",
+          price:psf?.price, changePct:psf?.changePct,
+          unit:psf?.unit || "¢/lb", source:psf?.source || "Weekly report", status:"manual"
+        })}
+        ${buildMaterialItem({
+          labelKr:"DTY", labelEn:"DTY",
+          price:dty?.price, changePct:dty?.changePct,
+          unit:dty?.unit || "¢/lb", source:dty?.source || "Weekly report", status:"manual"
+        })}
+        ${buildMaterialItem({
+          labelKr:"WTI 원유", labelEn:"WTI Crude",
+          price:wti?.price, changePct:wti?.changePct,
+          unit:"USD/bbl", source:"NYMEX · polyester upstream proxy", status:"auto"
+        })}
+        ${buildMaterialItem({
+          labelKr:"Brent 원유", labelEn:"Brent Crude",
+          price:brent?.price, changePct:brent?.changePct,
+          unit:"USD/bbl", source:"Global oil benchmark", status:"auto"
+        })}
+      </div>
+    `;
 
-    fxCard.insertAdjacentElement("afterend", wrap);
+    fxCard.insertAdjacentElement("afterend", panel);
   }
 
   async function refreshMarket() {
@@ -163,20 +296,12 @@
       const result = await loadMarket();
       renderStocks(result.data || {});
       renderKRW(result.data || {});
-      renderExtraTicker(result.data || {});
-      console.log("[Market] updated", result.updatedAt);
+      renderRawMaterialDashboard(result.data || {});
     } catch (err) {
       console.error("[Market] failed:", err);
-      const fx = document.getElementById("fx-val");
-      if (fx) fx.innerHTML =
-        `<span style="font-size:14px;color:var(--muted)">조회 불가</span>`;
     }
   }
 
-  // Existing index.html already runs its old Yahoo-browser fetch first.
-  // This script runs immediately after it and replaces the cards using /api/market.
   refreshMarket();
-
-  // Refresh every 5 minutes while the page is open.
   setInterval(refreshMarket, 5 * 60 * 1000);
 })();

@@ -5,9 +5,6 @@
 
 const CONFIG = {
 
-  // ── API 키 ─────────────────────────────────────────────────
-  OPENAI_API_KEY: "sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",  // ← OpenAI 키 입력
-
   // ── 오늘의 헤드라인 (매일 아침 수정) ──────────────────────
   headline: {
     kr: "관세가 확정되고 BTS 성수기가 겹치는 한 주",
@@ -68,6 +65,57 @@ const CONFIG = {
     { symbol: "ANF",  label: "Abercrombie & Fitch (ANF)" },
     { symbol: "M",    label: "Macy's (M)" },
   ],
+
+  // ── 원자재 Dashboard (주간 메일 기준 수동 업데이트) ─────────────
+  rawMaterials: {
+    usCotton: {
+      price: 82.60,
+      changePct: 2.84,
+      unit: "¢/lb",
+      source: "Weekly raw material report",
+      comment: "미국 원면은 폭염·가뭄 우려와 기술적 매수세로 상승"
+    },
+    chinaCotton: {
+      price: 117.52,
+      changePct: -0.34,
+      unit: "¢/lb",
+      source: "Weekly raw material report",
+      comment: "정부 비축면 경매 공급이 상승 심리를 제한"
+    },
+    indiaCotton: {
+      price: 89.53,
+      changePct: 1.38,
+      unit: "¢/lb",
+      source: "Weekly raw material report",
+      comment: "신원면 출하 전 재고 부족과 병충해 우려로 강세"
+    },
+    psf: {
+      price: 50.21,
+      changePct: -0.70,
+      unit: "¢/lb",
+      source: "Weekly raw material report",
+      comment: "국제 유가 하락 영향으로 약세"
+    },
+    dty: {
+      price: 63.50,
+      changePct: 0.00,
+      unit: "¢/lb",
+      source: "Weekly raw material report",
+      comment: "베트남 등 주요 생산지 원사 수요로 보합"
+    },
+    yarn: {
+      india: "재고 부족과 병충해 우려로 강세 유지",
+      china: "비축면 경매 지속으로 약보합",
+      korea: "휴가 시즌 거래 비활성화와 원화 강세로 하락",
+      cafta: "신규 오더 부족으로 보합",
+      vietnam: "CVC 카드사 수요 견조 및 재고 타이트로 보합"
+    },
+    summary: {
+      cotton: "미국·인도 상승, 중국 약보합",
+      polyester: "PSF 약세, DTY 보합",
+      yarn: "지역별 차별화되나 전반적으로 보합권"
+    }
+  },
 
   // ── 브랜드 뉴스 (매일 아침 수동 추가 또는 자동 요약 트리거) ─
   news: [
