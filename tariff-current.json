@@ -2,8 +2,8 @@
   "ok": true,
   "asOf": "2026-08-13T00:00:00.000Z",
   "basis": "Additional U.S. import duties only; MFN/base HTS duty excluded",
-  "stale": true,
   "refreshStatus": "SEED",
+  "stale": true,
   "countries": [
     {
       "country": "Vietnam",

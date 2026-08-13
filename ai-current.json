@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "asOf": "2026-08-13T00:00:00.000Z",
+  "refreshStatus": "SEED",
+  "stale": true,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "insight": {
+    "headline": {
+      "kr": "첫 AI Market Insight 생성 대기",
+      "en": "Awaiting first AI Market Insight generation"
+    },
+    "buyerInsights": [],
+    "opportunities": [],
+    "risk": {
+      "level": "VERIFY",
+      "kr": "아직 저장된 AI 분석이 없습니다.",
+      "en": "No saved AI analysis yet."
+    },
+    "actions": []
+  }
+}

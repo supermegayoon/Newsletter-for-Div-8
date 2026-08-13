@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "asOf": "2026-08-13T00:00:00.000Z",
+  "refreshStatus": "SEED",
+  "stale": true,
+  "freshness": {
+    "within72h": 0,
+    "within7d": 0,
+    "total": 0,
+    "windowDays": 30
+  },
+  "items": []
+}
