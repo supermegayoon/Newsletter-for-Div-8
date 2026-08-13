@@ -1,7 +1,7 @@
 // File: /ai-client.js
-// Everyone sees same daily cached AI insight.
+// Everyone sees the same KST 08:00 daily cached AI insight.
 // Page load = GET saved result, Gemini 0.
-// Refresh button = POST; server calls Gemini only if >=24h old.
+// Manual button can create today's result only if it is missing.
 
 (()=>{
   const CARD_ID="ai-insight-card",STYLE_ID="ai-insight-style";
@@ -40,8 +40,9 @@
     labels(c);moveCheckpoint(c);return c;
   }
   function labels(c){
-    if(!c)return;c.querySelector(".ai-title-text").textContent=en()?"Team 8 AI Market Insight":"8담당 AI Market Insight";
-    c.querySelector(".ai-refresh").textContent=en()?"Refresh Today's Insight":"오늘 Insight 갱신";
+    if(!c)return;
+    c.querySelector(".ai-title-text").textContent=en()?"Team 8 AI Market Insight":"8담당 AI Market Insight";
+    c.querySelector(".ai-refresh").textContent=en()?"Refresh if missing":"오늘 데이터 없을 때 갱신";
     if(!lastInsight)c.querySelector(".ai-content").textContent=en()?"Loading today's shared insight…":"오늘의 공용 Insight를 불러오는 중…";
   }
   async function market(){try{const r=await fetch("/api/market",{cache:"no-store"});return r.ok?(await r.json()).data||{}:{}}catch{return{}}}
@@ -61,24 +62,69 @@
       <div class="ai-section"><div class="ai-section-title">${en()?"Team 8 Sales Opportunities":"8담당 영업 기회"}</div>${(d.opportunities||[]).map(x=>`<div class="ai-row">• ${pick(x)}</div>`).join("")||"—"}</div>
       <div class="ai-section"><div class="ai-section-title">Risk Level</div><div class="ai-row"><b>${d.risk?.level||"—"}</b> — ${pick(d.risk)}</div></div>`;
     actions(d);
-    c.querySelector(".ai-meta").textContent=lastResponse?.asOf?`${lastResponse.provider||"Google Gemini"} · ${en()?"Last generated":"마지막 생성"} ${new Date(lastResponse.asOf).toLocaleString()}`:"";
+    const date=lastResponse?.generatedDateKST||"";
+    c.querySelector(".ai-meta").textContent=lastResponse?.asOf
+      ? `${lastResponse.provider||"Google Gemini"} · KST Daily ${date} · ${new Date(lastResponse.asOf).toLocaleString()}`
+      : "";
     const n=c.querySelector(".ai-cache-note");
-    if(lastResponse?.stale){n.className="ai-cache-note ai-stale";n.textContent=en()?"Daily refresh unavailable; last saved insight retained.":"오늘 갱신 불가 — 마지막 저장 Insight를 유지합니다.";}
-    else if(lastResponse?.nextRefreshAt){n.className="ai-cache-note";n.textContent=en()?`Shared daily result · next refresh after ${new Date(lastResponse.nextRefreshAt).toLocaleString()}`:`모든 사용자가 같은 Daily 결과를 조회합니다 · 다음 갱신 ${new Date(lastResponse.nextRefreshAt).toLocaleString()}`;}
+    if(lastResponse?.stale){
+      n.className="ai-cache-note ai-stale";
+      n.textContent=en()?"Today's scheduled refresh is missing; last saved insight retained.":"오늘 08:00 갱신본이 없어 마지막 저장 Insight를 유지합니다.";
+    } else {
+      n.className="ai-cache-note";
+      n.textContent=en()?"Shared KST 08:00 daily result":"모든 사용자가 같은 KST 08:00 Daily 결과를 조회합니다";
+    }
   }
-  function apply(j){lastResponse=j;lastInsight=j.insight||null;render();}
+  function applyHero(d){
+    if(!d)return;
+    const hkr=document.getElementById("hero-headline-kr"),hen=document.getElementById("hero-headline-en");
+    const bkr=document.getElementById("hero-body-kr"),ben=document.getElementById("hero-body-en");
+    if(hkr&&d.headline?.kr)hkr.textContent=d.headline.kr;
+    if(hen&&d.headline?.en)hen.textContent=d.headline.en;
+    if(bkr&&d.summary?.kr)bkr.textContent=d.summary.kr;
+    if(ben&&d.summary?.en)ben.textContent=d.summary.en;
+    const tags=document.getElementById("hero-tags");
+    if(tags&&Array.isArray(d.tags)&&d.tags.length)tags.innerHTML=d.tags.map(t=>`<span>${t}</span>`).join("");
+  }
+  function apply(j){lastResponse=j;lastInsight=j.insight||null;applyHero(lastInsight);render();}
   async function load(){
-    const c=card();try{const r=await fetch("/api/ai",{cache:"no-store"}),j=await r.json();if(!r.ok)throw new Error(j.error||`AI ${r.status}`);apply(j);}catch(e){c.querySelector(".ai-content").innerHTML=`<div class="ai-error">${e.message}</div>`;}
+    const c=card();
+    try{
+      const r=await fetch("/api/ai",{cache:"no-store"}),j=await r.json();
+      if(!r.ok)throw new Error(j.error||`AI ${r.status}`);
+      apply(j);
+    }catch(e){
+      c.querySelector(".ai-content").innerHTML=`<div class="ai-error">${e.message}</div>`;
+    }
   }
   async function refresh(){
     const c=card(),b=c.querySelector(".ai-refresh");b.disabled=true;
     try{
       const [m,n]=await Promise.all([market(),news()]);
-      const r=await fetch("/api/ai",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({headline:CONFIG?.headline?.kr||"",summary:CONFIG?.summary?.kr||"",news:n,market:m})});
-      const j=await r.json();if(!r.ok)throw new Error(j.error||`AI ${r.status}`);apply(j);
-    }catch(e){console.error(e);setTimeout(load,500);}finally{b.disabled=false;}
+      const r=await fetch("/api/ai",{
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({
+          headline:typeof CONFIG!=="undefined"?(CONFIG?.headline?.kr||""):"",
+          summary:typeof CONFIG!=="undefined"?(CONFIG?.summary?.kr||""):"",
+          news:n,market:m
+        })
+      });
+      const j=await r.json();
+      if(!r.ok)throw new Error(j.error||`AI ${r.status}`);
+      apply(j);
+    }catch(e){console.error(e);setTimeout(load,500);}
+    finally{b.disabled=false;}
   }
-  style();const c=card();c?.querySelector(".ai-refresh")?.addEventListener("click",refresh);
-  const old=window.setLang;if(typeof old==="function")window.setLang=function(lang){old(lang);labels(document.getElementById(CARD_ID));if(lastInsight)render();};
+  style();
+  const c=card();
+  c?.querySelector(".ai-refresh")?.addEventListener("click",refresh);
+  const old=window.setLang;
+  if(typeof old==="function")window.setLang=function(lang){old(lang);labels(document.getElementById(CARD_ID));if(lastInsight)render();};
   load();
 })();
+
+// Load daily archive/date helper without changing index.html.
+if(!document.getElementById("archive-client-loader")){
+  const s=document.createElement("script");s.id="archive-client-loader";s.src="/archive-client.js?v=20260814";document.body.appendChild(s);
+}

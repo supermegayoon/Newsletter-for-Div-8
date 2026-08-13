@@ -1,12 +1,14 @@
 // File: /news-client.js
-// Everyone sees same daily cached news. Refreshes page data every 30 min, but Gemini is capped server-side to once/24h.
+// Everyone sees the same GitHub-saved KST 08:00 daily news snapshot.
+// Browser visits never trigger Gemini generation.
 
 (()=>{
   function en(){return document.body.classList.contains("en");}
   function label(j){
+    const date=j.generatedDateKST||"";
     return en()
-      ? `Daily shared feed · ${j.freshness?.within72h||0} within 72h · ${j.freshness?.within7d||0} within 7d · max 30 days`
-      : `Daily 공용 뉴스 · 72시간 이내 ${j.freshness?.within72h||0}건 · 7일 이내 ${j.freshness?.within7d||0}건 · 최대 30일`;
+      ? `KST 08:00 daily feed · ${date} · ${j.freshness?.within72h||0} within 72h · ${j.freshness?.within7d||0} within 7d`
+      : `KST 08:00 Daily 뉴스 · ${date} · 72시간 이내 ${j.freshness?.within72h||0}건 · 7일 이내 ${j.freshness?.within7d||0}건`;
   }
   async function load(){
     try{
@@ -20,11 +22,11 @@
         m.style.cssText="font-size:10px;color:var(--muted);margin:-10px 0 12px;";
         document.getElementById("news-panel")?.insertAdjacentElement("beforebegin",m);
       }
-      m.textContent=label(j);m.dataset.payload=JSON.stringify(j.freshness||{});
+      m.textContent=label(j);
       window.__FRESH_NEWS__=j.items;
     }catch(e){console.error("[Daily News]",e);}
   }
   const old=window.setLang;
   if(typeof old==="function")window.setLang=function(lang){old(lang);load();};
-  load();setInterval(load,30*60*1000);
+  load();
 })();

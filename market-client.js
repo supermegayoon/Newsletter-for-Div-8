@@ -1,8 +1,7 @@
 // File: /market-client.js
-// FIXED DAILY MARKET MODE
-// The page ONLY renders market-current.json (last successful shared snapshot).
-// It never renders "조회 불가" because of a temporary Yahoo/API error.
-// /api/market is pinged in the background only to refresh the NEXT shared snapshot.
+// DAILY FIXED MARKET MODE.
+// The browser reads /api/market, which only serves the GitHub-saved daily snapshot.
+// Browser visits never trigger Yahoo refresh.
 
 (() => {
   const fmt=(n,d=2)=>Number(n).toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d});
@@ -13,9 +12,10 @@
   };
 
   async function getFixedMarket(){
-    const r=await fetch(`/market-current.json?t=${Date.now()}`,{cache:"no-store"});
-    if(!r.ok)throw new Error(`market-current ${r.status}`);
-    return r.json();
+    const r=await fetch(`/api/market?t=${Date.now()}`,{cache:"no-store"});
+    const j=await r.json();
+    if(!r.ok)throw new Error(j?.error||`market ${r.status}`);
+    return j;
   }
 
   async function getRaw(){
@@ -41,7 +41,7 @@
     }).join("");
   }
 
-  function renderKRW(data,doc){
+  function renderKRW(data){
     const d=data?.["KRW=X"],val=document.getElementById("fx-val"),note=document.getElementById("fx-note");
     if(!val)return;
     val.innerHTML=d?.price!=null
@@ -78,6 +78,7 @@
     const rm=rawDoc?.rawMaterials||{},usAuto=data?.["CTZ26.NYB"],wti=data?.["CL=F"],brent=data?.["BZ=F"];
     const us=usAuto?.price!=null?{price:usAuto.price,changePct:usAuto.changePct,unit:"¢/lb"}:rm.usCotton;
     const panel=document.createElement("section");panel.id="raw-material-dashboard";panel.className="rm-dashboard";
+    const marketDate = marketDoc?.marketDataDate ? ` · Market data ${marketDoc.marketDataDate}` : "";
     panel.innerHTML=`
       <div class="rm-head">RAW MATERIAL DASHBOARD<div class="rm-sub">Daily fixed market snapshot + weekly raw material report</div></div>
       <div class="rm-grid">
@@ -89,19 +90,15 @@
         ${item("WTI Crude",wti?.price,wti?.changePct,"USD/bbl","NYMEX")}
         ${item("Brent Crude",brent?.price,brent?.changePct,"USD/bbl","Global benchmark")}
       </div>
-      <div class="market-fixed-note">KST 08:00 Daily Fixed · ${marketDoc?.snapshotDateKST||""}</div>`;
+      <div class="market-fixed-note">KST 08:00 Daily Fixed · Snapshot ${marketDoc?.snapshotDateKST||""}${marketDate}</div>`;
     fxCard.insertAdjacentElement("afterend",panel);
   }
 
   async function start(){
     try{
       const [m,r]=await Promise.all([getFixedMarket(),getRaw()]);
-      renderStocks(m.data||{});renderKRW(m.data||{},m);renderRaw(m.data||{},r,m);
+      renderStocks(m.data||{});renderKRW(m.data||{});renderRaw(m.data||{},r,m);
     }catch(e){console.error("[Fixed Market]",e);}
-
-    // Background refresh check only. It NEVER changes today's screen directly.
-    // If today's KST snapshot is due, /api/market updates market-current.json in GitHub.
-    fetch(`/api/market?_=${Date.now()}`,{cache:"no-store"}).catch(()=>{});
   }
 
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",start,{once:true});
