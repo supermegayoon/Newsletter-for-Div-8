@@ -1,17 +1,28 @@
 // File: /api/news.js
-// DAILY shared news cache.
-// Gemini is used at most once per 24 hours for curation.
-// All visitors see the same news-current.json.
+// Shared KST 08:00 news snapshot.
+// Normal GET only reads news-current.json.
+// Only the daily cron calls ?force=1 and invokes Gemini.
 
 const MODEL = process.env.GEMINI_MODEL || "gemini-3.5-flash-lite";
 const GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
 const FILE_PATH = "news-current.json";
-const MAX_AGE_MS = 24 * 60 * 60 * 1000;
-
 
 const OWNER = process.env.GITHUB_OWNER || "supermegayoon";
 const REPO = process.env.GITHUB_REPO || "Newsletter-for-Div-8";
 const BRANCH = process.env.GITHUB_BRANCH || "main";
+
+function kstDate(date = new Date()) {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Seoul",
+    year: "numeric", month: "2-digit", day: "2-digit"
+  }).format(date);
+}
+
+function forceAllowed(req) {
+  if (String(req.query?.force || "") !== "1") return false;
+  if (!process.env.CRON_SECRET) return true;
+  return req.headers.authorization === `Bearer ${process.env.CRON_SECRET}`;
+}
 
 async function gh(url, options={}) {
   if (!process.env.GITHUB_TOKEN) throw new Error("GITHUB_TOKEN missing");
@@ -49,12 +60,6 @@ async function saveGithubJson(path, obj, sha, message) {
     body: JSON.stringify(body)
   });
 }
-
-function ageMs(asOf) {
-  const t = new Date(asOf || 0).getTime();
-  return Number.isFinite(t) ? Date.now() - t : Number.MAX_SAFE_INTEGER;
-}
-
 
 const SEARCHES = [
   { key:"kohls", label:"Kohl's", q:'Kohl\'s apparel OR fashion OR promotion OR back-to-school OR kids OR activewear OR private label OR earnings OR stores' },
@@ -200,6 +205,8 @@ async function buildFresh(){
   return {
     ok:true,
     asOf:new Date().toISOString(),
+    generatedDateKST:kstDate(),
+    schedule:"08:00 KST",
     refreshStatus:"VERIFIED",
     stale:false,
     freshness:{
@@ -213,24 +220,46 @@ async function buildFresh(){
 
 module.exports=async function handler(req,res){
   if(req.method!=="GET")return res.status(405).json({error:"Method not allowed"});
+  res.setHeader("Cache-Control","no-store");
 
   let saved=null,sha=null;
-  try{const x=await readGithubJson(FILE_PATH);saved=x.data;sha=x.sha;}catch(e){console.error("[News cache] read failed",e);}
+  try{const x=await readGithubJson(FILE_PATH);saved=x.data;sha=x.sha;}
+  catch(e){console.error("[News cache] read failed",e);}
 
-  if(saved&&saved.refreshStatus==="VERIFIED"&&ageMs(saved.asOf)<MAX_AGE_MS){
-    res.setHeader("Cache-Control","s-maxage=900, stale-while-revalidate=1800");
-    return res.status(200).json({...saved,stale:false,servedFrom:"saved"});
+  const force=forceAllowed(req);
+
+  // Browser/page requests only read the saved daily feed.
+  if(!force && saved){
+    return res.status(200).json({...saved,servedFrom:"saved"});
+  }
+
+  if(String(req.query?.force||"")==="1" && !force){
+    return res.status(401).json({error:"Unauthorized forced refresh"});
+  }
+
+  if(!force && !saved){
+    return res.status(503).json({error:"No saved news exists yet. Run /api/daily-update once."});
   }
 
   try{
     const fresh=await buildFresh();
-    try{await saveGithubJson(FILE_PATH,fresh,sha,`Daily news refresh ${new Date().toISOString().slice(0,10)}`);}catch(e){console.error("[News cache] save failed",e);}
-    res.setHeader("Cache-Control","s-maxage=900, stale-while-revalidate=1800");
+    try{
+      await saveGithubJson(FILE_PATH,fresh,sha,`Daily news refresh ${fresh.generatedDateKST} KST`);
+    }catch(e){
+      console.error("[News cache] save failed",e);
+      fresh.saveWarning=e.message;
+    }
     return res.status(200).json({...fresh,servedFrom:"fresh"});
   }catch(e){
     console.error("[News cache] refresh failed",e);
     if(saved){
-      return res.status(200).json({...saved,stale:true,refreshStatus:"STALE_FALLBACK",refreshError:e.message,servedFrom:"stale"});
+      return res.status(200).json({
+        ...saved,
+        stale:true,
+        refreshStatus:"STALE_FALLBACK",
+        refreshError:e.message,
+        servedFrom:"stale"
+      });
     }
     return res.status(503).json({error:e?.message||"News refresh failed"});
   }

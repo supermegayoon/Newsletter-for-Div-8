@@ -1,17 +1,35 @@
 // File: /api/ai.js
-// DAILY shared AI Market Insight cache.
-// Gemini is used at most once per 24 hours.
-// Every visitor sees the same ai-current.json result.
+// Shared KST 08:00 AI Market Insight.
+// GET only reads ai-current.json.
+// POST creates a result only when today's KST result is missing,
+// while the daily cron can force a refresh using ?force=1.
 
 const MODEL=process.env.GEMINI_MODEL||"gemini-3.5-flash-lite";
 const GEMINI_BASE="https://generativelanguage.googleapis.com/v1beta/models";
 const FILE_PATH="ai-current.json";
-const MAX_AGE_MS=24*60*60*1000;
-
 
 const OWNER = process.env.GITHUB_OWNER || "supermegayoon";
 const REPO = process.env.GITHUB_REPO || "Newsletter-for-Div-8";
 const BRANCH = process.env.GITHUB_BRANCH || "main";
+
+function kstDate(date = new Date()) {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Seoul",
+    year: "numeric", month: "2-digit", day: "2-digit"
+  }).format(date);
+}
+
+function savedKstDate(saved) {
+  if (saved?.generatedDateKST) return saved.generatedDateKST;
+  if (!saved?.asOf) return null;
+  try { return kstDate(new Date(saved.asOf)); } catch { return null; }
+}
+
+function forceAllowed(req) {
+  if (String(req.query?.force || "") !== "1") return false;
+  if (!process.env.CRON_SECRET) return true;
+  return req.headers.authorization === `Bearer ${process.env.CRON_SECRET}`;
+}
 
 async function gh(url, options={}) {
   if (!process.env.GITHUB_TOKEN) throw new Error("GITHUB_TOKEN missing");
@@ -50,12 +68,6 @@ async function saveGithubJson(path, obj, sha, message) {
   });
 }
 
-function ageMs(asOf) {
-  const t = new Date(asOf || 0).getTime();
-  return Number.isFinite(t) ? Date.now() - t : Number.MAX_SAFE_INTEGER;
-}
-
-
 function clean(v,max=1600){return String(v??"").replace(/\s+/g," ").trim().slice(0,max);}
 function normNews(n){
   if(!Array.isArray(n))return[];
@@ -69,7 +81,13 @@ function normNews(n){
 function normMarket(m){
   if(!m||typeof m!=="object")return{};
   const allowed=["KSS","ANF","M","KRW=X","CTZ26.NYB","CL=F","BZ=F"],out={};
-  for(const s of allowed){const d=m[s];if(!d)continue;out[s]={price:Number.isFinite(Number(d.price))?Number(d.price):null,changePct:Number.isFinite(Number(d.changePct))?Number(d.changePct):null};}
+  for(const s of allowed){
+    const d=m[s];if(!d)continue;
+    out[s]={
+      price:Number.isFinite(Number(d.price))?Number(d.price):null,
+      changePct:Number.isFinite(Number(d.changePct))?Number(d.changePct):null
+    };
+  }
   return out;
 }
 function extract(d){return(d?.candidates?.[0]?.content?.parts||[]).map(p=>p?.text||"").join("\n").trim();}
@@ -137,48 +155,78 @@ News: ${JSON.stringify(news)}
   });
   const j=await r.json();
   if(!r.ok)throw new Error(j?.error?.message||`Gemini ${r.status}`);
-  let insight;try{insight=JSON.parse(strip(extract(j)));}catch{throw new Error("Gemini JSON parsing failed");}
-  return {ok:true,asOf:new Date().toISOString(),refreshStatus:"VERIFIED",stale:false,provider:"Google Gemini",model:MODEL,insight};
+  let insight;
+  try{insight=JSON.parse(strip(extract(j)));}
+  catch{throw new Error("Gemini JSON parsing failed");}
+
+  return {
+    ok:true,
+    asOf:new Date().toISOString(),
+    generatedDateKST:kstDate(),
+    schedule:"08:00 KST",
+    refreshStatus:"VERIFIED",
+    stale:false,
+    provider:"Google Gemini",
+    model:MODEL,
+    insight
+  };
 }
 
 module.exports=async function handler(req,res){
   let saved=null,sha=null;
-  try{const x=await readGithubJson(FILE_PATH);saved=x.data;sha=x.sha;}catch(e){console.error("[AI cache] read failed",e);}
+  try{const x=await readGithubJson(FILE_PATH);saved=x.data;sha=x.sha;}
+  catch(e){console.error("[AI cache] read failed",e);}
 
   if(req.method==="GET"){
+    res.setHeader("Cache-Control","no-store");
     if(saved){
       return res.status(200).json({
         ...saved,
-        stale:ageMs(saved.asOf)>=MAX_AGE_MS,
-        nextRefreshAt:new Date(new Date(saved.asOf).getTime()+MAX_AGE_MS).toISOString(),
+        generatedDateKST:savedKstDate(saved),
+        stale:savedKstDate(saved)!==kstDate(),
         servedFrom:"saved"
       });
     }
-    return res.status(503).json({error:"No saved AI insight exists yet."});
+    return res.status(503).json({error:"No saved AI insight exists yet. Run /api/daily-update once."});
   }
 
   if(req.method!=="POST")return res.status(405).json({error:"Method not allowed"});
 
-  if(saved&&saved.refreshStatus==="VERIFIED"&&ageMs(saved.asOf)<MAX_AGE_MS){
+  const force=forceAllowed(req);
+  if(String(req.query?.force||"")==="1" && !force){
+    return res.status(401).json({error:"Unauthorized forced refresh"});
+  }
+
+  // Manual button: one result per KST date.
+  if(!force && saved && savedKstDate(saved)===kstDate() && saved.refreshStatus==="VERIFIED"){
     return res.status(200).json({
-      ...saved,stale:false,
-      nextRefreshAt:new Date(new Date(saved.asOf).getTime()+MAX_AGE_MS).toISOString(),
+      ...saved,
+      generatedDateKST:savedKstDate(saved),
+      stale:false,
       servedFrom:"saved"
     });
   }
 
   try{
     const fresh=await generate(req.body||{});
-    try{await saveGithubJson(FILE_PATH,fresh,sha,`Daily AI insight ${new Date().toISOString().slice(0,10)}`);}catch(e){console.error("[AI cache] save failed",e);}
-    return res.status(200).json({
-      ...fresh,
-      nextRefreshAt:new Date(new Date(fresh.asOf).getTime()+MAX_AGE_MS).toISOString(),
-      servedFrom:"fresh"
-    });
+    try{
+      await saveGithubJson(FILE_PATH,fresh,sha,`Daily AI insight ${fresh.generatedDateKST} KST`);
+    }catch(e){
+      console.error("[AI cache] save failed",e);
+      fresh.saveWarning=e.message;
+    }
+    return res.status(200).json({...fresh,servedFrom:"fresh"});
   }catch(e){
     console.error("[AI cache] refresh failed",e);
     if(saved){
-      return res.status(200).json({...saved,stale:true,refreshStatus:"STALE_FALLBACK",refreshError:e.message,servedFrom:"stale"});
+      return res.status(200).json({
+        ...saved,
+        generatedDateKST:savedKstDate(saved),
+        stale:true,
+        refreshStatus:"STALE_FALLBACK",
+        refreshError:e.message,
+        servedFrom:"stale"
+      });
     }
     return res.status(503).json({error:e?.message||"AI refresh failed"});
   }

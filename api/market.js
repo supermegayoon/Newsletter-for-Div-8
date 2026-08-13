@@ -1,13 +1,7 @@
 // File: /api/market.js
-// 8담당 Newsletter — KST 08:00 shared daily market snapshot.
-//
-// Behavior
-// 1) Before 08:00 KST: serve the latest saved snapshot.
-// 2) After 08:00 KST: the FIRST request refreshes Yahoo once for that KST day.
-// 3) Successful data is saved to market-current.json in GitHub.
-// 4) Everyone else sees the same saved snapshot all day.
-// 5) If Yahoo fails, keep the last successful value instead of showing "조회 불가".
-// 6) No Gemini API is used.
+// Shared KST 08:00 market snapshot.
+// Normal page requests only READ the saved GitHub snapshot.
+// Only /api/daily-update calls ?force=1 to create today's snapshot.
 
 const DEFAULT_SYMBOLS = [
   "KSS", "ANF", "M", "KRW=X", "CTZ26.NYB", "CL=F", "BZ=F"
@@ -17,29 +11,30 @@ const OWNER = process.env.GITHUB_OWNER || "supermegayoon";
 const REPO = process.env.GITHUB_REPO || "Newsletter-for-Div-8";
 const BRANCH = process.env.GITHUB_BRANCH || "main";
 const FILE_PATH = "market-current.json";
-const REFRESH_HOUR_KST = 8;
 
 function safeNumber(v) {
   return typeof v === "number" && Number.isFinite(v) ? v : null;
 }
 
-function kstParts(date = new Date()) {
-  const parts = new Intl.DateTimeFormat("en-CA", {
+function kstDate(date = new Date()) {
+  return new Intl.DateTimeFormat("en-CA", {
     timeZone: "Asia/Seoul",
-    year: "numeric", month: "2-digit", day: "2-digit",
-    hour: "2-digit", hourCycle: "h23"
-  }).formatToParts(date);
-  const o = Object.fromEntries(parts.map(p => [p.type, p.value]));
-  return { date: `${o.year}-${o.month}-${o.day}`, hour: Number(o.hour) };
+    year: "numeric", month: "2-digit", day: "2-digit"
+  }).format(date);
 }
 
-function snapshotIsCurrent(snapshot) {
-  if (!snapshot?.snapshotDateKST) return false;
-  const now = kstParts();
-  // Once today's 08:00 KST has passed, require today's snapshot.
-  if (now.hour >= REFRESH_HOUR_KST) return snapshot.snapshotDateKST === now.date;
-  // Before 08:00 KST, yesterday/latest snapshot remains valid.
-  return true;
+function nyDateFromUnix(ts) {
+  if (!ts) return null;
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/New_York",
+    year: "numeric", month: "2-digit", day: "2-digit"
+  }).format(new Date(ts * 1000));
+}
+
+function forceAllowed(req) {
+  if (String(req.query?.force || "") !== "1") return false;
+  if (!process.env.CRON_SECRET) return true;
+  return req.headers.authorization === `Bearer ${process.env.CRON_SECRET}`;
 }
 
 async function fetchYahooChart(symbol) {
@@ -63,13 +58,18 @@ async function fetchYahooChart(symbol) {
 
   const meta = result.meta || {};
   const closes = result?.indicators?.quote?.[0]?.close || [];
-  const validCloses = closes.filter(v => typeof v === "number" && Number.isFinite(v));
+  const timestamps = result?.timestamp || [];
 
-  // For a daily morning snapshot, prefer the latest completed daily close.
-  // Yahoo's regularMarketPrice can be stale/after-hours depending on the asset.
-  let price = validCloses.length ? validCloses[validCloses.length - 1] : safeNumber(meta.regularMarketPrice);
-  let previousClose = validCloses.length >= 2
-    ? validCloses[validCloses.length - 2]
+  const valid = [];
+  closes.forEach((v, i) => {
+    if (typeof v === "number" && Number.isFinite(v)) {
+      valid.push({ price: v, ts: timestamps[i] || null });
+    }
+  });
+
+  let price = valid.length ? valid[valid.length - 1].price : safeNumber(meta.regularMarketPrice);
+  let previousClose = valid.length >= 2
+    ? valid[valid.length - 2].price
     : (safeNumber(meta.previousClose) ?? safeNumber(meta.chartPreviousClose));
 
   const changePct =
@@ -77,8 +77,14 @@ async function fetchYahooChart(symbol) {
       ? ((price - previousClose) / previousClose) * 100
       : null;
 
+  const latestTs = valid.length ? valid[valid.length - 1].ts : meta.regularMarketTime;
+
   return {
-    symbol, price, previousClose, changePct,
+    symbol,
+    price,
+    previousClose,
+    changePct,
+    dataDate: nyDateFromUnix(latestTs),
     currency: meta.currency || null,
     exchangeName: meta.exchangeName || null,
     marketState: meta.marketState || null,
@@ -115,7 +121,6 @@ async function readSaved() {
     const content = Buffer.from(String(json.content || "").replace(/\n/g, ""), "base64").toString("utf8");
     return { data: JSON.parse(content), sha: json.sha };
   } catch (e) {
-    // First deployment may not have market-current.json yet.
     return { data: null, sha: null, error: e.message };
   }
 }
@@ -148,7 +153,6 @@ async function buildSnapshot(symbols, previous) {
     if (result.status === "fulfilled" && result.value?.price != null) {
       data[symbol] = result.value;
     } else if (previous?.data?.[symbol]?.price != null) {
-      // Critical fallback: retain last successful symbol value.
       data[symbol] = previous.data[symbol];
       errors[symbol] = `${result.reason?.message || "Refresh failed"}; retained previous snapshot`;
     } else {
@@ -157,17 +161,21 @@ async function buildSnapshot(symbols, previous) {
     }
   });
 
-  const now = kstParts();
   const okCount = Object.values(data).filter(x => x?.price != null).length;
-
   if (!okCount) throw new Error("No market data and no saved fallback available");
+
+  // U.S. retail stocks share the relevant previous U.S. trading date.
+  const marketDataDate =
+    data.KSS?.dataDate || data.ANF?.dataDate || data.M?.dataDate || null;
 
   return {
     ok: true,
     source: "Yahoo Finance daily snapshot",
     schedule: "08:00 KST",
-    snapshotDateKST: now.date,
+    snapshotDateKST: kstDate(),
+    marketDataDate,
     updatedAt: new Date().toISOString(),
+    status: "success",
     data,
     errors
   };
@@ -179,22 +187,34 @@ module.exports = async function handler(req, res) {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
-  // CDN may serve the same result for an hour; underlying GitHub snapshot is daily.
-  res.setHeader("Cache-Control", "s-maxage=3600, stale-while-revalidate=21600");
+  res.setHeader("Cache-Control", "no-store");
 
-  const requested = String(req.query.symbols || "")
+  const requested = String(req.query?.symbols || "")
     .split(",").map(s => s.trim()).filter(Boolean);
   const symbols = requested.length ? requested.slice(0, 12) : DEFAULT_SYMBOLS;
 
   const saved = await readSaved();
+  const force = forceAllowed(req);
 
-  // Normal path: today's shared snapshot already exists.
-  if (saved.data && snapshotIsCurrent(saved.data)) {
+  // Normal browser request: NEVER hits Yahoo. Read the saved daily snapshot only.
+  if (!force && saved.data) {
     return res.status(200).json({
       ...saved.data,
       servedFrom: "saved",
       sharedSnapshot: true
     });
+  }
+
+  // Bootstrap fallback when no saved file exists yet.
+  if (!force && !saved.data) {
+    return res.status(503).json({
+      ok: false,
+      error: "No saved market snapshot exists yet. Run /api/daily-update once."
+    });
+  }
+
+  if (String(req.query?.force || "") === "1" && !force) {
+    return res.status(401).json({ error: "Unauthorized forced refresh" });
   }
 
   try {
@@ -203,7 +223,6 @@ module.exports = async function handler(req, res) {
     try {
       await saveSnapshot(fresh, saved.sha);
     } catch (saveError) {
-      // Data is still usable even if GitHub write fails.
       fresh.saveWarning = saveError.message;
     }
 
@@ -217,6 +236,7 @@ module.exports = async function handler(req, res) {
       return res.status(200).json({
         ...saved.data,
         stale: true,
+        status: "stale_fallback",
         servedFrom: "stale",
         refreshError: refreshError.message,
         sharedSnapshot: true
