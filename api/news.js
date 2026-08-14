@@ -174,6 +174,18 @@ IMPORTANT KOREAN WRITING STYLE:
   promotion, store, category, inventory, traffic, comp, guidance, outlook,
   E-commerce, Marketplace, Partnership, Expansion, activewear, denim,
   private brand, wholesale, sell-through, chase, reorder, FOB, lead time.
+
+- STRICT transliteration rule: prefer the original English for these terms instead of Hangul:
+  Holiday (not 홀리데이), exclusive (not 익스클루시브), merchandise (not 머신다이즈/머천다이즈),
+  Parade (not 퍼레이드), offline store (not 오프라인 매장/오프라인 store),
+  Collaboration (not 콜라보레이션), retail (not 리테일), promotion (not 프로모션),
+  category (not 카테고리 when used as an industry label), activewear (not 액티브웨어),
+  partnership (not 파트너십 when used as a business label).
+- Prefer official English event names where known, e.g. "Thanksgiving Day Parade".
+- Good example:
+  "Macy's, 100주년 Parade 기념 exclusive Disney Capsule Collection 출시"
+  "Macy's가 Thanksgiving Day Parade 100주년을 기념해 exclusive Disney Capsule Collection과 Holiday merchandise를 공개했습니다."
+
 - Do NOT overuse English for ordinary concepts that sound more natural in Korean.
 - The Korean output should sound like a Korean apparel sales/merchandising manager speaking naturally in a business meeting.
 - Keep sentences concise and easy to scan.
