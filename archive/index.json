@@ -1,8 +1,9 @@
 {
   "dates": [
+    "2026-08-14",
     "2026-08-13"
   ],
-  "updatedAt": "2026-08-14T06:06:43.201Z",
+  "updatedAt": "2026-08-14T23:25:04.715Z",
   "retentionDays": 365,
-  "cutoffDateKST": "2025-08-14"
+  "cutoffDateKST": "2025-08-15"
 }
