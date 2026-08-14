@@ -140,8 +140,9 @@ function stripFence(t){return String(t||"").replace(/^```json\s*/i,"").replace(/
 
 async function curate(raw){
   if(!process.env.GEMINI_API_KEY)throw new Error("GEMINI_API_KEY missing");
+
   const prompt=`
-You curate a daily retail/apparel news feed for an apparel-vendor sales team.
+You curate a daily retail/apparel news feed for a Korean apparel-vendor sales team.
 
 TODAY: ${new Date().toISOString()}
 INPUT WINDOW: maximum 30 days.
@@ -156,9 +157,26 @@ Kohl's, A&F/Hollister, Macy's, Ann Taylor, Talbot's, Pair of Thieves,
 plus actionable U.S. apparel/retail/product trend signals.
 
 Prioritize:
-promotion, seasonal programs, category/product launches, collaboration, wholesale/channel,
+promotion, seasonal programs, category/product launches, Collaboration, wholesale/channel,
 stores, earnings, consumer demand, inventory, pricing/value, kids, activewear, denim,
 private brands, competitive positioning.
+
+IMPORTANT KOREAN WRITING STYLE:
+- Korean must remain the grammatical base, but KEEP common apparel/retail/business terms in natural English instead of mechanically transliterating them into Hangul.
+- Preserve official Brand, Product, Campaign and Collection names in their original English spelling.
+- Do NOT mechanically transliterate a common industry English term when the English itself is more natural.
+- Examples:
+  "Disney Holiday Capsule Collection" NOT "디즈니 홀리데이 캡슐 컬렉션"
+  "Collaboration" NOT "콜라보레이션"
+  "retail channel" NOT "리테일 채널"
+- Naturally keep professional terms such as:
+  Holiday season, IP, merchandise, sourcing, retail channel, margin, pricing,
+  promotion, store, category, inventory, traffic, comp, guidance, outlook,
+  E-commerce, Marketplace, Partnership, Expansion, activewear, denim,
+  private brand, wholesale, sell-through, chase, reorder, FOB, lead time.
+- Do NOT overuse English for ordinary concepts that sound more natural in Korean.
+- The Korean output should sound like a Korean apparel sales/merchandising manager speaking naturally in a business meeting.
+- Keep sentences concise and easy to scan.
 
 Avoid duplicate syndicated stories. Do not invent facts.
 
@@ -167,12 +185,12 @@ Return ONLY JSON array, max 20:
   {
     "brand":"...",
     "brandLabel":"...",
-    "category_kr":"...",
+    "category_kr":"short natural Korean/English business label",
     "category_en":"...",
     "date":"YYYY.MM.DD",
-    "title_kr":"...",
+    "title_kr":"natural Korean sentence with English industry terminology where appropriate",
     "title_en":"...",
-    "body_kr":"2문장 이내: 사실 요약 + vendor relevance",
+    "body_kr":"max 2 sentences: factual summary + vendor relevance, using natural Korean + English industry terms",
     "body_en":"max 2 sentences: fact + vendor relevance",
     "source":"publisher",
     "sourceUrl":"input link exactly",
@@ -189,9 +207,14 @@ ${JSON.stringify(raw)}
     headers:{"x-goog-api-key":process.env.GEMINI_API_KEY,"Content-Type":"application/json"},
     body:JSON.stringify({
       contents:[{role:"user",parts:[{text:prompt}]}],
-      generationConfig:{maxOutputTokens:6500,responseMimeType:"application/json"}
+      generationConfig:{
+        temperature:0.35,
+        maxOutputTokens:6500,
+        responseMimeType:"application/json"
+      }
     })
   });
+
   const j=await r.json();
   if(!r.ok)throw new Error(j?.error?.message||`Gemini ${r.status}`);
   return JSON.parse(stripFence(extractText(j)));
@@ -202,6 +225,7 @@ async function buildFresh(){
   const all=settled.flatMap(x=>x.status==="fulfilled"?x.value:[]);
   const raw=pool(dedupe(all));
   const items=await curate(raw);
+
   return {
     ok:true,
     asOf:new Date().toISOString(),
@@ -212,7 +236,8 @@ async function buildFresh(){
     freshness:{
       within72h:items.filter(x=>Number(x.ageHours)<=72).length,
       within7d:items.filter(x=>Number(x.ageHours)<=168).length,
-      total:items.length,windowDays:30
+      total:items.length,
+      windowDays:30
     },
     items
   };
@@ -228,7 +253,6 @@ module.exports=async function handler(req,res){
 
   const force=forceAllowed(req);
 
-  // Browser/page requests only read the saved daily feed.
   if(!force && saved){
     return res.status(200).json({...saved,servedFrom:"saved"});
   }
