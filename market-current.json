@@ -4,7 +4,7 @@
   "schedule": "08:00 KST",
   "snapshotDateKST": "2026-08-14",
   "marketDataDate": "2026-08-13",
-  "updatedAt": "2026-08-13T23:49:25.738Z",
+  "updatedAt": "2026-08-14T00:48:28.236Z",
   "status": "success",
   "data": {
     "KSS": {
@@ -45,14 +45,14 @@
     },
     "KRW=X": {
       "symbol": "KRW=X",
-      "price": 1417.949951171875,
+      "price": 1416.780029296875,
       "previousClose": 1416.4599609375,
-      "changePct": 0.10519112967999696,
+      "changePct": 0.022596357694654436,
       "dataDate": "2026-08-13",
       "currency": "KRW",
       "exchangeName": "CCY",
       "marketState": null,
-      "regularMarketTime": 1786664964,
+      "regularMarketTime": 1786668507,
       "shortName": "USD/KRW"
     },
     "CTZ26.NYB": {
@@ -69,26 +69,26 @@
     },
     "CL=F": {
       "symbol": "CL=F",
-      "price": 81.27999877929688,
+      "price": 81.20999908447266,
       "previousClose": 83.2699966430664,
-      "changePct": -2.38981379127416,
+      "changePct": -2.4738773167289163,
       "dataDate": "2026-08-13",
       "currency": "USD",
       "exchangeName": "NYM",
       "marketState": null,
-      "regularMarketTime": 1786664351,
+      "regularMarketTime": 1786667897,
       "shortName": "Crude Oil Sep 26"
     },
     "BZ=F": {
       "symbol": "BZ=F",
-      "price": 87,
+      "price": 87.01000213623047,
       "previousClose": 88.9800033569336,
-      "changePct": -2.2252228391035525,
+      "changePct": -2.2139819581717473,
       "dataDate": "2026-08-13",
       "currency": "USD",
       "exchangeName": "NYM",
       "marketState": null,
-      "regularMarketTime": 1786664248,
+      "regularMarketTime": 1786667608,
       "shortName": "Brent Crude Oil Last Day Financ"
     }
   },
