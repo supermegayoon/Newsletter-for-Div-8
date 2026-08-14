@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-08-14T02:34:43.940Z",
+  "asOf": "2026-08-14T06:06:59.687Z",
   "generatedDateKST": "2026-08-14",
   "schedule": "08:00 KST",
   "refreshStatus": "VERIFIED",
@@ -9,70 +9,70 @@
   "model": "gemini-3.5-flash-lite",
   "insight": {
     "headline": {
-      "kr": "Macy's와 Kohl's, Holiday season 대비 대규모 IP Collaboration merchandise 공개",
-      "en": "Macy's and Kohl's Unveil Major IP Collaboration Merchandise Ahead of Holiday Season"
+      "kr": "Macy's의 Thanksgiving Day Parade 100주년 exclusive Disney Capsule Collection 런칭 및 주요 buyer IP merchandise 전략",
+      "en": "Macy's Debuts Exclusive Disney Capsule Collection for Parade Centenary Alongside Major Buyer IP Strategies"
     },
     "summary": {
-      "kr": "Macy's가 Thanksgiving Day Parade 100주년을 기념하는 exclusive Disney Capsule Collection을 공개했으며, Kohl's는 Netflix 'KPop Demon Hunters' merchandise 라인업을 드랍했습니다. 주요 유통사들의 연말 IP 기반 Partnership 확장은 벤더사들의 사전 lead time 관리와 재고 chase 전략의 중요성을 보여줍니다.",
-      "en": "Macy's debuted an exclusive Disney capsule collection celebrating the 100th Thanksgiving Day Parade, while Kohl's dropped a Netflix 'KPop Demon Hunters' merchandise line. These early retail activations highlight the need for vendor alignment on lead times and chase inventory strategies."
+      "kr": "Macy's가 Thanksgiving Day Parade 100주년을 기념하는 exclusive Disney Capsule Collection과 Holiday merchandise를 공개했습니다. Kohl's는 Netflix IP 기반 collection을 확대하고 있으며, Hollister는 offline store 확장에 나서며 연말 시즌 준비를 본격화하고 있습니다.",
+      "en": "Macy's has launched an exclusive Disney capsule collection and holiday merchandise for its Thanksgiving Day Parade centennial. Meanwhile, Kohl's expanded its streaming IP merchandise offerings, and Hollister advanced its offline store expansion for the upcoming season."
     },
     "tags": [
       "#HolidaySeason",
-      "#IPCollaboration",
-      "#RetailStrategy",
-      "#InventoryChase"
+      "#IP",
+      "#Merchandise",
+      "#RetailChannel"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "Netflix 'KPop Demon Hunters' IP merchandise 드랍을 통해 젊은 세대 traffic 확보에 집중하고 있으며, 영 타겟 category 확장에 속도를 내고 있습니다.",
-        "en": "Kohl's is focusing on driving youth traffic and expanding young-demographic categories through the drop of Netflix 'KPop Demon Hunters' merchandise."
+        "kr": "Netflix 'KPop Demon Hunters' IP 기반의 대규모 merchandise collection을 출시하며 스트리밍 콘텐츠 IP 접목을 가속화하고 있습니다.",
+        "en": "Accelerated streaming content integration by launching a large-scale merchandise collection based on Netflix's 'KPop Demon Hunters'."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "북아일랜드 offline store 추가 오픈 및 인도 벵갈루루 Global Capability Center 가동을 통해 글로벌 오퍼레이션 효율성과 retail 접점을 동시에 강화하고 있습니다.",
-        "en": "A&F / Hollister is strengthening global operational efficiency and retail touchpoints via a new Northern Irish store opening and its Bengaluru Global Capability Center."
+        "kr": "Northern Ireland에 두 번째 offline store 오픈을 확정하는 등 Gen Z 타겟 offline retail channel 공략을 강화하고 있습니다.",
+        "en": "Strengthened targeting of Gen Z through offline retail channel expansion, confirming a second store opening in Northern Ireland."
       },
       {
         "buyer": "Macy's",
-        "kr": "Thanksgiving Day Parade 100주년 기념 exclusive Disney Capsule Collection을 선보이며 연말 Holiday merchandise 판매를 선제적으로 리드하고 있습니다.",
-        "en": "Macy's is taking an early lead in holiday merchandise sales by launching an exclusive Disney capsule collection for the 100th Thanksgiving Day Parade."
+        "kr": "Thanksgiving Day Parade 100주년 기념 exclusive Disney Capsule Collection과 Holiday merchandise를 대거 선보였습니다.",
+        "en": "Unveiled an exclusive Disney capsule collection and extensive holiday merchandise to celebrate the 100th anniversary of the Thanksgiving Day Parade."
       }
     ],
     "opportunities": [
       {
-        "kr": "Macy's의 Parade 100주년 기념 exclusive Disney Capsule Collection 런칭에 맞춘 Holiday merchandise reorder 및 추가 디자인 제안 기회 활용",
-        "en": "Capitalize on Macy's Parade 100th anniversary exclusive Disney collection by proposing holiday merchandise reorders and design extensions."
+        "kr": "Macy's의 Parade 100주년 기념 exclusive Disney Capsule Collection 런칭에 발맞춘 IP 기반 Holiday merchandise chase 제안",
+        "en": "Proposing IP-driven holiday merchandise chase aligned with Macy's exclusive Disney capsule launch for the parade centenary."
       },
       {
-        "kr": "Kohl's의 OTT 기반 IP Collaboration 트렌드에 발맞춘 차세대 streaming IP 연계 머천다이징 선제 기획",
-        "en": "Proactively plan streaming-IP-driven merchandising aligned with Kohl's OTT collaboration strategy."
+        "kr": "Kohl's의 streaming entertainment IP 확장 기조에 맞춘 캐릭터 및 엔터테인먼트 merchandise category 선제 제안",
+        "en": "Proactively pitching character and entertainment merchandise categories matching Kohl's streaming entertainment IP expansion trend."
       },
       {
-        "kr": "A&F의 글로벌 오퍼레이션 인프라 확대 기조에 발맞춘 안정적인 FOB 제안 및 lead time 단축 방안 검토",
-        "en": "Align with A&F's global operations expansion by proposing stable FOB structures and reduced lead times."
+        "kr": "Hollister의 신규 offline store 오픈 및 A&F의 인도 Global Capability Center 설립에 따른 Sourcing 및 운영 효율성 극대화",
+        "en": "Maximizing sourcing and operational efficiency leveraging Hollister's new store openings and A&F's new Global Capability Center in India."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "연말 Holiday merchandise 선제 드랍에 따른 벤더사들의 초기 lead time 압박 및 cotton 등 원자재 가격 변동성에 대한 철저한 모니터링 필요",
-      "en": "Moderate pressure on vendor lead times due to early holiday merchandise drops, alongside raw material price volatility, requires close monitoring."
+      "kr": "주요 buyer들의 IP 중심 연말 merchandise 기획이 가속화되는 반면, 환율 변동성 및 원면 가격의 미세한 하락세 속에서 타이트한 FOB margin 방어가 요구됩니다.",
+      "en": "While buyers accelerate IP-driven holiday merchandise planning, tight FOB margin defense is required amid currency volatility and slight cotton price softening."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Macy's Holiday merchandise 및 exclusive Disney Capsule Collection sell-through 모니터링 및 추가 reorder 물량 사전 확보",
-        "en": "Monitor sell-through for Macy's holiday merchandise and exclusive Disney capsule collection to secure early reorder capacity."
+        "kr": "Macy's의 exclusive Holiday merchandise 및 Disney Capsule 기획 사양 분석 후 당사 sourcing 제안서 업데이트",
+        "en": "Analyze Macy's exclusive holiday merchandise and Disney capsule specs, then update our sourcing proposals."
       },
       {
         "owner": "Team 8",
-        "kr": "Kohl's IP merchandise 라인업 반응 분석 후 당사 activewear 및 casual category 적용 방안 검토",
-        "en": "Analyze consumer response to Kohl's IP merchandise line and evaluate integration into our activewear and casual categories."
+        "kr": "Kohl's의 streaming IP merchandise 트렌드를 반영한 가을/겨울 activewear 및 casual category reorder 물량 점검",
+        "en": "Review fall/winter activewear and casual category reorder volumes reflecting Kohl's streaming IP merchandise trends."
       },
       {
         "owner": "Team 8",
-        "kr": "Holiday season 대비 주요 바이어별 벤더 sourcing 일정 및 lead time 점검",
-        "en": "Review vendor sourcing schedules and lead times for key buyers ahead of the holiday season."
+        "kr": "Hollister의 offline store 확장 추이에 발맞춘 매장 배송 리드 타임 및 inventory 현황 실시간 모니터링",
+        "en": "Monitor store delivery lead times and inventory status in real-time aligned with Hollister's offline store expansion pace."
       }
     ]
   }
