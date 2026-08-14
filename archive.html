@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>8담당 DAILY MARKET BRIEF · Archive</title>
+  <style>
+    :root{--bg:#f5f7fb;--panel:#fff;--text:#172033;--muted:#778196;--line:#e4e8f0;--accent:#3267d6;--up:#0f9d58;--down:#d93025}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,"Malgun Gothic",sans-serif}
+    .wrap{max-width:1080px;margin:0 auto;padding:32px 20px 70px}
+    .top{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:28px}
+    .back{color:var(--accent);text-decoration:none;font-weight:800;font-size:13px}
+    .lang button{border:1px solid var(--line);background:var(--panel);padding:7px 10px;border-radius:8px;cursor:pointer}
+    .hero,.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;box-shadow:0 8px 24px rgba(25,42,70,.05)}
+    .hero{padding:26px 28px;margin-bottom:18px}
+    .eyebrow{font-size:10px;letter-spacing:.12em;font-weight:900;color:var(--accent)}
+    .issue{font-size:12px;color:var(--muted);margin-top:8px;font-weight:700}
+    h1{font-size:30px;line-height:1.25;margin:12px 0 10px}
+    .summary{font-size:14px;line-height:1.7;color:#4b5568}
+    .section-title{font-size:18px;font-weight:900;margin:28px 0 12px}
+    .panel{padding:20px;margin-bottom:14px}
+    .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .market-card{background:#fafbfe;border:1px solid var(--line);border-radius:12px;padding:14px}
+    .label{font-size:11px;color:var(--muted);font-weight:800}
+    .price{font-size:22px;font-weight:900;margin-top:7px}
+    .delta{font-size:11px;font-weight:800;margin-top:4px}.up{color:var(--up)}.down{color:var(--down)}
+    .ai-row,.news-card,.action-row{padding:12px 0;border-bottom:1px solid var(--line)}
+    .ai-row:last-child,.news-card:last-child,.action-row:last-child{border-bottom:0}
+    .buyer{font-weight:900;font-size:13px;margin-bottom:5px}
+    .body{font-size:13px;line-height:1.65;color:#485266}
+    .meta{font-size:10px;color:var(--muted);margin-bottom:5px}
+    .news-title{font-weight:900;font-size:14px;margin-bottom:6px}
+    .source a{font-size:10px;color:var(--accent);text-decoration:none}
+    .risk{font-weight:900}
+    .empty{padding:26px;color:var(--muted);text-align:center}
+    @media(max-width:760px){.grid3{grid-template-columns:1fr}.wrap{padding:20px 12px 50px}h1{font-size:24px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <a class="back" href="/">← 현재 브리프로 돌아가기</a>
+      <div class="lang"><button id="kr">한국어</button><button id="en">English</button></div>
+    </div>
+    <div id="app"><div class="empty">지난 브리프를 불러오는 중…</div></div>
+  </div>
+  <script src="/archive-page.js?v=20260814"></script>
+</body>
+</html>
