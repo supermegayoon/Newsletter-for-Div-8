@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-08-14T08:03:01.787Z",
+  "asOf": "2026-08-14T08:33:34.513Z",
   "generatedDateKST": "2026-08-14",
   "schedule": "08:00 KST",
   "refreshStatus": "VERIFIED",
@@ -9,70 +9,70 @@
   "model": "gemini-3.5-flash-lite",
   "insight": {
     "headline": {
-      "kr": "Macy's의 Thanksgiving Day Parade 100주년 exclusive Disney Capsule Collection 및 Kohl's의 IP merchandise 확장",
-      "en": "Macy's Debuts Exclusive Disney Capsule Collection for Parade Centenary & Kohl's Expands IP Merchandise Assortment"
+      "kr": "Macy's와 Kohl's의 대형 IP 기반 merchandise 확장 및 Hollister의 offline store 성장세 주목",
+      "en": "Major IP-Driven Merchandise Expansion by Macy's and Kohl's, Alongside Hollister's Offline Store Growth"
     },
     "summary": {
-      "kr": "Macy's가 Thanksgiving Day Parade 100주년을 기념하는 exclusive Disney capsule collection을 런칭했습니다. 동시에 Kohl's는 인기 streaming IP를 활용한 merchandise를 대거 선보이며 연말 Holiday 시즌 준비에 박차를 가하고 있습니다.",
-      "en": "Macy's has launched an exclusive Disney capsule collection celebrating its Thanksgiving Day Parade centenary. Concurrently, Kohl's is aggressively expanding its holiday merchandise assortment by introducing major streaming IP-inspired collections."
+      "kr": "Macy's와 Kohl's가 각각 대규모 IP를 활용한 exclusive collection과 holiday merchandise 기획을 강화하고 있습니다. 한편 Hollister는 전략적 offline retail channel 확장을 지속하며 Gen Z 고객 접점을 넓히고 있습니다.",
+      "en": "Macy's and Kohl's are ramping up exclusive collections and holiday merchandise assortments leveraging major entertainment IPs. Meanwhile, Hollister continues to expand its strategic offline retail channel presence to capture Gen Z consumers."
     },
     "tags": [
-      "#Holiday",
-      "#IP",
-      "#Merchandise",
-      "#Exclusive"
+      "#IPmerchandise",
+      "#HolidaySeason",
+      "#RetailExpansion",
+      "#Activewear"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "Netflix의 인기 IP 'KPop Demon Hunters'를 접목한 대규모 merchandise collection을 공개하며 Gen Z 타겟 category 확장에 집중하고 있습니다.",
-        "en": "Kohl's is focusing on expanding its Gen Z-targeted categories by dropping a major merchandise collection inspired by Netflix's hit IP 'KPop Demon Hunters'."
+        "kr": "Netflix IP인 'KPop Demon Hunters'를 접목한 대규모 merchandise collection을 출시하며 young consumer들의 유입을 적극 유도하고 있습니다.",
+        "en": "Kohl's has launched a major merchandise collection inspired by Netflix's 'KPop Demon Hunters', actively driving young consumer traffic."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "Hollister가 Northern Ireland의 The Boulevard에 두 번째 offline store 오픈을 확정하며 영수요 타겟 retail channel 확장을 지속하고 있습니다.",
-        "en": "Hollister has confirmed its second Northern Irish store at The Boulevard, demonstrating continued expansion of its offline retail channels for youth demographics."
+        "kr": "Northern Ireland에 두 번째 offline store 오픈을 확정하는 등 Gen Z 타겟의 targeted offline retail channel 확장에 주력하고 있습니다.",
+        "en": "Hollister is focusing on targeted offline retail channel expansion for Gen Z, confirming a second store opening in Northern Ireland."
       },
       {
         "buyer": "Macy's",
-        "kr": "Thanksgiving Day Parade 100주년을 맞아 exclusive Disney capsule collection과 holiday merchandise를 전면 배치해 연말 고객 traffic 선점에 나섰습니다.",
-        "en": "Macy's is driving year-end customer traffic by rolling out an exclusive Disney capsule collection and holiday merchandise for the Thanksgiving Day Parade centenary."
+        "kr": "Thanksgiving Day Parade 100주년을 기념하는 exclusive Disney Capsule Collection과 holiday merchandise 라인업을 공개하며 연말 시즌 몰이에 나섰습니다.",
+        "en": "Macy's has unveiled an exclusive Disney capsule collection and holiday merchandise line celebrating the 100th anniversary of its Thanksgiving Day Parade."
       }
     ],
     "opportunities": [
       {
-        "kr": "주요 buyer들의 연말 Holiday 시즌용 IP 콜라보 및 캐릭터 merchandise 기획 물량에 대한 선제적인 reorder 대응 체계를 구축해야 합니다.",
-        "en": "We must establish proactive reorder response systems for major buyers' year-end holiday IP collaboration and character merchandise lines."
+        "kr": "Macy's와 Kohl's의 IP 중심 merchandise 전략에 발맞추어, 당사 주력 category 내 참신한 IP 콜라보 및 holiday 시즌 기획 제안을 선제적으로 준비해야 합니다.",
+        "en": "We should proactively prepare fresh IP collaboration and holiday season proposals aligned with Macy's and Kohl's IP-driven merchandise strategies."
       },
       {
-        "kr": "Kohl's와 Macy's의 엔터테인먼트 및 문화 콘텐츠 IP 결합 상품 확대 추세에 맞춰 신규 디자인 제안의 찬스로 활용해야 합니다.",
-        "en": "We should leverage the increasing trend of entertainment IP-integrated products at Kohl's and Macy's as an opportunity for fresh design proposals."
+        "kr": "Hollister의 지속적인 offline store 확장에 맞춰 인store 머천다이징 및 빠른 reorder를 지원할 수 있는 flexible sourcing 프로세스를 점검합니다.",
+        "en": "Review flexible sourcing processes to support in-store merchandising and rapid reorders in line with Hollister's ongoing offline store expansion."
       },
       {
-        "kr": "Hollister의 offline store 확장에 발맞추어 매장 내 sell-through가 빠르게 일어나는 core category의 스톡 운영 효율성을 극대화해야 합니다.",
-        "en": "In line with Hollister's offline store expansion, we must maximize stock operation efficiency for core categories showing rapid sell-through."
+        "kr": "글로벌 activewear 시장에서 프리미엄 브랜드들의 platform exclusivity 및 retail expansion 트렌드를 분석하여 신규 바이어 제안에 활용합니다.",
+        "en": "Analyze premium brand platform exclusivity and retail expansion trends in the global activewear market for new buyer pitches."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "주요 유통사들의 Holiday 시즌 merchandise 선제 기획 경쟁이 심화되는 가운데, 환율 변동성(USD/KRW 1,412원대)과 원부자재 시황을 면밀히 모니터링해야 합니다.",
-      "en": "Amid intensifying competition among major retailers for pre-planned holiday merchandise, we must closely monitor currency volatility (USD/KRW around 1,412) and raw material market conditions."
+      "kr": "주요 바이어들의 IP 기반 Holiday merchandise 및 exclusive 라인 기획이 가속화됨에 따라, 철저한 FOB 단가 방어와 lead time 준수가 요구됩니다.",
+      "en": "As major buyers accelerate IP-based holiday merchandise and exclusive lines, strict FOB margin defense and lead time compliance are required."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Macy's 및 Kohl's의 IP 중심 Holiday merchandise sourcing 트렌드 분석 및 당사 대응 제안서 작성",
-        "en": "Analyze Macy's and Kohl's IP-driven holiday merchandise sourcing trends and prepare our response proposal."
+        "kr": "Kohl's 및 Macy's의 신규 IP merchandise 라인업 분석을 바탕으로 당사 holiday season 제안 아이템 보완",
+        "en": "Enhance our holiday season proposal items based on an analysis of Kohl's and new Macy's IP merchandise lineups."
       },
       {
         "owner": "Team 8",
-        "kr": "Hollister offline store 오픈 거점별 core category sell-through 데이터 및 재고 현황 점검",
-        "en": "Review core category sell-through data and inventory status across Hollister's offline store expansion locations."
+        "kr": "Hollister의 store 오픈 스케줄에 따른 재고 공급 일정 및 chase 물량 대응 시나리오 점검",
+        "en": "Review inventory delivery schedules and chase volume response scenarios according to Hollister's store opening timeline."
       },
       {
         "owner": "Team 8",
-        "kr": "환율 변동에 따른 주요 buyers와의 FOB 단가 및 선적 일정 조율 리스크 선제 점검",
-        "en": "Proactively review FOB pricing and shipping schedule coordination risks with major buyers following currency fluctuations."
+        "kr": "환율 변동성(USD/KRW)을 반영한 시즌별 수주 원가 분석 및 바이어별 margin 시뮬레이션 업데이트",
+        "en": "Update seasonal order cost analysis and buyer-specific margin simulations reflecting USD/KRW exchange rate volatility."
       }
     ]
   }
