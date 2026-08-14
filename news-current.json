@@ -1,45 +1,56 @@
 {
   "ok": true,
-  "asOf": "2026-08-13T23:49:33.437Z",
+  "asOf": "2026-08-14T00:48:37.853Z",
   "generatedDateKST": "2026-08-14",
   "schedule": "08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "freshness": {
-    "within72h": 4,
-    "within7d": 4,
-    "total": 4,
+    "within72h": 5,
+    "within7d": 5,
+    "total": 5,
     "windowDays": 30
   },
   "items": [
     {
       "brand": "macys",
       "brandLabel": "Macy's",
-      "category_kr": "이벤트/콜라보",
+      "category_kr": "행사/콜라보",
       "category_en": "Events/Collabs",
       "date": "2026.08.13",
-      "title_kr": "메이시스, 제100회 추수감사절 퍼레이드용 '소서러 미키' 벌룬 공개",
+      "title_kr": "메이시스, 제100회 추수감사절 퍼레이드용 '마법사의 제자 미키' 벌룬 공개",
       "title_en": "Sorcerer’s Apprentice Mickey Balloon Debuts for Macy’s 100th Parade",
-      "body_kr": "메이시스가 제100회 추수감사절 퍼레이드를 기념해 소서러 미키 벌룬과 독점 홀리데이 캡슐 컬렉션을 선보였습니다. 대형 유통사의 대형 이벤트 연계 상품 기획 및 IP 콜라보 트렌드를 보여줍니다.",
-      "body_en": "Macy's unveiled the Sorcerer's Apprentice Mickey balloon and exclusive holiday capsule collection for its 100th Thanksgiving Day Parade. This highlights major retail event-driven merchandising and IP collaboration trends.",
-      "source": "World Of Walt",
+      "body_kr": "메이시스는 제100회 추수감사절 퍼레이드를 기념하여 '마법사의 제자 미키' 캐릭터 풍선과 홀리데이 디즈니 캡슐 컬렉션을 선보였습니다. 대형 이벤트와 독점 캐릭터 협업은 연말 시즌 트래픽을 유도하는 핵심 프로모션 요소입니다.",
+      "body_en": "Macy's unveiled a Sorcerer's Apprentice Mickey balloon and holiday Disney capsule collection for its 100th Thanksgiving Day Parade. Major experiential events and exclusive character collaborations serve as critical traffic-driving promotions for the holiday season.",
+      "source": "worldofwalt.com",
       "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaVRRaW5RSmlFeDJYTlV0VHhURkVDTXJ3T1RYOUpJeUhTSUJtWUUydmZNM3ZWbk5DbGl2Q05WTmlRVXRFNmxTV0pmVEVtTExPTTF6bGxDVWtNVDVUVzV3SlZqUDQ1VXVBMnhVRnZFcFhBMmtLWXhpY0JIaHZGVFR6dFI4VlJ3MzZUYTkyT09USUdLSzNfNDI1T01R?oc=5",
-      "ageHours": 4.209703333333334
+      "ageHours": 5.193705555555556
+    },
+    {
+      "brand": "macys",
+      "brandLabel": "Macy's",
+      "category_kr": "상품/트렌드",
+      "category_en": "Product/Trend",
+      "date": "2026.08.13",
+      "title_kr": "메이시스, 50달러부터 시작하는 가을 패션 트렌드 아이템 조명",
+      "title_en": "The best fall fashion is hiding at Macy’s (and in my cart): 13 picks starting at $50",
+      "body_kr": "Macy's is highlighting a curated selection of fall fashion essentials starting at an accessible $50 price point. Vendors should align seasonal transitional apparel and value-driven sourcing strategies with these early autumn merchandising pushes.",
+      "source": "nypost.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbWJacGd2cUpVcDVjT09XN1N1VTA4dzJXRDBSWEtseUJFLXVpd2cxUm4xUlUybC1rZ19YeE1ISWRLdXo2dTNkY29rUkFmNzRhX3Z1VDdjNWxFcWZRbUhxeEVYT01GOHVMdFVReUpRN2d4T1NMbkdCY2Z5Q2R4YTVUYndLazAwajVVcm1jVUhQVFA5Wk1v?oc=5",
+      "ageHours": 5.791483055555555
     },
     {
       "brand": "kohls",
       "brandLabel": "Kohl's",
-      "category_kr": "상품/컬렉션",
-      "category_en": "Product/Collection",
+      "category_kr": "상품/콜라보",
+      "category_en": "Product/Collabs",
       "date": "2026.08.12",
-      "title_kr": "콜스, 넷플릭스 '케이팝 데몬헌터스' 영감 받은 신규 컬렉션 런칭",
-      "category_kr_en": "Product/Collection",
+      "title_kr": "콜스, 넷플릭스 'KPop Demon Hunters' 영감 받은 대규모 컬렉션 출시",
       "title_en": "Kohl's Introduces New Collection Inspired By Netflix’s KPop Demon Hunters",
-      "body_kr": "콜스가 넷플릭스 콘텐츠 IP를 활용한 대규모 'KPop Demon Hunters' 굿즈 및 어패럴 컬렉션을 단독 출시했습니다. 엔터테인먼트 IP 기반의 틴/영제너레이션 타겟 상품 소싱에 시사점을 줍니다.",
-      "body_en": "Kohl's launched a large-scale apparel and merch collection inspired by Netflix's 'KPop Demon Hunters'. It provides actionable insights for teen and youth generation targeting using entertainment IP.",
+      "body_kr": "Kohl's has launched an extensive new apparel and merchandise collection inspired by Netflix's 'KPop Demon Hunters'. Collaborating with popular streaming IPs serves as a key differentiation strategy to capture youth demographic demand during the back-to-school season.",
       "source": "Kohl's Corporate",
       "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLXlGQmVVZVR1aFU0VjQ1aklSamFCWW1WUEFYQ0E5MU13Zm1lSk1Rb1p2VjA3cWxvVVVMWTJ1WFF5bkVoU2dCa2xYWHlvcTFZYzNIRGh0MGF2TXFOdmg3ekdpcUZlLUpuSWxRb1NENmRkRDlTY19KTVMxUld3X3g0WURDYkFzeG9fSFA5ajdoUk5GQ21ray1PVkQwUlFGZ3RhT0RCdkRobw?oc=5",
-      "ageHours": 35.83137138888889
+      "ageHours": 36.81536861111111
     },
     {
       "brand": "af",
@@ -47,27 +58,25 @@
       "category_kr": "매장/유통",
       "category_en": "Stores/Channel",
       "date": "2026.08.12",
-      "title_kr": "홀리스타, 북아일랜드 북부 지역에 두 번째 매장 오픈 확정",
+      "title_kr": "홀리스타, 북아일랜드 더 불바드에 두 번째 매장 오픈 확정",
       "title_en": "The Boulevard confirms opening of Hollister's second Northern Irish store with teaser video",
-      "body_kr": "홀리스타가 티저 영상을 통해 북아일랜드에 두 번째 오프라인 매장 오픈을 공식화했습니다. Z세대 타겟 영캐주얼 브랜드의 리테일 오프라인 거점 확장 흐름을 보여줍니다.",
-      "body_en": "Hollister officially confirmed the opening of its second Northern Irish store with a teaser video. It demonstrates the ongoing physical footprint expansion of Gen Z-focused casual brands.",
+      "body_kr": "Hollister has officially confirmed the upcoming opening of its second Northern Irish store at The Boulevard via a teaser video. This physical footprint expansion reinforces the brand's localized retail presence targeting Gen Z consumers.",
       "source": "Belfast Live",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcEVRbWloTDQ4V0dQT01OSURIbkNXbkhnT1Fma2JwVUVCdThZUnZLcUVVdkZTVG15Rmd4OE5UbVlSRFF5UnpZTVFVOGd3LUpfNWI3dnBOb1dqRGx4dlJuM21ldlFfNHM3bTVwMWxWQ3ZUemxITkV0dUI2RUs3SHlvTmVkSk1zbkdiWWZGeWcxM2NwOWRmaW1zdHR0UkllcWk0bUgxSHBjWXXSAagBQVVfeXFMT3BFUW1paEw0OFdHUEOSNDklESG5DV25IZ09RZmticFVFQnU4WVJ2S3FFVXZGU1RteUZneDhOVG1ZUkRReVJ6WU1RVThndy1KXzViN3ZwTm9XakRseHZSbjNtZXZRXzRzN201cDFsVkN2VHpsSE5FdHVCNkVLN0h5b05lZEpNc25HYllmRnlnMTNjcDlkZmltc3R0dFJJZXFpNG1IMUhwY1l1?oc=5",
-      "ageHours": 29.124120277777777
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcEVRbWloTDQ4V0dQT01OSURIbkNXbkhnT1Fma2JwVUVCdThZUnZLcUVVdkZTVG15Rmd4OE5UbVlSRFF5UnpZTVFVOGd3LUpfNWI3dnBOb1dqRGx4dlJuM21ldlFfNHM3bTVwMWxWQ3ZUemxITkV0dUI2RUs3SHlvTmVkSk1zbkdiWWZGeWcxM2NwOWRmaW1zdHR0UkllcWk0bUgxSHBjWXXSAagBQVVfeXFMT3BFUW1paEw0OFdHUE9NTklESG5DV25IZ09RZmticFVFQnU4WVJ2S3FFVXZGU1RteUZneDhOVG1ZUkRReVJ6WU1RVThndy1KXzViN3ZwTm9XakRseHZSbjNtZXZRXzRzN201cDFsVkN2VHpsSE5FdHVCNkVLN0h5b05lZEpNc25HYllmRnlnMTNjcDlkZmltc3R0dFJJZXFpNG1IMUhwY1l1?oc=5",
+      "ageHours": 30.108126666666667
     },
     {
       "brand": "af",
       "brandLabel": "A&F / Hollister",
-      "category_kr": "기업/주가",
+      "category_kr": "기업/주식",
       "category_en": "Corporate/Stock",
       "date": "2026.08.11",
-      "title_kr": "바클레이즈, 관세 전망 개선 반영해 아베크롬비앤피치(A&F) 등급 상향",
-      "title_en": "Barclays upgrades Abercrombie & Fitch stock rating on tariff outlook",
-      "body_kr": "바클레이즈가 관세 환경 전망 호조를 이유로 아베크롬비앤피치의 주식 등급을 상향 조정했습니다. 매크로 및 관세 변동성이 의류 벤더의 수익성과 마진 구조에 미치는 영향을 모니터링해야 합니다.",
-      "body_en": "Barclays upgraded Abercrombie & Fitch's stock rating citing an improved tariff outlook. Vendors should monitor how macroeconomic and tariff shifts impact apparel margin structures.",
+      "title_kr": "바클레이즈, 관세 전망 개선 반영해 아베크롬비앤피치(A&F) 주가 등급 상향",
+      "title_en": "Barclays upgrades Abercrombie & Fitch stock rating on tariff outlook By Investing.com",
+      "body_kr": "Barclays has upgraded Abercrombie & Fitch's stock rating, citing improved tariff outlooks and robust brand positioning. This institutional vote of confidence signals strong margin resilience and supply chain stability for key vendor partners.",
       "source": "Investing.com South Africa",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRXQ3ZUZDX3ltZS1JVmVKNlloVWhkc2xaTkpuR2JBUFA4V2ZZbURvWnJKYWpBWUdiOTN4QWc2S21vcFgzaS1UYWFkQjJyUjFfOG1jMGVibXlIdTN1YzFzUlRTYWN6bUxvYkl5OVJHZ2ZNVlJpZFZKaXozenhrSUZGWHYydXJRR1Y3bHhweW9tdW5zNmNqZDUtbUdLVS1ZN3JQOW94ZVZIQ2JWcW1ISTdOQXlDV3BJdHFoTnVYcXJXemdCbS02R3FNdWY3cDQxb0Naa2U3UEE3bw?oc=5",
-      "ageHours": 59.98162027777778
+      "ageHours": 60.965626666666665
     }
   ]
 }
