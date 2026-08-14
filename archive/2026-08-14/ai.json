@@ -1,0 +1,79 @@
+{
+  "ok": true,
+  "asOf": "2026-08-14T08:33:34.513Z",
+  "generatedDateKST": "2026-08-14",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "insight": {
+    "headline": {
+      "kr": "Macy's와 Kohl's의 대형 IP 기반 merchandise 확장 및 Hollister의 offline store 성장세 주목",
+      "en": "Major IP-Driven Merchandise Expansion by Macy's and Kohl's, Alongside Hollister's Offline Store Growth"
+    },
+    "summary": {
+      "kr": "Macy's와 Kohl's가 각각 대규모 IP를 활용한 exclusive collection과 holiday merchandise 기획을 강화하고 있습니다. 한편 Hollister는 전략적 offline retail channel 확장을 지속하며 Gen Z 고객 접점을 넓히고 있습니다.",
+      "en": "Macy's and Kohl's are ramping up exclusive collections and holiday merchandise assortments leveraging major entertainment IPs. Meanwhile, Hollister continues to expand its strategic offline retail channel presence to capture Gen Z consumers."
+    },
+    "tags": [
+      "#IPmerchandise",
+      "#HolidaySeason",
+      "#RetailExpansion",
+      "#Activewear"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "Netflix IP인 'KPop Demon Hunters'를 접목한 대규모 merchandise collection을 출시하며 young consumer들의 유입을 적극 유도하고 있습니다.",
+        "en": "Kohl's has launched a major merchandise collection inspired by Netflix's 'KPop Demon Hunters', actively driving young consumer traffic."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "Northern Ireland에 두 번째 offline store 오픈을 확정하는 등 Gen Z 타겟의 targeted offline retail channel 확장에 주력하고 있습니다.",
+        "en": "Hollister is focusing on targeted offline retail channel expansion for Gen Z, confirming a second store opening in Northern Ireland."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "Thanksgiving Day Parade 100주년을 기념하는 exclusive Disney Capsule Collection과 holiday merchandise 라인업을 공개하며 연말 시즌 몰이에 나섰습니다.",
+        "en": "Macy's has unveiled an exclusive Disney capsule collection and holiday merchandise line celebrating the 100th anniversary of its Thanksgiving Day Parade."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "Macy's와 Kohl's의 IP 중심 merchandise 전략에 발맞추어, 당사 주력 category 내 참신한 IP 콜라보 및 holiday 시즌 기획 제안을 선제적으로 준비해야 합니다.",
+        "en": "We should proactively prepare fresh IP collaboration and holiday season proposals aligned with Macy's and Kohl's IP-driven merchandise strategies."
+      },
+      {
+        "kr": "Hollister의 지속적인 offline store 확장에 맞춰 인store 머천다이징 및 빠른 reorder를 지원할 수 있는 flexible sourcing 프로세스를 점검합니다.",
+        "en": "Review flexible sourcing processes to support in-store merchandising and rapid reorders in line with Hollister's ongoing offline store expansion."
+      },
+      {
+        "kr": "글로벌 activewear 시장에서 프리미엄 브랜드들의 platform exclusivity 및 retail expansion 트렌드를 분석하여 신규 바이어 제안에 활용합니다.",
+        "en": "Analyze premium brand platform exclusivity and retail expansion trends in the global activewear market for new buyer pitches."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "주요 바이어들의 IP 기반 Holiday merchandise 및 exclusive 라인 기획이 가속화됨에 따라, 철저한 FOB 단가 방어와 lead time 준수가 요구됩니다.",
+      "en": "As major buyers accelerate IP-based holiday merchandise and exclusive lines, strict FOB margin defense and lead time compliance are required."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Kohl's 및 Macy's의 신규 IP merchandise 라인업 분석을 바탕으로 당사 holiday season 제안 아이템 보완",
+        "en": "Enhance our holiday season proposal items based on an analysis of Kohl's and new Macy's IP merchandise lineups."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "Hollister의 store 오픈 스케줄에 따른 재고 공급 일정 및 chase 물량 대응 시나리오 점검",
+        "en": "Review inventory delivery schedules and chase volume response scenarios according to Hollister's store opening timeline."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "환율 변동성(USD/KRW)을 반영한 시즌별 수주 원가 분석 및 바이어별 margin 시뮬레이션 업데이트",
+        "en": "Update seasonal order cost analysis and buyer-specific margin simulations reflecting USD/KRW exchange rate volatility."
+      }
+    ]
+  }
+}
