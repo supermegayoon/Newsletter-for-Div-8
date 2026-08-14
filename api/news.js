@@ -232,11 +232,61 @@ ${JSON.stringify(raw)}
   return JSON.parse(stripFence(extractText(j)));
 }
 
+
+// Force common retail/apparel transliterations back to natural English.
+// Applied AFTER Gemini generation so wording stays consistent even if Gemini ignores prompt examples.
+const NATURAL_ENGLISH_REPLACEMENTS = [
+  [/머신다이즈|머천다이즈/g, "merchandise"],
+  [/홀리데이/g, "Holiday"],
+  [/익스클루시브/g, "exclusive"],
+  [/파트너십/g, "Partnership"],
+  [/오프라인/g, "offline"],
+  [/온라인/g, "online"],
+  [/프로모션/g, "promotion"],
+  [/콜라보레이션/g, "Collaboration"],
+  [/리테일/g, "retail"],
+  [/이커머스|이-커머스/g, "E-commerce"],
+  [/마켓플레이스/g, "Marketplace"],
+  [/액티브웨어/g, "activewear"],
+  [/프라이빗 브랜드/g, "private brand"],
+  [/홀세일/g, "wholesale"],
+  [/셀스루|셀-스루/g, "sell-through"],
+  [/리오더/g, "reorder"],
+  [/리드타임/g, "lead time"],
+  [/소싱/g, "sourcing"],
+  [/인벤토리/g, "inventory"],
+  [/마진/g, "margin"],
+  [/프라이싱/g, "pricing"],
+  [/카테고리/g, "category"],
+  [/스토어/g, "store"],
+  [/트래픽/g, "traffic"],
+  [/가이던스/g, "guidance"],
+  [/아웃룩/g, "outlook"],
+  [/퍼레이드/g, "Parade"]
+];
+
+function naturalEnglishPostProcess(value) {
+  if (typeof value === "string") {
+    let s = value;
+    for (const [pattern, replacement] of NATURAL_ENGLISH_REPLACEMENTS) {
+      s = s.replace(pattern, replacement);
+    }
+    return s;
+  }
+  if (Array.isArray(value)) return value.map(naturalEnglishPostProcess);
+  if (value && typeof value === "object") {
+    const out = {};
+    for (const [k, v] of Object.entries(value)) out[k] = naturalEnglishPostProcess(v);
+    return out;
+  }
+  return value;
+}
+
 async function buildFresh(){
   const settled=await Promise.allSettled(SEARCHES.map(fetchRss));
   const all=settled.flatMap(x=>x.status==="fulfilled"?x.value:[]);
   const raw=pool(dedupe(all));
-  const items=await curate(raw);
+  const items=naturalEnglishPostProcess(await curate(raw));
 
   return {
     ok:true,
