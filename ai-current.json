@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-08-14T00:59:58.975Z",
+  "asOf": "2026-08-14T01:45:23.013Z",
   "generatedDateKST": "2026-08-14",
   "schedule": "08:00 KST",
   "refreshStatus": "VERIFIED",
@@ -9,70 +9,70 @@
   "model": "gemini-3.5-flash-lite",
   "insight": {
     "headline": {
-      "kr": "콜스·메이시스 엔터 IP 콜라보 및 홀리스터 북아일랜드 매장 확장",
-      "en": "Kohl's & Macy's Push IP Collaborations While Hollister Expands Store Footprint"
+      "kr": "콜스와 메이시스의 엔터테인먼트 IP 기반 홀리데이·Z세대 단독 기획 강화",
+      "en": "Kohl's and Macy's Elevate Holiday and Gen Z Curation via Entertainment IP Partnerships"
     },
     "summary": {
-      "kr": "콜스와 메이시스가 각각 넷플릭스와 디즈니 등 엔터테인먼트 IP를 활용한 홀리데이 및 신규 컬렉션을 선보이며 트래픽 유도에 나섰습니다. 홀리스터는 북아일랜드 매장을 확장하며 견고한 오프라인 채널 성장을 증명했고, 바클레이즈는 관세 전망 호조를 이유로 A&F의 등급을 상향했습니다.",
-      "en": "Kohl's and Macy's are driving customer traffic through entertainment IP-based collections tied to Netflix and Disney respectively. Hollister expanded its store footprint in Northern Ireland, while Barclays upgraded A&F citing a favorable tariff outlook and operational resilience."
+      "kr": "콜스와 메이시스가 각각 넷플릭스와 디즈니 IP를 접목한 신규 컬렉션을 선보이며 연말 트래픽 선점에 나섰습니다. 바클레이즈가 관세 전망 개선을 이유로 A&F 투자의견을 상향한 가운데, 오프라인 유통 및 벤더들은 트렌드 맞춤형 소싱을 가속화해야 합니다.",
+      "en": "Kohl's and Macy's are driving holiday and Gen Z traffic by rolling out new collections tied to Netflix and Disney IPs. As Barclays upgrades A&F on improving tariff outlooks, vendors must align product curation with targeted entertainment and physical retail expansion signals."
     },
     "tags": [
       "#IPCollaboration",
-      "#Kohl's",
-      "#Macy's",
-      "#Hollister"
+      "#GenZApparel",
+      "#RetailExpansion",
+      "#HolidaySourcing"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "넷플릭스 'KPop Demon Hunters' 테마의 대규모 컬렉션을 론칭하며 Z세대 및 캐주얼 카테고리 수요 확보에 집중하고 있습니다.",
-        "en": "Kohl's launched an extensive collection inspired by Netflix's 'KPop Demon Hunters', focusing on capturing Gen Z and casual apparel demand."
+        "kr": "넷플릭스 'KPop Demon Hunters' 테마의 대규모 의류 및 굿즈 라인을 런칭하며 Z세대와 캐주얼 카테고리 수요 공략을 본격화했습니다.",
+        "en": "Launched an extensive apparel and merchandise line inspired by Netflix's 'KPop Demon Hunters', aggressively targeting Gen Z and casual category demand."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "북아일랜드 내 신규 매장 오픈을 확정하는 등 핵심 리테일 상권 중심의 물리적 오프라인 확장 전략을 지속하고 있습니다.",
-        "en": "Hollister continues its physical footprint expansion strategy in key regional shopping destinations, confirming a second Northern Irish store."
+        "kr": "북아일랜드 더 불바드 내 2호점 입점을 확정하는 등 핵심 리테일 상권 확장을 지속하며 오프라인 채널의 견조한 성장세를 유지하고 있습니다.",
+        "en": "Confirmed a second store opening at The Boulevard in Northern Ireland, demonstrating sustained and healthy retail channel expansion in key regional hubs."
       },
       {
         "buyer": "Macy's",
-        "kr": "100주년 퍼레이드 기념 디즈니 홀리데이 캡슐 등 독점 IP 상품을 기획하여 연말 시즌 고객 유입을 적극 도모하고 있습니다.",
-        "en": "Macy's is curating exclusive Disney holiday capsule merchandise celebrating its parade milestone to actively drive late-season customer traffic."
+        "kr": "100주년 퍼레이드 기념 디즈니 홀리데이 캡슐을 공개하는 한편, 홈 카테고리에서 공격적인 Y2K 할인 프로모션을 병행하며 시즌 트래픽을 유도하고 있습니다.",
+        "en": "Unveiled an exclusive Disney holiday capsule for its 100th parade while driving transitional shopper traffic through aggressive Y2K home lifestyle promotions."
       }
     ],
     "opportunities": [
       {
-        "kr": "대형 유통사의 트렌디한 스트리밍 및 문화 IP 기반 단독 상품 기획 트렌드에 맞춘 협업 아이템 선제 제안",
-        "en": "Proactively pitch collaborative items aligned with major retailers' trending streaming and pop-culture IP merchandising strategies."
+        "kr": "스트리밍 및 엔터테인먼트 IP(넷플릭스, 디즈니 등)를 접목한 콜라보레이션 캐주얼 상품 제안 확대",
+        "en": "Expand collaborative casual apparel proposals leveraging streaming and entertainment IPs like Netflix and Disney."
       },
       {
-        "kr": "오프라인 매장 채널을 확장 중인 홀리스터를 대상으로 지역별 특화 스토어 익스클루시브 라인업 제안",
-        "en": "Target Hollister's expanding physical channel by proposing region-specific store-exclusive product lineups."
+        "kr": "A&F의 관세 수혜 및 마진 개선 기조에 발맞춘 고부가가치 영타겟 스타일 물량 최적화",
+        "en": "Optimize high-margin, youth-targeted product volumes in line with A&F's margin resilience and favorable tariff outlook."
       },
       {
-        "kr": "시즌 전환기 홈 및 라이프스타일 카테고리의 재고 소진 프로모션에 대응하는 가성비 중심 원단 및 봉제선 최적화",
-        "en": "Optimize cost-efficient fabrics and construction to support transitional clearance and promotional needs in home and lifestyle categories."
+        "kr": "메이시스의 연말 홀리데이 캡슐 기조에 맞춘 단독 벤더 소싱 패키지 선제 제안",
+        "en": "Proactively propose exclusive vendor sourcing packages tailored to Macy's holiday capsule curation strategy."
       }
     ],
     "risk": {
-      "level": "LOW",
-      "kr": "원자재(면화) 및 국제 유가가 하락 안정세를 보이고 있으며 바클레이즈의 A&F 등급 상향 등 주요 바이어의 매크로 리스크가 완화되는 국면입니다.",
-      "en": "Cotton and crude oil prices are trending downward while macroeconomic sentiment improves, supported by favorable analyst upgrades for key apparel partners."
+      "level": "MEDIUM",
+      "kr": "면화 및 원유 가격 하락세에도 불구하고 소비재 유통사들의 재고 소진형 가격 할인 공세가 지속되면서 마진 방어를 위한 철저한 단가 및 품질 관리가 요구됩니다.",
+      "en": "Despite falling cotton and crude oil costs, ongoing aggressive promotional discounting by retailers requires strict unit-price and quality control to protect margins."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "콜스 대상 넷플릭스 등 OTT IP 연계 캐주얼 의류 후속 스타일 아이디어 구상 및 공유",
-        "en": "Brainstorm and share follow-up casual apparel style ideas linked to streaming IP for Kohl's."
+        "kr": "콜스의 Z세대 타겟 IP 기반 캐주얼 의류 라인업 확장 제안서 준비",
+        "en": "Prepare proposal for expanding IP-based casual apparel lineups targeting Kohl's Gen Z demographic."
       },
       {
         "owner": "Team 8",
-        "kr": "홀리스터 북아일랜드 매장 확장 트렌드에 맞춘 오프라인 전용 물량 납기 일정 재점검",
-        "en": "Re-verify delivery schedules for offline-exclusive volumes in line with Hollister's store expansion trend."
+        "kr": "메이시스 100주년 홀리데이 컬렉션 연계 단독 소싱 아이템 샘플링 가속화",
+        "en": "Accelerate sampling for exclusive sourcing items aligned with Macy's 100th anniversary holiday collection."
       },
       {
         "owner": "Team 8",
-        "kr": "메이시스 연말 홀리데이 캡슐 및 프로모션 상품군에 대한 원가 절감 방안 검토",
-        "en": "Review cost-reduction options for Macy's upcoming holiday capsule and promotional product categories."
+        "kr": "A&F 매장 확장 및 관세 환경 개선에 따른 F/W 시즌 납품 스케줄 점검",
+        "en": "Review F/W season delivery schedules responding to A&F's store expansion and improved tariff environment."
       }
     ]
   }
