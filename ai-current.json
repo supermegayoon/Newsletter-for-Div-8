@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-08-17T06:46:51.627Z",
+  "asOf": "2026-08-17T06:54:34.874Z",
   "generatedDateKST": "2026-08-17",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
@@ -11,70 +11,71 @@
   "competitorDateKST": "2026-08-17",
   "insight": {
     "headline": {
-      "kr": "8담당 데일리 마켓 브리프: 백투스쿨 promotion 경쟁 심화 및 IP·브랜드 협업 확대",
-      "en": "Team 8 Daily Market Brief: Intensifying Back-to-School Promotions and Expanding IP & Brand Collaborations"
+      "kr": "Team 8 데일리 마켓 브리프: 백투스쿨 promotion 경쟁 심화 및 주요 바이어 IP 콜라보 확대",
+      "en": "Team 8 Daily Market Brief: Intensified Back-to-School Promotions and Major Buyer IP Collaboration Expansion"
     },
     "summary": {
-      "kr": "백투스쿨 시즌을 맞아 Walmart와 JCPenney 등 경쟁사들이 공격적인 promotion과 실속형 상품으로 예산 제약이 큰 소비자 공략에 나섰습니다. 이에 대응하여 주요 바이어들은 IP 협업(Kohl's의 'KPop Demon Hunters', Macy's의 Disney 100주년)과 신규 브랜드 런칭을 통해 차별화를 꾀하고 있습니다.",
-      "en": "Competitors like Walmart and JCPenney are aggressively targeting budget-conscious consumers with promotions and practical products for the back-to-school season. In response, key buyers are differentiating themselves through IP collaborations (Kohl's 'KPop Demon Hunters', Macy's Disney 100th Anniversary) and new brand launches."
+      "kr": "메이시스와 콜스는 각각 Parade 100주년 및 Z세대 타깃 IP Collaboration을 발표하며 Holiday와 백투스쿨 대비에 나섰습니다. 반면 월마트와 JCPenney 등 주요 경쟁사들은 예산 중심의 공격적인 할인 공세를 펼치고 있어 가격 경쟁력 점검이 필수적입니다.",
+      "en": "Macy's and Kohl's launched IP collaborations for the holidays and back-to-school seasons, while competitors like Walmart and JCPenney lean heavily into aggressive budget promotions. Vendor teams must balance trendy merchandising with tight price and cost management."
     },
     "tags": [
+      "#Team8",
+      "#ApparelVendor",
       "#BackToSchool",
-      "#IPCollaboration",
-      "#RetailPromotions",
-      "#Team8Daily"
+      "#IPCollaboration"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "Kohl's는 Z세대를 겨냥한 'KPop Demon Hunters' IP merchandise 라인업을 대거 출시하며 category를 확장하고 있습니다. 반면, 경쟁사인 Walmart와 JCPenney는 백투스쿨 시즌을 맞아 최대 65% 할인 및 예산 중심의 자동화 쇼핑 전략을 펼치고 있어 가격 경쟁 압박이 가중되고 있습니다.",
-        "en": "Kohl's is expanding its category by dropping an extensive merchandise line featuring the 'KPop Demon Hunters' IP targeted at Gen Z. Meanwhile, competitors Walmart and JCPenney are aggressively executing back-to-school strategies with up to 65% off discounts and budget-focused shopping, increasing pricing pressure."
+        "kr": "'KPop Demon Hunters' 대규모 merchandise 라인업을 출시하며 Z세대 공략에 나섰습니다. 다만 경쟁사인 월마트(최대 65% 할인)와 JCPenney가 예산 중심의 백투스쿨 promotion을 강화하고 있어 가성비 상품군의 sell-through 모니터링이 중요합니다.",
+        "en": "Kohl's dropped a large-scale 'KPop Demon Hunters' merchandise line targeting Gen Z. However, as competitors like Walmart (up to 65% off) and JCPenney push aggressive budget-driven back-to-school promos, close monitoring of sell-through on value items is critical."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "Hollister가 북아일랜드에 두 번째 offline 매장을 확정하며 retail 영토를 확장하고 있습니다. 주류 경쟁사인 Aritzia와 Free People이 미국 내 디지털 확장 및 Z세대 맞춤형 가치 소비(리페어·핸드스티칭) 캠페인으로 마켓 모니터링을 강화하는 만큼, 당사는 트렌디한 어패럴 라인업으로 대응해야 합니다.",
-        "en": "Hollister is expanding its retail footprint with a second store opening in Northern Ireland. As main competitors Aritzia and Free People strengthen their U.S. digital expansion and Gen Z-focused value consumption campaigns, Team 8 must respond with trendy apparel lineups."
+        "kr": "북아일랜드 지역 두 번째 offline store 오픈을 확정하며 채널 확장을 지속하고 있습니다. 경쟁사인 Aritzia의 미국 내 확장 및 Free People의 Z세대 리페어 마케팅에 대응하여 차별화된 영디자이너 어피니티와 지속 가능성 요소 검토가 요구됩니다.",
+        "en": "Hollister is expanding its physical footprint with a second store in Northern Ireland. Amid Aritzia's U.S. expansion and Free People's Gen Z repair marketing, Team 8 must evaluate distinct youth affinity and sustainability elements."
       },
       {
         "buyer": "Macy's",
-        "kr": "Macy's는 Thanksgiving Day Parade 100주년 기념 exclusive Disney Capsule Collection과 'Ted by Ted Baker' 입점을 동시에 추진하며 Holiday 및 브랜드 Partnership을 강화하고 있습니다. 다만, Nordstrom의 최대 85% 할인 공세와 Dillard's의 점유율 확대에 대응하기 위한 margin 및 promotion 전략 점검이 필수적입니다.",
-        "en": "Macy's is strengthening holiday readiness and brand partnerships by launching an exclusive Disney capsule collection for the parade's 100th anniversary alongside 'Ted by Ted Baker'. However, reviewing margin and promotional strategies is essential to counter Nordstrom's up to 85% off deals and Dillard's market share gains."
+        "kr": "Thanksgiving Day Parade 100주년 기념 독점 Disney Capsule Collection과 'Ted by Ted Baker' 입점을 발표했습니다. 노드스트롬의 최대 85% 할인 공세 속에서 프리미엄 및 IP 기반 exclusive 상품의 margin과 reorder 추이를 주시해야 합니다.",
+        "en": "Macy's announced an exclusive Disney capsule for the parade's 100th anniversary and onboarded Ted by Ted Baker. Amid Nordstrom's aggressive discounting of up to 85% off, monitoring margins and reorders on premium/IP exclusives is vital."
       }
     ],
     "opportunities": [
       {
-        "kr": "Kohl's의 'KPop Demon Hunters' IP 라인업 성과를 분석하여, Z세대 타깃의 트렌디한 그래픽 및 팝컬처 굿즈 sourcing 제안을 확대합니다.",
-        "en": "Analyze the performance of Kohl's 'KPop Demon Hunters' IP line to expand sourcing proposals for trendy graphic and pop-culture merchandise targeting Gen Z."
+        "kr": "월마트와 JCPenney의 백투스쿨 가성비 공세에 대응하여, Kohl's 및 Macy's 향 베이직 믹스의 가격 경쟁력 있는 sourcing 번들 제안",
+        "en": "Propose competitively priced basic-mix sourcing bundles for Kohl's and Macy's to counter Walmart and JCPenney's back-to-school value push."
       },
       {
-        "kr": "Macy's의 Holiday 및 캐릭터 IP 협업(Disney Capsule) 트렌드에 발맞추어, 연말 시즌 상품의 선제적 디자인 기획 및 샘플 개발을 제안합니다.",
-        "en": "Proactively plan designs and develop samples for year-end holiday merchandise, aligning with Macy's holiday and character IP collaboration trends."
+        "kr": "Kohl's의 'KPop Demon Hunters' 및 Macy's의 Disney 콜라보 성공 사례를 활용한 추가 IP 기반 캡슐 컬렉션 기획 제안",
+        "en": "Leverage the momentum of Kohl's 'KPop Demon Hunters' and Macy's Disney collaboration to pitch additional IP-driven capsule collections."
       },
       {
-        "kr": "Walmart의 초저가 실속형 수납 및 의류 연계 상품에 대응하여, 가성비와 실용성을 극대화한 베이직 어패럴 및 번들 상품군을 구성합니다.",
-        "en": "Develop basic apparel and bundle product lines maximizing value and practicality to counter Walmart's ultra-low-priced functional storage and apparel items."
+        "kr": "Free People과 A&F의 지속 가능성 및 핸드스티칭 트렌드에 발맞춘 친환경/리페어 감성 의류 라인업 선제 제안",
+        "en": "Proactively pitch eco-friendly and repair-inspired apparel lines aligned with Free People and A&F's sustainability/handstitching trends."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "경쟁사들의 공격적인 백투스쿨 마크다운(Walmart 최대 65% 할인, Nordstrom 최대 85% 할인)으로 인한 바이어들의 margin 압박 및 가격 경쟁력 저하 리스크가 존재합니다.",
-      "en": "Risk of margin pressure and reduced price competitiveness for buyers due to aggressive back-to-school markdowns by competitors (Walmart up to 65% off, Nordstrom up to 85% off)."
+      "kr": "경쟁사들의 공격적인 백투스쿨 마크다운 및 초저가 수납/의류 상품 출시로 인해 바이어들의 margin 압박 및 가격 저항 심화 우려",
+      "level_en": "MEDIUM",
+      "en": "Aggressive back-to-school markdowns and ultra-low-priced competitor items risk increasing margin pressure and price resistance from buyers."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Kohl's 및 Macy's의 신규 IP 및 브랜드 Collaboration 상품의 초기 sell-through 데이터를 모니터링하고 후속 reorder sourcing 계획을 수립합니다.",
-        "en": "Monitor initial sell-through data of new IP and brand collaboration items for Kohl's and Macy's, and establish follow-up reorder sourcing plans."
+        "kr": "Kohl's의 'KPop Demon Hunters' 및 Macy's Disney 캡슐 컬렉션의 초기 sell-through 및 reorder 가능성 긴급 점검",
+        "en": "Urging early sell-through and reorder potential review for Kohl's 'KPop Demon Hunters' and Macy's Disney capsule lines."
       },
       {
         "owner": "Team 8",
-        "kr": "백투스쿨 및 Holiday 시즌에 대비하여 원가 경쟁력을 갖춘 베이직 및 promotion용 원단 sourcing 대안을 사전에 점검합니다.",
-        "en": "Pre-check cost-competitive basic and promotional fabric sourcing options in preparation for the back-to-school and holiday seasons."
+        "kr": "월마트·노드스트롬 등 주요 경쟁사의 대규모 할인 공세에 대응한 바이어별 margin 및 가격 경쟁력 분석 리포트 작성",
+        "en": "Drafting buyer-specific margin and pricing competitiveness analysis reports in response to deep discounts from Walmart and Nordstrom."
       },
       {
         "owner": "Team 8",
-        "kr": "경쟁사들의 offline 매장 및 디지털 채널 확장 동향을 반영하여 주요 바이어별 옴니채널 대응 상품군을 정기적으로 업데이트합니다.",
-        "en": "Regularly update omnichannel-compatible product lines for key buyers, reflecting competitors' offline store and digital channel expansion trends."
+        "kr": "Hollister 및 A&F의 offline 확장 및 Z세대 트렌드(지속가능성)를 반영한 가을/겨울 시즌 가먼트 sourcing 제안서 준비",
+        "en": "Preparing Fall/Winter garment sourcing proposals reflecting Hollister/A&F store expansion and Gen Z sustainability trends."
       }
     ]
   }
