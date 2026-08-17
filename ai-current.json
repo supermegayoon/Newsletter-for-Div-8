@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-08-17T01:06:05.937Z",
+  "asOf": "2026-08-17T06:34:15.660Z",
   "generatedDateKST": "2026-08-17",
   "schedule": "08:00 KST",
   "refreshStatus": "VERIFIED",
@@ -9,70 +9,70 @@
   "model": "gemini-3.5-flash-lite",
   "insight": {
     "headline": {
-      "kr": "Macy's의 Thanksgiving Day Parade 100주년 exclusive Disney Capsule Collection 공개 및 Kohl's의 IP merchandise 라인업 확대로 Holiday 시즌 준비 가속화",
-      "en": "Macy's Debuts Exclusive Disney Capsule Collection for Parade Centenary and Kohl's Expands IP Merchandise as Holiday Season Preparation Accelerates"
+      "kr": "Macy's와 Kohl's의 적극적인 IP 및 브랜드 Collaboration 전개로 Holiday season merchandise sourcing 수요 선점",
+      "en": "Macy's and Kohl's Drive IP and Brand Collaborations to Secure Early Holiday Season Merchandise Demand"
     },
     "summary": {
-      "kr": "Macy's가 Thanksgiving Day Parade 100주년 기념 exclusive Disney Capsule Collection과 Ted by Ted Baker를 도입하며 retail 채널을 강화하고 있습니다. 동시에 Kohl's는 Z세대 타겟의 'KPop Demon Hunters' IP merchandise를 대거 런칭했으며, Hollister는 북아일랜드 offline store 확장을 추진 중입니다. 주요 buyer들의 이러한 IP collaboration 및 store expansion 행보는 향후 apparel sourcing과 reorder 전략 수립의 핵심 지표가 될 것입니다.",
-      "en": "Macy's is strengthening its retail channels with an exclusive Disney capsule collection for its parade centenary and the debut of Ted by Ted Baker. Meanwhile, Kohl's launched a large-scale 'KPop Demon Hunters' IP merchandise line targeting Gen Z, and Hollister is expanding its physical store footprint in Northern Ireland. These buyer moves serve as key indicators for upcoming apparel sourcing and reorder strategies."
+      "kr": "Macy's가 Thanksgiving Day Parade 100주년 기념 exclusive Disney Capsule Collection과 Ted by Ted Baker를 공개했습니다. 동시에 Kohl's는 'KPop Demon Hunters' merchandise 라인업을 강화하며 Z세대 공략에 집중하고 있습니다. 주요 바이어들의 이 같은 판촉 및 category 확장은 하반기 supply chain과 reorder 대응력의 중요성을 시사합니다.",
+      "en": "Macy's has unveiled an exclusive Disney capsule collection for the parade centennial alongside the debut of Ted by Ted Baker. Meanwhile, Kohl's is expanding its youth-targeted merchandise with 'KPop Demon Hunters'. These aggressive retail strategies highlight the need for robust supply chain agility and reorder readiness."
     },
     "tags": [
-      "#HolidaySeason",
-      "#IPCollaboration",
-      "#RetailChannel",
-      "#ApparelSourcing"
+      "#Collaboration",
+      "#Holiday",
+      "#Merchandise",
+      "#RetailChannel"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "'KPop Demon Hunters' IP 기반의 대규모 merchandise 라인업을 출시하며 Z세대 고객층 유입을 적극 도모하고 있습니다. 새롭게 확장된 category의 초기 sell-through 추이를 면밀히 분석하여 후속 reorder 및 chase 물량 대응 태세를 갖춰야 합니다.",
-        "en": "Kohl's is actively driving Gen Z traffic by dropping an extensive merchandise line featuring the 'KPop Demon Hunters' IP. We must closely analyze initial sell-through trends of this expanded category to prepare for follow-up reorders and chase quantities."
+        "kr": "'KPop Demon Hunters' IP 기반 대규모 merchandise를 출시하며 Z세대 traffic 유도 및 category 다각화에 주력하고 있습니다.",
+        "en": "Kohl's is driving youth traffic and category diversification by dropping an extensive merchandise line featuring the 'KPop Demon Hunters' IP."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "북아일랜드 쇼핑몰 내 두 번째 offline store 오픈을 확정하며 regional retail 거점을 지속적으로 다각화하고 있습니다. physical store 확장에 따른 inventory 회전율과 향후 wholesale 수요 변화를 주 단위로 모니터링해야 합니다.",
-        "en": "Hollister has confirmed its second Northern Irish store opening, steadily diversifying its regional retail footprint. We need to monitor weekly inventory turnover and prospective wholesale demand changes driven by physical store expansion."
+        "kr": "북아일랜드에 두 번째 offline store 오픈을 확정하며 유통 거점 확대와 지역 retail 채널 강화에 힘을 쏟고 있습니다.",
+        "en": "Hollister is reinforcing regional retail channels by confirming its second physical store opening in Northern Ireland."
       },
       {
         "buyer": "Macy's",
-        "kr": "Thanksgiving Day Parade 100주년 기념 exclusive Disney Capsule Collection과 Ted by Ted Baker 입점을 동시에 추진하며 apparel category를 강화하고 있습니다. Holiday merchandise sourcing 및 promotion 전략 변화에 발맞춘 Partnership 대응이 필수적입니다.",
-        "en": "Macy's is strengthening its apparel category by simultaneously rolling out an exclusive Disney capsule collection for the parade centenary and launching Ted by Ted Baker. Proactive partnership alignment with their holiday merchandise sourcing and promotion strategy is essential."
+        "kr": "Thanksgiving Day Parade 100주년 기념 exclusive Disney Capsule Collection 및 Ted by Ted Baker 입점을 통해 Holiday season merchandise 경쟁력을 선제적으로 높이고 있습니다.",
+        "en": "Macy's is preemptively strengthening holiday merchandise competitiveness through an exclusive Disney capsule collection and the debut of Ted by Ted Baker."
       }
     ],
     "opportunities": [
       {
-        "kr": "Kohl's의 'KPop Demon Hunters' IP merchandise 런칭 성과를 벤치마킹하여, 당사 주력 buyer들을 위한 Z세대 타겟 IP collaboration 상품 기획 제안을 선제적으로 준비합니다.",
-        "en": "Benchmark Kohl's 'KPop Demon Hunters' IP merchandise success to proactively prepare Gen Z-targeted IP collaboration product proposals for our core buyers."
+        "kr": "Macy's의 Thanksgiving Day Parade 기념 exclusive Disney Capsule Collection 런칭에 맞춘 IP 기반 merchandise의 추가 chase 오더 기회 확보",
+        "en": "Secure potential chase order opportunities for IP-based merchandise tied to Macy's Thanksgiving Day Parade centennial capsule collection."
       },
       {
-        "kr": "Macy's의 Parade 100주년 Holiday merchandise 및 exclusive capsule collection 확대 기조에 맞추어, 당사 Sourcing 부문과 연계한 Holiday season 납기 단축 및 chase 물량 확보 방안을 수립합니다.",
-        "en": "Align with Macy's expansion of parade centenary holiday merchandise and exclusive capsule collections by formulating holiday season lead-time reduction and chase quantity secured plans with our sourcing division."
+        "kr": "Kohl's의 'KPop Demon Hunters' 등 트렌디한 IP partnership 상품의 초기 sell-through 반응 분석을 통한 후속 category 기획",
+        "en": "Plan follow-up categories by analyzing initial sell-through trends of trendy IP partnership products at Kohl's."
       },
       {
-        "kr": "Hollister의 잇따른 offline store 확장에 따른 regional 재고 보충 수요를 파악하고, 신규 retail 거점 입점에 최적화된 wholesale 제안을 가동합니다.",
-        "en": "Identify regional inventory replenishment demand stemming from Hollister's continuous physical store expansion, and execute tailored wholesale proposals optimized for new retail door entry."
+        "kr": "Hollister의 offline store 네트워크 확장세에 따른 전반적인 wholesale 및 replenishment 물량 수요 선제 대응",
+        "en": "Proactively address overall wholesale and replenishment demand stemming from Hollister's physical store network expansion."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "주요 buyer들이 IP collaboration과 Holiday merchandise 선제적 도입에 집중하는 가운데, 원면 가격 상승(Cotton Dec 26 +1.46%) 및 환율 변동성(USD/KRW 1,410원대)이 지속되고 있습니다. FOB margin 방어와 적기 납기를 위한 철저한 lead time 관리가 요구됩니다.",
-      "en": "While major buyers focus on proactive IP collaborations and early holiday merchandise introductions, persistent cotton price increases (Cotton Dec 26 +1.46%) and exchange rate volatility (USD/KRW around 1,410) continue. Rigorous lead time management is required to defend FOB margins and ensure timely delivery."
+      "kr": "면화 가격(Cotton Dec 26)이 상승세를 보이고 있어 향후 FOB 단가 협상 시 원가 압박이 가중될 수 있으므로 철저한 margin 관리가 필요합니다.",
+      "en": "Rising cotton futures prices (Cotton Dec 26) may increase cost pressures during upcoming FOB negotiations, requiring rigorous margin management."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Kohl's의 'KPop Demon Hunters' merchandise sell-through 데이터 및 소비자 반응을 수집하여 영업 전략에 즉시 반영합니다.",
-        "en": "Gather Kohl's 'KPop Demon Hunters' merchandise sell-through data and consumer response to immediately reflect in our sales strategy."
+        "kr": "Macy's의 Holiday merchandise 및 exclusive Disney capsule collection sell-through 추이를 모니터링하여 reorder 시나리오 검토",
+        "en": "Monitor sell-through trends for Macy's holiday merchandise and exclusive Disney capsule collection to review reorder scenarios."
       },
       {
         "owner": "Team 8",
-        "kr": "Macy's의 Ted by Ted Baker 및 exclusive Disney collection 입점에 따른 category별 inventory 영향도를 분석합니다.",
-        "en": "Analyze the category-specific inventory impact resulting from Macy's debut of Ted by Ted Baker and the exclusive Disney collection."
+        "kr": "Kohl's의 'KPop Demon Hunters' merchandise 반응을 분석하여 Z세대 activewear 및 캐주얼 category 제안 준비",
+        "en": "Analyze consumer response to Kohl's 'KPop Demon Hunters' merchandise to prepare youth-focused activewear and casual category proposals."
       },
       {
         "owner": "Team 8",
-        "kr": "Hollister의 북아일랜드 store 확장 일정에 맞춘 wholesale 공급 일정 조율 및 리스크 점검 회의를 개최합니다.",
-        "en": "Hold a risk review meeting to coordinate wholesale delivery schedules aligned with Hollister's Northern Ireland store expansion timeline."
+        "kr": "원자재 가격 변동성에 대비해 주요 바이어별 FOB cost 구조를 점검하고 lead time 단축 방안 수립",
+        "en": "Review FOB cost structures by buyer against raw material volatility and establish lead time reduction plans."
       }
     ]
   }
