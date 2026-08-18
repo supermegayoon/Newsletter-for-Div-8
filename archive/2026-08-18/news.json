@@ -1,0 +1,72 @@
+{
+  "ok": true,
+  "asOf": "2026-08-18T00:55:53.608Z",
+  "generatedDateKST": "2026-08-18",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 2,
+    "within7d": 4,
+    "total": 4,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Collaboration / Merchandise",
+      "category_en": "Collaboration / Merchandise",
+      "date": "2026.08.17",
+      "title_kr": "Macy's, Fall 2026 menswear category 강화 위해 Ted by Ted Baker 라인 독점 출시",
+      "title_en": "Ted by Ted Baker Launches Fall 2026 Menswear Collection at Macy's",
+      "body_kr": "Macy's가 미국 내 독점 유통을 통해 Ted by Ted Baker의 Fall 2026 menswear merchandise를 공개했습니다. 가을 시즌 남성복 category의 sell-through 확대와 traffic 견인에 기여할 것으로 기대됩니다.",
+      "body_en": "Macy's has launched the Fall 2026 menswear collection from Ted by Ted Baker as an exclusive U.S. retail release. This partnership aims to drive traffic and boost sell-through in the men's category for the autumn season.",
+      "source": "vergemagazine.co.uk",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeU14VVpXTXNtY1hjcVVXQ29CTzBpTUhUVDM5R2VpY3pteGhhaTgxaUJaMzFqRmpBQWxTak0tZzRZU3FxcHZ4NzZ2bGhINjdXb19rQlJUWDN5blNkMG1KWFVnbEJfMnZCaEdvN2E0eVpRY05hZlNpMmhSYlNKaUJLX04zaHJld2RTcDlZRDkzZllydVBRSVFGag?oc=5",
+      "ageHours": 12.498453055555556
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Executive Movement",
+      "category_en": "Executive Movement",
+      "date": "2026.08.17",
+      "title_kr": "Abercrombie & Fitch의 Carey Collins Krug, activewear 브랜드 Vuori로 이동",
+      "title_en": "Abercrombie & Fitch’s Carey Collins Krug Joins Vuori",
+      "body_kr": "Abercrombie & Fitch 핵심 임원인 Carey Collins Krug가 activewear 브랜드 Vuori로 합류했습니다. 주요 임원 이동에 따른 향후 브랜드 전략 및 competitive positioning 변화를 모니터링해야 합니다.",
+      "body_en": "Abercrombie & Fitch executive Carey Collins Krug has transitioned to activewear brand Vuori. Vendor teams should monitor potential shifts in competitive positioning resulting from this leadership change.",
+      "source": "WWD",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONklscTVGelNhcXBORUo5LXJQWFhpRnkwVGZGRmxWclFJc2JYenNNUm94NzUzWGZGczNMWHowc3pOa3pvSjBaWUN4SElORUxWTDNWTDRJemFvdFJlRnNBWGY5VXEtY3dOR01TT2lXWTVoQUt4SHUzejNpbGVnYTVpbVoydXdlN1d4YVNfdmdxcFhwNnpoUlFRX0tZSEtFbnVneXgtcUwyeU5xeXBJcGJTS21DODY?oc=5",
+      "ageHours": 4.050621666666666
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Product / IP Collection",
+      "category_en": "Product / IP Collection",
+      "date": "2026.08.13",
+      "title_kr": "Kohl's, 트렌디 IP 반영한 'KPop Demon Hunters' merchandise 대거 출시",
+      "title_en": "Kohl's Just Dropped 'KPop Demon Hunters' Merch — and the Collection Is Bigger Than You'd Expect",
+      "body_kr": "Kohl's가 신학기 시즌을 겨냥해 'KPop Demon Hunters' themed merchandise를 대규모로 런칭했습니다. 젊은 소비자층을 공략하는 IP collaboration을 통해 category별 sales 및 traffic 확대를 도모하고 있습니다.",
+      "body_en": "Kohl's has dropped a broad merchandise collection featuring 'KPop Demon Hunters' ahead of the school season. The IP-driven drop targets younger demographics to boost category sales and store traffic.",
+      "source": "MassLive.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNS2VhYldGY1RrMlJBY29CVTh0WlBUNVVXOVRwd0RWbi05a1pBcXhoUkVhVmRrb3htcmFlODBlYnNFNTBTSUdXMFJTSENqclptMkR0V3loTjE4SFdKT2V6bUNnZ0xmU0RkVlZYZDQ4NXVTN3g2MkF6WjJMa0EzbjlJbWpZSEFZWmRFZGF3TVV6Q0hNeG5kMjd5bVdXSlpjeWVvc0x5U1BuTGpPM2toNlU2R0xHN1JKWUxULXFSdXk3a2ZITC01aUU4ZWZJa0wydHJPYmVzcFJjaEF2cnVZajkwMjJEV0RzWElyRldxR0tR?oc=5",
+      "ageHours": 103.39648194444445
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Store Expansion",
+      "category_en": "Store Expansion",
+      "date": "2026.08.12",
+      "title_kr": "Hollister, 북아일랜드 The Boulevard에 두 번째 offline store 오픈 확정",
+      "title_en": "The Boulevard Confirms Opening of Hollister's Second Northern Irish Store with Teaser Video",
+      "body_kr": "Hollister가 북아일랜드 The Boulevard에 두 번째 store를 오픈한다고 티저 영상과 함께 공식 발표했습니다. offline 채널 확장과 함께 글로벌 retail 영업망을 지속적으로 넓혀가고 있습니다.",
+      "body_en": "Hollister confirmed the opening of its second Northern Irish store at The Boulevard via a teaser video. This move underscores the brand's ongoing physical retail expansion in key regional markets.",
+      "source": "Belfast Live",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZzF3LTQzaDFOWnBrbHJqeXhTYm40UkNzX3hjU2wtcW9Id0lmaDVSUUctUXNpb2cyUVBiZ0VQUVVZdkd3WTRXSC1JdHZyTWk2b2Fqb0pPOXVLNHVkNE1tOC1sTFRIZUNPUDBCX3BLTzNiTG5ES3JXdmNsU1F6dVNQeUd1ZHZBam5nVjNFeWRDZ2pZejJZaGlha3c0eXZ6ZnpKaGtz0gGoAUFVX3lxTE9wRVFtaWhMNDhXR1BPTU5JREhuQ1duSGdPUWZrYnBVRUJ1OFlSdktxRVV2RlNUbXlGZ3g4TlRtWVJEUXlSellNUVU4Z3ctSl81Yjd2cE5vV2pEbHh2Um4zbWV2UV80czdtNXAxbFZDdlR6bEhORXR1QjZFSzdIeW9OZWRKTXNuR2JZZkZ5ZzEzY3A5ZGZpbXN0dHRSSWVxaTRtSDFIcGNZdQ?oc=5",
+      "ageHours": 126.22978833333333
+    }
+  ]
+}
