@@ -1,39 +1,63 @@
 {
   "ok": true,
-  "generatedDateKST": "2026-08-17",
-  "asOf": "2026-08-17T06:32:17.375Z",
+  "generatedDateKST": "2026-08-18",
+  "asOf": "2026-08-18T00:56:22.386Z",
   "schedule": "Mon-Fri 08:00 KST",
   "windowDays": 7,
   "buyers": [
     {
       "buyer": "Kohl's",
-      "competitionLevel": "MEDIUM",
+      "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "주요 경쟁사인 JCPenney와 월마트는 예산 중심의 백투스쿨(Back-to-School) 쇼핑 시즌을 맞아 프로모션과 자동화된 쇼핑 전략에 집중하고 있습니다.",
-        "en": "Key competitors JCPenney and Walmart are focusing heavily on promotions and automated shopping strategies for the budget-driven back-to-school season."
+        "kr": "JCPenney의 파격적인 타사 의류 트레이드인(보상판매) 프로모션과 타겟·월마트의 가을/Labor Day 가치 소 소구 전략에 대응하여, 콜스는 차별화된 백투스쿨 프로모션과 실속형 가치 마케팅을 강화해야 합니다.",
+        "en": "In response to JCPenney's aggressive competitor-apparel trade-in promotion and Target/Walmart's aggressive value positioning for fall and Labor Day, Kohl's must strengthen differentiated back-to-school promotions and practical value marketing."
       },
       "competitors": [
         {
           "name": "JCPenney",
           "signal": "PROMOTION",
           "move": {
-            "kr": "예산과 봇(bots)에 초점을 맞춘 백투스쿨 쇼핑 전략을 전개함.",
-            "en": "Implemented back-to-school shopping strategies shaped by budgets and bots."
+            "kr": "타사 의류를 가져오면 할인을 제공하는 'retail regret' 보상판매 프로모션을 72시간 동안 진행함.",
+            "en": "Launched a 72-hour 'retail regret' trade-in promotion accepting old clothing from other stores in exchange for discounts."
           },
           "whyItMatters": {
-            "kr": "Kohl's의 핵심 타겟층인 백투스쿨 쇼핑객들의 예산 제약과 디지털 쇼핑 트렌드를 직접적으로 겨냥함.",
-            "en": "Directly targets budget constraints and digital shopping trends of back-to-school shoppers who overlap with Kohl's core demographic."
+            "kr": "주요 경쟁사인 JCPenney가 공격적인 보상판매를 통해 소비자 이탈을 유도하고 트래픽을 선점하고 있습니다.",
+            "en": "As a main competitor, JCPenney is aggressively driving consumer switching and capturing store traffic through trade-ins."
           },
           "action": {
-            "kr": "백투스쿨 시즌에 맞춘 예산 친화적 프로모션과 디지털 마케팅 최적화를 강화해야 함.",
-            "en": "Enhance budget-friendly promotions and digital marketing optimization tailored for the back-to-school season."
+            "kr": "콜스도 충성 고객을 위한 고유의 보상판매 혹은 파격적인 백투스쿨 보상 할인 이벤트를 기획해야 합니다.",
+            "en": "Kohl's should design a proprietary trade-in or compelling back-to-school reward discount event for loyal shoppers."
           },
           "sources": [
             {
-              "source": "Brand Innovators",
+              "source": "JCPenney Newsroom",
+              "sourceTier": "OFFICIAL",
+              "date": "2026.08.17",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTWhrTmd2dlo0dHRoY1RuNHY4XzV5RE9nY1YyRWstVktoM0RqY1h3OWxVaXBwellSZS1uTHBzR21qeXYyaTlHQkxFazBidEI5cUtqY0tBcTlZbTVsY3ZUNk1idXM1aGtoNEV5RWh4c1JHSy1NRV9hX1lQSW9PNzRObW9NcGdmeEN2dE90ZFloMnQyZXZoUkU4Y1JYV0VOdHlpSzZoVFFkZ1hTSkp3UmNfVjVXY1pyNWJDY0VMR1BzSVhZUQ?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Target",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "가을 시즌을 맞아 '가치(value)'의 의미를 재정의하며 백투스쿨 쇼핑객 공략에 집중하고 있습니다.",
+            "en": "Redefining the meaning of 'value' for shoppers this fall and focusing heavily on capturing back-to-school traffic."
+          },
+          "whyItMatters": {
+            "kr": "최우선 경쟁사인 타겟이 가을 시즌 가치 소비 트렌드를 선점하여 콜스의 핵심 의류 및 홈 고객층을 위협하고 있습니다.",
+            "en": "Top priority competitor Target is seizing the fall value-shopping trend, threatening Kohl's core apparel and home customer base."
+          },
+          "action": {
+            "kr": "명확한 가을 시즌 가치 제안(Value proposition)과 번들 프로모션을 통해 타겟과의 가격 경쟁력을 방어해야 합니다.",
+            "en": "Defend price competitiveness against Target by establishing clear fall value propositions and bundle promotions."
+          },
+          "sources": [
+            {
+              "source": "Business Insider",
               "sourceTier": "GENERAL",
-              "date": "2026.08.10",
-              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBFWGJzNjZFTGRteW5wVzhsS0JKUDF6Um5XTndsdkhpN0RtdnR5ZjJMaXJwUWgzWXFGMWlxTmk5T2duVE5yVDhTeDJGMVpWT0t5M1hRdS1ZeGFwSEJYYlNNSmdWMFIyWGNjU3ZqN0xHTXN6ak5ydzdYSzhvNVI?oc=5"
+              "date": "2026.08.17",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVkJGU05zbHNKalA5Rnp4Z2xfUE5GZFJzbUJLVGQ4RFk0MENmczlxUThiMmdFYTZqd3pMNzhMQV9WWHVQSTRrOXNLZTVtcWZCVHBwR3JFVWUzeXRsb2wtb2lSQ3FWblFqa3FGMU5vcW1KZmV2Q2lHdjF2Zk52c29ROWltTG92cFg2VWU1UWdja1h5LVN4QVhyUVZWOWtlV2pyb3c?oc=5"
             }
           ]
         },
@@ -41,47 +65,23 @@
           "name": "Walmart",
           "signal": "PROMOTION",
           "move": {
-            "kr": "8월 백투스쿨 시즌을 맞아 최대 65% 할인 프로모션을 진행함.",
-            "en": "Offered up to 65% off promo codes for August back-to-school shopping."
+            "kr": "Labor Day 세일 일정을 유출하며 공격적인 연휴 시즌 할인 프로모션 준비에 돌입했습니다.",
+            "en": "Leaked Labor Day sale dates, signaling early preparation for aggressive holiday promotional campaigns."
           },
           "whyItMatters": {
-            "kr": "공격적인 할인 공세가 가격에 민감한 소비자를 흡수하여 Kohl's의 시장 점유율에 위협이 됨.",
-            "en": "Aggressive discounting captures price-sensitive consumers, posing a threat to Kohl's market share."
+            "kr": "세컨더리 경쟁사인 월마트의 조기 할인 공세는 늦여름 및 백투스쿨 쇼핑 예산을 빠르게 흡수할 것입니다.",
+            "en": "Secondary competitor Walmart's early discount push will rapidly absorb late-summer and back-to-school shopping budgets."
           },
           "action": {
-            "kr": "가격 경쟁력을 갖춘 카테고리별 할인 쿠폰 및 번들 프로모션을 확대할 필요가 있음.",
-            "en": "Expand category-specific discount coupons and bundle promotions to maintain price competitiveness."
+            "kr": "콜스의 자체 Labor Day 및 앤드오브서머(End-of-summer) 프로모션 일정을 앞당기고 홍보를 강화해야 합니다.",
+            "en": "Accelerate Kohl's own Labor Day and end-of-summer promotion timeline and step up marketing visibility."
           },
           "sources": [
             {
-              "source": "WIRED",
+              "source": "MassLive.com",
               "sourceTier": "GENERAL",
-              "date": "2026.08.12",
-              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9vWXpxMFRjYVZwZ1FrS0RJNlhEcWZ0SEw4OUxMRTFBZnZCV29XY2lQVEtqakh1eFgySGdUbjRaVXB6TXF4Nk1GM251ekhadlRNWFJOcTFqMXdjSm1UWlIxcklR?oc=5"
-            }
-          ]
-        },
-        {
-          "name": "Walmart",
-          "signal": "PRODUCT",
-          "move": {
-            "kr": "소형 공간을 위한 수납 솔루션 상품(옷걸이 일체형 드레서)을 37달러에 출시함.",
-            "en": "Launched a 2-in-1 dresser with clothes rack for small spaces priced at $37."
-          },
-          "whyItMatters": {
-            "kr": "의류 및 홈퍼니싱 카테고리에서 초저가 실용 상품으로 실속파 소비자를 끌어들이고 있음.",
-            "en": "Attracts value-seeking consumers in the apparel and home storage categories with ultra-low-priced functional items."
-          },
-          "action": {
-            "kr": "실용성과 가성비를 강조한 홈 및 의류 연계 상품군을 점검하고 대응 상품을 제안해야 함.",
-            "en": "Review home and apparel-linked product lines emphasizing practicality and value to counter similar offerings."
-          },
-          "sources": [
-            {
-              "source": "Yahoo",
-              "sourceTier": "GENERAL",
-              "date": "2026.08.15",
-              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRUt5RnBqVFlOTDJ6S0s5bExiZ3ZtRzRWZk16a05CaUE1QVkya1M2Z2tRck9VbVJTbmR2MWtSYjRCT1lGMkF3OEdwRFZiTFlrbWtwM0RSZUp5OXBTTGJRcGdPYzU2d1haQkowNkhlZ1dKdzNxV01EM18yWEpHeTB1d190U0tPbE4yRTQwSmlVY1hkaFp3MTFtX0l0UWdZZ2ZHdG9CSA?oc=5"
+              "date": "2026.08.17",
+              "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQajF4RUZOSTlJN2poMTllcFd3QjRVVGlqS1VoTzh5SkNiUDFFQkx1U0JfVi1QWVBZV0liWlhMUXF3VnJBeXFXck9WbXVkdE1lVWptamNvbFRhbjZPUEhtaV82c0Q0bDdRZU81Z29wMVNzLWRsbDdBNkJIcVRlNUc2V3BSWlpZOFRvU2l4SldzMF9qWjdhYXpfc3d6MlhMeXE2MU12RnFSLXgzVHlIcGhzMlNfcnVKaHJHdHZoMNIB0AFBVV95cUxOMnh3bHliZTVFYTk0WDd3Q1VuYWtJYjBKUUwwbGRZdDRjbko0STdHOW9PbTdHLXJqc19teWVlZ3ZKMjFVYWRQb3FZclVucFg3VEEwbV85LXJtSE5FWmJ0c0VDcnFjTUVBRUEwV2NsQjQwRE92VHg1Tm5ZaktvbGNmVlZXYjhGeUVpQUdXcXdGUDNuZ29lQmxBN2xoQzJ3M3ZCM0NPYkNoc3REbk40cVdjRnpsUy1KY0hoelRSV0FKZHdEUWsxUm9NYmpMZU5jY0xV?oc=5"
             }
           ]
         }
@@ -91,79 +91,79 @@
       "buyer": "A&F / Hollister",
       "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "J.Crew는 월스트리트의 브랜드 부활 전략 경쟁 속에 TIER 1 언론 조명을 받았으며, Aritzia는 미국 내 확장과 이커머스 성장에 힘입어 주가가 상승했습니다. 또한 여러 패션 브랜드들이 Z세대를 겨냥한 수선 마케팅을 강화하고 있어 경쟁 대응이 필요합니다.",
-        "en": "J.Crew gained Tier 1 coverage amid Wall Street's brand revival strategy battle, while Aritzia saw stock gains driven by US expansion and e-commerce growth. Additionally, various fashion brands are intensifying repair-focused marketing targeting Gen Z, requiring close monitoring."
+        "kr": "주요 경쟁사인 American Eagle 및 Zara 등은 Gen Z 타겟층을 확보하기 위해 의류 수선 및 지속 가능성 프로그램을 강화하고 있으며, A&F/Hollister 역시 고객 충성도 유도를 위한 제품 수명 연장 및 서비스 혁신을 고려해야 합니다.",
+        "en": "Key competitors like American Eagle and Zara are ramping up apparel repair and sustainability initiatives to capture Gen Z shoppers, signaling that A&F/Hollister should also consider circular fashion and enhanced lifecycle services to maintain brand loyalty."
       },
       "competitors": [
         {
-          "name": "J.Crew",
-          "signal": "FINANCIAL",
+          "name": "American Eagle",
+          "signal": "PRODUCT",
           "move": {
-            "kr": "월스트리트 내에서 J.Crew의 브랜드 부활을 둘러싼 전략적 경쟁 및 '스타일 전쟁'이 본격화되고 있음을 조명했습니다.",
-            "en": "Highlighted the strategic battle and 'style war' within Wall Street surrounding the brand revival of J.Crew."
+            "kr": "의류 수선 및 리폼 트렌드를 활용하여 젊은 소비자층 사이에서 패션성과 실용성을 강조하는 움직임을 보이고 있습니다.",
+            "en": "American Eagle is leveraging the clothing repair and upcycling trend to appeal to young consumers emphasizing fashion and sustainability."
           },
           "whyItMatters": {
-            "kr": "세컨더리 주요 경쟁사인 J.Crew가 브랜드 리포지셔닝 및 금융/경영적 관심의 중심에 서면서 아베크롬비(A&F)의 핵심 타깃층 점유율에 영향을 미칠 수 있습니다.",
-            "en": "As a secondary key competitor, J.Crew's focus on brand repositioning and financial/management interest could impact market share among A&F's core target audience."
+            "kr": "Z세대의 가치 소비와 지속 가능성에 대한 관심이 높아지면서 브랜드 충성도에 직접적인 영향을 미칩니다.",
+            "en": "It directly influences brand loyalty as Gen Z's interest in value-driven consumption and sustainability continues to rise."
           },
           "action": {
-            "kr": "J.Crew의 리바이벌 전략 및 마켓 포지셔닝 변화를 밀착 모니터링하고 아베크롬비의 차별화된 영디자이너 어피피니티를 강화해야 합니다.",
-            "en": "Closely monitor J.Crew's revival strategy and market positioning changes while strengthening A&F's differentiated young designer affinity."
+            "kr": "A&F 및 홀리스터 매장 내에 간단한 수선 및 커스텀 서비스를 도입하여 친환경적 참여를 유도해야 합니다.",
+            "en": "Introduce in-store repair and customization services in A&F and Hollister stores to drive eco-friendly engagement."
           },
           "sources": [
             {
-              "source": "Financial Times",
-              "sourceTier": "TIER 1",
-              "date": "2026.08.13",
-              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObmYxME5qTDdvSU95NWRwUF9iVTNhdHFkX1lZM3NqVDI3VTgyeXJCWVpQczlYekh0R2xFZ1F4UDRsMThjNzNKVnJ1TWM1NV82NnFLdVliUkU2ZVV4Q0p3OVlDekhURXhjcVllQThfZmFRWDJKdmRNbUNkZkRTWDVKMDFwdzE?oc=5"
+              "source": "Northwest Arkansas Democrat-Gazette",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.16",
+              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOE5wX0RyRmg1b0ZodjhyZllJVXJjRXVuQU02Y0N4MkV6MVQyakZZcEU5VEd2el9sTzM0SjIxdjR3bS1uMmlCZkxzdl9od3lMZmdURl9BdjJfTWxqclB2Ykk0NzVrdzFPRmtZQ2xsWlpwRi1ZZHF6ZTZ1SUVpNF8zaGFPMzFPdkJfVWM0cHlUSQ?oc=5"
             }
           ]
         },
         {
-          "name": "Aritzia",
-          "signal": "FINANCIAL",
+          "name": "Zara",
+          "signal": "STORE",
           "move": {
-            "kr": "미국 내 확장, 이커머스 성장, 브랜드 모멘텀의 영향으로 아리지아의 주가가 1.26% 상승했습니다.",
-            "en": "Aritzia's stock surged 1.26% supported by U.S. expansion, e-commerce growth, and brand momentum."
+            "kr": "매장 내 의류 수선 및 Mending 서비스를 확대하여 친환경 및 지속 가능성 트렌드에 대응하고 있습니다.",
+            "en": "Zara is expanding in-store mending and repair services to address eco-friendly and sustainability trends."
           },
           "whyItMatters": {
-            "kr": "메인 경쟁사인 아리지아가 미국 시장 침투를 가속화하고 디지털 채널에서 강력한 모멘텀을 확보하여 A&F의 여성복 시장 점유율을 직접적으로 위협하고 있습니다.",
-            "en": "As a main competitor, Aritzia is accelerating its U.S. market penetration and securing strong momentum in digital channels, directly threatening A&F's women's apparel market share."
+            "kr": "패스트패션의 한계를 극복하고 가치 소비를 중시하는 젊은 소비자의 이탈을 방지하는 핵심 전략입니다.",
+            "en": "It serves as a key strategy to overcome fast fashion criticism and prevent churn among value-conscious young shoppers."
           },
           "action": {
-            "kr": "아리지아의 미국 내 오프라인 확장 지역과 디지털 마케팅 전략을 분석하여 당사의 옴니채널 및 여성복 라인업 경쟁력을 점검해야 합니다.",
-            "en": "Analyze Aritzia's U.S. offline expansion regions and digital marketing strategies to evaluate our omnichannel and women's apparel line competitiveness."
+            "kr": "홀리스터와 아베크롬비 매장에서 데님 및 주요 품목을 대상으로 한 리페어 바(Repair Bar) 파일럿 프로그램을 검토해야 합니다.",
+            "en": "Explore pilot repair bar programs targeting denim and core items across Hollister and Abercrombie stores."
           },
           "sources": [
             {
-              "source": "kalkine.ca",
+              "source": "The Times of India",
               "sourceTier": "GENERAL",
-              "date": "2026.08.10",
-              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQm5MQzBraFg0RTdRRnI4OGVEMmQ3ak14cWh1aWZzTGdTVnljbHFLTkZDN2JRekNiUzhiVVNiYjhueXBlS3FMZ1ViSDhFZkZoQm5QT3cySnF5VGRNQjl1dklTWVJpM2ZucFdRSms1UUdMMkxRSVNlQXEybDFlMjhQV3B3bklNLTFFWWdIOTlGVy1uNTB2QjlqMjMzdTFLcjF1VmhLTWEwQlRxMlBMS3dhenBaMmpMZ0h6aVdKTGtLQnpPUQ?oc=5"
+              "date": "2026.08.12",
+              "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPUDZRNjIzdk83c3g2NExOWi02Y2pZVEJoSF9ucXZMWGpfV3dRWnlReDFMdlBnTkpuYmVNbU93YnBoNFBjWVo1NDFPV0pfOUhyRXNURGtIa1BQS3p1cFhaX2R5Q1JxblBMcGtyWkhrMUV1Ukpzdy1Ud0JkZE9KcnJXVjJyaTJqOUJUNUh6bkQ0ZzZ4UlpRWGctRmQ5Y1F2a2tnb1VrRlR4LV90eFNNdFpaOFRNeEsxSUx2WW9vYjlFd2xWclFBdHBTdFRjMGlwZFNpOWl1RTZTTmxwbmdBWndN?oc=5"
             }
           ]
         },
         {
           "name": "Free People",
-          "signal": "PRODUCT",
+          "signal": "PROMOTION",
           "move": {
-            "kr": "Z세대의 리페어 및 핸드스티칭 트렌드에 발맞추어 지속 가능성과 브랜드 헤일로를 결합한 마케팅 및 교육 프로그램을 전개하고 있습니다.",
-            "en": "Aligned with Gen Z's repairing and handstitching trends, running marketing and educational programs combining sustainability and brand halo."
+            "kr": "백투스쿨 시즌을 맞아 대학생 전용 할인 및 타깃 프로모션을 적극 전개하고 있습니다.",
+            "en": "Free People is actively rolling out college-exclusive discounts and targeted promotions for the back-to-school season."
           },
           "whyItMatters": {
-            "kr": "메인 경쟁 브랜드들이 가치 소비 중심의 Z세대 고객을 결집시키고 있어, 홀리스터 및 A&F의 타깃층 충성도에 잠재적 리스크로 작용합니다.",
-            "en": "Main competing brands are rallying value-conscious Gen Z consumers, posing a potential risk to customer loyalty for Hollister and A&F."
+            "kr": "신학기 성수기 시즌 대학생 및 젊은 여성 소비자의 구매 전환율을 높이는 데 직접적인 위협이 됩니다.",
+            "en": "It poses a direct threat to conversion rates among college students and young female shoppers during the peak back-to-school season."
           },
           "action": {
-            "kr": "Z세대 소비자의 가치 소비 트렌드에 맞춘 지속 가능성 및 참여형 프로덕트 캠페인 요소를 기획에 반영해야 합니다.",
-            "en": "Incorporate sustainability and interactive product campaign elements tailored to Gen Z value-consumption trends into future planning."
+            "kr": "A&F 및 홀리스터의 학생 할인 프로그램(Student ID verification) 연계 마케팅과 디지털 광고 집행을 강화해야 합니다.",
+            "en": "Strengthen digital ad execution and student ID verification-linked marketing for A&F and Hollister."
           },
           "sources": [
             {
-              "source": "Fortune",
+              "source": "NBC News",
               "sourceTier": "GENERAL",
-              "date": "2026.08.10",
-              "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOM1U4T0NqTkVQTTg3M3VabmhUNUJnWGlfYTdvVWR5MTBZNXBvNllrRmpBMmttUFBsQXRJMmVtQmlVVWlRZ3pDOVgxdkdQcG0yX2ZxcXhmY3d2NEhyUXJtU3ZVVjU0S0NmbkNGR0U3b3V3MkNYRmh3cFIyd2lXb1lDN1dSeTNQLXhIeVFCTHh6Z2J4alcwRElvUldqTldfRUJqY1Bv?oc=5"
+              "date": "2026.08.11",
+              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMlEzcjV6YkVYYTlVTUJPNlFiNm1fSFlZemkxVG5YUUxHU3E2NndUblY5dm5zUUwtZXQwVTJhWjFkSlB3WTFMekJyd1Y4WTFONjhMQnBsS04xZ3h0YlRncTdhbTJQOVlkZk1VWml1MmtWb216TDRTRllxaGU3YXFHYUNWYVM?oc=5"
             }
           ]
         }
@@ -171,31 +171,55 @@
     },
     {
       "buyer": "Macy's",
-      "competitionLevel": "MEDIUM",
+      "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "주요 경쟁사인 딜러스(Dillard's)가 시장 점유율을 확대하고 있으며, 노드스트롬(Nordstrom)은 최대 85% 할인 프로모션을 진행하는 등 가격 경쟁이 심화되고 있습니다.",
-        "en": "Key competitor Dillard's is gaining market share, while Nordstrom is running aggressive promotions with up to 85% off, intensifying competitive pressure."
+        "kr": "주요 경쟁사인 JCPenney의 파격적인 리테일 리그렛 프로모션과 딜러즈의 시장 점유율 확대에 대응하여, 메이시스는 차별화된 프로모션 전략과 고객 충성도 유지 방안을 시급히 마련해야 합니다.",
+        "en": "In response to main competitor JCPenney's aggressive 'retail regret' trade-in promo and Dillard's market share growth, Macy's must urgently develop differentiated promotional strategies and customer loyalty retention initiatives."
       },
       "competitors": [
+        {
+          "name": "JCPenney",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "타사 의류를 반납받는 72시간 동안의 '리테일 리그렛(Retail Regret)' 프로모션 및 파격적인 보상 판매 캠페인 전개",
+            "en": "Launched a 72-hour 'Retail Regret' promo accepting clothing trade-ins from other stores alongside satirical marketing campaigns."
+          },
+          "whyItMatters": {
+            "kr": "경쟁사의 공격적인 트레이드인 프로모션이 소비자들의 이탈을 유도하고 백화점 업계의 가격/프로모션 경쟁을 심화시킴",
+            "en": "Aggressive trade-in promos by a main competitor threaten to capture consumer traffic and heighten promotional pressure in the department store sector."
+          },
+          "action": {
+            "kr": "메이시스도 타사 영수증이나 의류를 활용한 보상 판매 또는 자사 리워드 고객 대상 특별 할인 프로모션을 검토해야 함",
+            "en": "Consider launching a counter-trade-in event or exclusive reward-member incentives to re-engage consumers prone to retail regret."
+          },
+          "sources": [
+            {
+              "source": "JCPenney Newsroom",
+              "sourceTier": "OFFICIAL",
+              "date": "2026.08.17",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTWhrTmd2dlo0dHRoY1RuNHY4XzV5RE9nY1YyRWstVktoM0RqY1h3OWxVaXBwellSZS1uTHBzR21qeXYyaTlHQkxFazBidEI5cUtqY0tBcTlZbTVsY3ZUNk1idXM1aGtoNEV5RWh4c1JHSy1NRV9hX1lQSW9PNzRObW9NcGdmeEN2dE90ZFloMnQyZXZoUkU4Y1JYV0VOdHlpSzZoVFFkZ1hTSkp3UmNfVjVXY1pyNWJDY0VMR1BzSVhZUQ?oc=5"
+            }
+          ]
+        },
         {
           "name": "Dillard's",
           "signal": "FINANCIAL",
           "move": {
-            "kr": "딜러스가 시장 점유율을 확대함.",
-            "en": "Dillard's gains market share."
+            "kr": "시장 점유율 확대 소식 발표",
+            "en": "Reported an expansion in its market share within the retail sector."
           },
           "whyItMatters": {
-            "kr": "백화점 부문 주요 경쟁사의 점유율 표시는 메이시스의 입지에 직접적인 위협이 됨.",
-            "en": "Market share gains by a main department store competitor directly challenge Macy's positioning."
+            "kr": "동종 백화점 채널 내에서 딜러즈의 점유율 상승은 메이시스의 핵심 고객층을 잠식하고 있음을 시사함",
+            "en": "Dillard's gaining market share indicates direct competitive pressure on Macy's core department store customer base."
           },
           "action": {
-            "kr": "딜러스의 점유율 확대 요인을 분석하고 백화점 카테고리별 차별화된 고객 유지 전략 수립 필요.",
-            "en": "Analyze Dillard's growth drivers and develop targeted customer retention strategies across department store categories."
+            "kr": "딜러즈의 점유율 확대 원인(상품 구성, 매장 경험 등)을 분석하고 메이시스의 강점 카테고리 마케팅을 강화함",
+            "en": "Analyze Dillard's growth drivers and reinforce Macy's promotional focus on high-performing categories to protect market share."
           },
           "sources": [
             {
-              "source": "retaildive.com",
-              "sourceTier": "GENERAL",
+              "source": "Retail Dive",
+              "sourceTier": "INDUSTRY",
               "date": "2026.08.13",
               "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQm9QTzVCellPdTFVdHBjTTA2d29hOVc1Y1p6NlF1aU1tbjM2LXFSMmtoQjVab2FHWFlka3RlRXljUTFBUlhqdlkzejBfaF9reU9hY1JDRzd3SXVNV1lSVGJ3WHlScnl2LXptOU5leWl4SmVOQVNTalJDQnpUTkFrVGVoSWlkbEo4YVJnOVBudzIyM0VydEdJVmEtbWh4UXg5bVVnLWsxZw?oc=5"
             }
@@ -205,16 +229,16 @@
           "name": "Nordstrom",
           "signal": "PROMOTION",
           "move": {
-            "kr": "디자이너 의류 등을 최대 85%까지 할인하는 쿠폰 및 프로모션 진행.",
-            "en": "Running coupons and deals offering up to 85% off designer apparel and more."
+            "kr": "여름 역시즌 세일 및 다수의 디자이너 어패럴 할인(최대 85% 할인) 프로모션 진행",
+            "en": "Executing major end-of-summer sales and offering up to 85% off on designer apparel and coupons."
           },
           "whyItMatters": {
-            "kr": "공격적인 할인 공세로 인해 프리미엄 및 디자이너 브랜드 구매 고객을 노드스트롬에 빼앗길 위험이 있음.",
-            "en": "Aggressive discounting risks drawing premium and designer apparel shoppers away from Macy's."
+            "kr": "고가 의류 및 디자이너 브랜드 소비자를 겨냥한 노드스트롬의 대규모 할인이 메이시스의 프리미엄 고객 유치에 위협이 됨",
+            "en": "Nordstrom's deep discounts on designer apparel directly compete for discretionary spending from Macy's mid-to-high-tier shoppers."
           },
           "action": {
-            "kr": "디자이너 브랜드 및 프리미엄 의류 카테고리의 가격 경쟁력 및 로열티 프로그램을 재점검해야 함.",
-            "en": "Review pricing competitiveness and loyalty perks within designer and premium apparel categories."
+            "kr": "메이시스의 프라이빗 브랜드(PB) 및 디자이너 협업 상품에 대한 단독 할인 혜택을 강조하여 차별화된 가치 제공",
+            "en": "Highlight Macy's exclusive designer collaborations and private label values to counter deep discounting from competing department stores."
           },
           "sources": [
             {
@@ -224,79 +248,31 @@
               "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcEJwa3loS0RFb1Uwb1JqQlczZE10MXVHUG9GN19UcHBFNmdmYVoySHhUNFl3Yk1tYkVUa3Q3YU5JV042R1dYNEF0emFKZ29MRG53TnpmRVM1SmdOc28xWmVZcEFJNjhLaHd6SS00cE1udHJTaVBVQWVtZE9DcTR3Q0EwWGxFUQ?oc=5"
             }
           ]
-        },
-        {
-          "name": "Nordstrom",
-          "signal": "PRODUCT",
-          "move": {
-            "kr": "패션 리테일 업계 인재 이동(John Lewis 및 Mountain Warehouse 경영진 영입 관련 보도).",
-            "en": "Retail leadership changes featuring John Lewis and Mountain Warehouse bosses."
-          },
-          "whyItMatters": {
-            "kr": "경쟁사의 리더십 변화는 향후 상품 전략 및 운영 효율성 강화로 이어질 수 있음.",
-            "en": "Competitor leadership shifts could translate into stronger merchandising strategies and operational efficiencies."
-          },
-          "action": {
-            "kr": "경쟁사의 경영진 변동에 따른 리테일 전략 변화 방향을 모니터링함.",
-            "en": "Monitor potential shifts in retail execution resulting from competitor leadership changes."
-          },
-          "sources": [
-            {
-              "source": "Drapers",
-              "sourceTier": "GENERAL",
-              "date": "2026.08.14",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUF5aElCUTlVQ3F6MVV5dGlTaXdPNW5KdlVCbVI4VWVXbVRpbFU1dEF5MUxKM09XYi1BOU53NmMzMXMxR1E4T1NRTThaOFpQWEpYbnJpWmlDYTloMkhTckd4TTlnZ09CY0pkanVzbnJKQUh4V3l1a09RSUMzRXhzQlF0d2p1N1FoNkczUDZOdjRGRjdIWVpLTE9yMGc2MXhNbWcxQ1dQbE9zTF9yNnc?oc=5"
-            }
-          ]
         }
       ]
     },
     {
       "buyer": "Ann Taylor",
-      "competitionLevel": "MEDIUM",
+      "competitionLevel": "LOW",
       "keyTakeaway": {
-        "kr": "주요 경쟁사 J.Crew와 Banana Republic이 각각 월스트리트의 브랜드 부활 전략과 여름 시즌 프로모션을 통해 시장 점유율 확보 경쟁을 벌이고 있습니다.",
-        "en": "Key competitors J.Crew and Banana Republic are competing for market share through Wall Street brand revival strategies and summer season promotions, respectively."
+        "kr": "주요 경쟁사인 Banana Republic와 J.Crew는 여름 시즌오프 세일 및 프로모션을 전개하며 고객 유치에 집중하고 있습니다.",
+        "en": "Key competitors Banana Republic and J.Crew are focusing on customer acquisition through summer end-of-season sales and promotions."
       },
       "competitors": [
-        {
-          "name": "J.Crew",
-          "signal": "FINANCIAL",
-          "move": {
-            "kr": "월스트리트에서의 J.Crew 브랜드 부활을 위한 내부 전략 전쟁이 보도되었습니다.",
-            "en": "Wall Street's internal strategic battle to revive the J.Crew brand was reported."
-          },
-          "whyItMatters": {
-            "kr": "J.Crew의 기업적 재정비와 브랜드 부활은 Ann Taylor의 핵심 여성복 시장 포지셔닝에 직접적인 위협이 됩니다.",
-            "en": "J.Crew's corporate restructuring and brand revival pose a direct threat to Ann Taylor's core women's apparel market positioning."
-          },
-          "action": {
-            "kr": "J.Crew의 리브랜딩 및 마케팅 변화를 모니터링하고, 오피스룩 및 캐주얼웨어 부문의 차별화된 고객 로열티 프로그램을 강화해야 합니다.",
-            "en": "Monitor J.Crew's rebranding and marketing shifts, and strengthen differentiated customer loyalty programs in office and casual wear."
-          },
-          "sources": [
-            {
-              "source": "Financial Times",
-              "sourceTier": "TIER 1",
-              "date": "2026.08.13",
-              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObmYxME5qTDdvSU95NWRwUF9iVTNhdHFkX1lZM3NqVDI3VTgyeXJCWVpQczlYekh0R2xFZ1F4UDRsMThjNzNKVnJ1TWM1NV82NnFLdVliUkU2ZVV4Q0p3OVlDekhURXhjcVllQThfZmFRWDJKdmRNbUNkZkRTWDVKMDFwdzE?oc=5"
-            }
-          ]
-        },
         {
           "name": "Banana Republic",
           "signal": "PROMOTION",
           "move": {
-            "kr": "여름 시즌오프 세일 및 프로모션을 대대적으로 진행하고 있습니다.",
-            "en": "Running large-scale summer end-of-season sales and promotions."
+            "kr": "ABC 뉴스를 통해 여름 시즌오프 세일 및 프로모션을 진행 중인 것으로 보도되었습니다.",
+            "en": "Featured in top summer sales roundups as reported by ABC News."
           },
           "whyItMatters": {
-            "kr": "동종 타겟층을 가진 브랜드의 공격적인 할인 행사는 Ann Taylor의 여름 상품 재고 소진 및 매출에 타격을 줄 수 있습니다.",
-            "en": "Aggressive discounting by brands with a matching target demographic can negatively impact Ann Taylor's summer inventory clearance and sales."
+            "kr": "동일 타겟 고객층을 대상으로 한 할인 경쟁이 심화되어 트래픽 분산 우려가 있습니다.",
+            "en": "Intensifies discount competition for the same target demographic, risking traffic diversion."
           },
           "action": {
-            "kr": "타겟 고객을 유지하기 위해 선별적인 역시즌 프로모션과 신상품 프리뷰를 결합한 프로모션을 검토해야 합니다.",
-            "en": "Consider promotions combining selective end-of-season offers and new arrivals preview to retain target customers."
+            "kr": "주말 한정 추가 할인 프로모션을 검토하여 자사 마켓셰어를 방어해야 합니다.",
+            "en": "Consider launching a limited-time weekend promotional event to defend market share."
           },
           "sources": [
             {
@@ -308,26 +284,50 @@
           ]
         },
         {
-          "name": "J.Crew",
+          "name": "Banana Republic",
           "signal": "PRODUCT",
           "move": {
-            "kr": "최신 트렌드 패션 아이템 및 스타일 관련 미디어 노출이 확대되었습니다.",
-            "en": "Expanded media exposure regarding latest fashion items and styles."
+            "kr": "GQ를 통해 남성복 주요 할인 딜 및 기획 상품이 조명되었습니다.",
+            "en": "Highlighted for top menswear deals of the week by GQ."
           },
           "whyItMatters": {
-            "kr": "패션 매거진 및 언론을 통한 지속적인 노출은 소비자의 브랜드 선호도에 즉각적인 영향을 미칩니다.",
-            "en": "Continuous exposure through fashion magazines and media directly influences consumer brand preference."
+            "kr": "경쟁사의 상품 구색 강화와 가격 경쟁력 부각이 브랜드 인지도에 영향을 줄 수 있습니다.",
+            "en": "Competitor's enhanced assortment and highlighted value may impact brand preference."
           },
           "action": {
-            "kr": "디지털 및 인플루언서 마케팅을 활용하여 Ann Taylor의 가을 신상품 노출 빈도를 높여야 합니다.",
-            "en": "Increase the visibility of Ann Taylor's upcoming fall merchandise using digital and influencer marketing."
+            "kr": "크로스 카테고리 기획전 및 남성/여성 통합 프로모션 효과를 분석해야 합니다.",
+            "en": "Analyze cross-category promotion metrics to counter competitor product positioning."
           },
           "sources": [
             {
-              "source": "Vogue",
+              "source": "GQ",
               "sourceTier": "GENERAL",
-              "date": "2026.08.14",
-              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9uQ1hILXlQSW9oeW5yTm03c1VucTFiakJLZ2k2Rm16cXlHZVNKV2VKeVk1UlZ0a1c1VTBKOG45MDBVMjVjTkFBX1A1YUtJRk5Eek9vOHRqenM?oc=5"
+              "date": "2026.08.13",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGdl9qQ25FNE9vUnNOZlZrVGpFUFpNUktndloyTnBfWWZ3RzJkSTBfbTc4Y0h2SHFvZEl1bzhUcmp5VjhscVZLNlZlSEVoUkdRVDl3dVdYS29YcVpTX1p2cg?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "J.Crew",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "여름 시즌오프 세일 행사를 전개하며 언론 매체에 노출되었습니다.",
+            "en": "Featured in major summer sales roundups, running active seasonal clearance."
+          },
+          "whyItMatters": {
+            "kr": "재고 소진을 위한 공격적인 할인 행사가 동일 업계 바이어들의 가격 저항을 가중시킵니다.",
+            "en": "Aggressive clearance events increase pricing pressure across peer apparel brands."
+          },
+          "action": {
+            "kr": "클리어런스 상품과 신상품의 노출 비율을 조정하여 수익성을 방어해야 합니다.",
+            "en": "Optimize the visibility balance between markdown clearance and new arrivals to protect margins."
+          },
+          "sources": [
+            {
+              "source": "ABC News - Breaking News, Latest News and Videos",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.12",
+              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxeGwxdWZ2OUIxYkpGZm03U0N3SXFMS2VBU1hzTlk3LWI3REZ6QjBMQ0pjaHFDVGJtR3JrWDJ5Njg2Qk81STlDa29rUmdMX1NwNXprX0ZsTXFHMGRlaDBaUVQzMGw0Sk16MU5VYjV4UnJMS2pqYkVNZ21R0gF_QVVfeXFMTWROTG45Smp4NXhKQkZLc1VOYklHUlFvWjhUUjdSUGVDMDc2WThhTGRlOWpHSEtLSkI0cVFWZEhJLVltZjMwWVIzVzlzRExfanBfZm14UU1ZeEtFVkV3elppSHNibVBiR2NyY2FZc2piOHRwMWNON2tFejBQeGU4VQ?oc=5"
             }
           ]
         }
@@ -337,31 +337,31 @@
       "buyer": "Talbot's",
       "competitionLevel": "LOW",
       "keyTakeaway": {
-        "kr": "최근 7일간 탈보트의 주요 경쟁사인 J.Jill 및 Lands' End의 상업적 중요 시그널이 매우 부족하며, 업계 뉴스에 제한적으로 언급되었습니다.",
-        "en": "In the last 7 days, commercial competitor signals for Talbot's key rivals J.Jill and Lands' End were extremely limited, appearing only in general industry roundups."
+        "kr": "주요 경쟁사인 랜드스엔드(Lands' End)가 여름-가을 간절기 상품을 대상으로 파격적인 가격 인하 프로모션을 전개하며 고객 유치에 나섰습니다.",
+        "en": "Main competitor Lands' End is driving customer acquisition with aggressive price markdowns on reliable summer-to-fall transition staples."
       },
       "competitors": [
         {
-          "name": "J.Jill",
-          "signal": "CHANNEL",
+          "name": "Lands' End",
+          "signal": "PROMOTION",
           "move": {
-            "kr": "패션 리테일 인력 이동 뉴스를 통해 제이질 관련 업계 동향이 보도되었습니다.",
-            "en": "J.Jill was noted in general retail industry updates regarding fashion retail people moves."
+            "kr": "9달러부터 시작하는 가격으로 여름-가을 간절기 필수품에 대한 대규모 가격 인하를 단행함.",
+            "en": "Marked down reliable summer-to-fall staples with prices starting at $9."
           },
           "whyItMatters": {
-            "kr": "경영진 및 인력 변동은 향후 채널 및 마케팅 전략에 영향을 줄 수 있습니다.",
-            "en": "Leadership and personnel shifts can influence future channel and marketing strategies."
+            "kr": "시즌 전환기 고객 지갑을 먼저 열게 하여 탈봇츠의 동종 카테고리 초기 매출에 타격을 줄 수 있음.",
+            "en": "It captures early seasonal wallet share and could impact Talbot's initial sales in overlapping transition categories."
           },
           "action": {
-            "kr": "경쟁사의 조직 개편 및 주요 인력 영입 동향을 지속 모니터링해야 합니다.",
-            "en": "Continue to monitor competitor organizational changes and key talent acquisitions."
+            "kr": "초가을 간절기 상품의 가격 경쟁력 재검토 및 타겟 프로모션 기획 필요.",
+            "en": "Review price competitiveness for early fall transition items and plan targeted promotions."
           },
           "sources": [
             {
-              "source": "Drapers",
+              "source": "Real Simple",
               "sourceTier": "GENERAL",
-              "date": "2026.08.14",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUF5aElCUTlVQ3F6MVV5dGlTaXdPNW5KdlVCbVI4VWVXbVRpbFU1dEF5MUxKM09XYi1BOU53NmMzMXMxR1E4T1NRTThaOFpQWEpYbnJpWmlDYTloMkhTckd4TTlnZ09CY0pkanVzbnJKQUh4V3l1a09RSUMzRXhzQlF0d2p1N1FoNkczUDZOdjRGRjdIWVpLTE9yMGc2MXhNbWcxQ1dQbE9zTF9yNnc?oc=5"
+              "date": "2026.08.17",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBJbjZERVpSenRwNWhzajljZS1YZ19TWUViM0E1X21PQUNSWXJFdkVHZmxHX0ZER2RJZE1fOF8wcXJtemRmMUFwaG5YYjBDYTB1bXFzdHFidHhIb0pNaXcxSXVjREZxaExOUklaWjNBbw?oc=5"
             }
           ]
         },
@@ -369,16 +369,16 @@
           "name": "Lands' End",
           "signal": "PROMOTION",
           "move": {
-            "kr": "여름 시즌오프 및 얼리버드 세일 프로모션이 언론 보도에 포함되었습니다.",
-            "en": "Lands' End was featured in summer end-of-season and early-bird sale promotions covered by media."
+            "kr": "여름 시즌오프 세일 행사를 지속적으로 언론에 노출하며 트래픽을 유도함.",
+            "en": "Continued featuring top summer sales in major media outlets to drive traffic."
           },
           "whyItMatters": {
-            "kr": "시즌 말 재고 소진을 위한 프로모션 경쟁 구도를 파악하는 데 참고가 됩니다.",
-            "en": "It helps track the promotional landscape for end-of-season inventory clearance."
+            "kr": "여름 재고 소진을 공격적으로 진행하여 가을 신상품 진열 공간과 마케팅 예산을 확보하려는 전략임.",
+            "en": "Aggressive summer clearance clears inventory for new fall displays and marketing."
           },
           "action": {
-            "kr": "탈보트의 시즌 말 마크다운 및 프로모션 타이밍을 점검합니다.",
-            "en": "Review Talbot's own end-of-season markdown and promotion timing."
+            "kr": "남은 여름 재고의 신속한 정리와 가을 전환 프로모션 타이밍 조율.",
+            "en": "Quickly clear remaining summer inventory and adjust timing for fall transition promotions."
           },
           "sources": [
             {
@@ -390,26 +390,26 @@
           ]
         },
         {
-          "name": "Lands' End",
-          "signal": "PROMOTION",
+          "name": "J.Jill",
+          "signal": "STORE",
           "move": {
-            "kr": "노동절 이전 조기 할인 프로모션 기사에 언급되었습니다.",
-            "en": "Lands' End appeared in early pre-Labor Day discount promotion articles."
+            "kr": "패션 리테일 업계 주요 경영진 이동 소식이 보도됨.",
+            "en": "Featured in weekly fashion retail people moves coverage."
           },
           "whyItMatters": {
-            "kr": "추석 및 가을 시즌 전 조기 할인 행사의 트렌드를 보여줍니다.",
-            "en": "It indicates early promotional trends ahead of the fall transition."
+            "kr": "경쟁사의 조직 개편 및 인재 영입은 향후 상품 기획 및 브랜드 전략 변화로 이어질 수 있음.",
+            "en": "Competitor leadership changes can signal upcoming shifts in product strategy and brand positioning."
           },
           "action": {
-            "kr": "가을 시즌 초반 프로모션 전략 수립 시 참고합니다.",
-            "en": "Use as a reference when formulating early fall promotional strategies."
+            "kr": "경쟁사의 경영진 변동에 따른 마케팅 및 상품 전략 변화 모니터링 강화.",
+            "en": "Enhance monitoring of competitor strategy shifts resulting from leadership changes."
           },
           "sources": [
             {
-              "source": "CNN",
+              "source": "Drapers",
               "sourceTier": "GENERAL",
-              "date": "2026.08.10",
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91b09jRGItcnVPZ0N4YnpNTDhRYTFndzRNcDJFT0RzaVpobnVKZUpMdy02Yy1tbURjZWFtcEpWNXRXMlY0VzJJTDZmT0NlTm5vRlVuQlBxUnJHb2o3ZGM2T0hOc2VJc1l6UE43X1d2Tjh1NzJQOXBB?oc=5"
+              "date": "2026.08.14",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUF5aElCUTlVQ3F6MVV5dGlTaXdPNW5KdlVCbVI4VWVXbVRpbFU1dEF5MUxKM09XYi1BOU53NmMzMXMxR1E4T1NRTThaOFpQWEpYbnJpWmlDYTloMkhTckd4TTlnZ09CY0pkanVzbnJKQUh4V3l1a09RSUMzRXhzQlF0d2p1N1FoNkczUDZOdjRGRjdIWVpLTE9yMGc2MXhNbWcxQ1dQbE9zTF9yNnc?oc=5"
             }
           ]
         }
