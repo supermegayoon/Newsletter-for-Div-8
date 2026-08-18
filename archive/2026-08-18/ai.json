@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-08-18T00:57:56.426Z",
+  "generatedDateKST": "2026-08-18",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-08-18",
+  "insight": {
+    "headline": {
+      "kr": "백투스쿨 및 가을 시즌 공략 가속화 속 주요 바이어 promotion 및 임원 이동 동향",
+      "en": "Buyer Promotions and Executive Shifts Accelerate as Back-to-School and Fall Seasons Ramp Up"
+    },
+    "summary": {
+      "kr": "콜스와 메이시스는 JCPenney, 타겟 등 경쟁사의 공격적인 보상판매 및 가치 소구 promotion에 대응해 실속형 마케팅과 백투스쿨 라인업 강화가 시급합니다. A&F와 홀리스터는 Z세대를 겨냥한 지속 가능성 및 매장 네트워크 확장 전략을 지속하며 경쟁 압박을 높이고 있습니다.",
+      "en": "Kohl's and Macy's face intense promotional pressures from competitors like JCPenney and Target, requiring agile value marketing and back-to-school strategies. Meanwhile, A&F and Hollister continue expanding physical footprints and targeting Gen Z with eco-friendly initiatives."
+    },
+    "tags": [
+      "#BackToSchool",
+      "#RetailPromotion",
+      "#Activewear",
+      "#SupplyChain"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "JCPenney의 72시간 'retail regret' 보상판매와 타겟·월마트의 공격적인 가을/Labor Day 가치 소구에 직면해 있습니다. 틴에이저 및 젊은 층을 타겟으로 'KPop Demon Hunters' IP merchandise를 대거 런칭하며 traffic 확보에 주력하고 있습니다.",
+        "en": "Facing JCPenney's aggressive 72-hour 'retail regret' trade-in promo and Target/Walmart's sharp value positioning. Kohl's is driving store traffic and younger demographic engagement through a large-scale 'KPop Demon Hunters' IP merchandise drop for back-to-school."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "핵심 임원 Carey Collins Krug의 Vuori 이탈 소식이 전해진 가운데, Hollister는 북아일랜드 The Boulevard에 두 번째 매장을 오픈하며 글로벌 물리적 retail 영업망 확장을 가속화하고 있습니다. American Eagle과 Zara의 의류 수선 및 리폼 프로그램 확대에 대응하여 Z세대의 가치 소비 트렌드에 맞는 상품 전략이 필요합니다.",
+        "en": "Amid executive Carey Collins Krug's departure to Vuori, Hollister is pushing physical retail expansion with a second store opening in Northern Irish market 'The Boulevard'. Competitors like American Eagle and Zara are emphasizing clothing repair and upcycling to capture Gen Z loyalty."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "가을 남성복 category sell-through 확대를 위해 'Ted by Ted Baker' 라인을 미국 내 독점 유통으로 런칭했습니다. JCPenney의 공격적인 보상판매와 Nordstrom의 최대 85% 디자이너 어패럴 할인 공세 속에서 독점 협업 상품을 통한 traffic 방어가 중요합니다.",
+        "en": "Launched the 'Ted by Ted Baker' menswear collection as an exclusive U.S. retail release to boost autumn sell-through. Macy's must leverage exclusive collaborations to counter aggressive trade-in campaigns from JCPenney and deep designer discounts from Nordstrom."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "JCPenney와 타겟의 공격적인 보상판매 및 가치 마케팅 트렌드에 발맞추어, 콜스 및 메이시스 바이어를 위한 단독 번들 상품 및 가성비 중심의 백투스쿨 sourcing 아이템 제안",
+        "en": "Propose value-driven bundle options and high-margin back-to-school sourcing items to Kohl's and Macy's to counter competitor trade-in and discount promotions."
+      },
+      {
+        "kr": "A&F 및 홀리스터의 지속 가능성 및 Z세대 타겟 수요에 대응하기 위해, 친환경 소재 및 리폼/커스텀이 용이한 데님 및 캐주얼 어패럴 샘플 제안",
+        "en": "Offer eco-friendly fabrics and customizable denim/casual apparel samples to align with A&F and Hollister's Gen Z-focused sustainability trends."
+      },
+      {
+        "kr": "메이시스의 남성복 독점 라인(Ted by Ted Baker) 런칭 성과를 모니터링하여 가을/겨울 시즌 추가 reorder 및 exclusive 상품 라인업 확대 기회 발굴",
+        "en": "Monitor the sales performance of Macy's exclusive 'Ted by Ted Baker' menswear launch to secure early reorder opportunities and expand exclusive product lines for Fall/Winter."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "JCPenney의 파격적인 retail 리그렛 보상판매와 타겟·월마트·노드스트롬의 공격적인 시즌오프 및 가치 소구 promotion으로 인해 백화점 채널 전반의 가격 경쟁 심화 및 margin 압박 리스크 존재",
+      "en": "Heightened price competition and margin pressure across department store channels due to aggressive trade-in campaigns by JCPenney and deep discounting by Target, Walmart, and Nordstrom."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "콜스 바이어 대상 'KPop Demon Hunters' IP 라인업의 초기 sell-through 데이터를 점검하고 reorder lead time 관리 철저",
+        "en": "Review early sell-through data for Kohl's 'KPop Demon Hunters' IP merchandise line and tightly manage reorder lead times."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "A&F 및 홀리스터 담당 세일즈 팀은 American Eagle과 Zara의 리폼/수선 트렌드에 대응할 수 있는 지속 가능한 데님 및 베이직 category 제안서 작성",
+        "en": "Prepare sustainable denim and basic category proposals for A&F and Hollister to address competitor upcycling and mending trends."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "메이시스의 'Ted by Ted Baker' 남성복 독점 런칭에 따른 반응을 분석하고, 앤드오브서머 및 Labor Day 대비 추가 promotion용 물량 조율",
+        "en": "Analyze consumer response to Macy's exclusive 'Ted by Ted Baker' menswear launch and coordinate promotional inventory for End-of-Summer and Labor Day."
+      }
+    ]
+  }
+}
