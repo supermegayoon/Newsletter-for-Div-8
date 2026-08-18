@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "status": "PUBLISHED",
+  "issueDateKST": "2026-08-17",
+  "issueNumber": 3,
+  "issueLabel": "제3호",
+  "schedule": "Mon-Fri 08:00 KST",
+  "publishedAt": "2026-08-17T01:04:49.411Z",
+  "previousIssueDateKST": "2026-08-14",
+  "components": {
+    "marketDateKST": "2026-08-17",
+    "marketDataDate": "2026-08-14",
+    "newsDateKST": "2026-08-17",
+    "aiDateKST": "2026-08-17",
+    "competitorDateKST": null
+  },
+  "repairedAt": "2026-08-17T01:08:59.732Z",
+  "repairReason": "Reconciled issue number from actual archive count"
+}
