@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-08-18T00:48:02.862Z",
+  "asOf": "2026-08-19T01:34:10.289Z",
   "basis": "APPAREL MODE: current effective duty treatment for qualifying apparel; FTA/preference base duty reflected.",
   "mode": "APPAREL",
   "refreshStatus": "VERIFIED",
@@ -25,9 +25,9 @@
       ],
       "preference": {
         "program": "NONE",
-        "status": "ACTIVE",
-        "noteKr": "적격 의류 및 원산지/쿼터 요건 충족 시",
-        "noteEn": "For qualifying apparel meeting origin/quota requirements"
+        "status": "NONE",
+        "noteKr": "적용 가능한 특혜 프로그램 없음",
+        "noteEn": "No applicable preference program"
       },
       "trq": {
         "status": "NONE",
@@ -62,9 +62,9 @@
       ],
       "preference": {
         "program": "NONE",
-        "status": "ACTIVE",
-        "noteKr": "적격 의류 및 원산지/쿼터 요건 충족 시",
-        "noteEn": "For qualifying apparel meeting origin/quota requirements"
+        "status": "NONE",
+        "noteKr": "적용 가능한 특혜 프로그램 없음",
+        "noteEn": "No applicable preference program"
       },
       "trq": {
         "status": "PENDING",
@@ -111,9 +111,9 @@
       ],
       "preference": {
         "program": "NONE",
-        "status": "ACTIVE",
-        "noteKr": "적격 의류 및 원산지/쿼터 요건 충족 시",
-        "noteEn": "For qualifying apparel meeting origin/quota requirements"
+        "status": "NONE",
+        "noteKr": "적용 가능한 특혜 프로그램 없음",
+        "noteEn": "No applicable preference program"
       },
       "trq": {
         "status": "PENDING",
@@ -160,9 +160,9 @@
       ],
       "preference": {
         "program": "NONE",
-        "status": "ACTIVE",
-        "noteKr": "적격 의류 및 원산지/쿼터 요건 충족 시",
-        "noteEn": "For qualifying apparel meeting origin/quota requirements"
+        "status": "NONE",
+        "noteKr": "적용 가능한 특혜 프로그램 없음",
+        "noteEn": "No applicable preference program"
       },
       "trq": {
         "status": "PENDING",
