@@ -1,18 +1,18 @@
 {
   "ok": true,
   "status": "PUBLISHED",
-  "issueDateKST": "2026-08-19",
-  "issueNumber": 5,
-  "issueLabel": "제5호",
+  "issueDateKST": "2026-08-20",
+  "issueNumber": 6,
+  "issueLabel": "제6호",
   "schedule": "Mon-Fri 08:00 KST",
-  "publishedAt": "2026-08-18T23:41:18.786Z",
-  "previousIssueDateKST": "2026-08-18",
+  "publishedAt": "2026-08-20T01:21:33.640Z",
+  "previousIssueDateKST": "2026-08-19",
   "components": {
-    "marketDateKST": "2026-08-19",
-    "marketDataDate": "2026-08-18",
-    "newsDateKST": "2026-08-19",
-    "competitorDateKST": "2026-08-19",
-    "aiDateKST": "2026-08-19",
+    "marketDateKST": "2026-08-20",
+    "marketDataDate": "2026-08-19",
+    "newsDateKST": "2026-08-20",
+    "competitorDateKST": "2026-08-20",
+    "aiDateKST": "2026-08-20",
     "aiUsesCompetitorIntelligence": true
   }
 }
