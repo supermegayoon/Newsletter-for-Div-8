@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "generatedDateKST": "2026-08-20",
-  "asOf": "2026-08-20T01:21:27.317Z",
+  "generatedDateKST": "2026-08-21",
+  "asOf": "2026-08-20T23:01:00.908Z",
   "schedule": "Mon-Fri 08:00 KST",
   "windowDays": 7,
   "analysisMode": "RULE_FALLBACK",
@@ -42,6 +42,30 @@
           "name": "Target",
           "signal": "PRODUCT",
           "move": {
+            "kr": "Target sees continued sales gains - The Arkansas Democrat-Gazette",
+            "en": "Target sees continued sales gains - The Arkansas Democrat-Gazette"
+          },
+          "whyItMatters": {
+            "kr": "Kohl's과 유사한 고객층을 두고 경쟁하는 Target의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Target is relevant to Kohl's's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Target의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Target signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "The Arkansas Democrat-Gazette",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.20",
+              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOLXZ6NFB6WlRDenRRTjFmc2pWaGFsOHlyVTBDUXJsSmc4VUdzRGV4WGtlcnFsU3h5RC14TklrVzdnRVZDN1NrS05DM21BLTdJXzVFWVRrdUJFbS1GMmh1YmphUjE1Rm5fZG9zalNhZFNGMW13OEJHY1k4SjhJMkhrN1l3SG9rM2NMMEE?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Target",
+          "signal": "PRODUCT",
+          "move": {
             "kr": "Back-to-school sales to shop in 2026 before the school bell rings - ABC News - Breaking News, Latest News and Videos",
             "en": "Back-to-school sales to shop in 2026 before the school bell rings - ABC News - Breaking News, Latest News and Videos"
           },
@@ -57,32 +81,8 @@
             {
               "source": "ABC News - Breaking News, Latest News and Videos",
               "sourceTier": "GENERAL",
-              "date": "2026.08.19",
+              "date": "2026.08.18",
               "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQa0xGM2pkel9PWmo5UFhwSGROejZMd0dxRFIxT0xOa19MVVZiUmNEX1NRMmJ3a1VGbWVnQjFXU2tHT3ktUzNUdUk1YXI4UW5VZWVwcFpmRnVZNnNKeE5PTG9hVEZ1WjhtanBBOWxQN2FCbWVJLXVLNkNYZVdRN3lXYnRTUnFSd2JjY1JNVnZHRk9lcFFkY0xnb9IBngFBVV95cUxNMGlhclRQRmV4Nk5ydlo1ckg0SWk2Q1pCdUU5OW9vdDU0eUlrSm8wREhfQklDMTdQd2ZGQnJ2bzd6YzduUHotY2dteW5zdDRPLXNwME1JeWpPT2hiUTJtQmtlbVlFOEs0MzRlRURjanZjNGlHSmNEa09fbW80M2hmU2FieDFsekUwSUNXa1FPQ0ZBdFMybk1aQWpkakVtdw?oc=5"
-            }
-          ]
-        },
-        {
-          "name": "Target",
-          "signal": "PRODUCT",
-          "move": {
-            "kr": "Target’s comeback quarter: New merchandise, more shoppers and a $994M tariff refund - Bozeman Daily Chronicle",
-            "en": "Target’s comeback quarter: New merchandise, more shoppers and a $994M tariff refund - Bozeman Daily Chronicle"
-          },
-          "whyItMatters": {
-            "kr": "Kohl's과 유사한 고객층을 두고 경쟁하는 Target의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Target is relevant to Kohl's's competitive set and should be compared across product, pricing and promotion."
-          },
-          "action": {
-            "kr": "Target의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Target signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
-          },
-          "sources": [
-            {
-              "source": "Bozeman Daily Chronicle",
-              "sourceTier": "GENERAL",
-              "date": "2026.08.19",
-              "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQZm9VclRnN3FIUktUWlBmR2ppQmxNQ3M0TnZNTy1EUDdfMkMtdjllb3RZeHV2ZXZuTHY4UDdOQWFQVUVtT1NGbWs1WFhkNHRoTnlPQko5UmxLNXlPYkVRYk01eXJXNDY5OGp5WjBiOVFrVWs3WHdZTGV5endsa1gwWE14VUpLYU5zMG5kX0ZHd0tDZG1kLWVxY1VmbThERTBfaThLbnRzSlZTa05EcmxvSmJFU1F1ZkFzY0pfZUxndXBlQy16TVExa2dNQ3VWWnlFeXRFRWczeXRjR0JUZmxoaW9xS0RXTHp4SUpMMElMalhyTXI4M0hDWmtndG9HbFp6cVBrRHYtelpzWFlia1E4?oc=5"
             }
           ]
         }
@@ -124,8 +124,8 @@
           "name": "American Eagle",
           "signal": "PRODUCT",
           "move": {
-            "kr": "Mens Underwear Market Size and Statistics – 2035 - Market Business Insights",
-            "en": "Mens Underwear Market Size and Statistics – 2035 - Market Business Insights"
+            "kr": "What Americans want from clothing brands is starting to change - thestreet.com",
+            "en": "What Americans want from clothing brands is starting to change - thestreet.com"
           },
           "whyItMatters": {
             "kr": "A&F / Hollister과 유사한 고객층을 두고 경쟁하는 American Eagle의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
@@ -137,10 +137,10 @@
           },
           "sources": [
             {
-              "source": "Market Business Insights",
+              "source": "thestreet.com",
               "sourceTier": "GENERAL",
-              "date": "2026.08.19",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZbHRrb3JIcFY2N09XRjNyRVViRE9EWFh1RF9NVFRmd1lEUTFvSlRxYUc1bnZfdkRXQzdwSkxQTTJPNXc1eEh5NVJ5RHc3YzNjSlgzTWpqMnhwbWNOMzgyRDVvXzl4TWRzMVpXTA?oc=5"
+              "date": "2026.08.21",
+              "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcGxid19LMi0xaUs0TVk0a3NSM0MtUFNmbVJudVU4cmtqV2xway1HU3RWYjZjU0syQmdkaHNEdVVzcHpaeWpRSzFGQ2hrVlU1RTN6R3kyQ2o0UnAyTnd0Mjh5bk9VejJ6T0Q4WEdPeDdickVHVXpEemlZSFU4UzFkME5MT3pETml3OC0wZkRkYjVqMlJmYkFRdXo3dmZpN2tNTjlwWg?oc=5"
             }
           ]
         },
@@ -148,8 +148,8 @@
           "name": "American Eagle",
           "signal": "PRODUCT",
           "move": {
-            "kr": "The Best New Fashion Launches of 2026 - People.com",
-            "en": "The Best New Fashion Launches of 2026 - People.com"
+            "kr": "From Uniqlo to Zara, clothing brands try to win over Gen Z with a needle and thread - Reading Eagle",
+            "en": "From Uniqlo to Zara, clothing brands try to win over Gen Z with a needle and thread - Reading Eagle"
           },
           "whyItMatters": {
             "kr": "A&F / Hollister과 유사한 고객층을 두고 경쟁하는 American Eagle의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
@@ -161,10 +161,10 @@
           },
           "sources": [
             {
-              "source": "People.com",
+              "source": "Reading Eagle",
               "sourceTier": "GENERAL",
-              "date": "2026.08.19",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wU2JIRktwT2V2UTdmNUZnX2lHX1dzVklYb3YtYU44dU5zVU80LS1uSU9lcDh5clc0a3V1dUhRNDZ1NUlobG4wVVpzRlp4Tk54MTRyUFdOd1d0RERpUUFCekFCalpiUnl3eFlHR2xJVWYyY2M?oc=5"
+              "date": "2026.08.20",
+              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAyU3RZakc0UGoyMkRjTmh1aDBHZmxkczZIOEF5My1fRHg1cXZ0aVlZQVlWQ2h4ZV9NYS1ZX1BpZzhTcFB4aWFBb3BLemtrSWRIazVTZUpPdmJXRDh4MENBUHVudlY2SDdGUGRyYWRHdzBYaVRTWWI1WVhMWU0yZw?oc=5"
             }
           ]
         }
@@ -174,8 +174,8 @@
       "buyer": "Macy's",
       "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "JCPenney, Nordstrom, Nordstrom 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
-        "en": "Recent signals were found for JCPenney, Nordstrom, Nordstrom. Review the implications by buyer using the cited sources."
+        "kr": "JCPenney, Nordstrom, JCPenney 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for JCPenney, Nordstrom, JCPenney. Review the implications by buyer using the cited sources."
       },
       "competitors": [
         {
@@ -206,8 +206,8 @@
           "name": "Nordstrom",
           "signal": "PRODUCT",
           "move": {
-            "kr": "Some Of The Best Labor Day Sales Are Already Live—Save Up To 70% - Forbes",
-            "en": "Some Of The Best Labor Day Sales Are Already Live—Save Up To 70% - Forbes"
+            "kr": "Asos reshuffles and Next poaches from Primark: this week’s fashion retail people moves - Drapers",
+            "en": "Asos reshuffles and Next poaches from Primark: this week’s fashion retail people moves - Drapers"
           },
           "whyItMatters": {
             "kr": "Macy's과 유사한 고객층을 두고 경쟁하는 Nordstrom의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
@@ -219,34 +219,34 @@
           },
           "sources": [
             {
-              "source": "Forbes",
+              "source": "Drapers",
               "sourceTier": "GENERAL",
-              "date": "2026.08.18",
-              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQkJ2bmVibjlUQUZWVER0YmhoYjBzX2hVWm5XX2pqejdET2tkc29qRFVFMGtwamNxaXViUEdsOW9jNDM2NmNQeUxxbThvYVZoai02cXltaXFZSjN0R201dE5IZjgtUG5PYmJuSTJBcmszSGk1REd6TEFRdmpZaFJIVTZDX3V0Z0VmRjdvTDI4Q1pvYnVu?oc=5"
+              "date": "2026.08.21",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUF5aElCUTlVQ3F6MVV5dGlTaXdPNW5KdlVCbVI4VWVXbVRpbFU1dEF5MUxKM09XYi1BOU53NmMzMXMxR1E4T1NRTThaOFpQWEpYbnJpWmlDYTloMkhTckd4TTlnZ09CY0pkanVzbnJKQUh4V3l1a09RSUMzRXhzQlF0d2p1N1FoNkczUDZOdjRGRjdIWVpLTE9yMGc2MXhNbWcxQ1dQbE9zTF9yNnc?oc=5"
             }
           ]
         },
         {
-          "name": "Nordstrom",
+          "name": "JCPenney",
           "signal": "PRODUCT",
           "move": {
-            "kr": "Top summer sales going on now: Abercrombie, Reformation, West Elm and more - ABC News - Breaking News, Latest News and Videos",
-            "en": "Top summer sales going on now: Abercrombie, Reformation, West Elm and more - ABC News - Breaking News, Latest News and Videos"
+            "kr": "To lure in shoppers, J.C. Penney takes aim at off-price stores - Retail Dive",
+            "en": "To lure in shoppers, J.C. Penney takes aim at off-price stores - Retail Dive"
           },
           "whyItMatters": {
-            "kr": "Macy's과 유사한 고객층을 두고 경쟁하는 Nordstrom의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Nordstrom is relevant to Macy's's competitive set and should be compared across product, pricing and promotion."
+            "kr": "Macy's과 유사한 고객층을 두고 경쟁하는 JCPenney의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by JCPenney is relevant to Macy's's competitive set and should be compared across product, pricing and promotion."
           },
           "action": {
-            "kr": "Nordstrom의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Nordstrom signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "JCPenney의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this JCPenney signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
           },
           "sources": [
             {
-              "source": "ABC News - Breaking News, Latest News and Videos",
-              "sourceTier": "GENERAL",
+              "source": "Retail Dive",
+              "sourceTier": "INDUSTRY",
               "date": "2026.08.18",
-              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxeGwxdWZ2OUIxYkpGZm03U0N3SXFMS2VBU1hzTlk3LWI3REZ6QjBMQ0pjaHFDVGJtR3JrWDJ5Njg2Qk81STlDa29rUmdMX1NwNXprX0ZsTXFHMGRlaDBaUVQzMGw0Sk16MU5VYjV4UnJMS2pqYkVNZ21R0gF_QVVfeXFMTWROTG45Smp4NXhKQkZLc1VOYklHUlFvWjhUUjdSUGVDMDc2WThhTGRlOWpHSEtLSkI0cVFWZEhJLVltZjMwWVIzVzlzRExfanBfZm14UU1ZeEtFVkV3elppSHNibVBiR2NyY2FZc2piOHRwMWNON2tFejBQeGU4VQ?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOFVtX05sNUJfMUEtSV9VZDdUNk5JcHJ0SkM0MXBBS1c3WnlLRktWRXdXQl92QzJ3ZV9DNWxibHFjcEd4bjVWUzlyLW9mYUFRSlZ4V09qeFRLb1ZReS1zalVaU21IcjhqeEp1YnJIelpCUVk5Z0thXzhHWVE4M2pLVjNn?oc=5"
             }
           ]
         }
@@ -256,34 +256,10 @@
       "buyer": "Ann Taylor",
       "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "J.Crew, Banana Republic, J.Crew 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
-        "en": "Recent signals were found for J.Crew, Banana Republic, J.Crew. Review the implications by buyer using the cited sources."
+        "kr": "Banana Republic, Banana Republic, White House Black Market 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for Banana Republic, Banana Republic, White House Black Market. Review the implications by buyer using the cited sources."
       },
       "competitors": [
-        {
-          "name": "J.Crew",
-          "signal": "PRODUCT",
-          "move": {
-            "kr": "Style war: inside Wall Street’s battle to revive J Crew - Financial Times",
-            "en": "Style war: inside Wall Street’s battle to revive J Crew - Financial Times"
-          },
-          "whyItMatters": {
-            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 J.Crew의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by J.Crew is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
-          },
-          "action": {
-            "kr": "J.Crew의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this J.Crew signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
-          },
-          "sources": [
-            {
-              "source": "Financial Times",
-              "sourceTier": "TIER 1",
-              "date": "2026.08.13",
-              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObmYxME5qTDdvSU95NWRwUF9iVTNhdHFkX1lZM3NqVDI3VTgyeXJCWVpQczlYekh0R2xFZ1F4UDRsMThjNzNKVnJ1TWM1NV82NnFLdVliUkU2ZVV4Q0p3OVlDekhURXhjcVllQThfZmFRWDJKdmRNbUNkZkRTWDVKMDFwdzE?oc=5"
-            }
-          ]
-        },
         {
           "name": "Banana Republic",
           "signal": "PRODUCT",
@@ -309,26 +285,50 @@
           ]
         },
         {
-          "name": "J.Crew",
+          "name": "Banana Republic",
           "signal": "PRODUCT",
           "move": {
-            "kr": "Top summer sales going on now: Abercrombie, Reformation, West Elm and more - ABC News - Breaking News, Latest News and Videos",
-            "en": "Top summer sales going on now: Abercrombie, Reformation, West Elm and more - ABC News - Breaking News, Latest News and Videos"
+            "kr": "A Look Back at Apparel Retailer Stocks’ Q1 Earnings: Abercrombie and Fitch (NYSE:ANF) Vs The Rest Of The Pack - StockStory",
+            "en": "A Look Back at Apparel Retailer Stocks’ Q1 Earnings: Abercrombie and Fitch (NYSE:ANF) Vs The Rest Of The Pack - StockStory"
           },
           "whyItMatters": {
-            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 J.Crew의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by J.Crew is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
+            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 Banana Republic의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Banana Republic is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
           },
           "action": {
-            "kr": "J.Crew의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this J.Crew signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "Banana Republic의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Banana Republic signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
           },
           "sources": [
             {
-              "source": "ABC News - Breaking News, Latest News and Videos",
+              "source": "StockStory",
               "sourceTier": "GENERAL",
-              "date": "2026.08.18",
-              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxeGwxdWZ2OUIxYkpGZm03U0N3SXFMS2VBU1hzTlk3LWI3REZ6QjBMQ0pjaHFDVGJtR3JrWDJ5Njg2Qk81STlDa29rUmdMX1NwNXprX0ZsTXFHMGRlaDBaUVQzMGw0Sk16MU5VYjV4UnJMS2pqYkVNZ21R0gF_QVVfeXFMTWROTG45Smp4NXhKQkZLc1VOYklHUlFvWjhUUjdSUGVDMDc2WThhTGRlOWpHSEtLSkI0cVFWZEhJLVltZjMwWVIzVzlzRExfanBfZm14UU1ZeEtFVkV3elppSHNibVBiR2NyY2FZc2piOHRwMWNON2tFejBQeGU4VQ?oc=5"
+              "date": "2026.08.19",
+              "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQTG5sTzlEclJqVFZ0aGdWdnFCdjBCeGJMNlZfUmJGLUE4YmlycTh5eVNDY2pOTXZBTWkwb3F5YTZoWHFvcXdkQW1ydkhwRlEyOUNRQVdYZ1gzZmdqZVkwNlJpZ3lEQmE2cUZoSkwzMUlNdjFqNk1ST2tRUzBpMFQzVW11T0Nkc19FQ0p2eG9xdng0cmQtR1ZjcnozZVNtQ0VRcTZmbW9wLXJZZHJwb1FUSmxHNElSSTM3ZF9TVTFMRnNJa2NSeThrNHNsaExmQXVlMm9kaW9zRV9nT2NJeEdMTG1wYm5aUXFCNlBuOVYtNlNRZw?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "White House Black Market",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "From Uniqlo to Zara, clothing brands try to win over Gen Z with a needle and thread - Santa Cruz Sentinel",
+            "en": "From Uniqlo to Zara, clothing brands try to win over Gen Z with a needle and thread - Santa Cruz Sentinel"
+          },
+          "whyItMatters": {
+            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 White House Black Market의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by White House Black Market is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "White House Black Market의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this White House Black Market signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "Santa Cruz Sentinel",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.20",
+              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaE5fNGhLMVkwRGIyUVRhd1UySmJHOXlRWDE5blNjRHJrTW9kU3ZrbU1lcXNMZVpRdk1HaDNNSjNmem9MOWxJaVlSMS1DWDdabEVsUXpnMlFYc0NkZFQ3N0VfZmRJeEVXQlQ0X0xiMllHTjJ5dF91UklPREpRNXQtUjVfMVU?oc=5"
             }
           ]
         }
@@ -338,16 +338,16 @@
       "buyer": "Talbot's",
       "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "J.Jill, Lands' End, Lands' End 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
-        "en": "Recent signals were found for J.Jill, Lands' End, Lands' End. Review the implications by buyer using the cited sources."
+        "kr": "J.Jill, Chico's, Lands' End 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for J.Jill, Chico's, Lands' End. Review the implications by buyer using the cited sources."
       },
       "competitors": [
         {
           "name": "J.Jill",
           "signal": "PRODUCT",
           "move": {
-            "kr": "John Lewis and Mountain Warehouse bosses: this week’s fashion retail people moves - Drapers",
-            "en": "John Lewis and Mountain Warehouse bosses: this week’s fashion retail people moves - Drapers"
+            "kr": "Asos reshuffles and Next poaches from Primark: this week’s fashion retail people moves - Drapers",
+            "en": "Asos reshuffles and Next poaches from Primark: this week’s fashion retail people moves - Drapers"
           },
           "whyItMatters": {
             "kr": "Talbot's과 유사한 고객층을 두고 경쟁하는 J.Jill의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
@@ -361,8 +361,32 @@
             {
               "source": "Drapers",
               "sourceTier": "GENERAL",
-              "date": "2026.08.14",
+              "date": "2026.08.21",
               "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUF5aElCUTlVQ3F6MVV5dGlTaXdPNW5KdlVCbVI4VWVXbVRpbFU1dEF5MUxKM09XYi1BOU53NmMzMXMxR1E4T1NRTThaOFpQWEpYbnJpWmlDYTloMkhTckd4TTlnZ09CY0pkanVzbnJKQUh4V3l1a09RSUMzRXhzQlF0d2p1N1FoNkczUDZOdjRGRjdIWVpLTE9yMGc2MXhNbWcxQ1dQbE9zTF9yNnc?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Chico's",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "From Uniqlo to Zara, clothing brands try to win over Gen Z with a needle and thread - Chico Enterprise-Record",
+            "en": "From Uniqlo to Zara, clothing brands try to win over Gen Z with a needle and thread - Chico Enterprise-Record"
+          },
+          "whyItMatters": {
+            "kr": "Talbot's과 유사한 고객층을 두고 경쟁하는 Chico's의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Chico's is relevant to Talbot's's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Chico's의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Chico's signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "Chico Enterprise-Record",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.20",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5rVzBNQVZ1c3I4MEhYSHVISW1oLUtkTmJXalMyTXl2SVl2MF9yQ1FPVllueWFKUzZKLUZzZDdFcWFlS1pKRnZGbDQ5cjcwMzZ1U29na3Y4MzJSbmI3YU94VzlkM3huS3IwMXZGdXZ5NFYzUHRRZmhj?oc=5"
             }
           ]
         },
@@ -387,30 +411,6 @@
               "sourceTier": "GENERAL",
               "date": "2026.08.18",
               "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxeGwxdWZ2OUIxYkpGZm03U0N3SXFMS2VBU1hzTlk3LWI3REZ6QjBMQ0pjaHFDVGJtR3JrWDJ5Njg2Qk81STlDa29rUmdMX1NwNXprX0ZsTXFHMGRlaDBaUVQzMGw0Sk16MU5VYjV4UnJMS2pqYkVNZ21R0gF_QVVfeXFMTWROTG45Smp4NXhKQkZLc1VOYklHUlFvWjhUUjdSUGVDMDc2WThhTGRlOWpHSEtLSkI0cVFWZEhJLVltZjMwWVIzVzlzRExfanBfZm14UU1ZeEtFVkV3elppSHNibVBiR2NyY2FZc2piOHRwMWNON2tFejBQeGU4VQ?oc=5"
-            }
-          ]
-        },
-        {
-          "name": "Lands' End",
-          "signal": "PRODUCT",
-          "move": {
-            "kr": "Lands’ End Just Marked Down Its Most Reliable Summer-to-Fall Staples, With Prices Starting at $9 - Real Simple",
-            "en": "Lands’ End Just Marked Down Its Most Reliable Summer-to-Fall Staples, With Prices Starting at $9 - Real Simple"
-          },
-          "whyItMatters": {
-            "kr": "Talbot's과 유사한 고객층을 두고 경쟁하는 Lands' End의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Lands' End is relevant to Talbot's's competitive set and should be compared across product, pricing and promotion."
-          },
-          "action": {
-            "kr": "Lands' End의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Lands' End signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
-          },
-          "sources": [
-            {
-              "source": "Real Simple",
-              "sourceTier": "GENERAL",
-              "date": "2026.08.18",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBJbjZERVpSenRwNWhzajljZS1YZ19TWUViM0E1X21PQUNSWXJFdkVHZmxHX0ZER2RJZE1fOF8wcXJtemRmMUFwaG5YYjBDYTB1bXFzdHFidHhIb0pNaXcxSXVjREZxaExOUklaWjNBbw?oc=5"
             }
           ]
         }
