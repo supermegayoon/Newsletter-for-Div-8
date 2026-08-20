@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-08-19T01:34:10.289Z",
+  "asOf": "2026-08-20T02:53:56.077Z",
   "basis": "APPAREL MODE: current effective duty treatment for qualifying apparel; FTA/preference base duty reflected.",
   "mode": "APPAREL",
   "refreshStatus": "VERIFIED",
@@ -56,8 +56,8 @@
           "rate": 10,
           "status": "CURRENT",
           "effectiveDate": "2026-07-23",
-          "noteKr": "강제노동 수입 금지 의무를 이행하거나 협정을 체결한 국가에 적용되는 10%",
-          "noteEn": "10% rate applicable to economies that impose a forced labor import prohibition or undertake commitments"
+          "noteKr": "강제노동 수입 금지 의무를 이행하는 국가에 적용되는 10%",
+          "noteEn": "10% rate applicable to economies that impose a forced labor import prohibition"
         }
       ],
       "preference": {
@@ -211,7 +211,7 @@
           "rate": 0,
           "status": "CURRENT",
           "effectiveDate": "2026-01-01",
-          "noteKr": "2026년 기간 중 비-CAFTA-DR 물품에 대한 Section 301 관세율은 0% (2027년 1-1일부터 10%로 인상)",
+          "noteKr": "2026년 기간 중 비-CAFTA-DR 물품에 대한 Section 301 관세율은 0% (2027년 1월 1일부터 10%로 인상)",
           "noteEn": "0% Section 301 rate for non-CAFTA-DR goods during 2026 (increases to 10% on January 1, 2027)"
         }
       ],
