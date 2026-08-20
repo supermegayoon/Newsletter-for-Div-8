@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-08-20T01:24:15.353Z",
+  "generatedDateKST": "2026-08-20",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-08-20",
+  "insight": {
+    "headline": {
+      "kr": "8담당 데일리 마켓 브리프: 주요 바이어 백투스쿨 IP 및 Holiday sourcing 강화 동향",
+      "en": "Team 8 Daily Market Brief: Major Buyers Boost Back-to-School IP and Holiday Sourcing Initiatives"
+    },
+    "summary": {
+      "kr": "2026년 8월 20일 기준, 주요 바이어들의 백투스쿨 및 Holiday 시즌 대응이 가속화되고 있습니다. Kohl's는 넷플릭스 IP 'KPop Demon Hunters' 굿즈를 출시하며 영타겟을 공략하고 있으며, Macy's는 디즈니 exclusive 캡슐과 'Ted by Ted Baker' 남성복을 런칭하며 상품력을 강화하고 있습니다. 원·달러 환율은 1,393.28원으로 하락하여 가격 경쟁력에 긍정적인 영향을 미치고 있습니다.",
+      "en": "As of August 20, 2026, major buyers are accelerating their back-to-school and holiday season preparations. Kohl's is targeting younger demographics with Netflix 'KPop Demon Hunters' merchandise, while Macy's is expanding its assortment with an exclusive Disney capsule and 'Ted by Ted Baker' menswear. The USD/KRW exchange rate has eased to 1,393.28, supporting favorable pricing dynamics."
+    },
+    "tags": [
+      "#Team8Daily",
+      "#Kohls",
+      "#Macys",
+      "#BackToSchool"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "넷플릭스 'KPop Demon Hunters' IP 굿즈를 대거 드랍하고, DoorDash 배송 연계 및 추가 promotion을 통해 백투스쿨 시즌 traffic 방어와 영타겟 공략에 주력하고 있습니다.",
+        "en": "Kohl's is dropping extensive merchandise inspired by Netflix's 'KPop Demon Hunters' and expanding DoorDash integration with promotional deals to protect traffic during the back-to-school season."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "핵심 마케팅 임원 Carey Collins Krug의 Vuori 이적 등 주요 인재 이동이 발생함에 따라, 향후 경쟁사의 마케팅 포지셔닝 및 전략 변화를 모니터링할 필요가 있습니다.",
+        "en": "Key marketing executive Carey Collins Krug has moved to Vuori, signaling a need to closely monitor how competitive marketing positioning and strategies evolve."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "디즈니 exclusive 캡슐 컬렉션이 액세서리 category에서 빠른 판매 회전율을 보이고 있으며, 'Ted by Ted Baker' 입점으로 남성복 라인업을 강화하고 있습니다.",
+        "en": "Macy's exclusive Disney capsule collection is seeing rapid sell-through in accessories, while the introduction of 'Ted by Ted Baker' strengthens its men's apparel assortment."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "Kohl's 및 Macy's의 트렌드에 발맞추어 영타겟 중심의 IP 연계 굿즈 및 Holiday 시즌 액세서리/의류 sourcing 제안을 선제적으로 준비합니다.",
+        "en": "Proactively prepare IP-driven merchandise and holiday-season accessory/apparel sourcing proposals tailored to the youth-focused strategies of Kohl's and Macy's."
+      },
+      {
+        "kr": "USD/KRW 환율 하락(1,393.28원) 기조를 활용하여 주요 바이어 대상 원가 경쟁력 어필 및 추가 오더 수주 기회를 적극 모색합니다.",
+        "en": "Leverage the lower USD/KRW exchange rate (1,393.28) to highlight cost competitiveness and actively pursue additional order opportunities with key buyers."
+      },
+      {
+        "kr": "백투스쿨 및 레이버데이 시즌을 대비한 각 바이어의 promotion 및 재고 소진 동향을 파악하여 신속한 reorder 및 lead time 관리를 지원합니다.",
+        "en": "Analyze buyer promotion and inventory clearance trends for the back-to-school and Labor Day seasons to support agile reorders and tight lead-time management."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "경쟁사들의 공격적인 백투스쿨 할인 공세 및 인재 이동에 따른 시장 변동성이 존재하므로, 바이어별 실적 방어 전략에 맞춘 유연한 대응이 요구됩니다.",
+      "en": "Market volatility driven by aggressive competitor back-to-school discounting and executive shifts requires flexible alignment with buyer-specific traffic defense strategies."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Kohl's의 IP(KPop Demon Hunters) 및 Macy's의 디즈니 캡슐 성공 사례를 분석하여 당사 신규 제안서에 반영할 아이템 기획",
+        "en": "Analyze Kohl's IP (KPop Demon Hunters) and Macy's Disney capsule success to incorporate into upcoming vendor product proposals."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "환율 변동(1,393.28원)에 따른 바이어별 FOB 가격 경쟁력 검토 및 납기 일정 재확인",
+        "en": "Review FOB price competitiveness for each buyer based on exchange rate fluctuations (1,393.28) and re-verify delivery schedules."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "주요 경쟁사(JCPenney, Target, American Eagle 등)의 백투스쿨 promotion 동향을 모니터링하고 바이어 미팅 시 인사이트 공유 준비",
+        "en": "Monitor back-to-school promotional trends from key competitors (JCPenney, Target, American Eagle, etc.) and prepare to share insights during buyer meetings."
+      }
+    ]
+  }
+}
