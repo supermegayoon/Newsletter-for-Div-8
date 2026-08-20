@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "asOf": "2026-08-19T01:34:14.944Z",
-  "generatedDateKST": "2026-08-19",
+  "asOf": "2026-08-20T00:44:42.807Z",
+  "generatedDateKST": "2026-08-20",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
@@ -11,70 +11,70 @@
   "competitorDateKST": "2026-08-19",
   "insight": {
     "headline": {
-      "kr": "2026년 8월 19일 8담당 데일리 마켓 브리프: 주요 retail러의 노동절 promotion 선점 및 가을 시즌 트랜지션 가속화",
-      "en": "August 19, 2026 Team 8 Daily Market Brief: Retailers Accelerate Fall Transitions and Early Labor Day Promotions Amid Intense Competition"
+      "kr": "여름-가을 시즌 전환기 백화점 업계 promotion 격화 속 타깃·JCPenney 공세 대응 필수",
+      "en": "Department Store Promotions Intensify for Seasonal Transition; Urgent Counter-Strategies Needed Against Target and JCPenney"
     },
     "summary": {
-      "kr": "Kohl's와 Macy's 등 주요 바이어들이 가을 시즌 IP 협업, 백화점 파레드 마케팅, 신규 브랜드 런칭을 추진하는 가운데, JCPenney와 Target 등 경쟁사들은 파격적인 보상 판매와 가치 소구 전략으로 고객 유치에 나서고 있습니다. 당사 영업팀은 조기 promotion 대응과 함께 가을 전환기 상품의 차별화된 sourcing 및 마케팅 지원을 강화해야 합니다.",
-      "en": "As key buyers like Kohl's and Macy's push fall IP collaborations and milestone parade marketing, competitors such as JCPenney and Target are aggressively driving customer acquisition through trade-in promotions and value strategies. Our vendor sales team must align with early promotional calendars and reinforce differentiated sourcing for seasonal transitions."
+      "kr": "Kohl's와 Macy's 등 주요 바이어가 배당 공시 및 100주년 Parade 카운트다운 등 이벤트에 돌입한 가운데, JCPenney와 Target 등 경쟁사들은 파격적인 보상 판매와 가치 소구 promotion으로 고객 유치에 총력을 기울이고 있습니다. 당사 Team 8은 가을 시즌오프 및 노동절 연휴를 겨냥한 가격 경쟁력 확보와 차별화된 마케팅 지원을 서둘러야 합니다.",
+      "en": "As major buyers like Kohl's and Macy's focus on shareholder value and milestone marketing, key competitors such as JCPenney and Target are aggressively driving customer acquisition through trade-in promotions and value messaging. Team 8 must secure competitive pricing and differentiated marketing support tailored for upcoming Labor Day and fall seasonal shifts."
     },
     "tags": [
-      "#Team8Brief",
-      "#ApparelSourcing",
-      "#RetailTrends",
-      "#LaborDaySales"
+      "#Kohls",
+      "#Macys",
+      "#ANF",
+      "#Team8"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "Kohl's는 Netflix의 'KPop Demon Hunters' IP를 활용한 Gen Z 타겟 컬렉션을 론칭한 한편, 경쟁사인 JCPenney는 타사 의류를 반납받는 파격적인 'retail regret' 보상 판매 캠페인을 펼쳐 고객 이탈 압박을 가하고 있습니다. Target 역시 가을 시즌을 겨냥해 가치(Value) 제안을 재정의하고 있어, Kohl's 채널 내 입점 브랜드들은 가격 대비 뛰어난 품질과 직관적인 가치 소구가 필수적입니다.",
-        "en": "While Kohl's introduced a Gen Z-targeted collection inspired by Netflix's 'KPop Demon Hunters', competitor JCPenney is exerting pressure by launching an aggressive 'retail regret' trade-in campaign. With Target simultaneously redefining its fall value proposition, Kohl's vendor partners must ensure strong value-for-money and compelling merchandising to retain market share."
+        "kr": "Netflix IP 협업(KPop Demon Hunters)과 분기 배당으로 Gen Z 및 주주 타겟 소통을 강화하고 있으나, Target의 가치 제안 재정의와 JCPenney의 공격적인 'retail regret' 보상 판매 promotion으로 인해 중산층 고객 이탈 압박이 심화되고 있습니다.",
+        "en": "Kohl's is engaging Gen Z via Netflix IP collaborations and shareholder dividends, but faces mounting pressure from Target's refined value messaging and JCPenney's aggressive 'retail regret' trade-in promotions capturing middle-market shoppers."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "A&F는 인도 벵갈루루에 Global Capability Center를 설립하여 Sourcing 및 Supply Chain 효율성을 높이고 있습니다. 반면 경쟁사인 Aritzia는 가을 오피스 캡슐 워드로브를 선제적으로 공개하고, Free People은 친환경 비건 라인업을 강조하며 Z세대를 공략하고 있어, 당사는 홀리스터 및 에버크롬비의 친환경 소재 sourcing 비중 확대와 스마트 캐주얼 상품 다변화에 집중해야 합니다.",
-        "en": "A&F has established a Global Capability Center in Bengaluru to optimize sourcing and supply chain efficiencies. However, competitors like Aritzia are capturing early fall momentum with office capsule wardrobes while Free People promotes eco-friendly lines targeting Gen Z, requiring A&F/Hollister vendors to focus on sustainable material integration and versatile smart-casual assortments."
+        "kr": "인도 벵갈루루 GCC 설립을 통한 Sourcing 및 Supply Chain 효율화 추진과 함께, 경쟁사인 Aritzia의 오피스 캡슐 워드로브와 Free People의 에코 비건 친환경 라인업 공세에 대응해 지속 가능 소재와 스마트 캐주얼 라인의 다변화가 요구됩니다.",
+        "en": "A&F is scaling operational efficiencies via its new Bengaluru GCC, while needing to counter Aritzia's office capsule wardrobe and Free People's eco-friendly vegan lines by expanding its sustainable materials and versatile casual assortments."
       },
       {
         "buyer": "Macy's",
-        "kr": "Macy's는 제100회 Thanksgiving Day Parade의 100일 카운트다운 마케팅을 시작했으며, Ted by Ted Baker 라인을 offline과 online에 공식 데뷔시켰습니다. 그러나 JCPenney의 공격적인 promotion과 Dillard's의 시장 점유율 확대가 맞물려 있어, 신규 런칭된 apparel merchandise의 초기 sell-through 반응을 면밀히 모니터링해야 합니다.",
-        "en": "Macy's has kicked off its 100-day countdown marketing for the 100th Thanksgiving Day Parade and debuted the Ted by Ted Baker line across stores and online. Amid aggressive peer promotions from JCPenney and market share gains by Dillard's, close monitoring of early sell-through performance for new apparel additions is critical."
+        "kr": "Thanksgiving Day Parade 100일 카운트다운 마케팅 개시 및 Ted by Ted Baker 라인 신규 입점으로 Holiday traffic 유치 기반을 마련했으나, Dillard's의 시장 점유율 확대와 JCPenney·Nordstrom의 대대적인 할인 공세 속에서 프리미엄 상품 구색 강화가 필수적입니다.",
+        "en": "Macy's has initiated 100-day holiday countdown marketing and introduced Ted by Ted Baker to drive traffic, but must strengthen its premium product assortment amid market share pressure from Dillard's and aggressive peer promotions."
       }
     ],
     "opportunities": [
       {
-        "kr": "경쟁사들의 조기 노동절(Labor Day) 세일 및 트랜지션 스테이플 할인 공세에 대응하여, Kohl's 및 Macy's 채널 내 가을 시즌 베이직 및 단독 캡슐 아이템의 조기 재주문(reorder) 및 promotion 기획 제안",
-        "en": "Propose early reorders and promotional planning for fall basic and capsule items within Kohl's and Macy's channels to counter aggressive early Labor Day clearance pushes by competitors like Walmart and Lands' End."
+        "kr": "JCPenney와 Lands' End 등 경쟁사의 공격적인 보상 판매 및 시즌 전환기 가격 인하(최저 $9)에 대응하여, Kohl's 및 Macy's 채널을 위한 가을 베이직 및 트랜지션 아이템의 가격 경쟁력 및 margin 구조 사전 점검",
+        "en": "Review pricing competitiveness and margin structures for fall basic and transition items across Kohl's and Macy's channels to counter aggressive competitor trade-ins and low-price clearances."
       },
       {
-        "kr": "Free People과 Zara 등 경쟁사의 친환경 리페어 및 지속 가능성 마케팅 트렌드에 발맞추어, A&F/Hollister 향 친환경 소재(eco-friendly) 의류 sourcing 비중 확대 및 마케팅 셀링 포인트 강화",
-        "en": "Expand eco-friendly material sourcing and enhance sustainability messaging for A&F/Hollister programs, aligning with rising Gen Z eco-demand demonstrated by competitors like Free People and Zara."
+        "kr": "Aritzia의 오피스 캡슐 트렌드에 발맞추어 A&F/Hollister 채널 내 스마트 캐주얼 및 포멀웨어 믹스의 스타일 수 확대를 바이어에게 제안",
+        "en": "Propose an expanded assortment of smart-casual and versatile daily wear styles to A&F/Hollister buyers to capture early fall workwear momentum inspired by Aritzia."
       },
       {
-        "kr": "Macy's의 Ted by Ted Baker 신규 입점 및 대형 이벤트 traffic 증가에 발맞추어, 반응이 우수한 category의 핫셀링 아이템 추가 생산 lead time 단축 및 벤더 차원의 재고 최적화 지원",
-        "en": "Support Macy's traffic peaks driven by parade countdowns and new brand launches by tightening lead times on hot-selling apparel categories and optimizing inventory replenishment."
+        "kr": "Macy's의 Thanksgiving Day Parade 100주년 마케팅과 연계한 Holiday wholesale즈 캡슐 컬렉션의 조기 reorder 및 lead time 단축 방안 마련",
+        "en": "Establish early reorder plans and shortened lead times for holiday capsule collections timed with Macy's 100th Thanksgiving Day Parade milestone marketing."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "JCPenney 등 경쟁 백화점들의 파격적인 보상 판매와 전방위적 가격 할인 공세가 가속화되면서, 주요 바이어들의 가격 경쟁력 압박 및 초기 가을 시즌 sell-through 변동성 확대 우려.",
-      "en": "Escalating aggressive trade-in and discount promotions by rival department stores and mass retailers risk increasing pricing pressure on our buyers and heightening early fall sell-through volatility."
+      "kr": "경쟁사들의 파격적인 트레이드인 및 조기 노동절 promotion 공세로 인한 초기 가을 시즌 의류 sell-through 둔화 우려",
+      "en": "Potential slowdown in early fall apparel sell-through due to aggressive peer trade-in campaigns and early Labor Day promotional pushes."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Kohl's 및 Macy's 채널의 가을 트랜지션 상품군에 대한 실시간 sell-through 분석을 수행하고, 경쟁사 promotion에 대응한 대체 가격 정책 및 promotion안 마련",
-        "en": "Conduct real-time sell-through analysis on fall transition assortments for Kohl's and Macy's, preparing counter-pricing and promotional options against competitor moves."
+        "kr": "Kohl's 및 Macy's 담당 영업팀은 노동절(Labor Day) 연휴 및 가을 시즌오프 대비 단독 promotion 아이템 및 마케팅 지원안을 바이어와 조기 협의할 것.",
+        "en": "Kohl's and Macy's sales teams must coordinate early promotional items and marketing support plans with buyers ahead of Labor Day and fall end-of-season events."
       },
       {
         "owner": "Team 8",
-        "kr": "A&F/Hollister의 지속 가능성 및 친환경 sourcing 요구에 부합하는 원단 및 스타일 옵션을 점검하고, 벤더 차원의 sourcing 경쟁력 강화 방안 수립",
-        "en": "Review fabric and style options matching A&F/Hollister's sustainability and eco-sourcing demands, establishing vendor-level sourcing competitiveness."
+        "kr": "A&F 담당 영업팀은 경쟁사의 친환경 및 에코 비건 트렌드에 발맞추어 sustainable sourcing 자재 인증 서류 및 오피스 캐주얼 샘플 라인업을 점검할 것.",
+        "en": "A&F sales teams must review sustainable sourcing certifications and office-casual sample lineups to align with competitor eco-friendly and workwear trends."
       },
       {
         "owner": "Team 8",
-        "kr": "노동절 연휴 및 다가오는 Holiday 시즌에 대비하여 주요 바이어 담당 머천다이저와 리드 타임 단축 및 긴급 reorder 생산 일정 사전 조율",
-        "en": "Pre-coordinate lead-time reductions and urgent reorder production schedules with buyer merchandisers ahead of the Labor Day weekend and upcoming holiday season."
+        "kr": "Sourcing 팀과 협력하여 환율 변동성(USD/KRW 1412원 대)에 따른 원가 압박을 모니터링하고 가을/겨울 환적 물량의 lead time을 철저히 관리할 것.",
+        "en": "Collaborate with sourcing teams to monitor cost pressures driven by FX volatility (USD/KRW around 1412) and strictly manage lead times for Fall/Winter shipments."
       }
     ]
   }
