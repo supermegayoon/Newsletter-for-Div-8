@@ -4,7 +4,7 @@
   "schedule": "08:00 KST",
   "snapshotDateKST": "2026-08-20",
   "marketDataDate": "2026-08-19",
-  "updatedAt": "2026-08-20T01:15:38.261Z",
+  "updatedAt": "2026-08-20T01:15:42.281Z",
   "status": "success",
   "data": {
     "KSS": {
@@ -45,14 +45,14 @@
     },
     "KRW=X": {
       "symbol": "KRW=X",
-      "price": 1393.97998046875,
+      "price": 1394.0799560546875,
       "previousClose": 1413.5799560546875,
-      "changePct": -1.3865487765291453,
+      "changePct": -1.3794762663743938,
       "dataDate": "2026-08-19",
       "currency": "KRW",
       "exchangeName": "CCY",
       "marketState": null,
-      "regularMarketTime": 1787188536,
+      "regularMarketTime": 1787188540,
       "shortName": "USD/KRW"
     },
     "CTZ26.NYB": {
