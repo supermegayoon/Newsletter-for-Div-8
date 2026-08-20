@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-08-20T01:24:06.640Z",
+  "asOf": "2026-08-20T01:24:15.353Z",
   "generatedDateKST": "2026-08-20",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
@@ -12,69 +12,69 @@
   "insight": {
     "headline": {
       "kr": "8담당 데일리 마켓 브리프: 주요 바이어 백투스쿨 IP 및 Holiday sourcing 강화 동향",
-      "en": "Team 8 Daily Market Brief: Major Buyers Boost Back-to-School IP and Holiday Sourcing"
+      "en": "Team 8 Daily Market Brief: Major Buyers Boost Back-to-School IP and Holiday Sourcing Initiatives"
     },
     "summary": {
-      "kr": "2026년 8월 20일 기준, Kohl's와 Macy's는 각각 Netflix IP merchandise와 디즈니 Holiday 캡슐 등 차별화된 라인업으로 traffic 확보에 주력하고 있습니다. 환율 하락(USD/KRW 1,393원)과 면화 가격 안정세를 활용한 원가 경쟁력 점검이 필요합니다.",
-      "en": "As of August 20, 2026, Kohl's and Macy's are driving traffic with differentiated lineups such as Netflix IP merchandise and Disney holiday capsules. Team 8 should leverage the favorable USD/KRW exchange rate (1,393) and stable cotton prices to optimize costing."
+      "kr": "2026년 8월 20일 기준, 주요 바이어들의 백투스쿨 및 Holiday 시즌 대응이 가속화되고 있습니다. Kohl's는 넷플릭스 IP 'KPop Demon Hunters' 굿즈를 출시하며 영타겟을 공략하고 있으며, Macy's는 디즈니 exclusive 캡슐과 'Ted by Ted Baker' 남성복을 런칭하며 상품력을 강화하고 있습니다. 원·달러 환율은 1,393.28원으로 하락하여 가격 경쟁력에 긍정적인 영향을 미치고 있습니다.",
+      "en": "As of August 20, 2026, major buyers are accelerating their back-to-school and holiday season preparations. Kohl's is targeting younger demographics with Netflix 'KPop Demon Hunters' merchandise, while Macy's is expanding its assortment with an exclusive Disney capsule and 'Ted by Ted Baker' menswear. The USD/KRW exchange rate has eased to 1,393.28, supporting favorable pricing dynamics."
     },
     "tags": [
-      "#Team8",
-      "#ApparelVendor",
-      "#HolidaySourcing",
-      "#RetailNews"
+      "#Team8Daily",
+      "#Kohls",
+      "#Macys",
+      "#BackToSchool"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "Netflix 'KPop Demon Hunters' IP merchandise를 대거 출시하며 영타겟 공략에 나섰습니다. Target 및 JCPenney의 백투스쿨 promotion에 대응하기 위한 빠르고 공격적인 재고 소진 및 물류 전략이 관찰됩니다.",
-        "en": "Launched a major merchandise collection inspired by Netflix's 'KPop Demon Hunters' to capture younger demographics, deploying aggressive inventory clearance and fulfillment tactics against Target and JCPenney."
+        "kr": "넷플릭스 'KPop Demon Hunters' IP 굿즈를 대거 드랍하고, DoorDash 배송 연계 및 추가 promotion을 통해 백투스쿨 시즌 traffic 방어와 영타겟 공략에 주력하고 있습니다.",
+        "en": "Kohl's is dropping extensive merchandise inspired by Netflix's 'KPop Demon Hunters' and expanding DoorDash integration with promotional deals to protect traffic during the back-to-school season."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "핵심 마케팅 임원 Carey Collins Krug가 Vuori로 이동하면서 경쟁사들의 마케팅 및 포지셔닝 변화에 촉각을 곤두세우고 있습니다. American Eagle의 트윈 및 언더웨어 시장 확장 공세에 대한 모니터링이 필요합니다.",
-        "en": "Navigating key executive changes as marketing head Carey Collins Krug joins Vuori, while monitoring American Eagle's ongoing category expansions in tween and underwear."
+        "kr": "핵심 마케팅 임원 Carey Collins Krug의 Vuori 이적 등 주요 인재 이동이 발생함에 따라, 향후 경쟁사의 마케팅 포지셔닝 및 전략 변화를 모니터링할 필요가 있습니다.",
+        "en": "Key marketing executive Carey Collins Krug has moved to Vuori, signaling a need to closely monitor how competitive marketing positioning and strategies evolve."
       },
       {
         "buyer": "Macy's",
-        "kr": "디즈니 Holiday 캡슐 컬렉션이 액세서리 부문에서 빠른 판매 속도를 기록 중이며, 남성복 부문 'Ted by Ted Baker' 입점으로 프리미엄 어소트먼트를 강화하고 있습니다.",
-        "en": "Experiencing rapid sell-through with the exclusive Disney holiday capsule collection in accessories, while strengthening department store menswear assortment with 'Ted by Ted Baker'."
+        "kr": "디즈니 exclusive 캡슐 컬렉션이 액세서리 category에서 빠른 판매 회전율을 보이고 있으며, 'Ted by Ted Baker' 입점으로 남성복 라인업을 강화하고 있습니다.",
+        "en": "Macy's exclusive Disney capsule collection is seeing rapid sell-through in accessories, while the introduction of 'Ted by Ted Baker' strengthens its men's apparel assortment."
       }
     ],
     "opportunities": [
       {
-        "kr": "주요 바이어들의 Holiday 및 팝컬처 IP 연계 상품 수요 증가에 맞춘 맞춤형 디자인 및 신속한 샘플링 제안",
-        "en": "Propose customized designs and rapid sampling aligned with major buyers' increasing demand for holiday and pop-culture IP-tied merchandise."
+        "kr": "Kohl's 및 Macy's의 트렌드에 발맞추어 영타겟 중심의 IP 연계 굿즈 및 Holiday 시즌 액세서리/의류 sourcing 제안을 선제적으로 준비합니다.",
+        "en": "Proactively prepare IP-driven merchandise and holiday-season accessory/apparel sourcing proposals tailored to the youth-focused strategies of Kohl's and Macy's."
       },
       {
-        "kr": "우호적인 환율(USD/KRW 1,393원 대)과 안정화된 면화 가격을 바탕으로 한 원가 경쟁력필요 제안 및 margin 개선 기회 모색",
-        "en": "Explore margin-improvement opportunities and competitive pricing offers leveraging the favorable exchange rate (USD/KRW 1,393) and stable cotton prices."
+        "kr": "USD/KRW 환율 하락(1,393.28원) 기조를 활용하여 주요 바이어 대상 원가 경쟁력 어필 및 추가 오더 수주 기회를 적극 모색합니다.",
+        "en": "Leverage the lower USD/KRW exchange rate (1,393.28) to highlight cost competitiveness and actively pursue additional order opportunities with key buyers."
       },
       {
-        "kr": "백화점 채널(Macy's 등)의 프리미엄 브랜딩 및 남성복/액세서리 category 개편에 맞춘 고부가가치 아이템 제안",
-        "en": "Pitch high-value items tailored to department store channel (e.g., Macy's) upgrades in premium branding and menswear/accessories categories."
+        "kr": "백투스쿨 및 레이버데이 시즌을 대비한 각 바이어의 promotion 및 재고 소진 동향을 파악하여 신속한 reorder 및 lead time 관리를 지원합니다.",
+        "en": "Analyze buyer promotion and inventory clearance trends for the back-to-school and Labor Day seasons to support agile reorders and tight lead-time management."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "경쟁사(Target, JCPenney, American Eagle)들의 공격적인 백투스쿨 promotion 및 조기 마크다운 전개로 인한 바이어들의 가격 압박 가능성 존재",
-      "en": "Potential pricing pressure from buyers as key competitors (Target, JCPenney, American Eagle) launch aggressive back-to-school promotions and early markdowns."
+      "kr": "경쟁사들의 공격적인 백투스쿨 할인 공세 및 인재 이동에 따른 시장 변동성이 존재하므로, 바이어별 실적 방어 전략에 맞춘 유연한 대응이 요구됩니다.",
+      "en": "Market volatility driven by aggressive competitor back-to-school discounting and executive shifts requires flexible alignment with buyer-specific traffic defense strategies."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Kohl's 및 Macy's의 IP 및 Holiday 라인 성공 사례를 분석하여 당사 Holiday 시즌 sourcing 제안서에 반영",
-        "en": "Analyze Kohl's and Macy's IP and holiday line success cases and incorporate findings into our upcoming holiday sourcing proposals."
+        "kr": "Kohl's의 IP(KPop Demon Hunters) 및 Macy's의 디즈니 캡슐 성공 사례를 분석하여 당사 신규 제안서에 반영할 아이템 기획",
+        "en": "Analyze Kohl's IP (KPop Demon Hunters) and Macy's Disney capsule success to incorporate into upcoming vendor product proposals."
       },
       {
         "owner": "Team 8",
-        "kr": "환율 하락 및 면화 가격 안정세가 반영된 원가 시뮬레이션을 실행하여 주요 바이어 앞 가격 경쟁력 검토",
-        "en": "Run cost simulations reflecting the lower exchange rate and stable cotton prices to verify pricing competitiveness for key buyers."
+        "kr": "환율 변동(1,393.28원)에 따른 바이어별 FOB 가격 경쟁력 검토 및 납기 일정 재확인",
+        "en": "Review FOB price competitiveness for each buyer based on exchange rate fluctuations (1,393.28) and re-verify delivery schedules."
       },
       {
         "owner": "Team 8",
-        "kr": "경쟁사(Target 및 American Eagle)의 최근 상품 동향을 정리하여 영업 담당자 회의 시 공유 및 대응 방안 수립",
-        "en": "Compile recent product moves by competitors (Target, American Eagle) for sales team review and formulate counter-strategies."
+        "kr": "주요 경쟁사(JCPenney, Target, American Eagle 등)의 백투스쿨 promotion 동향을 모니터링하고 바이어 미팅 시 인사이트 공유 준비",
+        "en": "Monitor back-to-school promotional trends from key competitors (JCPenney, Target, American Eagle, etc.) and prepare to share insights during buyer meetings."
       }
     ]
   }
