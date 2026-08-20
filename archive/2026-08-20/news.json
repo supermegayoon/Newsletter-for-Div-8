@@ -1,0 +1,86 @@
+{
+  "ok": true,
+  "asOf": "2026-08-20T01:21:03.359Z",
+  "generatedDateKST": "2026-08-20",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 3,
+    "within7d": 5,
+    "total": 5,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Collaboration",
+      "category_en": "Collaboration",
+      "date": "2026.08.19",
+      "title_kr": "Macy's, Holiday season 대비 exclusive Disney Capsule Collection 공개로 판매 호조",
+      "title_en": "The Disney x Macy's Holiday Capsule Is Selling Fast — Shop Whimsical Takes on Watches, Diamond Necklaces, and More",
+      "body_kr": "Macy's가 선보인 exclusive Disney Capsule Collection이 주요 accessories category에서 빠르게 sell-through를 기록하고 있습니다. Holiday 시즌 merchandise sourcing 및 IP 활용 전략 수립 시 참고해야 할 트렌드입니다.",
+      "body_en": "Macy's exclusive Disney Capsule Collection is seeing rapid sell-through across key accessories categories. This serves as a key reference for holiday merchandise sourcing and IP strategy.",
+      "source": "Yahoo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNR0dFcVVWODBDQ2Z4SEdWSXZ6TDJDM0Zzdk14dVFoa3QteG9XUHlWUjh1dFRMdzJ3aVhhRnd1cFQzNVNHa3plZm5OSzRpa0dBNkI4MVhFYjFsak5LTUlnV29RNDVldnE0NTllby04X09VTnM5X1JWZDJfenM4MUdQS1liNmpxdTVXUVg3RlpFYWoxLTB6M3AyZEtpMXFiVUE?oc=5",
+      "ageHours": 125.68036444444445
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "IP / Merchandise",
+      "category_en": "IP / Merchandise",
+      "date": "2026.08.19",
+      "title_kr": "Kohl's, Netflix 'KPop Demon Hunters' IP 활용한 대규모 merchandise 라인업 출시",
+      "title_en": "Kohl's just dropped 'KPop Demon Hunters' merch — and the collection is bigger than you'd expect",
+      "body_kr": "Kohl's가 Netflix의 인기 IP 'KPop Demon Hunters'를 반영한 대규모 merchandise 컬렉션을 드랍하며 영타겟 공략에 나섰습니다. 백투스쿨 시즌 팝문화 연계 category 확장에 시사하는 바가 큽니다.",
+      "body_en": "Kohl's dropped a major merchandise collection inspired by Netflix's 'KPop Demon Hunters' to capture younger demographics. This highlights growing opportunities in pop culture-tied category expansion for the back-to-school season.",
+      "source": "MassLive.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNS2VhYldGY1RrMlJBY29CVTh0WlBUNVVXOVRwd0RWbi05a1pBcXhoUkVhVmRrb3htcmFlODBlYnNFNTBTSUdXMFJTSENqclptMkR0V3loTjE4SFdKT2V6bUNnZ0xmU0RkVlZYZDQ4NXVTN3g2MkF6WjJMa0EzbjlJbWpZSEFZWmRFZGF3TVV6Q0hNeG5kMjd5bVdXSlpjeWVvc0x5U1BuTGpPM2toNlU2R0xHN1JKWUxULXFSdXk3a2ZITC01aUU4ZWZJa0wydHJPYmVzcFJjaEF2cnVZajkwMjJEV0RzWElyRldxR0tR?oc=5",
+      "ageHours": 151.8156386111111
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Category Launch",
+      "category_en": "Category Launch",
+      "date": "2026.08.19",
+      "title_kr": "Macy's, modern British menswear 브랜드 'Ted by Ted Baker' 런칭",
+      "title_en": "Ted by Ted Baker debuts at Macy's",
+      "body_kr": "Macy's가 남성복 category 강화를 위해 'Ted by Ted Baker' 라인을 새롭게 입점시켰습니다. 백화점 채널 내 프리미엄 브랜딩 및 남성 아패럴 assortment 개편 동향을 보여줍니다.",
+      "body_en": "Macy's introduced 'Ted by Ted Baker' to strengthen its men's apparel category. This reflects ongoing adjustments in department store assortments and premium positioning.",
+      "source": "Retail Dive",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0tSmZkQ2ltdTRYMXdGU2hScDkwckpuQjhiS21jZG42UHhENk9nNVMxN1YzTlZQdGZVMExJQW5OYXdwOS1pamR2VE1BVFlYZWxkVW5DbmtJSW1nQ2VQY2wwektQR1BQNUppX1lJdzhXQUNQYXNmcHB0VFplcTM?oc=5",
+      "ageHours": 9.456475277777777
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Partnership / Talent",
+      "category_en": "Partnership / Executive",
+      "date": "2026.08.19",
+      "title_kr": "Abercrombie & Fitch 핵심 임원 Carey Collins Krug, Vuori로 이동",
+      "title_en": "Abercrombie & Fitch’s Carey Collins Krug Joins Vuori",
+      "body_kr": "Abercrombie & Fitch의 마케팅을 이끌던 Carey Collins Krug가 activewear 브랜드 Vuori로 합류했습니다. 주요 경쟁사들의 핵심 인재 이동이 향후 브랜드 마케팅 및 포지셔닝에 미칠 영향에 주목할 필요가 있습니다.",
+      "body_en": "Abercrombie & Fitch marketing executive Carey Collins Krug has moved to activewear brand Vuori. Industry players should monitor how such key executive movements impact competitive marketing positioning.",
+      "source": "WWD",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONklscTVGelNhcXBORUo5LXJQWFhpRnkwVGZGRmxWclFJc2JYenNNUm94NzUzWGZGczNMWHowc3pOa3pvSjBaWUN4SElORUxWTDNWTDRJemFvdFJlRnNBWGY5VXEtY3dOR01TT2lXWTVoQUt4SHUzejNpbGVnYTVpbVoydXdlN1d4YVNfdmdxcFhwNnpoUlFRX0tZSEtFbnVneXgtcUwyeU5xeXBJcGJTS21DODY?oc=5",
+      "ageHours": 46.66976861111111
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Promotion / Wholesale",
+      "category_en": "Promotion / Channel",
+      "date": "2026.08.19",
+      "title_kr": "Kohl's, 백투스쿨 시즌 대비 추가 promotion 및 DoorDash 배송 강화",
+      "title_en": "Kohl’s navigates choppy back-to-school season with another round of deals",
+      "body_kr": "Kohl's가 변동성 큰 백투스쿨 시즌을 맞아 추가적인 할인 promotion을 전개하고 DoorDash와의 배송 연계를 확대했습니다. retail 채널의 실적 방어를 위한 즉각적인 재고 소진 및 물류 Partnership 전략입니다.",
+      "body_en": "Kohl's launched additional promotional deals and expanded its DoorDash delivery integration to navigate the choppy back-to-school season. This highlights aggressive inventory clearance and fulfillment tactics to protect retail traffic.",
+      "source": "Retail Dive",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQldMN2RwaURQcUxYMEFjRlo3VkI4ZTBOdXpRUFdTZW4tT3FoSHB2ejZpM2Z3dmhmMElCUk1TWEctRjhwRzZvN0RKQTlaVUVXc2dGZ0JvaHYzdW1DbmFTQzVnR0tvNFJ5bmpxWmo0TmZ6aUJ4eUhrQnBvVzNMZ1VJZzhPNXFvUDJoQ3dBVkwtOEs?oc=5",
+      "ageHours": 9.456471944444445
+    }
+  ]
+}
