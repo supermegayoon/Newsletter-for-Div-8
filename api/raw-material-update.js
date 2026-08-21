@@ -1,13 +1,6 @@
 // File: /api/raw-material-update.js
-// Paste weekly email -> Gemini parses -> GitHub raw-materials.json is updated automatically.
-// Required Vercel env vars:
-// GEMINI_API_KEY
-// GEMINI_MODEL (optional)
-// GITHUB_TOKEN
-// ADMIN_UPDATE_PIN
-// GITHUB_OWNER (optional, default supermegayoon)
-// GITHUB_REPO  (optional, default Newsletter-for-Div-8)
-// GITHUB_BRANCH(optional, default main)
+// GET  -> read latest raw-materials.json directly from GitHub (no Vercel redeploy needed)
+// POST -> paste weekly email -> Gemini parse -> update GitHub raw-materials.json
 
 const MODEL = process.env.GEMINI_MODEL || "gemini-3.5-flash-lite";
 const GEMINI_BASE = "https://generativelanguage.googleapis.com/v1beta/models";
@@ -28,6 +21,40 @@ function stripFence(text) {
     .replace(/^```\s*/i, "")
     .replace(/\s*```$/i, "")
     .trim();
+}
+
+async function githubRequest(url, options = {}) {
+  const headers = {
+    "Accept": "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28",
+    ...(options.headers || {})
+  };
+  if (process.env.GITHUB_TOKEN) {
+    headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  }
+
+  const r = await fetch(url, {...options, headers});
+  const text = await r.text();
+  let data = {};
+  try { data = text ? JSON.parse(text) : {}; } catch {}
+  if (!r.ok) throw new Error(data?.message || `GitHub ${r.status}`);
+  return data;
+}
+
+async function readLatestRawMaterials() {
+  const apiUrl =
+    `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE_PATH}` +
+    `?ref=${encodeURIComponent(BRANCH)}&t=${Date.now()}`;
+
+  const current = await githubRequest(apiUrl);
+  if (!current?.content) throw new Error("raw-materials.json content missing");
+
+  const jsonText = Buffer.from(
+    String(current.content).replace(/\n/g, ""),
+    "base64"
+  ).toString("utf8");
+
+  return JSON.parse(jsonText);
 }
 
 async function parseWithGemini(emailText) {
@@ -97,24 +124,9 @@ ${emailText}
   return parsed;
 }
 
-async function githubRequest(url, options = {}) {
-  const r = await fetch(url, {
-    ...options,
-    headers: {
-      "Authorization": `Bearer ${process.env.GITHUB_TOKEN}`,
-      "Accept": "application/vnd.github+json",
-      "X-GitHub-Api-Version": "2022-11-28",
-      ...(options.headers || {})
-    }
-  });
-  const text = await r.text();
-  let data = {};
-  try { data = text ? JSON.parse(text) : {}; } catch {}
-  if (!r.ok) throw new Error(data?.message || `GitHub ${r.status}`);
-  return data;
-}
-
 async function updateGitHubFile(contentObj) {
+  if (!process.env.GITHUB_TOKEN) throw new Error("GITHUB_TOKEN missing");
+
   const apiUrl = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE_PATH}`;
 
   let sha = null;
@@ -122,7 +134,6 @@ async function updateGitHubFile(contentObj) {
     const current = await githubRequest(`${apiUrl}?ref=${encodeURIComponent(BRANCH)}`);
     sha = current?.sha || null;
   } catch (e) {
-    // File may not exist yet; create it.
     if (!String(e.message).includes("Not Found")) throw e;
   }
 
@@ -146,8 +157,22 @@ async function updateGitHubFile(contentObj) {
 }
 
 module.exports = async function handler(req, res) {
+  res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, max-age=0");
+
+  // IMPORTANT: reuse this existing Serverless Function for reading.
+  // This avoids adding a 13th Vercel Function on Hobby plan.
+  if (req.method === "GET") {
+    try {
+      const data = await readLatestRawMaterials();
+      return res.status(200).json({ok: true, ...data});
+    } catch (e) {
+      console.error("[raw-material GET]", e);
+      return res.status(500).json({ok: false, error: e?.message || "Read failed"});
+    }
+  }
+
   if (req.method !== "POST") {
-    res.setHeader("Allow", "POST");
+    res.setHeader("Allow", "GET, POST");
     return res.status(405).json({error: "Method not allowed"});
   }
 
@@ -175,12 +200,11 @@ module.exports = async function handler(req, res) {
     const parsed = await parseWithGemini(emailText);
     const gh = await updateGitHubFile(parsed);
 
-    res.setHeader("Cache-Control", "no-store");
     return res.status(200).json({
       ok: true,
       parsed,
       commit: gh?.commit?.html_url || null,
-      message: "GitHub 업데이트 완료. Vercel이 자동 재배포하면 대시보드에 반영됩니다."
+      message: "GitHub 업데이트 완료. Dashboard를 새로고침하면 최신 원자재 데이터가 표시됩니다."
     });
   } catch (e) {
     console.error(e);
