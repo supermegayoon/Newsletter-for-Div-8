@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-08-20T23:47:04.939Z",
+  "asOf": "2026-08-21T00:45:36.003Z",
   "generatedDateKST": "2026-08-21",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
@@ -11,70 +11,70 @@
   "competitorDateKST": "2026-08-21",
   "insight": {
     "headline": {
-      "kr": "[8담당 데일리 브리프] 백화점 및 유통업계, 백투스쿨(Back-to-School) 및 Holiday 시즌 대비 IP 협업 및 AI 기술 도입 가속화",
-      "en": "[Team 8 Daily Brief] Retailers Accelerate IP Collabs & AI Tech Integration Ahead of Back-to-School and Holiday Seasons"
+      "kr": "[8담당 데일리 브리프] 백화점 및 유통업계, 백투스쿨 AI 도입 및 Holiday IP 협업 본격화",
+      "en": "[Team 8 Daily Brief] Retailers Roll Out AI for Back-to-School and Secure Holiday IP Collaborations"
     },
     "summary": {
-      "kr": "Kohl's와 Macy's 등 주요 바이어들이 Z세대 타겟 IP 상품 출시와 Holiday 라인업을 강화하고 있습니다. 반면 거시경제 불확실성과 미국 내 수요 둔화 우려로 보수적인 재고 관리가 요구되므로, 벤더사는 유연한 오더 대응과 가치 중심의 제안에 집중해야 합니다.",
-      "en": "Major buyers like Kohl's and Macy's are ramping up Gen Z-targeted IP merchandise and holiday lineups. Amid ongoing macro uncertainty and softened U.S. demand signals, tighter inventory controls require vendors to focus on agile order execution and value-driven proposals."
+      "kr": "코스닥 및 주요 retail 주가가 하락세를 보이는 가운데, Macy's는 100주년 Parade 디즈니 캡슐을 공개했고 Kohl's는 Z세대 공략을 위한 K팝 머천다이징과 백투스쿨 AI 솔루션을 도입했습니다. JD Sports의 실적 guidance 하향에 따른 보수적 재고 관리 기조에 대응하여 유연한 벤더 제안이 요구됩니다.",
+      "en": "Amid softening retail equities, Macy's launched a Disney parade capsule and Kohl's introduced K-pop merch and back-to-school AI solutions to capture Gen Z. With JD Sports lowering its guidance, vendors must navigate conservative inventory strategies with flexible assortments."
     },
     "tags": [
-      "#Team8",
-      "#ApparelVendor",
-      "#RetailTrends",
-      "#BackToSchool"
+      "#Team8Daily",
+      "#MacysDisney",
+      "#KohlsAI",
+      "#ApparelSourcing"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "대규모 'KPop Demon Hunters' 굿즈 출시와 백투스쿨 AI 솔루션 도입으로 Z세대 유입 및 효율성 제고를 추진 중입니다. 경쟁사(JCPenney, Target)의 마케팅 공세에 대응해 트렌디한 서브컬처 IP 기반 상품 제안이 필요합니다.",
-        "en": "Kohl's is driving Gen Z traffic and operational efficiency through a large 'KPop Demon Hunters' merch drop and AI-driven back-to-school tools. In light of competitor (JCPenney, Target) moves, trend-focused subculture IP assortments should be pitched."
+        "kr": "KPop Demon Hunters 머천다이징 컬렉션을 대규모로 출시하며 Z세대 traffic 유도에 집중하고 있습니다. 또한 백투스쿨 시즌 판매 촉진을 위해 AI 기술을 도입하여 운영 효율화를 꾀하고 있습니다.",
+        "en": "Kohl's launched a large-scale 'KPop Demon Hunters' merchandise collection to drive Gen Z traffic and deployed AI tools to optimize back-to-school sales performance."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "북아일랜드 등 offline 매장 확장을 지속하며 retail 접점을 넓히고 있습니다. 경쟁사(American Eagle 등)의 영유아·틴즈 category 진출 속에서 가성비와 핏을 강조한 영캐주얼 sourcing 제안이 유효합니다.",
-        "en": "A&F/Hollister continues expanding its physical footprint with new regional store openings. Amid competitor pushes (such as American Eagle's tween segment entry), value- and fit-driven youth casual sourcing proposals remain vital."
+        "kr": "Northern Ireland의 The Boulevard 쇼핑몰에 두 번째 offline 매장 오픈을 확정하는 등 주요 지역 상권에서 물리적 retail 접점을준비하며 성장세를 이어가고 있습니다.",
+        "en": "Hollister is continuing its physical retail expansion by confirming its second store in Northern Ireland at The Boulevard shopping complex."
       },
       {
         "buyer": "Macy's",
-        "kr": "추수감사절 Parade 100주년 기념 Disney exclusive 캡슐 및 Ted Baker 남성복 라인업을 런칭하며 Holiday와 백화점 채널 경쟁력을 강화하고 있습니다. 단독 굿즈 및 Holiday 기획 라인업 준비가 필수적입니다.",
-        "en": "Macy's is reinforcing its department store edge with the Disney Parade 100th anniversary capsule and Ted Baker menswear launch. Preparing exclusive merchandise and holiday-themed lines is critical for upcoming vendor alignment."
+        "kr": "추수감사절 Parade 100주년을 기념하는 독점 디즈니 캡슐 컬렉션을 공개했으며, Ted by Ted Baker 남성복을 런칭하는 등 Holiday 및 주요 category wholesale Partnership을 강화하고 있습니다.",
+        "en": "Macy's debuted an exclusive Disney capsule for its parade's 100th anniversary and launched Ted by Ted Baker menswear, reinforcing key wholesale partnerships."
       }
     ],
     "opportunities": [
       {
-        "kr": "Z세대 타겟의 팝문화 및 엔터테인먼트 IP 기반 독점 상품(Merchandise) 기획 및 제안 확대",
-        "en": "Expand proposals for exclusive pop culture and entertainment IP-driven merchandise targeting Gen Z consumers."
+        "kr": "주요 retail러들의 Z세대 타겟 서브컬처 IP 및 독점 Holiday Collaboration 라인업 기획 제안",
+        "en": "Propose subculture IP-driven merchandise and exclusive holiday collaboration lines targeting major retailers' Gen Z demographics."
       },
       {
-        "kr": "백화점 채널(Macy's 등)의 Holiday 및 스페셜 이벤트 시즌에 맞춘 선제적 라인업 구축",
-        "en": "Establish proactive apparel and lifestyle lineups tailored for upcoming department store holiday and special event seasons."
+        "kr": "백투스쿨 및 Holiday 시즌에 대비한 유연한 단납기 물동량 및 AI 기반 재고 연동 sourcing 제안",
+        "en": "Offer flexible quick-turn production and AI-compatible inventory solutions for upcoming back-to-school and holiday seasons."
       },
       {
-        "kr": "미국 시장 수요 둔화 기조에 대응하여 가성비와 가치를 충족하는 유연한 가격·sourcing 전략 제시",
-        "en": "Present flexible pricing and sourcing strategies that deliver strong value amidst softened U.S. demand trends."
+        "kr": "북미 백화점 채널의 남성복 및 캐주얼 category 입점 확대를 위한 신규 스타일 프로포절 강화",
+        "en": "Strengthen new style proposals to expand menswear and casual category penetration within North American department store channels."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "JD Sports의 실적 guidance 하향 및 미국 내 소비 수요 둔화 시그널로 인해, retail러들의 보수적인 재고 운용과 오더 지연 리스크가 존재합니다.",
-      "en": "With JD Sports trimming full-year guidance and broader signs of soft U.S. consumer demand, retailers may adopt tighter inventory management and cautious ordering patterns."
+      "kr": "미국 소비 수요 둔화 및 JD Sports의 guidance 하향 조정으로 인해 유통사 전반의 보수적인 재고 운용과 신중한 바이어 오더 패턴 지속 우려",
+      "en": "Soft U.S. demand and JD Sports' lowered guidance signal potential caution and tighter inventory management across retail channels."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Kohl's 및 Macy's 바이어 대상 IP Collaboration 및 Holiday 시즌 전용 상품 제안서 신속 보완",
-        "en": "Swiftly update IP collaboration and holiday-season exclusive proposals for Kohl's and Macy's buyers."
+        "kr": "Macy's의 Holiday 및 디즈니 콜라보 라인업 연계 상품 기획안 검토 및 제안 준비",
+        "en": "Review and prepare product proposals tied to Macy's holiday and Disney collaboration lines."
       },
       {
         "owner": "Team 8",
-        "kr": "미국 유통 시장 내 경쟁사(Target, JCPenney, American Eagle 등)의 promotion 및 상품 동향 모니터링 강화",
-        "en": "Strengthen monitoring of competitor promotions and product trends (Target, JCPenney, American Eagle, etc.) in the U.S. retail market."
+        "kr": "Kohl's의 백투스쿨 AI 도입 및 Z세대 IP 트렌드 대응을 위한 맞춤형 벤더 제안서 작성",
+        "en": "Draft tailored vendor proposals aligning with Kohl's back-to-school AI adoption and Gen Z IP trends."
       },
       {
         "owner": "Team 8",
-        "kr": "환율 변동성(USD/KRW) 및 원자재(면화, 유가) 가격 추이에 따른 원가 경쟁력 사전 점검",
-        "en": "Pre-check cost competitiveness in response to exchange rate volatility (USD/KRW) and raw material (cotton, crude oil) price trends."
+        "kr": "미국 시장 수요 둔화 기조에 맞춰 주요 바이어별 오더 시프트 및 재고 리스크 모니터링",
+        "en": "Monitor order shifts and inventory risks per buyer in response to softening U.S. market demand trends."
       }
     ]
   }
