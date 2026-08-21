@@ -1,6 +1,6 @@
 // File: /raw-material-admin.js
 // Admin-only updater: paste weekly email -> Gemini parse -> GitHub auto commit.
-// The GitHub token remains server-side in Vercel.
+// Dashboard reads latest GitHub data through the existing API; Vercel redeploy is NOT required.
 
 (() => {
   const STYLE_ID = "rm-admin-style";
@@ -15,11 +15,7 @@
       .rm-admin-box{background:var(--panel);border:1px dashed var(--line);border-radius:14px;padding:18px}
       .rm-admin-title{font-size:14px;font-weight:800;margin-bottom:4px}
       .rm-admin-note{font-size:10.5px;color:var(--muted);margin-bottom:12px}
-      .rm-admin textarea,.rm-admin input{
-        width:100%;box-sizing:border-box;border:1px solid var(--line);
-        border-radius:9px;background:var(--panel2);color:var(--text);
-        padding:11px;font:12px/1.55 var(--font)
-      }
+      .rm-admin textarea,.rm-admin input{width:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:9px;background:var(--panel2);color:var(--text);padding:11px;font:12px/1.55 var(--font)}
       .rm-admin textarea{min-height:190px;resize:vertical}
       .rm-admin-row{display:grid;grid-template-columns:180px 1fr;gap:8px;margin-top:8px}
       .rm-admin-actions{display:flex;gap:8px;margin-top:10px;align-items:center;flex-wrap:wrap}
@@ -46,12 +42,10 @@
       <div class="rm-admin-box">
         <div class="rm-admin-title">원자재 메일 → Dashboard 자동 반영</div>
         <div class="rm-admin-note">
-          메일을 붙여넣고 업데이트하면 Gemini가 숫자를 추출한 뒤 GitHub에 자동 저장합니다.
-          Vercel 재배포 후 Dashboard에 자동 반영됩니다.
+          메일을 붙여넣고 업데이트하면 Gemini가 숫자를 추출하여 GitHub에 저장합니다.
+          완료 후 Dashboard를 새로고침하면 최신 데이터가 바로 표시됩니다. Vercel 재배포는 필요하지 않습니다.
         </div>
-
         <textarea class="rm-email" placeholder="매주 받는 원자재 가격 동향 메일 전체를 여기에 붙여넣으세요."></textarea>
-
         <div class="rm-admin-row">
           <input class="rm-pin" type="password" placeholder="관리자 PIN">
           <div class="rm-admin-actions" style="margin-top:0">
@@ -60,74 +54,58 @@
             <span class="rm-admin-status"></span>
           </div>
         </div>
-
-        <div class="rm-admin-preview">
-          <div class="rm-admin-grid"></div>
-        </div>
+        <div class="rm-admin-preview"><div class="rm-admin-grid"></div></div>
       </div>
     `;
 
     document.body.appendChild(host);
 
-    const email = host.querySelector(".rm-email");
-    const pin = host.querySelector(".rm-pin");
-    const updateBtn = host.querySelector(".rm-update");
-    const clearBtn = host.querySelector(".rm-clear");
-    const status = host.querySelector(".rm-admin-status");
-    const preview = host.querySelector(".rm-admin-preview");
-    const grid = host.querySelector(".rm-admin-grid");
+    const email=host.querySelector(".rm-email");
+    const pin=host.querySelector(".rm-pin");
+    const updateBtn=host.querySelector(".rm-update");
+    const clearBtn=host.querySelector(".rm-clear");
+    const status=host.querySelector(".rm-admin-status");
+    const preview=host.querySelector(".rm-admin-preview");
+    const grid=host.querySelector(".rm-admin-grid");
 
     updateBtn.addEventListener("click", async () => {
       if (!email.value.trim()) return alert("원자재 메일을 붙여넣어 주세요.");
       if (!pin.value.trim()) return alert("관리자 PIN을 입력해 주세요.");
 
-      updateBtn.disabled = true;
-      status.textContent = "Gemini 분석 + GitHub 업데이트 중…";
+      updateBtn.disabled=true;
+      status.textContent="Gemini 분석 + GitHub 업데이트 중…";
 
       try {
-        const r = await fetch("/api/raw-material-update", {
-          method: "POST",
-          headers: {"Content-Type": "application/json"},
-          body: JSON.stringify({
-            emailText: email.value.trim(),
-            pin: pin.value.trim()
-          })
+        const r=await fetch("/api/raw-material-update",{
+          method:"POST",
+          headers:{"Content-Type":"application/json"},
+          body:JSON.stringify({emailText:email.value.trim(),pin:pin.value.trim()})
         });
-        const j = await r.json();
-        if (!r.ok) throw new Error(j.error || `API ${r.status}`);
+        const j=await r.json();
+        if(!r.ok)throw new Error(j.error||`API ${r.status}`);
 
-        const rm = j.parsed?.rawMaterials || {};
-        const items = [
-          ["U.S. Cotton", rm.usCotton],
-          ["China Cotton", rm.chinaCotton],
-          ["India Cotton", rm.indiaCotton],
-          ["PSF", rm.psf],
-          ["DTY", rm.dty]
+        const rm=j.parsed?.rawMaterials||{};
+        const items=[
+          ["U.S. Cotton",rm.usCotton],
+          ["China Cotton",rm.chinaCotton],
+          ["India Cotton",rm.indiaCotton],
+          ["PSF",rm.psf],
+          ["DTY",rm.dty]
         ];
-        grid.innerHTML = items.map(([name,d]) => `
-          <div class="rm-admin-mini">
-            <b>${name}</b>
-            <span>${d?.price ?? "—"} / ${d?.changePct ?? "—"}%</span>
-          </div>
+        grid.innerHTML=items.map(([name,d])=>`
+          <div class="rm-admin-mini"><b>${name}</b><span>${d?.price ?? "—"} / ${d?.changePct ?? "—"}%</span></div>
         `).join("");
-        preview.style.display = "block";
-
-        status.textContent = "완료 ✓ 약 1~2분 뒤 자동 반영됩니다.";
-        setTimeout(() => {
-          status.textContent = "Vercel 재배포가 끝났다면 새로고침하세요.";
-        }, 7000);
-      } catch (e) {
-        status.textContent = `실패: ${e.message}`;
+        preview.style.display="block";
+        status.textContent="완료 ✓ Dashboard를 새로고침하면 최신 값이 표시됩니다.";
+      } catch(e) {
+        status.textContent=`실패: ${e.message}`;
       } finally {
-        updateBtn.disabled = false;
+        updateBtn.disabled=false;
       }
     });
 
-    clearBtn.addEventListener("click", () => {
-      email.value = "";
-      pin.value = "";
-      preview.style.display = "none";
-      status.textContent = "";
+    clearBtn.addEventListener("click",()=>{
+      email.value="";pin.value="";preview.style.display="none";status.textContent="";
     });
   }
 

@@ -1,7 +1,7 @@
 // File: /market-client.js
 // DAILY FIXED MARKET MODE.
-// The browser reads /api/market, which only serves the GitHub-saved daily snapshot.
-// Browser visits never trigger Yahoo refresh.
+// Market: /api/market
+// Raw materials: latest GitHub data through existing /api/raw-material-update GET.
 
 (() => {
   const fmt=(n,d=2)=>Number(n).toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d});
@@ -20,10 +20,12 @@
 
   async function getRaw(){
     try{
-      const r=await fetch(`/raw-materials.json?t=${Date.now()}`,{cache:"no-store"});
-      if(!r.ok)throw new Error();
-      return r.json();
-    }catch{
+      const r=await fetch(`/api/raw-material-update?t=${Date.now()}`,{cache:"no-store"});
+      const j=await r.json();
+      if(!r.ok || j?.ok===false)throw new Error(j?.error||`raw material ${r.status}`);
+      return j;
+    }catch(e){
+      console.error("[Raw Material API]",e);
       return {rawMaterials:(typeof CONFIG!=="undefined"?CONFIG.rawMaterials:{})||{}};
     }
   }
@@ -78,9 +80,10 @@
     const rm=rawDoc?.rawMaterials||{},usAuto=data?.["CTZ26.NYB"],wti=data?.["CL=F"],brent=data?.["BZ=F"];
     const us=usAuto?.price!=null?{price:usAuto.price,changePct:usAuto.changePct,unit:"¢/lb"}:rm.usCotton;
     const panel=document.createElement("section");panel.id="raw-material-dashboard";panel.className="rm-dashboard";
-    const marketDate = marketDoc?.marketDataDate ? ` · Market data ${marketDoc.marketDataDate}` : "";
+    const marketDate=marketDoc?.marketDataDate?` · Market data ${marketDoc.marketDataDate}`:"";
+    const rawUpdated=rawDoc?.updatedAt?` · Raw ${String(rawDoc.updatedAt).slice(0,10)}`:"";
     panel.innerHTML=`
-      <div class="rm-head">RAW MATERIAL DASHBOARD<div class="rm-sub">Daily fixed market snapshot + weekly raw material report</div></div>
+      <div class="rm-head">RAW MATERIAL DASHBOARD<div class="rm-sub">Daily fixed market snapshot + latest GitHub raw material report</div></div>
       <div class="rm-grid">
         ${item("U.S. Cotton",us?.price,us?.changePct,us?.unit||"¢/lb","ICE Dec-26 / weekly fallback")}
         ${item("China Cotton",rm.chinaCotton?.price,rm.chinaCotton?.changePct,rm.chinaCotton?.unit||"¢/lb","Weekly report")}
@@ -90,7 +93,7 @@
         ${item("WTI Crude",wti?.price,wti?.changePct,"USD/bbl","NYMEX")}
         ${item("Brent Crude",brent?.price,brent?.changePct,"USD/bbl","Global benchmark")}
       </div>
-      <div class="market-fixed-note">KST 08:00 Daily Fixed · Snapshot ${marketDoc?.snapshotDateKST||""}${marketDate}</div>`;
+      <div class="market-fixed-note">KST 08:00 Daily Fixed · Snapshot ${marketDoc?.snapshotDateKST||""}${marketDate}${rawUpdated}</div>`;
     fxCard.insertAdjacentElement("afterend",panel);
   }
 
