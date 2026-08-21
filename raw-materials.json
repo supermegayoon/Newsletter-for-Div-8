@@ -2,47 +2,47 @@
   "source": "Weekly raw material report",
   "rawMaterials": {
     "usCotton": {
-      "price": 84.11,
-      "changePct": 1.82,
+      "price": 85.51,
+      "changePct": 1.67,
       "unit": "¢/lb",
-      "comment": "USDA 보고서 실망 매물로 주 후반 상승세 주춤"
+      "comment": "텍사스 고온 건조 기후 및 작황 악화 우려로 상승"
     },
     "chinaCotton": {
-      "price": 121.56,
-      "changePct": 2.59,
+      "price": 120.89,
+      "changePct": 0.27,
       "unit": "¢/lb",
-      "comment": "내수시장 견조한 수요 확인"
+      "comment": "비축 면 경매 호조 및 신장지역 기후 악재로 강 보합세"
     },
     "indiaCotton": {
-      "price": 91.35,
-      "changePct": 2.04,
+      "price": 91.56,
+      "changePct": 0.23,
       "unit": "¢/lb",
-      "comment": "미면 대체재 수요 증가로 매수세 유입"
+      "comment": "단기적 공급 악재(재고 부족)와 제한적 수요에 강 보합세"
     },
     "psf": {
-      "price": 50.64,
-      "changePct": 0.87,
+      "price": 52.1,
+      "changePct": 2.87,
       "unit": "¢/lb",
-      "comment": "기초 원료(PTA/MEG) 가격 강세 반영"
+      "comment": "국제유가 상승에 따른 강세"
     },
     "dty": {
-      "price": 63.05,
-      "changePct": -0.71,
+      "price": 64.75,
+      "changePct": 2.7,
       "unit": "¢/lb",
-      "comment": "신규원단 전개 지연으로 일시적 수요 감소"
+      "comment": "국제유가 상승 및 선행 주문 유입"
     }
   },
   "yarn": {
-    "india": "미국 USDA 수급보고서 영향으로 인도면 가격 증가분 반영되며 강세",
-    "china": "내수 면화 시장 강세에 따른 면사 가격 강 보합세",
+    "india": "특이사항 없음",
+    "china": "원재료 면화, PSF 상승세에 따른 강 보합세",
     "korea": "특이사항 없이 보합세",
-    "cafta": "오더 부족현상으로 원면 가격 상승세 반영 못하고 보합세",
+    "cafta": "원면 가격 상승 반영하기 위한 호가 상승 중이나 수요 부족으로 보합세",
     "vietnam": "특이사항 없이 보합세"
   },
   "summary": {
-    "cotton": "미면은 작황 부진 및 수출 증가로 상승했으나 주 후반 상승세가 주춤했으며, 중국 및 인도 면화도 대체 수요와 내수 견조세로 동반 상승함.",
-    "polyester": "PSF는 기초원료 강세로 상승했으나 DTY는 신규 원단 전개 지연으로 소폭 하락함.",
-    "yarn": "인도와 중국 면사만 면화 상승세의 영향을 받아 강세를 보였고, 그 외 지역은 보합세를 나타냄."
+    "cotton": "미국 면화는 작황 악화 우려와 투기세력 순매수 증가로 상승세를 이어갔으며, 중국 및 인도 면화도 강 보합세를 보임.",
+    "polyester": "국제유가 상승 및 선행 주문 유입으로 PSF와 DTY 모두 강세를 기록함.",
+    "yarn": "중국 원사를 제외한 대부분 지역은 특이사항 없거나 수요 부진으로 보합세를 보임."
   },
-  "updatedAt": "2026-08-14T06:07:11.737Z"
+  "updatedAt": "2026-08-21T06:00:14.089Z"
 }
