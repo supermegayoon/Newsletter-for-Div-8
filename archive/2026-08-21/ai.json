@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-08-21T00:45:36.003Z",
+  "generatedDateKST": "2026-08-21",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-08-21",
+  "insight": {
+    "headline": {
+      "kr": "[8담당 데일리 브리프] 백화점 및 유통업계, 백투스쿨 AI 도입 및 Holiday IP 협업 본격화",
+      "en": "[Team 8 Daily Brief] Retailers Roll Out AI for Back-to-School and Secure Holiday IP Collaborations"
+    },
+    "summary": {
+      "kr": "코스닥 및 주요 retail 주가가 하락세를 보이는 가운데, Macy's는 100주년 Parade 디즈니 캡슐을 공개했고 Kohl's는 Z세대 공략을 위한 K팝 머천다이징과 백투스쿨 AI 솔루션을 도입했습니다. JD Sports의 실적 guidance 하향에 따른 보수적 재고 관리 기조에 대응하여 유연한 벤더 제안이 요구됩니다.",
+      "en": "Amid softening retail equities, Macy's launched a Disney parade capsule and Kohl's introduced K-pop merch and back-to-school AI solutions to capture Gen Z. With JD Sports lowering its guidance, vendors must navigate conservative inventory strategies with flexible assortments."
+    },
+    "tags": [
+      "#Team8Daily",
+      "#MacysDisney",
+      "#KohlsAI",
+      "#ApparelSourcing"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "KPop Demon Hunters 머천다이징 컬렉션을 대규모로 출시하며 Z세대 traffic 유도에 집중하고 있습니다. 또한 백투스쿨 시즌 판매 촉진을 위해 AI 기술을 도입하여 운영 효율화를 꾀하고 있습니다.",
+        "en": "Kohl's launched a large-scale 'KPop Demon Hunters' merchandise collection to drive Gen Z traffic and deployed AI tools to optimize back-to-school sales performance."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "Northern Ireland의 The Boulevard 쇼핑몰에 두 번째 offline 매장 오픈을 확정하는 등 주요 지역 상권에서 물리적 retail 접점을준비하며 성장세를 이어가고 있습니다.",
+        "en": "Hollister is continuing its physical retail expansion by confirming its second store in Northern Ireland at The Boulevard shopping complex."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "추수감사절 Parade 100주년을 기념하는 독점 디즈니 캡슐 컬렉션을 공개했으며, Ted by Ted Baker 남성복을 런칭하는 등 Holiday 및 주요 category wholesale Partnership을 강화하고 있습니다.",
+        "en": "Macy's debuted an exclusive Disney capsule for its parade's 100th anniversary and launched Ted by Ted Baker menswear, reinforcing key wholesale partnerships."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "주요 retail러들의 Z세대 타겟 서브컬처 IP 및 독점 Holiday Collaboration 라인업 기획 제안",
+        "en": "Propose subculture IP-driven merchandise and exclusive holiday collaboration lines targeting major retailers' Gen Z demographics."
+      },
+      {
+        "kr": "백투스쿨 및 Holiday 시즌에 대비한 유연한 단납기 물동량 및 AI 기반 재고 연동 sourcing 제안",
+        "en": "Offer flexible quick-turn production and AI-compatible inventory solutions for upcoming back-to-school and holiday seasons."
+      },
+      {
+        "kr": "북미 백화점 채널의 남성복 및 캐주얼 category 입점 확대를 위한 신규 스타일 프로포절 강화",
+        "en": "Strengthen new style proposals to expand menswear and casual category penetration within North American department store channels."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "미국 소비 수요 둔화 및 JD Sports의 guidance 하향 조정으로 인해 유통사 전반의 보수적인 재고 운용과 신중한 바이어 오더 패턴 지속 우려",
+      "en": "Soft U.S. demand and JD Sports' lowered guidance signal potential caution and tighter inventory management across retail channels."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Macy's의 Holiday 및 디즈니 콜라보 라인업 연계 상품 기획안 검토 및 제안 준비",
+        "en": "Review and prepare product proposals tied to Macy's holiday and Disney collaboration lines."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "Kohl's의 백투스쿨 AI 도입 및 Z세대 IP 트렌드 대응을 위한 맞춤형 벤더 제안서 작성",
+        "en": "Draft tailored vendor proposals aligning with Kohl's back-to-school AI adoption and Gen Z IP trends."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "미국 시장 수요 둔화 기조에 맞춰 주요 바이어별 오더 시프트 및 재고 리스크 모니터링",
+        "en": "Monitor order shifts and inventory risks per buyer in response to softening U.S. market demand trends."
+      }
+    ]
+  }
+}
