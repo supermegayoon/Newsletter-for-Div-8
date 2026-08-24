@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-08-24T00:55:31.782Z",
+  "generatedDateKST": "2026-08-24",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-08-24",
+  "insight": {
+    "headline": {
+      "kr": "Kohl's·Macy's 백-투-스쿨 및 Holiday 시즌 promotion 가속화, 철저한 재고 대응 필요",
+      "en": "Kohl's and Macy's Accelerate Back-to-School and Holiday Promotions, Demanding Rigorous Inventory Execution"
+    },
+    "summary": {
+      "kr": "2026년 8월 24일 기준, Kohl's와 Macy's 등 주요 바이어들이 back-to-school 및 IP 기반 Holiday 캡슐 라인업을 앞세워 traffic 확보에 나섰습니다. JCPenney, Target 등 경쟁사들의 공격적인 마케팅에 대응하여 벤더 팀은 시즌 전환기 상품의 신속한 reorder와 재고 효율성 관리에 집중해야 합니다.",
+      "en": "As of August 24, 2026, key buyers like Kohl's and Macy's are driving traffic via back-to-school and IP-driven holiday capsule lineups. Amid aggressive marketing from competitors like JCPenney and Target, the vendor team must focus on agile reorders and inventory efficiency for season-transition lines."
+    },
+    "tags": [
+      "#BackToSchool",
+      "#HolidayCapsule",
+      "#RetailCompetition",
+      "#InventoryStrategy"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "최대 $100 Kohl's Cash 증정 promotion과 'KPop Demon Hunters' 등 Z세대 타겟 IP merchandise를 전개 중이나, JCPenney 및 Target의 공세로 경쟁이 심화되고 있습니다.",
+        "en": "Running up to $100 Kohl's Cash promotions and Gen Z-targeted IP merchandise like 'KPop Demon Hunters', while facing intense competitive pressure from JCPenney and Target."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "주요 임원의 Vuori 영입 등 activewear 및 라이프스타일 category 재편을 추진 중이며, Aritzia 등의 대규모 웨어하우스 세일 공세 속에서 젊은 여성 고객층 방어가 요구됩니다.",
+        "en": "Executing activewear and lifestyle category realignments following executive talent shifts, requiring defense of the young female demographic amidst large-scale competitor warehouse sales."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "Disney x Macy's Holiday Capsule 판매 호조와 100주년 Thanksgiving Day Parade 카운트다운에 돌입했으며, 9월 10일 Q2 실적 발표를 앞두고 재고 건강도 관리가 핵심입니다.",
+        "en": "Experiencing strong sell-through for the Disney x Macy's Holiday Capsule and ramping up 100th parade countdowns, with Q2 earnings approaching on Sept 10 making inventory health paramount."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "Macy's의 Holiday 캡슐 아이템 및 IP 연계 상품에 대한 신속한 reorder 체계 구축 및 추가 물량 제안",
+        "en": "Establish agile reorder systems and propose incremental volume for Macy's holiday capsule items and IP-linked products."
+      },
+      {
+        "kr": "Kohl's의 back-to-school 및 신규 IP merchandise sell-through 모니터링을 통한 베스트셀러 후속 오더 확보",
+        "en": "Secure follow-up orders for bestsellers by monitoring sell-through of Kohl's back-to-school and new IP merchandise."
+      },
+      {
+        "kr": "경쟁사들의 조기 가을 및 노동절 세일 공세에 맞춘 실속형 가을 의류 및 번들 상품 선제적 제안",
+        "en": "Proactively pitch practical fall apparel and bundle options to counter early fall and Labor Day sales pushes by competitors."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "경쟁사들의 공격적인 가을/노동절 얼리버드 할인 및 트레이드인 마케팅이 바이어들의 초기 margin율과 재고 회전에 부담을 줄 수 있습니다.",
+      "en": "Aggressive fall and Labor Day early-bird discounts and trade-in marketing by competitors may pressure buyer initial margins and inventory velocity."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Macy's Holiday 캡슐 및 Kohl's back-to-school category별 주간 sell-through 데이터 밀착 점검",
+        "en": "Closely monitor weekly sell-through data by category for Macy's holiday capsules and Kohl's back-to-school."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "경쟁사(JCPenney, Target 등)의 promotion 동향 분석을 바탕으로 바이어별 맞춤형 reorder 및 할인 대응 전략 수립",
+        "en": "Formulate buyer-specific reorder and discount response strategies based on competitor (JCPenney, Target, etc.) promotional trends."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "환율(USD/KRW 1,385원 대) 변동성에 따른 원가 및 margin 구조 시뮬레이션 검토",
+        "en": "Review cost and margin structure simulations reflecting USD/KRW exchange rate volatility (around 1,385 KRW)."
+      }
+    ]
+  }
+}
