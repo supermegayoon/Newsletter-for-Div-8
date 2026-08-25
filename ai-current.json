@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-08-24T23:01:39.082Z",
+  "asOf": "2026-08-25T00:42:47.880Z",
   "generatedDateKST": "2026-08-25",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
@@ -11,68 +11,67 @@
   "competitorDateKST": "2026-08-25",
   "insight": {
     "headline": {
-      "kr": "백화점 채널 Q2 실적 기대감 속 콜스 및 메이시스 공격적 마케팅 전개",
-      "en": "Kohl's and Macy's Push Aggressive Marketing Amid Department Store Q2 Earnings Anticipation"
+      "kr": "[8담당 데일리 마켓 브리프] 2026년 8월 25일 - 백화점 Q2 실적 기대감 및 백투스쿨 promotion 경쟁 심화",
+      "en": "[Team 8 Daily Market Brief] Aug 25, 2026 - Q2 Earnings Anticipation and Intensifying Back-to-School Promotions"
     },
     "summary": {
-      "kr": "미국 의류 retail 시장은 백화점 채널의 실적 발표를 앞두고 백투스쿨 시즌 promotion 및 라이프스타일 category 확장을 가속화하고 있습니다. 경쟁사인 타겟과 월마트의 공격적인 가성비 전략에 대응하여 당사 8담당 영업 팀은 차별화된 벤더 공급 및 시즌 상품 적기 납품에 집중해야 합니다.",
-      "en": "The U.S. apparel retail market is accelerating back-to-school promotions and lifestyle category expansion ahead of department store earnings releases. In response to aggressive value strategies by competitors Target and Walmart, Team 8 sales must focus on differentiated vendor supply and timely delivery of seasonal products."
+      "kr": "유통 및 의류 시장은 다가오는 실적 발표와 백투스쿨 시즌을 맞아 타겟, 월마트 등 주요 경쟁사들의 공세 속에서 promotion과 상품 다변화에 주력하고 있습니다.",
+      "en": "Retail and apparel markets focus on promotions and product diversification amidst aggressive moves from key competitors like Target and Walmart ahead of upcoming earnings and the back-to-school season."
     },
     "tags": [
       "#Team8Daily",
-      "#ApparelVendor",
+      "#ApparelSales",
       "#RetailTrends",
-      "#KST20260825"
+      "#BackToSchool"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "Martha Stewart, Bobby Flay 등 홈 컬렉션 확장 및 'KPop Demon Hunters' Collaboration 라인 런칭, 최대 $100 Kohl's Cash promotion으로 Gen Z 및 홈 category traffic 확보 주력",
-        "en": "Securing Gen Z and home category traffic through expanded home collections (Martha Stewart, Bobby Flay), 'KPop Demon Hunters' collab line, and up to $100 Kohl's Cash promotions"
+        "kr": "Martha Stewart, Bobby Flay 홈 컬렉션 확장 및 'KPop Demon Hunters' Collaboration 라인 런칭을 통해 Gen Z 및 라이프스타일 category 강화에 주력하고 있습니다.",
+        "en": "Kohl's is focusing on strengthening the Gen Z and lifestyle categories by expanding home collections with Martha Stewart and Bobby Flay, alongside launching the 'KPop Demon Hunters' collaboration line."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "Charlotte SouthPark Mall offline 매장 재입점 및 Mary Fox 신임 이사 선임, 'Green Day' 틱톡 지향형 디지털 마케팅으로 브랜드 영향력 확대",
-        "en": "Expanding brand influence via SouthPark Mall store re-entry, new board director Mary Fox, and TikTok-oriented 'Green Day' digital marketing"
+        "kr": "Mary Fox 사외이사 신규 선임과 샬럿 SouthPark Mall 재입점을 통해 브랜드 글로벌 확장과 offline 거점 강화에 나서고 있습니다.",
+        "en": "A&F is driving brand global expansion and reinforcing its physical footprint through the election of Mary Fox to the Board of Directors and returning to SouthPark Mall in Charlotte."
       },
       {
         "buyer": "Macy's",
-        "kr": "9월 10일 Q2 실적 발표 기대감 속 백주년 추수감사절 Parade 카운트다운 및 'Ted by Ted Baker' 남성복 단독 런칭으로 프리미엄 백화점 경쟁력 강화",
-        "en": "Strengthening premium department store competitiveness via 100th Thanksgiving Parade countdown and exclusive 'Ted by Ted Baker' menswear launch ahead of Sep 10 Q2 earnings"
+        "kr": "9월 10일 Q2 실적 발표를 앞두고 주가 상승세를 보이며, 'Ted by Ted Baker' 남성복 단독 런칭 및 100주년 Parade 마케팅으로 차별화를 꾀하고 있습니다.",
+        "en": "Macy's is edging higher ahead of its Sept 10 Q2 earnings release, differentiating itself through the exclusive launch of 'Ted by Ted Baker' menswear and 100th parade marketing."
       }
     ],
     "opportunities": [
       {
-        "kr": "콜스의 가을 홈 및 Gen Z향 IP 협업 상품 확대에 발맞춘 트렌디한 벤더 sourcing 제안",
-        "en": "Propose trendy vendor sourcing aligned with Kohl's expansion of fall home and Gen Z IP collaboration goods"
+        "kr": "Kohl's의 Gen Z 타겟 IP 콜라보 및 홈 category 확장 트렌드에 발맞춘 신규 디자인 아이템 제안",
+        "en": "Propose new design items aligned with Kohl's Gen Z-targeted IP collaboration and home category expansion trends."
       },
       {
-        "kr": "메이시스의 추동 시즌 백화점 독점 상품(Ted Baker 등) 및 Holiday 선제 기획에 맞춘 단독 공급 아이템 제안",
-        "en": "Propose exclusive supply items tailored to Macy's F/W department store exclusive goods (such as Ted Baker) and early holiday planning"
+        "kr": "Macy's의 Q2 실적 발표 및 추동 시즌(FW) 단독 상품군 확대 흐름에 연동한 선제적 벤더 공급 전략 수립",
+        "en": "Establish proactive vendor supply strategies tied to Macy's Q2 earnings release and Fall/Winter exclusive assortment expansion."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "타겟 및 월마트의 초저가 의류 및 리펀드 기반 실적 반등으로 인해 전통 백화점 및 가성비 채널 내 고객 이탈 및 가격 경쟁 심화 우려",
-      "en": "Concerns over customer churn and intensifying price competition in traditional department and value channels driven by Target and Walmart's ultra-low apparel and refund-backed recovery"
+      "kr": "타겟과 월마트 등 경쟁사들의 공격적인 저가 의류 출시 및 조기 promotion으로 인한 고객 traffic 분산 우려",
+      "en": "Risk of customer traffic dispersion due to aggressive low-priced apparel launches and early promotions by competitors like Target and Walmart."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "콜스의 백투스쿨 및 Kohl's Cash promotion 대상 품목 sell-through 모니터링 및 reorder 적기 대응",
-        "en": "Monitor sell-through of items targeted by Kohl's back-to-school and Kohl's Cash promotions for timely reorders"
+        "kr": "Kohl's의 백투스쿨 promotion 및 백화점 채널별 재고 소진 현황 일일 모니터링",
+        "en": "Daily monitoring of Kohl's back-to-school promotions and department store inventory sell-through status."
       },
       {
         "owner": "Team 8",
-        "kr": "메이시스 Q2 실적 발표 대비 category별 매출 guidance 분석 및 가을/겨울 간절기 제품 출하 일정 점검",
-        "en": "Analyze category sales guidance for Macy's Q2 earnings and review F/W transitional product shipping schedules"
+        "kr": "Macy's 추동 시즌(FW) 독점 상품 선적 스케줄 점검 및 품질 관리 철저",
+        "en": "Review shipping schedules for Macy's Fall/Winter exclusive products and ensure stringent quality control."
       },
       {
         "owner": "Team 8",
-        "kr": "경쟁사(타겟·월마트)의 가성비 promotion 공세에 대응할 수 있는 고부가가치 스타일 및 합리적 단가 제안서 보완",
-        "en": "Refine high-value-add style and reasonable pricing proposals to counter competitor (Target/Walmart) value promotions"
+        "kr": "경쟁사(Target, Walmart)의 초저가 및 신규 패션 라인 동향 분석 보고 작성",
+        "en": "Draft an analysis report on competitor (Target, Walmart) ultra-low-priced and new fashion line trends."
       }
-    ],
-    "issuedDate": "2026-08-25"
+    ]
   }
 }
