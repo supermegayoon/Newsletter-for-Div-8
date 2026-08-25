@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "asOf": "2026-08-25T00:42:47.880Z",
+  "generatedDateKST": "2026-08-25",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-08-25",
+  "insight": {
+    "headline": {
+      "kr": "[8담당 데일리 마켓 브리프] 2026년 8월 25일 - 백화점 Q2 실적 기대감 및 백투스쿨 promotion 경쟁 심화",
+      "en": "[Team 8 Daily Market Brief] Aug 25, 2026 - Q2 Earnings Anticipation and Intensifying Back-to-School Promotions"
+    },
+    "summary": {
+      "kr": "유통 및 의류 시장은 다가오는 실적 발표와 백투스쿨 시즌을 맞아 타겟, 월마트 등 주요 경쟁사들의 공세 속에서 promotion과 상품 다변화에 주력하고 있습니다.",
+      "en": "Retail and apparel markets focus on promotions and product diversification amidst aggressive moves from key competitors like Target and Walmart ahead of upcoming earnings and the back-to-school season."
+    },
+    "tags": [
+      "#Team8Daily",
+      "#ApparelSales",
+      "#RetailTrends",
+      "#BackToSchool"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "Martha Stewart, Bobby Flay 홈 컬렉션 확장 및 'KPop Demon Hunters' Collaboration 라인 런칭을 통해 Gen Z 및 라이프스타일 category 강화에 주력하고 있습니다.",
+        "en": "Kohl's is focusing on strengthening the Gen Z and lifestyle categories by expanding home collections with Martha Stewart and Bobby Flay, alongside launching the 'KPop Demon Hunters' collaboration line."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "Mary Fox 사외이사 신규 선임과 샬럿 SouthPark Mall 재입점을 통해 브랜드 글로벌 확장과 offline 거점 강화에 나서고 있습니다.",
+        "en": "A&F is driving brand global expansion and reinforcing its physical footprint through the election of Mary Fox to the Board of Directors and returning to SouthPark Mall in Charlotte."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "9월 10일 Q2 실적 발표를 앞두고 주가 상승세를 보이며, 'Ted by Ted Baker' 남성복 단독 런칭 및 100주년 Parade 마케팅으로 차별화를 꾀하고 있습니다.",
+        "en": "Macy's is edging higher ahead of its Sept 10 Q2 earnings release, differentiating itself through the exclusive launch of 'Ted by Ted Baker' menswear and 100th parade marketing."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "Kohl's의 Gen Z 타겟 IP 콜라보 및 홈 category 확장 트렌드에 발맞춘 신규 디자인 아이템 제안",
+        "en": "Propose new design items aligned with Kohl's Gen Z-targeted IP collaboration and home category expansion trends."
+      },
+      {
+        "kr": "Macy's의 Q2 실적 발표 및 추동 시즌(FW) 단독 상품군 확대 흐름에 연동한 선제적 벤더 공급 전략 수립",
+        "en": "Establish proactive vendor supply strategies tied to Macy's Q2 earnings release and Fall/Winter exclusive assortment expansion."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "타겟과 월마트 등 경쟁사들의 공격적인 저가 의류 출시 및 조기 promotion으로 인한 고객 traffic 분산 우려",
+      "en": "Risk of customer traffic dispersion due to aggressive low-priced apparel launches and early promotions by competitors like Target and Walmart."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Kohl's의 백투스쿨 promotion 및 백화점 채널별 재고 소진 현황 일일 모니터링",
+        "en": "Daily monitoring of Kohl's back-to-school promotions and department store inventory sell-through status."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "Macy's 추동 시즌(FW) 독점 상품 선적 스케줄 점검 및 품질 관리 철저",
+        "en": "Review shipping schedules for Macy's Fall/Winter exclusive products and ensure stringent quality control."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "경쟁사(Target, Walmart)의 초저가 및 신규 패션 라인 동향 분석 보고 작성",
+        "en": "Draft an analysis report on competitor (Target, Walmart) ultra-low-priced and new fashion line trends."
+      }
+    ]
+  }
+}
