@@ -1,80 +1,80 @@
 {
   "ok": true,
-  "asOf": "2026-08-27T00:40:06.471Z",
-  "generatedDateKST": "2026-08-27",
+  "asOf": "2026-08-27T23:01:15.160Z",
+  "generatedDateKST": "2026-08-28",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-08-27",
+  "competitorDateKST": "2026-08-28",
   "insight": {
     "headline": {
-      "kr": "Abercrombie & Fitch Q2 실적 호조 및 주요 유통사 Back-to-School 전략 가속화",
-      "en": "Abercrombie & Fitch Reports Strong Q2 Results While Major Retailers Accelerate Back-to-School Strategies"
+      "kr": "8담당 데일리 마켓 브리프: Abercrombie & Fitch 실적 호조 및 관세 환급 주가 급등, 주요 백화점 Holiday·가을 시즌 준비 가속화",
+      "en": "Team 8 Daily Market Brief: Abercrombie & Fitch surges on earnings beat & tariff refunds, major department stores accelerate holiday & fall preparations"
     },
     "summary": {
-      "kr": "2026년 8월 27일 기준, Abercrombie & Fitch가 강력한 Q2 실적으로 주가가 급등하며 탄탄한 수요를 입증했습니다. Kohl's는 PB 상품 강화 캠페인과 DoorDash 배송 Partnership을 확대하며 턴어라운드를 추진 중이며, Macy's는 신임 크리에이티브 총괄 영입 및 'Ted by Ted Baker' 런칭으로 상품력 강화에 나섰습니다.",
-      "en": "As of August 27, 2026, Abercrombie & Fitch posted strong Q2 earnings, driving stock gains and signaling robust consumer demand. Kohl's is pushing its turnaround via store brand campaigns and DoorDash delivery expansion, while Macy's bolsters its assortment with a new creative head and the debut of 'Ted by Ted Baker'."
+      "kr": "2026년 8월 28일 기준 주요 백화점 및 어패럴 벤더 동향입니다. Abercrombie & Fitch는 관세 환급 및 Q2 실적 호조로 주가가 36% 급등하였으며, Kohl's는 Sephora 매출 감소 속에서도 Holiday 실행력과 홈 어소트먼트 확장에 주력하고 있습니다. Macy's는 창립 100주년 마케팅과 크리에이티브 임원 영입으로 반등을 모색 중이며, 원/달러 환율은 1,380.96원으로 소폭 하락, 면화 가격은 상승세를 보이고 있습니다.",
+      "en": "Key department store and apparel vendor updates for August 28, 2026. Abercrombie & Fitch shares surged 36% following a Q2 earnings beat driven by tariff refunds, while Kohl's focuses on holiday execution and home category expansion despite a 4% drop in Sephora sales. Macy's is driving momentum through 100th-anniversary marketing and new creative leadership. USD/KRW edged down to 1,380.96 while cotton prices trended upward."
     },
     "tags": [
       "#Team8Daily",
       "#ApparelVendor",
       "#RetailNews",
-      "#BackToSchool"
+      "#MarketBrief"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "Back-to-School 시즌을 맞아 자사 PB 마케팅 캠페인을 런칭하고 DoorDash와의 배송 연계를 확대했습니다. CEO가 턴어라운드 신호를 강조한 만큼, 벤더사는 PB 경쟁력 강화를 위한 category별 맞춤형 머천다이징 제안을 준비해야 합니다.",
-        "en": "Kohl's launched a private brand marketing campaign and expanded DoorDash delivery for the back-to-school season. As the CEO highlights turnaround signs, vendors should prepare targeted merchandising proposals to support private brand growth."
+        "kr": "Q2 Sephora 매출이 4% 하락하며 Partnership 성과에 우려가 제기되었으나, Martha Stewart 및 Bobby Flay 등 홈 category 강화와 DoorDash 협력을 통한 백스쿨 배송 편의성 제고로 수익성 방어 및 Holiday 준비에 역량을 집중하고 있습니다.",
+        "en": "Kohl's reported a 4% drop in Sephora sales raising partnership concerns, but is heavily focusing on margin defense and holiday execution by expanding home assortments with Martha Stewart and Bobby Flay, alongside enhanced Back-to-School fulfillment via DoorDash."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "예상을 웃도는 강력한 Q2 실적을 기록하며 주요 증권사로부터 목표주가가 상향되었습니다. 샬럿 SouthPark Mall 재입점 등 핵심 상권 중심의 offline 확장과 탄탄한 sell-through를 바탕으로 지속적인 수주 확대를 기대할 수 있습니다.",
-        "en": "Abercrombie & Fitch reported stellar Q2 results, earning target price upgrades. Backed by solid sell-through and mall-based offline expansions like the SouthPark Mall return, continued order growth is anticipated."
+        "kr": "Q2 실적이 예상치를 상회하고 관세 환급 효과가 반영되면서 주가가 36% 급등했습니다. Hollister는 Target과의 제휴를 통해 의류 외 category로 신규 고객층을 성공적으로 확대하고 있습니다.",
+        "en": "Abercrombie & Fitch shares jumped 36% on a Q2 earnings beat powered by tariff refunds and strong momentum. Hollister continues to capture new demographics beyond traditional apparel through its strategic Target partnership."
       },
       {
         "buyer": "Macy's",
-        "kr": "마야 듀크스를 수석 부사장 겸 총괄 크리에이티브 디렉터로 임영한 데 이어 'Ted by Ted Baker' 라인을 성공적으로 런칭했습니다. 신임 크리에이티브 리더십 도입에 따른 디자인 및 비주얼 머천다이징 변화에 맞춘 상품 대응이 필요합니다.",
-        "en": "Macy's appointed Maya Dukes as Senior VP & Creative Director and debuted the 'Ted by Ted Baker' line. Vendors need to align product strategies with upcoming design and visual merchandising shifts under the new creative leadership."
+        "kr": "Thanksgiving Day Parade 100주년을 기념하는 역사적 바시티 재킷 등 기념 상품을 공개하고 Maya Dukes를 수석 부사장(SVP of Creative and Production)으로 임영해 크리에이티브 역량을 강화하고 있습니다.",
+        "en": "Macy's unveiled 100th-anniversary commemorative keepsakes for its Thanksgiving Day Parade and appointed Maya Dukes as Senior VP of Creative and Production to elevate private brand design and in-store presentation."
       }
     ],
     "opportunities": [
       {
-        "kr": "Kohl's의 PB 상품 강화 및 DoorDash 협업 등 옴니채널 fulfillment 확대 기조에 발맞춘 효율적인 category별 sourcing 제안 검토",
-        "en": "Review efficient category sourcing proposals aligned with Kohl's' private brand enhancement and omnichannel fulfillment expansion via DoorDash."
+        "kr": "Kohl's의 홈 category 확장 및 Holiday 실행력 강화 기조에 맞춰 당사 홈 및 어패럴 제품군의 margin 구조 최적화 및 조기 제안 추진",
+        "en": "Align with Kohl's focus on home category expansion and holiday execution by optimizing margin structures and pitching early seasonal product proposals."
       },
       {
-        "kr": "A&F의 견조한 Q2 실적 및 sell-through 호조세를 반영한 주력 아이템 추가 물량 수주 가능성 타진",
-        "en": "Explore additional order opportunities for key items by leveraging A&F's robust Q2 performance and strong sell-through trends."
+        "kr": "A&F/Hollister의 가파른 성장세와 Target 채널 확장 기조에 발맞춰 영고객층 타겟 아이템의 lead time 단축 및 reorder 대응력 강화",
+        "en": "Leverage A&F and Hollister's robust growth and multi-channel expansion by tightening lead times and bolstering reorder agility for youth-oriented items."
       },
       {
-        "kr": "Macy's의 신임 크리에이티브 디렉터 영입 및 신규 브랜드(Ted by Ted Baker) 런칭에 발맞춘 트렌디한 디자인 sourcing 제안 준비",
-        "en": "Prepare trendy design sourcing proposals tailored to Macy's' new creative director leadership and the launch of the 'Ted by Ted Baker' line."
+        "kr": "Macy's의 크리에이티브 리더십 교체 및 100주년 기념 마케팅에 발맞춘 독점 소구형 디자인 및 promotion 상품 제안",
+        "en": "Capitalize on Macy's new creative leadership and anniversary marketing by offering exclusive, trend-forward design concepts and promotional merchandise edits."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "주요 유통사들의 적극적인 얼리 Labor Day 세일 진입 및 경쟁사(Target, Nordstrom 등)의 공격적인 가격·상품 전략으로 인한 margin 압박 리스크 존재",
-      "en": "Margin pressure risk driven by major retailers entering early Labor Day sales and aggressive pricing/product strategies from competitors like Target and Nordstrom."
+      "kr": "Kohl's의 Sephora 매출 둔화 등 Partnership 실적 부진 요인이 offline traffic 및 벤더 오더 물량에 미치는 영향을 주시해야 합니다.",
+      "en": "Need to monitor potential downstream impacts of Kohl's softer Sephora sales on in-store traffic and vendor order volumes."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Kohl's의 PB 강화 전략에 대응하는 가을/겨울 시즌 category별 머천다이징 제안서 검토 및 보완",
-        "en": "Review and refine Fall/Winter category merchandising proposals responding to Kohl's' private brand strategy."
+        "kr": "Kohl's의 Holiday 시즌 execution에 대응하여 주요 category 재고 회전율 및 margin 시뮬레이션 점검",
+        "en": "Review inventory turn metrics and margin simulations for Kohl's to support their year-end holiday execution."
       },
       {
         "owner": "Team 8",
-        "kr": "A&F의 Q2 실적 호조에 따른 주력 납품 품목의 재고 회전율 및 추가 오더 가능성 모니터링",
-        "en": "Monitor inventory turnover and potential re-order volume for core supplied items following A&F's strong Q2 earnings."
+        "kr": "A&F 및 Hollister의 가파른 실적 상승세와 경쟁사(URBN 등) 동향을 반영한 벤더 차원의 차별화된 영패럴 디자인 제안서 준비",
+        "en": "Prepare differentiated youth apparel design proposals reflecting A&F/Hollister's momentum and competitor (URBN) signals."
       },
       {
         "owner": "Team 8",
-        "kr": "Macy's 신임 크리에이티브 디렉터 체제 변화에 따른 향후 디자인 및 비주얼 피드백 분석",
-        "en": "Analyze upcoming design and visual merchandising feedback resulting from Macy's new creative director leadership."
+        "kr": "Macy's 신임 크리에이티브 임원 체제 전환에 따른 바이어 소통 채널 강화 및 가을/겨울 환절기 상품 딜리버리 일정 재확인",
+        "en": "Strengthen buyer communication following Macy's creative leadership change and re-verify fall/winter transitional delivery schedules."
       }
     ]
   }
