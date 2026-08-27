@@ -1,0 +1,420 @@
+{
+  "ok": true,
+  "generatedDateKST": "2026-08-27",
+  "asOf": "2026-08-26T23:01:03.238Z",
+  "schedule": "Mon-Fri 08:00 KST",
+  "windowDays": 7,
+  "analysisMode": "RULE_FALLBACK",
+  "buyers": [
+    {
+      "buyer": "Kohl's",
+      "competitionLevel": "HIGH",
+      "keyTakeaway": {
+        "kr": "Target, Target, Target 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for Target, Target, Target. Review the implications by buyer using the cited sources."
+      },
+      "competitors": [
+        {
+          "name": "Target",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "Reset your fall wardrobe with denim, sneakers, boots and easy layers - The Fayetteville Observer",
+            "en": "Reset your fall wardrobe with denim, sneakers, boots and easy layers - The Fayetteville Observer"
+          },
+          "whyItMatters": {
+            "kr": "Kohl's과 유사한 고객층을 두고 경쟁하는 Target의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Target is relevant to Kohl's's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Target의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Target signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "The Fayetteville Observer",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.27",
+              "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSjhKcW41S05CbV9XSTVYanhiWnM3Z0FKNF9zWWxURGQ1NHpORXZvU1ZkT1U4ZS1lc09lVzQ2OXRXSFpubUhGZS1zZ2MtUEhrTkgtZHBTYXJ6SjVIc0tOUk5EeWtpd1VfNDdHc2xDUmN5aFNkMkZCVk5fVW91czducE9vVXFYbzV0Yi1NWExPcmZScTNXaklpUmxub2QycDMzNzVXb0g5ZEVFR2pkU291VngyYVpYaXNYUFMxUXFpcWVmOU5YN0JPU3NFZ3F1ZERacTJwaldCX0k4V2JNb0JVZmwxTWp6Q1JYa3c?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Target",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "Which major brands are already running early Labor Day sales - USA Today",
+            "en": "Which major brands are already running early Labor Day sales - USA Today"
+          },
+          "whyItMatters": {
+            "kr": "Kohl's과 유사한 고객층을 두고 경쟁하는 Target의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Target is relevant to Kohl's's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Target의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Target signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "USA Today",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.25",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVlkybDBLM19FMlJocFh2Y09SSHl2ZE9Udzgta3pFVnlMU25jdk5fQ19UOHZNUGp0WlBZZ3M4N0FYclpDN1gtQllldkE2OVRFeDFaUW15VmxLNG13SW5Od0Q2T0VMS1dHRGFVMWlhRWQ1eVBEMWxYNF9pbnp3THUtTDMxbmo1YVBhWEgyalBDUG8zRl95WTd2LUhwaFk?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Target",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "WMT Stock Heads For Fourth Month In Red: Walmart Reportedly Bets On Under-$25 Fashion Line To Take On Amazon - TradingView",
+            "en": "WMT Stock Heads For Fourth Month In Red: Walmart Reportedly Bets On Under-$25 Fashion Line To Take On Amazon - TradingView"
+          },
+          "whyItMatters": {
+            "kr": "Kohl's과 유사한 고객층을 두고 경쟁하는 Target의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Target is relevant to Kohl's's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Target의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Target signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "TradingView",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.24",
+              "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOLWJWUURNaFd6amN1VmVwZXJHTE5rUXdyR0JqaVNwZGhNam12WUlNWmNlbFJfSExpVnhaV2RvM05oVVRPcmtvWmxIbzAxVUZ5NnJaUVJpdy03X2xLcHRvenlGU0tvMU9rQTFiSF94VHJlU096VHp1anRIZUtlcWJaMlF0VWxKQmZUT3BmaFJqWjlVSldRVDhEREptVEZnNTZDX21QQXVXTkJyMlVzWVFNREE3RFZ1QU5GZDZlVzlBaVdMQVNRdmgxSUtvbE1uVEdHY3hlaHVraWptTjN1Q2c2bGcyNk9CSV8zckFrWm9ieWxvVzI2Y09SdE8zYw?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "A&F / Hollister",
+      "competitionLevel": "HIGH",
+      "keyTakeaway": {
+        "kr": "Aritzia, Urban Outfitters, Urban Outfitters 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for Aritzia, Urban Outfitters, Urban Outfitters. Review the implications by buyer using the cited sources."
+      },
+      "competitors": [
+        {
+          "name": "Aritzia",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "How Ethical Is Aritzia? - Good On You",
+            "en": "How Ethical Is Aritzia? - Good On You"
+          },
+          "whyItMatters": {
+            "kr": "A&F / Hollister과 유사한 고객층을 두고 경쟁하는 Aritzia의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Aritzia is relevant to A&F / Hollister's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Aritzia의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Aritzia signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "Good On You",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.27",
+              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBGVGVkbldLREJ0REVXcUlfaXhfcDNIQUZTbDhtTzdWaG5QR0dkMWV3VWk5U3JYYkNyaHlGeVZmRjE3YnJvNmdGWVF6UVY1YzBNTjhRb1RLd0I?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Urban Outfitters",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "Urban Outfitters’s (NASDAQ:URBN) Q2 CY2026: Reports In Line Quarter - TradingView",
+            "en": "Urban Outfitters’s (NASDAQ:URBN) Q2 CY2026: Reports In Line Quarter - TradingView"
+          },
+          "whyItMatters": {
+            "kr": "A&F / Hollister과 유사한 고객층을 두고 경쟁하는 Urban Outfitters의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Urban Outfitters is relevant to A&F / Hollister's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Urban Outfitters의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Urban Outfitters signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "TradingView",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.27",
+              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaVRhcEZsaDhaY2pkZ0JmRnV6dS1FUnlSMjVZTWZ4NmJ5TWdscUV4VjNMZElBWnlZbzM1aWF2ZlE1SENYamFlTXFhbkJSN3JZNi1lREtCVDdHQTZZVWZZQWJoS1YwM0ROT1ltT2xSQktxR2pqcVRVbDZ1RlR0bldBYWw1OXhNWmJ1WE5PM3JSRFZnN1NlbTJGeEdyamJiOUU5SWpFdi1IR24yTFhobGc2Tnd6UWszaWpuelJFdHRxVkEtX28?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Urban Outfitters",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "Anthropologie Bringing New Store to Upper Arlington - WhatNow",
+            "en": "Anthropologie Bringing New Store to Upper Arlington - WhatNow"
+          },
+          "whyItMatters": {
+            "kr": "A&F / Hollister과 유사한 고객층을 두고 경쟁하는 Urban Outfitters의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Urban Outfitters is relevant to A&F / Hollister's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Urban Outfitters의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Urban Outfitters signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "WhatNow",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.27",
+              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQzFQc0RLdGhXZ2tQaGZuNFozd3NGVkxGcnFvdjZodFB3dVN6QWJWRHR3cXJob0xkRE1JejNiNndHMTNlbEs3Y3FGMGdJTkZqNlEzN2dMNDRVUHRZLWRzQ0VMUndEbUNIRDNFRFIzalFIMjJINWpLYmpFaWhPcndOMUQ0RjV5RlhPMVZlb1B2M2pHZw?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "Macy's",
+      "competitionLevel": "HIGH",
+      "keyTakeaway": {
+        "kr": "Nordstrom, Nordstrom, Nordstrom 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for Nordstrom, Nordstrom, Nordstrom. Review the implications by buyer using the cited sources."
+      },
+      "competitors": [
+        {
+          "name": "Nordstrom",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "Reset your fall wardrobe with denim, sneakers, boots and easy layers - Norwich Bulletin",
+            "en": "Reset your fall wardrobe with denim, sneakers, boots and easy layers - Norwich Bulletin"
+          },
+          "whyItMatters": {
+            "kr": "Macy's과 유사한 고객층을 두고 경쟁하는 Nordstrom의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Nordstrom is relevant to Macy's's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Nordstrom의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Nordstrom signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "Norwich Bulletin",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.27",
+              "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNeTg3QUtiWXRxRGZNdXM0R29Uc21CUHVYZ0VoUUM4QWg2YVhHeUt4bFZ3VGFaTFlFXy16a2xpUGh6NWFpREt1TnJjYXg4UUtNVUdxODRLeTlZVHZxY1pZdExlU0llQnh2VkxRcHByOHhsclBnWlpQTWtBN2xFQ18tai1kTFotWDVNZUlzTmI2SEJlajFLcWVVeE5OamVEdGM2dkJqdnBVcjlpRXNDdGJ0RklMbFl4OTB4dnJuX3UzeWRFMjBxZHB6R0Roc0hYVEJYMzRucENwdC1HaGpjRmxzYU95VE82WjItOUVzVXJYZw?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Nordstrom",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "12 Best Teen Clothing Brands, According to Teens Themselves - Teen Vogue",
+            "en": "12 Best Teen Clothing Brands, According to Teens Themselves - Teen Vogue"
+          },
+          "whyItMatters": {
+            "kr": "Macy's과 유사한 고객층을 두고 경쟁하는 Nordstrom의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Nordstrom is relevant to Macy's's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Nordstrom의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Nordstrom signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "Teen Vogue",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.26",
+              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNVJuU1g4RjNQMGJEZVZmcGNkcWRUOVZrSThORUJVWDRDNTJfSWVpdnUxUzZPR0cyc0thMFdiVXYtOF9COXNIUmd3dkJJNDVtZ1BGS2NtWDVhNV9YaGRBVHNGV0VzNWtFd3VzM2dEQzgxRUxaZnBFeWJ3VEoyYVpRSmNXc3dhUGp1bDV5bUtTbzc?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Nordstrom",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "Which major brands are already running early Labor Day sales - USA Today",
+            "en": "Which major brands are already running early Labor Day sales - USA Today"
+          },
+          "whyItMatters": {
+            "kr": "Macy's과 유사한 고객층을 두고 경쟁하는 Nordstrom의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Nordstrom is relevant to Macy's's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Nordstrom의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Nordstrom signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "USA Today",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.25",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVlkybDBLM19FMlJocFh2Y09SSHl2ZE9Udzgta3pFVnlMU25jdk5fQ19UOHZNUGp0WlBZZ3M4N0FYclpDN1gtQllldkE2OVRFeDFaUW15VmxLNG13SW5Od0Q2T0VMS1dHRGFVMWlhRWQ1eVBEMWxYNF9pbnp3THUtTDMxbmo1YVBhWEgyalBDUG8zRl95WTd2LUhwaFk?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "Ann Taylor",
+      "competitionLevel": "HIGH",
+      "keyTakeaway": {
+        "kr": "Banana Republic, Banana Republic, J.Crew 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for Banana Republic, Banana Republic, J.Crew. Review the implications by buyer using the cited sources."
+      },
+      "competitors": [
+        {
+          "name": "Banana Republic",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "Top summer sales going on now: adidas, medicube, SPANX and more - ABC News - Breaking News, Latest News and Videos",
+            "en": "Top summer sales going on now: adidas, medicube, SPANX and more - ABC News - Breaking News, Latest News and Videos"
+          },
+          "whyItMatters": {
+            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 Banana Republic의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Banana Republic is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Banana Republic의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Banana Republic signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "ABC News - Breaking News, Latest News and Videos",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.24",
+              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxeGwxdWZ2OUIxYkpGZm03U0N3SXFMS2VBU1hzTlk3LWI3REZ6QjBMQ0pjaHFDVGJtR3JrWDJ5Njg2Qk81STlDa29rUmdMX1NwNXprX0ZsTXFHMGRlaDBaUVQzMGw0Sk16MU5VYjV4UnJMS2pqYkVNZ21R?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Banana Republic",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "Gap Inc.'s Encore offers nearly 40 million active members Fashion Week access - Stock Titan",
+            "en": "Gap Inc.'s Encore offers nearly 40 million active members Fashion Week access - Stock Titan"
+          },
+          "whyItMatters": {
+            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 Banana Republic의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Banana Republic is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Banana Republic의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Banana Republic signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "Stock Titan",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.24",
+              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTjlkT3dKdkg3M1VpeUVzTjBEZURXeERCdEF5YWlxdGJHbEhoVEZzYzN4VDYtTl9Fako3M0R6c2VUVDl6NmpjdXVYSDBrQW04ZmEzTXA5SGNjM01yMmpUTkM4UG1HTGRsUWY2dmdhelVuRUUtYmZlSW9OZnVPeXNWakFCcTV4a3U1NktJSnFYV0hyRk55eGxlRDNJQm5fWWRCN1JIWFg4S1k2U2M1ZGJ0SlU4ZGhQNGdleWFza1JTcw?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "J.Crew",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "Top summer sales going on now: adidas, medicube, SPANX and more - ABC News - Breaking News, Latest News and Videos",
+            "en": "Top summer sales going on now: adidas, medicube, SPANX and more - ABC News - Breaking News, Latest News and Videos"
+          },
+          "whyItMatters": {
+            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 J.Crew의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by J.Crew is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "J.Crew의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this J.Crew signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "ABC News - Breaking News, Latest News and Videos",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.24",
+              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxeGwxdWZ2OUIxYkpGZm03U0N3SXFMS2VBU1hzTlk3LWI3REZ6QjBMQ0pjaHFDVGJtR3JrWDJ5Njg2Qk81STlDa29rUmdMX1NwNXprX0ZsTXFHMGRlaDBaUVQzMGw0Sk16MU5VYjV4UnJMS2pqYkVNZ21R?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "Talbot's",
+      "competitionLevel": "HIGH",
+      "keyTakeaway": {
+        "kr": "J.Jill, Lands' End, Lands' End 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for J.Jill, Lands' End, Lands' End. Review the implications by buyer using the cited sources."
+      },
+      "competitors": [
+        {
+          "name": "J.Jill",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "Asos reshuffles and Next poaches from Primark: this week’s fashion retail people moves - Drapers",
+            "en": "Asos reshuffles and Next poaches from Primark: this week’s fashion retail people moves - Drapers"
+          },
+          "whyItMatters": {
+            "kr": "Talbot's과 유사한 고객층을 두고 경쟁하는 J.Jill의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by J.Jill is relevant to Talbot's's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "J.Jill의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this J.Jill signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "Drapers",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.20",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUF5aElCUTlVQ3F6MVV5dGlTaXdPNW5KdlVCbVI4VWVXbVRpbFU1dEF5MUxKM09XYi1BOU53NmMzMXMxR1E4T1NRTThaOFpQWEpYbnJpWmlDYTloMkhTckd4TTlnZ09CY0pkanVzbnJKQUh4V3l1a09RSUMzRXhzQlF0d2p1N1FoNkczUDZOdjRGRjdIWVpLTE9yMGc2MXhNbWcxQ1dQbE9zTF9yNnc?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Lands' End",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "Top summer sales going on now: adidas, medicube, SPANX and more - ABC News - Breaking News, Latest News and Videos",
+            "en": "Top summer sales going on now: adidas, medicube, SPANX and more - ABC News - Breaking News, Latest News and Videos"
+          },
+          "whyItMatters": {
+            "kr": "Talbot's과 유사한 고객층을 두고 경쟁하는 Lands' End의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Lands' End is relevant to Talbot's's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Lands' End의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Lands' End signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "ABC News - Breaking News, Latest News and Videos",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.24",
+              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBxeGwxdWZ2OUIxYkpGZm03U0N3SXFMS2VBU1hzTlk3LWI3REZ6QjBMQ0pjaHFDVGJtR3JrWDJ5Njg2Qk81STlDa29rUmdMX1NwNXprX0ZsTXFHMGRlaDBaUVQzMGw0Sk16MU5VYjV4UnJMS2pqYkVNZ21R?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Lands' End",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "Which major brands are already running early Labor Day sales - AOL.com",
+            "en": "Which major brands are already running early Labor Day sales - AOL.com"
+          },
+          "whyItMatters": {
+            "kr": "Talbot's과 유사한 고객층을 두고 경쟁하는 Lands' End의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Lands' End is relevant to Talbot's's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Lands' End의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Lands' End signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "AOL.com",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.25",
+              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaVY0U3Ztc0JWem9Ea2dJSjlqSE82WGdLWXJZWlF3NHZFOE1aTWxaRFROLWt4aXhjYTdCMmNvb3lKdU5pUFlRdTJIUjhWYVFTTWVJUGVndDBvbmNRN3hzQUhILU5ZQjBCTDFpRmhsOFVHWkRpRmdQc2pCSHBPTWZfU0hhUUs?oc=5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
