@@ -2,47 +2,47 @@
   "source": "Weekly raw material report",
   "rawMaterials": {
     "usCotton": {
-      "price": 85.51,
-      "changePct": 1.67,
+      "price": 89.41,
+      "changePct": 4.57,
       "unit": "¢/lb",
-      "comment": "텍사스 고온 건조 및 달러화 약세로 상승세 지속"
+      "comment": ""
     },
     "chinaCotton": {
-      "price": 120.89,
-      "changePct": 0.27,
+      "price": 122.83,
+      "changePct": 1.6,
       "unit": "¢/lb",
-      "comment": "비축 면 경매 호조 및 신장지역 기후 악재로 강 보합세"
+      "comment": "중국 내 국가 비축 분 면화 경매가 장기간(25일 연속) 매진"
     },
     "indiaCotton": {
-      "price": 91.56,
-      "changePct": 0.23,
+      "price": 92.3,
+      "changePct": 0.8,
       "unit": "¢/lb",
-      "comment": "단기적 공급 악재와 제한적 수요에 강 보합세"
+      "comment": "평년 대비 15%가량 강우량이 부족할 것으로 전망되는 몬순(우기) 우려"
     },
     "psf": {
-      "price": 52.1,
-      "changePct": 2.87,
+      "price": 52.85,
+      "changePct": 1.44,
       "unit": "¢/lb",
-      "comment": "국제유가 상승에 따른 강세"
+      "comment": "면화 가격 급등에 따른 합성섬유 대체 수요유입"
     },
     "dty": {
-      "price": 64.75,
-      "changePct": 2.7,
+      "price": 66.68,
+      "changePct": 2.98,
       "unit": "¢/lb",
-      "comment": "국제유가 상승 및 선행 주문 유입"
+      "comment": "수요 증가 시 방적 공정을 거치며 상승폭이 커지는 특징"
     }
   },
   "yarn": {
-    "india": "특이사항 없음",
-    "china": "원재료 면화, PSF 상승세에 따른 강 보합세",
-    "korea": "특이사항 없이 보합세",
-    "cafta": "원면 가격 상승 반영 위한 호가 상승 중이나 수요 부족으로 보합세",
-    "vietnam": "특이사항 없이 보합세"
+    "india": "",
+    "china": "",
+    "korea": "",
+    "cafta": "",
+    "vietnam": ""
   },
   "summary": {
-    "cotton": "미국 면화는 작황 악화 우려와 투기세력 순매수 증가로 상승세를 이어갔으며, 중국 및 인도 면화도 강 보합세를 기록함.",
-    "polyester": "국제유가 상승과 선행 주문 유입으로 PSF와 DTY 모두 강세를 보임.",
-    "yarn": "중국 원사를 제외한 대부분 지역은 수요 부진 등으로 보합세를 유지함."
+    "cotton": "미국, 중국, 인도 등 주요국 면화 가격이 비축면 매진 및 몬순 우려 등으로 일제히 상승함.",
+    "polyester": "면화 가격 급등에 따른 합성섬유 대체 수요 유입 및 방적 공정 특성으로 PSF와 DTY 모두 상승세 기록.",
+    "yarn": ""
   },
-  "updatedAt": "2026-08-21T06:15:15.351Z"
+  "updatedAt": "2026-08-28T03:01:05.014Z"
 }
