@@ -1,80 +1,81 @@
 {
   "ok": true,
-  "asOf": "2026-08-27T23:01:15.160Z",
+  "asOf": "2026-08-28T03:01:33.602Z",
   "generatedDateKST": "2026-08-28",
   "schedule": "Mon-Fri 08:00 KST",
-  "refreshStatus": "VERIFIED",
+  "refreshStatus": "RULE_FALLBACK",
   "stale": false,
-  "provider": "Google Gemini",
-  "model": "gemini-3.5-flash-lite",
+  "provider": "Rule Fallback",
+  "model": null,
   "usesCompetitorIntelligence": true,
   "competitorDateKST": "2026-08-28",
+  "fallbackReason": "Expected ',' or ']' after array element in JSON at position 2490 (line 1 column 2491)",
   "insight": {
     "headline": {
-      "kr": "8담당 데일리 마켓 브리프: Abercrombie & Fitch 실적 호조 및 관세 환급 주가 급등, 주요 백화점 Holiday·가을 시즌 준비 가속화",
-      "en": "Team 8 Daily Market Brief: Abercrombie & Fitch surges on earnings beat & tariff refunds, major department stores accelerate holiday & fall preparations"
+      "kr": "Kohl's, Q2 Sephora sales 4% 하락… Partnership 성과 우려 제기",
+      "en": "Kohl's reports Sephora sales down 4% raising red flag for partnership"
     },
     "summary": {
-      "kr": "2026년 8월 28일 기준 주요 백화점 및 어패럴 벤더 동향입니다. Abercrombie & Fitch는 관세 환급 및 Q2 실적 호조로 주가가 36% 급등하였으며, Kohl's는 Sephora 매출 감소 속에서도 Holiday 실행력과 홈 어소트먼트 확장에 주력하고 있습니다. Macy's는 창립 100주년 마케팅과 크리에이티브 임원 영입으로 반등을 모색 중이며, 원/달러 환율은 1,380.96원으로 소폭 하락, 면화 가격은 상승세를 보이고 있습니다.",
-      "en": "Key department store and apparel vendor updates for August 28, 2026. Abercrombie & Fitch shares surged 36% following a Q2 earnings beat driven by tariff refunds, while Kohl's focuses on holiday execution and home category expansion despite a 4% drop in Sephora sales. Macy's is driving momentum through 100th-anniversary marketing and new creative leadership. USD/KRW edged down to 1,380.96 while cotton prices trended upward."
+      "kr": "오늘 Buyer News와 Competitor Intelligence를 기준으로 Kohl's, A&F/Hollister, Macy's의 주요 변화와 경쟁사 움직임을 함께 점검했습니다. Team 8은 상품, pricing, promotion 및 sourcing 관점에서 실제 제안으로 연결 가능한 signal을 우선 확인할 필요가 있습니다.",
+      "en": "Today's brief combines buyer news and competitor intelligence across Kohl's, A&F/Hollister and Macy's. Team 8 should prioritize actionable signals in product, pricing, promotion and sourcing."
     },
     "tags": [
-      "#Team8Daily",
-      "#ApparelVendor",
-      "#RetailNews",
-      "#MarketBrief"
+      "#BuyerNews",
+      "#Competitor",
+      "#Team8",
+      "#DailyBrief"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "Q2 Sephora 매출이 4% 하락하며 Partnership 성과에 우려가 제기되었으나, Martha Stewart 및 Bobby Flay 등 홈 category 강화와 DoorDash 협력을 통한 백스쿨 배송 편의성 제고로 수익성 방어 및 Holiday 준비에 역량을 집중하고 있습니다.",
-        "en": "Kohl's reported a 4% drop in Sephora sales raising partnership concerns, but is heavily focusing on margin defense and holiday execution by expanding home assortments with Martha Stewart and Bobby Flay, alongside enhanced Back-to-School fulfillment via DoorDash."
+        "kr": "월마트와 타겟이 각각 공격적인 신규 브랜드 론칭과 가을 시즌 마케팅을 강화하며 콜스(Kohl's)의 시장 점유율을 압박하고 있습니다.",
+        "en": "Walmart and Target are intensifying competition for Kohl's by aggressively launching new budget brands and rolling out early fall season marketing."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "Q2 실적이 예상치를 상회하고 관세 환급 효과가 반영되면서 주가가 36% 급등했습니다. Hollister는 Target과의 제휴를 통해 의류 외 category로 신규 고객층을 성공적으로 확대하고 있습니다.",
-        "en": "Abercrombie & Fitch shares jumped 36% on a Q2 earnings beat powered by tariff refunds and strong momentum. Hollister continues to capture new demographics beyond traditional apparel through its strategic Target partnership."
+        "kr": "어반 아웃피터스와 프리 피플 등 주요 경쟁사들이 강력한 실적 성장세를 보이며 틴/영어패럴 시장에서의 우위를 다지고 있습니다.",
+        "en": "Key competitors like Urban Outfitters and Free People are posting strong growth, solidifying their dominance in the teen and young adult apparel market."
       },
       {
         "buyer": "Macy's",
-        "kr": "Thanksgiving Day Parade 100주년을 기념하는 역사적 바시티 재킷 등 기념 상품을 공개하고 Maya Dukes를 수석 부사장(SVP of Creative and Production)으로 임영해 크리에이티브 역량을 강화하고 있습니다.",
-        "en": "Macy's unveiled 100th-anniversary commemorative keepsakes for its Thanksgiving Day Parade and appointed Maya Dukes as Senior VP of Creative and Production to elevate private brand design and in-store presentation."
+        "kr": "노드스트롬과 JC페니 등이 백스쿨(Back-to-School) 및 가을 시즌 promotion과 매장 확장을 통해 메이시스의 고객 유치를 압박하고 있습니다.",
+        "en": "Nordstrom and JCPenney are stepping up pressure on Macy's through back-to-school promotions, fall arrivals, and store expansion."
       }
     ],
     "opportunities": [
       {
-        "kr": "Kohl's의 홈 category 확장 및 Holiday 실행력 강화 기조에 맞춰 당사 홈 및 어패럴 제품군의 margin 구조 최적화 및 조기 제안 추진",
-        "en": "Align with Kohl's focus on home category expansion and holiday execution by optimizing margin structures and pitching early seasonal product proposals."
+        "kr": "Kohl's 역시 주력 데님 및 가을철 필수 아이템을 강조하는 얼리버드 마케팅과 promotion을 즉각 대항해 실행해야 함.",
+        "en": "Kohl's must immediately counter with aggressive early-bird promotions highlighting key denim and fall essentials."
       },
       {
-        "kr": "A&F/Hollister의 가파른 성장세와 Target 채널 확장 기조에 발맞춰 영고객층 타겟 아이템의 lead time 단축 및 reorder 대응력 강화",
-        "en": "Leverage A&F and Hollister's robust growth and multi-channel expansion by tightening lead times and bolstering reorder agility for youth-oriented items."
+        "kr": "A&F는 홀리스터 및 브랜드별 차별화된 마케팅과 Collaboration 라인업을 통해 젊은 층의 호응을 유도해야 함.",
+        "en": "A&F must leverage differentiated marketing and collaboration lineups across Hollister to maintain youth engagement."
       },
       {
-        "kr": "Macy's의 크리에이티브 리더십 교체 및 100주년 기념 마케팅에 발맞춘 독점 소구형 디자인 및 promotion 상품 제안",
-        "en": "Capitalize on Macy's new creative leadership and anniversary marketing by offering exclusive, trend-forward design concepts and promotional merchandise edits."
+        "kr": "메이시스 역시 가을 시즌 필수 패션 아이템을 내세운 큐레이션 기획전을 시급히 강화해야 함.",
+        "en": "Macy's must urgently step up its curated fashion edits centered on autumn essentials."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "Kohl's의 Sephora 매출 둔화 등 Partnership 실적 부진 요인이 offline traffic 및 벤더 오더 물량에 미치는 영향을 주시해야 합니다.",
-      "en": "Need to monitor potential downstream impacts of Kohl's softer Sephora sales on in-store traffic and vendor order volumes."
+      "kr": "일부 signal은 빠르게 변할 수 있으므로 source 원문 및 buyer 반응을 함께 확인해야 합니다.",
+      "en": "Some signals can change quickly, so validate source articles and buyer reactions before decisions."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Kohl's의 Holiday 시즌 execution에 대응하여 주요 category 재고 회전율 및 margin 시뮬레이션 점검",
-        "en": "Review inventory turn metrics and margin simulations for Kohl's to support their year-end holiday execution."
+        "kr": "오늘자 Buyer News와 competitor source 중 영업 제안으로 연결 가능한 1~2개 signal을 팀별로 선정합니다.",
+        "en": "Select 1-2 actionable buyer/competitor signals for each sales team."
       },
       {
         "owner": "Team 8",
-        "kr": "A&F 및 Hollister의 가파른 실적 상승세와 경쟁사(URBN 등) 동향을 반영한 벤더 차원의 차별화된 영패럴 디자인 제안서 준비",
-        "en": "Prepare differentiated youth apparel design proposals reflecting A&F/Hollister's momentum and competitor (URBN) signals."
+        "kr": "가격, product, promotion 관점에서 buyer별 차별화 제안 가능성을 검토합니다.",
+        "en": "Review differentiated proposals by buyer across pricing, product and promotion."
       },
       {
         "owner": "Team 8",
-        "kr": "Macy's 신임 크리에이티브 임원 체제 전환에 따른 바이어 소통 채널 강화 및 가을/겨울 환절기 상품 딜리버리 일정 재확인",
-        "en": "Strengthen buyer communication following Macy's creative leadership change and re-verify fall/winter transitional delivery schedules."
+        "kr": "중요 signal은 다음 개발 및 costing 논의에 반영할 수 있도록 source와 함께 공유합니다.",
+        "en": "Share important signals with sources for upcoming development and costing discussions."
       }
     ]
   }
