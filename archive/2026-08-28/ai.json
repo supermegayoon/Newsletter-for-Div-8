@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "asOf": "2026-08-28T03:01:33.602Z",
+  "generatedDateKST": "2026-08-28",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "RULE_FALLBACK",
+  "stale": false,
+  "provider": "Rule Fallback",
+  "model": null,
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-08-28",
+  "fallbackReason": "Expected ',' or ']' after array element in JSON at position 2490 (line 1 column 2491)",
+  "insight": {
+    "headline": {
+      "kr": "Kohl's, Q2 Sephora sales 4% 하락… Partnership 성과 우려 제기",
+      "en": "Kohl's reports Sephora sales down 4% raising red flag for partnership"
+    },
+    "summary": {
+      "kr": "오늘 Buyer News와 Competitor Intelligence를 기준으로 Kohl's, A&F/Hollister, Macy's의 주요 변화와 경쟁사 움직임을 함께 점검했습니다. Team 8은 상품, pricing, promotion 및 sourcing 관점에서 실제 제안으로 연결 가능한 signal을 우선 확인할 필요가 있습니다.",
+      "en": "Today's brief combines buyer news and competitor intelligence across Kohl's, A&F/Hollister and Macy's. Team 8 should prioritize actionable signals in product, pricing, promotion and sourcing."
+    },
+    "tags": [
+      "#BuyerNews",
+      "#Competitor",
+      "#Team8",
+      "#DailyBrief"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "월마트와 타겟이 각각 공격적인 신규 브랜드 론칭과 가을 시즌 마케팅을 강화하며 콜스(Kohl's)의 시장 점유율을 압박하고 있습니다.",
+        "en": "Walmart and Target are intensifying competition for Kohl's by aggressively launching new budget brands and rolling out early fall season marketing."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "어반 아웃피터스와 프리 피플 등 주요 경쟁사들이 강력한 실적 성장세를 보이며 틴/영어패럴 시장에서의 우위를 다지고 있습니다.",
+        "en": "Key competitors like Urban Outfitters and Free People are posting strong growth, solidifying their dominance in the teen and young adult apparel market."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "노드스트롬과 JC페니 등이 백스쿨(Back-to-School) 및 가을 시즌 promotion과 매장 확장을 통해 메이시스의 고객 유치를 압박하고 있습니다.",
+        "en": "Nordstrom and JCPenney are stepping up pressure on Macy's through back-to-school promotions, fall arrivals, and store expansion."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "Kohl's 역시 주력 데님 및 가을철 필수 아이템을 강조하는 얼리버드 마케팅과 promotion을 즉각 대항해 실행해야 함.",
+        "en": "Kohl's must immediately counter with aggressive early-bird promotions highlighting key denim and fall essentials."
+      },
+      {
+        "kr": "A&F는 홀리스터 및 브랜드별 차별화된 마케팅과 Collaboration 라인업을 통해 젊은 층의 호응을 유도해야 함.",
+        "en": "A&F must leverage differentiated marketing and collaboration lineups across Hollister to maintain youth engagement."
+      },
+      {
+        "kr": "메이시스 역시 가을 시즌 필수 패션 아이템을 내세운 큐레이션 기획전을 시급히 강화해야 함.",
+        "en": "Macy's must urgently step up its curated fashion edits centered on autumn essentials."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "일부 signal은 빠르게 변할 수 있으므로 source 원문 및 buyer 반응을 함께 확인해야 합니다.",
+      "en": "Some signals can change quickly, so validate source articles and buyer reactions before decisions."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "오늘자 Buyer News와 competitor source 중 영업 제안으로 연결 가능한 1~2개 signal을 팀별로 선정합니다.",
+        "en": "Select 1-2 actionable buyer/competitor signals for each sales team."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "가격, product, promotion 관점에서 buyer별 차별화 제안 가능성을 검토합니다.",
+        "en": "Review differentiated proposals by buyer across pricing, product and promotion."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "중요 signal은 다음 개발 및 costing 논의에 반영할 수 있도록 source와 함께 공유합니다.",
+        "en": "Share important signals with sources for upcoming development and costing discussions."
+      }
+    ]
+  }
+}
