@@ -1,0 +1,100 @@
+{
+  "ok": true,
+  "asOf": "2026-08-30T23:00:31.840Z",
+  "generatedDateKST": "2026-08-31",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 2,
+    "within7d": 6,
+    "total": 6,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Collaboration / Holiday",
+      "category_en": "Collaboration",
+      "date": "2026.08.26",
+      "title_kr": "Macy's, Thanksgiving Day Parade 100주년 기념 exclusive Disney Capsule Collection 확장 공개",
+      "title_en": "The Disney x Macy's Holiday Capsule Expands With Whimsical Takes on Diamond Necklaces, Sweatshirts, Crossbodies, and More",
+      "body_kr": "Macy's가 Thanksgiving Day Parade 100주년을 맞아 sweatshirt, crossbody 백 등 exclusive Disney Holiday merchandise를 대거 확장합니다. 주요 Holiday season을 겨냥한 캐릭터 IP Collaboration 상품 기획 시 벤치마킹할 수 있는 대표적인 성공 사례입니다.",
+      "body_en": "Macy's is expanding its exclusive Disney Holiday merchandise lineup featuring sweatshirts and crossbodies for the Thanksgiving Day Parade 100th anniversary. This serves as a key benchmark for holiday season character IP collaborations.",
+      "source": "Yahoo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNR0dFcVVWODBDQ2Z4SEdWSXZ6TDJDM0Zzdk14dVFoa3QteG9XUHlWUjh1dFRMdzJ3aVhhRnd1cFQzNVNHa3plZm5OSzRpa0dBNkI4MVhFYjFsak5LTUlnV29RNDVldnE0NTllby04X09VTnM5X1JWZDJfenM4MUdQS1liNmpxdTVXUVg3RlpFYWoxLTB6M3AyZEtpMXFiVUE?oc=5",
+      "ageHours": 98.85
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Earnings / Wholesale",
+      "category_en": "Earnings",
+      "date": "2026.08.27",
+      "title_kr": "Abercrombie & Fitch, Q2 earnings beat 및 Tariff refunds 호조로 주가 36% 급등",
+      "title_en": "Abercrombie's Shares Rise 36% on Q2 Earnings Beat on Tariff Refunds",
+      "body_kr": "Abercrombie & Fitch가 관세 환급과 균형 잡힌 채널 Expansion에 힘입어 강력한 Q2 earnings beat를 기록하며 주가가 급등했습니다. 탄탄한 sell-through를 바탕으로 한 실적 개선세가 wholesale 및 retail channel 전반의 긍정적인 신호로 작용하고 있습니다.",
+      "body_en": "Abercrombie & Fitch posted a strong Q2 earnings beat driven by tariff refunds and balanced channel expansion, sending shares soaring. This solid sell-through performance signals positive momentum across wholesale and retail channels.",
+      "source": "TradingView",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTU00RVdLVnpKdmZFSnY4djR3MXlaNVkxMllQX1ZSUTVudTVqWmNyWTlpQUFLTERlZ0FXR3JFdV90a1JWbm13Q0hmNVdUdzl6Y0tPVzc4Y2VpdWgtUWVjUDM1YU1HeGpEY0l6NUVBMzhsWlVPT2ktWVVma19GNVh0WHQtcm5ON3lxVV9qUzc1WHpCVzVveU9ZTUtIZlN3dDVJd2dUWU4wSzd5WFZtbEg1bnZjWGVsU1dUbmZOTmZ0MA?oc=5",
+      "ageHours": 76.41
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Partnership / Performance",
+      "category_en": "Partnership",
+      "date": "2026.08.27",
+      "title_kr": "Kohl's, Sephora partnership 매출 4% 하락 기록하며 Holiday execution 전략 수정 시급",
+      "title_en": "Kohl's reports Sephora sales down 4% raising red flag for partnership",
+      "body_kr": "Kohl's의 핵심 성장 동력이었던 Sephora partnership 매출이 4% 하락하며 실적 경고등이 켜졌습니다. Q2 earnings beat 이후 성공적인 Holiday season execution과 margin 방어가 향후턴어라운드의 핵심 과제로 부각되었습니다.",
+      "body_en": "Kohl's key growth driver, the Sephora partnership, reported a 4% sales drop, raising red flags. Following its Q2 earnings beat, successful holiday season execution and margin defense have emerged as critical turnaround priorities.",
+      "source": "Milwaukee Journal Sentinel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOGdySGRZYjdITEQzT3JIb0hSd1NKa3cwNmZxMDY0bWxBZk9YcG16TkVOUUZiWHpDaWJhSE9CclJJMm1PRXJHYkpwZlVzSEd2Szk0OHphYVdVM0k1QkdyZWU2d3FGSFdzdVBDeXA0NlU0VHdpSnktSEgyZl9mZWdtcEtPNHhUVDlFT1hmWU9qZnJMUV9neDQ0bmF5elAyM0ZCbWdYV3NFRkluUlV4QUpRWU1B?oc=5",
+      "ageHours": 71.09
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Leadership / Creative",
+      "category_en": "Personnel",
+      "date": "2026.08.27",
+      "title_kr": "Macy's, Maya Dukes를 Senior VP 겸 Creative & Production 총괄로 임명",
+      "title_en": "US' Macy's appoints Maya Dukes as Senior VP & creative director",
+      "body_kr": "Macy's가 Maya Dukes를 Senior Vice President 겸 Creative and Production 총괄로 영입하며 브랜드 크리에이티브 강화에 나섰습니다. 다가오는 Holiday season merchandise 기획과 마각을 드러낼 마케팅 전략에 변화가 예상됩니다.",
+      "body_en": "Macy's has appointed Maya Dukes as Senior Vice President of Creative and Production to strengthen brand creative direction. This leadership change is expected to influence upcoming holiday season merchandise planning and marketing strategies.",
+      "source": "Fibre2Fashion",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQnlBZlVrQTRnYi1DWDlCVEhCZGcyNGVYWUtVOHRrVTkxaGljZW1JWmhJRU83bzZVODdONXBseUhXS3FzWkhrbmkwbjRFaWdMVG5tNXJtd3J2NlN0N2pJbFJLUTlvZUs2Wk4tejVDUG1EdkNQcllSMG5JaXdnUnB3b3I3NTlTWWNNTV9IMWtfMzd6ZW44ZjF0YVQ5U3RFTHQ1elM5Z3I3MklyZEV5d2ptU0ZQdHJ0bTZuY1B2R0hOLTcwRENFMzlZWGFuY3lERXhIbTlZ?oc=5",
+      "ageHours": 84.16
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Channel / Delivery",
+      "category_en": "Wholesale",
+      "date": "2026.08.30",
+      "title_kr": "Kohl's, Back-to-School 시즌 맞아 DoorDash delivery Partnership 확대",
+      "title_en": "Forgot something for school? DoorDash adds Gap, Barnes & Noble, Carter’s and Kohl’s",
+      "body_kr": "Kohl's가 Back-to-school 시즌 수요를 잡기 위해 DoorDash delivery 채널 라인업에 공식 합류했습니다. E-commerce 및 offline store 연계 배송 강화를 통해 시즌 sell-through 극대화를 도모하고 있습니다.",
+      "body_en": "Kohl's has joined DoorDash's delivery lineup to capture peak back-to-school season demand. This move enhances e-commerce and offline store fulfillment integration to maximize seasonal sell-through.",
+      "source": "News12 | New Jersey",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT0g3RUE2QVU5MzRnNm1mS0xiWUxXTlBYX3BpV1ZRUy1YQW9YV2tLVno0V0NEeE5MdUZOcnE2VGJaUUZCZFpBbnRJODByUUlYMGRZLWVkVmhFcGUwZmx1dWRYYVNfZmotdFBxNzdhbjJraW1TbTZkcGZpXzJaM2FHdXF5VUtYanpZYVN1WEx6T3VuQzc4OVU1LWQ3X2pKbF8zTmVFUWFZZThOSDhuT2pqd2VERFhYdDU0Yjg1a05HdDBwNk9zcEpIUE5UUlY4dlFIQlo4Zg?oc=5",
+      "ageHours": 7.53
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Channel / Expansion",
+      "category_en": "Wholesale",
+      "date": "2026.08.27",
+      "title_kr": "Hollister, Target을 통한 신규 고객 확보로 apparel category 외연 확장",
+      "title_en": "Hollister is acquiring new customers through Target as it looks beyond apparel",
+      "body_kr": "Hollister가 Target 채널과의 Partnership을 통해 신규 고객층을 성공적으로 유입하며 category 확장에 속도를 내고 있습니다. 전통적인 retail store 중심 구조에서 벗어나 wholesale channel 다변화를 추진하는 모범 사례입니다.",
+      "body_en": "Hollister is successfully acquiring new customer demographics and expanding its categories through a partnership with Target. This represents a prime example of diversifying beyond traditional retail stores into wholesale channels.",
+      "source": "glossy.co",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTFNvOWI0U3VlbG9YR1NFa0JwTVBEcGgyQ3hnM0Z2NnZGOThkVTZkUGRFdkhpVzNzUE1PZzdhaVBnUTFkM2lWM3VRWFJhM3MyTldDRXBGUEMwYlJpYlp3MWg4TkpNRzRGSEZSNmRhclpOYWJEaXZVNUluY21GLUdnZ01R?oc=5",
+      "ageHours": 85.2
+    }
+  ]
+}
