@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "asOf": "2026-08-30T23:01:01.192Z",
+  "generatedDateKST": "2026-08-31",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-08-31",
+  "insight": {
+    "headline": {
+      "kr": "2026년 8월 31일 8담당 데일리 마켓 브리프: A&F 실적 호조 및 노동절 시즌 promotion 총력",
+      "en": "Aug 31, 2026 Team 8 Daily Market Brief: A&F Earnings Surge & Labor Day Promotional Push"
+    },
+    "summary": {
+      "kr": "Abercrombie & Fitch가 관세 환급과 채널 확장으로 Q2 호실적을 기록하며 주가가 36% 급등했습니다. 반면 Kohl's는 세포라 Partnership 매출 하락으로 Holiday 전략 수정이 시급하며, Macy's는 디즈니 협업 및 크리에이티브 임원 영입으로 연말 시즌에 대비하고 있습니다. 노동절(Labor Day) 및 가을 시즌을 맞아 경쟁사들의 공격적인 promotion에 대응한 조기 마케팅 집행이 필수적입니다.",
+      "en": "Abercrombie & Fitch surged 36% on a Q2 earnings beat driven by tariff refunds and channel expansion. Meanwhile, Kohl's faces a red flag with a 4% drop in Sephora sales, requiring urgent holiday execution updates, while Macy's bolsters its year-end strategy with a Disney collaboration and new creative leadership. With Labor Day and early fall underway, rapid marketing alignment against aggressive competitor promotions is essential."
+    },
+    "tags": [
+      "#Team8Brief",
+      "#ApparelMarket",
+      "#Abercrombie",
+      "#KohlsSephora",
+      "#LaborDaySales"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "세포라 Partnership 매출이 4% 하락하며 경고등이 켜졌으나, 백투스쿨 시즌을 맞아 도어닷시(DoorDash) 배송 Partnership을 확대하며 옴니채널 강화에 주력하고 있습니다. 경쟁사 Walmart와 Target의 공격적인 PB 론칭 및 노동절 promotion에 대응해 조기 마크다운과 차별화된 쿠폰 전략이 시급합니다.",
+        "en": "Sephora partnership sales fell 4%, raising red flags, though Kohl's is expanding its DoorDash delivery partnership to capture back-to-school demand. To counter aggressive private label launches and Labor Day promos by Walmart and Target, early markdowns and differentiated coupon strategies are urgently needed."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "관세 환급과 Target 등 도매 채널 확장에 힘입어 Q2 어닝 서프라이즈를 달성하며 강력한 상승세를 보이고 있습니다. URBN 및 프리피플 등 경쟁사의 가파른 성장에 맞서, 트렌드 중심의 상품 마케팅과 독창적인 스타일링 제안을 더욱 강화해야 할 시점입니다.",
+        "en": "A&F achieved a strong Q2 earnings beat fueled by tariff refunds and wholesale channel expansion into Target. Facing rapid growth from peers like URBN and Free People, the team must amplify trend-focused product marketing and unique styling propositions."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "추수감사절 Parade 100주년 기념 디즈니 Collaboration 캡슐을 확장하고 마야 듀크스를 크리에이티브 총괄로 임명하며 Holiday 시즌에 대비하고 있습니다. 노드스트롬과 제이씨페니의 조기 가을 시즌 할인 공세에 맞춰 차별화된 리프레시 마케팅과 가을 신상품 promotion을 조기 전개해야 합니다.",
+        "en": "Macy's is preparing for the holiday season by expanding its Disney collaboration capsule for the Thanksgiving Parade 100th anniversary and appointing Maya Dukes as creative chief. To counter early fall sales pushes by Nordstrom and JCPenney, differentiated refresh marketing and early fall promotional executions are required."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "Target과 도어닷시 등 온offline 옴니채널 및 wholesale Partnership 확장에 발맞춘 전용 상품 기획 및 신속한 공급망 대응",
+        "en": "Align product planning and swift supply chain execution with expanding omnichannel and wholesale partnerships like Target and DoorDash"
+      },
+      {
+        "kr": "Macy's의 디즈니 캡슐 성공 사례를 벤치마킹하여 Holiday 시즌 캐릭터 IP 및 이색 Collaboration 라인업 선제 제안",
+        "en": "Proactively propose holiday season character IP and unique collaboration lineups by benchmarking Macy's Disney capsule success"
+      },
+      {
+        "kr": "경쟁사들의 노동절 얼리버드 promotion 공세에 대응해 가을 아우터 및 핵심 간절기 상품군의 매력적인 할인 구조 마련",
+        "en": "Establish attractive discount structures for fall outerwear and transitional core lines to counter competitor Labor Day early bird promos"
+      }
+    ],
+    "risk": {
+      "level": "HIGH",
+      "kr": "Kohl's의 세포라 Partnership 매출 둔화와 대형 유통사들의 공격적인 가을·노동절 promotion 공세가 margin 압박 및 traffic 분산을 가중시키고 있습니다.",
+      "en": "Kohl's slowing Sephora partnership sales and aggressive fall/Labor Day promotions by major mass retailers are increasing margin pressure and traffic dilution."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Kohl's의 도어닷시 입점 및 세포라 부진 대응을 위한 옴니채널 전용 promotion 및 가을 물동량 점검",
+        "en": "Review omnichannel exclusive promos and fall shipping volumes to support Kohl's DoorDash rollout and address Sephora sluggishness"
+      },
+      {
+        "owner": "Team 8",
+        "kr": "A&F 및 홀retail의 Target wholesale 확장세에 연동된 신규 스타일 및 딜리버리 일정 타이트하게 관리",
+        "en": "Tighten schedule management for new styles and deliveries aligned with A&F and Hollister's Target wholesale expansion"
+      },
+      {
+        "owner": "Team 8",
+        "kr": "Macy's Holiday 디즈니 콜라보 및 마야 듀크스 체제에 맞춘 연말 시즌 캐릭터/컨템포러리 아이템 제안서 준비",
+        "en": "Prepare year-end character and contemporary item proposals tailored to Macy's holiday Disney collab and Maya Dukes creative regime"
+      }
+    ]
+  }
+}
