@@ -1,0 +1,420 @@
+{
+  "ok": true,
+  "generatedDateKST": "2026-08-31",
+  "asOf": "2026-08-30T23:00:54.343Z",
+  "schedule": "Mon-Fri 08:00 KST",
+  "windowDays": 7,
+  "analysisMode": "GEMINI",
+  "buyers": [
+    {
+      "buyer": "Kohl's",
+      "competitionLevel": "HIGH",
+      "keyTakeaway": {
+        "kr": "타겟의 플레이북을 벤치마킹한 월마트의 신제품 라인 확장과 노동절 얼리 버드 프로모션이 경쟁 압박을 가중시키고 있습니다.",
+        "en": "Walmart expanding product lines borrowing from Target's playbook and early Labor Day promotions heighten competitive pressure."
+      },
+      "competitors": [
+        {
+          "name": "Target",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "107개 이상의 조기 노동절 할인 행사 및 프로모션을 전개함.",
+            "en": "Rolled out over 107 early Labor Day deals and promotions."
+          },
+          "whyItMatters": {
+            "kr": "추석 및 가을 시즌 전환기 소비자를 선점하기 위한 경쟁사들의 공격적인 프로모션이 트래픽을 분산시킵니다.",
+            "en": "Aggressive promotional pushes by competitors aiming to capture early fall shoppers dilute traffic."
+          },
+          "action": {
+            "kr": "핵심 카테고리에 대한 조기 할인 및 차별화된 쿠폰 마케팅을 강화해야 합니다.",
+            "en": "Strengthen early markdowns and differentiated coupon marketing for key categories."
+          },
+          "sources": [
+            {
+              "source": "NBC News",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.28",
+              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRWhISE1tc2hEZzk5ZDVTMFBPYm44dHkzR0FOZ3c3bnJyUTFsb1dxMG1qRUY3SW96akk1VmthQ04tcnpmY3ZRNlhHRWRGUk9yYkcyd20tSDJrbzN1ZjZzeERjM1NpQlBackpzSlRESVJmVmFNTkN1MHdBaUZzZnhMd1J5dHc1bWctU3c?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Target",
+          "signal": "STORE",
+          "move": {
+            "kr": "비주얼 머천다이저(VM)를 활용해 소셜 미디어 친화적인 오프라인 매장 공간을 구축함.",
+            "en": "Elevated offline stores with visual merchandisers optimized for social media."
+          },
+          "whyItMatters": {
+            "kr": "오프라인 매장의 경험적 가치와 바이럴 효과가 매장 방문객 유치에 직접적인 영향을 미칩니다.",
+            "en": "Experiential value and viral potential of offline stores directly impact in-store customer acquisition."
+          },
+          "action": {
+            "kr": "오프라인 매장 내 포토존 및 인스타그래머블한 공간 연출 방안을 검토해야 합니다.",
+            "en": "Explore implementing photo-friendly and Instagrammable display zones within brick-and-mortar stores."
+          },
+          "sources": [
+            {
+              "source": "조선일보",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.29",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLTlpVXdYaEcza2pGdjNsWF9OTVdVS01RVzYtUnpHUVlYRFNPYXVWZ3NxRUVVZTRwX08wZ0VHQm5Hc1A3U19scFV4a3haaXJSY2drNUN1WHpyZVJHVkZuN0xFWGtXZVVXM3U3VkUyM1JMTy1NQ3BTNUd4WlV0dkQzQ0Nncmt3Y084?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Walmart",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "타겟의 상품 기획 전략을 차용한 새로운 패션 및 제품 라인 '시나리오(Scenario)'를 론칭함.",
+            "en": "Launched a new apparel own brand named 'Scenario', borrowing from Target's playbook."
+          },
+          "whyItMatters": {
+            "kr": "가성비 패션 수요를 타겟으로 한 대형 유통사의 자체 브랜드(PB) 강화는 시장 점유율에 위협이 됩니다.",
+            "en": "Mass retailers strengthening private labels targeting value-conscious fashion shoppers threatens market share."
+          },
+          "action": {
+            "kr": "자사 PB 상품의 가성비 및 디자인 경쟁력을 재점검하고 프로모션을 연계해야 합니다.",
+            "en": "Re-evaluate the value and design competitiveness of private label offerings and align promotions."
+          },
+          "sources": [
+            {
+              "source": "Store Brands",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.27",
+              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1oUXJtaUdfRFFMdVdyZkZxR1VoWDU5Vjl6c2ljREdoeXpiRWRTdjNjeVZHTGxFVHYzZTQ3aEVaN1V0N01oS3RodTk3UFZiYnJpR2lndjl5UFEwdG1CSTZBQ3U5T1ZSWVBvajB1THI2UDhuZll2NVE?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "A&F / Hollister",
+      "competitionLevel": "HIGH",
+      "keyTakeaway": {
+        "kr": "어번아웃피터스의 호실적과 누룰리(Nuuly) 구독 서비스의 급성장, 프리피플의 트렌드 주도가 십대 및 영유저 시장에서 경쟁을 심화시킵니다.",
+        "en": "Urban Outfitters' record sales fueled by Nuuly and Free People's style-focused growth intensify competition in the teen/young adult market."
+      },
+      "competitors": [
+        {
+          "name": "Urban Outfitters",
+          "signal": "FINANCIAL",
+          "move": {
+            "kr": "어번아웃피터스(URBN)의 2분기 매출이 10% 증가하여 역대 최고인 16억 6천만 달러를 기록함.",
+            "en": "URBN reported a 10% rise in Q2 sales to a record $1.66 billion."
+          },
+          "whyItMatters": {
+            "kr": "매크로 불확실성 속에서도 스타일과 패션을 우선시하는 소비층을 사로잡으며 강력한 재무적 성장을 입증했습니다.",
+            "en": "Demonstrates robust financial growth by capturing consumers prioritizing style over price amidst macro uncertainty."
+          },
+          "action": {
+            "kr": "트렌드에 부합하는 신상품 마케팅을 강화하고 독창적인 스타일링 제안을 확대해야 합니다.",
+            "en": "Amp up trend-focused product marketing and expand unique styling propositions."
+          },
+          "sources": [
+            {
+              "source": "Pulse 2.0",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.28",
+              "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdGVBbG9EMEloMTBnX1R5X0hTUk1teXUxYXBxNFBMcjY2SkhvRm9TRENOZVZ0MW83MFk3SkdtZFFMNGdyRjNHSVdrLVAxX3k4SnlEaFYybWVIckowRG5EUzl0YnhnU0huLS1vNGZGem5lWXhxT1FyQS1CMThiTUhzMW91V3hpQzJuSVB4VkZ1TV9mV2pKOVHSAZYBQVVfeXFMT3RlQWxvRDBJaDEwZ19UeV9IU1JNbXl1MWFwcTRQTHI2NkpIb0ZvU0RDTmVWdDFvNzBZN0pHbWRRTDRnckYzR0lXay1QMV95OEp5RGhWMm1lSHJKMERuRFM5dGJ4Z1NIbi0tbzRmRnpuZVl4cU9RckEtQjE4Yk1IczFvdVd4aUMybklQeFZGdU1fZldqSjlR?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Free People",
+          "signal": "CHANNEL",
+          "move": {
+            "kr": "렌탈 플랫폼인 누룰리(Nuuly)의 매출이 29% 급증하며 URBN 전체의 성장을 견인함.",
+            "en": "Nuuly revenue jumped 29%, driving overall URBN growth alongside Free People."
+          },
+          "whyItMatters": {
+            "kr": "체험형 구독 모델이 의류 소비의 새로운 대안으로 자리 잡으며 고객 락인 효과를 높이고 있습니다.",
+            "en": "Experiential subscription models are establishing themselves as alternative consumption, boosting customer lock-in."
+          },
+          "action": {
+            "kr": "순환 패션 및 렌탈/구독 서비스 모델 도입의 타당성을 다각도로 검토해야 합니다.",
+            "en": "Multi-dimensionally review the feasibility of introducing circular fashion and rental/subscription models."
+          },
+          "sources": [
+            {
+              "source": "FashionNetwork France",
+              "sourceTier": "INDUSTRY",
+              "date": "2026.08.27",
+              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNl84YUtoOWZxZDZ4aDdjWG1vQXRaSVBuTkhkSjNBTDY2Tjc5OFZFUFRvUUdsU0FpQndnaDVGMG1KQkJQamFINE00MndCdTdGVU5UMXRJaGV6SXdtcFpybl9RSHRmZ0p2eGF3X1ZOcEx3V2xJdGZ4dGFsbEZUM09ZcmlzYXdEYTZEdlZha1ZmeWNtc0ZQX0xJR09BeWZZWDROU1JkekdFTVFyU0NNR1ZNRDRHcFdCVWRRa25kb01hMA?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Anthropologie",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "매그놀리아 베이커리 등과의 이색적인 브랜드 협업(콜라보) 라인을 출시함.",
+            "en": "Introduced high-profile brand collaborations, ranging from Anthropologie to Magnolia Bakery."
+          },
+          "whyItMatters": {
+            "kr": "이종 산업 간의 참신한 콜라보레이션이 브랜드 화제성을 높이고 소비자의 구매 욕구를 자극합니다.",
+            "en": "Creative cross-industry collaborations elevate brand buzz and stimulate consumer purchase intent."
+          },
+          "action": {
+            "kr": "이색 라이프스타일 브랜드와의 콜라보레이션 기획을 서둘러야 합니다.",
+            "en": "Accelerate planning for collaborations with distinctive lifestyle brands."
+          },
+          "sources": [
+            {
+              "source": "Refinery29",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.28",
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzaV9oSHVIYllfV0JBTXVGbkZxSUpmMmVNSll2SGp6d1JmbnlpQ1FDLVRkTHBIQkh3aVZ3U2JXWU9zZ0phUlMzc0xUV2JfLUMxd21CUWI2c2FwbkhFMUNPN1V2Tk9GcDA?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "Macy's",
+      "competitionLevel": "MEDIUM",
+      "keyTakeaway": {
+        "kr": "노드스트롬과 제이씨페니 등의 백화점 채널 경쟁사들이 가을 시즌 전환 및 노동절 할인 프로모션을 본격화하고 있습니다.",
+        "en": "Department store competitors like Nordstrom and JCPenney are ramping up fall wardrobe transitions and Labor Day promotional deals."
+      },
+      "competitors": [
+        {
+          "name": "Nordstrom",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "가을철 옷장 정비를 위한 '얼리 버드' 노동절 세일 및 프로모션을 개시함.",
+            "en": "Launched 'Early Bird' Labor Day sales to kick-start fall wardrobes."
+          },
+          "whyItMatters": {
+            "kr": "가을 시즌 초반 백화점 고객을 선점하기 위한 경쟁사들의 프로모션 선점이 위협적입니다.",
+            "en": "Competitors' early promotional positioning to capture department store shoppers at the onset of the fall season poses a threat."
+          },
+          "action": {
+            "kr": "가을 신상품 기획전과 연계한 타겟 할인 프로모션을 조기에 실행해야 합니다.",
+            "en": "Execute targeted promotional discounts aligned with early fall new arrivals."
+          },
+          "sources": [
+            {
+              "source": "Vogue",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.28",
+              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MWmtaMjZleXBQUVNGV2tRenVkNVpGUE1BU0p1Y2ROclRLV1hvWV9RWFp4NVRWekUxSkE2VUlXWlI5STNMSDVEbmx4Q1hCdGdBTW9weVFOSlNsdnlWSHB1VFJXZXJqdw?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "JCPenney",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "소비자들의 '구매 후회'를 해소하기 위한 이색적인 '리테일 리그렛 트레이드인(Retail Regrets Trade-In)' 이벤트를 개최함.",
+            "en": "Hosted a unique 'Retail Regrets Trade-In' event to address consumer purchase remorse."
+          },
+          "whyItMatters": {
+            "kr": "전통적인 가격 할인에서 벗어난 독창적인 마케팅 이벤트가 소비자 이목을 끌고 있습니다.",
+            "en": "Innovative marketing events diverging from traditional price cuts successfully capture consumer attention."
+          },
+          "action": {
+            "kr": "고객 참여를 유도하는 차별화된 리프레시 마케팅 아이디어를 발굴해야 합니다.",
+            "en": "Discover differentiated, refresh marketing ideas that encourage customer participation."
+          },
+          "sources": [
+            {
+              "source": "The Points Guy",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.28",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQODR5SXlreXFQU2laQWtwVFMySWh5cS1OdmRxYmRpTEduTVdjNzYtTVJqeE9kYXBMZ1dUNUZQV292cFpYYVZLamx3QVAxdkZmLVo0SXN4cVFIWGZmVlM5cVNEQ012NVllV1VGOURaRzdzQkhycnBSS1k3R3ZKdzNDUQ?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Nordstrom",
+          "signal": "DIGITAL",
+          "move": {
+            "kr": "백투스쿨(Back-to-School) 시즌에 맞춘 데이터 기반의 최적 할인 쇼핑 가이드를 온라인으로 발행함.",
+            "en": "Published data-driven optimal shopping guides for the Back-to-School season online."
+          },
+          "whyItMatters": {
+            "kr": "데이터 기반의 쇼핑 큐레이션은 학부모 및 학생 고객의 온라인 유입 효율을 극대화합니다.",
+            "en": "Data-driven shopping curation maximizes online traffic efficiency among parents and students."
+          },
+          "action": {
+            "kr": "시즌성 큐레이션 콘텐츠를 고도화하여 디지털 채널의 전환율을 높여야 합니다.",
+            "en": "Enhance seasonal curation content to drive higher digital channel conversion rates."
+          },
+          "sources": [
+            {
+              "source": "AOL.ca",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.25",
+              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNRGxZS3FnbXN3RzN1YnRKVTJSOHdrNWxLYkI1ZGNlcXhQZnV6eS1EaGRBY25GelRHUVloZlRJWC16WEZHUGl2eXJSSXZ6OHE4U0tQWVJFc0xuN2RIYkkwbm8tN0FpOHFpRHNFU3M3cW55TDZuM3lKLQ?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "Ann Taylor",
+      "competitionLevel": "MEDIUM",
+      "keyTakeaway": {
+        "kr": "바나나 리퍼블릭과 제이 크루의 가을 시즌 얼리버드 프로모션 및 대규모 멤버십 패션위크 연계 행사가 커지고 있습니다.",
+        "en": "Banana Republic and J.Crew are intensifying competition with fall early-bird promotions and large-scale membership Fashion Week activations."
+      },
+      "competitors": [
+        {
+          "name": "Banana Republic",
+          "signal": "CHANNEL",
+          "move": {
+            "kr": "뉴욕 패션위크와 연계하여 4천만에 달하는 '앙코르(Encore)' 멤버십 회원 대상 독점 액세스 및 경험 프로그램을 론칭함.",
+            "en": "Launched exclusive access and experiences for nearly 40 million active 'Encore' members tied to NYFW."
+          },
+          "whyItMatters": {
+            "kr": "대규모 멤버십 기반의 프리미엄 브랜드 경험 제공이 충성 고객의 이탈을 막고 브랜드 위상을 높입니다.",
+            "en": "Providing premium brand experiences based on a massive membership base prevents churn and elevates brand status."
+          },
+          "action": {
+            "kr": "우수 고객(VIP)을 위한 차별화된 멤버십 단독 이벤트 및 콘텐츠를 기획해야 합니다.",
+            "en": "Plan differentiated membership-exclusive events and content for VIP customers."
+          },
+          "sources": [
+            {
+              "source": "Stock Titan",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.24",
+              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTjlkT3dKdkg3M1VpeUVzTjBEZURXeERCdEF5YWlxdGJHbEhoVEZzYzN4VDYtTl9Fako3M0R6c2VUVDl6NmpjdXVYSDBrQW04ZmEzTXA5SGNjM01yMmpUTkM4UG1HTGRsUWY2dmdhelVuRUUtYmZlSW9OZnVPeXNWakFCcTV4a3U1NktJSnFYV0hyRk55eGxlRDNJQm5fWWRCN1JIWFg4S1k2U2M1ZGJ0SlU4ZGhQNGdleWFza1JTcw?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Banana Republic",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "가을 의류 구성을 위한 주요 매체 선정 노동절 할인 및 기획전을 동시 다발적으로 전개함.",
+            "en": "Simultaneously rolled out Labor Day sales and promotions featured across major style outlets for fall wardrobes."
+          },
+          "whyItMatters": {
+            "kr": "동종 오피스웨어 및 컨템포러리 브랜드들의 조기 할인 공세가 고객 예산을 선점합니다.",
+            "en": "Early markdown offensives from peer office-wear and contemporary brands capture customer budgets."
+          },
+          "action": {
+            "kr": "오피스 캐주얼 및 포멀 라인에 대한 경쟁력 있는 시즌 프로모션을 대응해야 합니다.",
+            "en": "Deploy competitive seasonal promotions for office casual and formal lines."
+          },
+          "sources": [
+            {
+              "source": "Vogue",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.28",
+              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MWmtaMjZleXBQUVNGV2tRenVkNVpGUE1BU0p1Y2ROclRLV1hvWV9RWFp4NVRWekUxSkE2VUlXWlI5STNMSDVEbmx4Q1hCdGdBTW9weVFOSlNsdnlWSHB1VFJXZXJqdw?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "J.Crew",
+          "signal": "STORE",
+          "move": {
+            "kr": "여성, 남성, 키즈, 홈 컬렉션을 모두 아우르는 3만 5천 평방피트 규모의 대형 플래그십 매장을 오픈함.",
+            "en": "Opened a new 35,000 sq ft flagship store stocking women's, men's, kids, and home collections."
+          },
+          "whyItMatters": {
+            "kr": "대형 플래그십 매장을 통한 토탈 라이프스타일 제안은 오프라인 고객의 체류 시간을 늘리고 브랜드 인지도를 강화합니다.",
+            "en": "Total lifestyle offerings through large flagship stores increase customer dwell time and strengthen brand awareness."
+          },
+          "action": {
+            "kr": "오프라인 주요 거점 매장의 공간 구성을 점검하고 라이프스타일 확장 전략을 검토해야 합니다.",
+            "en": "Review spatial configurations of key offline flagship stores and evaluate lifestyle expansion strategies."
+          },
+          "sources": [
+            {
+              "source": "facebook.com",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.27",
+              "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNTTRCVC1BbC1sT2hvd2lWZzVOUXBsX09CZmtydHF6V3RIbDlRajc1cGFOazJUaUVHSExEaTJ6RURDaUxJakEzQzBVcTFOVVBoMWdLSVdsdmZ6bEV1V1VQMGJ1aUZXVVk5MzFPWUZ2SUx2Q3d6cDEwRTI0NTYwMlJzWjkydDRNcXFKNXZOSXdqT3E4WmN2eHd5ZjhWZXFzeE1BMG5RMGtnd2UtVFRhcklCQXJPMnJKei05elZPNDJna3JJbFpQRWoyWkVnbk80b2xBSVllQWxqZkRDNU9ZdFpF?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "Talbot's",
+      "competitionLevel": "MEDIUM",
+      "keyTakeaway": {
+        "kr": "랜즈엔(Lands' End) 등의 주요 경쟁사가 40% 이상의 파격적인 할인 프로모션을 단행하며 클래식/시니어 의류 시장의 가격 경쟁을 주도하고 있습니다.",
+        "en": "Main competitors like Lands' End are driving price competition in classic/mature apparel with steep promotional discounts starting at 40%."
+      },
+      "competitors": [
+        {
+          "name": "Lands' End",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "가을 아우터(반 자켓 등)를 포함한 주요 품목을 40% 이상 할인하는 대규모 프로모션을 개시함.",
+            "en": "Launched major promotions offering 40% off on items like barn jackets."
+          },
+          "whyItMatters": {
+            "kr": "환절기 아우터 수요가 집중되는 시기에 단행된 대폭 할인은 동종 타겟 고객의 구매 결정을 선점합니다.",
+            "en": "Deep discounts introduced during the peak of transitional outerwear demand capture target customer purchasing decisions early."
+          },
+          "action": {
+            "kr": "가을 아우터 및 간절기 핵심 상품군에 대한 매력적인 할인율 혹은 부가가치 프로모션을 준비해야 합니다.",
+            "en": "Prepare attractive discount structures or value-add promotions for fall outerwear and transitional core categories."
+          },
+          "sources": [
+            {
+              "source": "Good Morning America",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.30",
+              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOGhSa0dEazFHVmtiRkdqMVVFTFRfMXM4SzBUN19xOUQ2bnFiWVZvSk1NajExM3ltMWZ1ZllQbC1yemNSWjR4TVlJbGo1RFdhS0hWWHUzRE4wckFscTJBWDFMeVhfYmFpSjNrUnhpbURwc3QyY2hZMmxMZktTVzFvWmhkRUptbUgtUC10OHp3NkNuUDVL0gGaAUFVX3lxTE5zeFgzM1ppeGItVXFScVlESXJPaFR4cW84UnRmRkJnM0tsZnpjbFdOUW5CVERDNUZnSUMxdGtlN3BwcFBwMDYwM0F1d0RXMG9UdDMtVlpLNFgxU0FLeXA5TWFmdXhaR2NJal9pMXppbmhSTC1NSHpRNEJVUXB0UXRYcnJPN2wxMC1qWHhiQTVZVk45X3ZCdUpONFE?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Lands' End",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "노동절 시즌을 겨냥한 얼리 버드 할인 행사를 다른 주요 언론 매체들과 연계해 대대적으로 홍보함.",
+            "en": "Promoted early bird Labor Day sales extensively in partnership with major media outlets."
+          },
+          "whyItMatters": {
+            "kr": "온라인 미디어를 통한 프로모션 노출 극대화가 소비자들의 브랜드 인지도 및 전환율을 높입니다.",
+            "en": "Maximizing promotional exposure through digital media boosts consumer brand awareness and conversion."
+          },
+          "action": {
+            "kr": "디지털 매체 및 제휴 마케팅을 통한 프로모션 노출 빈도를 높여야 합니다.",
+            "en": "Increase the frequency of promotional exposure through digital media and affiliate marketing."
+          },
+          "sources": [
+            {
+              "source": "NBC News",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.28",
+              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRWhISE1tc2hEZzk5ZDVTMFBPYm44dHkzR0FOZ3c3bnJyUTFsb1dxMG1qRUY3SW96akk1VmthQ04tcnpmY3ZRNlhHRWRGUk9yYkcyd20tSDJrbzN1ZjZzeERjM1NpQlBackpzSlRESVJmVmFNTkN1MHdBaUZzZnhMd1J5dHc1bWctU3c?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "J.Jill",
+          "signal": "STORE",
+          "move": {
+            "kr": "경쟁사 리더십 및 주요 인재 영입 등 리테일 조직 개편 인사가 단행됨.",
+            "en": "Executed retail organizational restructuring moves including leadership changes."
+          },
+          "whyItMatters": {
+            "kr": "경쟁사의 경영진 및 조직 정비는 향후 상품 기획 및 마케팅 전략 변화로 이어질 수 있어 지속적인 모니터링이 필요합니다.",
+            "en": "Competitor executive and organizational reorganization can lead to shifts in merchandising and marketing strategies, requiring ongoing monitoring."
+          },
+          "action": {
+            "kr": "경쟁사의 후속 경영 전략 및 마케팅 변화 방향을 예의 주시해야 합니다.",
+            "en": "Closely monitor competitor's subsequent management strategies and shifts in marketing direction."
+          },
+          "sources": [
+            {
+              "source": "Drapers",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.28",
+              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUF5aElCUTlVQ3F6MVV5dGlTaXdPNW5KdlVCbVI4VWVXbVRpbFU1dEF5MUxKM09XYi1BOU53NmMzMXMxR1E4T1NRTThaOFpQWEpYbnJpWmlDYTloMkhTckd4TTlnZ09CY0pkanVzbnJKQUh4V3l1a09RSUMzRXhzQlF0d2p1N1FoNkczUDZOdjRGRjdIWVpLTE9yMGc2MXhNbWcxQ1dQbE9zTF9yNnc?oc=5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
