@@ -1,0 +1,113 @@
+{
+  "ok": true,
+  "asOf": "2026-08-31T23:00:34.202Z",
+  "generatedDateKST": "2026-09-01",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 1,
+    "within7d": 5,
+    "total": 7,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "배송 Partnership",
+      "category_en": "Partnership",
+      "date": "2026.08.30",
+      "title_kr": "DoorDash, Back-to-School 시즌 맞아 Kohl's 및 주요 apparel 브랜드 delivery 추가",
+      "title_en": "DoorDash adds Gap, Barnes & Noble, Carter’s and Kohl’s for school shopping",
+      "body_kr": "DoorDash가 Back-to-School 시즌 수요를 공략하기 위해 Kohl's를 비롯한 주요 브랜드의 on-demand delivery 서비스를 확장했습니다. 벤더사들은 급증하는 e-commerce 채널의 당일 배송 트렌드에 발맞춘 inventory 배치와 물류 대응력을 점검해야 합니다.",
+      "body_en": "DoorDash has expanded its delivery network to include Kohl's for the Back-to-School shopping rush. Vendors should evaluate their e-commerce inventory and rapid fulfillment capabilities to capture fast delivery demand.",
+      "source": "News12 | New Jersey",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT0g3RUE2QVU5MzRnNm1mS0xiWUxXTlBYX3BpV1ZRUy1YQW9YV2tLVno0V0NEeE5MdUZOcnE2VGJaUUZCZFpBbnRJODByUUlYMGRZLWVkVmhFcGUwZmx1dWRYYVNfZmotdFBxNzdhbjJraW1TbTZkcGZpXzJaM2FHdXF5VUtYanpZYVN1WEx6T3VuQzc4OVU1LWQ3X2pKbF8zTmVFUWFZZThOSDhuT2pqd2VERFhYdDU0Yjg1a05HdDBwNk9zcEpIUE5UUlY4dlFIQlo4Zg?oc=5",
+      "ageHours": 31.532435555555555
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "실적 및 Partnership",
+      "category_en": "Earnings & Partnership",
+      "date": "2026.08.27",
+      "title_kr": "Kohl's, Sephora partnership 매출 4% 하락… retail Partnership에 적신호",
+      "title_en": "Kohl's reports Sephora sales down 4% raising red flag for partnership",
+      "body_kr": "Kohl's 내 Sephora 샵인샵 매출이 4% 감소하며 핵심 retail Partnership의 성장세가 주춤해졌습니다. 벤더사들은 주요 retail channel 내 shop-in-shop category의 sell-through 추이를 면밀히 모니터링해야 합니다.",
+      "body_en": "Kohl's reported a 4% sales decline in its Sephora partnership, raising concerns over key retail relationships. Vendors must closely monitor sell-through trends across in-store shop-in-shop categories.",
+      "source": "Milwaukee Journal Sentinel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOGdySGRZYjdITEQzT3JIb0hSd1NKa3cwNmZxMDY0bWxBZk9YcG16TkVOUUZiWHpDaWJhSE9CclJJMm1PRXJHYkpwZlVzSEd2Szk0OHphYVdVM0k1QkdyZWU2d3FGSFdzdVBDeXA0NlU0VHdpSnktSEgyZl9mZWdtcEtPNHhUVDlFT1hmWU9qZnJMUV9neDQ0bmF5elAyM0ZCbWdYV3NFRkluUlV4QUpRWU1B?oc=5",
+      "ageHours": 95.08993555555556
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "도매 채널",
+      "category_en": "Wholesale Channel",
+      "date": "2026.08.27",
+      "title_kr": "Hollister, Target을 통한 신규 고객 확보로 apparel 넘어선 채널 확장 추진",
+      "title_en": "Hollister is acquiring new customers through Target as it looks beyond apparel",
+      "body_kr": "Hollister가 Target과의 Partnership을 통해 apparel category를 넘어 새로운 영토에서 신규 고객층을 성공적으로 흡수하고 있습니다. 이는 브랜드 인지도 확대와 wholesale 다각화를 노리는 벤더사들에게 유용한 채널 벤치마킹 사례가 됩니다.",
+      "body_en": "Hollister is leveraging its presence at Target to capture new customers beyond traditional apparel. This serves as a strong wholesale channel benchmark for vendors seeking brand expansion.",
+      "source": "glossy.co",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTFNvOWI0U3VlbG9YR1NFa0JwTVBEcGgyQ3hnM0Z2NnZGOThkVTZkUGRFdkhpVzNzUE1PZzdhaVBnUTFkM2lWM3VRWFJhM3MyTldDRXBGUEMwYlJpYlp3MWg4TkpNRzRGSEZSNmRhclpOYWJEaXZVNUluY21GLUdnZ01R?oc=5",
+      "ageHours": 109.20104166666667
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "실적 및 재무",
+      "category_en": "Earnings",
+      "date": "2026.08.27",
+      "title_kr": "Abercrombie & Fitch, 관세 환급 등에 힘입어 Q2 earnings 호조로 주가 36% 급등",
+      "body_en": "Abercrombie & Fitch shares surged 36% following strong Q2 earnings and tariff refunds. Global vendors should closely monitor tariff and tax fluctuations when planning margin defense and cost structures.",
+      "body_kr": "Abercrombie & Fitch가 관세 환급 효과와 Q2 실적 호조에 힘입어 시장 예상를 상회하며 주가가 36% 급등했습니다. 글로벌 벤더사들은 수익성 방어와 원가 절감 전략 수립 시 이러한 세제 및 관세 변동 요인을 예의주시해야 합니다.",
+      "source": "TradingView",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTU00RVdLVnpKdmZFSnY4djR3MXlaNVkxMllQX1ZSUTVudTVqWmNyWTlpQUFLTERlZ0FXR3JFdV90a1JWbm13Q0hmNVdUdzl6Y0tPVzc4Y2VpdWgtUWVjUDM1YU1HeGpEY0l6NUVBMzhsWlVPT2ktWVVma19GNVh0WHQtcm5ON3lxVV9qUzc1WHpCVzVveU9ZTUtIZlN3dDVJd2dUWU4wSzd5WFZtbEg1bnZjWGVsU1dUbmZOTmZ0MA?oc=5",
+      "ageHours": 100.40659722222222
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "조직 및 크리에이티브",
+      "category_en": "Leadership",
+      "date": "2026.08.25",
+      "title_kr": "Macy's, Maya Dukes를 SVP 겸 Executive Creative Director로 영입",
+      "title_en": "Macy’s Welcomes Maya Dukes as Senior Vice President, Creative and Production",
+      "body_kr": "Macy's가 Maya Dukes를 수석 부사장 겸 총괄 크리에이티브 디렉터로 임명하며 브랜드 이미지 강화에 나섰습니다. 주요 retail 브랜드의 리더십 교체는 향후 merchandise 컨셉과 visual identity 방향성에 직접적인 영향을 미칩니다.",
+      "body_en": "Macy's appointed Maya Dukes as Senior Vice President and Executive Creative Director to elevate its brand vision. Leadership changes at major retailers directly impact upcoming merchandise concepts and visual identity.",
+      "source": "MacysInc.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPQTNpSFlQTXhzQnAzdlNFVnVTbDFEZy05TGtMQVpZdi1icmhVWnpySVl5bFRhcVJZTmdVRUwzbWR0YlAyV29lRWVoMlRMNGdPUVBLUU9iM1hrTFFOMFBEQkZUeDVMQlNPR20zNUxDQkdxdEIyR2pxcTFRU0s1bGhIWk5TTEx0WkZCcmN5Y1paTl91Y2RheDVKS0xVdmZFYVV6X0otUnI3azZWYTZyRFJ3NlBaalJxR2hRbXk5ckNPb0hyVGw4MTdNLWN4UllKZWdSX2RZSjJ6dVgwZndmOWNubUJ4QVR6cjZDazZrR0pGNjc0QU5zTUJN?oc=5",
+      "ageHours": 146.9674275
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "category 및 콜렉션",
+      "category_en": "Category Expansion",
+      "date": "2026.08.24",
+      "title_kr": "Kohl's, Martha Stewart 및 Bobby Flay collection 도입하며 Home assortment 확장",
+      "title_en": "Kohl's Expands Home Assortment With Martha Stewart and Bobby Flay Collections",
+      "body_kr": "Kohl's가 유명 셰프 및 라이프스타일 브랜드 콜렉션을 홈 category에 대거 보강하며 상품력을 강화했습니다. 홈 및 라이프스타일 벤더사들은 retail러의 category 확장 전략에 맞춘 차별화된 merchandise 제안을 준비해야 합니다.",
+      "body_en": "Kohl's has bolstered its home category assortment with high-profile lifestyle and chef collections. Home and lifestyle vendors should align their merchandise proposals with retailer category expansion strategies.",
+      "source": "Kohl's Corporate",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40Zi1ycF9BM1Vod1AyQmcyQW1rNzlzSzcxTjFORFBOc3haeHNucDVtc1Q3cVV0U1p5YWJXQllvNnBNQVBfQ0xZbEZieXVndHdqbFhoU3l1XzdqZDVObHE1YlhBVm96blhEMEl5amJVdHg?oc=5",
+      "ageHours": 179.00438
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "IP 및 콜렉션",
+      "category_en": "IP Collection",
+      "date": "2026.08.24",
+      "title_kr": "Kohl's, 'KPop Demon Hunters' 영감 받은 테마 collection 공개",
+      "title_en": "Kohl’s ‘KPop Demon Hunters’ inspired collection: Products and availability",
+      "body_kr": "Kohl's가 최신 문화 트렌드를 반영한 'KPop Demon Hunters' 테마의 exclusive collection을 새롭게 런칭했습니다. K-콘텐츠 IP와 연계된 트렌디한 상품 기획은 Z세대 consumer demand를 견인하는 핵심 요소입니다.",
+      "body_en": "Kohl's launched a new exclusive collection inspired by 'KPop Demon Hunters'. Trendy product planning tied to K-content IPs serves as a key driver for Gen Z consumer demand.",
+      "source": "lifestyleasia.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNzFHNGhkQkVJSHZTNHoyN2RVRHp1WVZiRXVqeTg3bUxQdkFmMlFNRnRISjNvV3JNWE9CUkhIWnpQU2ktcnlhX2J5OS0wa2tNV0FBSWM4bGdlQm1fUklhdnJPN1ppUllXaGJUdEVNT191MExPaER6Y3NjUmJaS0xsZTZnWWFlYV8wMUhxeVlseHF2LTRSekIxdmhadHZLYWItbkRoMzRVSkhRQUHSAbABQVVfeXFMT2xpb1JwTlNPNFFaUEdUT253MWtRcXlnazhDRnJCeU56Q3FaWVZWOTFtV3BHdDh1TjhJQUxmRmp2M2RCMHJJc1hUMFZjZXR3YURFTEt6NEFxNDU4OElXYXB1NVZIZlpvTFJCQll5WFphdHctN1BBcWxvLXE3bVFfeHZhZkVVbl9fXy1DRmhpMGhzcDVUQzhyR2hYcV9RSWg3aDkwdzh1LXZaVVQxNnVBdXA?oc=5",
+      "ageHours": 182.36632444444444
+    }
+  ]
+}
