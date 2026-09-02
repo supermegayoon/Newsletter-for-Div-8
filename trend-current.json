@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "asOf": "2026-09-02T00:30:00.000Z",
+  "generatedDateKST": "2026-09-02",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "items": [
+    {
+      "level": "HIGH",
+      "title_kr": "Haiti HOPE/HELP — 의회 2년 연장안 통과, 대통령 서명 대기",
+      "title_en": "Haiti HOPE/HELP — Two-Year Extension Clears Congress, Awaiting Presidential Signature",
+      "body_kr": "Senate에 이어 House도 9/1에 2년 연장안을 통과시켰습니다. 서명 완료 시 HOPE/HELP는 2028년 12월 31일까지 연장됩니다.",
+      "body_en": "Following Senate passage, the House passed the two-year extension on Sep. 1. If signed into law, HOPE/HELP will run through Dec. 31, 2028.",
+      "action_kr": "Haiti는 적격 apparel duty-free sourcing option으로 유지하되, 장기 배정은 대통령 서명 완료를 확인한 뒤 2027–28 capacity plan에 반영.",
+      "action_en": "Keep Haiti as a duty-free qualifying apparel sourcing option, but confirm presidential signature before locking 2027–28 capacity allocation.",
+      "source": "AAFA",
+      "sourceUrl": "https://www.aafaglobal.org/AAFA/AAFA_News/2026_Press_Releases/AAFA_Applauds_Congressional_Passage_of_Two_Year_Extension_of_AGOA_and_Haiti_HOPE_HELP_Programs.aspx",
+      "date": "2026.09.01"
+    }
+  ]
+}
