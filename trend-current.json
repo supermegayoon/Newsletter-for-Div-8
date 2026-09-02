@@ -1,21 +1,21 @@
 {
   "ok": true,
-  "asOf": "2026-09-02T00:30:00.000Z",
-  "generatedDateKST": "2026-09-02",
+  "asOf": "2026-09-02T23:40:43.942Z",
+  "generatedDateKST": "2026-09-03",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "items": [
     {
       "level": "HIGH",
-      "title_kr": "Haiti HOPE/HELP — 의회 2년 연장안 통과, 대통령 서명 대기",
-      "title_en": "Haiti HOPE/HELP — Two-Year Extension Clears Congress, Awaiting Presidential Signature",
-      "body_kr": "Senate에 이어 House도 9/1에 2년 연장안을 통과시켰습니다. 서명 완료 시 HOPE/HELP는 2028년 12월 31일까지 연장됩니다.",
-      "body_en": "Following Senate passage, the House passed the two-year extension on Sep. 1. If signed into law, HOPE/HELP will run through Dec. 31, 2028.",
-      "action_kr": "Haiti는 적격 apparel duty-free sourcing option으로 유지하되, 장기 배정은 대통령 서명 완료를 확인한 뒤 2027–28 capacity plan에 반영.",
-      "action_en": "Keep Haiti as a duty-free qualifying apparel sourcing option, but confirm presidential signature before locking 2027–28 capacity allocation.",
-      "source": "AAFA",
-      "sourceUrl": "https://www.aafaglobal.org/AAFA/AAFA_News/2026_Press_Releases/AAFA_Applauds_Congressional_Passage_of_Two_Year_Extension_of_AGOA_and_Haiti_HOPE_HELP_Programs.aspx",
-      "date": "2026.09.01"
+      "title_kr": "미 의회, AGOA 및 Haiti HOPE/HELP 프로그램 2년 연장 가결... 대통령 서명 대기 중",
+      "title_en": "Congress extends AGOA and Haiti HOPE/HELP programs for two years, now awaits presidential signature",
+      "body_kr": "미 의회가 아프리카성장기회법(AGOA)과 아이티 HOPE/HELP 무역 특혜 프로그램을 2년 연장하기로 가결했으나, 현재 대통령 서명 및 최종 발효를 앞두고 있다.",
+      "body_en": "U.S. Congress has passed a two-year extension for AGOA and Haiti HOPE/HELP trade preference programs, which are currently awaiting presidential signature.",
+      "action_kr": "아이티 및 AGOA 수혜 국가의 Sourcing capacity와 margin 구조를 재점검하고, 대통령 서명 후 즉각 가동할 수 있도록 Sourcing 계획을 수립할 것.",
+      "action_en": "Review sourcing capacity and margin structures in Haiti and AGOA beneficiary nations, and prepare to execute orders immediately upon presidential signature.",
+      "source": "Miami Herald",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPalBfQUpmRXF3VGdUWTdXcmRUSy1USzJNLWhWSTRHUGFvOGQ1T1hCLV9TaHZjcWxmN2pNZThVZXRXNjVhMjE4aHJieFhLTnl2alN0cmhaaWRrSDhpX2RlMFNDQU5KNFp4QzZCNk92bUZYNkh5NzZWbVFUazNfbFpUa25JQW5TQWREVkU3NTZQUzkxUdIBkgFBVV95cUxNWTB0bXlYY3RYaTBrSUpORnVfTGZJcFprREdvUERIa1lVQkQ5V0JjM0F6S1dtU2p4MUotNnJfdW40LWZRbTNIaURSMHgyaFdBMzU3UTFHVldXNlhFMTUzMHRhMlJHdWxsUTVWZkkyYmxfSVhCQXc4dFYzRWp4UUlSU3hWV2EwRTFQYml3ZXc0eEx2dw?oc=5",
+      "date": "2026.09.02"
     }
   ]
 }
