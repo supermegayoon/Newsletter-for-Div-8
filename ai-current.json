@@ -1,80 +1,80 @@
 {
   "ok": true,
-  "asOf": "2026-09-02T00:24:50.543Z",
-  "generatedDateKST": "2026-09-02",
+  "asOf": "2026-09-02T23:01:29.841Z",
+  "generatedDateKST": "2026-09-03",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-09-02",
+  "competitorDateKST": "2026-09-03",
   "insight": {
     "headline": {
-      "kr": "2026년 9월 2일 8담당 데일리 마켓 브리프: 주요 바이어 인사동향 및 경쟁사 promotion 대응",
-      "en": "Sep 2, 2026 Team 8 Daily Market Brief: Buyer Personnel Updates and Competitor Promotion Tracking"
+      "kr": "주요 의류 바이어 실적 호조 및 Holiday 전략 가동, 환율 하락세 지속",
+      "en": "Major Apparel Buyers Boost Holiday Strategies Amid Strong Earnings and Lower Won-Dollar Rate"
     },
     "summary": {
-      "kr": "콜스는 월마트 출신 신임 Chief Merchant 영입 및 DoorDash Partnership을 통한 배송 채널 확장에 나섰으며, 에버크롬비(A&F)는 관세 환급 효과로 실적 호조를 기록했습니다. 타겟 및 노드스트롬 등 주요 경쟁사들의 공격적인 노동절 시즌오프 할인에 대응하여 벤더 팀의 신속한 재고 및 promotion 전략 점검이 요구됩니다.",
-      "en": "Kohl's appointed a new chief merchant from Walmart and expanded delivery via DoorDash, while A&F posted strong results bolstered by tariff refunds. With key rivals like Target and Nordstrom aggressively pushing Labor Day markdowns, Team 8 must swiftly review inventory and promotional strategies."
+      "kr": "A&F의 실적 호조 및 풀이어 guidance 상향에 이어 Kohl's와 Macy's 등 주요 바이어들이 최고 상품 책임자 영입, Toys R Us 및 디즈니 캡슐 콜렉션 등 적극적인 Holiday 전략을 가동하고 있습니다.",
+      "en": "Following A&F's strong earnings and full-year forecast raise, major buyers like Kohl's and Macy's are aggressively deploying holiday and merchandising strategies including new leadership and exclusive partnerships."
     },
     "tags": [
-      "#KohlS",
-      "#AbercrombieAndFitch",
-      "#Macys",
-      "#LaborDayPromo"
+      "#Team8Daily",
+      "#ApparelMarket",
+      "#HolidayStrategy",
+      "#BuyerNews"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "Walmart 출신의 패션 전문가를 새로운 Chief Merchant로 임명하여 상품 구색(assortment)과 자체 브랜드(PB) 방향성에 변화가 예상됨. DoorDash와의 제휴 확대로 백투스쿨 category 배송을 강화했으나, Sephora 매출이 4% 하락하여 traffic 유도 전략 보완이 필요함.",
-        "en": "Kohl's appointed a Walmart fashion alum as its new chief merchant, signaling upcoming shifts in product assortment and private brand direction. While expanding back-to-school delivery via DoorDash, a 4% drop in Sephora sales highlights the need to bolster in-store traffic drivers."
+        "kr": "Walmart 출신 패션 임원을 새로운 chief merchant로 영입하고 DoorDash를 통한 배송 채널을 확대하며 하반기 실적 반등을 도모하고 있습니다.",
+        "en": "Kohl's appointed a former Walmart fashion executive as its new chief merchant and expanded delivery channels via DoorDash for back-to-school season."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "A&F는 관세 환급 효과와 Q2 어닝 서프라이즈로 주가가 급등하며 강세를 보였으나, 홀리스터(Hollister)의 동일토지 매출은 3% 하락하여 브랜드 간 성장세가 엇갈림. 경쟁사인 URBN의 렌탈 및 retail 성장세에 대응하기 위한 영 제너레이션 타겟 마케팅 지속 필요.",
-        "en": "A&F posted record sales and a strong earnings beat bolstered by tariff refunds, though Hollister comparable sales fell 3%, showing divergent brand growth. Team 8 should monitor how A&F adjusts inventory allocation to counter strong peer competition among Gen Z shoppers."
+        "kr": "탄탄한 의류 수요에 힘입어 Q2 실적 호조를 기록하며 full-year forecast를 상향 조정하여 견조한 sell-through를 보이고 있습니다.",
+        "en": "Abercrombie & Fitch raised its full-year forecasts following strong Q2 earnings driven by robust apparel demand and healthy sell-through rates."
       },
       {
         "buyer": "Macy's",
-        "kr": "노드스트롬 등 주요 백화점 경쟁사들이 노동절 시즌을 맞아 최대 70%에 달하는 공격적인 얼리 세일을 전개하며 메이시스의 traffic을 압박하고 있음. 이에 맞서 디지털 쿠폰 및 단독 promotion 코드 활용을 강화해야 함.",
-        "en": "Department store rivals like Nordstrom are aggressively capturing consumer traffic with early Labor Day sales offering up to 70% off, pressuring Macy's market share. Macy's and vendor teams need to leverage targeted digital clearance and exclusive promotional codes."
+        "kr": "캘리포니아 매장에 Toys R Us를 입점시키고 디즈니 Holiday 캡슐 콜렉션을 확장하는 등 traffic 유입형 Partnership을 강화하고 있습니다.",
+        "en": "Macy's is expanding retail traffic and holiday sales through a new Toys R Us store opening and an expanded Disney holiday capsule collection."
       }
     ],
     "opportunities": [
       {
-        "kr": "콜스의 신임 Chief Merchant 체제 출범에 맞추어 트렌디한 Collaboration 및 PB 상품 제안을 선제적으로 준비",
-        "en": "Proactively pitch trendy collaborative and private label product concepts aligned with Kohl's new chief merchant strategy"
+        "kr": "Macy's의 Toys R Us 입점 및 디즈니 콜렉션 확장에 따른 키즈/기프트 category 추가 오더 기회 발굴",
+        "en": "Identify potential follow-up orders in kids and gift categories driven by Macy's Toys R Us store openings and Disney collection expansions."
       },
       {
-        "kr": "에버크롬비 및 주요 브랜드의 견조한 margin 흐름을 반영하여 가을·겨울 환절기 프리미엄 스타일 sourcing 제안 확대",
-        "en": "Leverage A&F's strong margin trends to pitch premium fall/winter seasonal sourcing options"
+        "kr": "A&F의 실적 호조세에 맞추어 주력 아이템 공급 확대 및 신속한 reorder 제안",
+        "en": "Propose expanded supply and fast reorders for core items aligning with A&F's strong sales momentum and raised forecasts."
       },
       {
-        "kr": "노동절 이후 급변하는 retail 재고 수요에 발맞추어 신속한 reorder 및 전환기 아이템 공급 체계 구축",
-        "en": "Establish agile reorder and transitional item supply workflows to support post-Labor Day inventory adjustments"
+        "kr": "Kohl's의 신임 chief merchant 취임에 따른 신규 상품 전략 변화에 선제적 대응 제안 준비",
+        "en": "Prepare proactive proposal strategies for Kohl's in anticipation of merchandise shifts under their newly appointed chief merchant."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "타겟, 노드스트롬 등 주요 경쟁사들의 대규모 시즌오프 할인 공세로 인한 바이어들의 가격 인하 압박 및 margin 훼손 리스크 존재",
-      "en": "Moderate risk of margin compression and aggressive markdown pressure as key retail competitors launch deep end-of-summer sales"
+      "kr": "원달러 환율이 1,359원대로 하락세를 보이고 있으며, 면화 선물 가격 하락 및 경쟁사들의 공격적인 할인 promotion에 따른 margin 압박 요인 모니터링 필요",
+      "en": "USD/KRW exchange rate declining toward 1,359, coupled with dropping cotton futures and aggressive competitor promotional pricing requiring margin monitoring."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "콜스 신임 머천다이징 책임자의 전략 변화에 따른 PB 및 category별 대응 품목 리스트 점검",
-        "en": "Review PB and category assortment lists in response to Kohl's new merchandising leadership strategy"
+        "kr": "Macy's Holiday 콜렉션 및 Toys R Us 관련 category별 벤더 제안서 검토 및 보완",
+        "en": "Review and update vendor proposals for Macy's holiday collections and Toys R Us related categories."
       },
       {
         "owner": "Team 8",
-        "kr": "경쟁사(타겟, 노드스트롬 등)의 노동절 promotion 동향을 모니터링하고 바이어별 맞춤형 promotion 지원 방안 수립",
-        "en": "Monitor competitor Labor Day promotions (Target, Nordstrom) and prepare tailored promotional support proposals for key buyers"
+        "kr": "A&F의 category별 판매 호조 품목 분석 및 reorder 대응력 점검",
+        "en": "Analyze A&F's top-performing categories and inspect operational readiness for upcoming reorders."
       },
       {
         "owner": "Team 8",
-        "kr": "원면 및 유가 등 원자재 가격 변동성(코튼 하락 및 유가 상승)에 따른 가을·겨울 시즌 원가 및 납기 일정 리스크 관리",
-        "en": "Manage F/W season cost and delivery timelines amid raw material volatility, including cotton and crude oil price shifts"
+        "kr": "환율 변동성(1,359원대)에 따른 원가 및 수익성 영향 분석 및 환 헤지 현황 점검",
+        "en": "Assess cost and profitability impacts from currency volatility (USD/KRW 1,359) and check current hedge statuses."
       }
     ]
   }
