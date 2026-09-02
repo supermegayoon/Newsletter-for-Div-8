@@ -1,0 +1,94 @@
+{
+  "ok": true,
+  "asOf": "2026-09-01T23:00:32.836Z",
+  "generatedDateKST": "2026-09-02",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 2,
+    "within7d": 5,
+    "total": 6,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Personnel/Merchandising",
+      "category_en": "Personnel/Merchandising",
+      "date": "2026.09.01",
+      "title_kr": "Kohl's, Walmart 출신 fashion alum을 새로운 chief merchant로 영입",
+      "title_en": "Kohl’s names Walmart fashion alum as chief merchant",
+      "body_kr": "Kohl's가 Walmart 출신의 패션 전문가를 새로운 chief merchant로 선임하며 merchandise 전략 강화에 나섰습니다. 향후 product assortment와 private brand 개편 속도에 주목할 필요가 있습니다.",
+      "body_en": "Kohl's has appointed a Walmart fashion alum as its new chief merchant to strengthen merchandising strategies. Vendor teams should monitor upcoming shifts in product assortment and private brand direction.",
+      "source": "Retail Dive",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSkw4TWNmZTc1WkhXY3daNlZhUm1HS1F5T3ZrQjRiVkxaYmFrbTNVbHdKbkcwODR3SWdmTF91ajZadi1oYm0xYTgtbWl5Yk4xRHAzYktaLUJaSHZTcG1pX0hYUGxweVF5b0dsT3M4WmF4SFJnbGhMWk94N3ROWWNOOUV4TlRlN1h3?oc=5",
+      "ageHours": 6.9534352777777775
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Wholesale/Channel",
+      "category_en": "Wholesale/Channel",
+      "date": "2026.08.30",
+      "title_kr": "Kohl's, DoorDash delivery partnership을 통해 back-to-school category 확장",
+      "title_en": "DoorDash adds Gap, Barnes & Noble, Carter’s and Kohl’s for school supplies",
+      "body_kr": "Kohl's expanded its delivery channel for back-to-school merchandise, including apparel and dorm gear, through a DoorDash partnership. This highlights ongoing changes in retail channels emphasizing e-commerce convenience.",
+      "source": "brooklyn.news12.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQU1VYVnRzRmVpRE51aU5fS2h1NjVyRnd6TVl3U3U2TUFmbEJUSzQ3UWRkemZ3ZEl1SGh5OVZSRWY3cTZuVENPcnplZnRGUmxNVy11czhNY0RWaGMtOG5sWTBoR1ZBc2licmJBYi1ZTzJLaWp2T3hYWlJLU1UtVTRSOXpFZUt1WlFEYTMxelkxQnlraFk4SXYweWJNbU9mcWxhU3F5SjhhRGZqS1h0RWllSlY4Y1hmdVFBektnVGJYdEFJdWdBbFRoaUk3Z2FiRWNhM01n?oc=5",
+      "ageHours": 55.54093527777778
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Earnings",
+      "category_en": "Earnings",
+      "date": "2026.08.29",
+      "title_kr": "Abercrombie & Fitch, Q2 record sales 기록했으나 Hollister comp sales는 3% 하락",
+      "title_en": "Abercrombie & Fitch Posted Record Sales, but Hollister Comparable Sales Fell 3%",
+      "body_kr": "While Abercrombie & Fitch posted record sales, Hollister comparable sales dropped 3%. Divergent brand growth may prompt adjustments in inventory allocation and marketing strategies.",
+      "source": "finance.yahoo.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa3NXOVlDc1drdWtJNnlNX09hcnBXU3h2VDA2bE9Ia3N3UVUxcG13MUZ1d3VqM0RveVRqeldEbTg4SFdPOG9XUG14VlhMVXB1TnEtTUVQMDNMdUhtM1FabzI5X1hxc2NzTEpSU2I1aFp1MmF6X2NEbm1YLWoxVXRqQ2d6RVJ3N3VNYTBkeW1pNHBvY0ZodXdKWHlmNGh1REtheHc?oc=5",
+      "ageHours": 92.140075
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Wholesale/Channel",
+      "category_en": "Wholesale/Channel",
+      "date": "2026.08.28",
+      "title_kr": "Kohl's reports Sephora sales down 4% raising red flag for partnership",
+      "body_kr": "Sephora sales within Kohl's dropped 4%, raising red flags for a key growth partnership. Vendors should monitor potential impacts on overall store traffic and cross-category sell-through.",
+      "source": "Milwaukee Journal Sentinel",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOGdySGRZYjdITEQzT3JIb0hSd1NKa3cwNmZxMDY0bWxBZk9YcG16TkVOUUZiWHpDaWJhSE9CclJJMm1PRXJHYkpwZlVzSEd2Szk0OHphYVdVM0k1QkdyZWU2d3FGSFdzdVBDeXA0NlU0VHdpSnktSEgyZl9mZWdtcEtPNHhUVDlFT1hmWU9qZnJMUV9neDQ0bmF5elAyM0ZCbWdYV3NFRkluUlV4QUpRWU1B?oc=5",
+      "ageHours": 119.09010194444444
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Earnings",
+      "category_en": "Earnings",
+      "date": "2026.08.27",
+      "title_kr": "Abercrombie & Fitch, tariff refund 효과와 Q2 earnings beat로 주가 36% 급등",
+      "title_en": "Abercrombie's Shares Rise 36% on Q2 Earnings Beat on Tariff Refunds",
+      "body_kr": "Abercrombie & Fitch shares surged following a Q2 earnings beat bolstered by tariff refunds. Strong margins are expected to positively influence future sourcing and pricing strategies.",
+      "source": "TradingView",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTU00RVdLVnpKdmZFSnY4djR3MXlaNVkxMllQX1ZSUTVudTVqWmNyWTlpQUFLTERlZ0FXR3JFdV90a1JWbm13Q0hmNVdUdzl6Y0tPVzc4Y2VpdWgtUWVjUDM1YU1HeGpEY0l6NUVBMzhsWlVPT2ktWVVma19GNVh0WHQtcm5ON3lxVV9qUzc1WHpCVzVveU9ZTUtIZlN3dDVJd2dUWU4wSzd5WFZtbEg1bnZjWGVsU1dUbmZOTmZ0MA?oc=5",
+      "ageHours": 124.40674166666666
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Collaboration",
+      "category_en": "Collaboration",
+      "date": "2026.08.24",
+      "title_kr": "Kohl's, 'KPop Demon Hunters' inspired collection 출시하며 Gen Alpha 공략",
+      "title_en": "Kohl’s ‘KPop Demon Hunters’ inspired collection: Products and availability",
+      "body_kr": "Kohl's launched a 'KPop Demon Hunters' inspired collection incorporating trendy IP. This unique merchandise aims to drive store traffic by targeting young consumer demand.",
+      "source": "Lifestyle Asia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNzFHNGhkQkVJSHZTNHoyN2RVRHp1WVZiRXVqeTg3bUxQdkFmMlFNRnRISjNvV3JNWE9CUkhIWnpQU2ktcnlhX2J5OS0wa2tNV0FBSWM4bGdlQm1fUklhdnJPN1ppUllXaGJUdEVNT191MExPaER6Y3NjUmJaS0xsZTZnWWFlYV8wMUhxeVlseHF2LTRSekIxdmhadHZLYWItbkRoMzRVSkhRQUHSAbABQVVfeXFMT2xpb1JwTlNPNFFaUEdUT253MWtRcXlnazhDRnJCeU56Q3FaWVZWOTFtV3BHdDh1TjhJQUxmRmp2M2RCMHJJc1hUMFZjZXR3YURFTEt6NEFxNDU4OElXYXB1NVZIZlpvTFJCQll5WFphdHctN1BBcWxvLXE3bVFfeHZhZkVVbl9fXy1DRmhpMGhzcDVUQzhyR2hYcV9RSWg3aDkwdzh1LXZaVVQxNnVBdXA?oc=5",
+      "ageHours": 206.36649083333333
+    }
+  ]
+}
