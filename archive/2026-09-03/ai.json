@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-09-03T12:57:57.599Z",
+  "generatedDateKST": "2026-09-03",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-09-03",
+  "insight": {
+    "headline": {
+      "kr": "2026년 9월 3일 8담당 데일리 마켓 브리프: 주요 바이어 백투스쿨 및 Holiday 전략 가동",
+      "en": "September 3, 2026 Team 8 Daily Market Brief: Key Buyers Activate Back-to-School and Holiday Strategies"
+    },
+    "summary": {
+      "kr": "Kohl's의 월마트 출신 최고상품책임자(CMM) 영입 및 DoorDash 협업 확대, Macy's의 Northridge Fashion Center Toys R Us 오픈 및 디즈니 Holiday 캡슐 확장, A&F의 견조한 의류 수요에 따른 연간 실적 전망 상향 등 주요 바이어들의 하반기 채널 다각화와 상품 전략이 활발하게 전개되고 있습니다.",
+      "en": "Major buyers are actively expanding channel diversification and merchandising strategies for the second half, highlighted by Kohl's appointing a new chief merchant and expanding DoorDash delivery, Macy's launching a Toys R Us partnership and Disney holiday capsules, and Abercrombie & Fitch raising full-year forecasts on robust apparel demand."
+    },
+    "tags": [
+      "#KohlS",
+      "#ANF",
+      "#Macys",
+      "#Holiday2026"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "월마트 출신 패션 임원을 새로운 최고상품책임자(CMM)로 임명하여 상품 전략 개편을 예고했으며, DoorDash와의 Partnership을 통해 백투스쿨 의류 및 기숙사 용품 배송 채널을 강화하며 긴급 소비자 수요 흡수에 주력하고 있습니다.",
+        "en": "Kohl's appointed a former Walmart fashion executive as its new chief merchant, signaling upcoming shifts in merchandise strategy, while expanding back-to-school and dorm gear delivery channels via DoorDash to capture urgent consumer demand."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "탄탄한 의류 수요에 힘입어 Q2 실적 호조를 기록하며 full-year forecast를 상향 조정했으며, 핵심 category 전반에서 건전한 sell-through rate를 유지하고 있습니다.",
+        "en": "Abercrombie & Fitch raised its full-year forecasts following a strong Q2 earnings beat driven by robust apparel demand, signaling healthy sell-through rates across core categories."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "캘리포니아 Northridge Fashion Center에 Toys R Us 매장을 오픈하며 장난감 category traffic 유입을 도모하고 있으며, Holiday 시즌을 대비해 독점 디즈니 캡슐 컬렉션을 확장 공개하며 traffic 제고에 나서고 있습니다.",
+        "en": "Macy's is driving traffic through its toy retailer comeback by opening a new Toys R Us store at Northridge Fashion Center and expanding its exclusive Disney holiday capsule collection to boost seasonal retail traffic and sales."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "Macy's의 Toys R Us 입점 및 디즈니 콜라보 확장에 발맞추어, traffic 유입을 극대화할 수 있는 Holiday 시즌 키즈 및 라이프스타일 category 제안 강화",
+        "en": "Leverage Macy's Toys R Us partnership and expanded Disney capsule by proposing targeted holiday kids and lifestyle category assortments to maximize traffic."
+      },
+      {
+        "kr": "Kohl's의 신임 CMM 체제 출범에 맞춘 신규 상품 기획 및 백투스쿨·온디맨드 배송 대응형 소량·적기 납기 상품 구성 제안",
+        "en": "Align with Kohl's's new chief merchant transition by proposing refreshed assortment structures and agile, on-time delivery options tailored for back-to-school and rapid replenishment."
+      },
+      {
+        "kr": "A&F의 상향된 실적 가이드라인과 견조한 수요 흐름을 바탕으로 코어 의류 품목의 reorder 및 추가 스타일 제안 확대",
+        "en": "Capitalize on Abercrombie & Fitch's raised earnings forecast and strong demand by expanding reorders and proposing additional styles for core apparel categories."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "주요 경쟁사들의 노동절(Labor Day) 할인 공세 및 패스트패션(Shein, Temu 등)의 가격 압박 속에서 바이어들의 margin 방어 및 재고 조정 리스크 상존",
+      "en": "Moderate risk from competitor Labor Day promotional pushes and fast-fashion price pressures, which may lead buyers to closely manage margins and inventory levels."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Kohl's 신임 CMM 체제 대비 바이어 맞춤형 상품 제안서 업데이트 및 미팅 준비",
+        "en": "Update buyer-specific product proposals and prepare for meetings in light of Kohl's's new chief merchant transition."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "Macy's Holiday 디즈니 캡슐 및 Toys R Us 연계 category 관련 납기 일정 점검",
+        "en": "Review production and delivery schedules for Macy's holiday Disney capsule and related traffic-driving categories."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "A&F의 Q2 실적 호조 및 가이드라인 상향에 따른 추가 오더 가능성 모니터링",
+        "en": "Monitor potential follow-up orders following Abercrombie & Fitch's strong Q2 earnings beat and raised guidance."
+      }
+    ]
+  }
+}
