@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "asOf": "2026-09-02T23:00:31.610Z",
+  "generatedDateKST": "2026-09-03",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 2,
+    "within7d": 3,
+    "total": 5,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Partnership",
+      "category_en": "Partnership",
+      "date": "2026.09.02",
+      "title_kr": "Macy's, California Northridge Fashion Center에 Toys R Us store 가을 open 예정",
+      "title_en": "Toys R Us Opening This Fall At Northridge Fashion Center",
+      "body_kr": "Macy's가 향후 캘리포니아 Northridge Fashion Center에 Toys R Us store를 새롭게 open하며 유통 채널 다각화에 나섭니다. 장난감 category의 traffic 유입 효과가 벤더사들의 마케팅 및 Holiday merchandise 기획에 긍정적인 영향을 미칠 전망입니다.",
+      "body_en": "Macy's continues its toy retailer comeback by opening a new Toys R Us store at Northridge Fashion Center this fall. This traffic-driving partnership offers favorable retail signals for vendor merchandising strategies.",
+      "source": "Patch",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQeExoV29haHFPT2ZkUUg2VGJ2bXNneXI2SUp3SDVYQkUxSXdYOHYwUWU2ai04SlhwRldfdmVJTkM2QmwwS0NPNllFNnc5dkVkUnR2eUViTUMxZFF1bHc0eGlDRUhvRm53bEs2Y29DRHJYRW5rME8wSGtfMjQ4bjZ0VnNuaEc5OTlSeHdXZHJ2SjVHQdIBrgFBVV95cUxONUhhVWx2c2Z3bkdCOEF0M09UX2R5OGhUeUcyeEVfM05rN0xmNUlzMDkwdHdlSGM4QjhPbnI4TVZlNEpXanp1SE5ROUEycXg2VFhqWW9GMVFTRHRyQ0lHdjY2V3FpMzZpSXJDemxlVGlQcjc3dGluYjdSTjRobHp0MnpDT3ptbnVhSU1kS3pRQmYxZ3JBZVpvRDU2TkZqdVhkTDBSUF9Lb2hLWUEycWc?oc=5",
+      "ageHours": 6.450148888888889
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Executive",
+      "category_en": "Executive",
+      "date": "2026.09.01",
+      "title_kr": "Kohl's, Walmart 출신 패션 임원을 새로운 chief merchant로 영입",
+      "title_en": "Kohl’s Names Walmart Fashion Alum as Chief Merchant",
+      "body_kr": "Kohl's has appointed a former Walmart fashion executive as its new chief merchant, effective September 28. This leadership change will shape future merchandise strategies and category assortments.",
+      "source": "Retail Dive",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSkw4TWNmZTc1WkhXY3daNlZhUm1HS1F5T3ZrQjRiVkxaYmFrbTNVbHdKbkcwODR3SWdmTF91ajZadi1oYm0xYTgtbWl5Yk4xRHAzYktaLUJaSHZTcG1pX0hYUGxweVF5b0dsT3M4WmF4SFJnbGhMWk94N3ROWWNOOUV4TlRlN1h3?oc=5",
+      "ageHours": 30.953195555555556
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Wholesale / Channel",
+      "category_en": "Wholesale / Channel",
+      "date": "2026.08.30",
+      "title_kr": "Kohl's, DoorDash partnership 통해 back-to-school 배송 채널 확대",
+      "title_en": "Forgot something for school? DoorDash adds Gap, Barnes & Noble, Carter’s and Kohl’s",
+      "body_kr": "Kohl's has expanded its delivery capabilities via DoorDash to cover back-to-school apparel and dorm gear. This retail channel integration aims to capture urgent consumer demand during peak season.",
+      "source": "News12 | Long Island",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORkhUbUNTdnMwcTZRSEFzUVBGa055ZkV3MGc2Vkc0S2tIbmhBc2s4dTJoQXB1VFN2aDZrdXNFbGdSbktDVUZSSk9NQTlUNjlweF82YlJweEtDV2ZFeEl0TzdZeVBzSmRvNDY2RFdxM2VnOTUtNGRQT2tvN08zSmY3VFJ2Nzc1dWpNZi1zUTA2WTZFc1pmaUNOSE9JUDF6a2ctRmhhTFAydXVkVjBCdnl4TjdEc3FPejdBUG9SUkN5dFFBUE5tOWlIV2czQW9RUFE2cnNsOG5n?oc=5",
+      "ageHours": 79.53208444444445
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Earnings / Outlook",
+      "category_en": "Earnings / Outlook",
+      "date": "2026.08.26",
+      "title_kr": "Abercrombie & Fitch, 탄탄한 의류 수요 힘입어 full-year forecast 상향 조정",
+      "title_en": "Abercrombie raises full-year forecasts on robust apparel demand, shares jump",
+      "body_kr": "Abercrombie & Fitch raised its full-year forecasts following a strong Q2 earnings beat driven by robust apparel demand. This positive outlook signals healthy sell-through rates across core categories.",
+      "source": "The Mighty 790 KFGO",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMjBlN0NUM1cwYXhVYTNpTkJBOWNTVFBkVElQY1NLTTk3dmRJX1YyZXVXdWdkdVV5bVRlRWgxT1NfRlFZeGZEV2FVNlBNNkhFVHhQeGUwZW5aYmdDa2JTYnJBUXFyS2ZJaEdIZW5tNHBTdGZBZTNxcFpTeWFCVjJVQXFkT1lSdzFNODBiSjNDZm9iMzlEU2pYNldocGpNbVU2aWc?oc=5",
+      "ageHours": 177.61067722222222
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Holiday",
+      "category_en": "Holiday",
+      "date": "2026.08.26",
+      "title_kr": "Macy's, Holiday season 대비 exclusive Disney Capsule Collection 확장 공개",
+      "title_en": "The Disney x Macy’s Holiday Capsule Expands With Whimsical Takes on Diamond Necklaces, Sweatshirts, Crossbodies, and More",
+      "body_kr": "Macy's has expanded its exclusive Disney x Macy's Holiday capsule collection with whimsical designs across multiple categories. This IP-driven assortment is designed to boost holiday retail traffic and sales.",
+      "source": "Yahoo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNR0dFcVVWODBDQ2Z4SEdWSXZ6TDJDM0Zzdk14dVFoa3QteG9XUHlWUjh1dFRMdzJ3aVhhRnd1cFQzNVNHa3plZm5OSzRpa0dBNkI4MVhFYjFsak5LTUlnV29RNDVldnE0NTllby04X09VTnM5X1JWZDJfenM4MUdQS1liNmpxdTVXUVg3RlpFYWoxLTB6M3AyZEtpMXFiVUE?oc=5",
+      "ageHours": 170.85320416666667
+    }
+  ]
+}
