@@ -1,21 +1,57 @@
 {
   "ok": true,
-  "asOf": "2026-09-02T23:40:43.942Z",
-  "generatedDateKST": "2026-09-03",
+  "asOf": "2026-09-03T23:09:36.067Z",
+  "generatedDateKST": "2026-09-04",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "items": [
     {
       "level": "HIGH",
-      "title_kr": "미 의회, AGOA 및 Haiti HOPE/HELP 프로그램 2년 연장 가결... 대통령 서명 대기 중",
-      "title_en": "Congress extends AGOA and Haiti HOPE/HELP programs for two years, now awaits presidential signature",
-      "body_kr": "미 의회가 아프리카성장기회법(AGOA)과 아이티 HOPE/HELP 무역 특혜 프로그램을 2년 연장하기로 가결했으나, 현재 대통령 서명 및 최종 발효를 앞두고 있다.",
-      "body_en": "U.S. Congress has passed a two-year extension for AGOA and Haiti HOPE/HELP trade preference programs, which are currently awaiting presidential signature.",
-      "action_kr": "아이티 및 AGOA 수혜 국가의 Sourcing capacity와 margin 구조를 재점검하고, 대통령 서명 후 즉각 가동할 수 있도록 Sourcing 계획을 수립할 것.",
-      "action_en": "Review sourcing capacity and margin structures in Haiti and AGOA beneficiary nations, and prepare to execute orders immediately upon presidential signature.",
-      "source": "Miami Herald",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPalBfQUpmRXF3VGdUWTdXcmRUSy1USzJNLWhWSTRHUGFvOGQ1T1hCLV9TaHZjcWxmN2pNZThVZXRXNjVhMjE4aHJieFhLTnl2alN0cmhaaWRrSDhpX2RlMFNDQU5KNFp4QzZCNk92bUZYNkh5NzZWbVFUazNfbFpUa25JQW5TQWREVkU3NTZQUzkxUdIBkgFBVV95cUxNWTB0bXlYY3RYaTBrSUpORnVfTGZJcFprREdvUERIa1lVQkQ5V0JjM0F6S1dtU2p4MUotNnJfdW40LWZRbTNIaURSMHgyaFdBMzU3UTFHVldXNlhFMTUzMHRhMlJHdWxsUTVWZkkyYmxfSVhCQXc4dFYzRWp4UUlSU3hWV2EwRTFQYml3ZXc0eEx2dw?oc=5",
-      "date": "2026.09.02"
+      "title_kr": "트럼프, 아이티 HOPE/HELP 법안 및 AGOA 2년 연장 서명 완료",
+      "title_en": "Trump signs into law H.R. 6500; 2-yr extension for HOPE, HELP Acts",
+      "body_kr": "트럼프 대통령이 아이티 HOPE/HELP 법안과 AGOA의 2년 연장 법안(H.R. 6500)에 공식 서명하여 법률로 발효되었습니다.",
+      "body_en": "President Trump has signed H.R. 6500 into law, officially granting a two-year extension for the Haiti HOPE/HELP Acts and AGOA.",
+      "action_kr": "아이티 및 아프리카(AGOA) 소싱 팀은 이번 2년 연장 확정에 따라 기존 duty-free 혜택을 반영하여 의류 물량 배정 및 costing 전략을 재검토해야 합니다.",
+      "action_en": "Sourcing teams managing Haiti and AGOA must immediately update capacity allocations and costing strategies to leverage the newly enacted two-year duty-free extension.",
+      "source": "Fibre2Fashion",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWkU0RWRBNzFMQTNkREthOUl2NkZzSTRWcW93M3VqUXVjTjVwaXZTbGZIbE9IanVzMWRBbWlsQlVIazNlMkRkVmNncFRmSDF3SUhfRFdBbk5ySnhBNE56SU9YSmhQMEN6QjdRLTV0MXByUUJEd3dES3ppQll1a1R5S2Zkc3QtNlpqaHlKaElsajBQR1FpNVF2YjBUUVRfUHdPblJqT18tSmZKZExjLXd3ODFMdUNkamVhVVFwdHlya2p2M2RhaDFLem1iQVlHQ3c?oc=5",
+      "date": "2026.09.03"
+    },
+    {
+      "level": "HIGH",
+      "title_kr": "미 의회, AGOA 및 아이티 HOPE/HELP 무역 프로그램 재가동 승인",
+      "title_en": "Congress Votes to Reauthorize AGOA, Haiti HOPE-HELP Trade Programs For Two Years",
+      "body_kr": "미국 의회가 AGOA 및 아이티 HOPE/HELP 프로그램의 2년 재가동을 승인하며 의회 절차를 완료했습니다.",
+      "body_en": "The U.S. Congress successfully voted to reauthorize the AGOA and Haiti HOPE-HELP trade programs for an additional two years.",
+      "action_kr": "영업 및 머천다이징 팀은 바이어들과 접촉하여 해당 국가들의 관세 혜택 연장(법안 서명 완료 반영)을 전제로 한 장기 오더 및 프로그램 제안을 강화해야 합니다.",
+      "action_en": "Sales and merchandising teams should leverage the reauthorization to pitch long-term apparel programs to buyers under secure trade preferences.",
+      "source": "WWD",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdFdpU1RiZGVlZFBpcHVoeXRqcUVNTU5GYkZzeTRQUnpIdkgyU3VxcTNabkRkUE16T1BmWmpTZ1VZdUhjaVp3ODRJYTBjbWJxRDd0bWZzdlE2el9ZTlk4NFV6SC14SGN6cmtBMFE2TkZUUUZ0bWRmQWxnczlGclJSZ2dZdzlKU2FhUFBpU0F5TXc2ajg1emU1WEs2SkxheUFxdWhxVVRIMFlSNlBqSkczUVFhZ24?oc=5",
+      "date": "2026.09.01"
+    },
+    {
+      "level": "MEDIUM",
+      "title_kr": "홀리스터, 타겟(Target)과의 제휴로 신규 고객 확보 가속화",
+      "title_en": "Hollister is acquiring new customers through Target as it looks beyond apparel",
+      "body_kr": "홀리스터(Hollister)가 타겟을 통한 신규 고객 유치와 의류 카테고리 확장을 적극 추진하고 있습니다.",
+      "body_en": "Hollister is successfully acquiring new customer segments through its partnership with Target while expanding beyond traditional apparel.",
+      "action_kr": "A&F/Hollister 담당 영업 및 디자인 팀은 타겟 제휴 채널의 고객 반응을 분석하여, 캐주얼 및 라이프스타일 확장 트렌드에 맞는 상품 개발을 제안해야 합니다.",
+      "action_en": "Account teams handling Hollister must analyze the brand's Target-driven expansion and pitch lifestyle-oriented casual apparel designs.",
+      "source": "glossy.co",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTFNvOWI0U3VlbG9YR1NFa0JwTVBEcGgyQ3hnM0Z2NnZGOThkVTZkUGRFdkhpVzNzUE1PZzdhaVBnUTFkM2lWM3VRWFJhM3MyTldDRXBGUEMwYlJpYlp3MWg4TkpNRzRGSEZSNmRhclpOYWJEaXZVNUluY21GLUdnZ01R?oc=5",
+      "date": "2026.08.27"
+    },
+    {
+      "level": "MEDIUM",
+      "title_kr": "콜스(Kohl’s), 2분기 매출 감소에도 수익성(Profit) 방어 성공",
+      "title_en": "Earnings call transcript: Kohl’s posts Q2 2026 profit beat as sales miss",
+      "body_kr": "콜스가 2분기 매출 목표는 미달했으나 철저한 비용 통제로 이익률 방어에 성공했습니다.",
+      "body_en": "Kohl's reported a Q2 sales miss but beat profit expectations driven by disciplined cost management.",
+      "action_kr": "콜스 담당 영업 팀은 마진 방어 기조에 맞춰 원가 절감형 소재 제안과 엄격한 재고 관리를 연계한 제안 영업을 준비해야 합니다.",
+      "action_en": "Sales teams managing Kohl's should focus on cost-engineered product proposals that align with the retailer's strict margin-protection strategy.",
+      "source": "Investing.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPLWxOQnZVdmVaWkx2MEZKVHVTM2xiTXdTdDdzR1lDeUZRLS1pRlZTRVlrY0xyTldmVGpaRkl5amZwRF8zNEt5ZjFieE5sVEVucFVfUkZxLTl3MndtdFh3RWtRUndkaFRMVnBwVF84dXNwYmlZWklCanhZOGRtTVpuam9rOEVTdjFGcWM0b0dxQjlUb1NvaTBtd2pkekhmdlNyTVU1TWRub3FGOW1sRkN6ODhDYlc2eExEeXZFdDlZUlkwSzdV?oc=5",
+      "date": "2026.08.26"
     }
   ]
 }
