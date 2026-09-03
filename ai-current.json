@@ -1,80 +1,81 @@
 {
   "ok": true,
-  "asOf": "2026-09-03T12:57:57.599Z",
-  "generatedDateKST": "2026-09-03",
+  "asOf": "2026-09-03T23:01:10.661Z",
+  "generatedDateKST": "2026-09-04",
   "schedule": "Mon-Fri 08:00 KST",
-  "refreshStatus": "VERIFIED",
+  "refreshStatus": "RULE_FALLBACK",
   "stale": false,
-  "provider": "Google Gemini",
-  "model": "gemini-3.5-flash-lite",
+  "provider": "Rule Fallback",
+  "model": null,
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-09-03",
+  "competitorDateKST": "2026-09-04",
+  "fallbackReason": "Unexpected non-whitespace character after JSON at position 2412 (line 1 column 2413)",
   "insight": {
     "headline": {
-      "kr": "2026년 9월 3일 8담당 데일리 마켓 브리프: 주요 바이어 백투스쿨 및 Holiday 전략 가동",
-      "en": "September 3, 2026 Team 8 Daily Market Brief: Key Buyers Activate Back-to-School and Holiday Strategies"
+      "kr": "Kohl's, 전 Walmart 패션 임원 출신 Ryan M. Waymire를 Chief Merchandising Officer로 영입",
+      "en": "Kohl’s Names Ryan M. Waymire Chief Merchandising Officer"
     },
     "summary": {
-      "kr": "Kohl's의 월마트 출신 최고상품책임자(CMM) 영입 및 DoorDash 협업 확대, Macy's의 Northridge Fashion Center Toys R Us 오픈 및 디즈니 Holiday 캡슐 확장, A&F의 견조한 의류 수요에 따른 연간 실적 전망 상향 등 주요 바이어들의 하반기 채널 다각화와 상품 전략이 활발하게 전개되고 있습니다.",
-      "en": "Major buyers are actively expanding channel diversification and merchandising strategies for the second half, highlighted by Kohl's appointing a new chief merchant and expanding DoorDash delivery, Macy's launching a Toys R Us partnership and Disney holiday capsules, and Abercrombie & Fitch raising full-year forecasts on robust apparel demand."
+      "kr": "오늘 Buyer News와 Competitor Intelligence를 기준으로 Kohl's, A&F/Hollister, Macy's의 주요 변화와 경쟁사 움직임을 함께 점검했습니다. Team 8은 상품, pricing, promotion 및 sourcing 관점에서 실제 제안으로 연결 가능한 signal을 우선 확인할 필요가 있습니다.",
+      "en": "Today's brief combines buyer news and competitor intelligence across Kohl's, A&F/Hollister and Macy's. Team 8 should prioritize actionable signals in product, pricing, promotion and sourcing."
     },
     "tags": [
-      "#KohlS",
-      "#ANF",
-      "#Macys",
-      "#Holiday2026"
+      "#BuyerNews",
+      "#Competitor",
+      "#Team8",
+      "#DailyBrief"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "월마트 출신 패션 임원을 새로운 최고상품책임자(CMM)로 임명하여 상품 전략 개편을 예고했으며, DoorDash와의 Partnership을 통해 백투스쿨 의류 및 기숙사 용품 배송 채널을 강화하며 긴급 소비자 수요 흡수에 주력하고 있습니다.",
-        "en": "Kohl's appointed a former Walmart fashion executive as its new chief merchant, signaling upcoming shifts in merchandise strategy, while expanding back-to-school and dorm gear delivery channels via DoorDash to capture urgent consumer demand."
+        "kr": "주요 경쟁사들의 조기 노동절 할인 공세와 신임 CEO 체제 속에서 Kohl's는 promotion 대응과 가격 경쟁력 확보가 시급합니다.",
+        "en": "Amid aggressive early Labor Day promotions by main competitors and leadership changes, Kohl's urgently needs to sharpen its promotional response and price competitiveness."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "탄탄한 의류 수요에 힘입어 Q2 실적 호조를 기록하며 full-year forecast를 상향 조정했으며, 핵심 category 전반에서 건전한 sell-through rate를 유지하고 있습니다.",
-        "en": "Abercrombie & Fitch raised its full-year forecasts following a strong Q2 earnings beat driven by robust apparel demand, signaling healthy sell-through rates across core categories."
+        "kr": "Urban Outfitters의 누룰리(Nuuly) 구독 모델 호조와 주요 브랜드들의 노동절 세일 경쟁 속에서 차별화된 영디자이너 전략이 필요합니다.",
+        "en": "Amid Urban Outfitters' Nuuly success and intense Labor Day promotional rivalry, distinct young-consumer strategies are required."
       },
       {
         "buyer": "Macy's",
-        "kr": "캘리포니아 Northridge Fashion Center에 Toys R Us 매장을 오픈하며 장난감 category traffic 유입을 도모하고 있으며, Holiday 시즌을 대비해 독점 디즈니 캡슐 컬렉션을 확장 공개하며 traffic 제고에 나서고 있습니다.",
-        "en": "Macy's is driving traffic through its toy retailer comeback by opening a new Toys R Us store at Northridge Fashion Center and expanding its exclusive Disney holiday capsule collection to boost seasonal retail traffic and sales."
+        "kr": "Nordstrom을 비롯한 주요 백화점들의 가을 시즌 및 노동절 얼리버드 promotion 경쟁이 심화되고 있습니다.",
+        "en": "Competition around fall-season and Labor Day early-bird promotions among major department stores like Nordstrom is intensifying."
       }
     ],
     "opportunities": [
       {
-        "kr": "Macy's의 Toys R Us 입점 및 디즈니 콜라보 확장에 발맞추어, traffic 유입을 극대화할 수 있는 Holiday 시즌 키즈 및 라이프스타일 category 제안 강화",
-        "en": "Leverage Macy's Toys R Us partnership and expanded Disney capsule by proposing targeted holiday kids and lifestyle category assortments to maximize traffic."
+        "kr": "단독 가치 제안(UVP)을 강조하고 시즌 전환기 맞춤형 가격 전략을 재수립해야 합니다.",
+        "en": "Emphasize unique value propositions and restructure transitional pricing strategies."
       },
       {
-        "kr": "Kohl's의 신임 CMM 체제 출범에 맞춘 신규 상품 기획 및 백투스쿨·온디맨드 배송 대응형 소량·적기 납기 상품 구성 제안",
-        "en": "Align with Kohl's's new chief merchant transition by proposing refreshed assortment structures and agile, on-time delivery options tailored for back-to-school and rapid replenishment."
+        "kr": "Z세대 타겟 고객을 위한 디지털 리유즈 또는 순환 경제형 패션 프로그램 도입 가능성을 검토해야 합니다.",
+        "en": "Explore the introduction of digital reuse or circular-fashion programs tailored to Gen Z consumers."
       },
       {
-        "kr": "A&F의 상향된 실적 가이드라인과 견조한 수요 흐름을 바탕으로 코어 의류 품목의 reorder 및 추가 스타일 제안 확대",
-        "en": "Capitalize on Abercrombie & Fitch's raised earnings forecast and strong demand by expanding reorders and proposing additional styles for core apparel categories."
+        "kr": "개인화된 쇼핑 제안과 연계한 차별화된 가을 시즌 promotion을 강화해야 합니다.",
+        "en": "Enhance differentiated fall promotions linked with personalized shopping recommendations."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "주요 경쟁사들의 노동절(Labor Day) 할인 공세 및 패스트패션(Shein, Temu 등)의 가격 압박 속에서 바이어들의 margin 방어 및 재고 조정 리스크 상존",
-      "en": "Moderate risk from competitor Labor Day promotional pushes and fast-fashion price pressures, which may lead buyers to closely manage margins and inventory levels."
+      "kr": "일부 signal은 빠르게 변할 수 있으므로 source 원문 및 buyer 반응을 함께 확인해야 합니다.",
+      "en": "Some signals can change quickly, so validate source articles and buyer reactions before decisions."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Kohl's 신임 CMM 체제 대비 바이어 맞춤형 상품 제안서 업데이트 및 미팅 준비",
-        "en": "Update buyer-specific product proposals and prepare for meetings in light of Kohl's's new chief merchant transition."
+        "kr": "오늘자 Buyer News와 competitor source 중 영업 제안으로 연결 가능한 1~2개 signal을 팀별로 선정합니다.",
+        "en": "Select 1-2 actionable buyer/competitor signals for each sales team."
       },
       {
         "owner": "Team 8",
-        "kr": "Macy's Holiday 디즈니 캡슐 및 Toys R Us 연계 category 관련 납기 일정 점검",
-        "en": "Review production and delivery schedules for Macy's holiday Disney capsule and related traffic-driving categories."
+        "kr": "가격, product, promotion 관점에서 buyer별 차별화 제안 가능성을 검토합니다.",
+        "en": "Review differentiated proposals by buyer across pricing, product and promotion."
       },
       {
         "owner": "Team 8",
-        "kr": "A&F의 Q2 실적 호조 및 가이드라인 상향에 따른 추가 오더 가능성 모니터링",
-        "en": "Monitor potential follow-up orders following Abercrombie & Fitch's strong Q2 earnings beat and raised guidance."
+        "kr": "중요 signal은 다음 개발 및 costing 논의에 반영할 수 있도록 source와 함께 공유합니다.",
+        "en": "Share important signals with sources for upcoming development and costing discussions."
       }
     ]
   }
