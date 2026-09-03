@@ -1,88 +1,88 @@
 {
   "ok": true,
-  "generatedDateKST": "2026-09-03",
-  "asOf": "2026-09-02T23:00:57.900Z",
+  "generatedDateKST": "2026-09-04",
+  "asOf": "2026-09-03T23:01:02.285Z",
   "schedule": "Mon-Fri 08:00 KST",
   "windowDays": 7,
-  "analysisMode": "RULE_FALLBACK",
+  "analysisMode": "GEMINI",
   "buyers": [
     {
       "buyer": "Kohl's",
       "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "Target, Target, Target 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
-        "en": "Recent signals were found for Target, Target, Target. Review the implications by buyer using the cited sources."
+        "kr": "주요 경쟁사들의 조기 노동절 할인 공세와 신임 CEO 체제 속에서 Kohl's는 프로모션 대응과 가격 경쟁력 확보가 시급합니다.",
+        "en": "Amid aggressive early Labor Day promotions by main competitors and leadership changes, Kohl's urgently needs to sharpen its promotional response and price competitiveness."
       },
       "competitors": [
         {
           "name": "Target",
-          "signal": "PRODUCT",
+          "signal": "PROMOTION",
           "move": {
-            "kr": "Save Money in Ocean City: 5 Best Stores for Deals & Discounts - ocnjdaily.com",
-            "en": "Save Money in Ocean City: 5 Best Stores for Deals & Discounts - ocnjdaily.com"
+            "kr": "노동절 시즌을 겨냥한 대규모 조기 할인 행사를 선제적으로 전개함.",
+            "en": "Rolled out major early Labor Day discount events targeting the season."
           },
           "whyItMatters": {
-            "kr": "Kohl's과 유사한 고객층을 두고 경쟁하는 Target의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Target is relevant to Kohl's's competitive set and should be compared across product, pricing and promotion."
+            "kr": "핵심 경쟁사인 Target의 공격적인 프로모션은 Kohl's의 시즌 말 고객 유입을 직접적으로 저해합니다.",
+            "en": "Target's aggressive promotions directly undercut Kohl's end-of-season customer acquisition."
           },
           "action": {
-            "kr": "Target의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Target signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "단독 가치 제안(UVP)을 강조하고 시즌 전환기 맞춤형 가격 전략을 재수립해야 합니다.",
+            "en": "Emphasize unique value propositions and restructure transitional pricing strategies."
           },
           "sources": [
             {
-              "source": "ocnjdaily.com",
+              "source": "TODAY.com",
               "sourceTier": "GENERAL",
               "date": "2026.09.01",
-              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNemZ0ZnNldHMtRlpBdEdYbTIxZy1jU3daOV9WX0wyU0g3UlVORVZWZ3pTME1xeHFjV2Nla2ExTndKQ1Jld0xSdmFCdlZPT0dNbTJhcGJXdHBLemJSaDVTcWlyWTdsLW9sVUprY0VqTm9FT0JmNUdNVldHZkRCOEhzUEZYRlktR0wxdm56amxxMEJqMVRmOVdvd1BmZw?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5JYkFKdU5ZQ2M3WTdqejZiTTFyem8tZzhwWUgxZ1E5OERRamdLeUtqSTlSXzlxRWZwVjZ0aXV0X0hNaXUzc1REX2R3MTNfY21SQnBCcGlMSTJjT0ZQOER6TFRaVExPSTV0UnlQNURWS1QzQQ?oc=5"
             }
           ]
         },
         {
-          "name": "Target",
+          "name": "Walmart",
           "signal": "PRODUCT",
           "move": {
-            "kr": "Why fast-fashion giant Shein faces an uphill battle to regain its mojo - The Business Times",
-            "en": "Why fast-fashion giant Shein faces an uphill battle to regain its mojo - The Business Times"
+            "kr": "타겟의 플레이북을 벤치마크한 새로운 제품 라인을 추가하며 카테고리 확장에 나섬.",
+            "en": "Expanded product categories by introducing a new line borrowing from Target's playbook."
           },
           "whyItMatters": {
-            "kr": "Kohl's과 유사한 고객층을 두고 경쟁하는 Target의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Target is relevant to Kohl's's competitive set and should be compared across product, pricing and promotion."
+            "kr": "월마트의 제품 라인 다각화는 가성비 의류 및 라이프스타일 시장에서 Kohl's의 입지를 잠식할 수 있습니다.",
+            "en": "Walmart's portfolio expansion threatens Kohl's market share in value apparel and lifestyle goods."
           },
           "action": {
-            "kr": "Target의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Target signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "자사 라이프스타일 및 의류 PB 브랜드의 차별화된 가치를 강조하는 마케팅을 강화해야 합니다.",
+            "en": "Intrench marketing that highlights the differentiated value of private label lifestyle and apparel brands."
           },
           "sources": [
             {
-              "source": "The Business Times",
+              "source": "thestreet.com",
               "sourceTier": "GENERAL",
-              "date": "2026.09.01",
-              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUlB3bkxQQVE4UWQ1ckkzc0VRZS1FRW1rQXFDOVJvQW1RRnBkYnY1U3lrWE5UeTdGdGszY2Joa3dka0JWUk1yUFZCNWpHcFNTbVRWUVdPeTBqVURPcHJNbE1EdFFxb043N0NwdFFha24yd3c2V3BKcVBjNWJhSy1LUzB2WEdjcUE0NTZUMDRfTzFRbjZ0OXdjZ3F3eW9qOWJ5UTRTcURNb2piTTBGcGdMWTFlN0NGdw?oc=5"
+              "date": "2026.08.30",
+              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNR3BoTE1uZUNYZmlWdm5YT1ZEcEJnS1JObjA2cDJjYlgwTVByYlJwdmx6ZC1hNkN5b2lpdEFnY1pmYU8xU1FmR2R3UDJhcUlIX2phSFAtNDJTY0tkWjlUYmRQcVRzRnBQcWFYeUtocjhZRGRvazJNc3hrYlAwFjBJYThiMFRyTjhlWVE?oc=5"
             }
           ]
         },
         {
-          "name": "Target",
-          "signal": "PRODUCT",
+          "name": "JCPenney",
+          "signal": "PROMOTION",
           "move": {
-            "kr": "Fashion police: France targets Shein, Temu with fines - Redland City Bulletin",
-            "en": "Fashion police: France targets Shein, Temu with fines - Redland City Bulletin"
+            "kr": "9월 맞춤형 쿠폰 코드 및 할인 프로모션을 대거 발행함.",
+            "en": "Issued widespread September-specific coupon codes and discount promotions."
           },
           "whyItMatters": {
-            "kr": "Kohl's과 유사한 고객층을 두고 경쟁하는 Target의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Target is relevant to Kohl's's competitive set and should be compared across product, pricing and promotion."
+            "kr": "동일 가치대 경쟁사인 JCPenney의 쿠폰 공세는 가격에 민감한 백화점 고객층을 이탈시킬 위험이 있습니다.",
+            "en": "JCPenney's coupon push risks luring away price-sensitive department store shoppers."
           },
           "action": {
-            "kr": "Target의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Target signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "로열티 프로그램 회원 전용 타겟형 인센티브와 프로모션을 즉각 도입해야 합니다.",
+            "en": "Immediately deploy targeted incentives and promotions exclusively for loyalty members."
           },
           "sources": [
             {
-              "source": "Redland City Bulletin",
+              "source": "StyleCaster",
               "sourceTier": "GENERAL",
               "date": "2026.09.01",
-              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM2tTWXhvQXJfdEZINmNuMDB1bWdZUnJQMVVVMGxIRjFseWQ2SGl4TldteUxENHFrMTR6YWVQc2VjVUxOcUo2YkNaMG1YMGNQMmlQRFpoN2h6TDlQQnRHQktUZUFBWTlycmIwWl9hZ1VnSlpRY1pVbzVUVy1WRXJDZjNKOWNTOGQ1M1RBTDgyOHFVTnh1TW50NTlacWJDMC12MGJJakh1UDU?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLWxKYzJoTkVkbEZ0TEhBVlNUTXlETjZwRmZmWGd0YTNZSlpGV2xrTXoyQ09pRmg2V3pMaXg4d0o4bk5LbGktTjZ3R0VmZDJlamdXT05QQWtoVTIyMmpCY29DMHlHWkZneGNtUmd4OTdfZF9lbDk2eWxCc05kYkFGZlBkal9hT0pIb1JITWdoV3lMU1dVUUxoRlY0RkFSejg?oc=5"
             }
           ]
         }
@@ -92,31 +92,31 @@
       "buyer": "A&F / Hollister",
       "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "Urban Outfitters, American Eagle, American Eagle 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
-        "en": "Recent signals were found for Urban Outfitters, American Eagle, American Eagle. Review the implications by buyer using the cited sources."
+        "kr": "Urban Outfitters의 누룰리(Nuuly) 구독 모델 호조와 주요 브랜드들의 노동절 세일 경쟁 속에서 차별화된 영디자이너 전략이 필요합니다.",
+        "en": "Amid Urban Outfitters' Nuuly success and intense Labor Day promotional rivalry, distinct young-consumer strategies are required."
       },
       "competitors": [
         {
           "name": "Urban Outfitters",
-          "signal": "PRODUCT",
+          "signal": "FINANCIAL",
           "move": {
-            "kr": "'Cheap-Looking', 'Sweaty' and 'It Gives Shein': Why Gen Z Is Ditching Polyester for Cotton and Linen - Fashion Times UK",
-            "en": "'Cheap-Looking', 'Sweaty' and 'It Gives Shein': Why Gen Z Is Ditching Polyester for Cotton and Linen - Fashion Times UK"
+            "kr": "렌탈 플랫폼 '누룰리(Nuuly)'의 기록적인 성장에 힘입어 2분기 역대 최고 매출을 기록함.",
+            "en": "Achieved record second-quarter revenue driven by the strong growth of rental platform Nuuly."
           },
           "whyItMatters": {
-            "kr": "A&F / Hollister과 유사한 고객층을 두고 경쟁하는 Urban Outfitters의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Urban Outfitters is relevant to A&F / Hollister's competitive set and should be compared across product, pricing and promotion."
+            "kr": "지속가능성과 렌탈 서비스를 선호하는 젊은 세대의 소비 패턴 변화가 경쟁사에 유리하게 작용하고 있음을 시사합니다.",
+            "en": "Indicates that Gen Z/Millennial preference for sustainability and rental services is benefiting competitors."
           },
           "action": {
-            "kr": "Urban Outfitters의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Urban Outfitters signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "Z세대 타겟 고객을 위한 디지털 리유즈 또는 순환 경제형 패션 프로그램 도입 가능성을 검토해야 합니다.",
+            "en": "Explore the introduction of digital reuse or circular-fashion programs tailored to Gen Z consumers."
           },
           "sources": [
             {
-              "source": "Fashion Times UK",
-              "sourceTier": "GENERAL",
-              "date": "2026.09.02",
-              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcllRc0hScVlkWmlGT0d6UGFtd05SZUJITENTYTRleGRfQkw4X0tFb20ta0RDSFk0Y1lqaFFrbmNmbW9rMzlRdEt1T2UwV19NXzNBZ3ZpNV9hd0dfRnpvN1RlVlFHb2VXbFpoVzlQOEg2aTZkSnlwcGhQYi1Cc2pLNUV0YzdoMEFpZVRUTTRYVElTMmhhUXNtMWg5dGMtTG5GMWRxNzJNeFRLS2x1a3lLWlZLekJ4N0k?oc=5"
+              "source": "Retail Dive",
+              "sourceTier": "INDUSTRY",
+              "date": "2026.08.31",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSjhIeVhHMGlodDZ1R3RwOWE3dzRyeDI0TkRndGFFckR2WTRDWjBkYUhIOHdVYkhFRnA3TW1jSGx6RUluVmRZUzh0aXpjbmEyZUlhYVdOcTJjRGNQbXd3Nl9PejBXc0ZTZDktbDdFZEhIMzNDcGtmWW4wR1lxZTBaN1Y2Z3czanN6MTZkQjRDNGY4QnFnZGZtNQ?oc=5"
             }
           ]
         },
@@ -124,47 +124,47 @@
           "name": "American Eagle",
           "signal": "PRODUCT",
           "move": {
-            "kr": "Shein Is the Top U.S. Fashion Shop for Women - statista.com",
-            "en": "Shein Is the Top U.S. Fashion Shop for Women - statista.com"
+            "kr": "축구 스타 라민 야말(Lamine Yamal)을 기용하여 15.95달러부터 시작하는 29개의 스타일링 컬렉션을 런칭함.",
+            "en": "Partnered with soccer star Lamine Yamal to launch a 29-piece styling collection starting from $15.95."
           },
           "whyItMatters": {
-            "kr": "A&F / Hollister과 유사한 고객층을 두고 경쟁하는 American Eagle의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by American Eagle is relevant to A&F / Hollister's competitive set and should be compared across product, pricing and promotion."
+            "kr": "대중적이고 파급력 있는 스포츠 스타와의 협업이 가성비와 트렌드를 모두 잡으며 십대 소비자층을 직접 타겟팅하고 있습니다.",
+            "en": "High-impact sports celebrity collaboration captures both affordability and trends, directly targeting teens."
           },
           "action": {
-            "kr": "American Eagle의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this American Eagle signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "인플루언서 및 글로벌 스포츠 스타를 활용한 바이럴 마케팅과 가성비 라인업을 보강해야 합니다.",
+            "en": "Bolster viral marketing and value-oriented product lineups utilizing influencers and global sports stars."
           },
           "sources": [
             {
-              "source": "statista.com",
+              "source": "news.designrush.com",
               "sourceTier": "GENERAL",
-              "date": "2026.09.01",
-              "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNU9abmlYZk9wN3VFbjJqT3MzN1V5NHlOck5WQmVSaEVjOWdZd3JRNVhtT0NHNDMwMEo5WWdJTkJON05DSjhjNzBraHVQNUYySkYycm5nUlVEWDhUbzJEMU9WOTFrVS1JV0J6Q2ljRFNBRUtRYWhqeDZpUlJScER2NHcxcmk2UjZQaGpFck8wbkhsRjBlR2FqZFRfMWItbDBnWk0xQ192V3NRY29NSElqUzE0UUdDZS1pbFRHeFN3WdIBxAFBVV95cUxOQnVOS0ZHV0VsYzkwUmNkamdNYTFEWHB1OFNfSk42QS1NNzRUN1Y2T3JKWW9YdEVqcU9lcHdsQm9JTEszMWZzaVo5Q21POUx6dFNRZ0RhTVZPaEg1MGVDeG9teEY5LUlvMm9sWnVtbFRWRVVHcEktN2RvTkR6NWRfTGtKTFRVYi1GYkpURVZROURqRzZra0RScTBxNF8xYVRqS091MHNfWElWTDFXSUd6bUtpY214VTZnaHBYdkFHRGJUZ0Fx?oc=5"
+              "date": "2026.09.03",
+              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrOFRPYmdzTk43N1p4MEQ5SjF4aURMaTZvZUdUV1JXY0pPUlF3eHdxMnVsNDFIcHpoNVFuc2dDUkRTTk1UWmhzalRkVFI0YWlPdF9kblpEZlZRM0dfWWVROEV1czItdG9NeFBDdUVkMmNyMjN6?oc=5"
             }
           ]
         },
         {
-          "name": "American Eagle",
-          "signal": "PRODUCT",
+          "name": "Anthropologie",
+          "signal": "PROMOTION",
           "move": {
-            "kr": "21 Lingerie Brands Worth Keeping in Your Top Drawer - Glamour",
-            "en": "21 Lingerie Brands Worth Keeping in Your Top Drawer - Glamour"
+            "kr": "시즌 종료 및 노동절을 맞아 최대 75% 할인 등 공격적인 클리어런스 세일을 진행함.",
+            "en": "Executed aggressive clearance sales with up to 75% off for end-of-season and Labor Day."
           },
           "whyItMatters": {
-            "kr": "A&F / Hollister과 유사한 고객층을 두고 경쟁하는 American Eagle의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by American Eagle is relevant to A&F / Hollister's competitive set and should be compared across product, pricing and promotion."
+            "kr": "자매 브랜드들의 대대적인 재고 소진 프로모션이 전체 패션 소비 예산을 흡수하고 있습니다.",
+            "en": "Sister brands' massive inventory clearance promotions are absorbing overall fashion consumer spend."
           },
           "action": {
-            "kr": "American Eagle의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this American Eagle signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "자사 브랜드 역시 가을 신상품 전개와 연계한 효과적인 프로모션 믹스를 신속히 정비해야 합니다.",
+            "en": "Quickly recalibrate the promotional mix in coordination with new fall arrivals."
           },
           "sources": [
             {
-              "source": "Glamour",
+              "source": "New York Post",
               "sourceTier": "GENERAL",
-              "date": "2026.09.01",
-              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6Qk5sbEdxeU1RUnJKLTNPQ1o5UnA0V2tnYWhVX0NtRW5SdF9yRXZ0NmJkUEd0VlFtM1dMWFNTTkZtVmdwTTdGLVAyU1l1NjlfS21laW1IVVV4Q003TGo4?oc=5"
+              "date": "2026.08.31",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObF9jT2tKYTBwaUpZWU1NYUVuRlhaZWZqSThnRUNoTEdnWFF5OG1fNHBMeDNJeTA4c1NXekJ1c20wbklsTmI0N0poWjRTQ01GV1BSaVd4M2JpVmYwclZSQnY1Q0ZyNDNZN0xiLUVGTkcydklnYktPMEtmYUp5TUhySlNiYXlKZw?oc=5"
             }
           ]
         }
@@ -172,81 +172,81 @@
     },
     {
       "buyer": "Macy's",
-      "competitionLevel": "HIGH",
+      "competitionLevel": "MEDIUM",
       "keyTakeaway": {
-        "kr": "Nordstrom, Nordstrom, JCPenney 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
-        "en": "Recent signals were found for Nordstrom, Nordstrom, JCPenney. Review the implications by buyer using the cited sources."
+        "kr": "Nordstrom을 비롯한 주요 백화점들의 가을 시즌 및 노동절 얼리버드 프로모션 경쟁이 심화되고 있습니다.",
+        "en": "Competition around fall-season and Labor Day early-bird promotions among major department stores like Nordstrom is intensifying."
       },
       "competitors": [
         {
           "name": "Nordstrom",
-          "signal": "PRODUCT",
+          "signal": "PROMOTION",
           "move": {
-            "kr": "Score up to 75% off with end-of-season clothing sales ahead of Labor Day 2026 - New York Post",
-            "en": "Score up to 75% off with end-of-season clothing sales ahead of Labor Day 2026 - New York Post"
+            "kr": "가을 워드프로브 구축을 위한 광범위한 노동절 할인 및 얼리버드 패션 세일을 론칭함.",
+            "en": "Launched extensive Labor Day discounts and early-bird fashion sales to build fall wardrobes."
           },
           "whyItMatters": {
-            "kr": "Macy's과 유사한 고객층을 두고 경쟁하는 Nordstrom의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Nordstrom is relevant to Macy's's competitive set and should be compared across product, pricing and promotion."
+            "kr": "동일 프리미엄 백화점 채널인 Nordstrom의 조기 세일 개시는 Macy's의 충성 고객층을 분산시킬 수 있습니다.",
+            "en": "Early sales by peer department store Nordstrom can fragment Macy's loyal customer base."
           },
           "action": {
-            "kr": "Nordstrom의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Nordstrom signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "개인화된 쇼핑 제안과 연계한 차별화된 가을 시즌 프로모션을 강화해야 합니다.",
+            "en": "Enhance differentiated fall promotions linked with personalized shopping recommendations."
           },
           "sources": [
             {
-              "source": "New York Post",
+              "source": "Vogue",
               "sourceTier": "GENERAL",
-              "date": "2026.08.31",
-              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVXUwLXRzRmpSQ3dtSWFNYTRhY1FKa2o4cDdKYWJuOXVZeGhTMlhlUWhvbTBaY0xyUURTUFlhQmpKTkJULVJuNU9CQ2hueFlfZzdjUkhsUHprdDh5aGFDZ19OWUtlc1E2emgtTzByZVlBVGZMdWcwVE5DNVd0V3hEWXBmNUd4WW1EN3ZIcDZ3NVI2cWxKd1JKY0phY1ZlMlhYbHR1UEptSWpYSC0zdFhqUWxRZGM3aGtiTzI4?oc=5"
-            }
-          ]
-        },
-        {
-          "name": "Nordstrom",
-          "signal": "PRODUCT",
-          "move": {
-            "kr": "21 Lingerie Brands Worth Keeping in Your Top Drawer - Glamour",
-            "en": "21 Lingerie Brands Worth Keeping in Your Top Drawer - Glamour"
-          },
-          "whyItMatters": {
-            "kr": "Macy's과 유사한 고객층을 두고 경쟁하는 Nordstrom의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Nordstrom is relevant to Macy's's competitive set and should be compared across product, pricing and promotion."
-          },
-          "action": {
-            "kr": "Nordstrom의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Nordstrom signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
-          },
-          "sources": [
-            {
-              "source": "Glamour",
-              "sourceTier": "GENERAL",
-              "date": "2026.09.01",
-              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6Qk5sbEdxeU1RUnJKLTNPQ1o5UnA0V2tnYWhVX0NtRW5SdF9yRXZ0NmJkUEd0VlFtM1dMWFNTTkZtVmdwTTdGLVAyU1l1NjlfS21laW1IVVV4Q003TGo4?oc=5"
+              "date": "2026.08.28",
+              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MWmtaMjZleXBQUVNGV2tRenVkNVpGUE1BU0p1Y2ROclRLV1hvWV9RWFp4NVRWekUxSkE2VUlXWlI5STNMSDVEbmx4Q1hCdGdBTW9weVFOSlNsdnlWSHB1VFJXZXJqdw?oc=5"
             }
           ]
         },
         {
           "name": "JCPenney",
-          "signal": "PRODUCT",
+          "signal": "PROMOTION",
           "move": {
-            "kr": "JCPenney Coupon Codes & Discounts for August 2026 - StyleCaster",
-            "en": "JCPenney Coupon Codes & Discounts for August 2026 - StyleCaster"
+            "kr": "9월 맞춤형 신규 쿠폰 코드 및 할인 혜택을 공개함.",
+            "en": "Released new September-tailored coupon codes and discount benefits."
           },
           "whyItMatters": {
-            "kr": "Macy's과 유사한 고객층을 두고 경쟁하는 JCPenney의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by JCPenney is relevant to Macy's's competitive set and should be compared across product, pricing and promotion."
+            "kr": "가성비 중심의 프로모션이 예산 제약을 받는 중산층 소비자들의 선택에 영향을 미치고 있습니다.",
+            "en": "Value-driven promotions influence the choices of budget-constrained middle-market consumers."
           },
           "action": {
-            "kr": "JCPenney의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this JCPenney signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "Macy's만의 가치 있는 브랜드 포트폴리오를 강조하는 리워드 프로그램을 부각시켜야 합니다.",
+            "en": "Highlight reward programs emphasizing Macy's valuable brand portfolio."
           },
           "sources": [
             {
               "source": "StyleCaster",
               "sourceTier": "GENERAL",
               "date": "2026.09.01",
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVDgyY0c5N2t0cE1EZEkzM3dUT1ZWOFZDWnYzSkJIOTVJaFZwVHpiZzB6clJWOThiTFd5Y2FQcWg4OVJCNWwxVnZXTGZaVGkxSTIxbWJpNXVkWG12WTd1RzAtLTBudENhZGJMQk11QkhENU1VZGJYMzRYdktLSy1ZWDNCTFRZWWZuV2loLVd3dGxPeG1VTXNJcVhvWTUwamc?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLWxKYzJoTkVkbEZ0TEhBVlNUTXlETjZwRmZmWGd0YTNZSlpGV2xrTXoyQ09pRmg2V3pMaXg4d0o4bk5LbGktTjZ3R0VmZDJlamdXT05QQWtoVTIyMmpCY29DMHlHWkZneGNtUmd4OTdfZF9lbDk2eWxCc05kYkFGZlBkal9hT0pIb1JITWdoV3lMU1dVUUxoRlY0RkFSejg?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Nordstrom",
+          "signal": "DIGITAL",
+          "move": {
+            "kr": "개인화된 어패럴 쇼핑 시장의 확장 트렌드에 발맞추어 옴니채널 디지털 경험을 고도화함.",
+            "en": "Advanced omnichannel digital experiences in line with the expanding personalized apparel shopping market."
+          },
+          "whyItMatters": {
+            "kr": "고객 맞춤형 디지털 서비스 고도화는 백화점 업계의 온라인 리텐션율을 좌우하는 핵심 요소입니다.",
+            "en": "Enhancing customer-tailored digital services is a critical factor driving online retention in department stores."
+          },
+          "action": {
+            "kr": "데이터 기반의 개인화된 스타일링 및 추천 알고리즘 서비스를 점검하고 보완해야 합니다.",
+            "en": "Review and refine data-driven personalized styling and recommendation algorithmic services."
+          },
+          "sources": [
+            {
+              "source": "openPR.com",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.03",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd1JQcXg0ajhrYWRRYkpzOGFHNVE4ajVQUmNYemkwTElmRlp2enl1OXB0dE9LZmIyUG5oam5aMmxYWnRfMm8xOV8tMUxsTWlxT1ZVNU9sLU9CLXhGaEZoTUV2VTl2Z3dfZ2NiRXBoRXVvTVFfMkh0R05nbGszelZQbW9aRWtzTHdoalNCd2pIZndmWXNnZFJYdTAtUjN2ZXFLNUE?oc=5"
             }
           ]
         }
@@ -254,81 +254,81 @@
     },
     {
       "buyer": "Ann Taylor",
-      "competitionLevel": "HIGH",
+      "competitionLevel": "MEDIUM",
       "keyTakeaway": {
-        "kr": "Banana Republic, Banana Republic, Banana Republic 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
-        "en": "Recent signals were found for Banana Republic, Banana Republic, Banana Republic. Review the implications by buyer using the cited sources."
+        "kr": "Banana Republic 및 J.Crew의 대규모 노동절 세일과 뉴욕패션위크 멤버십 연계 마케팅에 대응한 프로모션 전략 정비가 요구됩니다.",
+        "en": "Alignment of promotional strategies is required to counter large-scale Labor Day sales and NYFW membership marketing by Banana Republic and J.Crew."
       },
       "competitors": [
         {
           "name": "Banana Republic",
-          "signal": "PRODUCT",
+          "signal": "CHANNEL",
           "move": {
-            "kr": "Labor Day fashion sales: Save at Abercrombie, Banana Republic, J. Crew and more - ABC News - Breaking News, Latest News and Videos",
-            "en": "Labor Day fashion sales: Save at Abercrombie, Banana Republic, J. Crew and more - ABC News - Breaking News, Latest News and Videos"
+            "kr": "뉴욕패션위크 기간 동안 6일간의 회원 독점 액세스 및 경험을 제공하는 '앙코르 멤버십' 프로그램을 론칭함.",
+            "en": "Launched the 'Encore Membership' program offering six days of member-exclusive access and experiences during NYFW."
           },
           "whyItMatters": {
-            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 Banana Republic의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Banana Republic is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
+            "kr": "프리미엄 멤버십 경험을 통한 충성 고객 락인 전략이 직장인 여성 및 커리어우먼층의 이탈을 유발할 수 있습니다.",
+            "en": "Loyalty lock-in strategies via premium membership experiences could induce churn among career women."
           },
           "action": {
-            "kr": "Banana Republic의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Banana Republic signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "오피스룩 및 커리어 고객을 위한 독점 멤버십 혜택과 프라이빗 이벤트를 기획해야 합니다.",
+            "en": "Plan exclusive membership benefits and private events targeted at office and career-focused customers."
           },
           "sources": [
             {
-              "source": "ABC News - Breaking News, Latest News and Videos",
+              "source": "Gap Inc.",
               "sourceTier": "GENERAL",
-              "date": "2026.09.03",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaDEtc2NQSFlTMW1OS2w1UkJnVDExbnJzZVVUSFNmMkFBaUJxSURkd1VyeUlVNlR4M1BfV2cyQkw3QXJ4T0d0c3RwcUg2ZWg3VUoxMF9JZVlScl9CZUZqN1Q2a0VMb0otSExKUzFWNTl1MHhsQzBJTERkVXBJSGZxalhB0gGHAUFVX3lxTE5mMUFRM1ZBaWZ5TkFOWHdPZ2h2emdvYVNkcGFUTTRoVndNWDdIT2VULXBlZVhvY1hlOU5acWV2cXFBaU55ODg3ZS1aUkVFNkYzVFNEUF9QMmtsU2pwQVlUOUVOS2I3NGlYWVlMeVRtRjdiblNBREZiSk5ycWwzOHZIU2lpWUtUcw?oc=5"
+              "date": "2026.08.31",
+              "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRHAyTjB0eUlJOXBJcGxIUTFvZFRDRlZsM3htcmVNbkZadVB0ZUtiT0dUTkpoT0tzeERvMnV5UlpLclZrTjM3Y2ZVNUUyMC1lM2F6eHlsWU5YSTFRSEZ3ei1mWExObHhoeGVBSUtCNDM1eldzZ09uYk5MZV9uZHJpOWQ5LWUwdWNCUHZMSkJQLUVjR2RpTHlIMXU3Uno?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "J.Crew",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "여름 시즌오프 및 노동절을 맞아 최대 50% 할인하는 대대적인 어패럴 프로모션을 단행함.",
+            "en": "Executed major apparel promotions with up to 50% off for end-of-summer and Labor Day."
+          },
+          "whyItMatters": {
+            "kr": "유사한 타겟층을 공유하는 J.Crew의 공격적인 할인율이 Ann Taylor의 가을 시즌 전환기 매출을 압박합니다.",
+            "en": "J.Crew's aggressive discount rates, sharing a similar target audience, pressure Ann Taylor's fall transition sales."
+          },
+          "action": {
+            "kr": "단순 가격 할인보다는 고품질의 직장인 여성용 신상품 세트를 강조하는 가치 소통에 주력해야 합니다.",
+            "en": "Focus on value communication highlighting high-quality new arrival sets for working women rather than pure discounts."
+          },
+          "sources": [
+            {
+              "source": "Tom's Guide",
+              "sourceTier": "GENERAL",
+              "date": "2026.08.31",
+              "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQamRPQks4RTRuamZSV1B0T1JBZl9fTWpROVhWVWNWVEV4aENSaWJCUVk2N3B2SkJNcHVtX2xnQXBLWW1MQlJNU25BTFBTNl9YWjBPYkhEcFZyZGFiTVI3Z08ySGlySXZJX21CUnNXUmtIVFJJeWE1ejFodFFPTFlRbkRrblY0RUpLVFYwQ2t5MVh3ZUJXS2JLbDF3NjdnUTVEbjFYZy0zVE1iNkN0REtCWVpFRTVxZ2NRakVydVpDWG5tTmE3R1hzMGZR?oc=5"
             }
           ]
         },
         {
           "name": "Banana Republic",
-          "signal": "PRODUCT",
+          "signal": "PROMOTION",
           "move": {
-            "kr": "10 Labor Day Fashion Sales Worth Shopping This Weekend - Harper's BAZAAR",
-            "en": "10 Labor Day Fashion Sales Worth Shopping This Weekend - Harper's BAZAAR"
+            "kr": "주요 패션 미디어를 통해 가을 워드프로브 구축을 위한 노동절 세일 가이드를 대대적으로 노출함.",
+            "en": "Prominently featured Labor Day sale guides for building fall wardrobes across major fashion media."
           },
           "whyItMatters": {
-            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 Banana Republic의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Banana Republic is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
+            "kr": "에디터 추천 및 미디어 노출을 통한 사전 수요 선점이 경쟁사로의 트래픽 유입을 가속화합니다.",
+            "en": "Pre-empting demand through editor picks and media placement accelerates traffic flow to competitors."
           },
           "action": {
-            "kr": "Banana Republic의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Banana Republic signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "스타일리시한 가을 캐리어 룩을 중심으로 한 패션 인플루언서 및 미디어 협업 PR을 강화해야 합니다.",
+            "en": "Strengthen fashion influencer and media collaborative PR centered on stylish fall career looks."
           },
           "sources": [
             {
-              "source": "Harper's BAZAAR",
+              "source": "Vogue",
               "sourceTier": "GENERAL",
-              "date": "2026.09.03",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVTFBSTBvc1hRcGpZRXA5bFd6NkNVUHp4OG9UcDZjRVgybWtTcmdQMEtsbTlueDBiSC05MUlOanFqQ0ZYZVQ4M0JEOFFGaGFXb040LWtXd3hyZlFYOS1QSjJSdFh4QUpKd2REYV91THV3XzRzWmVBdUhqUm1YXzBsQU52b29nams2MlZlSw?oc=5"
-            }
-          ]
-        },
-        {
-          "name": "Banana Republic",
-          "signal": "PRODUCT",
-          "move": {
-            "kr": "Gap Sales Surge as Old Navy Reshapes Canadian Store Network - retail-insider.com",
-            "en": "Gap Sales Surge as Old Navy Reshapes Canadian Store Network - retail-insider.com"
-          },
-          "whyItMatters": {
-            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 Banana Republic의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Banana Republic is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
-          },
-          "action": {
-            "kr": "Banana Republic의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Banana Republic signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
-          },
-          "sources": [
-            {
-              "source": "retail-insider.com",
-              "sourceTier": "GENERAL",
-              "date": "2026.09.03",
-              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUjBocGVLM3BoOXc5WjdFckJmanI0Z0V5ZWJVUkwwNzBKRnpWd3Q5cmFxUHRUMS1pczg0aHpBRUluWUppcVpVem95VF83MTJjZnlYMXZyQURHZmp1YmZmWFpOanFNYXJxaUQtNkhwRmZ1b09iRWZmM1RSRER1cmJKVDNLb0FRU1lLTm5Fa1UzSUUwZ2dzcnBvWGswZG1UT0J5ODVHdDJZRXVkWjV5dGFR?oc=5"
+              "date": "2026.08.28",
+              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5MWmtaMjZleXBQUVNGV2tRenVkNVpGUE1BU0p1Y2ROclRLV1hvWV9RWFp4NVRWekUxSkE2VUlXWlI5STNMSDVEbmx4Q1hCdGdBTW9weVFOSlNsdnlWSHB1VFJXZXJqdw?oc=5"
             }
           ]
         }
@@ -336,81 +336,81 @@
     },
     {
       "buyer": "Talbot's",
-      "competitionLevel": "HIGH",
+      "competitionLevel": "LOW",
       "keyTakeaway": {
-        "kr": "Lands' End, Lands' End, J.Jill 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
-        "en": "Recent signals were found for Lands' End, Lands' End, J.Jill. Review the implications by buyer using the cited sources."
+        "kr": "Lands' End의 상징적인 시그니처 아이템 할인 프로모션과 에디터 추천 기획전이 활발히 전개되고 있습니다.",
+        "en": "Lands' End is actively deploying iconic signature item discount promotions and editor-recommended features."
       },
       "competitors": [
         {
           "name": "Lands' End",
           "signal": "PRODUCT",
           "move": {
-            "kr": "Labor Day fashion sales: Save at Abercrombie, Banana Republic, J. Crew and more - ABC News - Breaking News, Latest News and Videos",
-            "en": "Labor Day fashion sales: Save at Abercrombie, Banana Republic, J. Crew and more - ABC News - Breaking News, Latest News and Videos"
+            "kr": "아이코닉한 토트백 등 시그니처 제품군을 30달러 미만으로 할인하는 노동절 프로모션을 진행함.",
+            "en": "Executed a Labor Day promotion discounting signature product lines like iconic tote bags to under $30."
           },
           "whyItMatters": {
-            "kr": "Talbot's과 유사한 고객층을 두고 경쟁하는 Lands' End의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Lands' End is relevant to Talbot's's competitive set and should be compared across product, pricing and promotion."
+            "kr": "클래식하고 실용적인 라이프스타일 아이템을 선호하는 타겟층의 구매 전환을 직접적으로 유도합니다.",
+            "en": "Directly drives purchase conversion among target demographics favoring classic, practical lifestyle items."
           },
           "action": {
-            "kr": "Lands' End의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Lands' End signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "Talbot's 고유의 클래식 헤리티지 아이템을 내세운 기획전을 통해 차별화된 가치를 어필해야 합니다.",
+            "en": "Appeal to differentiated value through special collections highlighting Talbot's proprietary classic heritage items."
           },
           "sources": [
             {
-              "source": "ABC News - Breaking News, Latest News and Videos",
+              "source": "Beaver County Times",
               "sourceTier": "GENERAL",
-              "date": "2026.09.03",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaDEtc2NQSFlTMW1OS2w1UkJnVDExbnJzZVVUSFNmMkFBaUJxSURkd1VyeUlVNlR4M1BfV2cyQkw3QXJ4T0d0c3RwcUg2ZWg3VUoxMF9JZVlScl9CZUZqN1Q2a0VMb0otSExKUzFWNTl1MHhsQzBJTERkVXBJSGZxalhB0gGHAUFVX3lxTE5mMUFRM1ZBaWZ5TkFOWHdPZ2h2emdvYVNkcGFUTTRoVndNWDdIT2VULXBlZVhvY1hlOU5acWV2cXFBaU55ODg3ZS1aUkVFNkYzVFNEUF9QMmtsU2pwQVlUOUVOS2I3NGlYWVlMeVRtRjdiblNBREZiSk5ycWwzOHZIU2lpWUtUcw?oc=5"
+              "date": "2026.09.02",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa3R6bDRCNkpjT0JTc0hDMlVGWnlCTmJCT1VES19OLUhLMjRWbkJrM3JPQ1BlbGhUMGk1SllyLXZmTEdTTkxpRWNEMjVjUW9NQ0p3RVRZLVRpNkFsWVZKUDFUd3JVUU1tU25XMlFCZVlLaWhEX2hxUnFWM3BUczRwZF9hdkRFVXdkYnRaVzVWbi05RlFxT3Y4UzMyaTgxTGFOQUI4M01COU5uWmhmYWhlUUExODJjVWgtUXJpVVdxWmtFUQ?oc=5"
             }
           ]
         },
         {
           "name": "Lands' End",
-          "signal": "PRODUCT",
+          "signal": "PROMOTION",
           "move": {
-            "kr": "Iconic Lands' End tote bags are under $30 at this Labor Day sale - USA Today",
-            "en": "Iconic Lands' End tote bags are under $30 at this Labor Day sale - USA Today"
+            "kr": "패션 편집진들이 엄선한 12가지 가을 필수 웨어 추천 기획을 주요 미디어를 통해 공개함.",
+            "en": "Released a curated feature of 12 essential fall wear pieces handpicked by fashion editors via major media."
           },
           "whyItMatters": {
-            "kr": "Talbot's과 유사한 고객층을 두고 경쟁하는 Lands' End의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Lands' End is relevant to Talbot's's competitive set and should be compared across product, pricing and promotion."
+            "kr": "신뢰도 높은 에디터 추천 콘텐츠가 시니어 및 클래식 패션 소비자들의 구매 결정에 큰 영향을 미칩니다.",
+            "en": "Credible editor-curated content heavily influences purchase decisions among mature and classic fashion consumers."
           },
           "action": {
-            "kr": "Lands' End의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Lands' End signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "시니어 고객층을 타겟으로 한 F/W 시즌 스타일링 가이드 및 룩북 콘텐츠 마케팅을 확대해야 합니다.",
+            "en": "Expand F/W season styling guide and lookbook content marketing targeted at mature customers."
           },
           "sources": [
             {
-              "source": "USA Today",
+              "source": "CNN",
               "sourceTier": "GENERAL",
               "date": "2026.09.03",
-              "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZGJxc1JSRHNEZDAzdkl6NTBkc3pXRUR2RXl2NTBzSDdWRWEyaDdrZjZiMVBZc3JFaWs5RDdmZGQtaVZWcjlZY28wVUNucEN6ZlV1dGNWZ2dqVWUyeHpBYTZYY0ExQUxaQmhqLWxReHhwZ1V2WjhCcVN5dFJxeUhabTVUUS02czQ0NE5LZVFPQXZfMmRwOERKcDdlbEdZV2Rlakc1NnEzVjhwTkp6QjY2ZzIyakZyWnhrMTRhbTV3?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBQenY2WXNBRVhBR2tmY1dwQ3ZFWFVwbU1LZzNjdk5PTWQ4ZU8ya2xpaFFNelBMSmRWQ3hUTi1kWjhHWm1tRThNQlZYcUlxT0xpOFEza3llei1KZExDTFQzNHJoamRLM1hGMVlxbHhYYWVXSVp4OFcwbjlUYw?oc=5"
             }
           ]
         },
         {
-          "name": "J.Jill",
-          "signal": "PRODUCT",
+          "name": "Lands' End",
+          "signal": "PROMOTION",
           "move": {
-            "kr": "BFC chair and Oner CFO: this week’s fashion retail people moves - Drapers",
-            "en": "BFC chair and Oner CFO: this week’s fashion retail people moves - Drapers"
+            "kr": "기한 한정 노동절 얼리버드 세일 프로모션을 전개하여 시즌 말 쇼핑 수요를 흡수함.",
+            "en": "Rolled out time-limited Labor Day early-bird sale promotions to absorb end-of-season shopping demand."
           },
           "whyItMatters": {
-            "kr": "Talbot's과 유사한 고객층을 두고 경쟁하는 J.Jill의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by J.Jill is relevant to Talbot's's competitive set and should be compared across product, pricing and promotion."
+            "kr": "시즌 전환기 할인 경쟁에서 고객 이탈을 방지하기 위한 신속한 가격 및 혜택 대응이 필수적입니다.",
+            "en": "Rapid response in pricing and benefits is essential to prevent customer churn during transitional discount competition."
           },
           "action": {
-            "kr": "J.Jill의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this J.Jill signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "우수 고객 및 로열티 멤버를 대상으로 한 단독 시크릿 세일 이벤트를 즉시 기획해야 합니다.",
+            "en": "Immediately plan exclusive secret sale events targeting top customers and loyalty members."
           },
           "sources": [
             {
-              "source": "Drapers",
+              "source": "NBC News",
               "sourceTier": "GENERAL",
-              "date": "2026.08.28",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUF5aElCUTlVQ3F6MVV5dGlTaXdPNW5KdlVCbVI4VWVXbVRpbFU1dEF5MUxKM09XYi1BOU53NmMzMXMxR1E4T1NRTThaOFpQWEpYbnJpWmlDYTloMkhTckd4TTlnZ09CY0pkanVzbnJKQUh4V3l1a09RSUMzRXhzQlF0d2p1N1FoNkczUDZOdjRGRjdIWVpLTE9yMGc2MXhNbWcxQ1dQbE9zTF9yNnc?oc=5"
+              "date": "2026.09.02",
+              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRWhISE1tc2hEZzk5ZDVTMFBPYm44dHkzR0FOZ3c3bnJyUTFsb1dxMG1qRUY3SW96akk1VmthQ04tcnpmY3ZRNlhHRWRGUk9yYkcyd20tSDJrbzN1ZjZzeERjM1NpQlBackpzSlRESVJmVmFNTkN1MHdBaUZzZnhMd1J5dHc1bWctU3c?oc=5"
             }
           ]
         }
