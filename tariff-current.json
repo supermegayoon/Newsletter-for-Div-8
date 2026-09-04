@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-09-03T00:30:50.735Z",
+  "asOf": "2026-09-04T00:57:36.132Z",
   "basis": "APPAREL MODE: current effective duty treatment for qualifying apparel; FTA/preference base duty reflected.",
   "mode": "APPAREL",
   "refreshStatus": "VERIFIED",
@@ -11,7 +11,7 @@
       "apparelEffectiveRate": 12.5,
       "currentAdditionalRate": 12.5,
       "status": "CURRENT",
-      "currentLabelKr": "일반 의류 기준: 기본 MFN 관세 별도 + 현재 Forced Labor Section 301 추가관세 12.5%",
+      "currentLabelKr": "일반 의류 기준: 기본 MFN 관세 별도 + 현재 강제노동 Section 301 추가관세 12.5%",
       "currentLabelEn": "General apparel: base MFN duty separate + current Forced Labor Section 301 additional duty 12.5%",
       "components": [
         {
