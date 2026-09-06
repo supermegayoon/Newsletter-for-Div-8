@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-09-04T00:57:36.132Z",
+  "asOf": "2026-09-06T22:07:56.247Z",
   "basis": "APPAREL MODE: current effective duty treatment for qualifying apparel; FTA/preference base duty reflected.",
   "mode": "APPAREL",
   "refreshStatus": "VERIFIED",
@@ -48,15 +48,15 @@
       "apparelEffectiveRate": 10,
       "currentAdditionalRate": 10,
       "status": "CURRENT",
-      "currentLabelKr": "의류 기준 Section 301 +10% · Textile/Apparel TRQ는 2026년 9월 1일 공식 시행 전 PENDING",
-      "currentLabelEn": "Apparel Section 301 +10% · textile/apparel TRQ pending official implementation on September 1, 2026",
+      "currentLabelKr": "의류 기준 Section 301 +10% · Textile/Apparel TRQ 메커니즘은 2026년 9월 1일 시행 예정으로 현재 PENDING",
+      "currentLabelEn": "Apparel Section 301 +10% · textile/apparel TRQ mechanism pending official implementation on September 1, 2026",
       "components": [
         {
           "name": "Forced Labor Section 301 Duty",
           "rate": 10,
           "status": "CURRENT",
           "effectiveDate": "2026-07-23",
-          "noteKr": "강제노동 수입 금지 의무를 이행하거나 ART에 참여하는 국가에 적용되는 10%",
+          "noteKr": "강제노동 수입 금지 의무 이행 또는 ART 체결 국가에 적용되는 10%",
           "noteEn": "10% rate applicable to economies that impose a forced labor import prohibition or have ART commitments"
         }
       ],
@@ -97,8 +97,8 @@
       "apparelEffectiveRate": 10,
       "currentAdditionalRate": 10,
       "status": "CURRENT",
-      "currentLabelKr": "의류 기준 Section 301 +10% · Textile/Apparel TRQ는 2026년 9월 1일 공식 시행 전 PENDING",
-      "currentLabelEn": "Apparel Section 301 +10% · textile/apparel TRQ pending official implementation on September 1, 2026",
+      "currentLabelKr": "의류 기준 Section 301 +10% · Textile/Apparel TRQ 메커니즘은 2026년 9월 1일 시행 예정으로 현재 PENDING",
+      "currentLabelEn": "Apparel Section 301 +10% · textile/apparel TRQ mechanism pending official implementation on September 1, 2026",
       "components": [
         {
           "name": "Forced Labor Section 301 Duty",
@@ -146,8 +146,8 @@
       "apparelEffectiveRate": 10,
       "currentAdditionalRate": 10,
       "status": "CURRENT",
-      "currentLabelKr": "의류 기준 Section 301 +10% · Textile/Apparel TRQ는 2026년 9월 1일 공식 시행 전 PENDING",
-      "currentLabelEn": "Apparel Section 301 +10% · textile/apparel TRQ pending official implementation on September 1, 2026",
+      "currentLabelKr": "의류 기준 Section 301 +10% · Textile/Apparel TRQ 메커니즘은 2026년 9월 1일 시행 예정으로 현재 PENDING",
+      "currentLabelEn": "Apparel Section 301 +10% · textile/apparel TRQ mechanism pending official implementation on September 1, 2026",
       "components": [
         {
           "name": "Forced Labor Section 301 Duty",
@@ -195,7 +195,7 @@
       "apparelEffectiveRate": 12.5,
       "currentAdditionalRate": 12.5,
       "status": "CURRENT",
-      "currentLabelKr": "CAFTA-DR 적격 의류: 기본관세 0% + 현재 Forced Labor Section 301 12.5% · 니카라과 노동인권 Section 301 2026년 기본관세 0% (2027년 10%로 인상 예정)",
+      "currentLabelKr": "CAFTA-DR 적격 의류: 기본관세 0% + 현재 Forced Labor Section 301 12.5% · 니카라과 노동인권 Section 301 2026년 기본관세 0% (2027년 10%로 인상 예정)실시",
       "currentLabelEn": "CAFTA-DR qualifying apparel: 0% base duty + current Forced Labor Section 301 12.5% · Nicaragua labor Section 301 2026 base rate is 0% (pending 10% in 2027)",
       "components": [
         {
