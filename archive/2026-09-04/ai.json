@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "asOf": "2026-09-03T23:01:10.661Z",
+  "generatedDateKST": "2026-09-04",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "RULE_FALLBACK",
+  "stale": false,
+  "provider": "Rule Fallback",
+  "model": null,
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-09-04",
+  "fallbackReason": "Unexpected non-whitespace character after JSON at position 2412 (line 1 column 2413)",
+  "insight": {
+    "headline": {
+      "kr": "Kohl's, 전 Walmart 패션 임원 출신 Ryan M. Waymire를 Chief Merchandising Officer로 영입",
+      "en": "Kohl’s Names Ryan M. Waymire Chief Merchandising Officer"
+    },
+    "summary": {
+      "kr": "오늘 Buyer News와 Competitor Intelligence를 기준으로 Kohl's, A&F/Hollister, Macy's의 주요 변화와 경쟁사 움직임을 함께 점검했습니다. Team 8은 상품, pricing, promotion 및 sourcing 관점에서 실제 제안으로 연결 가능한 signal을 우선 확인할 필요가 있습니다.",
+      "en": "Today's brief combines buyer news and competitor intelligence across Kohl's, A&F/Hollister and Macy's. Team 8 should prioritize actionable signals in product, pricing, promotion and sourcing."
+    },
+    "tags": [
+      "#BuyerNews",
+      "#Competitor",
+      "#Team8",
+      "#DailyBrief"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "주요 경쟁사들의 조기 노동절 할인 공세와 신임 CEO 체제 속에서 Kohl's는 promotion 대응과 가격 경쟁력 확보가 시급합니다.",
+        "en": "Amid aggressive early Labor Day promotions by main competitors and leadership changes, Kohl's urgently needs to sharpen its promotional response and price competitiveness."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "Urban Outfitters의 누룰리(Nuuly) 구독 모델 호조와 주요 브랜드들의 노동절 세일 경쟁 속에서 차별화된 영디자이너 전략이 필요합니다.",
+        "en": "Amid Urban Outfitters' Nuuly success and intense Labor Day promotional rivalry, distinct young-consumer strategies are required."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "Nordstrom을 비롯한 주요 백화점들의 가을 시즌 및 노동절 얼리버드 promotion 경쟁이 심화되고 있습니다.",
+        "en": "Competition around fall-season and Labor Day early-bird promotions among major department stores like Nordstrom is intensifying."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "단독 가치 제안(UVP)을 강조하고 시즌 전환기 맞춤형 가격 전략을 재수립해야 합니다.",
+        "en": "Emphasize unique value propositions and restructure transitional pricing strategies."
+      },
+      {
+        "kr": "Z세대 타겟 고객을 위한 디지털 리유즈 또는 순환 경제형 패션 프로그램 도입 가능성을 검토해야 합니다.",
+        "en": "Explore the introduction of digital reuse or circular-fashion programs tailored to Gen Z consumers."
+      },
+      {
+        "kr": "개인화된 쇼핑 제안과 연계한 차별화된 가을 시즌 promotion을 강화해야 합니다.",
+        "en": "Enhance differentiated fall promotions linked with personalized shopping recommendations."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "일부 signal은 빠르게 변할 수 있으므로 source 원문 및 buyer 반응을 함께 확인해야 합니다.",
+      "en": "Some signals can change quickly, so validate source articles and buyer reactions before decisions."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "오늘자 Buyer News와 competitor source 중 영업 제안으로 연결 가능한 1~2개 signal을 팀별로 선정합니다.",
+        "en": "Select 1-2 actionable buyer/competitor signals for each sales team."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "가격, product, promotion 관점에서 buyer별 차별화 제안 가능성을 검토합니다.",
+        "en": "Review differentiated proposals by buyer across pricing, product and promotion."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "중요 signal은 다음 개발 및 costing 논의에 반영할 수 있도록 source와 함께 공유합니다.",
+        "en": "Share important signals with sources for upcoming development and costing discussions."
+      }
+    ]
+  }
+}
