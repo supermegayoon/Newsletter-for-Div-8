@@ -2,34 +2,34 @@
   "source": "Weekly raw material report",
   "rawMaterials": {
     "usCotton": {
-      "price": 89.41,
-      "changePct": 4.57,
+      "price": 90.29,
+      "changePct": 0.98,
       "unit": "¢/lb",
       "comment": ""
     },
     "chinaCotton": {
-      "price": 122.83,
-      "changePct": 1.6,
+      "price": 123.75,
+      "changePct": 0.75,
       "unit": "¢/lb",
-      "comment": "중국 내 국가 비축 분 면화 경매가 장기간(25일 연속) 매진"
+      "comment": "F/W 시즌 대비 비축 구매 현상."
     },
     "indiaCotton": {
-      "price": 92.3,
-      "changePct": 0.8,
+      "price": 93.26,
+      "changePct": 1.04,
       "unit": "¢/lb",
-      "comment": "평년 대비 15%가량 강우량이 부족할 것으로 전망되는 몬순(우기) 우려"
+      "comment": "강우량 부족으로 인한 수확량 감소 기인"
     },
     "psf": {
-      "price": 52.85,
-      "changePct": 1.44,
+      "price": 54.39,
+      "changePct": 2.92,
       "unit": "¢/lb",
-      "comment": "면화 가격 급등에 따른 합성섬유 대체 수요유입"
+      "comment": "지정학적 불안으로 인한 국제유가 상승과 면화 가격 상승으로 인한 대체 수요 유입"
     },
     "dty": {
-      "price": 66.68,
-      "changePct": 2.98,
+      "price": 68.04,
+      "changePct": 2.04,
       "unit": "¢/lb",
-      "comment": "수요 증가 시 방적 공정을 거치며 상승폭이 커지는 특징"
+      "comment": "직물, 편물 업체들의 가동율이 상승되며 구매 심리 개선됨"
     }
   },
   "yarn": {
@@ -40,9 +40,9 @@
     "vietnam": ""
   },
   "summary": {
-    "cotton": "미국, 중국, 인도 등 주요국 면화 가격이 비축면 매진 및 몬순 우려 등으로 일제히 상승함.",
-    "polyester": "면화 가격 급등에 따른 합성섬유 대체 수요 유입 및 방적 공정 특성으로 PSF와 DTY 모두 상승세 기록.",
+    "cotton": "미국, 중국, 인도 면화 가격 모두 상승세를 보였으며, 중국은 F/W 대비 비축 구매, 인도는 수확량 감소가 원인임.",
+    "polyester": "유가 상승 및 면화 가격 상승에 따른 대체 수요 유입으로 PSF와 DTY 가격 모두 상승함.",
     "yarn": ""
   },
-  "updatedAt": "2026-08-28T03:01:05.014Z"
+  "updatedAt": "2026-09-07T01:56:06.079Z"
 }
