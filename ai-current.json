@@ -1,80 +1,80 @@
 {
   "ok": true,
-  "asOf": "2026-09-07T01:23:52.082Z",
-  "generatedDateKST": "2026-09-07",
+  "asOf": "2026-09-07T23:01:02.354Z",
+  "generatedDateKST": "2026-09-08",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-09-07",
+  "competitorDateKST": "2026-09-08",
   "insight": {
     "headline": {
-      "kr": "Abercrombie & Fitch 실적 호조 및 주요 바이어 리더십 개편 속 노동절(Labor Day) 할인 경쟁 심화",
-      "en": "A&F Solid Earnings and Major Buyer Leadership Changes Amid Labor Day Promotional Push"
+      "kr": "Abercrombie & Fitch 어닝 서프라이즈 및 Macy's Q2 실적 발표 임박 속 벤더 대응 전략",
+      "en": "Abercrombie & Fitch EPS Beat and Macy's Q2 Earnings Preview Drive Vendor Strategies"
     },
     "summary": {
-      "kr": "2026년 9월 7일 기준, A&F는 시장 예상을 상회하는 Q2 실적과 guidance 상향으로 강세를 보였으며, Kohl's는 신임 CMO 임명과 DoorDash 협력을 통한 퀵커머스 확장에 나섰습니다. Macy's는 Parade 100주년 한정판 마케팅을 전개 중이며, 경쟁사들의 노동절 세일 공세 속 철저한 재고 및 margin 방어가 요구됩니다.",
-      "en": "As of September 7, 2026, Abercrombie & Fitch posted strong Q2 results and raised its outlook, while Kohl's appointed a new CMO and expanded quick-commerce via DoorDash. Macy's is leveraging heritage for its parade anniversary, and sales teams must carefully monitor competitive Labor Day promotions to protect margins."
+      "kr": "2026년 9월 8일자 데일리 마켓 브리프입니다. A&F가 Q2 EPS 호조 및 연간 guidance를 상향 조정한 가운데, Macy's는 오는 10일 Q2 실적 발표를 앞두고 있습니다. Kohl's는 신임 Chief Merchant 영입과 DoorDash 배송 Partnership으로 retail 채널을 강화하고 있으며, 당사 8담당 영업팀은 주요 바이어별 실적 흐름과 경쟁사 동향을 밀착 모니터링해야 합니다.",
+      "en": "Daily Market Brief for September 8, 2026. A&F posted strong Q2 EPS beats and raised full-year guidance, while Macy's prepares for its Q2 earnings release on September 10. Kohl's is expanding its retail fulfillment through a DoorDash partnership and a new Chief Merchant hire, requiring the Team 8 sales group to closely monitor buyer performance and competitor signals."
     },
     "tags": [
-      "#LaborDaySales",
-      "#Abercrombie",
-      "#Kohls",
-      "#Macys"
+      "#Team8Daily",
+      "#RetailEarnings",
+      "#ApparelVendor",
+      "#MarketBrief"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "Ryan M. Waymire를 신임 CMO로 임명하며 머천다이징 전략 개편에 착수했습니다. DoorDash 배송 Partnership 확대로 퀵커머스 채널을 강화하고 있어, 향후 category별 어소트먼트 변화 모니터링이 필요합니다.",
-        "en": "Appointed Ryan M. Waymire as Chief Merchandising Officer to overhaul its merchandising strategy and expanded quick-commerce delivery via DoorDash. Sourcing teams should monitor potential category assortment shifts."
+        "kr": "전 Walmart 패션 임원을 신임 Chief Merchant로 영입하고 DoorDash와의 Partnership을 통한 back-to-school 배송을 확대했습니다. 경쟁사인 Target의 Labor Day promotion 공세에 대응하기 위해 PB 큐레이션 및 빠른 풀필먼트 제안이 필요합니다.",
+        "en": "Appointed a former Walmart fashion exec as Chief Merchant and expanded back-to-school delivery via DoorDash. To counter competitive pressure from Target's Labor Day promotions, vendor proposals should focus on private brand curation and rapid fulfillment capabilities."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "Q2 EPS가 4.17달러를 기록하며 예상을 상회했고 연간 guidance를 상향했습니다. 강력한 브랜드 모멘텀과 소비자 수요를 바탕으로 활발한 가을 시즌 준비가 이어지고 있습니다.",
-        "en": "Beat Q2 EPS estimates at $4.17 and raised full-year guidance, driven by strong brand momentum and active consumer demand heading into the fall season."
+        "kr": "Q2 EPS 호조 및 연간 full-year outlook을 상향 조정하며 견조한 브랜드 모멘텀을 증명했습니다. American Eagle 및 Aritzia 등 경쟁사의 promotion 공세 속에서도 높은 sell-through를 기록 중이므로 적극적인 reorder 및 신규 assortment 제안이 유리합니다.",
+        "en": "Reported strong Q2 EPS beats and raised full-year outlook, demonstrating sustained brand momentum. High sell-through rates persist despite promotional pushes from competitors like American Eagle and Aritzia, presenting strong reorder and assortment expansion opportunities."
       },
       {
         "buyer": "Macy's",
-        "kr": "추수감사절 Parade 100주년을 기념하는 한정판 바시티 자켓 및 기념물을 공개했습니다. Holiday 시즌을 겨냥한 브랜드 헤리티지 활용 및 한정판 전략이 두드러집니다.",
-        "en": "Revealed exclusive merchandise including a commemorative varsity jacket for the 100th anniversary of its Thanksgiving Day Parade, highlighting a brand heritage strategy for the upcoming holiday season."
+        "kr": "9월 10일 Q2 실적 발표를 앞두고 있으며 시장의 기대와 컨센서스에 관심이 집중되고 있습니다. Nordstrom 등 경쟁사의 Labor Day 할인 행사에 맞춘 하반기 재고 전략과 consumer demand 변화를 면밀히 점검해야 합니다.",
+        "en": "Preparing to report Q2 earnings on September 10, with markets closely watching upcoming guidance. Sales teams must evaluate retail channel health and consumer demand shifts against competitor promotional activity from Nordstrom."
       }
     ],
     "opportunities": [
       {
-        "kr": "A&F의 강력한 실적 모멘텀에 발맞추어 가을/겨울 시즌 베스트셀러 품목의 추가 발주 및 reorder 제안을 선제적으로 진행합니다.",
-        "en": "Proactively pitch reorders and expanded SKU allocations for Fall/Winter bestsellers, leveraging A&F's strong sales momentum."
+        "kr": "A&F의 실적 호조 및 guidance 상향에 발맞추어 베스트셀러 아이템에 대한 추가 reorder 제안 추진",
+        "en": "Drive additional reorder proposals for best-selling items leveraging A&F's strong earnings beat and guidance upgrade."
       },
       {
-        "kr": "Kohl's의 신임 CMO 취임에 따른 어소트먼트 재정비 기조를 파악하여 margin이 보장되는 핵심 스타일 중심의 제안서를 구성합니다.",
-        "en": "Align proposals with Kohl's upcoming assortment adjustments under the new CMO, focusing on high-margin core styles."
+        "kr": "Kohl's의 신임 Chief Merchant 체제 출범에 맞춘 신규 PB 디자인 및 sourcing 제안서 준비",
+        "en": "Prepare targeted private brand design and sourcing proposals aligned with Kohl's new Chief Merchant leadership."
       },
       {
-        "kr": "Macy's의 Holiday 및 기념 이벤트에 대응하여 차별화된 단독 상품(Exclusive Keepsake) 아이디어를 선제적으로 제안합니다.",
-        "en": "Pitch differentiated exclusive product concepts tailored for Macy's upcoming holiday and commemorative event strategies."
+        "kr": "Macy's Q2 실적 발표 직후 category별 sell-through 분석을 통한 하반기 재고 운영 최적화",
+        "en": "Optimize second-half inventory execution through category sell-through analysis immediately following Macy's Q2 earnings release."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "노동절 시즌 경쟁사들의 대규모 할인 공세와 환율 변동성(원/달러 1,345원대)으로 인한 바이어들의 margin 압박 가중",
-      "en": "Increased margin pressure on buyers due to aggressive competitor Labor Day promotional discounting and ongoing FX volatility (USD/KRW around 1,345)."
+      "kr": "주요 retail러들의 실적 발표 시즌 및 경쟁사(Target, Nordstrom 등)의 Labor Day 공격적 promotion으로 인한 margin 압박 및 재고 소진 속도 모니터링 필요",
+      "en": "Margin pressure and inventory pacing risks arising from major retailer earnings announcements and aggressive Labor Day promotions by competitors such as Target and Nordstrom."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "A&F Q2 실적 호조에 연동된 F/W 시즌 추가 수주 기회를 파악하고 바이어 담당자와 미팅을 조율합니다.",
-        "en": "Identify F/W season follow-up order opportunities tied to A&F's strong earnings and coordinate buyer meetings."
+        "kr": "9월 10일 Macy's Q2 실적 발표 컨퍼런스 콜 모니터링 및 하반기 구매 가이드라인 분석",
+        "en": "Monitor Macy's Q2 earnings conference call on September 10 and analyze second-half buying guidelines."
       },
       {
         "owner": "Team 8",
-        "kr": "Kohl's 조직 개편 및 DoorDash 협력에 따른 납기 일정 및 물류 채널 변화 여부를 점검합니다.",
-        "en": "Verify delivery schedules and logistics channel updates resulting from Kohl's executive changes and DoorDash partnership."
+        "kr": "A&F의 상향된 guidance에 연동된 reorder 및 F/W 시즌 추가 오더 물량 협의 진행",
+        "en": "Negotiate reorders and additional F/W volume tied to A&F's upgraded full-year outlook."
       },
       {
         "owner": "Team 8",
-        "kr": "경쟁사 Labor Day 세일 동향을 분석하여 당사 바이어들의 promotion 대응 전략에 참고할 수 있는 인사이트를 공유합니다.",
-        "en": "Analyze competitor Labor Day sales trends and share actionable insights to support buyers' promotional strategies."
+        "kr": "Kohl's의 새로운 Chief Merchant 전략 변화에 대응할 맞춤형 머천다이징 제안서 최종 점검",
+        "en": "Finalize customized merchandising proposals to align with strategic shifts under Kohl's new Chief Merchant."
       }
     ]
   }
