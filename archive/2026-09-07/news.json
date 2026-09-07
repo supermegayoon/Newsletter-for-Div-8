@@ -1,0 +1,85 @@
+{
+  "ok": true,
+  "asOf": "2026-09-06T23:00:29.125Z",
+  "generatedDateKST": "2026-09-07",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 1,
+    "within7d": 2,
+    "total": 5,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "인사 및 조직",
+      "category_en": "Executive Appointment",
+      "date": "2026.09.03",
+      "title_kr": "Kohl's, 새로운 Chief Merchandising Officer로 Ryan M. Waymire 임명",
+      "title_en": "Kohl’s Names Ryan M. Waymire Chief Merchandising Officer",
+      "body_kr": "Kohl's가 Ryan M. Waymire를 새로운 Chief Merchandising Officer로 임명하며 merchandise 전략 강화에 나섰습니다. 향후 category별 assortment 개편 및 sourcing 방향에 미칠 영향 모니터링이 필요합니다.",
+      "body_en": "Kohl's has appointed Ryan M. Waymire as Chief Merchandising Officer to strengthen its merchandise strategy. Sales teams should monitor potential impacts on category assortments and sourcing.",
+      "source": "Pulse 2.0",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kUUZVNm42MzZ6VzJhcUZfdFk1UFRubG9yMEp5NWFBN2tNTlZqUUh0NFplMDNYNDFEZEhfenljUnktRDVycF9hQWI1dldTZTRTZnFOOGR6UGRoOW9tQXRuT0lIV2pqS0NzUjJsMlBfd1o2ZnJmeEttODRLckZLb2PSAYQBQVVfeXFMUEJ2QjJiaFlZbFRsd0FTYU10UUhTQUExZ3N1VUVmcFgtb0JwRkt5d2MtZnJFWDk2R2MyWWF4ZDFaTkZ4SmhmSmU5YWZqQ0NyQ1ZuREVYVDJ5UWJYaXUxZDh1M1d0eDNmem1YejVzb2NCOTJqSGxLNXF5bWtKdWhNZUIJR2pq?oc=5",
+      "ageHours": 74.01245944444445
+    },
+    {
+      "brand": "Abercrombie & Fitch",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "실적 및 guidance",
+      "category_en": "Earnings & Guidance",
+      "date": "2026.09.03",
+      "title_kr": "Abercrombie & Fitch, 예상을 상회하는 Q2 EPS 기록 및 full-year outlook 상향 조정",
+      "title_en": "Abercrombie & Fitch Q2 EPS beats at $4.17; raises full-year outlook",
+      "body_kr": "Abercrombie & Fitch는 Q2 EPS가 4.17달러를 기록하며 시장 예상을 상회했고, 이에 힘입어 full-year guidance를 상향 조정했습니다. 강력한 brand momentum과 active consumer demand가 실적을 견인하고 있습니다.",
+      "body_en": "Abercrombie & Fitch beat Q2 EPS estimates at $4.17 and raised its full-year guidance. Strong brand momentum and active consumer demand continue to drive performance.",
+      "source": "scanx.trade",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQY0ktV3huU0tGX1FGd2txMWhWanFVM2NEZU85WkxFSWZPeVNXOFJxek1nMTRhYXloVUpCRDI0cVFYeTcxU1VhdTJKQ1dFcVNBWW04M25PbEtsRE55ckxmNmYwSi1mUkp3WFdDaGJxQzFIdHdxWEdHZ0hQODctRXdCclNjaUhpd0U3Tlc2cVhVRVVQSWFqFZLVnRQc0pCRFpIZHFDVzlxYjZ4by1ZZWtDZ09jTTc?oc=5",
+      "ageHours": 71.95047944444444
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "도매 및 유통 채널",
+      "category_en": "Wholesale Channel",
+      "date": "2026.08.30",
+      "title_kr": "DoorDash, 학교 개학 시즌 맞아 Kohl's 및 Gap 등 retail 파트너사 배송 서비스 추가",
+      "title_en": "Forgot something for school? DoorDash adds Gap, Barnes & Noble, Carter’s and Kohl’s",
+      "body_kr": "DoorDash가 back-to-school 시즌에 맞춰 Kohl's, Gap, Carter's 등 주요 apparel retail 브랜드를 delivery service에 추가했습니다. E-commerce 및 quick-commerce channel을 통한 실적 연계가 기대됩니다.",
+      "body_en": "DoorDash has added major apparel retailers including Kohl's, Gap, and Carter's to its delivery network for the back-to-school season. This expands quick-commerce channels for these brands.",
+      "source": "News12 | Connecticut",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdFJrLW95eks2UjE5SUItVFlaU1JvNHU4MjZIX2JzYklqd1FPNl8wdEZybk55cEFkNmVncGt4M09heFNBblMzR1l2eGRvLXB5aV80RWd6LTBFNDQ0a2lGNVprRmg1OFBJUzNTNG9sbXRZS2UwNWZjbHZ5SGZGZlpsOHVaUGVTT09nc0RlM29IODFpLTVxbmIwdS1ZMU95UHhiTXR1dlktcVJXRF83RUlxNXdNTXJuZXA2eHhvN2dvYjJSSy1jRjBhYkVxb2NmRVllZ1pWNzZBOA?oc=5",
+      "ageHours": 175.5271813888889
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "이벤트 및 Collaboration",
+      "category_en": "Event & Collaboration",
+      "date": "2026.08.27",
+      "title_kr": "Macy's, Thanksgiving Day Parade 100주년 기념 Varsity Jacket 및 exclusive keepsake 출시",
+      "title_en": "Macy's Thanksgiving Day Parade Varsity Jacket and Rare Photo Book Among 100th Anniversary Keepsakes",
+      "body_kr": "Macy's가 Thanksgiving Day Parade 100주년을 맞아 기념 Varsity Jacket과 photo book 등 exclusive merchandise를 공개했습니다. Holiday season을 앞두고 brand heritage를 활용한 한정판 전략이 돋보입니다.",
+      "body_en": "Macy's has revealed exclusive merchandise including a commemorative Varsity Jacket and photo book for the 100th anniversary of the Thanksgiving Day Parade. This highlights a limited-edition strategy leveraging brand heritage ahead of the holiday season.",
+      "source": "The Hollywood Reporter",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWEZvZ1ExUUNaZUkzUW5JRDJQbE5FSWxkU3pkN05ZWU1xWmNwd3dsZlRGbUd4RkxacXNIazB5OEhVNjBSQlJrdXZheXBrbmI4WGg2NXl1aDNRaFJ2NEhXSHo4QU4tQi1WRUdQTkNuUFN0NEk0NHRaM3BhNHRBOXl1emdrT0luejlKU3ZXcWhoOTItTlM3N3FLWWppUDhyc1VOT1Z1UWVRcC1Hb2JVel9iUVlzQmpnS1NPVHpCZWl2QjEtUQ?oc=5",
+      "ageHours": 256.00607083333335
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "실적 및 전략",
+      "category_en": "Earnings & Strategy",
+      "date": "2026.08.28",
+      "title_kr": "Kohl's, Q2 same-store sales 소폭 하락했으나 관세 환급으로 full-year profit guidance 상향",
+      "title_en": "Kohl's Q2 same-store sales fall 0.9%; tariff refunds drive full-year profit guidance higher",
+      "body_kr": "Kohl's reported a 0.9% drop in Q2 same-store sales, but raised its full-year profit guidance driven by tariff refunds. The company is focusing on defending profitability amidst category slumps.",
+      "source": "finance.biggo.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5TcTM0QnhGUENJcXRhT0RjbW5yQXp3RmVTMG9lRnlvZWtTb3JjcnVRSmJCUTgzbXNSTzBwdExfYWFnTjF6UmVnbUpuSmEyd0VNZEJpS2hpOHZ3QXVEdUN4SGlZVl9USTdKS2hYS296am5QRThVMHc?oc=5",
+      "ageHours": 228.69995944444443
+    }
+  ]
+}
