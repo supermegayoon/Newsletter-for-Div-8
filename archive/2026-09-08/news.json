@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "asOf": "2026-09-07T23:00:29.566Z",
+  "generatedDateKST": "2026-09-08",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 1,
+    "within7d": 2,
+    "total": 4,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Earnings",
+      "category_en": "Earnings",
+      "date": "2026.09.10",
+      "title_kr": "Macy's, 오는 9월 10일 Q2 earnings 발표 예정",
+      "title_en": "Macy's Reports Q2 Earnings on September 10",
+      "body_kr": "Macy's가 다가오는 수요일 Q2 실적 발표를 앞두고 있으며, 시장 분석가들의 실적 컨센서스와 주가 변동성에 관심이 집중되고 있습니다. 당사 sales 팀은 주요 retail channel의 이번 실적 발표를 통해 하반기 consumer demand 흐름과 inventory 전략을 점검해야 합니다.",
+      "body_en": "Macy's is scheduled to report its Q2 earnings this week, with market analysts closely watching upcoming guidance and consumer demand. Sales teams should monitor these results to gauge retail channel health and upcoming inventory shifts.",
+      "source": "TipRanks",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd2ZodTFvRFQ3ekJMSEhGUjF1Q3ozMlBVMUpVSGNudko5YldjaDJ3ZURscXJoeDV0dTVHLVVhYWlieF84ekxtVDRoQzhFYmlMRGZiQ0lib2VaX051X1Q4WVpIREZBRm00X1p6c3pJaHR1MU02emxKeUN5TGJpeW1DUlp3ekZQanhKOWI4NFFiLVphLUxFRWMtbTJ0UEp1VUNrT3c?oc=5",
+      "ageHours": 11.320301666666667
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Wholesale / Channel",
+      "category_en": "Wholesale / Channel",
+      "date": "2026.08.30",
+      "title_kr": "Kohl's, DoorDash partnership을 통한 back-to-school delivery 강화",
+      "title_en": "DoorDash adds Kohl's for back-to-school delivery partnership",
+      "body_kr": "Kohl's has expanded its delivery footprint by partnering with DoorDash for back-to-school apparel and essentials. This retail channel expansion underscores the growing need for rapid fulfillment capabilities from apparel vendors.",
+      "source": "News12 | Connecticut",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdFJrLW95eks2UjE5SUItVFlaU1JvNHU4MjZIX2JzYklqd1FPNl8wdEZybk55cEFkNmVncGt4M09heFNBblMzR1l2eGRvLXB5aV80RWd6LTBFNDQ0a2lGNVprRmg1OFBJUzNTNG9sbXRZS2UwNWZjbHZ5SGZGZlpsOHVaUGVTT09nc0RlM29IODFpLTVxbmIwdS1ZMU95UHhiTXR1dlktcVJXRF83RUlxNXdNTXJuZXA2eHhvN2dvYjJSSy1jRjBhYkVxb2NmRVllZ1pWNzZBOA?oc=5",
+      "ageHours": 199.5274936111111
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Organization",
+      "category_en": "Organization",
+      "date": "2026.08.31",
+      "title_kr": "Kohl's, 전 Walmart 패션 임원을 신임 Chief Merchant로 영입",
+      "title_en": "Kohl's Hires Former Walmart Fashion Exec as Its New Chief Merchant",
+      "body_kr": "Kohl's has appointed a former Walmart fashion executive as its new Chief Merchant to tackle ongoing customer traffic issues. This leadership change signals potential shifts in private brand curation and overall merchandise sourcing strategies.",
+      "source": "WWD",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcExBN2hkT3FfQjBmNHJBelV0bHpDV3I4dVpET0ktTXRDMnB3UGNWWXZmQ21QYlZxWWtZZXZ5QlpoODctZ3h5bHRISTA4bW1uS0h1VC0xU3ZYU0JzUWYtMFlSYmc1aHNFcjZQbWdSMVBkRTJGdlVXSkhWbTlJeldQcDE1bkctMzVfT1hLaDhBZTZIbnFZaE45dEsxWUljcGo2Q055UE9oZUN5ZHFY?oc=5",
+      "ageHours": 168.45749388888888
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Earnings",
+      "category_en": "Earnings",
+      "date": "2026.09.03",
+      "title_kr": "Abercrombie & Fitch, Q2 EPS 호조 및 연간 full-year outlook 상향 조정",
+      "title_en": "Abercrombie & Fitch Q2 EPS beats and raises full-year outlook",
+      "body_kr": "Abercrombie & Fitch posted strong Q2 results, beating EPS estimates and raising its full-year outlook on sustained brand momentum. Continued high sell-through rates reinforce positive reorder opportunities for vendor partners.",
+      "source": "scanx.trade",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQY0ktV3huU0tGX1FGd2txMWhWanFVM2NEZU85WkxFSWZPeVNXOFJxek1nMTRhYXloVUpCRDI0cVFYeTcxU1VhdTJKQ1dFcVNBWW04M25PbEtsRE55ckxmNmYwSi1mUkp3WFdDaGJxQzFIdHdxWEdHZ0hQODctRXdCclNjaUhpd0U3Tlc2cVhVRVVQSWZqaFZLVnRQc0pCRFpIZHFDVzlxYjZ4by1ZZWtDZ09jTTc?oc=5",
+      "ageHours": 95.9508061111111
+    }
+  ]
+}
