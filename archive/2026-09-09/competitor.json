@@ -1,0 +1,420 @@
+{
+  "ok": true,
+  "generatedDateKST": "2026-09-09",
+  "asOf": "2026-09-08T23:00:53.073Z",
+  "schedule": "Mon-Fri 08:00 KST",
+  "windowDays": 7,
+  "analysisMode": "GEMINI",
+  "buyers": [
+    {
+      "buyer": "Kohl's",
+      "competitionLevel": "HIGH",
+      "keyTakeaway": {
+        "kr": "주요 경쟁사인 Target과 Nordstrom 등이 노동절 연휴 기간 최대 75~85%에 이르는 대대적인 할인 공세를 펼치며 고객 유치에 총력을 기울였습니다.",
+        "en": "Key competitors like Target and Nordstrom intensified promotional pressure with major Labor Day weekend sales offering up to 75% to 85% off."
+      },
+      "competitors": [
+        {
+          "name": "Target",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "노동절 연휴를 맞아 광범위하고 공격적인 가격 할인 행사를 진행했습니다.",
+            "en": "Executed widespread and aggressive price promotions for the Labor Day holiday."
+          },
+          "whyItMatters": {
+            "kr": "동일 타깃층의 소비자를 직접적으로 잠식하여 트래픽을 분산시킵니다.",
+            "en": "Directly cannibalizes overlapping consumer traffic and diverts customer attention."
+          },
+          "action": {
+            "kr": "단기적인 가격 경쟁력을 방어하기 위한 긴급 프로모션 대응책을 마련해야 합니다.",
+            "en": "Formulate immediate promotional countermeasures to defend short-term pricing competitiveness."
+          },
+          "sources": [
+            {
+              "source": "ABC News - Breaking News, Latest News and Videos",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.07",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBGSzlKajUzbVBiakEwa1FtTnhYbE04YTJ4cDNNbDQtalJBazQyaFQ1VUhSaUNwbndFbGttV1ZrTmdfTnJ4c3BlSFIzczZsVi1RX0ZRQ0pHd251Rk90LWtRVWVFc2FTRjY1Z0hyeUtxZHJzbkhQZ2Jv0gF8QVVfeXFMT0dINGtVQ3R3cE5pWjNMTFBVMDJKcHR2V0R3WlpFNVNYREd5MzdwTXZGMjBPM0FiaE5WQXZLUzhqcjdMYS1xVW5Wd0Jqa1VsakJkVmNFUnBUeENRNllQcTFkUkhHcTNvYXBKdHd3eGI2SFk0aWNPTlBXYTM1Tg?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Target",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "소비자 유치를 위해 인기 브랜드 및 상품 라인업을 재도입했습니다.",
+            "en": "Brought back a beloved brand to win over shoppers."
+          },
+          "whyItMatters": {
+            "kr": "브랜드 차별화 및 충성 고객의 이탈을 방지하는 효과적인 수단이 됩니다.",
+            "en": "Serves as an effective tool for brand differentiation and customer retention."
+          },
+          "action": {
+            "kr": "당사의 독점 브랜드(PB) 및 단독 입점 브랜드 라인업의 매력도를 재점검해야 합니다.",
+            "en": "Re-evaluate the appeal of our private label and exclusive brand lineups."
+          },
+          "sources": [
+            {
+              "source": "thestreet.com",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.03",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9PSE1OZFdHcnpQTVozM2lwNFpMWll4VXdmR1oteUc0aHVSbThJYnBVUVdUcTBpV3pURlFBYkNsQ011NHVpdWZHQ3kwS3hJMWM0dmRGcnpCb1FsRmo3bU1rcVhodmJ0STNXbWdpZg?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Nordstrom",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "디자이너 의류를 포함한 품목에 대해 최대 85% 할인 쿠폰 및 특가전을 전개했습니다.",
+            "en": "Offered up to 85% off designer apparel and deals through coupons."
+          },
+          "whyItMatters": {
+            "kr": "중고가 의류 및 프리미엄 카테고리에서 가격 소구력이 크게 높아집니다.",
+            "en": "Significantly heightens price appeal in mid-to-high apparel categories."
+          },
+          "action": {
+            "kr": "프리미엄 및 중고가 상품군의 할인율과 가치 제안을 재검토해야 합니다.",
+            "en": "Review discount structures and value propositions for premium product lines."
+          },
+          "sources": [
+            {
+              "source": "Forbes",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.07",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcEJwa3loS0RFb1Uwb1JqQlczZE10MXVHUG9GN19UcHBFNmdmYVoySHhUNFl3Yk1tYkVUa3Q3YU5JV042R1dYNEF0emFKZ29MRG53TnpmRVM1SmdOc28xWmVZcEFJNjhLaHd6SS00cE1udHJTaVBVQWVtZE9DcTR3Q0EwWGxFUQ?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "A&F / Hollister",
+      "competitionLevel": "HIGH",
+      "keyTakeaway": {
+        "kr": "주요 영캐주얼 및 백화점 브랜드들이 노동절 시즌을 맞아 대규모 할인과 인지도 높은 인플루언서 협업을 동시에 추진하고 있습니다.",
+        "en": "Key young contemporary and department store brands simultaneously drove massive holiday discounts and high-profile influencer collaborations."
+      },
+      "competitors": [
+        {
+          "name": "Urban Outfitters",
+          "signal": "FINANCIAL",
+          "move": {
+            "kr": "최근 실적 발표에서 시장 예상을 뛰어넘는 어닝 서프라이즈를 기록했습니다.",
+            "en": "Posted an earnings beat that signaled strong financial performance."
+          },
+          "whyItMatters": {
+            "kr": "재무적 안정성을 바탕으로 공격적인 마케팅과 재고 투자가 가능해집니다.",
+            "en": "Provides strong financial footing for aggressive marketing and inventory investments."
+          },
+          "action": {
+            "kr": "해당 브랜드의 주력 카테고리별 마케팅 지출 동향을 밀착 모니터링해야 합니다.",
+            "en": "Closely monitor the brand's marketing spend trends across core categories."
+          },
+          "sources": [
+            {
+              "source": "simplywall.st",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.08",
+              "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORThvZTlad19jYmJqUTluSllGRDJHVHVTd1kzak93V2tBVVBRVmxmcGM1ZVlNdGZLRDdEZW9QRlhMbWxHZmt6UTBvWVVHVkR0VFVBNzB1Z0JRMjJ5dUcwVV90YXdGR3ZBUVktVW5GLXh0NFR4N0ctVVRZMjhjRnNPa3ZZajJPMndmRzA5V05HOFVwbXplZDY4VkJJb09VVi1sLVhTMUxpbEFqTzBPS0tUd2FCV3VJQjZnYkVjUWZlQlc1dmx4eEZYTFRfZE96UdIB0wFBVV95cUxOWDJvSTFtY2RUYWpoeXRKbkxXNm1xbjU0d3V3UDFTWktlbWhiQXZnTF9fTjdHS1BCUUV0cFNpelIzMkZ4SnhjOUR1aU5iZFBvbjZQOTNQSFU0VWlqUG14bmVlVHl0bklhT1lmTzMyeWROR21UdHVIY2R4UjhlQ1ZsRXNEZi0wWDF3YTcyOUU2S0JRN3dlZ1FEVG9hMWFFRzZNSzhZczdSNFhBQTBOQTV3blJPZFdZMTNEY25KSGdubEREZU1JcjdCQXNlUWhnNU94UkZ3?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "American Eagle",
+          "signal": "CHANNEL",
+          "move": {
+            "kr": "축구 스타 라민 야말(Lamine Yamal)을 기용한 메이저 스타일링 캠페인과 콜라보 제품을 런칭했습니다.",
+            "en": "Launched a major styling campaign and collection featuring football star Lamine Yamal."
+          },
+          "whyItMatters": {
+            "kr": "Z세대 소비층의 높은 주목도를 이끌어내어 문화적 트렌드 선점 경쟁에서 우위를 점합니다.",
+            "en": "Captures high engagement among Gen Z consumers, securing an edge in cultural trends."
+          },
+          "action": {
+            "kr": "당사 역시 타겟층의 이목을 끄는 셀럽 및 스포츠 스타 연계 마케팅 전략을 재정비해야 합니다.",
+            "en": "Revise our celebrity and sports-linked marketing strategies to capture target attention."
+          },
+          "sources": [
+            {
+              "source": "DesignRush",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.03",
+              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrOFRPYmdzTk43N1p4MEQ5SjF4aURMaTZvZUdUV1JXY0pPUlF3eHdxMnVsNDFIcHpoNVFuc2dDUkRTTk1UWmhzalRkVFI0YWlPdF9kblpEZlZRM0dfWWVROEV1czItdG9NeFBDdUVkMmNyMjN6?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Urban Outfitters",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "시즌오프 패션 아이템을 대상으로 최대 75% 파격 할인을 시행했습니다.",
+            "en": "Offered up to 75% off end-of-season fashion deals during the holiday weekend."
+          },
+          "whyItMatters": {
+            "kr": "시즌 전환기 구형 재고 소진 속도를 높이고 젊은 고객들의 지출을 흡수합니다.",
+            "en": "Accelerates the clearance of legacy inventory during seasonal transitions."
+          },
+          "action": {
+            "kr": "가을 신상품 전개와 병행하여 잔여 재고 소진을 위한 프로모션 타임라인을 점검해야 합니다.",
+            "en": "Check promotional timelines for residual inventory clearance alongside fall arrivals."
+          },
+          "sources": [
+            {
+              "source": "New York Post",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.04",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObF9jT2tKYTBwaUpZWU1NYUVuRlhaZWZqSThnRUNoTEdnWFF5OG1fNHBMeDNJeTA4c1NXekJ1c20wbklsTmI0N0poWjRTQ01GV1BSaVd4M2JpVmYwclZSQnY1Q0ZyNDNZN0xiLUVGTkcydklnYktPMEtmYUp5TUhySlNiYXlKZw?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "Macy's",
+      "competitionLevel": "HIGH",
+      "keyTakeaway": {
+        "kr": "Nordstrom을 비롯한 주요 백화점들이 노동절 연휴 기간 최대 91%에 이르는 극한의 클리어런스 할인 행사를 단행했습니다.",
+        "en": "Major department stores, led by Nordstrom, executed extreme clearance sales reaching up to 91% off over Labor Day."
+      },
+      "competitors": [
+        {
+          "name": "Nordstrom",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "‘Clear the Rack’ 행사를 통해 의류 제품을 최대 91% 할인하는 등 대대적인 마감 처리에 나섰습니다.",
+            "en": "Ran a 'Clear the Rack' sale offering hundreds of clothing deals up to 91% off."
+          },
+          "whyItMatters": {
+            "kr": "소비자들의 가격 민감도가 극대화된 시점에서 백화점 채널 내 고객 유입을 독점할 수 있습니다.",
+            "en": "Monopolizes customer traffic within the department store channel during peak price sensitivity."
+          },
+          "action": {
+            "kr": "당사의 클리어런스 및 재고 정리 프로모션의 할인 폭과 가시성을 대폭 강화해야 합니다.",
+            "en": "Substantially increase the discount depth and visibility of our clearance promotions."
+          },
+          "sources": [
+            {
+              "source": "CNN",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.04",
+              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUEdOdXZHMklhdG9JTDVlV2puSHpLaF9IVThzYndtaWJOUldPM0FYLS1VeDJpUmt4RThiOHBlX21TaGlRWkJNY3VKcko2R0Jha2dhekw1RXlGODM2eDB1S0NmejZaOTU0QkZGM1FiRGwyMm1KNG10RHJxWDVma0NaY2FKdjFmeWxGZ2hLU3hhdk8?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Nordstrom",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "노동절 연휴 기간 전반에 걸쳐 다양한 브랜드의 특별 기획전과 쿠폰 프로모션을 연동했습니다.",
+            "en": "Integrated multi-brand special curation and coupon promotions throughout the holiday."
+          },
+          "whyItMatters": {
+            "kr": "폭넓은 브랜드 선택지를 제공하여 구매 전환율을 극대화합니다.",
+            "en": "Maximizes purchase conversion rates by offering a wide brand selection."
+          },
+          "action": {
+            "kr": "온라인몰 내 브랜드별 큐레이션 및 쿠폰 연동 구조를 개선해야 합니다.",
+            "en": "Improve brand curation and coupon integration structures on our e-commerce platform."
+          },
+          "sources": [
+            {
+              "source": "Forbes",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.07",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcEJwa3loS0RFb1Uwb1JqQlczZE10MXVHUG9GN19UcHBFNmdmYVoySHhUNFl3Yk1tYkVUa3Q3YU5JV042R1dYNEF0emFKZ29MRG53TnpmRVM1SmdOc28xWmVZcEFJNjhLaHd6SS00cE1udHJTaVBVQWVtZE9DcTR3Q0EwWGxFUQ?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "JCPenney",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "추동 시즌 출근룩과 오피스 커뮤트를 위한 여성 워크웨어 브랜드 베스트 라인업을 제안했습니다.",
+            "en": "Curated a top lineup of women’s workwear brands tailored for fall office commutes."
+          },
+          "whyItMatters": {
+            "kr": "9월 시즌 전환기에 핵심 고객층인 직장인 수요를 선점하는 데 유리합니다.",
+            "en": "Provides an advantage in capturing professional commuter demand during the September transition."
+          },
+          "action": {
+            "kr": "오피스룩 및 가을철 출근용 의류 카테고리의 마케팅 노출을 확대해야 합니다.",
+            "en": "Increase marketing exposure for office wear and fall commuting apparel categories."
+          },
+          "sources": [
+            {
+              "source": "New York Post",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.03",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8yS1dqU2Z0NE9OdFFSNl84Q3ZEWnlMMk9NMEw0cF80THhmVFdSLXFRNmdyamp4RXRmcTRtejMwRUdfNXAtVDNMNW5jQl9JcVI2aUlGN1UzbUlfUHE5XzZ5NWVfdzk4dk1SbktGd3NvbEw?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "Ann Taylor",
+      "competitionLevel": "HIGH",
+      "keyTakeaway": {
+        "kr": "주요 여성복 경쟁사들이 노동절 연휴를 타겟으로 일제히 할인 행사에 돌입하며 직장인 및 오피스룩 시장 경쟁을 심화시켰습니다.",
+        "en": "Key womenswear competitors simultaneously launched promotional events targeting Labor Day, intensifying rivalry in the office-wear market."
+      },
+      "competitors": [
+        {
+          "name": "Banana Republic",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "노동절 연휴를 맞아 패션 및 홈 에센셜 품목에 대한 대대적인 할인 캠페인을 전개했습니다.",
+            "en": "Rolled out major promotional campaigns on fashion essentials for the holiday."
+          },
+          "whyItMatters": {
+            "kr": "유사한 가격대와 스타일을 선호하는 오피스룩 소비자층의 이탈을 유발할 수 있습니다.",
+            "en": "Risks deflecting office-wear consumers with similar price points and styles."
+          },
+          "action": {
+            "kr": "단골 고객을 위한 시그니처 스타일 중심의 타겟 프로모션을 강화해야 합니다.",
+            "en": "Strengthen targeted promotions centered on signature styles for loyal customers."
+          },
+          "sources": [
+            {
+              "source": "EBONY Magazine",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.07",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNckR2Z1lLS2pla2RyU0plX2NwNU1peWpuaXpQU1Y3TzJfaW9ISGwxZGhMaXBqejNSMkpya1FSMXhOaU9EbFc3WFNnS2VGTXg2cFpOODh4SDBCVHUtc1UtaXo1R0pNWnpjS21udnVoVTdnb2hXOVVNd1M0Ui03N2ZRcWk5TmxtN1VyLXlCM0d4ODBFdFVfZmp4R0ZCWFg2Sm1sNkE?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "J.Crew",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "시즌오프 및 가을 신상품 진입을 앞두고 최대 75% 할인 혜택을 제공했습니다.",
+            "en": "Provided up to 75% off discounts ahead of the fall seasonal shift."
+          },
+          "whyItMatters": {
+            "kr": "클래식하고 단정한 스타일을 추구하는 고객들의 구매 전환에 직접적인 영향을 미칩니다.",
+            "en": "Directly influences the purchasing decisions of customers seeking classic and neat styles."
+          },
+          "action": {
+            "kr": "가을철 핵심 베이직 아이템에 대한 경쟁력 있는 가격 제안을 검토해야 합니다.",
+            "en": "Review competitive pricing offerings for core fall basic items."
+          },
+          "sources": [
+            {
+              "source": "NBC News",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.06",
+              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSm9BaUNtQ3RhQWdXSTZCZ3NfcVg3UzZlWWt6bEtkVGcyUzRoRjdDM3E5SlV5VF94dWpsVExXSjg0XzRqRnlzY3FfY3dDN0tpTm1PUjJKOFR4bnV6aVJPbW9mSVd0ZFd3ZEkwTjV2cWhfYzJnOEgzSDhuQnR4UFhnU2R3?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "White House Black Market",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "시즌 세트를 구성하여 폭넓은 스타일 품목에 대한 공격적인 가격 할인에 나섰습니다.",
+            "en": "Executed aggressive price reductions across a wide array of styling items through curated sets."
+          },
+          "whyItMatters": {
+            "kr": "정장 및 페미닌 캐주얼 수요층을 직접 겨냥하여 시장 점유율을 압박합니다.",
+            "en": "Directly targets formal and feminine casual demand, pressing our market share."
+          },
+          "action": {
+            "kr": "당사 오피스 컬렉션의 차별화된 실루엣과 소재 강점을 강조하는 마케팅을 전개해야 합니다.",
+            "en": "Deploy marketing that emphasizes the distinctive silhouettes and fabric strengths of our office collections."
+          },
+          "sources": [
+            {
+              "source": "Real Simple",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.04",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN3ZTWjFXSWFiRVJnczdOOU5MaDN0QVdvamh3TXc1SmsteGlIZjU5Vk5IU2xxSktBckRnQUlOM0lZYWJiQUlkWm0zcEVSREFfQnpuWVFvQnZweEVRZk42MEUzckhUWC1TYlZrRk5RVDI2S1ZrYzNWUU54d2xEeDl2Y2JUVW5kanJQ?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "Talbot's",
+      "competitionLevel": "MEDIUM",
+      "keyTakeaway": {
+        "kr": "Lands' End와 J.Jill 등 시니어 및 클래식 캐주얼 브랜드들이 노동절 연휴 확장 세일과 재무 뉴스 등을 통해 입지를 다지고 있습니다.",
+        "en": "Senior and classic casual brands like Lands' End and J.Jill solidified their market presence through extended Labor Day sales and financial updates."
+      },
+      "competitors": [
+        {
+          "name": "Lands' End",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "노동절 연휴 종료 직후에도 최대 75% 할인 행사를 연장하여 운영했습니다.",
+            "en": "Extended its Labor Day sale offering up to 75% off past the standard holiday window."
+          },
+          "whyItMatters": {
+            "kr": "연휴 직후 잔여 소비 심리를 흡수하여 지속적인 매출을 창출합니다.",
+            "en": "Captures residual consumer spending immediately following the holiday window."
+          },
+          "action": {
+            "kr": "당사의 프로모션 종료 시점을 탄력적으로 조정하여 연휴 후반부 수요를 방어해야 합니다.",
+            "en": "Flexibly adjust our promotional end dates to defend post-holiday demand."
+          },
+          "sources": [
+            {
+              "source": "NBC News",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.08",
+              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVXl2VHUtSExRbjdleWN0S3VXcmVCa3J3cE9KNEZhTk9IdnhINWJXZjh3Wm9ITHhod3BDYmFUQWpkX1lxNjYzTlJZVW9yVjR6bXdLbVExcXFkZE5wVGI0RENKbzhYUWNmQW92NUVObEZTalNieHphRVlwWVd2NkpITVln?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "J.Jill",
+          "signal": "FINANCIAL",
+          "move": {
+            "kr": "뉴욕증권거래소(NYSE) 상장 주가 및 실적 관련 최신 업데이트를 공개했습니다.",
+            "en": "Released recent share price and financial performance updates on the NYSE."
+          },
+          "whyItMatters": {
+            "kr": "시장에서의 기업 가치 평가와 향후 투자 여력을 가늠할 수 있는 지표가 됩니다.",
+            "en": "Serves as an indicator to gauge market valuation and future investment capacity."
+          },
+          "action": {
+            "kr": "경쟁사의 재무 건전성 및 주가 추이를 바탕으로 시장 내 포지셔닝을 점검해야 합니다.",
+            "en": "Review our market positioning based on competitors' financial health and stock trends."
+          },
+          "sources": [
+            {
+              "source": "Kalkine",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.04",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhREN2SEUwZ2RYcWlWUDF3anBWZ1NIQ29lQlJoXzNBTTB6dHBDVEFocXJlamRHR04xOUljQ3dLaUI4VFhlYkZfUHVCMDhqMWdIOVpZ?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Lands' End",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "아이코닉한 토트백 라인업을 특가(30달러 미만)에 선보이며 액세서리 및 잡화 판매를 촉진했습니다.",
+            "en": "Promoted iconic tote bags under $30 during the holiday sale event."
+          },
+          "whyItMatters": {
+            "kr": "실용적인 잡화 아이템을 통해 신규 고객 유입과 교차 판매를 유도합니다.",
+            "en": "Drives new customer acquisition and cross-selling through practical accessory items."
+          },
+          "action": {
+            "kr": "당사의 기프트 및 가방류 등 스테디셀러 잡화 상품의 프로모션 연계를 검토해야 합니다.",
+            "en": "Evaluate promotional tie-ins for steady-selling accessories such as gifts and bags."
+          },
+          "sources": [
+            {
+              "source": "Yahoo",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.02",
+              "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNFczaGdVa09XQVBKYmpZNEMtcEdlSTFWUE5SdFlSbzZzbVlKUUFqM2ZJTFZRNURhNGFsTmJoeGZsNERIdDB1d0YyVmFDa2t3Y0lnOEtJSU5FeTQwcW5vMFZJdjBqRnNuSHJFaWdGR1cwVFEyakNWVUZabkRQY3R5ZUhzemFVVy1hdnNFODhWb3BkVWZ6dlMw?oc=5"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
