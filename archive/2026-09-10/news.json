@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-09-09T23:00:32.740Z",
+  "generatedDateKST": "2026-09-10",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 1,
+    "within7d": 2,
+    "total": 5,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "실적 발표",
+      "category_en": "Earnings",
+      "date": "2026.09.09",
+      "title_kr": "Macy's, Q2 실적 guidance 상회 전망 속 Turnaround 전략 가속화",
+      "title_en": "Macy's Q2 earnings expected to beat guidance with turnaround strategy",
+      "body_kr": "Macy's의 Q2 earnings가 guidance를 상회할 것으로 예상되며 시장의 관심을 모으고 있습니다. 당사 벤더들은 retail 채널의 재고 소진 속도와 Turnaround 전략에 따른 reorder 추이를 면밀히 모니터링해야 합니다.",
+      "body_en": "Macy's Q2 earnings are expected to beat guidance, signaling momentum in its turnaround. Vendors should monitor inventory sell-through rates and potential reorder signals across retail channels.",
+      "source": "Pluang",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNck4yUG1OaUwtcjRLUTNZd2p0NC1XWjdKZ2hQdDFDSW5XdUc2bmxTMGsyT0Rja21wZEtvcWhPSUxUdHpVNnpad2xDYnZEZjdBWjRJOEpJNVZoejNlQjZqdm1pbGE5X1d6cHJHcnU4MXhyVFoyUV9wUVdfaXJvdlJBSEFDZkVlM2dodGc?oc=5",
+      "ageHours": 2.4144633333333334
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "조직 개편",
+      "category_en": "Leadership",
+      "date": "2026.09.01",
+      "title_kr": "Kohl's names Walmart fashion alum as chief merchant",
+      "body_kr": "Kohl's appointed a Walmart fashion veteran as its new chief merchant to tackle ongoing customer traffic and sales challenges. Vendors should prepare for potential shifts in merchandise strategy and category planning.",
+      "source": "Retail Dive",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSkw4TWNmZTc1WkhXY3daNlZhUm1HS1F5T3ZrQjRiVkxaYmFrbTNVbHdKbkcwODR3SWdmTF91ajZadi1oYm0xYTgtbWl5Yk4xRHAzYktaLUJaSHZTcG1pX0hYUGxweVF5b0dsT3M4WmF4SFJnbGhMWk94N3ROWWNOOUV4TlRlN1h3?oc=5",
+      "ageHours": 208.00640222222222
+    },
+    {
+      "brand": "Abercrombie & Fitch",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "실적 발표",
+      "category_en": "Earnings",
+      "date": "2026.08.31",
+      "title_kr": "Abercrombie & Fitch, 역대급 Q2 sales 기록하며 offline store Expansion 발표",
+      "title_en": "Abercrombie & Fitch posts record Q2 sales and plans store expansion",
+      "body_kr": "Abercrombie & Fitch delivered record Q2 sales, driving stock gains and aggressive store expansion and remodel plans. This momentum creates strong partnership opportunities for apparel vendors aligned with their growth categories.",
+      "source": "Chain Store Age",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQa0c2SC10TUc5ZE5LUF9SU09iTkQzd2ZSR1l2VGlUYWEyNnhBNFR0UkwxYWtJUnIyc1dmQ3RfT2JPa0Jsel8zUU1iOEprcm9odm1Wbzh1cGFaNTFzRlJXT0V5eDFWZmxXd2pvd2RaLVFJQ19za0xuYlh0eG0tSF9kbHJVX3VqYVZQb0FaVw?oc=5",
+      "ageHours": 221.05971833333334
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "마케팅",
+      "category_en": "Marketing",
+      "date": "2026.08.31",
+      "title_kr": "Macy's, creative 및 production 총괄하는 senior vice president 영입",
+      "title_en": "Macy's names senior vice president of creative, production",
+      "body_kr": "Macy's appointed a new senior vice president of creative and production to elevate its visual merchandising. Vendors should align with the new creative direction ahead of upcoming holiday promotional campaigns.",
+      "source": "Retail Dive",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRXUxR0pyUVozZDhfYnNKNTVJTHUzMElKSWhhZWY4Wjlhbkp0bWQ4VGR0OHZDaHNsOENvSUFDMl8tZ1NtVEpVVXBFd1lLVEg3bTVqR3pHNWppc05VZmk5bUZCOEgtSWVtQm9wUWx1a201cUVhekpqRmY4NTRlS1BrQmppXzBObndyeEdNbTc5MlM0NTdOYVhlcUlQSC00TktRU0pn?oc=5",
+      "ageHours": 232.00640777777778
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "promotion",
+      "category_en": "Promotion",
+      "date": "2026.09.06",
+      "title_kr": "Kohl's, Labor Day sale 진행하며 fall fashion merchandise 본격 판매",
+      "title_en": "Kohl's runs Labor Day sale featuring fall fashion scores",
+      "body_kr": "Kohl's drove customer traffic with a major Labor Day weekend sale focusing on early fall fashion merchandise. Vendor replenishment and chase strategies will depend on the sell-through results from this key promotional weekend.",
+      "source": "Yahoo",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOR1VWa2lSVFZpX0o1bVJkV2ZxTG5NZ0Z1RkpaMWhBaTNQQjJ2SWVGUktxNEMyeF85Y2ZLNXcyZmR0b2U1Wkh3YXJSN0lVamtKS3lxZm5PbUtlbFItYTgtN0lKUERqa2Y2RG9YeHZ3aUdhajlJSkJQenBBRzdfUTBUanp2MEh3elV1c2VQUS1YTjBRSTc1dnZxOVB2V2F2OGh4MUs2RWo0eGZneGdSOWU3NUlDUy12UG1PT2VxN01PZE82SWNNaGoyRmVTN0RtS3NheFVWVHRfT3k4Vzg1QTVhRllNbnQydGJWQW9pQjJfLTY0dnpVd0RF?oc=5",
+      "ageHours": 74.65501333333333
+    }
+  ]
+}
