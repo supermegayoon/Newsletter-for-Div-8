@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-09-10T01:45:32.535Z",
+  "asOf": "2026-09-11T09:28:12.148Z",
   "basis": "APPAREL MODE: current effective duty treatment for qualifying apparel; FTA/preference base duty reflected.",
   "mode": "APPAREL",
   "refreshStatus": "VERIFIED",
@@ -195,7 +195,7 @@
       "apparelEffectiveRate": 12.5,
       "currentAdditionalRate": 12.5,
       "status": "CURRENT",
-      "currentLabelKr": "CAFTA-DR 적격 의류: 기본관세 0% + 현재 Forced Labor Section 301 12.5% · 니카라과 노동인권 Section 301 2026년 기본관세 0% (2027년 10%로 인상 예정)실시",
+      "currentLabelKr": "CAFTA-DR 적격 의류: 기본관세 0% + 현재 Forced Labor Section 301 12.5% · 니카라과 노동인권 Section 301 2026년 기본관세 0% (2027년 10%로 인상 예정)",
       "currentLabelEn": "CAFTA-DR qualifying apparel: 0% base duty + current Forced Labor Section 301 12.5% · Nicaragua labor Section 301 2026 base rate is 0% (pending 10% in 2027)",
       "components": [
         {
