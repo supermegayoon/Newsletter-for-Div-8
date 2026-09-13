@@ -1,80 +1,80 @@
 {
   "ok": true,
-  "asOf": "2026-09-10T23:01:03.849Z",
-  "generatedDateKST": "2026-09-11",
+  "asOf": "2026-09-13T23:01:03.639Z",
+  "generatedDateKST": "2026-09-14",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-09-11",
+  "competitorDateKST": "2026-09-14",
   "insight": {
     "headline": {
-      "kr": "메이시스 럭셔리 실적 호조 및 에이앤에프 주가 변동성 속 8담당 대응 전략",
-      "en": "Team 8 Brief: Macy's Luxury Surge and A&F Volatility Shape Vendor Strategies"
+      "kr": "Macy's 가이드 상향 및 콜스 CMO 영입… 가을 시즌 margin 방어와 상품 재편 가속화",
+      "en": "Macy's Raises Guidance and Kohl's Appoints New CMO: Accelerating Fall Margin Defense and Product Realignment"
     },
     "summary": {
-      "kr": "메이시스가 럭셔리 부문의 사상 최대 실적에 힘입어 guidance를 상향 조정한 반면, 에이앤에프(A&F)와 아메리칸 이글은 밸류에이션 부담과 margin 전망으로 주가가 조정을 받았습니다. 콜스는 노동절 연휴 offline 마케팅을 강화하며 traffic 확보에 집중하고 있습니다.",
-      "en": "Macy's raised guidance driven by record luxury performance, while A&F and American Eagle faced valuation and margin pressures. Meanwhile, Kohl's leveraged aggressive offline holiday promotions during Labor Day."
+      "kr": "백화점 채널의 럭셔리 모멘텀과 실적 개선세가 이어지는 가운데, 주요 바이어들이 신임 임원 영입과 IP 협업으로 가을 시즌 traffic 확보에 집중하고 있습니다. 경쟁사들의 공격적인 promotion과 매장 전략에 맞서 철저한 margin 방어와 신상품 큐레이션 강화가 요구됩니다.",
+      "en": "As department store luxury momentum and earnings improvements continue, major buyers are focusing on autumn traffic acquisition through new executive appointments and IP collaborations. Countering competitor promotional aggression requires strict margin defense and enhanced product curation."
     },
     "tags": [
-      "#Macys",
-      "#Abercrombie",
-      "#Kohls",
-      "#ApparelMarket"
+      "#Team8",
+      "#DailyBrief",
+      "#RetailTrends",
+      "#FallSeason"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "노동절 연휴 기간 주요 offline store를 운영하고 특별 Holiday 시간을 적용하며 traffic 유치에 주력했습니다. 경쟁사인 타겟이 공격적인 할인 연장을 지속하는 만큼, 콜스의 가성비 중심 promotion에 맞춘 margin 방어형 벤더 제안이 필요합니다.",
-        "en": "Kohl's maintained select store operations and holiday hours during Labor Day to capture holiday traffic. As competitor Target extended deep-discount promotions, vendors must align margin-protective proposals with Kohl's value-driven strategy."
+        "kr": "신임 CMO Ryan M. Waymire 영입과 'KPop Demon Hunters' 콜렉션 론칭을 통해 젊은 층 traffic 유도와 상품 기획을 강화하고 있으며, Q2 매출 감소에도 305 bps의 gross margin 개선을 달성했습니다.",
+        "en": "Strengthened product planning and youth traffic acquisition by appointing new CMO Ryan M. Waymire and launching the 'KPop Demon Hunters' collection, while achieving a 305 bps gross margin increase despite a Q2 sales decline."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "씨티(Citi) 등 증권가가 단기 주가 급등에 따른 밸류에이션 부담을 반영하여 투자의견을 중립(Neutral)으로 조정했습니다. 경쟁사인 아메리칸 이글 역시 margin 전망 우려로 주가가 하락함에 따라, 향후 신상품 sourcing 시 원가 경쟁력이 더욱 중요해졌습니다.",
-        "en": "Analysts including Citi downgraded A&F to Neutral following recent surges, while peer American Eagle slipped on margin outlooks. Enhanced cost competitiveness is crucial for upcoming assortment planning given these valuation pressures."
+        "kr": "최근 주가 급등에 따른 Citi의 투자의견 Neutral 조정에도 불구하고, 지속적인 브랜드 모멘텀과 activewear·denim category의 수요 방어에 역점을 두고 있습니다.",
+        "en": "Despite Citi's downgrade to Neutral following recent stock surges, the brand maintains focus on sustaining momentum and defending demand across activewear and denim categories."
       },
       {
         "buyer": "Macy's",
-        "kr": "블루밍데일즈 등 럭셔리 배너의 사상 최대 Q2 실적에 힘입어 연간 guidance를 상향 조정했습니다. store 리뱀프(Revamp) 이후 고객 만족도가 상승하고 있어, 프리미엄 및 고가 category의 벤더 물량 확대 기회를 모색해야 합니다.",
-        "en": "Macy's raised its full-year guidance fueled by historic Q2 results from upscale banners like Bloomingdale's. With store revamps improving customer metrics, vendors should pursue expansion opportunities in premium merchandise categories."
+        "kr": "Bloomingdale's 등 럭셔리 배너의 강세에 힘입어 Q2 호실적을 기록하며 연간 guidance를 상향했으며, 프리미엄 머천다이징 및 sell-through 개선 전략이 돋보입니다.",
+        "en": "Raised full-year guidance following robust Q2 results driven by luxury banners like Bloomingdale's, highlighting strong premium merchandising and sell-through improvement strategies."
       }
     ],
     "opportunities": [
       {
-        "kr": "메이시스의 럭셔리 배너 호조에 발맞춰 고부가가치 프리미엄 의류 상품 군의 제안 확대를 검토합니다.",
-        "en": "Explore expanding high-value premium apparel proposals aligned with Macy's thriving upscale banner performance."
+        "kr": "경쟁사 Target의 여성 의류 매장 구조조정으로 발생한 offline 점포 공백을 활용하여 Kohl's 등 주요 백화점 및 매스 retail러향 공급 물량을 선점할 수 있습니다.",
+        "en": "Capture supply volume for major department stores and mass retailers like Kohl's by leveraging offline store vacuums created by competitor Target's restructuring."
       },
       {
-        "kr": "콜스의 offline 매장 중심 Holiday promotion에 대응하여 빠른 납기가 가능한 베이직 및 실속형 물량을 준비합니다.",
-        "en": "Prepare quick-turn basic and value-driven inventory to support Kohl's offline store-focused holiday promotions."
+        "kr": "ZARA와 J.Crew 등 경쟁사들의 가을 아우터 및 오피스룩 집중 공세에 대응하여, 트렌디한 간절기 아우터와 셋업 아이템의 납기 단축 및 고품질 제안을 추진해야 합니다.",
+        "en": "Drive lead-time reductions and high-quality proposals for trendy transitional outerwear and set items to counter heavy fall outerwear and office-wear pushes by competitors like ZARA and J.Crew."
       },
       {
-        "kr": "경쟁사들의 margin 압박 신호에 선제적으로 대응하여 원가 절감 및 가성비 sourcing 옵션을 바이어에게 제시합니다.",
-        "en": "Proactively present cost-optimized and high-value sourcing options to buyers to counter peer margin pressures."
+        "kr": "J.Jill의 데님 리론칭 성공 사례를 벤치마킹하여, 당사 시그니처 팬츠 및 데님 라인의 핏 가이드와 마케팅 포지셔닝을 고도화하여 바이어 제안 경쟁력을 높여야 합니다.",
+        "en": "Benchmark J.Jill's successful denim relaunch by upgrading fit guides and marketing positioning for our signature pants and denim lines to boost buyer proposal competitiveness."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "주요 브랜드들의 주가 변동성 확대 및 경쟁사들의 공격적인 할인 연장이 바이어들의 신규 오더 심리에 단기적 부담으로 작용할 수 있습니다.",
-      "en": "Heightened stock volatility across key brands and aggressive competitor promotions may pose short-term caution for buyer order sentiment."
+      "kr": "환율 변동성(USD/KRW 1,342원대)과 원면 가격 하락(-2.3%), 유가 상승세가 복합 작용하며 바이어들의 가격 압박 및 margin 방어 기조가 더욱 심화될 리스크가 존재합니다.",
+      "en": "Risks of intensified buyer price pressure and margin defense persist due to the combined effects of FX volatility (USD/KRW around 1,342), declining cotton prices (-2.3%), and rising crude oil trends."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "메이시스 guidance 상향 품목 분석 및 프리미엄 category 제안서 작성",
-        "en": "Analyze Macy's guidance upgrades and draft proposals for premium apparel categories."
+        "kr": "Kohl's의 신임 CMO 체제 및 IP 콜렉션(KPop Demon Hunters) 연계 상품군에 대한 sourcing 및 머천다이징 변경 사항을 모니터링하고 대응책을 마련할 것.",
+        "en": "Monitor and formulate responses to sourcing and merchandising adjustments under Kohl's new CMO regime and IP collection (KPop Demon Hunters) lines."
       },
       {
         "owner": "Team 8",
-        "kr": "콜스 offline promotion 대응을 위한 납기 일정 및 재고 점검",
-        "en": "Review delivery schedules and inventory levels to support Kohl's offline promotional cadence."
+        "kr": "Macy's의 프리미엄 sell-through 개선 추이에 발맞추어 고부가가치 스타일의 샘플 품질을 점검하고 추가 오더 가능성에 대비할 것.",
+        "en": "Inspect sample quality for high-value-added styles in line with Macy's premium sell-through improvement trends and prepare for potential follow-up orders."
       },
       {
         "owner": "Team 8",
-        "kr": "에이앤에프 및 경쟁사 margin 동향 모니터링 후 원가 경쟁력 확보 방안 검토",
-        "en": "Monitor A&F and competitor margin trends to evaluate cost competitiveness enhancement options."
+        "kr": "경쟁사들의 가을 아우터 및 데님 promotion 공세에 대응하기 위해 주요 바이어별 online 상세 페이지 내 핏 가이드와 타겟형 promotion 지원 방안을 점검할 것.",
+        "en": "Review fit guides on online detail pages and targeted promotional support plans for each key buyer to counter competitor fall outerwear and denim promotions."
       }
     ]
   }
