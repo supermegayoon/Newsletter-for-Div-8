@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-09-10T23:01:03.849Z",
+  "generatedDateKST": "2026-09-11",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-09-11",
+  "insight": {
+    "headline": {
+      "kr": "메이시스 럭셔리 실적 호조 및 에이앤에프 주가 변동성 속 8담당 대응 전략",
+      "en": "Team 8 Brief: Macy's Luxury Surge and A&F Volatility Shape Vendor Strategies"
+    },
+    "summary": {
+      "kr": "메이시스가 럭셔리 부문의 사상 최대 실적에 힘입어 guidance를 상향 조정한 반면, 에이앤에프(A&F)와 아메리칸 이글은 밸류에이션 부담과 margin 전망으로 주가가 조정을 받았습니다. 콜스는 노동절 연휴 offline 마케팅을 강화하며 traffic 확보에 집중하고 있습니다.",
+      "en": "Macy's raised guidance driven by record luxury performance, while A&F and American Eagle faced valuation and margin pressures. Meanwhile, Kohl's leveraged aggressive offline holiday promotions during Labor Day."
+    },
+    "tags": [
+      "#Macys",
+      "#Abercrombie",
+      "#Kohls",
+      "#ApparelMarket"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "노동절 연휴 기간 주요 offline store를 운영하고 특별 Holiday 시간을 적용하며 traffic 유치에 주력했습니다. 경쟁사인 타겟이 공격적인 할인 연장을 지속하는 만큼, 콜스의 가성비 중심 promotion에 맞춘 margin 방어형 벤더 제안이 필요합니다.",
+        "en": "Kohl's maintained select store operations and holiday hours during Labor Day to capture holiday traffic. As competitor Target extended deep-discount promotions, vendors must align margin-protective proposals with Kohl's value-driven strategy."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "씨티(Citi) 등 증권가가 단기 주가 급등에 따른 밸류에이션 부담을 반영하여 투자의견을 중립(Neutral)으로 조정했습니다. 경쟁사인 아메리칸 이글 역시 margin 전망 우려로 주가가 하락함에 따라, 향후 신상품 sourcing 시 원가 경쟁력이 더욱 중요해졌습니다.",
+        "en": "Analysts including Citi downgraded A&F to Neutral following recent surges, while peer American Eagle slipped on margin outlooks. Enhanced cost competitiveness is crucial for upcoming assortment planning given these valuation pressures."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "블루밍데일즈 등 럭셔리 배너의 사상 최대 Q2 실적에 힘입어 연간 guidance를 상향 조정했습니다. store 리뱀프(Revamp) 이후 고객 만족도가 상승하고 있어, 프리미엄 및 고가 category의 벤더 물량 확대 기회를 모색해야 합니다.",
+        "en": "Macy's raised its full-year guidance fueled by historic Q2 results from upscale banners like Bloomingdale's. With store revamps improving customer metrics, vendors should pursue expansion opportunities in premium merchandise categories."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "메이시스의 럭셔리 배너 호조에 발맞춰 고부가가치 프리미엄 의류 상품 군의 제안 확대를 검토합니다.",
+        "en": "Explore expanding high-value premium apparel proposals aligned with Macy's thriving upscale banner performance."
+      },
+      {
+        "kr": "콜스의 offline 매장 중심 Holiday promotion에 대응하여 빠른 납기가 가능한 베이직 및 실속형 물량을 준비합니다.",
+        "en": "Prepare quick-turn basic and value-driven inventory to support Kohl's offline store-focused holiday promotions."
+      },
+      {
+        "kr": "경쟁사들의 margin 압박 신호에 선제적으로 대응하여 원가 절감 및 가성비 sourcing 옵션을 바이어에게 제시합니다.",
+        "en": "Proactively present cost-optimized and high-value sourcing options to buyers to counter peer margin pressures."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "주요 브랜드들의 주가 변동성 확대 및 경쟁사들의 공격적인 할인 연장이 바이어들의 신규 오더 심리에 단기적 부담으로 작용할 수 있습니다.",
+      "en": "Heightened stock volatility across key brands and aggressive competitor promotions may pose short-term caution for buyer order sentiment."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "메이시스 guidance 상향 품목 분석 및 프리미엄 category 제안서 작성",
+        "en": "Analyze Macy's guidance upgrades and draft proposals for premium apparel categories."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "콜스 offline promotion 대응을 위한 납기 일정 및 재고 점검",
+        "en": "Review delivery schedules and inventory levels to support Kohl's offline promotional cadence."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "에이앤에프 및 경쟁사 margin 동향 모니터링 후 원가 경쟁력 확보 방안 검토",
+        "en": "Monitor A&F and competitor margin trends to evaluate cost competitiveness enhancement options."
+      }
+    ]
+  }
+}
