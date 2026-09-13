@@ -1,0 +1,86 @@
+{
+  "ok": true,
+  "asOf": "2026-09-10T23:00:31.948Z",
+  "generatedDateKST": "2026-09-11",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 4,
+    "within7d": 5,
+    "total": 5,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "실적 및 guidance",
+      "category_en": "Earnings",
+      "date": "2026.09.10",
+      "title_kr": "Macy's, luxury banner 호조에 힘입어 실적 guidance 상향 조정",
+      "title_en": "Macy's lifts forecasts as luxury banners thrive, but turnaround costs hit shares",
+      "body_kr": "Macy's가 luxury banner들의 실적 호조에 힘입어 연간 guidance를 상향 조정했으나, turnaround 비용으로 주가는 하락했습니다. Vendor사들은 주요 retail channel의 프리미엄 부문 실적 반등에 따른 merchandise 수요 변화를 모니터링해야 합니다.",
+      "body_en": "Macy's raised its full-year guidance driven by strong luxury banner performance, though turnaround costs weighed on shares. Vendors should monitor merchandise demand shifts aligned with premium retail channel recovery.",
+      "source": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWmtyOVpYV3lOZF9iZ3dBSjdScFl6QWstTml0VFYtampic3ZHbjFJem1CQU9DNHNIRkRVYVUwem5QUHdyVUhjNmtLVTFyNDNiNG9mQkk0SXhPMkNKTGJ0U1JjMkJpMURsa3BWa0wyNU9ZVm1vTDBzWDJ3dUkxT0lOVEdCNS1RZ04wQUdLQlBaM0M5cmRRY3dIaGxYVGg0bTh1Rk9QUXlIWkxpZ0plaUp2bnN0RFZXbUk?oc=5",
+      "ageHours": 3.21
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Store 및 Customer Experience",
+      "category_en": "Stores & CX",
+      "date": "2026.09.10",
+      "title_kr": "Macy's, store revamp 이후 NPS(고객만족도) 지속 상승",
+      "title_en": "Macy’s NPS continues to climb following store revamps",
+      "body_kr": "Macy's가 진행한 store revamp 작업 이후 고객만족도(NPS) 지표가 지속적으로 상승세를 보이고 있습니다. Offline store 환경 개선이 소비자 traffic과 sell-through에 긍정적인 영향을 미치고 있어 주목됩니다.",
+      "body_en": "Macy's has seen continued improvements in its Net Promoter Score following comprehensive store revamps. Enhanced offline store environments are positively impacting consumer traffic and sell-through.",
+      "source": "Customer Experience Dive",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYTJ5MG5BNU9RTGMxRlEwU0NIMDh0aVIwZ3QwZjI4Y0tVMUtpVjZKWXN6eW9TMERMbi1LX0tQUVRJOGg2NDZ4eU03Z1JVVXlfVHNsWW91cUQ3bzlxY19xLVJZS2tkbDBFLWwzZ3FzOFQ5dU43RWhWbkRRdEhKak9UVjBFMTdncnRPSS1XR05PWEoyT2IwRmF0djJpdEdabEE3eWdZ?oc=5",
+      "ageHours": 3.15
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "실적 및 merchandise",
+      "category_en": "Earnings",
+      "date": "2026.09.10",
+      "title_kr": "Bloomingdale's, 창립 165년래 최고 Q2 실적으로 Macy's guidance 상향 견인",
+      "title_en": "Bloomingdale’s Best Q2 in 165 Years Drives Macy’s Second Guidance Raise",
+      "body_kr": "Bloomingdale's가 165년 역사상 최고의 Q2 실적을 기록하며 Macy's의 두 번째 guidance 상향을 이끌었습니다. 고가 merchandise category의 탄탄한 수요가 전체 실적 성장을 주도하고 있습니다.",
+      "body_en": "Bloomingdale's delivered its best Q2 in 165 years, driving Macy's second guidance raise of the year. Robust demand within upscale merchandise categories is leading overall growth.",
+      "source": "Tech Times",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbDI1YlRNUHUzT2VYbkdfNWVrZWNVd29WWm01RnJvTTg2c01oM01yZ1JIdndEaHVDellXRjZuZTBnd0UxQjR6TDlJTkJYc1hrYmQ2VER1UTBFUGF1M2l4enN4Tm5vdzhhWW1HSmVTRzBjYW5MUUNnb0xGSmpCYTBJZ01nbWd4T3dYZkhpMXliRVNHcDBWMW1xUjNXWmRocDN6QlFQMkxQWHRIQS15MjFyZzNLSVNsd0hiQ2dMZURn?oc=5",
+      "ageHours": 3.78
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "주가 및 증권가 동향",
+      "category_en": "Analyst Rating",
+      "date": "2026.09.08",
+      "title_kr": "Citi, Abercrombie & Fitch 주가 36% 급등 후 Neutral로 하향 조정 및 목표가 $156 제시",
+      "title_en": "Citi Downgrades Abercrombie & Fitch to Neutral After 36% Surge, Raises Target to $156",
+      "body_kr": "Citi가 Abercrombie & Fitch의 최근 주가 급등 이후 투자의견을 Neutral로 하향 조정한 반면, 목표 주가는 156달러로 상향했습니다. 브랜드의 탄탄한 momentum이 이어지고 있으나 단기 밸류에이션 부담을 반영한 조치입니다.",
+      "body_en": "Citi downgraded Abercrombie & Fitch to Neutral following a recent 36% surge while raising its target price to $156. The adjustment reflects short-term valuation considerations despite strong brand momentum.",
+      "source": "finance.biggo.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkdm55LWVEVW0yNTE2b0JmRWVoaGk0MmJwNy1seWZUbHYwSzZwZm5UV010MjJsRjRXa2tFSEFoTFgyd3hsM1J3b2tIdVBxdnJMVmNMT0pTYUJFNkFoVUIzdVBIM3B4SzdpUG1HaEk3QUxpc1NTalE?oc=5",
+      "ageHours": 47.73
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Promotion 및 소비재",
+      "category_en": "Promotion",
+      "date": "2026.09.07",
+      "title_kr": "Kohl's, Labor Day 연휴 동안 전국 79개 store 운영 및 특별 Holiday hours 적용",
+      "title_en": "79 Stores Open on Labor Day 2026, Plus Holiday Hours",
+      "body_kr": "Kohl's가 Labor Day 연휴를 맞아 주요 지역의 offline store 79곳을 정상 오픈하고 특별 Holiday hours를 운영했습니다. 연휴 시즌 소비 traffic을 선점하기 위한 공격적인 promotion 전략의 일환입니다.",
+      "body_en": "Kohl's kept 79 offline stores open on Labor Day alongside special holiday hours. This move highlights strategic promotions aimed at capturing consumer traffic during the holiday weekend.",
+      "source": "TODAY.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB1dUt2SG9oQk5BRFNNNTZhMkRmeUE2QWxlVjFqWkpZbzZHT2NxQU55SlBMVXN5Zkh1RHhCMGw4ZHpYUFE2WEI3SWpWS0xSRWRTb3d1SXdJc25KWXRwQVprbEF2S0dRWGp2SGVIVHdZdS14cFhxbGFieTY4OHpfdw?oc=5",
+      "ageHours": 80.69
+    }
+  ]
+}
