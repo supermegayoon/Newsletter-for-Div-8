@@ -1,80 +1,80 @@
 {
   "ok": true,
-  "asOf": "2026-09-14T10:09:06.281Z",
-  "generatedDateKST": "2026-09-14",
+  "asOf": "2026-09-14T23:01:26.033Z",
+  "generatedDateKST": "2026-09-15",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-09-14",
+  "competitorDateKST": "2026-09-15",
   "insight": {
     "headline": {
-      "kr": "Macy's와 Kohl's 실적 및 guidance 상향 속, 가을 시즌 sourcing 및 margin 방어 전략 가동 필요",
-      "en": "Macy's and Kohl's Lift Outlooks; Fall Sourcing and Margin Defense Strategies in Focus"
+      "kr": "Macy's 실적 호조 및 Kohl's Partnership 확장, 벤더사 신규 물량 공략 기회",
+      "en": "Macy's Earnings Beat & Kohl's Partnership Expansion Open New Vendor Opportunities"
     },
     "summary": {
-      "kr": "주요 바이어들이 가을 시즌 guidance를 상향하고 margin 방어와 상품 차별화에 집중하는 가운데, 경쟁사들의 공격적인 promotion 및 매장 전략에 대응하여 벤더사로서 원가 경쟁력과 납기 준수 역량을 철저히 점검해야 합니다.",
-      "en": "As key buyers raise fall guidance and focus on margin defense and product differentiation, the sales team must closely monitor competitor promos and ensure rigorous cost competitiveness and delivery compliance."
+      "kr": "2026년 9월 15일 기준, Macy's의 실적 호조 및 연간 guidance 상향과 Kohl's의 Babies 'R' Us 매장 확대 등 offline traffic 견인 전략이 돋보입니다. 반면 A&F는 주가 급등에 따른 밸류에이션 부담 우려가 제기되나 견조한 수요는 유지되고 있습니다. 원면 및 유가 등 매크로 변동성에 맞춘 철저한 원가 및 재고 관리가 필수적입니다.",
+      "en": "As of September 15, 2026, Macy's strong earnings and raised guidance, alongside Kohl's store expansion with Babies 'R' Us, highlight positive offline traffic strategies. Meanwhile, A&F faces valuation scrutiny following recent surges, though fundamental demand remains solid. Rigorous cost and inventory management are essential amid fluctuating cotton and oil prices."
     },
     "tags": [
-      "#Kohl's",
-      "#AbercrombieFitch",
+      "#KohlS",
+      "#Abercrombie",
       "#Macys",
-      "#FallSeasonSourcing"
+      "#ApparelSourcing"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "신임 CMO(Ryan M. Waymire) 영입과 'KPop Demon Hunters' 등 IP 컬렉션 확대로 젊은 층 유입을 도모하고 있으며, 305 bps의 gross margin 개선을 달성했습니다. 경쟁사 Target의 매장 폐쇄 지역 인근 마케팅 및 PB 경쟁력 강화에 주목해야 합니다.",
-        "en": "Kohl's appointed a new CMO, launched IP collections like 'KPop Demon Hunters' to drive youth traffic, and expanded gross margins by 305 bps. Sales teams should monitor competitor Target's store closures and Kohl's PB strategies."
+        "kr": "Babies 'R' Us shop-in-shop 매장을 56개로 확대하고 'KPop Demon Hunters' 콜라보를 런칭하며 젊은 층 및 유아동 traffic 유입에 집중하고 있습니다. 가성비 중심의 'By Kohl's' 자체 브랜드 전략과 연계해 대량 생산 및 타겟 코스팅(Target Costing) 대응이 필요합니다.",
+        "en": "Kohl's is expanding Babies 'R' Us shop-in-shops to 56 locations and launching a 'KPop Demon Hunters' collection to drive youth and family traffic. Vendors should align with its value-driven 'By Kohl's' private label strategy and competitive target costing models."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "15개 분기 연속 순매출 성장을 기록하며 guidance를 상향했습니다. NFL 라이선스 Partnership 확장 및 적극적인 트렌드 아우터 드롭을 전개 중인 만큼, 생산 Capa와 철저한 납기 관리가 핵심입니다.",
-        "en": "A&F raised full-year guidance backed by 15 consecutive quarters of sales growth. With expanded NFL licensing and swift outerwear drops, production capacity and tight schedule control are paramount."
+        "kr": "15분기 연속 순매출 성장을 기록하며 글로벌 수요를 입증했으나, Citi의 투자의견 하향 등 단기 주가 상승에 따른 밸류에이션 부담이 있습니다. 강력한 판매 모멘텀을 활용해 reorder 및 선제적 원단 확보(Grey fabric booking)를 검토해야 합니다.",
+        "en": "A&F reported 15 consecutive quarters of net sales growth, though recent stock surges have drawn cautious analyst sentiment regarding valuation. Vendors should leverage this strong sales momentum to prepare for potential reorders and early grey fabric booking."
       },
       {
         "buyer": "Macy's",
-        "kr": "Bloomingdale's 등 럭셔리 배너와 'Reimagine' 매장 혁신에 힘입어 Q2 실적 호조 및 연간 guidance를 상향했습니다. 백화점 프리미엄 머천다이징 트렌드에 맞춘 신규 소재 및 실루엣 제안이 필요합니다.",
-        "en": "Macy's lifted full-year guidance driven by luxury banners like Bloomingdale's and 'Reimagine' store investments. Sales teams should align new material and silhouette proposals with department store premium trends."
+        "kr": "Q2 실적 호조에 힘입어 FY26 guidance를 상향했으며, 'Celebrate American Designers' 컬렉션 등 플래그십 현대화 전략을 추진 중입니다. 감도 높은 프리미엄 우븐 및 드레스류 등 차별화된 디자인 sourcing 제안이 유리합니다.",
+        "en": "Macy's raised its FY26 guidance following strong Q2 results and is advancing flagship modernization via curated collections like 'Celebrate American Designers.' Presenting design-driven, contemporary apparel concepts will effectively support this store elevation strategy."
       }
     ],
     "opportunities": [
       {
-        "kr": "Kohl's의 PB 및 홈 category 확장 추세에 발맞춘 가성비 우위의 원단 sourcing 및 키친·리빙 텍스타일 샘플 제안",
-        "en": "Pitch cost-effective fabric sourcing and kitchen/living textile samples aligned with Kohl's PB and home category expansion"
+        "kr": "Kohl's의 유아동 category 확장 및 'By Kohl's' PB 라인 확대를 타겟으로 한 가성비 우수 캐주얼 의류 대량 수주 제안",
+        "en": "Pitch high-volume, cost-effective casual apparel tailored to Kohl's's expanding baby category and 'By Kohl's' private label strategy."
       },
       {
-        "kr": "A&F의 15개 분기 연속 성장에 따른 발주 물량 증가 대비, 핵심 공장 생산 라인 사전 점검 및 Capa 선점",
-        "en": "Pre-audit primary factory production lines and secure capacity to prepare for order volume surges driven by A&F's consecutive growth"
+        "kr": "Macy's의 플래그십 매장 현대화 및 디자이너 Collaboration 트렌드에 맞춘 컨템포러리 드레스 및 우븐 샘플 개발",
+        "en": "Develop contemporary dress and woven samples aligned with Macy's flagship store modernization and designer collaboration trends."
       },
       {
-        "kr": "Macy's 'Reimagine' store 콘셉트에 부합하는 백화점 타겟형 프리미엄 감성 샘플 쇼룸 운영",
-        "en": "Operate a showroom featuring premium samples tailored to department store targets, matching Macy's 'Reimagine' store concept"
+        "kr": "A&F의 15분기 연속 매출 성장에 발맞춘 베스트셀러 데님 및 스포츠 콜라보 라인의 선제적 reorder 원단 사전 확보",
+        "en": "Secure advance grey fabric inventory for core denim and sports collaboration lines to support A&F's sustained sales growth."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "주요 경쟁사들의 노동절 연휴 이후 장기 할인 공세(Macy's 최대 75%, Anthropologie 40% 이상)로 인한 초기 정가 판매율 압박 및 원가 상승 리스크 존재",
-      "en": "Risk of pressure on initial full-price sell-through and margin compression due to extended post-Labor Day discounting by key competitors"
+      "kr": "면화 가격 하락세 및 원유 가격 상승 등 원가 압박 요인이 혼재되어 있으며, 주요 브랜드들의 밸류에이션 및 주가 변동성 확대에 따른 보수적인 발주 가능성에 대비해야 합니다.",
+      "en": "Mixed cost pressures—including declining cotton prices and rising crude oil—alongside valuation scrutiny on key buyers warrant cautious management of production margins and order timelines."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Kohl's 신임 CMO 체제에 맞춘 PB 가격대 및 타겟 스펙별 대안 원단 sourcing 안 수립",
-        "en": "Establish alternative fabric sourcing plans aligned with Kohl's new CMO pricing and target specifications"
+        "kr": "Kohl's의 'By Kohl's' PB 및 NB 상품군 가격대별 원가 구조를 분석하고 타겟 코스팅 맞춤형 제안서 작성",
+        "en": "Analyze price-tier cost structures for Kohl's 'By Kohl's' private and national brand mix and prepare target-costing proposal packages."
       },
       {
         "owner": "Team 8",
-        "kr": "A&F 라이선스 의류 생산을 위한 특수 프린팅·자수 품질 기준 재검토 및 협력 공장 기술력 검증",
-        "en": "Review specialty printing/embroidery quality standards for A&F licensed apparel and verify partner factory capabilities"
+        "kr": "Macy's Reimagine 매장 컨셉에 대응할 감도 높은 우븐 및 드레스 디자인 샘플 기획 및 사내 품평회 진행",
+        "en": "Design and review elevated woven and dress sample concepts tailored to Macy's Reimagine store strategy."
       },
       {
         "owner": "Team 8",
-        "kr": "Macy's Reimagine 매장 진열 트렌드에 대응할 가을 아우터 및 레이어드 신제품 제안서 최종 점검",
-        "en": "Finalize fall outerwear and layered product proposals to respond to Macy's Reimagine store merchandising trends"
+        "kr": "A&F 및 주요 경쟁사(American Eagle 등)의 실적 및 판매 동향을 모니터링하고 시즌 reorder 대응 생산 타임라인 점검",
+        "en": "Monitor earnings and sales trends of A&F and competitors like American Eagle, and review production timelines for upcoming reorder execution."
       }
     ]
   }
