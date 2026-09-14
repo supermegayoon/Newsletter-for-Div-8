@@ -1,0 +1,86 @@
+{
+  "ok": true,
+  "asOf": "2026-09-13T23:00:32.923Z",
+  "generatedDateKST": "2026-09-14",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 1,
+    "within7d": 3,
+    "total": 5,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "실적 및 가이드 상향",
+      "category_en": "Earnings and Guidance",
+      "date": "2026.09.11",
+      "title_kr": "Macy's, 강력한 luxury banner 실적에 힘입어 FY26 guidance 상향 조정",
+      "title_en": "Macy's Lifts FY26 Outlook Driven by Luxury Banner Momentum",
+      "body_kr": "Macy's가 Bloomingdale's 등의 강세로 시장 기대를 뛰어넘는 Q2 실적을 기록하며 연간 guidance를 상향 조정했습니다. 백화점 채널의 프리미엄 머천다이징 전략과 category별 sell-through 개선 추이를 벤치마킹할 필요가 있습니다.",
+      "body_en": "Macy's raised its full-year guidance following robust Q2 results driven by its luxury banners like Bloomingdale's. Sales teams should monitor these premium retail strategies and category sell-through trends.",
+      "source": "Reuters",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWmtyOVpYV3lOZF9iZ3dBSjdScFl6QWstTml0VFYtampic3ZHbjFJem1CQU9DNHNIRkRVYVUwem5QUHdyVUhjNmtLVTFyNDNiNG9mQkk0SXhPMkNKTGJ0U1JjMkJpMURsa3BWa0wyNU9ZVm1vTDBzWDJ3dUkxT0lOVEdCNS1RZ04wQUdLQlBaM0M5cmRRY3dIaGxYVGg0bTh1Rk9QUXlIWkxpZ0plaUp2bnN0RFZXbUk?oc=5",
+      "ageHours": 75.20976333333333
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "조직 개편 및 CMO 임명",
+      "category_en": "Executive Appointment",
+      "date": "2026.09.03",
+      "title_kr": "Kohl's, 신임 Chief Merchandising Officer에 Ryan M. Waymire 영입",
+      "title_en": "Kohl's Names Ryan M. Waymire Chief Merchandising Officer",
+      "body_kr": "Kohl's가 상품 기획 및 sourcing 역량 강화를 위해 Ryan M. Waymire를 새로운 Chief Merchandising Officer로 임명했습니다. 향후 private brand 재편과 category별 assortment 전략에 변화가 예상됩니다.",
+      "body_en": "Kohl's appointed Ryan M. Waymire as its new Chief Merchandising Officer to strengthen product planning and sourcing. The leadership change is expected to influence upcoming private brand and assortment strategies.",
+      "source": "Pulse 2.0",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kUUZVNm42MzZ6VzJhcUZfdFk1UFRubG9yMEp5NWFBN2tNTlZqUUh0NFplMDNYNDFEZEhfenljUnktRDVycF9hQWI1dldTZTRTZnFOOGR6UGRoOW9tQXRuT0lIV2pqS0NzUjJsMlBfd1o2ZnJmeEttODRLckZLb2PSAYQBQVVfeXFMUEJ2QjJiaFlZbFRsd0FTYU10UUhTQUExZ3N1VUVmcFgtb0JwRkt5d2MtZnJFWDk2R2MyWWF4ZDFaTkZ4SmhmSmU5YWZqQ0NyQ1ZuREVYVDJ5UWJYaXUxZDh1M1d0eDNmem1YejVzb2NCOTJqSGxLNXF5bWtKdWhNZUhJR2pq?oc=5",
+      "ageHours": 242.01338055555556
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "상품 협업 및 IP 출시",
+      "category_en": "Collaboration and IP",
+      "date": "2026.09.11",
+      "title_kr": "Kohl's, 'KPop Demon Hunters' inspired collection 론칭",
+      "title_en": "Kohl's Launches 'KPop Demon Hunters' Inspired Collection",
+      "body_kr": "Kohl's가 최신 팝 컬처 트렌드를 반영한 'KPop Demon Hunters' 테마의 exclusive merchandise를 공개했습니다. 젊은 층의 traffic 유도를 위한 IP Collaboration 상품화 전략으로 주목됩니다.",
+      "body_en": "Kohl's released an exclusive merchandise collection inspired by 'KPop Demon Hunters' to tap into pop culture trends. The launch highlights a strategic IP collaboration aimed at driving younger customer traffic.",
+      "source": "Lifestyle Asia Hong Kong",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYWFQUkVjR3Bab0pKVXdpMi1jZjRTOUVndjQyVlZ3QVpoRWhNbWdiN050U0ZQVGk4Sm1wT09hZDNDZlJ4ek5tT2x2N3N2MnUxZkVxUl9rRF9PX0F6aGJ5TTNISWV1c19aZ1Q1NzQ4VlJIb0Rna2FPSDZGOXo4UjdWRkZfZHFkclBCZ2h6cjRUb0JoTTFybThGcm5YQ0tRYjB4bUpRZmNyOVp2ejBs0gGyAUFVX3lxTE5kbEdkaU12c2RPejlQZ19ka2JjMzJabWRYaGtrQlYyVGVic01HdW8tSldHMFMyZzVzRkc1em9WWFJoci1aMDZHV3lpb0xkTzJLRzFRQ0I4enByX19jclI5TndrWGdTNEVHX0lRZG5Uc0VIMlhFQ2VqTWNtVXF6Rm5NcVJjM012YlI3Q0gyeU1FM2JxUEdNWkg4Mkp4U3FQS0ZmbldqN0VTM0lOZTRtNzVPbkE?oc=5",
+      "ageHours": 59.941158055555555
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "주가 및 투자 의견",
+      "category_en": "Analyst Rating",
+      "date": "2026.09.08",
+      "title_kr": "Citi, Abercrombie & Fitch 주가 급등에 따라 투자의견 Neutral로 조정",
+      "title_en": "Citi Downgrades Abercrombie & Fitch to Neutral After Recent Surge",
+      "body_kr": "최근 36% 급등한 Abercrombie & Fitch에 대해 Citi가 목표주가를 상향하면서도 투자의견을 Neutral로 조정했습니다. 브랜드별 실적 모멘텀과 향후 activewear 및 denim category의 수요 지속성에 관심이 집중됩니다.",
+      "body_en": "Citi downgraded Abercrombie & Fitch to Neutral following a 36% stock surge while raising its price target. Market observers are closely watching the brand's momentum and demand sustainability across activewear and denim.",
+      "source": "finance.biggo.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkdm55LWVEVW0yNTE2b0JmRWVoaGk0MmJwNy1seWZUbHYwSzZwZm5UV010MjJsRjRXa2tFSEFoTFgyd3hsM1J3b2tIdVBxdnJMVmNMT0pTYUJFNkFoVUIzdVBIM3B4SzdpUG1HaEk3QUxpc1NTalE?oc=5",
+      "ageHours": 119.73139416666666
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "margin 개선 및 실적 요약",
+      "category_en": "Margin and Financials",
+      "date": "2026.09.04",
+      "title_kr": "Kohl's, Q2 매출 소폭 감소에도 불구하고 gross margin 305 bps 개선 기록",
+      "title_en": "Kohl's Reports 305 Basis Point Increase in Gross Margin in Q2 2026",
+      "body_kr": "Kohl's가 Q2 기간 0.9%의 매출 감소를 기록했으나, 효율적인 재고 운영으로 gross margin을 305 bps 끌어올렸습니다. 가격 정책과 margin 방어 중심의 영업 전략이 돋보이는 대목입니다.",
+      "body_en": "Kohl's reported a 0.9% sales decline in Q2 but successfully expanded its gross margin by 305 basis points through disciplined inventory management. The results highlight a strategic shift toward margin defense and disciplined pricing.",
+      "source": "kalkinemedia.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTWhaXzQ5aVBPaG1hZVlldDlMM2RkemZXU2pQa3dSWEVMRkR1X1ZKbFV2MXZRQmJsSms1NktxbFNFRU9DR0tsYjRsZmx3d290d2RBeEEycHdzUlhyeHZYNm1zS19RWGZ0cExtQV9FTTlJLVpvS3RMYWxPTS16NUpxdjhZVmNlN1hQMkQ4dzZNMFBDeVIxYlNrRTYwWHEyUEhvV2lPRXo2QzBvSUZodmxWNDNhS1p4MjR2MG5QT1lsd3g0bkhJdDJuMVNkOFhCaDg5MHFN?oc=5",
+      "ageHours": 226.27365833333334
+    }
+  ]
+}
