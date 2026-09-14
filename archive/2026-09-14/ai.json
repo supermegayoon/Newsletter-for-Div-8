@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-09-14T10:09:06.281Z",
+  "generatedDateKST": "2026-09-14",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-09-14",
+  "insight": {
+    "headline": {
+      "kr": "Macy's와 Kohl's 실적 및 guidance 상향 속, 가을 시즌 sourcing 및 margin 방어 전략 가동 필요",
+      "en": "Macy's and Kohl's Lift Outlooks; Fall Sourcing and Margin Defense Strategies in Focus"
+    },
+    "summary": {
+      "kr": "주요 바이어들이 가을 시즌 guidance를 상향하고 margin 방어와 상품 차별화에 집중하는 가운데, 경쟁사들의 공격적인 promotion 및 매장 전략에 대응하여 벤더사로서 원가 경쟁력과 납기 준수 역량을 철저히 점검해야 합니다.",
+      "en": "As key buyers raise fall guidance and focus on margin defense and product differentiation, the sales team must closely monitor competitor promos and ensure rigorous cost competitiveness and delivery compliance."
+    },
+    "tags": [
+      "#Kohl's",
+      "#AbercrombieFitch",
+      "#Macys",
+      "#FallSeasonSourcing"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "신임 CMO(Ryan M. Waymire) 영입과 'KPop Demon Hunters' 등 IP 컬렉션 확대로 젊은 층 유입을 도모하고 있으며, 305 bps의 gross margin 개선을 달성했습니다. 경쟁사 Target의 매장 폐쇄 지역 인근 마케팅 및 PB 경쟁력 강화에 주목해야 합니다.",
+        "en": "Kohl's appointed a new CMO, launched IP collections like 'KPop Demon Hunters' to drive youth traffic, and expanded gross margins by 305 bps. Sales teams should monitor competitor Target's store closures and Kohl's PB strategies."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "15개 분기 연속 순매출 성장을 기록하며 guidance를 상향했습니다. NFL 라이선스 Partnership 확장 및 적극적인 트렌드 아우터 드롭을 전개 중인 만큼, 생산 Capa와 철저한 납기 관리가 핵심입니다.",
+        "en": "A&F raised full-year guidance backed by 15 consecutive quarters of sales growth. With expanded NFL licensing and swift outerwear drops, production capacity and tight schedule control are paramount."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "Bloomingdale's 등 럭셔리 배너와 'Reimagine' 매장 혁신에 힘입어 Q2 실적 호조 및 연간 guidance를 상향했습니다. 백화점 프리미엄 머천다이징 트렌드에 맞춘 신규 소재 및 실루엣 제안이 필요합니다.",
+        "en": "Macy's lifted full-year guidance driven by luxury banners like Bloomingdale's and 'Reimagine' store investments. Sales teams should align new material and silhouette proposals with department store premium trends."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "Kohl's의 PB 및 홈 category 확장 추세에 발맞춘 가성비 우위의 원단 sourcing 및 키친·리빙 텍스타일 샘플 제안",
+        "en": "Pitch cost-effective fabric sourcing and kitchen/living textile samples aligned with Kohl's PB and home category expansion"
+      },
+      {
+        "kr": "A&F의 15개 분기 연속 성장에 따른 발주 물량 증가 대비, 핵심 공장 생산 라인 사전 점검 및 Capa 선점",
+        "en": "Pre-audit primary factory production lines and secure capacity to prepare for order volume surges driven by A&F's consecutive growth"
+      },
+      {
+        "kr": "Macy's 'Reimagine' store 콘셉트에 부합하는 백화점 타겟형 프리미엄 감성 샘플 쇼룸 운영",
+        "en": "Operate a showroom featuring premium samples tailored to department store targets, matching Macy's 'Reimagine' store concept"
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "주요 경쟁사들의 노동절 연휴 이후 장기 할인 공세(Macy's 최대 75%, Anthropologie 40% 이상)로 인한 초기 정가 판매율 압박 및 원가 상승 리스크 존재",
+      "en": "Risk of pressure on initial full-price sell-through and margin compression due to extended post-Labor Day discounting by key competitors"
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Kohl's 신임 CMO 체제에 맞춘 PB 가격대 및 타겟 스펙별 대안 원단 sourcing 안 수립",
+        "en": "Establish alternative fabric sourcing plans aligned with Kohl's new CMO pricing and target specifications"
+      },
+      {
+        "owner": "Team 8",
+        "kr": "A&F 라이선스 의류 생산을 위한 특수 프린팅·자수 품질 기준 재검토 및 협력 공장 기술력 검증",
+        "en": "Review specialty printing/embroidery quality standards for A&F licensed apparel and verify partner factory capabilities"
+      },
+      {
+        "owner": "Team 8",
+        "kr": "Macy's Reimagine 매장 진열 트렌드에 대응할 가을 아우터 및 레이어드 신제품 제안서 최종 점검",
+        "en": "Finalize fall outerwear and layered product proposals to respond to Macy's Reimagine store merchandising trends"
+      }
+    ]
+  }
+}
