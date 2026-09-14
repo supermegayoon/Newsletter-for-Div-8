@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-09-14T09:53:12.146Z",
+  "asOf": "2026-09-14T10:09:06.281Z",
   "generatedDateKST": "2026-09-14",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
@@ -11,70 +11,70 @@
   "competitorDateKST": "2026-09-14",
   "insight": {
     "headline": {
-      "kr": "Macy's 및 A&F 실적 호조 속 벤더사 공급망 및 margin 방어 전략 강화 필요",
-      "en": "Macy's and A&F Solid Earnings Call for Strengthened Vendor Sourcing and Margin Defense Strategies"
+      "kr": "Macy's와 Kohl's 실적 및 guidance 상향 속, 가을 시즌 sourcing 및 margin 방어 전략 가동 필요",
+      "en": "Macy's and Kohl's Lift Outlooks; Fall Sourcing and Margin Defense Strategies in Focus"
     },
     "summary": {
-      "kr": "2026년 9월 14일 기준, 주요 바이어들의 실적 개선과 guidance 상향이 이어지는 가운데, 경쟁사들의 공격적인 promotion과 공급망 변화가 감지되고 있습니다. Kohl's의 신임 CMO 임명과 IP 콜라보, Macy's의 럭셔리 모멘텀에 발맞춘 정교한 sourcing 및 margin 방어 대응이 필수적입니다.",
-      "en": "As of September 14, 2026, major buyers report improved earnings and raised guidance while facing aggressive competitor promotions and supply chain shifts. Strategic sourcing and margin defense aligned with Kohl's new CMO and Macy's luxury momentum are critical."
+      "kr": "주요 바이어들이 가을 시즌 guidance를 상향하고 margin 방어와 상품 차별화에 집중하는 가운데, 경쟁사들의 공격적인 promotion 및 매장 전략에 대응하여 벤더사로서 원가 경쟁력과 납기 준수 역량을 철저히 점검해야 합니다.",
+      "en": "As key buyers raise fall guidance and focus on margin defense and product differentiation, the sales team must closely monitor competitor promos and ensure rigorous cost competitiveness and delivery compliance."
     },
     "tags": [
-      "#KohlsCMO",
-      "#MacysGuidance",
-      "#ANFMomentum",
-      "#ApparelSourcing"
+      "#Kohl's",
+      "#AbercrombieFitch",
+      "#Macys",
+      "#FallSeasonSourcing"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "신임 CMO Ryan M. Waymire 영입과 'KPop Demon Hunters' 등 IP Collaboration을 통해 젊은 층 traffic 유도 중. 경쟁사 Target의 177개 매장 철수 기회를 활용하여 철수 지역 인근 마케팅과 PB/NB 균형 sourcing 전략이 필요.",
-        "en": "Driving youth traffic via new CMO Ryan M. Waymire and IP collabs like 'KPop Demon Hunters'. Capitalize on Target's 177-store retreat with local marketing and balanced PB/NB sourcing strategies."
+        "kr": "신임 CMO(Ryan M. Waymire) 영입과 'KPop Demon Hunters' 등 IP 컬렉션 확대로 젊은 층 유입을 도모하고 있으며, 305 bps의 gross margin 개선을 달성했습니다. 경쟁사 Target의 매장 폐쇄 지역 인근 마케팅 및 PB 경쟁력 강화에 주목해야 합니다.",
+        "en": "Kohl's appointed a new CMO, launched IP collections like 'KPop Demon Hunters' to drive youth traffic, and expanded gross margins by 305 bps. Sales teams should monitor competitor Target's store closures and Kohl's PB strategies."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "15개 분기 연속 매출 성장과 NFL 공식 패션 Partnership 확장 등 강력한 호조세 지속. 경쟁사인 American Eagle의 부진을 틈타 적극적인 디지털 및 신학기 마케팅 전개 중이며, 생산 Capa 선점과 품질 관리가 핵심.",
-        "en": "Continuing strong momentum with 15 consecutive quarters of sales growth and expanded NFL partnerships. Capitalizing on American Eagle's slump with aggressive digital marketing; securing production capacity and quality control are key."
+        "kr": "15개 분기 연속 순매출 성장을 기록하며 guidance를 상향했습니다. NFL 라이선스 Partnership 확장 및 적극적인 트렌드 아우터 드롭을 전개 중인 만큼, 생산 Capa와 철저한 납기 관리가 핵심입니다.",
+        "en": "A&F raised full-year guidance backed by 15 consecutive quarters of sales growth. With expanded NFL licensing and swift outerwear drops, production capacity and tight schedule control are paramount."
       },
       {
         "buyer": "Macy's",
-        "kr": "Bloomingdale's 등 럭셔리 배너와 'Reimagine' 매장 혁신 투자에 힘입어 FY26 guidance 상향 조정. 경쟁사 Nordstrom의 디지털 promotion에 대응해 프리미엄 감성의 신규 소재 및 트렌디 실루엣 샘플 제안 필요.",
-        "en": "Raised FY26 guidance driven by luxury banners like Bloomingdale's and 'Reimagine' store investments. Counter Nordstrom's digital promos by offering premium material and trendy silhouette samples."
+        "kr": "Bloomingdale's 등 럭셔리 배너와 'Reimagine' 매장 혁신에 힘입어 Q2 실적 호조 및 연간 guidance를 상향했습니다. 백화점 프리미엄 머천다이징 트렌드에 맞춘 신규 소재 및 실루엣 제안이 필요합니다.",
+        "en": "Macy's lifted full-year guidance driven by luxury banners like Bloomingdale's and 'Reimagine' store investments. Sales teams should align new material and silhouette proposals with department store premium trends."
       }
     ],
     "opportunities": [
       {
-        "kr": "Kohl's의 홈 category(Martha Stewart, Bobby Flay) 확장 트렌드에 발맞추어 의류 외 홈·리빙 패브릭 sourcing 라인업 제안 확대",
-        "en": "Expand proposals for home and living fabric sourcing lines alongside Kohl's expanding home category trend (Martha Stewart, Bobby Flay)"
+        "kr": "Kohl's의 PB 및 홈 category 확장 추세에 발맞춘 가성비 우위의 원단 sourcing 및 키친·리빙 텍스타일 샘플 제안",
+        "en": "Pitch cost-effective fabric sourcing and kitchen/living textile samples aligned with Kohl's PB and home category expansion"
       },
       {
-        "kr": "A&F의 스포츠 라이선스 및 NFL 컬렉션 수요 급증에 대비하여 특수 프린팅 및 자수 테크니컬 sourcing 역량 조기 검증",
-        "en": "Pre-audit specialty printing and embroidery technical sourcing capabilities in anticipation of surging demand for A&F's sports licensing and NFL collections"
+        "kr": "A&F의 15개 분기 연속 성장에 따른 발주 물량 증가 대비, 핵심 공장 생산 라인 사전 점검 및 Capa 선점",
+        "en": "Pre-audit primary factory production lines and secure capacity to prepare for order volume surges driven by A&F's consecutive growth"
       },
       {
-        "kr": "Macy's의 'Reimagine' store 콘셉트에 맞춘 프리미엄 감성 및 완성도 높은 신규 소재 상품 쇼룸 구성",
-        "en": "Construct a showroom with premium-sensitivity and high-quality new material items tailored to Macy's 'Reimagine' store concept"
+        "kr": "Macy's 'Reimagine' store 콘셉트에 부합하는 백화점 타겟형 프리미엄 감성 샘플 쇼룸 운영",
+        "en": "Operate a showroom featuring premium samples tailored to department store targets, matching Macy's 'Reimagine' store concept"
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "경쟁사들(Macy's 최대 75% 할인, Nordstrom, Anthropologie 등)의 장기 및 대규모 promotion 공세로 인한 가을 시즌 초입의 margin 압박 및 정가 판매율 하락 위험 존재",
-      "en": "Risk of margin pressure and lower full-price sell-through at the start of the fall season due to extended, large-scale promotional onslaughts from competitors (Macy's up to 75% off, Nordstrom, Anthropologie)"
+      "kr": "주요 경쟁사들의 노동절 연휴 이후 장기 할인 공세(Macy's 최대 75%, Anthropologie 40% 이상)로 인한 초기 정가 판매율 압박 및 원가 상승 리스크 존재",
+      "en": "Risk of pressure on initial full-price sell-through and margin compression due to extended post-Labor Day discounting by key competitors"
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Kohl's 신임 CMO 체제와 PB 라인업 변화에 대응하여 가성비 우위의 대체 원단 sourcing 안 수립",
-        "en": "Establish cost-effective fabric sourcing alternatives responding to Kohl's new CMO structure and PB lineup shifts"
+        "kr": "Kohl's 신임 CMO 체제에 맞춘 PB 가격대 및 타겟 스펙별 대안 원단 sourcing 안 수립",
+        "en": "Establish alternative fabric sourcing plans aligned with Kohl's new CMO pricing and target specifications"
       },
       {
         "owner": "Team 8",
-        "kr": "A&F 발주 물량 증가에 대비한 주요 협력 공장의 생산 라인 Capa 사전 점검 및 선적 지연 리스크 관리",
-        "en": "Pre-audit primary partner factory production capacity and manage shipment delay risks for anticipated A&F order volume increases"
+        "kr": "A&F 라이선스 의류 생산을 위한 특수 프린팅·자수 품질 기준 재검토 및 협력 공장 기술력 검증",
+        "en": "Review specialty printing/embroidery quality standards for A&F licensed apparel and verify partner factory capabilities"
       },
       {
         "owner": "Team 8",
-        "kr": "Macy's 매장 혁신 전략에 부합하는 트렌디 실루엣 및 프리미엄 머천다이징 샘플 제안서 준비",
-        "en": "Prepare trendy silhouette and premium merchandising sample proposals aligned with Macy's store innovation strategy"
+        "kr": "Macy's Reimagine 매장 진열 트렌드에 대응할 가을 아우터 및 레이어드 신제품 제안서 최종 점검",
+        "en": "Finalize fall outerwear and layered product proposals to respond to Macy's Reimagine store merchandising trends"
       }
     ]
   }
