@@ -81,5 +81,14 @@
 
  function draw(){chrome();drawSocial();drawCompetitors()}
  async function load(){chrome();try{let r=await fetch("/api/competitors",{cache:"no-store"}),j=await r.json();if(!r.ok)throw Error(j.error||"Competitor load failed");D=j;draw()}catch(err){competitorRoot().innerHTML=`<div class="sec-eyebrow">COMPETITOR WATCH</div><div class="sec-intro">${e(err.message)}</div>`}}
+
+ // Re-render dynamic sections whenever the site's KR/EN body class changes.
+ // This fixes Social Pulse / Competitor Watch staying in Korean after EN is selected.
+ let lastLang=en()?"en":"kr";
+ new MutationObserver(()=>{
+  const now=en()?"en":"kr";
+  if(now!==lastLang){lastLang=now;if(D)draw()}
+ }).observe(document.body,{attributes:true,attributeFilter:["class"]});
+
  document.readyState==="loading"?document.addEventListener("DOMContentLoaded",load):load();
 })();
