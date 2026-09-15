@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-09-14T23:01:26.033Z",
+  "generatedDateKST": "2026-09-15",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-09-15",
+  "insight": {
+    "headline": {
+      "kr": "Macy's 실적 호조 및 Kohl's Partnership 확장, 벤더사 신규 물량 공략 기회",
+      "en": "Macy's Earnings Beat & Kohl's Partnership Expansion Open New Vendor Opportunities"
+    },
+    "summary": {
+      "kr": "2026년 9월 15일 기준, Macy's의 실적 호조 및 연간 guidance 상향과 Kohl's의 Babies 'R' Us 매장 확대 등 offline traffic 견인 전략이 돋보입니다. 반면 A&F는 주가 급등에 따른 밸류에이션 부담 우려가 제기되나 견조한 수요는 유지되고 있습니다. 원면 및 유가 등 매크로 변동성에 맞춘 철저한 원가 및 재고 관리가 필수적입니다.",
+      "en": "As of September 15, 2026, Macy's strong earnings and raised guidance, alongside Kohl's store expansion with Babies 'R' Us, highlight positive offline traffic strategies. Meanwhile, A&F faces valuation scrutiny following recent surges, though fundamental demand remains solid. Rigorous cost and inventory management are essential amid fluctuating cotton and oil prices."
+    },
+    "tags": [
+      "#KohlS",
+      "#Abercrombie",
+      "#Macys",
+      "#ApparelSourcing"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "Babies 'R' Us shop-in-shop 매장을 56개로 확대하고 'KPop Demon Hunters' 콜라보를 런칭하며 젊은 층 및 유아동 traffic 유입에 집중하고 있습니다. 가성비 중심의 'By Kohl's' 자체 브랜드 전략과 연계해 대량 생산 및 타겟 코스팅(Target Costing) 대응이 필요합니다.",
+        "en": "Kohl's is expanding Babies 'R' Us shop-in-shops to 56 locations and launching a 'KPop Demon Hunters' collection to drive youth and family traffic. Vendors should align with its value-driven 'By Kohl's' private label strategy and competitive target costing models."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "15분기 연속 순매출 성장을 기록하며 글로벌 수요를 입증했으나, Citi의 투자의견 하향 등 단기 주가 상승에 따른 밸류에이션 부담이 있습니다. 강력한 판매 모멘텀을 활용해 reorder 및 선제적 원단 확보(Grey fabric booking)를 검토해야 합니다.",
+        "en": "A&F reported 15 consecutive quarters of net sales growth, though recent stock surges have drawn cautious analyst sentiment regarding valuation. Vendors should leverage this strong sales momentum to prepare for potential reorders and early grey fabric booking."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "Q2 실적 호조에 힘입어 FY26 guidance를 상향했으며, 'Celebrate American Designers' 컬렉션 등 플래그십 현대화 전략을 추진 중입니다. 감도 높은 프리미엄 우븐 및 드레스류 등 차별화된 디자인 sourcing 제안이 유리합니다.",
+        "en": "Macy's raised its FY26 guidance following strong Q2 results and is advancing flagship modernization via curated collections like 'Celebrate American Designers.' Presenting design-driven, contemporary apparel concepts will effectively support this store elevation strategy."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "Kohl's의 유아동 category 확장 및 'By Kohl's' PB 라인 확대를 타겟으로 한 가성비 우수 캐주얼 의류 대량 수주 제안",
+        "en": "Pitch high-volume, cost-effective casual apparel tailored to Kohl's's expanding baby category and 'By Kohl's' private label strategy."
+      },
+      {
+        "kr": "Macy's의 플래그십 매장 현대화 및 디자이너 Collaboration 트렌드에 맞춘 컨템포러리 드레스 및 우븐 샘플 개발",
+        "en": "Develop contemporary dress and woven samples aligned with Macy's flagship store modernization and designer collaboration trends."
+      },
+      {
+        "kr": "A&F의 15분기 연속 매출 성장에 발맞춘 베스트셀러 데님 및 스포츠 콜라보 라인의 선제적 reorder 원단 사전 확보",
+        "en": "Secure advance grey fabric inventory for core denim and sports collaboration lines to support A&F's sustained sales growth."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "면화 가격 하락세 및 원유 가격 상승 등 원가 압박 요인이 혼재되어 있으며, 주요 브랜드들의 밸류에이션 및 주가 변동성 확대에 따른 보수적인 발주 가능성에 대비해야 합니다.",
+      "en": "Mixed cost pressures—including declining cotton prices and rising crude oil—alongside valuation scrutiny on key buyers warrant cautious management of production margins and order timelines."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Kohl's의 'By Kohl's' PB 및 NB 상품군 가격대별 원가 구조를 분석하고 타겟 코스팅 맞춤형 제안서 작성",
+        "en": "Analyze price-tier cost structures for Kohl's 'By Kohl's' private and national brand mix and prepare target-costing proposal packages."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "Macy's Reimagine 매장 컨셉에 대응할 감도 높은 우븐 및 드레스 디자인 샘플 기획 및 사내 품평회 진행",
+        "en": "Design and review elevated woven and dress sample concepts tailored to Macy's Reimagine store strategy."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "A&F 및 주요 경쟁사(American Eagle 등)의 실적 및 판매 동향을 모니터링하고 시즌 reorder 대응 생산 타임라인 점검",
+        "en": "Monitor earnings and sales trends of A&F and competitors like American Eagle, and review production timelines for upcoming reorder execution."
+      }
+    ]
+  }
+}
