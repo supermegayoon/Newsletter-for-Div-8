@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-09-15T23:01:12.433Z",
+  "generatedDateKST": "2026-09-16",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-09-16",
+  "insight": {
+    "headline": {
+      "kr": "Kohl's·Macy's 호조 속 경쟁사 promotion 격화 및 A&F sourcing 수요 확대 대응 시급",
+      "en": "Navigating Intense Competitor Promotions and Capturing A&F Sourcing Momentum Amid Kohl's and Macy's Resilience"
+    },
+    "summary": {
+      "kr": "2026년 9월 16일 기준, Kohl's는 Babies R Us와의 제휴 확장을 통해 키즈 traffic 반등을 노리고 있으며, Macy's는 골드만삭스 컨퍼런스에서 매장 현대화 전략을 강조했습니다. 한편, 주요 경쟁사인 Target의 공격적인 할인 공세와 American Eagle의 실적 부진 등 retail 시장의 변동성이 확대됨에 따라, 8담당 영업팀은 신속한 margin 방어 및 리피트 오더 대응 전략을 실행해야 합니다.",
+      "en": "As of September 16, 2026, Kohl's is driving traffic via its Babies R Us partnership expansion, while Macy's highlights store modernization at the Goldman Sachs conference. Amid aggressive discounting by competitors like Target and earnings softness at American Eagle, the Team 8 sales team must execute swift margin defense and fast-turn repeat order strategies."
+    },
+    "tags": [
+      "#Team8Daily",
+      "#ApparelSourcing",
+      "#KohlsBabiesRUs",
+      "#MacysReimagine"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "Babies R Us 56개점 shop-in-shop 입점 및 'KPop Demon Hunters' 등 Z세대 타겟 IP 컬렉션을 통해 traffic 회복을 추진 중이며, 경쟁사 Target의 2일간 대규모 할인 공세에 대응해 가성비 니트웨어 및 캐주얼 우븐 sourcing 니즈가 증가할 전망입니다.",
+        "en": "Driving traffic recovery through 56 Babies R Us in-store shops and Gen-Z targeted IP collections like 'KPop Demon Hunters'. Amid aggressive 2-day promotional discounts from competitor Target, value-driven knitwear and casual woven sourcing needs are set to rise."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "15분기 연속 순매출 성장 및 NFL 공식 패션 Partnership 확대로 sourcing 모멘텀이 매우 강력하며, Target과 협업한 홈 굿즈 및 라이선스 라인의 성공으로 베스트셀러 실루엣에 대한 리피트 오더 및 테크니컬 어패럴 수요가 높습니다.",
+        "en": "Sourcing momentum is exceptionally strong following 15 consecutive quarters of net sales growth and an expanded NFL official fashion partnership. Successful Target collaborations and licensing lines drive robust demand for fast-turn repeat orders and technical apparel."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "리이매진 store(Reimagine Stores) 전략과 디지털 역량 강화로 2분기 예상을 상회하는 실적을 기록하며 연간 guidance를 상향했습니다. 가을 시즌 미국 패션 캠페인 전개와 함께 트렌디한 여성복 및 컨템포러리 라인의 공급 협력이 유리한 국면입니다.",
+        "en": "Beating Q2 expectations and raising annual guidance driven by the 'Reimagine Stores' strategy and digital enhancement. With its fall fashion campaign underway, the environment is favorable for collaboration on trend-focused women's and contemporary lines."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "A&F의 15분기 연속 성장에 따른 리피트 오더 및 스포츠 라이선스 테크니컬 어패럴 sourcing 물량 선점",
+        "en": "Secure repeat order volume and sports-licensed technical apparel sourcing amid A&F's 15 quarters of consecutive growth."
+      },
+      {
+        "kr": "Kohl's의 Babies R Us 키즈 확장 및 PB 라인업 강화 전략에 맞춘 가성비 니트 및 캐주얼 우븐 제안",
+        "en": "Pitch high-value knitwear and casual wovens aligned with Kohl's Babies R Us expansion and private label reinforcement strategy."
+      },
+      {
+        "kr": "Macy's 'Reimagine Store' 리노베이션 점포를 타겟으로 한 트렌디 여성복 캡슐 컬렉션 긴급 제안",
+        "en": "Urherly propose trend-focused women's capsule collections targeted at Macy's 'Reimagine Store' renovated locations."
+      }
+    ],
+    "risk": {
+      "level": "HIGH",
+      "kr": "경쟁사 Target의 최대 40% 할인 및 2일간 대규모 promotion으로 인한 Kohl's의 가격 경쟁력 압박 심화",
+      "en": "Intensified price competitiveness pressure on Kohl's driven by competitor Target's up to 40% off and 2-day major promotional blitz."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Kohl's 담당 머천다이저에게 가성비 중심의 캐주얼 우븐 및 니트웨어 신규 캡슐 제안서 즉시 발송",
+        "en": "Immediately dispatch value-focused casual woven and knitwear capsule proposals to the Kohl's merchandising team."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "A&F sourcing 팀에 베스트셀러 실루엣 리피트 오더 대응 가능한 생산 캐파(CAPA) 현황 선제 공유",
+        "en": "Proactively share current production capacity for fast-turn repeat orders on bestselling silhouettes with the A&F sourcing team."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "Macy's 리이매진 store 컨셉에 부합하는 컨템포러리 여성복 라인업의 샘플 및 단가 조건 검토 완료",
+        "en": "Complete the review of sample and pricing terms for contemporary women's lines matching Macy's Reimagine Store concept."
+      }
+    ]
+  }
+}
