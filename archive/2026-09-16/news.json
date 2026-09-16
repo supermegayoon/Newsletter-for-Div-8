@@ -1,0 +1,84 @@
+{
+  "ok": true,
+  "asOf": "2026-09-15T23:00:32.108Z",
+  "generatedDateKST": "2026-09-16",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 3,
+    "within7d": 4,
+    "total": 5,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Partnership / Wholesale",
+      "category_en": "Partnership / Wholesale",
+      "date": "2026.09.15",
+      "title_kr": "Kohl's, 56개 Babies R Us shop-in-shop 확장하며 partnership 강화",
+      "title_en": "Kohl's Opening 56 Babies R Us Shops, Expanding Partnership",
+      "body_kr": "Kohl's가 Babies R Us와의 partnership을 확대하며 56개 offline store에 shop-in-shop을 입점시킵니다. Sephora 실적 정체 속 키즈 merchandise 부문의 traffic 반등을 노리는 전략입니다.",
+      "body_en": "Kohl's is expanding its partnership with Babies R Us by launching 56 in-store shops. This move aims to drive traffic in kids merchandise as Sephora growth faces headwinds.",
+      "source": "storebrands.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaWpvZzFjMzhkUVdjOHJNSU11STFmVzRoUEU2TGJYbkVnZ0d3NmNBbWZYQjRLUGVFdDI4SWVmUFZQbWN4bVU0c01DZnVzdlFYVWIxMmhsa2V5c0VWWHo4bE1GdURZSzZSZ3k4dW14U2hMWWZvNVc3RnhFY1Axejlmc3FrNEpGV1U?oc=5",
+      "ageHours": 19.99738
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Earnings / Outlook",
+      "category_en": "Earnings / Outlook",
+      "date": "2026.09.15",
+      "title_kr": "Macy's, Goldman Sachs conference에서 성장 전략 및 실적 모멘텀 강조",
+      "title_en": "Macy’s at Goldman Sachs conference: strategy gains momentum",
+      "body_kr": "Macy's 경영진이 Goldman Sachs conference에 참석해 최근의 전략적 실행력과 실적 모멘텀을 강조했습니다. Flagship modernization과 멀티 브랜드 포트폴리오 개선이 긍정적 평가를 받고 있습니다.",
+      "body_en": "Macy's management highlighted its ongoing strategic execution and momentum at the Goldman Sachs conference. Flagship modernization and multi-brand portfolio gains are driving optimism.",
+      "source": "Investing.com India",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUVFkUy1WU0wwQUdzZklhb0pCdU9vMEk5MlpLT09qOEJXTjBzYUx1M01KS0lNNVd2alozenlqVU9NQUk2VlhCY1cxRHpIdXkwNmxPc2hfNTRPQW5BNUpobEJ5d1p3UVFWQVJscmdQakhCZzRyWkVITXhvbHR1eWxsZ19IenZTN1BPZy0xREdjdEN0NjNlZ2R3dktfZnZCWUp4MUU3OHU2cEs2ZjdEZ3FCN3A0a0EzSkxERFE?oc=5",
+      "ageHours": 9.107104166666666
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Collaboration / Product",
+      "category_en": "Collaboration / Product",
+      "date": "2026.09.15",
+      "title_kr": "Target과 Hollister Collaboration home goods, 데이터 분석에서 긍정적 성과 기록",
+      "title_en": "Target and Hollister collab is a win for home goods: data",
+      "body_kr": "Target과 Hollister의 Collaboration 라인이 home goods category에서 뛰어난 데이터 성과를 거두며 주목받고 있습니다. 이종 브랜드 간의 협업이 젊은 층 consumer demand를 성공적으로 견인 중입니다.",
+      "body_en": "The collaboration between Target and Hollister is showing strong data performance in home goods. Cross-brand partnerships continue to successfully drive younger consumer demand.",
+      "source": "Retail Brew",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZC12TnNlMnJwY1lNenFQZXJmUkpQNHBndzdyMTZDRFpwaDhNeDdRM3ZrY05yNXpRZEJuNDREblYxX0VFeTBoaEplaHlVQUs5YWVPR0c4aXpWRUVPekozTFJHa3FFXy05c0Jvb2R3aUxnUkk3ZlJPeW55cTN1aVZpbFJ5RkZmZzhreURDYkUxODZNLXc5WXc?oc=5",
+      "ageHours": 1.9323458333333334
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Marketing / Collection",
+      "category_en": "Marketing / Collection",
+      "date": "2026.09.11",
+      "title_kr": "Kohl's, 'KPop Demon Hunters' inspired collection 출시하며 Z세대 공략",
+      "title_en": "Kohl’s ‘KPop Demon Hunters’ inspired collection: Products and availability",
+      "body_kr": "Kohl's has launched a pop culture-inspired collection targeting younger consumer demand. Such IP-driven merchandise strategies offer useful direction for vendor assortment planning.",
+      "source": "Lifestyle Asia Hong Kong",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYWFQUkVjR3Bab0pKVXdpMi1jZjRTOUVndjQyVlZ3QVpoRWhNbWdiN050U0ZQVGk4Sm1wT09hZDNDZlJ4ek5tT2x2N3N2MnUxZkVxUl9rRF9PX0F6aGJ5TTNISWV1c19aZ1Q1NzQ4VlJIb0Rna2FPSDZGOXo4UjdWRkZfZHFkclBCZ2h6cjRUb0JoTTFybThGcm5YQ0tRYjB4bUpRZmNyOVp2ejBs0gGyAUFVX3lxTE5kbEdkaU12c2RPejlQZ19ka2JjMzJabWRYaGtrQlYyVGVic01HdW8tSldHMFMyZzVzRkc1em9WWFJoci1aMDZHV3lpb0xkTzJLRzFRQ0I4enByX19jclI5TndrWGdTNEVHX0lRZG5Uc0VIMlhFQ2VqTWNtVXF6Rm5NcVJjM012YlI3Q0gyeU1FM2JxUEdNWkg4Mkp4U3FQS0ZmbldqN0VTM0lOZTRtNzVPbkE?oc=5",
+      "ageHours": 107.94099111111112
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Campaign / Marketing",
+      "category_en": "Campaign / Marketing",
+      "date": "2026.09.08",
+      "title_kr": "Macy's, 미국 패션 조명하는 2026 Fall Fashion Campaign 공개",
+      "title_en": "Macy’s Unveils Its 2026 Fall Fashion Campaign Featuring a Celebration of American Fashion",
+      "body_kr": "Macy's has unveiled its new fall campaign celebrating American fashion heritage. This marks an early marketing push in the apparel category ahead of the upcoming holiday season.",
+      "source": "Business Wire",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSmUwT2Ffc3pWX0ptamFSeTFXZWl4RzNaalYtRVBlb1R5SDcyZEdkUjQwTU1KMnBEZ1VUNjhJV0l2WVRnMkFSQ0g5LUY0WU9jblBhVXI4TTM2NzdpYS1vRXNjUXJCMkhybTM2U3lJS2ZvMnpfT08yZlNCNENjdXYwbmVpblpIZ1MzZ2Fmem91bm1JbHFTdjV4Z24wTUNwaDEyekh2WlF6MVU4cEFxSGFtN0t1bkprdlRwb3ZoakFadjZRUzFIa2RPSUJqQzVpYlBCQ29ITGM0REYtUEFZS0E?oc=5",
+      "ageHours": 179.0068263888889
+    }
+  ]
+}
