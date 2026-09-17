@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "asOf": "2026-09-16T23:00:34.164Z",
+  "generatedDateKST": "2026-09-17",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 4,
+    "within7d": 5,
+    "total": 7,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Supply Chain",
+      "category_en": "Supply Chain",
+      "date": "2026.09.16",
+      "title_kr": "Macy's, AI 기반 inventory replenishment tool 도입",
+      "title_en": "Macy’s rolls out AI inventory replenishment tool",
+      "body_kr": "Macy's가 공급망 효율성과 재고 관리를 최적화하기 위해 AI 기반 inventory replenishment tool을 도입했습니다. vendor 측면에서는 수요 예측 정확도가 높아짐에 따라 적기 reorder 및 효율적인 merchandise flow 관리가 가능해질 것입니다.",
+      "body_en": "Macy's has rolled out an AI-powered inventory replenishment tool to optimize supply chain efficiency and inventory management. For vendors, improved demand forecasting accuracy enables timely reorders and better merchandise flow management.",
+      "source": "Supply Chain Dive",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNM0taOHdiclF3S2ttZi1YVTNiV29IRkprQ0lsaG5CMHJsc203S3ZCLTBnN3hSWW1SSEdnUFNsUXFnZTlzeERsaHVaeXQ4VjNZOG9TVVllT1Y4ODRsSV95MXluWjRVb1AweTlSZExMd3VPYXljWVB1dzFiYXNmS3lJSDFydUJwSkRTTGh6SVBzUXhoR0c2ZnFv?oc=5",
+      "ageHours": 8.407298611111111
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Earnings",
+      "category_en": "Earnings",
+      "date": "2026.09.15",
+      "title_kr": "Macy's, Q2 실적 발표 및 turnaround 모멘텀 강조",
+      "title_en": "Macy’s Earnings Call Signals Turnaround Momentum",
+      "body_kr": "Macy's가 Q2 실적 발표를 통해 턴어라운드 전략이 긍정적인 성과를 거두고 있다고 밝혔습니다. 이는 하반기 retail channel에서의 안정적인 merchandise sourcing과 margin 개선 기조에 긍정적인 신호로 작용합니다.",
+      "body_en": "Macy's highlighted positive turnaround momentum during its Q2 earnings call. This signals a favorable outlook for stable merchandise sourcing and margin recovery across retail channels in the second half.",
+      "source": "TipRanks",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYmlrRGtLV1pvd1ZsN3czVjhaOFdLMDJGRDlsQXg4RW9jdXhoQzQxbzBjWklxRlJLVEVnWW9EVXd1ZWFtVURjNlY2aVVWYkhobk5ENXpCbWVmaWdha1BzRE04U2NkLW9WNXJzNmhzMEFVSkEtRG04Wjlma0FYaDNnaDVzeG52UWdTc2xhYlRkd0pfemVjMHpNb3ZSRWZQSmlZ?oc=5",
+      "ageHours": 22.392576666666667
+    },
+    {
+      "brand": "Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Collaboration",
+      "category_en": "Collaboration",
+      "date": "2026.09.15",
+      "title_kr": "Target와 Hollister의 Collaboration, home goods 부문에서 큰 호응",
+      "title_en": "Target and Hollister collab is a win for home goods: data",
+      "body_kr": "Target과 Hollister의 Collaboration 상품들이 데이터 분석 결과 home goods category에서 뛰어난 sell-through를 기록한 것으로 나타났습니다. 이처럼 이색적인 Partnership과 category 확장은 브랜드 traffic을 견인하는 효과적인 전략입니다.",
+      "body_en": "Data shows that the collaboration between Target and Hollister achieved strong sell-through in the home goods category. Such cross-brand partnerships and category expansions effectively drive store traffic.",
+      "source": "retailbrew.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZC12TnNlMnJwY1lNenFQZXJmUkpQNHBndzdyMTZDRFpwaDhNeDdRM3ZrY05yNXpRZEJuNDREblYxX0VFeTBoaEplaHlVQUs5YWVPR0c4aXpWRUVPekozTFJHa3FFXy05c0Jvb2R3aUxnUkk3ZlJPeW55cTN1aVZpbFJ5RkZmZzhreURDYkUxODZNLXc5WXc?oc=5",
+      "ageHours": 25.932004166666665
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Partnership",
+      "category_en": "Partnership",
+      "date": "2026.09.15",
+      "title_kr": "Kohl's, Babies R Us 매장 56개 추가 오픈하며 Partnership 확대",
+      "title_en": "Kohl’s Opening 56 Babies “R” Us Shops, Expanding Partnership",
+      "body_kr": "Kohl's is expanding its in-store partnership with Babies R Us by opening shop-in-shops across 56 locations. This strategy aims to boost offline store traffic by strengthening the kids' category alongside core apparel.",
+      "source": "Store Brands",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaWpvZzFjMzhkUVdjOHJNSU11STFmVzRoUEU2TGJYbkVnZ0d3NmNBbWZYQjRLUGVFdDI4SWVmUFZQbWN4bVU0c01DZnVzdlFYVWIxMmhsa2V5c0VWWHo4bE1GdURZSzZSZ3k4dW14U2hMWWZvNVc3RnhFY1Axejlmc3FrNEpGV1U?oc=5",
+      "ageHours": 43.997034166666666
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Collaboration",
+      "category_en": "Collaboration",
+      "date": "2026.09.11",
+      "title_kr": "Kohl's, 'KPop Demon Hunters' 영감 받은 테마 collection 공개",
+      "title_en": "Kohl’s ‘KPop Demon Hunters’ inspired collection: Products and availability",
+      "body_kr": "Kohl's has launched a 'KPop Demon Hunters' inspired collection reflecting current pop culture trends. This merchandise leverages K-culture-based IP to attract younger demographics and drive category sales.",
+      "source": "Lifestyle Asia Hong Kong",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYWFQUkVjR3Bab0pKVXdpMi1jZjRTOUVndjQyVlZ3QVpoRWhNbWdiN050U0ZQVGk4Sm1wT09hZDNDZlJ4ek5tT2x2N3N2MnUxZkVxUl9rRF9PX0F6aGJ5TTNISWV1c19aZ1Q1NzQ4VlJIb0Rna2FPSDZGOXo4UjdWRkZfZHFkclBCZ2h6cjRUb0JoTTFybThGcm5YQ0tRYjB4bUpRZmNyOVp2ejBs0gGyAUFVX3lxTE5kbEdkaU12c2RPejlQZ19ka2JjMzJabWRYaGtrQlYyVGVic01HdW8tSldHMFMyZzVzRkc1em9WWFJoci1aMDZHV3lpb0xkTzJLRzFRQ0I4enByX19jclI5TndrWGdTNEVHX0lRZG5Uc0VIMlhFQ2VqTWNtVXF6Rm5NcVJjM012YlI3Q0gyeU1FM2JxUEdNWkg4Mkp4U3FQS0ZmbldqN0VTM0lOZTRtNzVPbkE?oc=5",
+      "ageHours": 131.94064527777778
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Marketing",
+      "category_en": "Marketing",
+      "date": "2026.09.08",
+      "title_kr": "Macy's, 미국 패션 조명하는 2026 Fall Fashion Campaign 런칭",
+      "title_en": "Macy’s Unveils Its 2026 Fall Fashion Campaign Featuring a Celebration of American Fashion",
+      "body_kr": "Macy's가 미국 패션의 가치를 기념하는 2026 Fall Fashion Campaign을 공개했습니다. 본격적인 가을 시즌을 맞아 의류 및 잡화 category의 마케팅을 강화하며 소비자들의 seasonal 수요를 자극하고 있습니다.",
+      "body_en": "Macy's has unveiled its 2026 Fall Fashion Campaign celebrating American fashion. As the fall season kicks off, the retailer is ramping up marketing across apparel and accessories categories to stimulate seasonal consumer demand.",
+      "source": "MacysInc.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNSG5YMk84OXpKQmRPTXlxMGdCTHhpVWhuYnpKc05WWjBiejVfenNreHp1R3BmaTRNRlJ1STdmeUFaT0FIOFVjRDJPV3ZyQnhraVpPbmpkYlNkdFBMSU9XNFAzUkxPRUtQSlYwOFZWbmxrR3pxWmpoazVQNHh2bldSaGxXVlFWUzI2VEtMRENfSDF4N3M0Tl9jTGgxMy1FOU5leHhwdm5mcWdMZVVFZEtrSXlaeEszdXFua0h1WUFEdWhxQk5BbUt2NVNXSTVrN05uT1JMVEM5ZjlaNlRIZ0xFbEhWbWZCSjhtWlRvcWlZSQ?oc=5",
+      "ageHours": 208.00646527777778
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Earnings",
+      "category_en": "Earnings",
+      "date": "2026.09.04",
+      "title_kr": "Kohl's, Q2 매출 소폭 감소에도 gross margin 305bp 개선",
+      "title_en": "Kohl’s Reports 305 Basis Point Increase in Gross Margin Despite 0.9% Sales Decline in Q2 2026",
+      "body_kr": "Kohl's의 Q2 매출은 0.9% 감소했으나, 철저한 재고 관리와 pricing 전략 덕분에 gross margin이 305bp 대폭 개선되었습니다. 이는 벤더사 입장에서 수익성 위주의 오더 집행과 재고 효율화 기조를 시사합니다.",
+      "body_en": "Kohl's reported a 0.9% sales decline in Q2, but its gross margin expanded by 305 bps due to disciplined inventory management and pricing strategies. For vendors, this reflects an ongoing focus on profitability and inventory efficiency.",
+      "source": "Kalkine Media",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTWhaXzQ5aVBPaG1hZVlldDlMM2RkemZXU2pQa3dSWEVMRkR1X1ZKbFV2MXZRQmJsSms1NktxbFNFRU9DR0tsYjRsZmx3d290d2RBeEEycHdzUlhyeHZYNm1zS19RWGZ0cExtQV9FTTlJLVpvS3RMYWxPTS16NUpxdjhZVmNlN1hQMkQ4dzZNMFBDeVIxYlNrRTYwWHEyUEhvV2lPRXo2QzBvSUZodmxWNDNhS1p4MjR2MG5QT1lsd3g0bkhJdDJuMVNkOFhCaDg5MHFN?oc=5",
+      "ageHours": 298.2731455555556
+    }
+  ]
+}
