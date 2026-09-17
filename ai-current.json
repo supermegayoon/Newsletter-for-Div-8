@@ -1,80 +1,80 @@
 {
   "ok": true,
-  "asOf": "2026-09-16T23:01:12.495Z",
-  "generatedDateKST": "2026-09-17",
+  "asOf": "2026-09-17T23:01:20.322Z",
+  "generatedDateKST": "2026-09-18",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-09-17",
+  "competitorDateKST": "2026-09-18",
   "insight": {
     "headline": {
-      "kr": "[8담당] 2026년 9월 17일 일일 마켓 브리프: 백화점 디지털/AI 도입 및 캐주얼 브랜드 턴어라운드 집중 모니터링",
-      "en": "[Team 8] Daily Market Brief - Sep 17, 2026: Focus on Retailer AI/Digital Upgrades and Casual Brand Momentum"
+      "kr": "메이시스·콜스 실적 개선 및 가이드라인 상향… 경쟁사 공세 대응 가을 시즌 sourcing 전략 강화",
+      "en": "Macy’s & Kohl’s Upbeat Guidance & Turnaround Progress: Fortifying Fall Sourcing Strategies Against Competitor Pressures"
     },
     "summary": {
-      "kr": "메이시스의 AI 기반 재고 보충 시스템 도입과 콜스의 베이비알유스(Babies R Us) 제휴 매장 확대로 벤더사의 효율적 재고 관리 및 Partnership 기회가 확대되고 있습니다. 반면, 타겟과 노드스트롬의 공격적인 promotion 공세가 이어지고 있어 철저한 가격 경쟁력 방어가 요구됩니다.",
-      "en": "Macy's AI inventory tool adoption and Kohl's Babies R Us expansion present improved demand visibility and vendor collaboration opportunities, while aggressive promotions from competitors like Target and Nordstrom require proactive pricing and margin defense."
+      "kr": "2026년 9월 18일 기준, Macy's는 견조한 2분기 실적과 럭셔리 배너 호조로 연간 가이드라인을 상향 조정했으며, Kohl's는 FY2027 실적 회복 전망과 함께 AI 재고 보충 및 샵인샵 확장에 나서고 있습니다. A&F는 연속 매출 성장 모멘텀을 이어가고 있으나, 타겟, 아르지아(Aritzia), 노드스트롬 등 주요 경쟁사들의 공격적인 promotion 및 마케팅 공세가 심화되고 있습니다. 벤더사들은 환율 변동(1,380원대)과 코튼 및 원유 가격 하락세를 반영하여 철저한 원가 방어와 민첩한 재고 대응 체계를 갖추어야 합니다.",
+      "en": "As of September 18, 2026, Macy's raised its full-year guidance driven by strong Q2 results and luxury banners, while Kohl's benefits from optimistic FY2027 earnings outlooks alongside AI replenishment and shop-in-shop expansions. A&F maintains robust sales growth momentum, though intensifying promotional pushes from rivals like Target, Aritzia, and Nordstrom demand vigilant positioning. Apparel vendors must leverage falling cotton and oil prices while monitoring the USD/KRW rate (1,380 KRW) to safeguard margins and secure responsive inventory execution."
     },
     "tags": [
-      "#Team8",
-      "#ApparelSales",
-      "#RetailTrends",
+      "#DailyMarketBrief",
+      "#ApparelVendor",
+      "#RetailRecovery",
       "#SupplyChainAI"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "콜스는 마스 스튜어트 등 홈 어쏘트먼트 확장 및 자사 브랜드(By Kohl's) 강화로 margin 개선을 도모하고 있으며, 타겟의 공격적 할인 공세에 대응해 핵심 캐주얼 라인의 가격 경쟁력 방어가 필요합니다.",
-        "en": "Kohl's is expanding private label assortments ('By Kohl's') and home collections to drive margins, while facing promotional pricing pressure from Target requiring tight cost defense."
+        "kr": "Zacks Research의 FY2027 실적 긍정 전망과 함께 56개 유아용품 샵인샵 확충 및 AI/offline Partnership 강화로 체류 시간 증대를 꾀하고 있습니다. 경쟁사인 타겟과 월마트가 공격적인 신상품 및 할인 공세를 펼치고 있으므로, 당사는 PB 및 코어 category 중심의 가성비 높은 F/W 시즌 sourcing 안을 신속히 제안해야 합니다.",
+        "en": "Kohl's is expanding in-store shop-in-shops and focusing on value-driven partnerships, backed by optimistic FY2027 earnings projections. With competitors like Target and Walmart aggressively pushing new apparel lines and promotions, vendors must proactively propose cost-competitive, high-value F/W core category options."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "아버크롬비는 15개 분기 연속 순매장 성장 및 NFL Partnership 확장 등 강력한 실적 모멘텀을 유지하고 있으므로, 다가오는 시즌 오더 물량 증가에 대비해 선제적인 생산 캐파 확보가 필수적입니다.",
-        "en": "A&F maintains strong momentum with 15 consecutive quarters of net sales growth and expanded NFL licensing, necessitating proactive raw material booking for anticipated volume increases."
+        "kr": "15분기 연속 순매출 성장을 달성하며 NFL 공식 Partnership 유통을 다각화하고 있으나, Aritzia의 최대 73% 파격 할인 및 틱톡 바이럴 마케팅 공세에 직면해 있습니다. 벤더사들은 탄탄한 브랜드 모멘텀에 발맞추어 생산 캐파를 사전에 확보하고 스포츠 캐주얼 및 키즈/우먼즈 라인의 납기 대응력을 철저히 점검해야 합니다.",
+        "en": "A&F boasts 15 consecutive quarters of net sales growth and expanded NFL licensing distribution, though it faces fierce competition from Aritzia's deep discounting and viral TikTok marketing. Vendors should reserve production capacity buffers and ensure strict on-time delivery for sports-lifestyle and family-casual categories."
       },
       {
         "buyer": "Macy's",
-        "kr": "메이시스는 AI 기반 재고 보충 툴 도입으로 수요 예측 정확도와 reorder 효율성이 향상될 것이며, 헤럴드 스퀘어 디자이너 Collaboration 등 프리미엄 어쏘트먼트에 부합하는 고품질 sourcing 역량이 요구됩니다.",
-        "en": "Macy's rollout of an AI inventory tool improves replenishment accuracy, while its designer collaborations call for high-standard manufacturing and flexible sample workflows."
+        "kr": "Bloomingdale’s의 역대급 실적과 'Bold New Chapter' 전략 및 AI 기반 재고 보충 도구 도입으로 턴어라운드와 디지털 효율화를 가속화하고 있습니다. Nordstrom의 회원 전용 할인 공세에 대응해, 당사는 트렌드 감도가 높은 디자이너풍의 추동복 샘플과 차별화된 패브릭 제안으로 메이시스의 매장 리뉴얼 및 sell-through 개선을 뒷받침해야 합니다.",
+        "en": "Macy's is accelerating digital and operational efficiency via AI inventory tools and its 'Bold New Chapter' retail strategy, anchored by Bloomingdale's strong luxury performance. To counter Nordstrom's aggressive promotional push, vendors should supply trend-forward apparel samples and differentiated fabric options to support Macy's store revamps and sell-through."
       }
     ],
     "opportunities": [
       {
-        "kr": "메이시스의 AI 재고 관리 시스템 도입에 발맞춰 적기 reorder 대응 프로세스를 최적화하고 납기 준수율을 제고합니다.",
-        "en": "Align with Macy's AI inventory replenishment system to optimize timely reorders and enhance delivery compliance."
+        "kr": "Macy's 및 Bloomingdale's의 wholesale channel 확장 및 store 리이매진 전략에 발맞춘 트렌디한 추동복 컬렉션 추가 입점 제안",
+        "en": "Pitching trend-forward autumn/winter collection placements aligned with Macy's and Bloomingdale's wholesale channel expansion and store reimagining strategies."
       },
       {
-        "kr": "아버크롬비의 지속적인 실적 호조 및 NFL 등 스포츠 라이선스 확장 기조에 맞춰 선제적 원부자재 Pre-booking을 추진합니다.",
-        "en": "Initiate early raw material pre-bookings to capture anticipated volume growth driven by A&F's strong sales and licensed sports expansion."
+        "kr": "A&F의 NFL 라이선스 및 패밀리 캐주얼(키즈/우먼즈) 유통망 확대에 따른 스포츠 라이선스·팬웨어 sourcing 물량 선점 기회 활용",
+        "en": "Capitalizing on sourcing opportunities for sports-licensed and fan-wear apparel driven by A&F's expanded NFL partnership and family-casual distribution."
       },
       {
-        "kr": "콜스의 자사 브랜드(By Kohl's) 및 홈 텍스타일 sourcing 니즈를 타겟팅한 가격 경쟁력 있는 대체 원단 및 샘플을 제안합니다.",
-        "en": "Propose cost-competitive alternative fabrics and samples targeting Kohl's private label and home textile sourcing needs."
+        "kr": "하락세를 보이고 있는 코튼(Cotton Dec 26, -2.50%) 및 원유 가격을 활용한 원단 sourcing 단가 최적화 및 margin 방어 구조 구축",
+        "en": "Optimizing fabric sourcing costs and structuring margin defense by leveraging declining cotton (Cotton Dec 26, -2.50%) and crude oil futures."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "타겟과 노드스트롬 등 주요 경쟁사들의 공격적인 가을 시즌 할인 promotion 및 쿠폰 공세로 인해 벤더사의 margin 압박 및 가격 경쟁 심화 우려가 존재합니다.",
-      "en": "Aggressive fall promotional campaigns and couponing by competitors like Target and Nordstrom elevate margin pressure and price competition risks for vendors."
+      "kr": "타겟, 아르지아, 노드스트롬 등 주요 경쟁사들의 대규모 할인 및 promotion 공세로 인한 바이어사들의 가격 인하 압박 및 환율 변동(1,380원대) 리스크 존재",
+      "en": "Moderate risk driven by aggressive discounting and promotional offensives from key competitors like Target, Aritzia, and Nordstrom, alongside fluctuating KRW/USD exchange rates (~1,380)."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "A&F 전담 영업팀은 다가오는 시즌 오더 볼륨 증가에 대비하여 생산 라인 캐파 및 원부자재 선주문 상황을 점검한다.",
-        "en": "A&F dedicated sales team to audit production line capacity and pre-booked raw materials in preparation for anticipated volume growth."
+        "kr": "콜스 바이어를 위한 가성비 중심의 F/W 시즌 PB 및 코어 category 제안서를 준비하고 가격 경쟁력을 검토한다.",
+        "en": "Prepare cost-competitive F/W season proprietary and core category proposals for Kohl's buyers."
       },
       {
         "owner": "Team 8",
-        "kr": "메이시스의 AI 재고 관리 도입에 연계하여 자사 물류 및 출하 일정 데이터 연동 상태를 최종 점검한다.",
-        "en": "Review logistics and shipping schedule synchronization to align with Macy's new AI inventory management rollout."
+        "kr": "아버크롬비 라인의 생산 현황을 점검하고 다가오는 시즌 오더 확대에 대비한 생산 캐파 여유분을 사전 확보한다.",
+        "en": "Audit current production statuses for A&F lines and proactively reserve capacity buffers for upcoming order volume increases."
       },
       {
         "owner": "Team 8",
-        "kr": "콜스의 PB 의류 및 홈 텍스타일 category 담당 바이어의 S/S 시즌 sourcing 요구사항을 파악하고 원가 경쟁력 제안서를 준비한다.",
-        "en": "Analyze Kohl's private label and home textile buyer requirements for upcoming seasonal programs and prepare cost-competitiveness proposals."
+        "kr": "하락한 코튼 및 원자재 가격 지표를 반영하여 주요 벤더사들과 원가 절감 협상을 진행하고 margin 방어 대책을 수립한다.",
+        "en": "Conduct cost-reduction negotiations with major vendors reflecting declining cotton and raw material price indicators to establish margin defense measures."
       }
     ]
   }
