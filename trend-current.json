@@ -1,57 +1,54 @@
 {
   "ok": true,
-  "asOf": "2026-09-17T23:31:47.739Z",
-  "generatedDateKST": "2026-09-18",
+  "asOf": "2026-09-20T13:10:33.069Z",
+  "generatedDateKST": "2026-09-20",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "items": [
     {
       "level": "HIGH",
-      "title_kr": "베트남 강제노동 금지법 대두에 따른 소싱 다변화 필요",
-      "title_en": "Sourcing Diversification Needed as Vietnam Forced Labor Ban Emerges",
-      "body_kr": "베트남의 강제노동 금지 조치 도입이 가시화되면서 기존 베트남 중심의 의류 소싱 네트워크 재편이 불가피해졌습니다.",
-      "body_en": "The introduction of forced labor bans in Vietnam necessitates a restructuring of apparel sourcing networks currently centered in the country.",
-      "action_kr": "영업 및 소싱팀은 베트남 협력사의 노동 규정 준수 여부를 긴급 점검하고 인근 국가로의 생산 다변화 시나리오를 준비해야 합니다.",
-      "action_en": "Sales and sourcing teams must urgently audit partner compliance in Vietnam and prepare production diversification scenarios into neighboring countries.",
-      "source": "WWD",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPOVBFLVM3SUFkNngySXJkWnltMTZCOWl6cFp4ZDJUWGdyNkJGVE0wS0R5U2stRnFWN3pLeXRoNHBRZDIwVnNYMXE4aUZKYXlQUG52Um9CSm92NTlQWlprNXRBUGM1ZWhuX2dtQ3JhU3MzQ3FHWGZ3Z0VuTEd3ZXYxRjFwc0dNSGVBNXd2R1dFSTI?oc=5",
-      "date": "2026.09.08"
+      "title_kr": "아메리칸 이글, 마진 전망 약세 및 핵심 브랜드 부진으로 주가 하락",
+      "title_en": "American Eagle Shares Slide on Margin Outlook and Core Brand Weakness",
+      "body_kr": "아메리칸 이글(American Eagle)이 마진 전망 하향과 핵심 브랜드의 판매 부진으로 주가 하락을 겪었습니다. 영업진은 마진 압박 속에서 수익성 개선 전략을 재점검해야 합니다.",
+      "body_en": "American Eagle shares dropped due to a flat margin outlook and weak sales at its core namesake brand. Sales teams must re-evaluate profitability strategies under increasing margin pressures.",
+      "action_kr": "원가 절감 제안 및 마진 방어형 소싱 옵션을 선제적으로 바이어에게 제안하세요.",
+      "action_en": "Proactively pitch cost-saving proposals and margin-defense sourcing options to the buyer.",
+      "source": "The Business of Fashion",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdl9IYzAxelFVek96aXZzZWhjeW45UDFmUFNvd0NnalVnaEtJckRINmMtdV9PakluY3htcUVsUnJTMldxby1tREFNaFc4QjZCZEhmS2FfMWgwRGVUNXhVWFc5UUdNZDJJalkwaXFkZX-pUGF2Z2htTjFyNk1SdHZxNFVUN2VyVXRfVXNfcHRTRWlCOVJjV0lqS0w5ZVBBNG50X2dxYmtQamdPYi1zRnctZWh0UXBuSzFGbXc?oc=5",
+      "date": "2026.09.10"
+    },
+    {
+      "level": "MEDIUM",
+      "title_kr": "메이시스, '볼드 뉴 챕터' 전략으로 2분기 실적 호조 및 연간 전망 상향",
+      "body_kr": "메이시스(Macy's)는 새로운 전략에 힘입어 2분기 어닝 서프라이즈를 기록하고 연간 가이던스를 상향 조정했습니다. 다만 시장 반응은 엇갈려 신중한 접근이 필요합니다.",
+      "body_en": "Macy's reported sales growth driven by its bold new chapter strategy and raised its fiscal outlook despite market volatility. Vendor teams should align product offerings with their updated retail roadmap.",
+      "action_kr": "메이시스의 신규 전략 카테고리에 맞춘 디자인 및 납기 단축 방안을 준비하세요.",
+      "action_en": "Align product development and lead-time capabilities with Macy's updated strategic retail roadmap.",
+      "source": "TradingView",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWEx4ZFYtZU1NT1lES0FlZFhXbkMwcG1lTFBibkJoMGZ2MDNOSktWWHg3a3hTemFXZ0Z2VzBtR0ZrdmFWZy0tU2dlVkdCUngtZ2J1Vy1jUmpfSVZmcWM2RUpKajBKTF84NnlnU0d2OWI5M0NNX3BTR3dGZ0xnYmxLUFBEMUpXVnlRU3BPcnB4dWFrNEU4S0VhX2tjRktTa3VDbHA3UVdtVmZGQXNtMVpOQUNDUFA0VDdiVGZwMGNMbXpHeHBGeGtCbkJzTGJOM3lrVFdqZU5ubFE4NjN0Qmc?oc=5",
+      "date": "2026.09.16"
     },
     {
       "level": "HIGH",
-      "title_kr": "아프리카 AGOA 2028년 시한 임박에 따른 대체 생산기지 검토",
-      "title_en": "Evaluate Alternative Production Bases as Africa AGOA 2028 Deadline Approaches",
-      "body_kr": "AGOA의 2028년 종료 시한이 다가옴에 따라 아프리카 아패럴 소싱의 장기 지속 가능성에 대한 불확실성이 커지고 있습니다.",
-      "body_en": "Uncertainty grows over the long-term sustainability of African apparel sourcing as the 2028 expiration deadline for AGOA approaches.",
-      "action_kr": "소싱팀은 2028년 이후 무관세 혜택 종료 가능성을 염두에 두고 중장기 오더 배정 시 대체 소싱 기지를 검토해야 합니다.",
-      "action_en": "Sourcing teams must evaluate alternative production hubs for mid-to-long-term order allocation, factoring in the potential loss of duty-free benefits post-2028.",
+      "title_kr": "AGOA 2028년 종료 임박, 아프리카 의류 소싱의 한계 직면",
+      "body_kr": "아프리카 성장 기회법(AGOA)의 2028년 만료 시점이 다가오면서 아프리카 지역의 의류 소싱 지속 가능성에 대한 우려가 커지고 있습니다. 장기 바이어들은 대안 생산지로의 이동을 검토 중입니다.",
+      "body_en": "As the 2028 AGOA expiration deadline approaches, long-term apparel sourcing viability in Africa faces growing limitations. Buyers are increasingly evaluating alternative vendor hubs.",
+      "action_kr": "아프리카 생산 비중이 높은 바이어를 대상으로 한국 Vendor의 아시아 내 대체 캐파(Capacity)를 제안하세요.",
+      "action_en": "Target buyers heavily reliant on Africa and pitch alternative production capacity in Asian vendor hubs.",
       "source": "Fibre2Fashion",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNLVlMNFYyWEo3Zkpla0p6d3VMRVItVEcxSE1ZaUZZN0Zoa2JkcFFkT1lRRTBSUFRmWjZ4ZWVBUml3MDdLWWZHN2lFX1hjOTlKQUxyU1ZYS0NwNWcxU2pTdFVNYUstSW1uQ1JKU1hOZlZDWm1NQXVpVG5xSFlnX1BtdV9Fb2xRaHRpZkZTOTVJeF9TTWtCNDdHU0dGcVlTdEtTZUgya05kMkFuVGZDSmx4NTY3UV9VekZCX1pYVktGVWNQVWtDXzJEU1hxMXFwc1UzZVg0TjcyUnRJTUxnc1ZRRA?oc=5",
       "date": "2026.09.11"
     },
     {
       "level": "MEDIUM",
-      "title_kr": "아메리칸이글 마진 전망 약세 및 실적 부진에 따른 오더 대응",
-      "title_en": "Order Response to American Eagle's Weak Margin Outlook and Slow Sales",
-      "body_kr": "아메리칸이글이 마진 전망 약세와 핵심 브랜드 부진으로 주가가 급락하며 보수적인 발주 기조가 예상됩니다.",
-      "body_en": "American Eagle shares slumped due to a flat margin outlook and weakness in core brands, signaling a conservative ordering stance.",
-      "action_kr": "영업팀은 아메리칸이글의 재고 소진 속도를 모니터링하고 다가오는 시즌 코스팅 및 원단 단가 조정 요구에 대비해야 합니다.",
-      "action_en": "Sales teams must monitor American Eagle's inventory sell-through and prepare for potential upcoming demands on costing and fabric price adjustments.",
-      "source": "The Business of Fashion",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdl9IYzAxelFVek96aXZzZWhjeW45UDFmUFNvd0NnalVnaEtJckRINmMtdV9PakluY3htcUVsUnJTMldxby1tREFNaFc4QjZCZEhmS2FfMWgwRGVUNXhVWFc5UUdNZDJJalkwaXFkZX-pUGF2Z2htTjFyNk1SdHZxNFVUN2VyVXRfVXNfcHRTRWlCOVJjV0lqS0w5ZVBBNG50X2dxYmtQamdPYi1zRnctZWh0UXBuSzFGbXc?oc=5",
-      "date": "2026.09.10"
-    },
-    {
-      "level": "MEDIUM",
-      "title_kr": "메이시스 '볼드 뉴 챕터' 전략에 따른 카테고리별 실적 성장 연계",
-      "title_en": "Align Category-Specific Performance Growth with Macy's 'Bold New Chapter' Strategy",
-      "body_kr": "메이시스가 새로운 성장 전략을 통해 매출 성장세를 보이며 실적 가이던스를 상향 조정했습니다.",
-      "body_en": "Macy's is showing sales growth and raising guidance driven by its new strategic chapter.",
-      "action_kr": "머신다이징 및 영업팀은 메이시스의 주력 성장 카테고리에 맞춘 스타일 제안을 강화하고 신규 오더 기회를 적극 발굴해야 합니다.",
-      "action_en": "Merchandising and sales teams must strengthen style proposals tailored to Macy's core growth categories and actively pursue new order opportunities.",
-      "source": "tradingview.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWEx4ZFYtZU1NT1lES0FlZFhXbkMwcG1lTFBibkJoMGZ2MDNOSktWWHg3a3hTemFXZ0Z2VzBtR0ZrdmFWZy0tU2dlVkdCUngtZ2J1Vy1jUmpfSVZmcWM2RUpKajBKTF84NnlnU0d2OWI5M0NNX3BTR3dGZ0xnYmxLUFBEMUpXVnlRU3BPcnB4dWFrNEU4S0VhX2tjRktTa3VDbHA3UVdtVmZGQXNtMVpOQUNDUFA0VDdiVGZwMGNMbXpHeHBGeGtCbkJzTGjOM3lrVFdqZU5ubFE4NjN0Qmc?oc=5",
-      "date": "2026.09.16"
+      "title_kr": "패션 트렌드, 외관보다 '촉감(Feel)'을 중시하는 텍타일 패션 부상",
+      "body_kr": "소비자들이 시각적 디자인보다 촉각적 편안함과 소재의 '질감'을 우선시하는 트렌드가 확산되고 있습니다. 소재 소싱 단계에서 차별화된 터치감 구현이 중요해졌습니다.",
+      "body_en": "A new trend prioritizes tactile feel over look in apparel, driving demand for innovative comfort fabrics. Sourcing teams must focus on advanced fabric textures to capture this shift.",
+      "action_kr": "소프트 터치 및 기능성 모이스처 바리어 소재를 활용한 샘플 개발을 선제적으로 제안하세요.",
+      "action_en": "Proactively develop and showcase samples utilizing soft-touch and functional moisture-barrier textiles.",
+      "source": "Fibre2Fashion",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc1diek5LV2l3bVNPRGpqMy1aM282VmNFaGV0LXdEQlJvMFR3cGZweXVxVTdVMXBmSTEwdEV2YmdVTGJ3MWoyR1drRHRZRmFhLVd1c2gwZTN2dFNtRWNCZXo5NzJmZVNJOWJSWElxWkRzUk1aVjI1enRCNDRKSlpHcEVhdTJCdGpvczJ1ZU94d0l3WlRSYXNDbkM4bGjSAagBQVVfeXFMUFFvcVh4dmt6eEtIVGc0MnAxeElwZDhtSzZFNlQ1aHEwMFhpRUxEWkxFMlZfOHJ2bjRQeE5MU0NHeHBQakc2aWNzSU1FWFVHOUJJX1ZXekZhbXhRak5aWGx3MldIdDk3NkdnV3hfc1FENjZ5NDlkVTRoMktnOGJYYmdvUng2eU1ITlZVeHNnbUR2MTZKcUZBbmtHYTFET0djSEdCRDRIRzZ1?oc=5",
+      "date": "2026.09.19"
     }
   ]
 }
