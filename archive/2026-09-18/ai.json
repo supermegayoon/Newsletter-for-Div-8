@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-09-18T07:24:49.657Z",
+  "generatedDateKST": "2026-09-18",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-09-18",
+  "insight": {
+    "headline": {
+      "kr": "메이시스·아버크롬비 실적 호조 및 콜스 가성비 전략 속, 벤더사는 lead time과 margin 방어에 집중해야 합니다.",
+      "en": "Vendor focus required on lead times and margin defense amidst Macy's and A&F earnings momentum and Kohl's value strategy."
+    },
+    "summary": {
+      "kr": "2026년 9월 18일 기준, Macy's와 A&F가 견조한 실적과 가이드라인 상향을 기록하며 유통 가도에 청신호가 켜졌습니다. 반면 원면(-2.50%) 및 유가(-1.19%) 하락과 경쟁사들의 공격적인 promotion이 겹치면서, 당사 sales 팀은 철저한 코스트 절감과 AI 기반 재고 보충(AI replenishment) 트렌드에 맞춘 신속한 납기 대응이 요구됩니다.",
+      "en": "As of September 18, 2026, Macy's and A&F report positive financial momentum and raised outlooks. Amid falling cotton (-2.50%) and crude oil (-1.19%) prices alongside aggressive competitor promotions, Team 8 must focus on rigorous cost management and agile lead-time execution aligned with Macy's AI replenishment trends."
+    },
+    "tags": [
+      "#Team8Daily",
+      "#ApparelSourcing",
+      "#MacysTurnaround",
+      "#RetailStrategy"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "CEO가 PB 브랜드('By Kohl's')와 Levi's, Nike 등 가성비 Partnership을 강조하고 있습니다. 타겟과 월마트의 공격적인 promotion 공세에 대응해 벤더사는 철저한 원가 경쟁력과 코어 category 제안을 강화해야 합니다.",
+        "en": "CEO highlighted proprietary 'By Kohl's' brands and value partnerships. To counter Target and Walmart's promotional pushes, vendors must provide aggressive cost competitiveness and strong core category proposals."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "15분기 연속 매출 성장과 더불어 NFL 공식 Partnership 유통망을 대폭 확장하고 있습니다. 스포츠 캐주얼 및 패밀리(키즈/우먼즈) 라인의 수요 급증에 대비해 생산 캐파를 선제적으로 확보해야 합니다.",
+        "en": "Reporting 15 consecutive quarters of sales growth and expanding its NFL partnership distribution. Proactive capacity reservation is necessary to capture surging demand in sports-casual and family lines."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "Bloomingdale's의 역대 최고 Q2 실적과 'Bold New Chapter' 전략이 주효하며 가이드라인이 상향되었습니다. AI inventory replenishment 도입에 발맞추어 실시간 수요 연동형 lead time 관리가 필수적입니다.",
+        "en": "Strong Q2 performance driven by Bloomingdale's and the 'Bold New Chapter' strategy led to raised forecasts. Alignment with Macy's new AI inventory replenishment tool requires agile, demand-driven lead-time management."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "Macy's와 Bloomingdale's의 wholesale channel 진출 확대 기조에 발맞추어 트렌드 감도가 높은 추동복 샘플을 선제 제안합니다.",
+        "en": "Proactively pitch trend-forward autumn-winter apparel samples aligned with Macy's and Bloomingdale's wholesale channel expansion."
+      },
+      {
+        "kr": "A&F의 NFL 라이선스 및 스포츠 팬웨어 category 확장 추세에 맞춰 그래픽/스포츠 캐주얼 sourcing 안을 준비합니다.",
+        "en": "Prepare graphic and sports-casual sourcing proposals to capture A&F's expanding NFL licensing and fan-wear categories."
+      },
+      {
+        "kr": "하락세를 보이고 있는 원면(Cotton -2.50%) 및 원자재 가격 시세를 반영하여 바이어와 유리한 단가 협상을 추진합니다.",
+        "en": "Leverage falling cotton (-2.50%) and raw material prices to negotiate favorable unit costs with key buyers."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "경쟁사들의 파격적인 할인 공세(예: Aritzia 최대 73% 할인, Nordstrom 회원 할인)로 인해 바이어들의 margin 압박 및 가격 경쟁이 심화될 리스크가 존재합니다.",
+      "en": "Intense competitor discounting (e.g., Aritzia up to 73% off, Nordstrom member sales) heightens pressure on buyer margins and price competitiveness."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "콜스 바이어 대상 가성비 중심의 F/W 시즌 PB 및 코어 category 제안서 작성 및 단가 검토 완료",
+        "en": "Complete cost reviews and compile value-focused F/W core category proposals for Kohl's buyers."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "아버크롬비 오더 확대에 대비하여 주요 생산 라인의 캐파 여유분 확보 및 납기일 점검",
+        "en": "Audit production line capacity and verify delivery schedules in preparation for potential A&F order volume increases."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "메이시스의 AI inventory replenishment 연동 프로세스에 맞춘 실시간 재고·납기 대응 매뉴얼 점검",
+        "en": "Review real-time inventory and delivery response protocols aligned with Macy's AI inventory replenishment workflows."
+      }
+    ]
+  }
+}
