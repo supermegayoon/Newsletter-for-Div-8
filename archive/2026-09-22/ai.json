@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-09-21T23:01:07.985Z",
+  "generatedDateKST": "2026-09-22",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-09-22",
+  "insight": {
+    "headline": {
+      "kr": "콜스·A&F·메이시스 Holiday 선점 경쟁 가속화, AI 및 PB 중심의 벤더 대응 전략 필수",
+      "en": "Kohl's, A&F, and Macy's Accelerate Holiday Preemption; AI & PB-Focused Vendor Strategies Essential"
+    },
+    "summary": {
+      "kr": "2026년 9월 22일 기준, 미국 주요 의류 retail러들이 조기 Holiday 마케팅과 AI 재고 관리 도입으로 경쟁력을 강화하고 있습니다. 원자재 시장에서는 면화 가격이 상승하고 유가가 하락하는 가운데, 콜스는 Babies R Us 협업을 확대하고 메이시스는 AI 기반 재고 보충 시스템을 도입했습니다. 당사 8담당 영업팀은 콜스의 PB 가성비 제안, 메이시스의 리이매진 포맷 맞춤 샘플링, A&F의 스포츠 Collaboration 연계 레퍼런스 제안을 즉각 실행해야 합니다.",
+      "en": "As of September 22, 2026, major U.S. apparel retailers are ramping up early holiday marketing and AI inventory tools. With cotton prices rising and crude oil dropping, Kohl's is expanding its Babies R Us partnership while Macy's rolls out an AI replenishment system. Team 8 must immediately execute strategic vendor actions: pitch cost-down PB options to Kohl's, offer contemporary samples for Macy's Reimagine format, and leverage sports-licensing capabilities for A&F."
+    },
+    "tags": [
+      "#Team8Daily",
+      "#ApparelSourcing",
+      "#RetailTrends",
+      "#HolidaySeason"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "타겟과 JCPenney의 조기 Holiday 및 Marketplace 공세에 대응해 Babies R Us shop-in-shop을 56개점으로 대폭 확대하고 PB 'By Kohl's' 마케팅을 강화하고 있습니다.",
+        "en": "In response to early holiday and marketplace pushes by Target and JCPenney, Kohl's is aggressively expanding Babies R Us shop-in-shops to 56 locations and reinforcing its 'By Kohl's' private brands."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "NFL 라이선스 Collaboration 성공과 견조한 주가 흐름을 바탕으로 Z세대 타겟의 스포츠 및 캐주얼 어소트먼트를 다각도로 확장하고 있습니다.",
+        "en": "Capitalizing on its successful NFL licensing collaboration and strong stock momentum, A&F is broadly expanding its sports and casual assortments targeted at Gen Z."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "AI 기반 inventory replenishment 툴을 도입하여 재고 관리 효율성을 높이고 있으며, 독점 디자이너 컬렉션 런칭을 통해 상품 차별화를 가속화하고 있습니다.",
+        "en": "Macy's has introduced an AI-driven inventory replenishment tool to streamline stock efficiency and is accelerating merchandise differentiation through exclusive designer collections."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "콜스의 'By Kohl's' PB 라인을 겨냥한 가을/겨울 시즌 코스트 다운 대체 소재 제안서 제출",
+        "en": "Submit F/W cost-down alternative material proposals targeting Kohl's 'By Kohl's' private label lines."
+      },
+      {
+        "kr": "메이시스의 리이매진(Reimagine) 매장 및 디자이너 Collaboration 포맷에 적합한 컨템포러리 여성복 쇼룸 세션 요청",
+        "en": "Request a showroom review session with Macy's buyers featuring contemporary womenswear tailored for their Reimagine store and designer collaboration formats."
+      },
+      {
+        "kr": "A&F의 스포츠 팬덤 및 라이선스 의류 수요에 대응하기 위한 당사의 단기 납기(Short-run) 생산 레퍼런스 제안",
+        "en": "Pitch our short-lead-time production track record to A&F to capture growing demand for sports-fandom and licensed apparel."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "경쟁사들의 조기 Holiday promotion과 공격적인 마크다운 공세로 인해 주요 바이어들의 가격 압박 및 재고 소진 리스크가 존재합니다.",
+      "en": "Price pressures and inventory markdown risks from buyers are elevated due to competitors' aggressive early holiday promotions."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "콜스 머천다이징 팀에 'By Kohl's' PB 코스트 다운 제안서 발송",
+        "en": "Send cost-down proposals for 'By Kohl's' private labels to the Kohl's merchandising team."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "메이시스 담당 바이어 대상 프리미엄 컨템포러리 샘플 쇼룸 세션 셋업",
+        "en": "Set up a premium contemporary sample showroom session for Macy's buyers."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "당사 스포츠/라이선스 의류 생산 역량 및 납기 대응력 문서화 후 A&F sourcing 담당자에게 컨택",
+        "en": "Document our sports/licensed apparel production capabilities and lead-time responsiveness, then contact A&F sourcing managers."
+      }
+    ]
+  }
+}
