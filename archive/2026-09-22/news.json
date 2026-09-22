@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "asOf": "2026-09-21T23:00:30.262Z",
+  "generatedDateKST": "2026-09-22",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 1,
+    "within7d": 3,
+    "total": 4,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "inventory/system",
+      "category_en": "Inventory System",
+      "date": "2026.09.19",
+      "title_kr": "Macy's, AI 기반 inventory replenishment tool 전격 도입",
+      "title_en": "Macy’s rolls out AI inventory replenishment tool",
+      "body_kr": "Macy's가 공급망 효율성과 merchandise 재고 관리를 고도화하기 위해 AI 기반의 inventory replenishment tool을 도입했습니다. 향후 vendor 파트너들과의 품목별 stock-level 최적화 및 reorder 프로세스에 긍정적인 영향이 기대됩니다.",
+      "body_en": "Macy's has rolled out a new AI-driven inventory replenishment tool to streamline stock management. This system aims to improve efficiency in replenishment and stock optimization across retail channels.",
+      "source": "Retail Dive",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVnp2RlVkZkZsTG1XMkUzV0NfR1JkS2tlSmhULVRnRlpJRHl4Rzh3YVU0VHNVdWVQaDRQa3BjVWZQWDl5ZUlxM1VsVnV3Z0Z0TzNlQzZwRWktMDB0WU5IN2dsYXBLc0ZpWTdLVkk0Q0lBWjNBTGNwZjNYaklWZmZvQUxkSEwyMGFmblY1MzhoMDY?oc=5",
+      "ageHours": 65.197
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "wholesale/channel",
+      "category_en": "Wholesale Channel",
+      "date": "2026.09.17",
+      "title_kr": "Lulus, Macy's 및 Bloomingdale's 중심의 wholesale channel 확장 본격화",
+      "title_en": "Why Lulus is betting big on Macy’s, Bloomingdale’s, and wholesale in general",
+      "body_kr": "여성의류 브랜드 Lulus가 Macy's와 Bloomingdale's 등 주요 department store를 거점으로 wholesale channel 확장을 가속화하고 있습니다. 이는 vendor들에게 주요 retail 파트너를 통한 category별 입점 및 volume 확대 기회를 시사합니다.",
+      "body_en": "Lulus is significantly increasing its wholesale footprint through major department stores like Macy's and Bloomingdale's. This strategic pivot highlights new opportunities for apparel vendors targeting major retail channels.",
+      "source": "Retail Brew",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMWstQWVld0JvdXBPdEViNlpKSnNzenEyV0g4N1JVeE1lTUJoU251SFprWjBzU0NWWHZvOXNXdnVRVFkzTU1SWnM1alRPQXA0Sm51STc1T1Zody1IQ3B4d1pOckU2UFB1VTV6VEZfQjRfeWlNZlJILUw3cDdUa2RCRWtlSk9pU0lIU0NmbnJvVlhsbWxwMGFqRklMNlpXN3RDQUp1NXl0UVpKQnM?oc=5",
+      "ageHours": 104.399
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "store/partnership",
+      "category_en": "Store Partnership",
+      "date": "2026.09.14",
+      "title_kr": "Kohl's, Sephora 부진 만회 위해 Babies R Us shop-in-shop 56개점 대폭 확대",
+      "title_en": "Kohl’s turns to Babies R Us as Sephora falters",
+      "body_kr": "Kohl's is expanding its partnership with Babies R Us by rolling out 56 shop-in-shops to offset softening momentum in other categories. This store strategy focuses on capturing family traffic through dedicated kids' merchandise spaces.",
+      "source": "the-sun.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB3YkdJbVNkTDFFS0NrVHBQbWNXSVRBWk5zbVByXzdkeU1oWkhTelJQb3RxOUlfckMzdUx2X2FQVEc1cDNpTzdmcU00UnJQSWZqWVJKLWRtTkV6NF9fZzVtVXBrV2xPMGZxdFdBZUZyZU9QQUpiY29zUQ?oc=5",
+      "ageHours": 171.155
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "earnings/stock",
+      "category_en": "Earnings & Stock",
+      "date": "2026.09.18",
+      "title_kr": "Abercrombie & Fitch, 최근 3개월간 주가 59% 급등하며 시장 기대감 상회",
+      "title_en": "Abercrombie & Fitch Stock Climbs 59% in 3 Months: Is There More Upside?",
+      "body_kr": "Abercrombie & Fitch가 성공적인 seasonal merchandise 기획과 탄탄한 sell-through에 힘입어 최근 3개월간 주가가 59% 급등했습니다. 지속적인 브랜드 리프레시와 정교한 inventory 관리가 실적 호조를 견인하고 있습니다.",
+      "body_en": "Abercrombie & Fitch stock has climbed 59% over the past three months, driven by strong quarterly results and positive consumer demand. Efficient inventory control and successful seasonal assortments continue to fuel its market momentum.",
+      "source": "The Globe and Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdWQxUERweFpWeWdWSjVHS2NKTHNQNTAzeFJRcFJDRnNIN3dOUlBjSjcxbEZQMzFMZEhIWmZGNU9vSFhZUTltUjJFTEI0QkxHcDRfTzl0b2RiTTBRd0VNNWE0M2dkbV9USk1uSEZxT1BYdHdoOWh6eEs3Nl85ZnZRQTM0YUhKWkczUUdXV1pUZ1pGYTJGcllUVUdQMjNoMGQ1alVXNnRQZUx4ZFBfUWtiZ2ZVWUc4SmZ2WjlLRC1XbnpuRWkweUJ5djA3LXVDQmhMbHRJeVJYNUNKVHg0MEIwWFVHbEc4QW8?oc=5",
+      "ageHours": 79.707
+    }
+  ]
+}
