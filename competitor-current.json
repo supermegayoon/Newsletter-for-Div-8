@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "generatedDateKST": "2026-09-23",
-  "asOf": "2026-09-22T23:01:22.992Z",
+  "generatedDateKST": "2026-09-24",
+  "asOf": "2026-09-23T23:01:01.360Z",
   "schedule": "Mon-Fri 08:00 KST",
   "windowDays": 7,
   "analysisMode": "GEMINI",
@@ -10,55 +10,31 @@
       "buyer": "Kohl's",
       "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "타겟과 경쟁사들의 홀리데이 시즌 조기 마케팅 및 JCPenney의 실적 부진 및 마켓플레이스 런칭 동향이 감지되었습니다.",
-        "en": "Competitors like Target initiated early holiday marketing, while JCPenney launched a marketplace amid sliding sales."
+        "kr": "타겟과 월마트를 중심으로 조기 홀리데이 시즌 마케팅과 패션 부문 강화 전략이 두드러지고 있습니다.",
+        "en": "Target and Walmart are leading with early holiday promotional strategies and major fashion category expansions."
       },
       "competitors": [
         {
           "name": "Target",
           "signal": "PROMOTION",
           "move": {
-            "kr": "크리스마스 시즌 마케팅과 프로모션을 예년보다 일찍 전개하기 시작했습니다.",
-            "en": "Rolled out Christmas season marketing and promotions much earlier than usual."
+            "kr": "크리스마스 시즌 마케팅 및 상품 전개를 매년 더 일찍 시작하고 있습니다.",
+            "en": "Launching Christmas holiday campaigns and product rollouts earlier than before."
           },
           "whyItMatters": {
-            "kr": "연말 쇼핑 시즌의 선점 경쟁이 치열해지며 고객 트래픽을 조기에 빼앗길 위험이 있습니다.",
-            "en": "Intensifies early competition for holiday shopping traffic and risks shifting customer acquisition timing."
+            "kr": "조기 홀리데이 쇼핑 수요를 선점하여 주요 백화점 및 할인점의 연말 매출을 잠식할 수 있습니다.",
+            "en": "Captures early holiday shopping demand, potentially eating into department store year-end sales."
           },
           "action": {
-            "kr": "조기 홀리데이 프로모션 전략을 수립하고 마케팅 일정을 앞당겨야 합니다.",
-            "en": "Establish early holiday promotional strategies and pull forward marketing schedules."
+            "kr": "당사도 4분기 홀리데이 시즌 프로모션 일정을 앞당기고 얼리버드 마케팅을 강화해야 합니다.",
+            "en": "We must pull forward our Q4 holiday promotional calendar and step up early bird marketing."
           },
           "sources": [
             {
-              "source": "newswav.com",
+              "source": "Newswav",
               "sourceTier": "GENERAL",
               "date": "2026.09.21",
-              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNUlSUWEydFFwMWRiTjRBVUJTR1k0YkYtbU1uVkFubWk3QkNiQ1FJcXdiNkw3RjFXV2EtRkFJNGYzeWwybUZfSFE3czNYbEhNQkdXRURzVFBVbXU1dDd2cmtMUXBrWmZMSWtzRnRrQ3ZzaE1HZDBzMXFrRDUxalp3UXdQdTE1XzRIN2w1eGJrcnh6dWtFZnlNYkIxTHZmUnE4b1cxMWc0Vl9LQ2VjQklxcG45ZmtCeEE?oc=5"
-            }
-          ]
-        },
-        {
-          "name": "JCPenney",
-          "signal": "CHANNEL",
-          "move": {
-            "kr": "매출 감소 속에서 점유율 회복을 위해 새로운 마켓플레이스를 런칭했습니다.",
-            "en": "Launched a new online marketplace amidst sliding sales and declining market share."
-          },
-          "whyItMatters": {
-            "kr": "유사한 리테일 및 백화점 고객층을 대상으로 디지털 플랫폼 경쟁이 심화되고 있음을 보여줍니다.",
-            "en": "Highlights intensifying digital platform competition targeting similar department store and retail customer bases."
-          },
-          "action": {
-            "kr": "자사 디지털 마켓플레이스의 상품 구색과 플랫폼 사용자 경험(UX)을 강화해야 합니다.",
-            "en": "Enhance product assortment and digital platform user experience (UX) on our own marketplace."
-          },
-          "sources": [
-            {
-              "source": "Retail Dive",
-              "sourceTier": "INDUSTRY",
-              "date": "2026.09.21",
-              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZjRrRFNkN3NNMjRnMUtrM2JQRXkzeHIwYnJ4LVUzYUVkTHIzSlNvRGZibXlXbGptYkFWN3F6Mnd1Z2tIVWpCTE40UGJvcXAtZDlWdDdCVWFObVluVXZNbGF5bUt1Mk1SWW1nNjRoTmVuR2hxck5kcjlJTzhtUXZXQnlQbnNieF9SS1NRRXQxRmRZWjFadlp6X040UzBVZXktT2tjZWZoNXdiZEJM?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNUlSUWEydFFwMWRiTjRBVUJTR1k0YkYtbU1uVkFubWk3QkNiQ1FJcXdiNkw3RjFXV2EtRkFJNGYzeWwybUZfSFE3czNYbEhNQkdXRURzVFBVbXU1dDd2cmtMUXBrWmZMSWtzRnRrQ3ZzaH1HZDBzMXFrRDUxalp3UXdQdTE1XzRIN2w1eGJrcnh6dWtFZnlNYkIxTHZmUnE4b1cxMWc0Vl9LQ2VjQklxcG45ZmtCeEE?oc=5"
             }
           ]
         },
@@ -66,23 +42,47 @@
           "name": "Walmart",
           "signal": "PRODUCT",
           "move": {
-            "kr": "패션 부문 개편 및 신규 패션 라인 런칭을 통해 패션 이미지 강화에 나섰습니다.",
-            "en": "Pursued a fashion makeover and launched new fashion lines to elevate its superstore style."
+            "kr": "2026년 패션 부문에 대한 대규모 투자와 리뉴얼을 적극 추진하고 있습니다.",
+            "en": "Betting big on fashion with substantial investments and makeovers for 2026."
           },
           "whyItMatters": {
-            "kr": "대형 할인점의 공격적인 패션 부문 진출이 가성비 의류 시장에서 경쟁 압력을 높이고 있습니다.",
-            "en": "Aggressive moves by superstores into fashion increase competitive pressure in the value apparel segment."
+            "kr": "가치 중심의 소비자층을 타겟으로 한 패션 경쟁력이 높아지면서 중저가 의류 시장 점유율에 위협이 됩니다.",
+            "en": "Increases value-driven fashion competitiveness, posing a threat to mid-to-low apparel market share."
           },
           "action": {
-            "kr": "가성비와 트렌디함을 모두 갖춘 자체 의류 브랜드(PB)의 경쟁력을 점검해야 합니다.",
-            "en": "Evaluate the competitiveness of our private label (PB) apparel focusing on both value and trends."
+            "kr": "가성비와 트렌디한 디자인을 모두 갖춘 자체 브랜드(PB) 라인업의 가성비를 강조해야 합니다.",
+            "en": "We need to emphasize the cost-performance value of our private label (PB) lineup combining trendy designs."
           },
           "sources": [
             {
-              "source": "thecut.com",
+              "source": "moneywise.com",
               "sourceTier": "GENERAL",
-              "date": "2026.09.18",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZGZvWndHNk40Z2c4MjNSbUtadEx3Zm1iekI0MEZWVHlrSmZqNzUtRjBIeFczRVhSTG00ZjhYTUt5V1ZEYU1MYzFfNldwNW1vclhaQTNkd3dsaVdsT1JmajVqNW5EczZaOXNxNWF6emdXMWRPcFY3VXpCZl9DRW1nc2JKbkQyMXdSS2p4UEFyUnlmWHY4S1NOSQ?oc=5"
+              "date": "2026.09.23",
+              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUERWUExqbEI2MWs3T3ZjTG92NGZ4c0FyX0hpaFBhcDNqNWRfRGNJUkN6TVdTZExuUTlNb245MXJUa3VaR2FzejRsWmZwaUVoY0o5QVlLT2dwdGdLQXBkcjJtbG0yUHg3R3dPODFLcE1kZVpEa2ttcXE5bmVnMy10VjN2SjFDYnJKMDltbjA0YUI?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Walmart",
+          "signal": "CHANNEL",
+          "move": {
+            "kr": "코스코의 성공적인 멤버십 및 매장 전략을 벤치마킹하여 도입을 시도하고 있습니다.",
+            "en": "Trying to copy and implement successful membership and store strategies from Costco."
+          },
+          "whyItMatters": {
+            "kr": "충성 고객 락인(Lock-in) 효과가 강화되어 종합 유통 채널 전반의 고객 유지율이 상승할 것입니다.",
+            "en": "Strengthens customer lock-in effects, raising overall retention across retail channels."
+          },
+          "action": {
+            "kr": "당사의 멤버십 리워드 혜택을 개편하여 충성 고객 이탈을 방지해야 합니다.",
+            "en": "We must overhaul our membership rewards benefits to prevent loyal customer churn."
+          },
+          "sources": [
+            {
+              "source": "thestreet.com",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.17",
+              "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaWM5SnZWZ3UxVWNBOFJaMjIwbFFac1llbUd5R0Q1S0hpVWJNdEVSYUx4UkZEQzgwN2lPVmlodXFnM0RmVlBBS0lROUpRUi1vQjVsTHNvWEpwU3RHWE9ITlBwZ2QwSjFueVpsN29UalRkWGNPQ3RfVFpYZ1FvWlY2SzdCTUNIeWd2aWJj?oc=5"
             }
           ]
         }
@@ -92,24 +92,24 @@
       "buyer": "A&F / Hollister",
       "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "섹시함의 부활 트렌드와 함께 주요 경쟁사들이 자금 조달 및 신규 컬렉션을 선보이며 Gen Z 타겟 공략을 가속화하고 있습니다.",
-        "en": "Amid a 'sexiness revival' trend, main competitors accelerated Gen Z targeting through funding and new fashion launches."
+        "kr": "섹시함의 부활 트렌드와 함께 아메리칸 이글 및 프리피플 등 주요 경쟁사들이 주가 상승과 공격적인 가을 프로모션을 전개 중입니다.",
+        "en": "Driven by a 'sexiness revival' trend, main competitors like American Eagle and Free People are seeing stock momentum and running aggressive fall promos."
       },
       "competitors": [
         {
           "name": "American Eagle",
-          "signal": "PRODUCT",
+          "signal": "FINANCIAL",
           "move": {
-            "kr": "'섹시함의 부활(Sexiness Revival)' 트렌드 속에서 패션 및 뷰티 주가가 상승세를 보였습니다.",
-            "en": "Benefited from a 'sexiness revival' trend lifting fashion and beauty stock performance."
+            "kr": "패션 및 뷰티 시장 내 '섹시함의 부활(Sexiness Revival)' 트렌드에 힘입어 관련 주가와 실적이 상승세를 보이고 있습니다.",
+            "en": "Benefiting from a 'sexiness revival' trend lifting fashion and beauty stock prices."
           },
           "whyItMatters": {
-            "kr": "주요 타겟층인 젊은 소비자들 사이에서 캐주얼 및 데님 카테고리의 수요 회복을 시사합니다.",
-            "en": "Signals a demand recovery in casual and denim categories among core young consumer segments."
+            "kr": "1020 세대의 캐주얼 및 데님 카테고리에서 당사의 시장 점유율을 직접적으로 위협합니다.",
+            "en": "Directly threatens our market share in the Gen Z casual and denim categories."
           },
           "action": {
-            "kr": "트렌드에 부합하는 영캐주얼 마케팅과 스타일링 프로모션을 강화해야 합니다.",
-            "en": "Reinforce young-casual marketing and styling promotions aligned with the current trend."
+            "kr": "데님 및 실루엣을 강조한 가을 시즌 마케팅 캠페인을 즉각 강화해야 합니다.",
+            "en": "We must immediately ramp up our fall marketing campaigns highlighting denim and flattering silhouettes."
           },
           "sources": [
             {
@@ -121,19 +121,43 @@
           ]
         },
         {
-          "name": "Zara",
-          "signal": "STORE",
+          "name": "Free People",
+          "signal": "PROMOTION",
           "move": {
-            "kr": "한국 등 글로벌 시장에서 소규모 매장을 줄이고 대형 플래그십 중심으로 전략을 전환하고 있습니다.",
-            "en": "Shifted store strategy globally to fewer, larger flagship stores, including in Asian markets."
+            "kr": "가을 패션 및 뷰티 품목을 대상으로 최대 25% 할인 혜택을 제공하는 프로모션을 전개하고 있습니다.",
+            "en": "Running promotions offering up to 25% off fall fashion and beauty items."
           },
           "whyItMatters": {
-            "kr": "오프라인 매장 경험을 극대화하여 SPA 브랜드의 브랜드 인지도와 집객력을 높이고 있습니다.",
-            "en": "Maximizes in-store brand experience to elevate brand awareness and traffic for SPA brands."
+            "kr": "가을 환절기 쇼핑객들을 빠르게 흡수하여 매출 전환율을 높이고 있습니다.",
+            "en": "Rapidly capturing seasonal transition shoppers and driving conversion rates."
           },
           "action": {
-            "kr": "오프라인 매장의 공간 연출력과 고객 체험 요소를 업그레이드해야 합니다.",
-            "en": "Upgrade store spatial design and customer experiential elements in brick-and-mortar locations."
+            "kr": "당사도 주요 가을 아우터 및 니트 품목에 대한 매력적인 할인 프로모션을 기획해야 합니다.",
+            "en": "We should plan attractive promotional discounts for key fall outerwear and knitwear items."
+          },
+          "sources": [
+            {
+              "source": "Forbes",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.17",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcEJwa3loS0RFb1Uwb1JqQlczZE10MXVHUG9GN19UcHBFNmdmYVoySHhUNFl3Yk1tYkVUa3Q3YU5JV042R1dYNEF0emFKZ29MRG53TnpmRVM1SmdOc28xWmVZcEFJNjhLaHd6SS00cE1udHJTaVBVQWVtZE9DcTR3Q0EwWGxFUQ?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Zara",
+          "signal": "CHANNEL",
+          "move": {
+            "kr": "한국 및 글로벌 시장에서 소규모 매장을 줄이고 대형 플래그십 스토어 중심의 전략으로 전환하고 있습니다.",
+            "en": "Shifting strategy in Korea and globally to fewer, larger flagship stores."
+          },
+          "whyItMatters": {
+            "kr": "오프라인 브랜드 경험을 극대화하여 젊은 소비자들의 체류 시간을 늘리고 브랜드 인지도를 높이고 있습니다.",
+            "en": "Maximizes in-store brand experience, increasing dwell time and brand awareness among youth."
+          },
+          "action": {
+            "kr": "오프라인 매장의 비주얼 머천다이징(VIM)과 체험형 공간 구성을 개선해야 합니다.",
+            "en": "We need to upgrade our visual merchandising (VIM) and experiential store layouts."
           },
           "sources": [
             {
@@ -143,30 +167,6 @@
               "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNndKSURac09jRWcyRXZJYnZwUjNTOHdFRWdqV09RcjV2N3FrNUNvd1lJTEpLSEQ2T1BLdFNUWXllMGpYX25QaV9QYmhteTZFS29WWFhNMERMMkFJSUF3LUFhZ21sT3ZkUUx4cl9sNzZWc202NW9MSDZtYXNCXzFEakFHRjI4MWx3clg2M2ttd0VkOVXSAZMBQVVfeXFMTTZ3SklEWnNPY0VnMkV2SWJ2cFIzUzh3RUVnaldPUXI1djdxazVDb3dZSUxKS0hENk9QS3RTVFl5ZTBqWF9uUGlfUGJobXk2RUtvVlhYTTBETDJBSUlBdy1BYWdtbE92ZFFMeHJfbDc2VnNtNjVvTEg2bWFzQl8xRGpBR0YyODFsd3JYNjNrbXdFZDlV?oc=5"
             }
           ]
-        },
-        {
-          "name": "Free People",
-          "signal": "PRODUCT",
-          "move": {
-            "kr": "친환경 및 비건 프렌들리 의류 라인업을 확장하며 지속가능성 패션을 강조하고 있습니다.",
-            "en": "Expanded eco-friendly and vegan-friendly clothing lines, emphasizing sustainable fashion."
-          },
-          "whyItMatters": {
-            "kr": "윤리적 소비를 중시하는 Gen Z 소비자의 가치 소비 트렌드를 직접적으로 공략하고 있습니다.",
-            "en": "Directly targets Gen Z consumers' value-driven consumption habits focused on ethical retail."
-          },
-          "action": {
-            "kr": "친환경 소재 활용 및 관련 마케팅 메시지를 제품 설명과 캠페인에 적극 반영해야 합니다.",
-            "en": "Actively incorporate eco-friendly materials and marketing messaging into product details and campaigns."
-          },
-          "sources": [
-            {
-              "source": "peta.org",
-              "sourceTier": "GENERAL",
-              "date": "2026.09.17",
-              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTG1VYk9YRXR1OVA1cDlNOTFsRnlkM3NrVHVpS2JRdld1b0k2YUVBS1RwYzNqX1dkSEVCT19FUFRUcEo5X3Q3Smg3dXdNOVhWT3Nqb3JxUjlQdWZ1ZHl1QUdWOWJjUi04MGlYU0N3TnJpRml1SlIyUkNQc3liZDhzQW03ckJWdzc2dHFxY3JrNExMd3ZZa1FqLUNFQQ?oc=5"
-            }
-          ]
         }
       ]
     },
@@ -174,24 +174,24 @@
       "buyer": "Macy's",
       "competitionLevel": "MEDIUM",
       "keyTakeaway": {
-        "kr": "Nordstrom이 가을 시즌 대규모 할인 프로모션을 대대적으로 전개하며 백화점 채널의 가격 경쟁을 주도하고 있습니다.",
-        "en": "Nordstrom drove departmental channel price competition by rolling out large-scale fall discount promotions."
+        "kr": "노드스트롬과 JCPenney가 공격적인 쿠폰 할인 및 프로모션을 통해 백화점 채널 고객 유치에 총력을 기울이고 있습니다.",
+        "en": "Nordstrom and JCPenney are aggressively competing for department store channel customers via coupon discounts and promos."
       },
       "competitors": [
         {
           "name": "Nordstrom",
           "signal": "PROMOTION",
           "move": {
-            "kr": "가을 패션 및 뷰티 상품을 대상으로 최대 25% 할인 및 대규모 가을 세일을 진행했습니다.",
-            "en": "Conducted a major fall sale offering up to 25% off fall fashion and beauty products."
+            "kr": "가을 패션 및 뷰티 상품을 대상으로 최대 25% 할인하는 대규모 쿠폰 및 할인 이벤트를 실시했습니다.",
+            "en": "Launched major coupon and discount events offering up to 25% off fall fashion and beauty."
           },
           "whyItMatters": {
-            "kr": "동일한 백화점 주고객층을 대상으로 초기 가을 시즌 매출을 선점하려는 강력한 프로모션 공세입니다.",
-            "en": "Represents a strong promotional offensive to capture early fall season sales from overlapping department store shoppers."
+            "kr": "가을 시즌 백화점 주 고객층의 이탈을 유발하여 당사의 객단가와 매출에 타격을 줄 수 있습니다.",
+            "en": "May drive away core department store demographics, hurting our average order value and sales."
           },
           "action": {
-            "kr": "백화점 주말 특가전 및 로열티 멤버십 전용 추가 할인 혜택을 기획해야 합니다.",
-            "en": "Plan departmental weekend special events and exclusive additional discount benefits for loyalty members."
+            "kr": "당사도 백화점 입점 브랜드들과 연계한 차별화된 가을 시즌 프로모션과 쿠폰 패키지를 발행해야 합니다.",
+            "en": "We must issue differentiated fall promotional and coupon packages tied with our department store brands."
           },
           "sources": [
             {
@@ -206,47 +206,47 @@
           "name": "JCPenney",
           "signal": "CHANNEL",
           "move": {
-            "kr": "온라인 마켓플레이스를 런칭했으나 매출 감소와 시장 점유율 하락을 겪고 있습니다.",
-            "en": "Experienced sliding sales and market share losses while attempting to build out online marketplaces."
+            "kr": "온라인 쇼핑 및 다이닝 서비스 관련 소비자 집단 중재(Mass Arbitrations) 이슈에 대응하고 있습니다.",
+            "en": "Navigating consumer mass arbitrations related to online shopping and dining services."
           },
           "whyItMatters": {
-            "kr": "전통 백화점 및 매스 리테일러들의 실적 부진 속에서 이커머스 전환의 어려움을 방증합니다.",
-            "en": "Demonstrates the ongoing difficulty of e-commerce transformation amidst lagging performance among traditional department stores."
+            "kr": "경쟁사의 소비자 불만 및 법적 이슈는 당사가 신뢰도를 높이고 대체 쇼핑처로 어필할 수 있는 기회입니다.",
+            "en": "Competitor consumer complaints and legal issues present an opportunity for us to boost trust and position as an alternative."
           },
           "action": {
-            "kr": "오프라인과 온라인을 연계한 옴니채널 차별화 전략을 지속 점검해야 합니다.",
-            "en": "Continuously monitor and refine omni-channel differentiation strategies connecting offline and online assets."
+            "kr": "당사 온라인몰의 결제 안정성과 고객 서비스(CS) 투명성을 강조하는 마케팅을 펼쳐야 합니다.",
+            "en": "We should run marketing emphasizing our online store's payment stability and customer service (CS) transparency."
           },
           "sources": [
             {
-              "source": "Retail Dive",
-              "sourceTier": "INDUSTRY",
+              "source": "ClassAction.org",
+              "sourceTier": "GENERAL",
               "date": "2026.09.21",
-              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZjRrRFNkN3NNMjRnMUtrM2JQRXkzeHIwYnJ4LVUzYUVkTHIzSlNvRGZibXlXbGptYkFWN3F6Mnd1Z2tIVWpCTE40UGJvcXAtZDlWdDdCVWFObVluVXZNbGF5bUt1Mk1SWW1nNjRoTmVuR2hxck5kcjlJTzhtUXZXQnlQbnNieF9SS1NRRXQxRmRZWjFadlp6X040UzBVZXktT2tjZWZoNXdiZEJM?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kWmxBQlpNQTQwRXJtYlVlWGdPZGlpWlZhR1VaaVF0YWFsaEpyTkQ1TjV6MmVQcWgteUM0WWd0V1BNc0FVaGE4MjdiNUxtTkFSbWV6enRFb0lqdmlwRjhDSkNvamdYUElUNjRKaDh1TXFjNGdYekE?oc=5"
             }
           ]
         },
         {
           "name": "Nordstrom",
-          "signal": "DIGITAL",
+          "signal": "PROMOTION",
           "move": {
-            "kr": "온라인 회원(Nordy Club) 전용 큐레이션 및 맞춤형 할인 혜택을 강화했습니다.",
-            "en": "Enhanced personalized curation and member-exclusive discount offers for online club tiers."
+            "kr": "전문가 검증을 거친 에디터 추천 쿠폰 코드를 적극 배포하며 디지털 트래픽을 선점하고 있습니다.",
+            "en": "Actively distributing editor-tested coupon codes to capture digital traffic."
           },
           "whyItMatters": {
-            "kr": "충성 고객의 이탈을 막고 디지털 채널에서의 객단가와 리텐션을 높이는 효과적인 전략입니다.",
-            "en": "Serves as an effective strategy to prevent customer churn and increase average order value and retention on digital channels."
+            "kr": "온라인 검색 유입 고객들을 선점하여 디지털 채널에서의 점유율을 확대하고 있습니다.",
+            "en": "Captures online search traffic, expanding their digital channel market share."
           },
           "action": {
-            "kr": "스타일 포인트 회원 대상의 개인화된 프로모션 알림 기능을 개선해야 합니다.",
-            "en": "Improve personalized promotional notification features targeting loyalty program members."
+            "kr": "제휴 미디어 및 인플루언서와 협력하여 당사 할인 코드의 노출 빈도를 높여야 합니다.",
+            "en": "We must partner with affiliate media and influencers to increase the visibility of our discount codes."
           },
           "sources": [
             {
-              "source": "USA Today",
+              "source": "StyleCaster",
               "sourceTier": "GENERAL",
-              "date": "2026.09.16",
-              "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbGV6OXAwMlVOUE9ZMDY0bG16NTJDYXFNanlUakZyWk1nblg5M0MxT09SUlB6TzhSS1hDOTdzUnMtbElGVUtyNmR0M21TTmM4ZjZnbS05VndiTXBXSnpkZ0gzWU9KMnBTSDk0NjZVUm51VWlscDRGOVdrellmVU9LcW9HZXhzSEdTTE1ELVlIeWNaTVoxNU5jWmpyTzg1VlJuT1NjT0hvYXJNQ2tQa2Q2RVo2dDM3OVltNkxZ?oc=5"
+              "date": "2026.09.21",
+              "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY3RWeDdHQlM1dW9pWEpheHhtQ1FWVUo0d1VrdTRXOVhpX0ZwSEpNZHdEdHZVcWZjdFJXbnBHMjJrZzMtVjNnWmVDaE1oamxNdmtVWXgtVE9iSmZVUnJta1dkdFpqTl9tVE9FSjRRaERiczRBR3VhNVNlX1hGU21LbmdIVV9MOUE4UTJEMFM1Yzc1Z0EwZnZzdlpYbw?oc=5"
             }
           ]
         }
@@ -256,24 +256,72 @@
       "buyer": "Ann Taylor",
       "competitionLevel": "MEDIUM",
       "keyTakeaway": {
-        "kr": "Banana Republic와 J.Crew가 장바구니 방치 마케팅 및 가을 신상품 출시를 통해 오피스룩 및 캐주얼 시장을 공략하고 있습니다.",
-        "en": "Banana Republic and J.Crew targeted the office-wear and casual market through cart-abandonment tactics and fall launches."
+        "kr": "바나나 리퍼블릭과 J.크루가 가을 시즌오프 세일 및 아울렛 프로모션을 공격적으로 전개하며 오피스룩 수요를 공략하고 있습니다.",
+        "en": "Banana Republic and J.Crew are aggressively running fall seasonal sales and outlet promotions to target office-wear demand."
       },
       "competitors": [
         {
           "name": "Banana Republic",
-          "signal": "PRODUCT",
+          "signal": "PROMOTION",
           "move": {
-            "kr": "가을 시즌을 겨냥한 신규 패션 라인업을 시장에 성공적으로 런칭했습니다.",
-            "en": "Successfully launched new seasonal fashion lineups targeted at the fall market."
+            "kr": "가을 시즌 세일 및 팩토리(Factory) 전용 프로모션 코드를 대거 발행하며 할인 공세를 펼치고 있습니다.",
+            "en": "Launching extensive discount campaigns with fall seasonal sales and Factory-specific promo codes."
           },
           "whyItMatters": {
-            "kr": "프리미엄 커리어 우먼 캐주얼 및 오피스룩 카테고리에서 직접적인 수요 분산을 유발합니다.",
-            "en": "Directly induces demand diversion in the premium career-women casual and office-wear categories."
+            "kr": "오피스웨어 및 커리어 우먼 고객층을 직접 타겟팅하여 당사의 핵심 고객을 잠식할 수 있습니다.",
+            "en": "Directly targets office-wear and career-woman demographics, potentially eroding our core customer base."
           },
           "action": {
-            "kr": "가을 오피스룩 및 니트웨어 중심의 스타일링 제안을 강화해야 합니다.",
-            "en": "Strengthen styling recommendations centered around fall office-wear and knitwear."
+            "kr": "당사도 가을 정장 및 블라우스 라인업을 중심으로 매력적인 세트 할인 프로모션을 도입해야 합니다.",
+            "en": "We should introduce attractive set-discount promotions centered on our fall suits and blouse lineups."
+          },
+          "sources": [
+            {
+              "source": "USA Today",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.22",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JYmFtRW9aSkNVTmNuQzN4QTNxQXNZYmV3SnI4UlpSd2ZZWGtHbEkyMlgzRndQX2V3YllkcDB2bHgtWVRFVk9NNUw5SzBnMFhUUUM1emF5elZZUTdPZkZ2R2ljaDI?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "J.Crew",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "남성복 및 여성복 전반에 걸쳐 파격적인 주간 할인 딜을 공개하며 온라인 트래픽을 유도하고 있습니다.",
+            "en": "Releasing aggressive weekly menswear and womenswear discount deals to drive online traffic."
+          },
+          "whyItMatters": {
+            "kr": "온라인 쇼핑객들의 장바구니 전환율을 높이고 브랜드 간 비교 구매에서 우위를 점하고 있습니다.",
+            "en": "Boosts online shopper cart conversion rates and gains an edge in comparative shopping."
+          },
+          "action": {
+            "kr": "장바구니 이탈 고객을 타겟으로 한 리타게팅 이메일과 맞춤형 할인 혜택을 강화해야 합니다.",
+            "en": "We must enhance retargeting emails and personalized discount offers targeted at cart-abandoners."
+          },
+          "sources": [
+            {
+              "source": "gq.com",
+              "sourceTier": "GENERAL",
+              "date": "2026.09.17",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ya05XT1Q4ekJ4aFJBOC10Q0NOVGkxS3BseUhWRjFzbnJEUktCS1NEbVZ4MklRdU5mMTg4UDRWUmZEYTZaSGtXV1RqWUNkWFRlazRFTWp2LTA5VzFGSHN6bw?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Banana Republic",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "2026년 주요 신규 패션 라인업을 잇달아 런칭하며 상품 경쟁력을 강화하고 있습니다.",
+            "en": "Continuously launching major new fashion lineups for 2026 to strengthen product competitiveness."
+          },
+          "whyItMatters": {
+            "kr": "트렌디한 가을 신상품에 대한 소비자 관심을 집중시켜 시장 트렌드를 주도하고 있습니다.",
+            "en": "Concentrates consumer interest on trendy fall new arrivals, dictating market trends."
+          },
+          "action": {
+            "kr": "당사의 프리미엄 캐리어 라인 신제품 출시 홍보를 앞당기고 가시성을 높여야 합니다.",
+            "en": "We need to pull forward and increase the visibility of our premium career line product launches."
           },
           "sources": [
             {
@@ -283,54 +331,6 @@
               "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wU2JIRktwT2V2UTdmNUZnX2lHX1dzVklYb3YtYU44dU5zVU80LS1uSU9lcDh5clc0a3V1dUhRNDZ1NUlobG4wVVpzRlp4Tk54MTRyUFdOd1d0RERpUUFCekFCalpiUnl3eFlHR2xJVWYyY2M?oc=5"
             }
           ]
-        },
-        {
-          "name": "J.Crew",
-          "signal": "DIGITAL",
-          "move": {
-            "kr": "온라인 쇼핑객들을 대상으로 장바구니 방치(cart abandonment) 유도 및 타겟 할인 전략을 활용하고 있습니다.",
-            "en": "Utilized cart-abandonment tactics and targeted discounting strategies to convert online shoppers."
-          },
-          "whyItMatters": {
-            "kr": "이커머스 전환율을 높이고 가격 민감도가 높은 온라인 고객을 확보하는 데 효과적인 리타겟팅 전술입니다.",
-            "en": "Serves as an effective retargeting tactic to increase e-commerce conversion rates and capture price-sensitive online shoppers."
-          },
-          "action": {
-            "kr": "장바구니 이탈 고객을 위한 맞춤형 이메일 할인 리타겟팅 시스템을 점검해야 합니다.",
-            "en": "Review personalized email discount retargeting systems for customers who abandoned their carts."
-          },
-          "sources": [
-            {
-              "source": "ConsumerAffairs",
-              "sourceTier": "GENERAL",
-              "date": "2026.09.18",
-              "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbld5VTNxUlRGUVhqb0k2d0NVaFFGSWVHNU9LbzVESzNqN2dFOS1zWjdPUE1VMUs1N1d3VVc3MjFESjQxT2NMVjIwNHdfMV8xVS1IV0E4UWxvVGhNWlFKN05QaTNfYzU4eXBtZ1dpcG8wdEVCa3hPVUxUZUpGdWdLNzBIcUYtUmR4WUoyQWVic3NZWEl4dC1NQ3VZSXdIZEF6eHM2bktvYlV3a3pFc3FuTHVSQlJSYWxzT0RkWWNaLUd2aUE?oc=5"
-            }
-          ]
-        },
-        {
-          "name": "J.Crew",
-          "signal": "PROMOTION",
-          "move": {
-            "kr": "남성 및 여성복 전반에 걸쳐 주간 단위의 기획 할인 및 맨즈웨어 딜을 진행했습니다.",
-            "en": "Conducted weekly planned promotional discounts and menswear deals across apparel categories."
-          },
-          "whyItMatters": {
-            "kr": "소비자들의 지출을 유도하기 위해 주 단위 프로모션 회전율을 높이고 있음을 보여줍니다.",
-            "en": "Illustrates an increasing weekly promotional turnover to stimulate consumer spending."
-          },
-          "action": {
-            "kr": "주말 한정 프로모션이나 타임 세일 등의 단기 전환 마케팅을 강화해야 합니다.",
-            "en": "Enhance short-term conversion marketing such as weekend-only promotions or flash sales."
-          },
-          "sources": [
-            {
-              "source": "GQ",
-              "sourceTier": "GENERAL",
-              "date": "2026.09.17",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ya05XT1Q4ekJ4aFJBOC10Q0NOVGkxS3BseUhWRjFzbnJEUktCS1NEbVZ4MklRdU5mMTg4UDRWUmZEYTZaSGtXV1RqWUNkWFRlazRFTWp2LTA5VzFGSHN6bw?oc=5"
-            }
-          ]
         }
       ]
     },
@@ -338,55 +338,55 @@
       "buyer": "Talbot's",
       "competitionLevel": "LOW",
       "keyTakeaway": {
-        "kr": "J.Jill의 신규 매장 오픈 등 오프라인 채널 재편 움직임이 감지되었습니다.",
-        "en": "Offline channel restructuring movements were observed, such as J.Jill's new store opening."
+        "kr": "랜즈엔드를 중심으로 가을 세일 및 방한 의류(기능성 내의) 시장 선점을 위한 마케팅이 시작되었습니다.",
+        "en": "Lands' End is leading activity with fall sales and early marketing for cold-weather thermal wear."
       },
       "competitors": [
         {
-          "name": "J.Jill",
-          "signal": "STORE",
+          "name": "Lands' End",
+          "signal": "PROMOTION",
           "move": {
-            "kr": "브리지포트 빌리지(Bridgeport Village)에 새로운 대형 매장 인테리어 및 오픈을 추진 중입니다.",
-            "en": "Is building and preparing a brand-new storefront location in Bridgeport Village."
+            "kr": "가을 시즌 주요 의류 품목에 대한 할인 판매를 진행하며 시즌 수요 잡기에 나섰습니다.",
+            "en": "Conducting discount sales on major fall apparel items to capture seasonal demand."
           },
           "whyItMatters": {
-            "kr": "시니어 및 클래식 여성복 타겟층이 밀집한 상권에서 오프라인 고객 접점을 확대하고 있습니다.",
-            "en": "Expands offline customer touchpoints in retail locations dense with mature and classic womenswear shoppers."
+            "kr": "시니어 및 클래식 캐주얼 고객층의 초기 가을 구매 예산을 선점할 수 있습니다.",
+            "en": "Can capture early fall purchasing budgets of senior and classic casual customers."
           },
           "action": {
-            "kr": "주요 거점 매장의 인근 상권 분석 및 로컬 고객 대상 프로모션을 강화해야 합니다.",
-            "en": "Analyze local trade areas near key flagship stores and strengthen targeted local promotions."
+            "kr": "당사도 가을 간절기 클래식 아이템을 중심으로 한 단독 할인 기획전을 마련해야 합니다.",
+            "en": "We should arrange an exclusive discount promotional event centered on classic transitional items."
           },
           "sources": [
             {
-              "source": "WhatNow",
+              "source": "ABC News - Breaking News, Latest News and Videos",
               "sourceTier": "GENERAL",
-              "date": "2026.09.17",
-              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcFlTT1FjN3k0WEZXY216NFBGQkxLcUVpVUtLMHZ3eDZVQmJGYWVYUnlBUnVWQWlxaDRxV0ZLUUlya0tKbUJQYTBrcF93V0QwRjJGcnpvVGM3SGlLUkI3b0duVHlGc2FTMUw5RDlrNndXNEhkRXNNQldhVjJYcnphcWVoNEZ0Z3RmVjYxVGFJajI0NEJOYjNxanQza3ZsNEp0?oc=5"
+              "date": "2026.09.23",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGQ3JzelZfdVJsTUpiN1NMbVNMbEo2bXNpNU1jX3pTaVZvUGpsSG5CaEl1cXJPcDdMUExGV3dMaXRxRzg5dmFmV3FuQ1B6Q2cyZk5hX0dzemVoT0tkVjhzTEJoRFJSVVNhb05ndUk4LTTSAXZBVV95cUxNeUhSbm4xY2txeUZiRFZteXJicXp0em9TdUlZbkRXaXNRUGg4T2p5Ym1IbDNkbm9adnBkVDlJbFNVclk5bVJYQlVpSUJ3aWJmbHhfZDVTMnFvU3FLblcwUS05ZUFLRmFBRnlqanNFVERxRVMzUnpB?oc=5"
             }
           ]
         },
         {
-          "name": "Chico's",
-          "signal": "STORE",
+          "name": "Lands' End",
+          "signal": "PRODUCT",
           "move": {
-            "kr": "유사 리테일 시장 내 일부 오프라인 유통망 조정 및 변화가 감지되었습니다.",
-            "en": "Adjustments and changes in offline retail footprints within adjacent apparel markets were observed."
+            "kr": "겨울 시즌을 대비하여 전문가들이 추천하는 방한 기능성 내의(Thermal Underwear) 라인업을 홍보하고 있습니다.",
+            "en": "Promoting expert-recommended thermal underwear lineups in preparation for the winter season."
           },
           "whyItMatters": {
-            "kr": "시니어 캐주얼 리테일 환경의 오프라인 효율성 재고 움직임을 시사합니다.",
-            "en": "Suggests ongoing efforts to reevaluate offline operational efficiency in the mature casual retail landscape."
+            "kr": "겨울 방한 이너웨어 시장에서 선제적인 포지셔닝을 통해 방한용품 매출을 극대화하고 있습니다.",
+            "en": "Maximizes cold-weather apparel sales through preemptive positioning in winter innerwear."
           },
           "action": {
-            "kr": "효율성이 낮은 오프라인 매장의 운영 현황을 점검하고 수익성을 분석해야 합니다.",
-            "en": "Review operational status and analyze profitability for underperforming offline stores."
+            "kr": "당사도 방한 이너 및 보온성 소재의 아우터 사전 기획 상품을 조기 노출해야 합니다.",
+            "en": "We should also introduce early product visibility for winter innerwear and warm outerwear items."
           },
           "sources": [
             {
-              "source": "Fast Company",
+              "source": "NBC News",
               "sourceTier": "GENERAL",
-              "date": "2026.09.16",
-              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSmk1VDR1X19kTnQ2QlJvUkU4Q2JUYnlEZXQ0MnZ3NXJneUxjajhrN2pUQUMwMlN5d2sxQTVPRmZJcTFFU0NIX1ZUR2dYSGNMdE5KMzlJZVcxWWlzaVJDV1RSLTRiZ3Etc0p6LVl5NjNsVnBnMm1DRlplQ3R5UG9IVWV3dVdJODRJdmN2eVN0YWV3WUg5UVNRbGhOR2RhQQ?oc=5"
+              "date": "2026.09.18",
+              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5CdWtjYy1NYTFkVFpHandJUVU4d0M5Y2MzQ2dBQU1zaHN6X0tkX2NoTG82N1RhQW8tRWJaLUJzQjhEVlJlMDRnejRFWDV6MWwtWWhsb3BRUFJ5ZER6U2dpd2VnN1EtaV9IXzZZNHljWGZ1TlVnWmxfd3M0TjM2UQ?oc=5"
             }
           ]
         }
@@ -395,7 +395,7 @@
   ],
   "socialPulse": {
     "ok": true,
-    "generatedDateKST": "2026-09-23",
+    "generatedDateKST": "2026-09-24",
     "windowDays": 14,
     "analysisMode": "GEMINI",
     "brands": [
@@ -407,69 +407,69 @@
       {
         "brand": "Kohl's",
         "platform": "LinkedIn",
-        "signal": "STORE",
+        "signal": "PRODUCT",
         "date": "RECENT",
         "headline": {
-          "kr": "콜스(Kohl's), 전국 56개 매장에 베이비즈러스(Babies“R”Us) 숍 추가 확정",
-          "en": "Kohl's Expands Babies“R”Us Shops Across 56 Additional Stores"
+          "kr": "콜스(Kohl's), 베이비아루스(Babies“R”Us) 매장 확대 및 홈 어소트먼트 강화",
+          "en": "Kohl's Expands Babies“R”Us Shops and Home Assortment"
         },
         "summary": {
-          "kr": "콜스는 오는 9월 전국 56개 매장에 베이비즈러스(Babies“R”Us) 전용 매장을 추가하여 유아용품, 너서리 아이템, 기프트 에센셜 상품군을 강화한다고 발표했습니다.",
-          "en": "Kohl's announced the expansion of dedicated Babies“R”Us shops to 56 additional stores this September, bringing a focused selection of baby gear, nursery items, and gifting essentials."
+          "kr": "콜스는 전국 56개 매장에 Babies“R”Us 매장을 추가하고, 마사 스튜어트(Martha Stewart) 및 바비 플레일(Bobby Flay) 컬렉션을 통해 홈 및 기프트 어소트먼트를 적극적으로 확장하고 있습니다.",
+          "en": "Kohl's is adding dedicated Babies“R”Us shops to 56 additional stores and expanding its home and gifting assortment with Martha Stewart and Bobby Flay collections."
         },
         "whyItMatters": {
-          "kr": "유아동 및 선물용 카테고리의 확장은 매장 트래픽을 증가시키고 패밀리 고객층의 체류 시간을 늘려 의류 및 관련 카테고리 교차 판매(cross-selling) 기회를 창출합니다.",
-          "en": "The expansion of baby and gifting categories drives store traffic and increases family dwell time, creating cross-selling opportunities for apparel and related categories."
+          "kr": "유아용품 및 홈 카테고리의 라인업 확장은 매장 트래픽을 견인하며, 관련 소싱 및 협력업체에게는 카테고리 다변화 및 추가 물량 수주의 기회를 제공합니다.",
+          "en": "Expanding baby and home categories drives store traffic, presenting sourcing vendors with opportunities for category diversification and additional volume orders."
         },
         "action": {
-          "kr": "유아동 의류 및 기프트용 베이식 아이템의 신규 소싱 제안서를 준비하고, 콜스의 베이비즈러스 숍인숍 전략에 맞춘 가성비 중심의 캡슐 컬렉션을 기획할 것.",
-          "en": "Prepare sourcing proposals for infant apparel and gift-ready basic items, aligning with Kohl's Babies“R”Us shop-in-shop strategy with value-driven capsule collections."
+          "kr": "홈 및 유아용품 라인업의 신규 소싱 아이템을 제안하고, 타겟 마진율에 맞춘 밸류 프라이싱 샘플을 준비할 것.",
+          "en": "Propose new sourcing items for home and baby categories, and prepare value-pricing samples matching target margin requirements."
         },
         "sourceUrl": "https://www.linkedin.com/company/kohls-department-stores"
       },
       {
         "brand": "A&F / Hollister",
         "platform": "LinkedIn",
-        "signal": "FINANCIAL",
+        "signal": "STRATEGY",
         "date": "RECENT",
         "headline": {
-          "kr": "아베크롬비앤피치(A&F), 15개 분기 연속 순매출 성장 기록 및 연간 실적 전망 상향",
-          "en": "A&F Co. Marks 15th Consecutive Quarter of Net Sales Growth and Raises Full-Year Outlook"
+          "kr": "아베크롬비(A&F), 15개 분기 연속 매출 성장 및 연간 가이던스 상향 조정",
+          "en": "A&F Achieves 15th Consecutive Quarter of Net Sales Growth and Raises Full-Year Outlook"
         },
         "summary": {
-          "kr": "아베크롬비는 2분기 실적 발표를 통해 15개 분기 연속 순매출 성장을 달성했으며, 글로벌 브랜드 및 지역 전반의 고른 호조를 바탕으로 연간 순매출 가이던스와 이익 전망을 상향 조정했습니다.",
-          "en": "Abercrombie & Fitch announced its 15th consecutive quarter of net sales growth in Q2, raising its full-year net sales and bottom-line outlook due to balanced global brand and regional performance."
+          "kr": "아베크롬비 앤 피치는 2분기 실적 발표에서 15분기 연속 순매장 매출 성장을 기록하며, 전반적인 글로벌 브랜드 호조에 힘입어 연간 순매장 매출 전망과 이익 기대치를 상향 조정했습니다.",
+          "en": "Abercrombie & Fitch reported its 15th consecutive quarter of net sales growth, raising its full-year net sales outlook and profit expectations due to strong global brand momentum."
         },
         "whyItMatters": {
-          "kr": "지속적인 매출 성장과 브랜드 모멘텀은 적극적인 신상품 런칭과 소싱 물량 확대 기회로 이어져 벤더사 입장에서 안정적인 오더 볼륨을 기대할 수 있습니다.",
-          "en": "Consistent sales growth and brand momentum translate into aggressive new product launches and expanded sourcing volume, offering stable order potential for vendors."
+          "kr": "지속적인 성장세는 브랜드의 공격적인 재고 회전과 신제품 드롭 전략을 뒷받침하며, 벤더사와의 협업 및 생산 물량 확대에 긍정적인 신호입니다.",
+          "en": "Sustained growth supports the brand's aggressive inventory turn and new product drop strategy, signaling positive prospects for vendor collaboration and expanded production volume."
         },
         "action": {
-          "kr": "아베크롬비의 주력 성장 카테고리별 최근 판매 반응을 분석하고, 다가오는 시즌 오더 확대에 대비한 원단 선발주 및 캐파(CAPA) 사전 확보 계획을 점검할 것.",
-          "en": "Analyze recent sales responses across A&F's key growth categories and review early fabric booking and capacity securing plans in preparation for expanded seasonal orders."
+          "kr": "A&F의 베스트셀러 라인에 대한 생산 리드타임 단축 방안을 검토하고, 추가 리오더 대응력을 선제적으로 점검할 것.",
+          "en": "Review production lead time reduction methods for A&F's best-selling lines and proactively check capacity for reorders."
         },
         "sourceUrl": "https://www.linkedin.com/company/abercrombie-%26-fitch/"
       },
       {
         "brand": "Macy's",
         "platform": "LinkedIn",
-        "signal": "STRATEGY",
+        "signal": "COLLAB",
         "date": "RECENT",
         "headline": {
-          "kr": "메이시스(Macy's), 신상품 및 차별화된 브랜드 호조로 2분기 시장 예상치 상회",
-          "en": "Macy's Beats Q2 Expectations Driven by Newness and Differentiated Brands"
+          "kr": "메이시스(Macy's) 자회사 블루밍데일즈, ‘호텔 블루밍데일즈’ 가을 캠페인 및 콜라보 론칭",
+          "en": "Bloomingdale’s Launches 'Hotel Bloomingdale's' Fall Campaign and Exclusive Collab"
         },
         "summary": {
-          "kr": "메이시스는 리림진(Reimagine) 스토어 투자, 디지털 역량 강화, 차별화된 브랜드 도입에 힘입어 2분기 시장 예상을 뛰어넘는 실적을 기록하며 연간 전망을 상향 조정했습니다.",
-          "en": "Macy's posted better-than-expected Q2 results driven by investments in Macy’s Reimagine stores, digital capabilities, and differentiated brands, leading to a raised full-year outlook."
+          "kr": "블루밍데일즈는 더 리츠칼튼(The Ritz-Carlton)과의 파트너십을 통해 5성급 호텔 경험에서 영감을 받은 가을 캠페인을 론칭하고, 독점 26피스 AQUA x 니키 힐튼 컬렉션을 선보였습니다.",
+          "en": "Bloomingdale's partnered with The Ritz-Carlton to launch a luxury hotel-inspired fall campaign, featuring dedicated windows, pop-ups, and an exclusive AQUA x Nicky Hilton collection."
         },
         "whyItMatters": {
-          "kr": "메이시스의 'Reimagine' 매장 혁신과 신규 어쏘트먼트 강화 전략은 트렌디하면서도 차별화된 상품력을 가진 벤더사에게 새로운 입점 및 물량 확대의 기회를 제공합니다.",
-          "en": "Macy's 'Reimagine' store transformation and assortment enhancement strategy offer vendors with trendy, differentiated product capabilities new entry and volume expansion opportunities."
+          "kr": "체험형 매장 구성과 인플루언서/프리미엄 콜라보레이션은 고객 참여도를 높이며, 차별화된 디자인과 단납기 트렌드 상품의 소싱 수요를 자극합니다.",
+          "en": "Experiential store setups and influencer/premium collaborations boost customer engagement, driving sourcing demand for differentiated design and fast-turn trend items."
         },
         "action": {
-          "kr": "메이시스의 리림진 스토어 컨셉에 부합하는 트렌디한 여성복 및 캐주얼 스타일의 제안 아이템을 재정비하고, 바이어 미팅을 위한 제안서(Lookbook)를 업데이트할 것.",
-          "en": "Revise proposal items for trendy womenswear and casual styles matching Macy's Reimagine store concept, and update the lookbook for upcoming buyer meetings."
+          "kr": "이벤트성 캡슐 컬렉션 및 콜라보레이션 라인의 샘플 개발 프로세스에 대비하여 트렌디한 패브릭 소스 리스트를 업데이트할 것.",
+          "en": "Update the trendy fabric source list in preparation for sample development processes for capsule collections and collaboration lines."
         },
         "sourceUrl": "https://www.linkedin.com/company/macy/"
       }
