@@ -1,57 +1,45 @@
 {
   "ok": true,
-  "asOf": "2026-09-23T02:46:32.593Z",
-  "generatedDateKST": "2026-09-23",
+  "asOf": "2026-09-24T07:51:39.283Z",
+  "generatedDateKST": "2026-09-24",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "items": [
     {
       "level": "HIGH",
-      "title_kr": "아프리카 AGOA 2028년 종료 임박에 따른 소싱 다변화 검토",
-      "title_en": "Evaluate Sourcing Diversification Ahead of AGOA's 2028 Expiration",
-      "body_kr": "아프리카 AGOA(아프리카 성장 기회 법안)의 2028년 종료 기한이 다가옴에 따라 바이어들의 중장기 의류 소싱 전략에 불확실성이 커지고 있습니다.",
-      "body_en": "As AGOA's 2028 expiration deadline approaches, uncertainty is growing regarding buyers' mid-to-long-term apparel sourcing strategies.",
-      "action_kr": "영업팀은 AGOA 의존도가 높은 바이어를 대상으로 아프리카 외 지역(예: 동남아, 중남미)으로의 캐파 분산 및 대안 제안을 준비하십시오.",
-      "action_en": "Sales teams should prepare capacity allocation and alternatives outside of Africa (e.g., Southeast Asia, Latin America) for buyers heavily reliant on AGOA.",
+      "title_kr": "아베크롬비 및 메이시스: 실적 호조 속 재고 및 소싱 리드타임 관리 집중",
+      "title_en": "Abercrombie & Fitch and Macy's: Focus on Sourcing Lead Times Amid Strong Momentum",
+      "body_kr": "아베크롬비와 메이시스가 견조한 실적과 확장 전략을 추진하는 가운데, 옴니채널 소싱의 리드타임 단축과 재고 회전율 최적화가 핵심 과제로 부각되고 있습니다.",
+      "body_en": "As A&F and Macy's maintain strong momentum and expansion strategies, reducing sourcing lead times and optimizing inventory velocity remain crucial.",
+      "action_kr": "영업 및 머천다이징 팀은 주요 바이어의 리드타임 단축 요구에 맞춰 공장별 생산라인 효율성을 점검하고 선적 스케줄을 재검토해야 합니다.",
+      "action_en": "Sales and merchandising teams must audit factory line efficiency and review shipping schedules to meet buyer demands for compressed lead times.",
+      "source": "TradingView / The Globe and Mail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPVDY2VlA5WE5vQlpmTi1LVGg1RDNEYTNKRXBsaHdHc1FhRnFBRHVBTlB0QzNwblY5bFRmWEJYUnlQQlpydFo2Q3dMZFVaMUFTdnlGNjRQMkF5aGR6OWlXUkxRR1o5VkN6RXZ1cHdNSGVYWHlMRlEzNjNLejRmUmJHTUNaVGVybGM3bEhORVA2VEN3NmJUeHM5YTRCc2phRS1WYmRVUElQVjc5eHpOQXYyWFo3d252YnhjWHp4V0xPTEF6TzRFOVZWSlc4aGRXTFcyejUxZm9MLTg0Tnp3a1N2cEZXNTBhQQ?oc=5",
+      "date": "2026.09.18"
+    },
+    {
+      "level": "MEDIUM",
+      "title_kr": "AGOA 2028년 종료 임박에 따른 아프리카 의류 소싱 대안 검토",
+      "title_en": "Review Africa Apparel Sourcing Alternatives Ahead of AGOA 2028 Expiration",
+      "body_kr": "2028년 AGOA(아프리카 성장 기회법) 만료 시점이 다가옴에 따라 바이어들이 장기 소싱 안정성에 대한 우려를 제기하고 있습니다.",
+      "body_en": "With the 2028 expiration of AGOA approaching, buyers are raising concerns regarding long-term sourcing stability.",
+      "action_kr": "소싱 팀은 아프리카 생산 거점 의존도를 점검하고, 관세 혜택 변동 리스크에 대비해 아시아 및 기타 무역 협정 지역으로의 대안 캐파시티를 확보하세요.",
+      "action_en": "Sourcing teams should review dependency on African production hubs and secure alternative capacity in Asia and other trade-agreement regions to mitigate tariff risk.",
       "source": "ALCHEMPro",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcDdiSUVpTkpyREo1VFkwS2xtRjFFS3BSZ2pEci1NanlZUWxjUC1UNzB1UTVmZHF2WFhEN2ZCdDY3VS14Vjk2bFVuTmxsUEQ0X3I4VF9ZeG5lZWYySWlxTy1Sa3Z3eWJsOXFwaUdTcUZTMjZkY2o0MWo4WDFIYkpMSmw5RWxMS1NNeEMtY1JQNlI3RjJ6NUlzX193RW5WNlNGTjBFZ205TVNLOUtlUzc5eWVMUHNlcUQ0YzRjTThJdFlodDVrOWx2Vw?oc=5",
       "date": "2026.09.11"
     },
     {
-      "level": "HIGH",
-      "title_kr": "메이시스 'Bold New Chapter' 전략 가동 및 실적 호조",
-      "title_en": "Macy's Drives Sales Growth via 'Bold New Chapter' Strategy",
-      "body_kr": "메이시스가 최근 실적 발표에서 'Bold New Chapter' 전략을 통해 매출 성장세를 보이며 연간 실적 전망을 상향 조정했습니다.",
-      "body_en": "Macy's reported sales growth driven by its 'Bold New Chapter' strategy during recent earnings calls and raised its full-year outlook.",
-      "action_kr": "메이시스 향 머신다이징 팀은 체질 개선 전략에 맞춘 신규 카테고리 및 마진 개선 아이템 제안을 강화하십시오.",
-      "action_en": "Merchandising teams targeting Macy's should strengthen proposals for new categories and margin-improving items aligned with their turnaround strategy.",
-      "source": "TradingView",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWEx4ZFYtZU1NT1lES0FlZFhXbkMwcG1lTFBibkJoMGZ2MDNOSktWWHg3a3hTemFXZ0Z2VzBtR0ZrdmFWZy0tU2dlVkdCUngtZ2J1Vy1jUmpfSVZmcWM2RUpKajBKTF84NnlnU0d2OWI5M0NNX3BTR3dGZ0xnYmxLUFBEMUpXVnlRU3BPcnB4dWFrNEU4S0VhX2tjRktTa3VDbHA3UVdtVmZGQXNtMVpOQUNDUFA0VDdiVGZwMGNMbXpHeHBGeGtCbkJzTGJOM3lrVFdqZU5ubFE4NjN0Qmc?oc=5",
-      "date": "2026.09.16"
-    },
-    {
       "level": "MEDIUM",
-      "title_kr": "아메리칸 이글 마진 압박 및 코어 브랜드 약세",
-      "title_en": "American Eagle Faces Margin Pressure and Weak Core Brand Sales",
-      "body_kr": "아메리칸 이글이 마진 전망 악화와 코어 브랜드의 판매 부진으로 주가가 하락하며 비용 압박을 받고 있습니다.",
-      "body_en": "American Eagle shares slid due to a weaker margin outlook and soft sales at core brands, indicating tightening cost scrutiny.",
-      "action_kr": "코스팅 단계에서 원가 절감 및 타이트한 마진 방어 방안을 마련하고 대체 소재를 제안하십시오.",
-      "action_en": "Prepare cost-reduction and tight margin-defense measures during costing stages and propose alternative materials.",
-      "source": "The Business of Fashion",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdl9IYzAxelFVek96aXZzZWhjeW45UDFmUFNvd0NnalVnaEtJckRINmMtdV9PakluY3htcUVsUnJTMldxby1tREFNaFc4QjZCZEhmS2FfMWgwRGVUNXhVWFc5UUdNZDJJalkwaXFkZX-pUGF2Z2htTjFyNk1SdHZxNFVUN2VyVXRfVXNfcHRTRWlCOVJjV0lqS0w5ZVBBNG50X2dxYmtQamdPYi1zRnctZWh0UXBuSzFGbXc?oc=5",
-      "date": "2026.09.10"
-    },
-    {
-      "level": "MEDIUM",
-      "title_kr": "패션 시장 '택타일(Tactile)' 트렌드 급부상",
-      "title_en": "Surge in 'Tactile' Fashion Trend Prioritizing Feel over Look",
-      "body_kr": "시각적 요소보다 촉감과 '필(Feel)'을 우선시하는 택타일 패션 트렌드가 소매 시장에서 주목받고 있습니다.",
-      "body_en": "The tactile fashion trend prioritizing 'feel' over visual look is gaining traction in the retail market.",
-      "action_kr": "소싱 및 개발 팀은 터치감이 우수한 고기능성 및 프리미엄 원단 소싱을 확대하고 샘플링에 반영하십시오.",
-      "action_en": "Sourcing and development teams should expand the procurement of high-performance, premium fabrics with superior hand-feel and reflect them in sampling.",
-      "source": "fibre2fashion.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc1diek5LV2l3bVNPRGpqMy1aM282VmNFaGV0LXdEQlJvMFR3cGZweXVxVTdVMXBmSTEwdEV2YmdVTGJ3MWoyR1drRHRZRmFhLVd1c2gwZTN2dFNtRWNCZXo5NzJmZVNJOWJSWElxWkRzUk1aVjI1enRCNDRKSlpHcEVhdTJCdGpvczJ1ZU94d0l3WlRSYXNDbkM4bGjSAagBQVVfeXFMUFFvcVh4dmt6eEtIVGc0MnAxeElwZDhtSzZFNlQ1aHEwMFhpRUxEWkxFMlZfOHJ2bjRQeE5MU0NHeHBQakc2aWNzSU1FWFVHOUJJX1ZXekZhbXhRak5aWGx3MldIdDk3NkdnV3hfc1FENjZ5NDlkVTRoMktnOGJYYmdvUng2eU1ITlZVeHNnbUR2MTZKcUZBbmtHYTFET0djSEdCRDRIRzZ1?oc=5",
-      "date": "2026.09.19"
+      "title_kr": "전도성 원사 및 스마트 의류 시장 성장: 기술 접목 제품 개발 가속화",
+      "title_en": "Growth in Conductive Yarns and Smart Apparel: Accelerating Tech-Integrated Product Development",
+      "body_kr": "원격 모니터링 및 스마트 의류 수요 확대로 전도성 원사 및 e-텍스타일 시장이 2035년까지 지속 성장할 것으로 전망됩니다.",
+      "body_en": "Driven by remote monitoring and smart apparel demand, the conductive yarns and e-textiles market is projected to grow steadily through 2035.",
+      "action_kr": "머천다이징 및 R&D 팀은 기능성 액티브웨어 라인업에 스마트 센서 연동 가능한 특수 원사 적용 방안을 검토하세요.",
+      "action_en": "Merchandising and R&D teams should evaluate incorporating special yarns compatible with smart sensors into functional activewear lines.",
+      "source": "IndexBox",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPYWVCQjNNamljOEYzTUlNZTUxcm1YMXVpdkxUaVhPWGpZNzV3NzlnTXgwalpSa2c2MTVTMFlra0hIMXRhM1d6aUlrTUpINW16czZPZGtrd0piUjRqVXBCT0ptOEYwYXJOOUFwTnBpOERwU3lCOUFqWGtMOWs3UmVBTFZDeE1MdDJseDI2OWoySnhmVm9faUhGLVVTREt6M0U1YlZ6OFpJY01ialAteFpmT1FSazBNdmtldm50bmlIV3llSUktejM4T1pHWG5QWFh5aWpJUThfTFZzcDR4alFQV0ZUazZta0p1R3IzbGM5UQ?oc=5",
+      "date": "2026.09.23"
     }
   ]
 }
