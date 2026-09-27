@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-09-25T01:37:50.559Z",
+  "generatedDateKST": "2026-09-25",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-09-25",
+  "insight": {
+    "headline": {
+      "kr": "[8담당 데일리 브리프] 9월 25일: 주요 바이어 Holiday·AI 효율화 대응 및 환율 상승에 따른 원가 방어 전략",
+      "en": "[Team 8 Daily Brief] Sep 25: Buyers advance Holiday & AI retail strategies while navigating FX headwinds"
+    },
+    "summary": {
+      "kr": "Kohl's가 베이비저러스 Partnership을 56개 매장으로 확대하며 유아동 category를 강화하고 있고, Macy's는 AI 재고 도구 도입과 실적 호조로 Holiday 발주 기반을 다지고 있습니다. 경쟁사인 Target과 Walmart는 공격적인 조기 마케팅과 패션 투자를 단행하며 점유율을 압박 중입니다. USD/KRW 환율 상승세 속에서 벤더사들은 원가 경쟁력과 신속한 reorder 대응력을 점검해야 합니다.",
+      "en": "Kohl's is expanding its Babies R Us partnership to 56 stores to boost kids categories, while Macy's solidifies its holiday order foundation with AI inventory tools and strong earnings. Competitors Target and Walmart are increasing market pressure through early marketing and fashion investments. Amid rising USD/KRW rates, vendors must reinforce cost competitiveness and quick-turn reorder capabilities."
+    },
+    "tags": [
+      "#Team8Daily",
+      "#ApparelSourcing",
+      "#HolidayStrategy",
+      "#RetailIntelligence"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "Babies R Us 숍인숍을 56개 매장 추가 확대하며 유아동 및 기프트 category traffic 유치에 주력하고 있습니다. 가성비 PB 및 주요 브랜드 중심의 가치 sourcing 전략이 강조됩니다.",
+        "en": "Expanding Babies R Us shop-in-shops to 56 additional stores to drive kids and gifting traffic, reinforcing the focus on value sourcing for private brands and key partners."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "15개 분기 연속 매출 성장세를 기록하며 YPB activewear 라인과 배리스(Barry's) 협업 등 프리미엄 기능성 라인업을 확장 중입니다. 사전 원단 부킹과 생산 캐파 선점이 필수적입니다.",
+        "en": "Posting its 15th consecutive quarter of growth and expanding premium functional lines like YPB with Barry's. Early greige booking and securing factory capacity are crucial."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "AI 기반 재고 관리 도구 도입과 'Reimagine' 매장 전략에 힘입어 실적이 개선되었습니다. reorder lead time 단축과 트렌디한 여성복 실루엣 제안이 요구됩니다.",
+        "en": "Strong earnings backed by AI replenishment tools and 'Reimagine' store strategies. Shortened reorder lead times and trend-forward womenswear silhouettes are in high demand."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "Kohl's의 베이비저러스 매장 확대에 발맞춰 유아동 의류 및 패브릭 상품군의 추가 S/O 제안 기회 활용",
+        "en": "Capitalize on Kohl's expanded Babies R Us store footprint by pitching additional S/O proposals for infant apparel and soft goods."
+      },
+      {
+        "kr": "A&F의 YPB activewear 라인 확장에 대응하여 고기능성 합섬 테크니컬 패브릭 sourcing 및 샘플 개발 역량 적극 어필",
+        "en": "Actively showcase high-performance synthetic fabric sourcing and sample development capabilities for A&F's expanding YPB activewear line."
+      },
+      {
+        "kr": "Macy's의 'Reimagine' 매장 리뉴얼 타겟에 맞춘 베스트셀러 아이템의 lead time 단축 플랜 선제 제안",
+        "en": "Proactively present lead-time reduction plans for best-selling items aligned with Macy's 'Reimagine' store renewal targets."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "USD/KRW 환율 상승(1,362.5원) 및 원자재(면화·유가) 변동성과 함께, Target·Walmart의 조기 Holiday promotion 공세로 인한 바이어 간 traffic 분산 리스크 존재",
+      "en": "Elevated USD/KRW exchange rate (1,362.5) and commodity fluctuations (cotton/oil), combined with traffic dispersion risks from early holiday promotions by Target and Walmart."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Kohl's 및 Macy's 향 주력 품목의 생산 캐파 점검 및 환율 변동 대비 원가 경쟁력 재검토",
+        "en": "Audit production capacity for core Kohl's and Macy's categories and review cost competitiveness against FX volatility."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "A&F YPB 라인 대비 가을·겨울 시즌 기능성 원단 greige booking 사전 조율",
+        "en": "Coordinate early greige fabric booking for Fall/Winter functional lines targeted at A&F's YPB program."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "백화점 채널 reorder 요청에 대응하기 위한 주요 스타일별 빠른 재고 보충 및 lead time 단축 플랜 수립",
+        "en": "Establish quick replenishment and lead-time reduction plans for key styles to handle upcoming department store reorders."
+      }
+    ]
+  }
+}
