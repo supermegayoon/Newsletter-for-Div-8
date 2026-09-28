@@ -1,80 +1,80 @@
 {
   "ok": true,
-  "asOf": "2026-09-27T23:01:12.819Z",
-  "generatedDateKST": "2026-09-28",
+  "asOf": "2026-09-28T23:01:17.050Z",
+  "generatedDateKST": "2026-09-29",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-09-28",
+  "competitorDateKST": "2026-09-29",
   "insight": {
     "headline": {
-      "kr": "주요 retail러 실적 호조 및 Holiday 시즌 준비 본격화 속 벤더 대응 전략 점검",
-      "en": "Retailers Report Strong Earnings and Kick Off Holiday Prep Amid Market Signals"
+      "kr": "[8담당] 2026년 9월 29일 데일리 마켓 브리프: Holiday 채비와 애슬레저 신규 협업 주목",
+      "en": "[Team 8] Daily Market Brief - Sep 29, 2026: Focusing on Holiday Readiness and New Activewear Collaborations"
     },
     "summary": {
-      "kr": "Kohl's와 A&F의 견조한 실적 및 guidance 상향 속에서 백화점 및 의류 브랜드들은 AI 기반 재고 관리와 대규모 Holiday 시즌 채용으로 연말 특수 준비에 박차를 가하고 있습니다. 달러 약세 및 면화 가격 하락세를 활용한 원가 관리와 주요 바이어별 맞춤형 제안이 필요한 시점입니다.",
-      "en": "Amid solid earnings and upbeat guidance from Kohl's and A&F, retailers are accelerating holiday preparations through AI-driven inventory management and nationwide seasonal hiring. Sourcing teams should leverage current currency and cotton trends to optimize vendor proposals."
+      "kr": "콜스의 베이비즈러스 숍 확대와 메이시스의 Holiday 대규모 채용 시작으로 연말 성수기 준비가 본격화되고 있습니다. A&F는 피트니스 브랜드 배리스와의 콜라보로 애슬레저 경쟁력을 강화하고 있으며, 원자재 시장에서는 유가(CL=F) 상승과 환율(KRW=X) 변동성에 대비한 리스크 관리가 요구됩니다.",
+      "en": "Holiday preparations are ramping up as Kohl's expands Babies R Us shops and Macy's initiates nationwide holiday hiring. A&F is boosting activewear competitiveness through its Barry's fitness collaboration, while fluctuating crude oil (CL=F) and exchange rates (KRW=X) warrant close cost monitoring."
     },
     "tags": [
-      "#Team8Daily",
-      "#ApparelSourcing",
-      "#RetailEarnings",
-      "#HolidaySeason2026"
+      "#Team8Brief",
+      "#HolidaySeason",
+      "#Athleisure",
+      "#ApparelVendor"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "Earnings beat를 기록하며 실적 전망을 상향 조정한 가운데, 'Babies R Us' 숍인숍 확대 등 패밀리/유아동 category를 강화하고 있습니다. 타깃 등의 경쟁사 동향을 고려한 가성비 중심의 F/W 키즈 및 여성 베이직 아이템 제안이 유리합니다.",
-        "en": "Following an earnings beat and an upgraded outlook, Kohl's is expanding its 'Babies R Us' shop-in-shops to drive family traffic. Vendors should align F/W kids and basic apparel proposals with their value-focused strategy, monitoring competitor moves."
+        "kr": "56개 매장에 베이비즈러스(Babies R Us) 숍인숍을 추가하며 유아동 및 기프트 category traffic 유입을 강화하고 있습니다. 타겟의 키즈 티셔츠 및 멀티팩 공세에 대응해 가성비 중심의 유아동 의류 제안이 필요합니다.",
+        "en": "Expanding Babies R Us shops across 56 additional stores to drive traffic in infant and gift categories. To counter Target's push in kids apparel and multipacks, value-driven children's wear proposals are essential."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "15분기 연속 순매출 성장과 함께 연간 guidance를 상향했으며, 피트니스 브랜드 'Barry's'와의 콜라보 등 YPB activewear 확장에 주력하고 있습니다. 기능성 신소재 및 고탄성 짐웨어 라인업에 대한 추가 오더 대응 태세가 필요합니다.",
-        "en": "Posting its 15th straight quarter of sales growth, A&F raised its outlook and is expanding activewear through a partnership with Barry's. Vendors must ensure technical fabric readiness and fast lead times for potential volume upsizing."
+        "kr": "피트니스 브랜드 '배리스(Barry's)'와 협업한 YPB 캡슐 컬렉션을 런칭하며 애슬레저 라인업을 고도화하고 있습니다. 15분기 연속 매출 성장에 힘입어 기능성 패브릭 및 신규 오더 볼륨 확대에 대비해야 합니다.",
+        "en": "Enhancing its activewear lineup by launching a YPB capsule collection with fitness brand Barry's. Backed by 15 consecutive quarters of sales growth, vendors should prepare for technical fabric sourcing and potential order volume increases."
       },
       {
         "buyer": "Macy's",
-        "kr": "AI 기반 inventory management 도입과 대규모 Holiday 시즌 인력 채용을 통해 연말 판매 준비에 돌입했습니다. 블루밍데일즈의 럭셔리 캡슐 컬렉션 등 트렌디한 sourcing 트렌드에 맞춘 차별화된 샘플 프로포절이 요구됩니다.",
-        "en": "Macy's is deploying AI for inventory management and ramping up seasonal hiring for the holidays. Vendors should align pitch strategies with department store trends like exclusive capsule collaborations and improved retail productivity."
+        "kr": "연말 Holiday 시즌 대비 대규모 인력 채용과 가을 상품 30% 할인 promotion을 동시에 전개하며 재고 소진을 가속화하고 있습니다. 후속 reorder 추이를 모니터링하며 exclusive 라인 대응력을 점검해야 합니다.",
+        "en": "Accelerating inventory sell-through by launching nationwide holiday hiring and a 30% fall merchandise promotion simultaneously. Vendors must monitor reorder trends and evaluate capabilities for exclusive private-label lines."
       }
     ],
     "opportunities": [
       {
-        "kr": "Kohl's과 Macy's의 실적 호조 및 연말 시즌 준비에 발맞추어, 가성비 중심의 패밀리 웨어와 Holiday retail traffic을 겨냥한 exclusive 캡슐 상품을 선제적으로 제안할 것.",
-        "en": "Proactively pitch value-driven family apparel and holiday-targeted exclusive capsule items to capture rising retail demand from Kohl's and Macy's."
+        "kr": "A&F YPB 라인과 배리스 협업의 성공적인 기능성 원단 스펙을 분석하여, 차기 시즌 고기능성 애슬레저 신규 퍼포먼스 샘플 개발 선제 제안",
+        "en": "Analyze the technical fabric specs of A&F's YPB and Barry's collaboration to proactively propose new high-performance activewear samples for upcoming seasons."
       },
       {
-        "kr": "A&F의 지속적인 매출 성장과 YPB activewear 라인 확장에 발맞추어 흡한속건 및 고탄성 기능성 원단 sourcing 소스를 다변화하고 신규 스타일 개발 제안을 강화할 것.",
-        "en": "Expand technical fabric sourcing and propose new styles tailored to A&F's expanding YPB activewear line to capitalize on their sustained sales growth."
+        "kr": "콜스의 베이비즈러스 매장 확대에 발맞추어 유아동 의류 및 기프트용 베이식 아이템 중심의 맞춤형 제안서 준비",
+        "en": "Prepare tailored proposals focusing on infant apparel and gift basics in line with Kohl's expanding Babies R Us store footprint."
       },
       {
-        "kr": "최근 하락세를 보이는 면화 가격(Cotton Dec 26 -0.85%)과 우호적인 환율 추이를 활용하여 주요 바이어와의 차기 시즌 단가 협상 시 원가 경쟁력을 선점할 것.",
-        "en": "Leverage declining cotton prices and favorable foreign exchange trends to secure cost advantages during upcoming seasonal price negotiations with key buyers."
+        "kr": "메이시스의 Holiday 시즌 대비 인력 채용 및 promotion 확정에 따른 물동량 증가 흐름에 맞춰 패브릭 선확보 및 납기 안정성 확보",
+        "en": "Secure early fabric bookings and ensure delivery stability to match the anticipated inventory flow surge from Macy's holiday hiring and promotions."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "환율 변동성(USD/KRW 하락) 및 원유/원자재 가격의 혼조세가 지속되고 있어, 철저한 lead time 관리와 원가 절감 대책 수립이 요구됩니다.",
-      "en": "Currency fluctuations (weaker USD/KRW) and mixed commodity pricing trends require strict lead-time compliance and proactive cost-saving measures."
+      "kr": "원유 가격(CL=F, +1.01%) 및 원달러 환율(KRW=X, 1,359.88원)의 상승세가 지속됨에 따라 벤더사의 원부자재 sourcing 원가 압박에 대한 면밀한 모니터링이 요구됩니다.",
+      "en": "Continuous increases in crude oil prices (CL=F, +1.01%) and the USD/KRW exchange rate (KRW=X, 1,359.88 KRW) require close monitoring of raw material sourcing cost pressures."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Kohl's의 'Babies R Us' 매장 확대 및 유아동 category 수요에 대응하여 가성비 키즈 F/W 의류 sourcing 제안서를 검토 및 보완할 것.",
-        "en": "Review and refine cost-effective kids F/W apparel sourcing proposals to support Kohl's expanding 'Babies R Us' store footprint."
+        "kr": "A&F YPB 라인 협업 성공 사례를 분석하여 하반기 및 내년 S/S 애슬레저 category 고기능성 패브릭 sourcing 방안 수립",
+        "en": "Analyze A&F's YPB collaboration success to establish technical fabric sourcing strategies for H2 and next S/S activewear categories."
       },
       {
         "owner": "Team 8",
-        "kr": "A&F 전담 영업팀은 다가오는 스프링 및 Holiday 시즌 생산 lead time 준수율을 점검하고 추가 오더 발생 시 신속히 대응할 것.",
-        "en": "Audit production lead-time compliance for upcoming holiday and spring deliveries to ensure readiness for potential volume upsizing from A&F."
+        "kr": "콜스 베이비즈러스 확장 매장 타겟의 유아동 의류 및 기프트 베이식 아이템 기획안 작성 및 영업 담당자 공유",
+        "en": "Draft infant apparel and gift basic planning concepts targeted at Kohl's expanded Babies R Us stores and share with sales representatives."
       },
       {
         "owner": "Team 8",
-        "kr": "Macy's의 백화점 매장 리뉴얼 및 캡슐 컬렉션 트렌드에 맞추어 인플루언서 스토리텔링이 가미된 신규 샘플 프로포절을 기획할 것.",
-        "en": "Develop new sample proposals featuring storytelling and fast-turnaround capsule concepts tailored to Macy's department store format updates."
+        "kr": "환율(KRW=X) 변동성 심화에 따른 주요 원부자재 단가 및 벤더사 margin 영향 분석 후 원가 절감 대책 점검",
+        "en": "Analyze the impact of intensifying exchange rate (KRW=X) volatility on key raw material unit prices and vendor margins, and review cost-reduction measures."
       }
     ]
   }
