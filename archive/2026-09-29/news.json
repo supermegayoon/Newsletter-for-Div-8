@@ -1,0 +1,58 @@
+{
+  "ok": true,
+  "asOf": "2026-09-28T23:00:37.563Z",
+  "generatedDateKST": "2026-09-29",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 0,
+    "within7d": 1,
+    "total": 3,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "채용 및 Holiday",
+      "category_en": "Hiring & Holiday",
+      "date": "2026.09.24",
+      "title_kr": "Macy's, Holiday season 대비 전국 규모의 대규모 인력 채용 돌입",
+      "title_en": "Macy's Hiring Nationwide to Create a Season of Celebration",
+      "body_kr": "Macy's가 연말 Holiday season 실적 반등을 위해 대규모 인력 채용을 시작하며 본격적인 성수기 준비에 나섰습니다. 향후 store traffic 증가와 merchandise 판매 확대를 위한 선제적 조치로 벤더사들의 물동량 모니터링이 필요합니다.",
+      "body_en": "Macy's has launched nationwide hiring ahead of the holiday season to prepare for the peak shopping period. Vendors should monitor inventory flow as staffing ramps up for anticipated store traffic.",
+      "source": "MacysInc.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTS1OY0cteWJ4alpCX1RXQUlPcnlTRWNPd0liMkRYS1VPVnhpcWRnOWgzdlpzc2pteC1kbTNvNVAzdTJNREJvcEhHZ3F0TzJoOGVLeGFMbll2bmI4QlpNT0otVnlaMmlOQVp0WUNZeWNJZ0x4VkI4NmdxY1NSTG5EblFOZzBuZXdkY3JoNXViMHh1REdIRW82TDk3X2Q0S2dPaV83X0lRTS1kWlFSSDZ5dVpDMlIwdmgyaGR5Z19nUnFOaGIxN1htMDF5OGdUZTZaVFBWRkhlTE5BRkFVWjdXTHpn?oc=5",
+      "ageHours": 98.92661305555555
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Store Expansion",
+      "category_en": "Store Expansion",
+      "date": "2026.09.18",
+      "title_kr": "Hollister, Gloucester Quays에 남서부 최초 아울렛 store 오픈",
+      "title_en": "Hollister makes south west outlet debut at Gloucester Quays",
+      "body_kr": "Hollister가 영국 Gloucester Quays에 신규 아울렛 store를 열며 유통 채널 다각화에 박차를 가하고 있습니다. offline store 포트폴리오 확장은 activewear 및 캐주얼 category의 벤더 판매량에 긍정적인 영향을 미칠 전망입니다.",
+      "body_en": "Hollister has opened its first outlet store in South West UK at Gloucester Quays, expanding its retail channel. This offline store expansion signals steady demand for activewear and casual categories.",
+      "source": "A1 Retail Magazine",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMzBZZFVTX1JuRlFSdHkyWXFVRVJJSlVzS1cyN2ZmSnMwSlZZVElGUU9nYjlVMUZzZ2p3RGVQdVpfRkZQczI5QWdXaUtLLVJDUnRweFcxN1pESGNfRy0yT09UVW1MQ09xY2VrYjlDd09wSjQwcVRfUG5JNTJnTDZkcXQ5cDBjX2JSVHZoS3FLYkI3UWpQUDdOaVlMYkh1c202b01yZzgwekx3Zw?oc=5",
+      "ageHours": 250.58822916666668
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Promotion",
+      "category_en": "Promotion",
+      "date": "2026.09.17",
+      "title_kr": "Macy's, 가을 시즌 맞아 주요 merchandise 30% 할인 promotion 전개",
+      "title_en": "Macy's Best of the Season Sale Gets You 30% Off Fall's Best Looks",
+      "body_kr": "Macy's가 가을 시즌 베스트셀러를 대상으로 30% 할인 혜택을 제공하는 promotion을 시작했습니다. 재고 소진 가속화 및 consumer demand를 자극하기 위한 전략으로 벤더사의 후속 reorder 추이를 주시해야 합니다.",
+      "body_en": "Macy's launched a seasonal promotion offering 30% off fall merchandise to boost sell-through. Vendors should monitor potential reorder trends as consumer demand responds to the markdowns.",
+      "source": "Tacoma News Tribune",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdUIyY2tfZDUzZW9MMEFLRl9RaVo4dDdBLU9KLTFncVNCUUxTMmZRUDVwZW5GYm5mWGJ4V0F0SjlCeFpTanFkbWJ3LTh5cXZxdWxlUkdMdE14T1JkYVJ4Tk1iR3R4bGZsbDFlS2pBdF9tRUVRZlFKSXAtQldtMW9wdHRzMUlncmM?oc=5",
+      "ageHours": 263.8555019444444
+    }
+  ]
+}
