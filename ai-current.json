@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-09-30T00:34:58.507Z",
+  "asOf": "2026-09-30T10:07:42.443Z",
   "generatedDateKST": "2026-09-30",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
@@ -11,70 +11,70 @@
   "competitorDateKST": "2026-09-30",
   "insight": {
     "headline": {
-      "kr": "[2026-09-30 데일리 마켓 브리프] 주요 바이어 Holiday 대비 전략 강화 속 원자재 하락 및 경쟁사 공세 대응 시급",
-      "en": "[Daily Market Brief - Sep 30, 2026] Buyers Accelerate Holiday Strategies Amid Commodity Drops and Aggressive Competitor Moves"
+      "kr": "[2026-09-30 데일리 마켓 브리프] 주요 바이어 Holiday 대비 전략 강화 및 원자재 가격 하락세 속 대응 전략",
+      "en": "[2026-09-30 Daily Market Brief] Buyer Holiday Preparations Accelerate Amid Declining Raw Material Costs"
     },
     "summary": {
-      "kr": "콜스는 풋웨어 및 유아용품(Babies“R”Us) 확대로 실적 견인에 나서고 있으며, 메이시스는 AI 및 대규모 채용으로 Holiday 시즌에 대비하고 있습니다. 반면, 타겟과 노드스트롬 등 주요 경쟁사들의 공격적인 가격 인하와 promotion이 심화되고 있어, 코튼(-4.8%) 및 유가(-3.5% 이상) 하락 추세를 반영한 원가 절감과 차별화된 마케팅 전략 수립이 필수적입니다.",
-      "en": "Kohl's is driving performance through footwear and baby category expansions, while Macy's ramps up AI and holiday hiring. With competitors like Target and Nordstrom stepping up aggressive promotions and price cuts, Team 8 must leverage declining cotton (-4.8%) and oil (-3.5%+) trends to optimize costs and secure strategic differentiation."
+      "kr": "콜스의 풋웨어 및 유아용품(Babies“R”Us) 확대, 메이시스의 AI 기반 옴니채널 및 대규모 인력 채용, A&F의 15분기 연속 성장세와 YPB 콜라보가 주목받고 있습니다. 면화(-4.8%)와 유가(-3.5% 이상) 하락세 속에서 타겟 등 경쟁사의 공격적 가격 인하에 대응한 margin 방어 및 Holiday 시즌 선제 대응이 필수적입니다.",
+      "en": "Kohl's expands footwear and baby retail, Macy's drives AI omnichannel and hiring, and A&F posts its 15th consecutive quarter of growth with new collaborations. Amid falling cotton and oil prices, proactive margin defense and holiday preparation against aggressive competitor pricing are critical."
     },
     "tags": [
-      "#KollsFootwear",
-      "#MacysHoliday",
-      "#CompetitorPricing",
-      "#SupplyChainCost"
+      "#Team8Daily",
+      "#ApparelVendor",
+      "#HolidaySeason2026",
+      "#MarketBrief"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "풋웨어 category 상승세와 56개점 Babies“R”Us 숍 추가 확장을 통해 라이프스타일 및 유아동 어패럴 sourcing 기회가 확대되고 있습니다. 타겟의 공격적인 2,000개 품목 가격 인하에 대응한 margin 방어 전략이 요구됩니다.",
-        "en": "Footwear upswings and the expansion of Babies“R”Us shops across 56 additional stores signal growing sourcing opportunities in kids and lifestyle apparel. Margin defense strategies are required against Target's aggressive price cuts on 2,000 items."
+        "kr": "풋웨어 판매 호조와 56개 매장의 Babies“R”Us 숍 확장을 통한 라이프스타일 강화 추세입니다. 반면 타겟(Target)이 2,000개 품목 가격 인하 및 멤버십 할인 공세를 펼치고 있어 가치 소비층 방어를 위한 가격 및 promotion 전략 검토가 필요합니다.",
+        "en": "Kohl's is seeing upswings in footwear and expanding its Babies“R”Us footprint to 56 new stores. However, Target's aggressive price cuts on 2,000 items and membership promotions require defensive pricing and promotional checks."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "아버크롬비는 15분기 연속 매출 성장세와 함께 피트니스 스튜디오 배리스(Barry's)와 협업한 YPB activewear 컬렉션을 런칭했습니다. 기능성 패브릭 및 애슬레저 라인업 강화 기회입니다.",
-        "en": "Abercrombie reported its 15th consecutive quarter of growth and launched the YPB x Barry's activewear collaboration, presenting solid opportunities for technical fabric and athleisure line expansions."
+        "kr": "15분기 연속 순매출 성장을 기록하며 guidance를 상향했으며, 피트니스 브랜드 배리스(Barry's)와의 YPB 콜라보를 통해 퍼포먼스 및 애슬레저 라인을 강화하고 있습니다.",
+        "en": "A&F reported its 15th consecutive quarter of sales growth, raising its outlook while launching a YPB fitness collaboration with Barry's to strengthen its activewear lineup."
       },
       {
         "buyer": "Macy's",
-        "kr": "대규모 Holiday 시즌 채용과 AI 기반 옴니채널 마케팅을 강화하고 있으며, 블루밍데일스는 'Hotel Bloomingdale's' 캠페인과 AQUA x Nicky Hilton 캡슐 컬렉션을 선보이며 트렌디 여성복 수요를 자극하고 있습니다.",
-        "en": "Macy's is expanding AI omnichannel pushes and holiday hiring, while Bloomingdale's drives trendy women's apparel demand via the 'Hotel Bloomingdale's' campaign and AQUA x Nicky Hilton capsule collection."
+        "kr": "연말 Holiday 시즌을 대비해 전국 대규모 인력 채용에 돌입했으며, AI와 옴니채널 역량을 결합한 디지털 푸시를 가속화하고 있습니다. 블루밍데일스의 'Hotel Bloomingdale's' 캠페인 등 스토리텔링 기반 마케팅이 활발합니다.",
+        "en": "Macy's has launched nationwide holiday hiring and accelerated its digital push combining AI and omnichannel capabilities, alongside storytelling-driven campaigns like Bloomingdale's 'Hotel Bloomingdale's'."
       }
     ],
     "opportunities": [
       {
-        "kr": "코튼 선물 가격(-4.8%) 및 원유 가격 하락세를 활용하여 주요 바이어의 추동 바잉 원가 협상력을 선제적으로 확보할 것.",
-        "en": "Leverage declining cotton futures (-4.8%) and falling crude oil prices to proactively secure favorable raw material and buying cost negotiations with key buyers."
+        "kr": "면화(-4.8%) 및 유가(-3.5%) 하락세를 활용하여 주요 원부자재 sourcing 단가 협상 유리한 고지 선점",
+        "en": "Leverage declining cotton (-4.8%) and oil (-3.5%) prices to secure advantageous raw material sourcing cost negotiations"
       },
       {
-        "kr": "아버크롬비의 YPB activewear와 블루밍데일스 캡슐 콜렉션 트렌드를 벤치마킹하여 고margin 퍼포먼스 및 라이프스타일 어패럴 제안서를 강화할 것.",
-        "en": "Benchmark Abercrombie's YPB activewear and Bloomingdale's capsule trends to strengthen high-margin performance and lifestyle apparel proposals."
+        "kr": "A&F의 YPB 및 블루밍데일스 AQUA 라인 등 성공적인 콜라보/activewear 트렌드를 벤치마킹하여 차기 캡슐 컬렉션 제안 구체화",
+        "en": "Benchmark successful collaboration and activewear trends like A&F's YPB and Bloomingdale's AQUA lines to shape upcoming capsule collection proposals"
       },
       {
-        "kr": "콜스의 Babies“R”Us 매장 확대에 발맞추어 유아동 의류 및 기프트 세트 sourcing 아이템을 선제적으로 기획할 것.",
-        "en": "Proactively plan infant apparel and gifting set sourcing items in line with Kohl's expanded Babies“R”Us retail footprint."
+        "kr": "콜스의 키즈/베이비 category 확장 및 메이시스의 Holiday 준비 기조에 맞춘 키즈 어패럴 및 선물용 세트 샘플 선제 제안",
+        "en": "Proactively propose kid's apparel and gifting set samples aligned with Kohl's category expansion and Macy's holiday readiness"
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "경쟁사(타겟, 노드스트롬, 바나나 리퍼블릭 등)의 전방위적인 가격 인하 및 Holiday 시즌 선점 promotion으로 인해 바이어들의 margin 압박 및 가격 경쟁 심화 우려",
-      "en": "Heightened margin pressures and price competition due to pervasive price cuts and early holiday promotion onslaughts from competitors like Target, Nordstrom, and Banana Republic."
+      "kr": "타겟, 자라, 노드스트롬 등 주요 경쟁사들의 공격적인 가격 인하 및 멤버십 할인 공세로 인해 바이어들의 margin 압박 및 추가 가격 인하 요구 가중 가능성 존재",
+      "en": "Aggressive price cuts and membership discounts by key competitors like Target, Zara, and Nordstrom heighten the risk of buyer margin pressure and markdown requests."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "코튼 및 원자재 가격 하락분을 반영한 원가 인하 시나리오를 수립하고 주요 바이어 영업 담당자와 협의 개시",
-        "en": "Establish cost reduction scenarios reflecting falling cotton and raw material prices, and initiate discussions with key buyer sales reps."
+        "kr": "타겟 및 주요 경쟁사의 Holiday 가격 인하 promotion 동향을 밀착 모니터링하고 콜스/메이시스 대응 margin 방어 시나리오 수립",
+        "en": "Closely monitor competitor holiday price-cut promotions and establish margin defense scenarios for Kohl's and Macy's accounts."
       },
       {
         "owner": "Team 8",
-        "kr": "타겟 및 노드스트롬의 가격/promotion 공세에 대응하기 위한 바이어별 방어형 margin 구조 및 promotion 아이템 제안 준비",
-        "en": "Prepare defensive margin structures and promotional item proposals for each buyer to counter Target and Nordstrom's pricing onslaughts."
+        "kr": "원자재(면화, 유가) 하락에 따른 원가 절감 요인을 분석하여 주요 바이어 대상 원가 경쟁력 제안서 작성",
+        "en": "Analyze cost-saving factors driven by falling raw materials (cotton, oil) and draft cost-competitiveness proposals for key buyers."
       },
       {
         "owner": "Team 8",
-        "kr": "아버크롬비 YPB 및 블루밍데일스 AQUA 라인 등 성공 레퍼런스를 분석하여 차기 시즌 애슬레저 및 여성복 제안서 고도화",
-        "en": "Analyze successful references like Abercrombie YPB and Bloomingdale's AQUA lines to upgrade upcoming season athleisure and womenswear proposals."
+        "kr": "A&F YPB 및 블루밍데일스 캠페인 분석을 바탕으로 애슬레저 및 트렌디 여성복 캡슐 라인 sourcing 샘플 준비 가속화",
+        "en": "Accelerate sourcing sample preparation for athleisure and trendy women's capsule lines based on A&F YPB and Bloomingdale's campaign analysis."
       }
     ]
   }
