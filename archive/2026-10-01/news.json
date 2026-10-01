@@ -1,0 +1,95 @@
+{
+  "ok": true,
+  "asOf": "2026-09-30T23:00:33.354Z",
+  "generatedDateKST": "2026-10-01",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 4,
+    "within7d": 5,
+    "total": 6,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "A&F",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Gen Z Demand",
+      "category_en": "Consumer Demand",
+      "date": "2026.09.30",
+      "title_kr": "Abercrombie와 Hollister, Y2K Nostalgia를 넘어선 Gen Z market 공략 성공",
+      "title_en": "Abercrombie and Hollister Are Winning Over Gen Z, but It’s Bigger Than Y2K Nostalgia",
+      "body_kr": "Abercrombie & Fitch와 Hollister가 단순한 Y2K Nostalgia 유행을 넘어선 전략으로 Gen Z 소비자의 지속적인 선택을 받고 있습니다. 당사 sourcing 및 merchandise 기획 시 이들의 지속 성장하는 customer demand 트렌드를 참고해야 합니다.",
+      "body_en": "Abercrombie & Fitch and Hollister continue to capture Gen Z consumer demand beyond simple Y2K nostalgia. Vendor teams should monitor this sustained market momentum for future merchandise planning.",
+      "source": "Miami Herald",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Tek1kVkJDeFBoT0s2cFQ1SVFFUTlfVldMOU5SZEYyZF9FRnhhb1Z2TVNia3pIVVIxeU5zR0xSbjZ3RjkyYmt6Y1NCdFdJS052MFhqejhjXzRBR2FQR0lxSDVlUEJFXzjSAWdBVV95cUxNQ3REOXpOMUFLbi1XZFktaEd6Z2JmYVM2WWFiYzhXR0pnZEZ1c21vRUdwZzZvQUxNaDdEZ0F5OS02WU5YX21ZVUdKb3A3NnY1ejROalBCbERTNC1ON0tWM3dGdVJjdVJF?oc=5",
+      "ageHours": 2.0069013888888887
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Profitability & Luxury Strategy",
+      "category_en": "Earnings",
+      "date": "2026.09.30",
+      "title_kr": "Macy's, luxury strategy 강화에 힘입어 profit 거의 두 배로 증가",
+      "title_en": "Macy's nearly doubled its profit — here's the luxury strategy behind it",
+      "body_kr": "Macy's nearly doubled its profit through a focused luxury strategy. Vendor teams should analyze how premium merchandise positioning impacts retail margin improvement.",
+      "source": "Cleveland.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQzBBR1AzNEZGN29yZ1Bpb2lxNkc5RS1YWWllaFFuTzlTdjhDMzNYVUVTbThLTUpITzl5S0NMck8xdGp4cV9qNEtaY2cyVTlVZ1FmTGJlY3RqOGlKYnBISG9KX19WeDZpeDFXb0RVOEE1NllmRkJVQUlXQkZJckdDQkF4elRlaG5vNS1Zc09VeUZFQ2JMcDNpUXhuZnZVbXcwUXV5TXR3dW1BZWtVUXJvVVZZVWxwS3JJdW1Sa2RyZm1RZFRWQ0djcFpTa2l0ZVpsMEpZ?oc=5",
+      "ageHours": 13.506927222222222
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Private Brand",
+      "category_en": "Private Brand",
+      "date": "2026.09.29",
+      "title_kr": "Kohl's, sales 감소 추세 속에서 private brand 강화 전략 추진",
+      "title_en": "Kohl's Sales Fall Again, Amid New Push On Private Labels",
+      "body_kr": "Kohl's is pushing a new strategy on private labels to counter declining sales. Vendors should closely monitor shifts in private brand sourcing demand from key retail partners.",
+      "source": "MediaPost",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWG5JZWZneXZfWjYzTUtaMEYwRzZNVWlfNlZaNTlqUlJCRFBaSmFRZ3RwN01HelFzSFlYME9JSnFXMG9ZU0tVUkdtSVlzLU5PWHpWY1R4bnMwM1lsTV9FeHk5ZGhDUnkySXN5cC1SQlJGX3BuQ1FFdGZmVVBDVTBFREVybTNqSGJ0eWZ0cVQyNy01dl9Sdk5nUGw1aFBZdHpWODVTV3AyVUZnZw?oc=5",
+      "ageHours": 24.464154166666667
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Footwear Category",
+      "category_en": "Category Growth",
+      "date": "2026.09.29",
+      "title_kr": "Kohl's, footwear category에서 뚜렷한 매출 상승세 기록",
+      "title_en": "How Footwear Is on the Upswing at Kohl’s",
+      "body_kr": "Footwear is experiencing a solid upswing at Kohl's, driving the merchandise mix. Vendor teams should evaluate potential reorders and product line expansions based on category performance.",
+      "source": "WWD",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNGJ4MGhUb2xubFJDdFV2TGdLdFJ5RWc0b0RPWE0xa3JzVmhiTkhyWkY3RDFFb1Z4TkEydWpDNFlKdjlWMFVWRGtfZTNjSHZZWFlWZlRzc2ZjZXg2SWxtOE1tdGt5U3JELXZ3UGZSWmN4aXRIdEZoR2N6UVBUU0RCbFBfdVdLOTBCT0lSM2htaGptaVlJSFhJbGdYbFlQdjBD?oc=5",
+      "ageHours": 30.15526527777778
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Inventory Management",
+      "category_en": "Inventory & AI",
+      "date": "2026.09.25",
+      "title_kr": "Macy's, inventory management 고도화를 위해 AI 시스템 도입 추진",
+      "title_en": "Macy’s To Use AI for Better Inventory Management",
+      "body_kr": "Macy's announced the implementation of AI to drive better inventory management. This tech adoption is expected to improve inventory turnover and optimize lead times across retail channels.",
+      "source": "WWD",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQVEtejRNMGc2T0tZRUNyUWk0ejdtOUMxcTlKUFdubnV4WHhXU2ZYUHhqY1dzR2w0dzY0SU1MdDZ1bHNieFIwT3dKZFY1LXNtY01GZjZ0dlNNbzl2R3lULWhlOFc5ZzN0R0p5dlcyY0lZUzM5Y3FZbTNRWk93N0cxdDlOT3IwejZQN0pjNVMxcjFHOGpGenZJdEZzRUZ6NUxZMEJadjZZVWlhYjQ?oc=5",
+      "ageHours": 120.76192722222223
+    },
+    {
+      "brand": "A&F",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Store Expansion",
+      "category_en": "Stores",
+      "date": "2026.09.18",
+      "title_kr": "Hollister, Gloucester Quays에 아울렛 매장 오픈하며 남서부 지역 진출",
+      "title_en": "Hollister makes south west outlet debut at Gloucester Quays",
+      "body_kr": "Hollister made its debut in the south west region with a new outlet store at Gloucester Quays. Vendor teams should assess how physical store expansion supports brand awareness and wholesale volume.",
+      "source": "A1 Retail Magazine",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMzBZZFVTX1JuRlFSdHkyWXFVRVJJSlVzS1cyN2ZmSnMwSlZZVElGUU9nYjlVMUZzZ2p3RGVQdVpfRkZQczI5QWdXaUtLLVJDUnRweFcxN1pESGNfRy0yT09UVW1MQ09xY2VrYjlDd09wSjQwcVRfUG5JNTJnTDZkcXQ5cDBjX2JSVHZoS3FLYkI3UWpQUDdOaVlMYkh1c202b01yZzgwekx3Zw?oc=5",
+      "ageHours": 298.5880127777778
+    }
+  ]
+}
