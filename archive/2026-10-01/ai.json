@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-09-30T23:01:11.995Z",
+  "generatedDateKST": "2026-10-01",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-10-01",
+  "insight": {
+    "headline": {
+      "kr": "콜스 사립 브랜드 강화 및 아베크롬비 연속 성장에 발맞춘 Holiday 시즌 sourcing 전략 점검",
+      "en": "Aligning Holiday Sourcing Strategies with Kohl's Private Brand Push and A&F's Growth Momentum"
+    },
+    "summary": {
+      "kr": "2026년 10월 1일 기준, 아베크롬비앤피치는 15개 분기 연속 매출 성장을 기록하며 글로벌 굳건함을 증명했고, 메이시스는 럭셔리 전략과 AI 재고 관리를 통해 수익성 개선을 추진 중입니다. 콜스는 매장 내 베이비숍 확대 및 프라이빗 라벨 강화로 돌파구를 모색하고 있으며, 경쟁사들의 공격적인 promotion 속에서 당사 8담당 영업팀은 차별화된 제안과 납기 준수에 집중해야 합니다.",
+      "en": "As of October 1, 2026, A&F Co. marked its 15th consecutive quarter of sales growth while Macy's drives profitability via luxury and AI inventory strategies. Kohl's is expanding private labels and baby shops. Amid aggressive competitor promotions, Team 8 must focus on differentiated product proposals and strict delivery adherence."
+    },
+    "tags": [
+      "#Team8Daily",
+      "#ApparelVendor",
+      "#HolidaySourcing",
+      "#RetailIntelligence"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "전국 56개 매장에 Babies“R”Us 숍인숍을 추가 확장하고 프라이빗 라벨(PB)을 강화하고 있습니다. 타겟사의 공격적인 가격 인하와 promotion 공세에 대응해 밸류 라인업과 유아동 의류 부문의 경쟁력 있는 벤더 제안이 필요합니다.",
+        "en": "Expanding Babies“R”Us shop-in-shops across 56 stores while pushing private label strategies. In response to aggressive competitor discounting, vendors must offer strong value-driven proposals in infant and core apparel categories."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "15개 분기 연속 순매장 매출 성장을 기록하며 guidance를 상향했습니다. Barry's와의 글로벌 activewear 협업 등 프리미엄 및 기능성 라인 확장이 활발하므로, 우수한 테크니컬 패브릭과 철저한 납기 관리가 필수적입니다.",
+        "en": "Achieved 15 straight quarters of net sales growth and raised guidance. Activewear expansion like the Barry's collaboration underscores the need for high-performance fabrics and strict delivery management."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "리이메진(Reimagine) 매장 개편과 AI 기반 재고 관리 도입으로 실적이 반등했습니다. 트렌드 중심의 신규 패션 어소트먼트(Newness)와 프리미엄 감성의 스타일 제안을 적극적으로 바이어에게 어필해야 합니다.",
+        "en": "Rebound driven by Reimagine store rollouts and AI inventory management. Vendors should proactively pitch trend-forward styles and elevated assortments aligned with their store revitalization strategy."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "아베크롬비/홀리스터의 지속적인 매출 성장에 따른 향후 시즌 PO 물량 확대 대비 및 생산 캐파 선점",
+        "en": "Secure production capacity and prepare for anticipated seasonal PO volume increases driven by A&F's sustained sales momentum."
+      },
+      {
+        "kr": "콜스의 Babies“R”Us 확장 매장 및 유아동 기프트 어소트먼트를 타겟으로 한 신규 숍인숍 의류 상품 제안",
+        "en": "Pitch new shop-in-shop apparel assortments tailored to Kohl's expanding Babies“R”Us footprint and infant gifting categories."
+      },
+      {
+        "kr": "메이시스의 리이메진 매장 콘셉트에 맞춘 트렌드 프리미엄 라인 스타일아웃(Style-out) 선제 진행",
+        "en": "Proactively conduct style-outs featuring trend-forward premium lines aligned with Macy's Reimagine store concepts."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "경쟁사들의 대규모 할인 쿠폰 및 조기 Holiday promotion 공세로 인한 바이어들의 가격 인하 압박 및 재고 회전율 우려",
+      "en": "Potential pricing pressure and inventory turnover risks driven by aggressive early holiday promotions and heavy couponing from mass competitors."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "아베크롬비/홀리스터 주요 스타일의 생산 납기 준수율을 철저히 점검하고 Holiday 물량 대응태세 확립",
+        "en": "Strictly audit production delivery schedules for key A&F/Hollister styles and establish robust holiday volume readiness."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "콜스 private brand 및 유아동 확장 매장 요구 조건에 맞춘 가성비·품질 최적화 sourcing 제안서 작성",
+        "en": "Prepare cost-optimized sourcing proposals tailored to Kohl's private label and expanding infant retail requirements."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "메이시스 리이메진 매장 전략에 대응할 수 있는 트렌디한 가을/겨울 신규 스타일 제안 자료 바이어 발송",
+        "en": "Dispatch trend-forward Fall/Winter style proposals to Macy's buyers to support their Reimagine store assortment strategy."
+      }
+    ]
+  }
+}
