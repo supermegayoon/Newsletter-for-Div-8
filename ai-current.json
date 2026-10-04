@@ -1,80 +1,76 @@
 {
   "ok": true,
-  "asOf": "2026-10-01T23:01:12.920Z",
-  "generatedDateKST": "2026-10-02",
+  "asOf": "2026-10-04T23:01:13.478Z",
+  "generatedDateKST": "2026-10-05",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-10-02",
+  "competitorDateKST": "2026-10-05",
   "insight": {
     "headline": {
-      "kr": "Holiday 시즌 대비 옴니채널 경쟁 격화 및 주요 바이어 배송·상품 전략 강화",
-      "en": "Intensified Omnichannel Competition Ahead of Holiday Season with Key Buyers Upgrading Delivery and Product Strategies"
+      "kr": "콜스·메이시스 Holiday 준비 본격화, 원·달러 환율 하락 및 면화 가격 상승 속 sourcing 전략 점검 필요",
+      "en": "Kohl's and Macy's Ramp Up Holiday Prep Amid Falling USD/KRW and Rising Cotton Prices"
     },
     "summary": {
-      "kr": "Kohl's, Macy's, A&F 등 주요 바이어들이 Holiday 시즌 선점을 위해 퀵커머스 협력, AI 재고 최적화, private brand 강화에 돌입했습니다. 경쟁사들의 공격적인 promotion과 비교하여 당사는 차별화된 sourcing과 납기 안정성에 집중해야 합니다.",
-      "en": "Major buyers including Kohl's, Macy's, and A&F are accelerating holiday preparations through quick-commerce partnerships, AI inventory optimization, and private label expansion. Compared to aggressive competitor moves, Team 8 must focus on differentiated sourcing and supply chain stability."
+      "kr": "2026년 10월 5일 기준, 미국 주요 유통업체들은 Holiday 시즌을 앞두고 도어대시 배송 제휴, AI 기반 재고 관리, 매장 기본기 강화 등 총력전에 돌입했습니다. 경쟁사인 Target의 대규모 가격 인하와 아메리칸이글의 공급망 확보 움직임에 대응하여, 당사 영업팀은 주요 바이어별 재고 회전율 모니터링 및 생산 캐파 선제 확보에 집중해야 합니다.",
+      "en": "As of October 5, 2026, major U.S. retailers are accelerating holiday preparations through DoorDash delivery partnerships, AI inventory management, and store execution enhancements. In response to Target's aggressive price cuts and American Eagle's supply chain moves, Team 8 must closely monitor sell-through rates and secure proactive production capacity."
     },
     "tags": [
-      "#HolidaySeason",
-      "#OmnichannelFulfillment",
-      "#PrivateLabel",
-      "#Activewear"
+      "#HolidayPrep",
+      "#SupplyChain",
+      "#OmniChannel",
+      "#Team8Daily"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "매출 부진 타개를 위해 자체 private brand(PB) 강화 및 베이비즈러스(Babies“R”Us) 숍인숍 확장에 나섰습니다. Target과 Walmart 등 경쟁사들이 2,000개 품목 가격 인하 및 퀵커머스를 추진 중이므로, 가성비 sourcing과 margin 확보가 핵심입니다.",
-        "en": "Kohl's is boosting private brands and expanding Babies“R”Us shop-in-shops to revive sales. With competitors like Target and Walmart slashing prices and expanding quick-commerce, cost-effective sourcing and margin protection are crucial."
+        "kr": "밀워키 본사 리더십 미팅을 통해 1,100개 이상 매장의 현장 실행력과 retail 기본기를 강조하고 있으며, 56개 매장에 베이비즈러스(Babies“R”Us) 숍을 추가 확장하여 키즈 및 유아 category traffic을 견인하고 있습니다. 한편 Target의 2,000개 품목 가격 인하 공세에 대응해 Holiday 가격 경쟁력 확보가 시급합니다.",
+        "en": "Kohl's emphasized store-level execution and retail fundamentals across 1,100+ doors during its leadership meeting and expanded Babies“R”Us shops to 56 additional stores to drive family traffic. Countering Target's broad price cuts on 2,000 items is a top priority for holiday competitiveness."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "15개 분기 연속 매출 성장을 기록하며 Gen Z 공략에 성공 중이며, 피트니스 스튜디오 Barry's와의 YPB Collaboration 등 기능성 activewear를 강화하고 있습니다. American Eagle 등 경쟁사의 선제적 재고 확보에 대응해 당사 생산 캐파 점검이 필요합니다.",
-        "en": "A&F posted its 15th straight quarter of sales growth driven by strong Gen Z demand and activewear expansions like the YPB x Barry's collection. Given competitors' early inventory moves, factory capacity must be monitored."
+        "kr": "15분기 연속 순매장 매출 성장을 기록하며 연간 guidance를 상향 조정한 강력한 앵커 계정입니다. 피트니스 브랜드 '배리스'와의 YPB activewear Collaboration을 통해 퍼포먼스 라인업을 강화하고 있어, 고성능 소재 및 디자인 트렌드 벤치마킹이 필수적입니다.",
+        "en": "A&F reported its 15th consecutive quarter of net sales growth and raised its full-year outlook. The launch of the YPB activewear collaboration with Barry's demonstrates strong consumer pull, making technical fabric benchmarking essential for upcoming proposals."
       },
       {
         "buyer": "Macy's",
-        "kr": "DoorDash 당일 배송 네트워크 합류와 AI 기반 재고 관리 시스템 도입으로 옴니채널 fulfillment 속도를 높이고 있습니다. Nordstrom 등의 대규모 할인 공세에 맞서 프리미엄 exclusive 라인업 강화 기회를 모색해야 합니다.",
-        "en": "Macy's is enhancing omnichannel fulfillment by joining DoorDash and deploying AI-driven inventory management. Amid aggressive discounting by rivals like Nordstrom, Team 8 should explore opportunities in premium exclusive lines."
+        "kr": "도어대시(DoorDash)와의 신속 배송 Partnership 체결 및 공급망 전반의 AI 기반 inventory management 도입을 통해 온디맨드 쇼핑 경험을 극대화하고 있습니다. 블루밍데일즈의 '호텔 블루밍데일즈' 캠페인 등 체험형 retail과 신상품 호조로 연간 전망을 상향 조정했습니다.",
+        "en": "Macy's is maximizing on-demand shopping via DoorDash delivery partnerships and rolling out AI inventory management to optimize supply chain efficiency. Buoyed by strong newness response and experiential retail campaigns like Bloomingdale's, the company raised its full-year guidance."
       }
     ],
     "opportunities": [
       {
-        "kr": "Macy's 및 주요 백화점의 옴니채널 및 온디맨드 배송 확대에 발맞춰 lead time 단축 및 신속한 reorder 대응 체계 구축",
-        "en": "Establish shortened lead times and responsive reorder systems aligning with Macy's and department stores' expanded omnichannel and on-demand delivery."
+        "kr": "콜스의 베이비즈러스(Babies“R”Us) 숍 56개 매장 추가 확장에 맞춰 유아동 의류 및 기프트 세트 큐레이션 상품을 제안하여 신규 볼륨을 확보합니다.",
+        "en": "Capture new volume by proposing curated infant apparel and gift sets tailored to Kohl's expansion of Babies“R”Us shops across 56 additional stores."
       },
       {
-        "kr": "A&F의 지속적인 실적 호조 및 activewear(YPB) 라인 확장 추세에 발맞춘 고기능성 원단 및 심리스 기술 제안",
-        "en": "Propose high-performance fabrics and seamless construction capabilities capitalizing on A&F's continued growth and activewear (YPB) line expansions."
-      },
-      {
-        "kr": "Kohl's 등의 private brand 강화 기조에 맞춘 고margin 가성비 베이직 아이템 sourcing 제안서 선제 준비",
-        "en": "Proactively prepare high-margin, value-focused basic apparel proposals tailored to Kohl's private label reinforcement strategy."
+        "kr": "애버롬비의 15분기 연속 성장세와 지속적인 sourcing 수요에 발맞추어 다가오는 시즌 생산 캐파를 선제적으로 확보하고 납기 준수율을 철저히 관리합니다.",
+        "en": "Secure proactive production capacity and strictly manage delivery metrics to support A&F's sustained multi-quarter growth and robust sourcing needs."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "주요 경쟁사(Target, Walmart, American Eagle)들의 공격적인 가격 인하 및 선제적 Holiday 재고 확보로 인해 바이어들의 margin 압박 및 공급망 경쟁이 가중되고 있습니다.",
-      "en": "Aggressive price cuts and early holiday inventory hoarding by key competitors (Target, Walmart, American Eagle) are increasing margin pressures and supply chain competition for our buyers."
+      "kr": "Target 등 경쟁사의 대규모 가격 인하와 면화 가격(CTZ26) 상승세가 맞물려 margin 압박 가중 및 Holiday 가격 저항 리스크가 존재합니다.",
+      "en": "Target's aggressive price cuts combined with rising cotton prices (CTZ26) increase margin compression risks and holiday price sensitivity."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "A&F 오더 확대에 대비하여 원단 선행 발주(Greige booking) 현황 점검 및 생산 라인 캐파 선제 확보",
-        "en": "Review greige fabric inventory and secure factory line capacity in preparation for anticipated A&F order volume growth."
+        "kr": "콜스 및 메이시스 바이어와 주력 Holiday 스타일의 매장별 재고 소진 속도를 점검하고 긴급 reorder 대비 생산 여유분을 확보하세요.",
+        "en": "Review sell-through velocity of core holiday styles with Kohl's and Macy's buyers and secure buffer production capacity for rapid chase orders."
       },
       {
         "owner": "Team 8",
-        "kr": "Kohl's PB 강화 전략에 대응할 수 있는 코튼 저지 및 베이직 아이템 sourcing 단가 경쟁력 재점검",
-        "en": "Re-evaluate sourcing cost competitiveness for cotton jerseys and basic items to support Kohl's private brand strategy."
+        "kr": "애버롬비 YPB activewear 라인의 최신 기능성 소재와 봉제 디테일을 분석하여 당사 퍼포먼스 어패럴 제안서의 사양을 업그레이드하세요.",
+        "en": "Analyze the technical fabrics and stitching details of A&F's YPB activewear line to upgrade the product specifications in our performance apparel pitches."
       },
       {
         "owner": "Team 8",
-        "kr": "Macy's 및 백화점 채널의 Holiday 시즌 exclusive 캡슐 컬렉션 제안서 작성 및 디자인 팀 협업",
-        "en": "Collaborate with the design team to draft exclusive capsule collection proposals for Macy's and department store holiday programs."
+        "kr": "환율 하락(USD/KRW 1,342원대) 및 원가 상승 요인을 반영한 원가 정산 시뮬레이션을 실행하고 바이어별 가격 협상 전략을 재정비하세요.",
+        "en": "Run cost-settlement simulations reflecting the declining USD/KRW exchange rate and rising raw material costs, and readjust pricing negotiation strategies per buyer."
       }
     ]
   }
