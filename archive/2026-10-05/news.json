@@ -1,0 +1,86 @@
+{
+  "ok": true,
+  "asOf": "2026-10-04T23:00:31.709Z",
+  "generatedDateKST": "2026-10-05",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 0,
+    "within7d": 4,
+    "total": 5,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Delivery Partnership",
+      "category_en": "Delivery Partnership",
+      "date": "2026.10.01",
+      "title_kr": "DoorDash, Macy's 및 주요 apparel brand 입점을 통해 retail channel 확장",
+      "title_en": "DoorDash expands retail channel with Macy's and major apparel brand partnerships",
+      "body_kr": "DoorDash가 Macy's를 비롯해 Anthropologie, North Face, Vans 등 주요 apparel brand를 delivery platform에 새롭게 추가했습니다. vendor들은 향후 instant delivery 채널을 통한 추가적인 sales volume 확보와 O2O merchandise 접근성 강화를 기대할 수 있습니다.",
+      "body_en": "DoorDash added Macy's alongside Anthropologie, North Face, and Vans to its delivery platform. Vendors can expect additional sales volume and enhanced O2O merchandise accessibility through instant delivery channels.",
+      "source": "qz.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdVhWNXlFQjg2b3pHdDdtOFFsQ2EzSGFsLTdpaGxkanhaTEtEcDFBM3M1bUttVFNMak43VHZsRlVscnNPcUtfUWF6LWZIREN5V0d2SVllWjhQdzdfT3VEWVM0SHRaOTdUVTBZNVhIY1AyVXJZV0xNUnRxa2xqUDVuNDk5Sll2ZU9fWlNyNmdRVlJrcnRKdldXeGU0SQ?oc=5",
+      "ageHours": 82.21802777777778
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Inventory Management",
+      "category_en": "Inventory Management",
+      "date": "2026.09.25",
+      "title_kr": "Macy's, 효율적 inventory management 위해 AI 도입 본격화",
+      "title_en": "Macy's rolls out AI integration for enhanced inventory management",
+      "body_kr": "Macy's가 공급망 전반의 inventory management 효율성을 극대화하기 위해 AI 기술 도입을 본격적으로 추진합니다. 이는 시즌 merchandise의 stockout과 markdown 리스크를 줄이고 향후 reorder 및 chase 프로세스 정확도를 높이는 데 기여할 전망입니다.",
+      "body_en": "Macy's is aggressively adopting AI technology to maximize inventory management efficiency across its supply chain. This is expected to reduce stockout and markdown risks for seasonal merchandise while improving reorder and chase accuracy.",
+      "source": "WWD",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQVEtejRNMGc2T0tZRUNyUWk0ejdtOUMxcTlKUFdubnV4WHhXU2ZYUHhqY1dzR2w0dzY0SU1MdDZ1bHNieFIwT3dKZFY1LXNtY01GZjZ0dlNNbzl2R3lULWhlOFc5ZzN0R0p5dlcyY0lZUzM5Y3FZbTNRWk93N0cxdDlOT3IwejZQN0pjNVMxcjFHOGpGenZJdEZzRUZ6NUxZMEJadjZZVWlhYjQ?oc=5",
+      "ageHours": 232.00691666666665
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Collaboration",
+      "category_en": "Collaboration",
+      "date": "2026.09.29",
+      "title_kr": "Hallmark, Kohl's 및 Walmart 통해 Disney Christmas Movie Collection 출시 예정",
+      "title_en": "Hallmark announces Disney Christmas Movie Collection coming to Kohl's and Walmart",
+      "body_kr": "Hallmark가 Kohl's와 Walmart 등을 통해 exclusive Disney Christmas Movie Collection을 선보입니다. Holiday season을 겨냥한 이번 IP Collaboration merchandise는 store traffic을 견인하고 관련 category sales를 끌어올릴 것으로 예상됩니다.",
+      "body_en": "Hallmark is launching an exclusive Disney Christmas Movie Collection through retailers including Kohl's and Walmart. This IP collaboration merchandise targeting the Holiday season is expected to drive store traffic and boost category sales.",
+      "source": "Mickey Visit",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU1pObDNMZEEzX084dTZPWTEtWGJULVBKaHZHVUFveGMwSFc0bmpmQkNqbXpNc216a3ZXRmFjVWM1SkVBUktBM0RxUHYzal80S25DN1MyZ2UxZnExOUV1bkx1NTNOemczSHd1VTFLTjFCNTNzRXE1QnRJa01OVVRRNW1EWUR4cEZtWFV6Q3liNDh2S3RJWGEwT05HaS1uY005?oc=5",
+      "ageHours": 122.4144061111111
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Footwear",
+      "category_en": "Footwear Category",
+      "date": "2026.09.29",
+      "title_kr": "Kohl's, footwear category 중심의 sales 턴어라운드 및 성장세 기록",
+      "title_en": "Kohl's reports sales turnaround and upward momentum driven by footwear category",
+      "body_kr": "Kohl's에서 footwear category가 강력한 실적 반등을 이끌며 전체 merchandise 믹스 개선에 기여하고 있습니다. vendor들은 category별 sell-through 추이를 모니터링하며 다가오는 Holiday season 상품 sourcing 전략을 조정해야 합니다.",
+      "body_en": "The footwear category at Kohl's is driving a strong sales rebound and contributing to overall merchandise mix improvement. Vendors should monitor category sell-through trends to adjust sourcing strategies for the upcoming Holiday season.",
+      "source": "WWD",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNGJ4MGhUb2xubFJDdFV2TGdLdFJ5RWc0b0RPWE0xa3JzVmhiTkhyWkY3RDFFb1Z4TkEydWpDNFlKdjlWMFVWRGtfZTNjSHZZWFlWZlRzc2ZjZXg2SWxtOE1tdGt5U3JELXZ3UGZSWmN4aXRIdEZoR2N6UVBUU0RCbFBfdVdLOTBCT0lSM2htaGptaVlJSFhJbGdYbFlQdjBD?oc=5",
+      "ageHours": 126.15523944444445
+    },
+    {
+      "brand": "Ann Taylor",
+      "brandLabel": "Ann Taylor",
+      "category_kr": "Executive Appointment",
+      "category_en": "Executive Appointment",
+      "date": "2026.10.01",
+      "title_kr": "KnitWell Group, chief digital and customer data officer 영입",
+      "title_en": "KnitWell Group names chief digital and customer data officer",
+      "body_kr": "Ann Taylor의 모기업인 KnitWell Group이 디지털 전략과 고객 데이터 분석을 총괄할 CDO 겸 CDBO를 선임했습니다. 향후 E-commerce 개인화 마케팅과 데이터 기반의 merchandise 기획 능력이 한층 강화될 것으로 보입니다.",
+      "body_en": "KnitWell Group, parent company of Ann Taylor, has appointed a chief digital and customer data officer. This move is expected to enhance e-commerce personalization marketing and data-driven merchandise planning capabilities.",
+      "source": "retaildive.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSXhPWUVES1lFSHdTZHhicFZ5MGlwWVFMNERmWTNHLXREV0Z6YW5CWnV1Z3Y3Qi1ELW1qQlkzcHpUUGotSGZmY25vZG5CUmtmSG9vQ094dEtPYU5hRFE3elh1VWxvQ044enhYU0wyN05Va0VXZ0ZJR3RKNmgzeDdvRURlWE5NSWZCRHZDSHhaaUpfMzZSSFJkUWM1dzRjcmZadWltZg?oc=5",
+      "ageHours": 79.74407222222223
+    }
+  ]
+}
