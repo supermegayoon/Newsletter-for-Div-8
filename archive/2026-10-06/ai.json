@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-10-05T23:02:03.439Z",
+  "generatedDateKST": "2026-10-06",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-10-06",
+  "insight": {
+    "headline": {
+      "kr": "2026년 10월 6일 8담당 데일리 마켓 브리프: Holiday 시즌 promotion 및 재고 효율화 가속",
+      "en": "October 6, 2026 Team 8 Daily Market Brief: Acceleration of Holiday Promotions and Inventory Efficiency"
+    },
+    "summary": {
+      "kr": "Kohl's와 Macy's 등 주요 바이어들이 Holiday 시즌 선점을 위해 대규모 promotion과 AI 기반 재고 관리를 본격화하고 있습니다. 경쟁사들의 공격적인 가격 공세에 대응하여 타겟 맞춤형 상품 공급과 철저한 재고 모니터링이 필요한 시점입니다.",
+      "en": "Major buyers like Kohl's and Macy's are launching aggressive promotions and AI-driven inventory management ahead of the holiday season. In response to rival pricing moves, targeted product supply and strict inventory monitoring are essential."
+    },
+    "tags": [
+      "#Team8Daily",
+      "#HolidaySeason",
+      "#RetailStrategy",
+      "#ApparelVendor"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "25% 할인 및 무료 배송 promotion을 시작했으며, Babies“R”Us 매장 추가 확장 및 Hallmark Disney 콜라보를 통해 Holiday traffic 유도에 집중하고 있습니다.",
+        "en": "Launched a 25% off promotion with free shipping, focusing on driving holiday traffic through expanded Babies“R”Us shops and Hallmark Disney collaborations."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "15분기 연속 매출 성장을 기록하며 글로벌 수요를 견인하고 있으며,Barry's와의 activewear 협업 등 라이프스타일 category 확장을 지속하고 있습니다.",
+        "en": "Marked 15 consecutive quarters of net sales growth driving global demand, continuing lifestyle expansion with the Barry's activewear collaboration."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "견조한 실적을 바탕으로 2026년 guidance를 상향 조정했으며, AI 기반 재고 관리와 'Reimagine' 매장 리뉴얼을 통해 offline 및 디지털 효율성을 높이고 있습니다.",
+        "en": "Raised its 2026 guidance based on solid earnings, enhancing offline and digital efficiency through AI-driven inventory management and 'Reimagine' store renewals."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "Kohl's의 Babies“R”Us 숍인숍 매장 확대에 발맞춘 유아동 의류 및 기프트 아이템의 exclusive 상품 구성 제안",
+        "en": "Pitching exclusive infant apparel and gift assortments tailored to Kohl's expanded Babies“R”Us shop-in-shop network."
+      },
+      {
+        "kr": "A&F의 지속적인 오더 증가에 대비한 선제적인 원단 사전 예약(Greige Booking) 및 생산 라인 여유분 확보",
+        "en": "Proactively securing greige fabric and production line capacity to prepare for A&F's continued order growth."
+      },
+      {
+        "kr": "Macy's의 'Reimagine' 리뉴얼 매장 베스트셀러 스타일 분석을 통한 신속한 reorder(Re-order) 생산 조율",
+        "en": "Coordinating swift re-order production by analyzing best-selling styles across Macy's 'Reimagine' renovated stores."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "Target, JCPenney, Nordstrom 등 주요 경쟁사들의 대규모 가격 할인(최대 75~88% off) 공세로 인해 바이어들의 가격 경쟁력 압박 및 재고 소진 리스크가 존재합니다.",
+      "en": "Risk of pricing pressure and inventory clearance challenges for buyers driven by massive discounts (up to 75-88% off) from key competitors like Target, JCPenney, and Nordstrom."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Holiday 시즌 대비 Kohl's 및 Macy's 매장별 핵심 SKU의 재고 소진 속도 모니터링 및 리플레니시먼트(Replenishment) 대응 체계 점검",
+        "en": "Monitor sell-through velocity of key SKUs across Kohl's and Macy's stores for the holiday season and review replenishment readiness."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "경쟁사들의 파격적인 시즌오프 할인에 대응하여 당사 바이어들의 promotion 및 가격 경쟁력 현황 점검",
+        "en": "Review promotional intensity and price competitiveness of our buyers in response to aggressive competitor seasonal markdowns."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "A&F의 activewear 및 기능성 원단 트렌드를 분석하여 차기 시즌 베르사타일(Versatile) 신규 디자인 sourcing 제안 준비",
+        "en": "Analyze A&F's activewear and performance fabric trends to prepare versatile new design sourcing proposals for upcoming seasons."
+      }
+    ]
+  }
+}
