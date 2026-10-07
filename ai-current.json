@@ -1,76 +1,76 @@
 {
   "ok": true,
-  "asOf": "2026-10-06T23:01:28.188Z",
-  "generatedDateKST": "2026-10-07",
+  "asOf": "2026-10-07T23:01:10.534Z",
+  "generatedDateKST": "2026-10-08",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-10-07",
+  "competitorDateKST": "2026-10-08",
   "insight": {
     "headline": {
-      "kr": "메이시스 실적 상향 및 릴스·YPB 협업 확대 속, 밸류 retail 경쟁 심화 대응 필수",
-      "en": "Macy's Upgrades Guidance & A&F Expands YPB Collabs Amid Intense Retail Competition"
+      "kr": "콜스 가격 인하 및 메이시스·A&F Holiday 준비 본격화… 벤더사 신속 대응 필수",
+      "en": "Kohl's Price Cuts & Macy's/A&F Holiday Prep Accelerate; Vendor Agility Required"
     },
     "summary": {
-      "kr": "메이시스가 강력한 실적과 guidance 상향을 발표한 가운데, 콜스는 JCPenney와 타겟의 공격적 promotion 공세에 직면했습니다. 애버크롬비(YPB)는 배리스와의 피트니스 협업으로 Gen Z 타겟을 강화하고 있으며, 환율 하락 및 원면·유가 상승 속에서 Holiday 시즌 대비 선제적 reorder 및 옴니채널 대응이 중요해졌습니다.",
-      "en": "Macy's reported strong earnings and raised guidance, while Kohl's faces aggressive promotional pressure from Target and JCPenney. A&F strengthened its Gen Z appeal via Barry's fitness collaboration. Amid falling KRW and rising cotton/oil prices, proactive holiday re-orders and omnichannel readiness are critical."
+      "kr": "소비자 수요 둔화에 대응해 Kohl's가 핵심 상품 가격 인하에 나섰으며, Macy's와 A&F는 각각 Holiday Collaboration과 공급망 관리를 강화하고 있습니다. 경쟁사들의 공격적인 promotion 속에서 철저한 재고 및 납기 관리가 요구됩니다.",
+      "en": "Kohl's cut prices on key items amid softening demand, while Macy's and A&F ramped up holiday collaborations and supply chain readiness. Strict inventory and lead-time management are essential amid aggressive competitor promotions."
     },
     "tags": [
-      "#MacySStrongEarnings",
-      "#KohlSCompetition",
-      "#AFHollisterYPB",
-      "#HolidaySourcing"
+      "#Kohl's",
+      "#Macys",
+      "#ANF",
+      "#HolidaySeason"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "타겟 및 JCPenney의 가격 공세와 IP 협업(Disney 등)으로 점유율 압박을 받고 있으며, 추가 25% 할인 및 신발·유아동(Babies\"R\"Us) 샵 확대로 traffic 유도 중. 경쟁사의 공격적 promotion에 대응해 가성비 및 단가 경쟁력을 갖춘 제안 필요.",
-        "en": "Facing market share pressure from Target and JCPenney's IP collaborations, Kohl's is driving traffic through rare 25% off sales and expanding footwear and Babies\"R\"Us shops. Vendor proposals must focus on sharp price points and value."
+        "kr": "수요 둔화에 대응하여 key item 중심의 pricing 인하를 단행했습니다. Target, JCPenney, Walmart 등 경쟁사들이 대규모 할인 공세를 펼치고 있어 margin 압박 속에서도 신속한 sell-through 및 reorder 대응이 필수적입니다.",
+        "en": "Dropped prices on key items to combat slowing demand. With intense promotional pressures from Target, JCPenney, and Walmart, vendors must closely monitor sell-through rates and manage replenishment pace."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "15분기 연속 순매출 성장 및 YPB 라인의 배리스(Barry's) 피트니스 협업으로 모멘텀 지속. 고기능성 원단(스트레치, 흡습속건)과 완성도 높은 디테일을 요구하므로, 앰버서더 마케팅 및 테크니컬 스펙에 맞춘 샘플 제안 필요.",
-        "en": "Delivering its 15th consecutive quarter of growth, A&F continues its momentum with the YPB x Barry's activewear collab. High technical standards (stretch, moisture-wicking) require precise fabric and styling execution for upcoming pitches."
+        "kr": "15개 분기 연속 매출 성장을 기록하며 영캐주얼 시장 리더십을 공고히 하고 있습니다. Barry's와의 YPB 퍼포먼스 콜라보 및 철저한 Holiday 공급망 관리를 추진 중이므로, 고기능성 및 트렌드 의류의 적기 납기 지원이 중요합니다.",
+        "en": "Sustaining strong retail momentum with 15 consecutive quarters of growth. Backed by the YPB x Barry's fitness collaboration and proactive supply chain prep, ensuring timely delivery for core lines is critical."
       },
       {
         "buyer": "Macy's",
-        "kr": "신규 어쏘트먼트 호조로 2분기 호실적 및 연간 guidance 상향. DoorDash 당일 배송 확대 및 '호텔 블루밍데일즈' 등 프리미엄 라이프스타일 캠페인을 전개 중이므로, 트렌디한 캡슐 라인 및 빠른 reorder 대응 체계 점검 필수.",
-        "en": "Raised full-year guidance following strong Q2 results driven by refreshed assortments. With expanded DoorDash delivery and premium fall campaigns like 'Hotel Bloomingdale's', responsive vendors with trend-focused execution are favored."
+        "kr": "추수감사절 Parade 100주년 기념 디즈니 캡슐 컬렉션을 출시하고 DoorDash를 통한 1시간 배송 허브를 구축했습니다. 옴니채널 fulfillment 강화에 발맞춘 신속한 재고 대응 역량이 요구됩니다.",
+        "en": "Launched a Disney holiday capsule collection for the Thanksgiving Parade centennial and partnered with DoorDash for 1-hour store delivery. Vendors must align quick-response capabilities with their omni-channel push."
       }
     ],
     "opportunities": [
       {
-        "kr": "콜스의 추가 56개 매장 내 Babies\"R\"Us 샵인샵 확장에 발맞춘 유아동(Infant/Toddler) 의류 및 오가닉 아이템 선제 제안",
-        "en": "Proactively pitch infant and toddler apparel lines and organic options aligned with Kohl's expansion of Babies\"R\"Us shops across 56 new stores."
+        "kr": "Macy's의 'Reimagine' 매장 혁신 및 Holiday IP Collaboration(Disney 등) 확대에 맞춘 고부가가치 캡슐 컬렉션 및 프리미엄 캐주얼 제안",
+        "en": "Propose high-value capsule collections and premium casual wear aligned with Macy's 'Reimagine' store overhauls and holiday IP collaborations (e.g., Disney)"
       },
       {
-        "kr": "메이시스의 블루밍데일즈 감성을 타겟으로 한 고감도 여성복 및 트렌디한 캡슐 컬렉션 아이디어 강화",
-        "en": "Refine high-design women's apparel concepts and trendy capsule collection ideas targeted at Bloomingdale's elevated aesthetic."
+        "kr": "A&F의 YPB 애슬레저 라인 성공에 착안한 기능성 소재(performance fabrics) 및 심리스 디자인 sourcing 벤치마킹을 통한 ODM 수주 확대",
+        "en": "Expand ODM orders by benchmarking A&F's YPB activewear line, focusing on technical performance fabrics and seamless design solutions"
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "JCPenney, Target, J.Crew 등 주요 경쟁사들의 깊은 할인폭과 프라임데이 연계 promotion으로 인한 가격 경쟁 심화 및 환율 하락 변동성",
-      "en": "Intensified price competition from deep competitor discounts (JCPenney, Target, J.Crew) around alternative sale windows, alongside fluctuating KRW/USD exchange rates."
+      "kr": "Kohl's 및 주요 유통사의 가격 인하 경쟁 심화로 인한 단가 인하 및 margin 압박 우려",
+      "en": "Heightened price competition and promotional markdowns across major retailers increasing margin pressure"
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "콜스 경쟁사(JCPenney, Target)의 promotion 동향을 모니터링하고 가성비 중심의 핵심 오더 품목 단가 재점검",
-        "en": "Monitor competitor promo trends (JCPenney, Target) and re-verify FOB pricing for core value-driven styles destined for Kohl's."
+        "kr": "Kohl's의 주요 품목 pricing 인하에 따른 재고 소진 속도 및 reorder pacing 일일 모니터링",
+        "en": "Monitor Kohl's inventory sell-through speed and reorder pacing daily following their key-item price reductions"
       },
       {
         "owner": "Team 8",
-        "kr": "애버크롬비 YPB 라인의 기능성 스펙(moisture-wicking, stretch)에 맞춘 신규 원부자재 샘플 확보 및 벤더 캐파 점검",
-        "en": "Secure raw material samples matching A&F YPB technical specs (moisture-wicking, stretch) and audit manufacturing capacity."
+        "kr": "A&F 및 Macy's의 다가오는 Holiday 성수기 물량 공급 차질 방지를 위한 생산 lead time 점검",
+        "en": "Audit manufacturing lead times and production schedules to ensure zero supply bottlenecks for A&F and Macy's upcoming holiday peak"
       },
       {
         "owner": "Team 8",
-        "kr": "메이시스 및 블루밍데일즈의 베스트셀러 실루엣을 반영한 Holiday 및 봄 시즌 제안서 보강",
-        "en": "Enhance holiday and spring seasonal proposals reflecting best-selling silhouettes across Macy's and Bloomingdale's channels."
+        "kr": "경쟁사(Target, JCPenney 등)의 공격적 할인 공세에 대응하기 위한 바이어별 맞춤형 promotion 지원책 검토",
+        "en": "Review buyer-specific promotional support options to counter aggressive discounting by competitors like Target and JCPenney"
       }
     ]
   }
