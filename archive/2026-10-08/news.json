@@ -1,0 +1,84 @@
+{
+  "ok": true,
+  "asOf": "2026-10-07T23:00:33.203Z",
+  "generatedDateKST": "2026-10-08",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 4,
+    "within7d": 5,
+    "total": 5,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Pricing / Promotion",
+      "category_en": "Pricing / Promotion",
+      "date": "2026.10.07",
+      "title_kr": "Kohl's, consumer demand 둔화 대응해 key item 중심으로 pricing 인하 단행",
+      "title_en": "Kohl’s drops prices on key items as customer interest fades",
+      "body_kr": "소비자 관심이 줄어들면서 Kohl's가 주요 merchandise의 pricing을 인하하는 등 promotion을 강화했습니다. vendor 입장에서는 margin 압박 속에서도 sell-through를 높이기 위한 reorder 대응 전략 점검이 필요합니다.",
+      "body_en": "As customer interest wanes, Kohl's has dropped prices on key items to stimulate demand. Vendors should monitor inventory sell-through and reorder pacing closely amid margin pressures.",
+      "source": "TheStreet",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOLXJaSTFZdUFfMWNvTDdDSEZkVnN4U1ZXOFFVYUlnUklyMTBQWGliNU52WkFrM2ZwSVpuc2FXYkhMbmx4d1VCUjZ6eFhOWEp6aWpBR1YtMHR4bFRYRlBvQUZFT1Vpbl9VZi1PZ3lSUU5ldEszZ2Z1ZGFHYVQ5VTE2SnRsZTBzempMQlE?oc=5",
+      "ageHours": 3.007023333333333
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Seasonal / Collaboration",
+      "category_en": "Seasonal / Collaboration",
+      "date": "2026.10.07",
+      "title_kr": "Macy's, Thanksgiving Day Parade 100주년 기념 exclusive Disney Capsule Collection 출시",
+      "title_en": "New Macy’s and Disney 2026 Holiday Collection Now Available",
+      "body_kr": "Macy's가 Thanksgiving Day Parade 100주년을 기념해 exclusive Disney Capsule Collection과 Holiday merchandise를 공개했습니다. major retail channel의 Holiday season 대형 IP collaboration 확대에 따른 관련 category sourcing 기회를 주목해야 합니다.",
+      "body_en": "Macy's and Disney launched a special collection for the Thanksgiving Day Parade centennial, rolling out exclusive holiday merchandise. Vendors should watch for expanded IP collaboration opportunities heading into the peak holiday shopping season.",
+      "source": "Disney Parks Blog",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTHFWU2lBem52aUg2M0c0U2txdUtuN1dsdll4eUFmVFNvQlFlSHZkbkJwdWZfMGtVbmZseHluOVdVczRtQ0U4X3F2Q2tCbkhodmVIb296X0szRl9UaVRWOUFwZl9DZEhTaTQ4a1BhWk50SjVPeEV6X3Q2Y1I2OHJmNHpCdEo2bnpBUGN6c1pvZXcwWVFJWmc?oc=5",
+      "ageHours": 4.970916388888889
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Wholesale / Channel",
+      "category_en": "Wholesale / Channel",
+      "date": "2026.10.07",
+      "title_kr": "Macy's, DoorDash partnership 통해 offline store 기반 1시간 delivery hub 구축",
+      "title_en": "Macy's, Anthropologie, Vans turn stores into 1-hour hubs via DoorDash",
+      "body_kr": "Macy's가 DoorDash와의 partnership을 통해 offline store를 1시간 내 delivery가 가능한 retail hub로 전환했습니다. 급변하는 fulfillment 환경에 맞춰 vendor의 stock delivery 및 quick-response 역량이 더욱 중요해졌습니다.",
+      "body_en": "Macy's has turned its physical stores into 1-hour delivery hubs through a new partnership with DoorDash. This omni-channel push highlights the growing need for vendor agility in rapid inventory replenishment.",
+      "source": "Fibre2Fashion",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQWHd3ck52SXpEZzNOYWJxYS1IQmsxbXg5cUVoZTVYUjdDUlRtajcwR3EtMmU0Mkk4Tm85MmhDZ2dUcmhxbm1QbmRqV2tmUUExRzNRLTlrTUtKcXR1T093anRnbU56el9lTkRIYnN4cnVuZ1I1QnVqTEN6RW52b1dRR21nckdCMV8zRW9mcDZyR0s1YkRCOWxOaGVHeUN3S0hFOVlQdWM3MmZuV1h3clhTMV90eFZBbWtwMTBOb0tHTlBwa0JDMVRYOHFTNmVzS0FrVDFFVGVkNklYdXJqdzhGQWtiZldSdWhSdTAzWmRPdjRaREJFb3BaOUFWSTRDdGlfUXc?oc=5",
+      "ageHours": 8.86119388888889
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Competitive Positioning",
+      "category_en": "Competitive Positioning",
+      "date": "2026.10.06",
+      "title_kr": "Abercrombie & Fitch와 Hollister, legacy mall brand의 한계 극복하며 retail momentum 지속",
+      "title_en": "Can Abercrombie And Fitch (NYSE:ANF) Keep Its Retail Momentum Going?",
+      "body_kr": "Abercrombie & Fitch and Hollister are sustaining strong retail momentum by successfully pivoting their brand image for younger demographics. Their turnaround offers valuable lessons in product assortment and trend responsiveness for apparel vendors.",
+      "source": "Kalkine Media",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUVhPcmU4UGxlZDRJM0plUWZTV2d6YTdqa0x4UmVIcDRoVHJaS1FKYnZjSzM2NXpyTFU2R0tFa1JzTGRKV2NnTWR3N0Ftc2hpM09iSjRydk1uaDYtNXk0Q1pib2xBNWRtNHpRYkczYk9SZ1JhNDg4am5XSzBZelVWMEdrS283NWFmS2xvZWNVY0pvZU5meGw2VmU2VlEwMHZRcEo2aFVzOGVRekNQ?oc=5",
+      "ageHours": 6.04032666666667
+    },
+    {
+      "brand": "Ann Taylor",
+      "brandLabel": "Ann Taylor",
+      "category_kr": "Partnership / Organization",
+      "category_en": "Partnership / Organization",
+      "date": "2026.10.01",
+      "title_kr": "KnitWell Group, Ann Taylor 모기업으로 디지털 및 고객 데이터 총괄 임원 영입",
+      "title_en": "KnitWell Group names chief digital and customer data officer",
+      "body_kr": "KnitWell Group, parent of Ann Taylor, has appointed a new chief digital and customer data officer to sharpen its digital strategy. Vendors should align their merchandising plans with growing online personalization and data-driven retail initiatives.",
+      "source": "Retail Dive",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSXhPWUVES1lFSHdTZHhicFZ5MGlwWVFMNERmWTNHLXREV0Z6YW5CWnV1Z3Y3Qi1ELW1qQlkzcHpUUGotSGZmY25vZG5CUmtmSG9vQ094dEtPYU5hRFE3elh1VWxvQ044enhYU0wyN05Va0VXZ0ZJR3RKNmgzeDdvRURlWE5NSWZCRHZDSHhaaUpfMzZSSFJkUWM1dzRjcmZadWltZg?oc=5",
+      "ageHours": 151.74420944444444
+    }
+  ]
+}
