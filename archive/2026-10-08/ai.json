@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "asOf": "2026-10-07T23:01:10.534Z",
+  "generatedDateKST": "2026-10-08",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-10-08",
+  "insight": {
+    "headline": {
+      "kr": "콜스 가격 인하 및 메이시스·A&F Holiday 준비 본격화… 벤더사 신속 대응 필수",
+      "en": "Kohl's Price Cuts & Macy's/A&F Holiday Prep Accelerate; Vendor Agility Required"
+    },
+    "summary": {
+      "kr": "소비자 수요 둔화에 대응해 Kohl's가 핵심 상품 가격 인하에 나섰으며, Macy's와 A&F는 각각 Holiday Collaboration과 공급망 관리를 강화하고 있습니다. 경쟁사들의 공격적인 promotion 속에서 철저한 재고 및 납기 관리가 요구됩니다.",
+      "en": "Kohl's cut prices on key items amid softening demand, while Macy's and A&F ramped up holiday collaborations and supply chain readiness. Strict inventory and lead-time management are essential amid aggressive competitor promotions."
+    },
+    "tags": [
+      "#Kohl's",
+      "#Macys",
+      "#ANF",
+      "#HolidaySeason"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "수요 둔화에 대응하여 key item 중심의 pricing 인하를 단행했습니다. Target, JCPenney, Walmart 등 경쟁사들이 대규모 할인 공세를 펼치고 있어 margin 압박 속에서도 신속한 sell-through 및 reorder 대응이 필수적입니다.",
+        "en": "Dropped prices on key items to combat slowing demand. With intense promotional pressures from Target, JCPenney, and Walmart, vendors must closely monitor sell-through rates and manage replenishment pace."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "15개 분기 연속 매출 성장을 기록하며 영캐주얼 시장 리더십을 공고히 하고 있습니다. Barry's와의 YPB 퍼포먼스 콜라보 및 철저한 Holiday 공급망 관리를 추진 중이므로, 고기능성 및 트렌드 의류의 적기 납기 지원이 중요합니다.",
+        "en": "Sustaining strong retail momentum with 15 consecutive quarters of growth. Backed by the YPB x Barry's fitness collaboration and proactive supply chain prep, ensuring timely delivery for core lines is critical."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "추수감사절 Parade 100주년 기념 디즈니 캡슐 컬렉션을 출시하고 DoorDash를 통한 1시간 배송 허브를 구축했습니다. 옴니채널 fulfillment 강화에 발맞춘 신속한 재고 대응 역량이 요구됩니다.",
+        "en": "Launched a Disney holiday capsule collection for the Thanksgiving Parade centennial and partnered with DoorDash for 1-hour store delivery. Vendors must align quick-response capabilities with their omni-channel push."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "Macy's의 'Reimagine' 매장 혁신 및 Holiday IP Collaboration(Disney 등) 확대에 맞춘 고부가가치 캡슐 컬렉션 및 프리미엄 캐주얼 제안",
+        "en": "Propose high-value capsule collections and premium casual wear aligned with Macy's 'Reimagine' store overhauls and holiday IP collaborations (e.g., Disney)"
+      },
+      {
+        "kr": "A&F의 YPB 애슬레저 라인 성공에 착안한 기능성 소재(performance fabrics) 및 심리스 디자인 sourcing 벤치마킹을 통한 ODM 수주 확대",
+        "en": "Expand ODM orders by benchmarking A&F's YPB activewear line, focusing on technical performance fabrics and seamless design solutions"
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "Kohl's 및 주요 유통사의 가격 인하 경쟁 심화로 인한 단가 인하 및 margin 압박 우려",
+      "en": "Heightened price competition and promotional markdowns across major retailers increasing margin pressure"
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Kohl's의 주요 품목 pricing 인하에 따른 재고 소진 속도 및 reorder pacing 일일 모니터링",
+        "en": "Monitor Kohl's inventory sell-through speed and reorder pacing daily following their key-item price reductions"
+      },
+      {
+        "owner": "Team 8",
+        "kr": "A&F 및 Macy's의 다가오는 Holiday 성수기 물량 공급 차질 방지를 위한 생산 lead time 점검",
+        "en": "Audit manufacturing lead times and production schedules to ensure zero supply bottlenecks for A&F and Macy's upcoming holiday peak"
+      },
+      {
+        "owner": "Team 8",
+        "kr": "경쟁사(Target, JCPenney 등)의 공격적 할인 공세에 대응하기 위한 바이어별 맞춤형 promotion 지원책 검토",
+        "en": "Review buyer-specific promotional support options to counter aggressive discounting by competitors like Target and JCPenney"
+      }
+    ]
+  }
+}
