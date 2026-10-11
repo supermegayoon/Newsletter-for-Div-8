@@ -1,57 +1,43 @@
 {
   "ok": true,
-  "asOf": "2026-10-07T23:15:02.526Z",
-  "generatedDateKST": "2026-10-08",
+  "asOf": "2026-10-11T07:11:48.632Z",
+  "generatedDateKST": "2026-10-11",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "items": [
     {
       "level": "MEDIUM",
-      "title_kr": "미국 무역 환경 변화 속 중앙아메리카 소싱 경쟁력 강화",
-      "title_en": "Central America Gains Sourcing Advantage Amid U.S. Trade Dynamics",
-      "body_kr": "미국 무역 전쟁 속에서 중앙아메리카 지역이 대미 소싱 허브로서 우위를 점하며 주목받고 있습니다.",
-      "body_en": "Central America is gaining ground as a key U.S. sourcing hub amid evolving U.S. trade dynamics.",
-      "action_kr": "영업 및 소싱 팀은 CAFTA-DR 지역의 캐파와 코스팅 경쟁력을 재점검하고 대미 바이어 제안을 준비하십시오.",
-      "action_en": "Sales and sourcing teams should review capacity and costing competitiveness in CAFTA-DR regions for U.S. buyer pitches.",
-      "source": "Global Finance Magazine",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8xRFE2S2JyS0pRM0tDeUNfLTZnVHRQWVFVTXk4U1lGbmpLNG1QaE5iVExJaGZndWxhZlR2UnZNNGp2VklKMkI4VHI5ay1XcWdmZDczcE50WklJQzlQSkNNdm5PSkU0NjdmTi1WZHdaODF2ZzFkaVV0bTNIWQ?oc=5",
-      "date": "2026.09.29"
+      "title_kr": "중앙아메리카 니어쇼어링 구조적 제약과 무역 물류 점검",
+      "title_en": "Central America Nearshoring Structural Constraints and Trade Logistics",
+      "body_kr": "중앙아메리카의 인구통계학적 우위보다 구조적 제약이 니어쇼어링에 더 큰 영향을 미치고 있어 공급망 다변화 시 물류 및 인프라 리스크를 면밀히 살펴야 합니다.",
+      "body_en": "Structural constraints in Central America are outweighing demographic advantages for nearshoring, requiring close review of logistics and infrastructure risks when diversifying supply chains.",
+      "action_kr": "소싱 팀은 중미 지역 생산라인 배정 시 현지 인프라 한계와 물류 지연 가능성을 반영하여 대체 로케이션을 검토하십시오.",
+      "action_en": "Sourcing teams should evaluate alternative locations by factoring in local infrastructure limits and potential logistics delays when allocating production lines in Central America.",
+      "source": "RANE Worldview",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMVJzQXhveVNwbFljOTNrWHNjTEZZQnY1dDdCdTUyZEFwMDYyQ3NwT0l5bFZ5WWtoSnJySXltaHNqVHdkNGJWSzJaRWRoQ3JFN2dkTld1a21ZQV9OWVNjYTVlQjBxeVV1bDd3ekVVZEdNRHg2dUxOME5NZmxBNmt4Q0V2VkRDSkVkMFJCblVrME50R2dFNUZvSFZyZVB3cWo0VllQVGlmU25zVENjcDFaakU3eEUyd3hqY1NKTi1LbGx2SDBYQ1pONnRLNlJ4bVZsODNlT2ZWWGhIQnN3NkpoYUZqY2hmMlk4QlUyc3V2bm5qUHVWT1RKcGl3VTA5MmtB?oc=5",
+      "date": "2026.10.08"
     },
     {
       "level": "MEDIUM",
-      "title_kr": "글로벌 패션 리테일러의 홀리데이 시즌 의류 부족 대응 및 물량 확대",
-      "title_en": "Fashion Retailers Scale Up Holiday Sourcing to Prevent Apparel Shortages",
-      "body_kr": "의류 부족 문제를 겪은 패션 리테일러들이 다가오는 홀리데이 시즌을 대비해 주요 물량 조달 및 재고 확보에 적극 나서고 있습니다.",
-      "body_en": "Fashion retailers facing recent clothing shortages are aggressively ramping up holiday season sourcing and inventory acquisition.",
-      "action_kr": "머천다이징 팀은 주요 바이어의 홀리데이 리피트 오더 및 납기 지연 리스크에 대비해 선적 스케줄을 철저히 관리하세요.",
-      "action_en": "Merchandising teams must closely monitor shipment schedules to manage major buyers' holiday repeat orders and mitigate delivery delays.",
-      "source": "TheStreet",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSUNHUEdOQ3pWd2RvOUR2cXhvMlc2dW0xMl9pTjlPa3QxamQ4amxvaWpYRUZ4Y3JaRVEzMFdhbkRzUFlUQ3hzNnZfQkE1MUZPczVjdnJlZ1lKbjR6SW5LODV6dkJLcC1wNEVwc1BNSkFzTThfOFJBYXVVT2s4Q2dNMnBGWW5fZThZeWc?oc=5",
-      "date": "2026.10.01"
+      "title_kr": "인도 여성 어패럴 시장 성장세 가속화 및 리테일 확장",
+      "title_en": "Accelerated Growth and Retail Expansion in India Women Apparel Market",
+      "body_kr": "India's women apparel market is showing robust growth projected to expand significantly through 2032, driven by active retail network expansion from major brands.",
+      "action_kr": "영업 및 머천다이징 팀은 인도 내 급증하는 여성복 수요를 겨냥해 현지 파트너십과 로컬라이징된 제품 라인업을 강화하십시오.",
+      "action_en": "Sales and merchandising teams should strengthen local partnerships and localized product lineups targeting surging womenswear demand in India.",
+      "source": "PR Newswire UK",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVkNfWm4xVUtnREZ2Uk9xdXEteU44Q19ydFhsNUUta19JM2E4MmI2aUJ4SXEzT01wbXMzTl9QMHR5VHhEWGhYSDZtZ0NCNVRvc0FGQ0FqWktjb2VSWGlTQVFvb0pWOEtaR2xyQjl2ZVpXaWlzVWlGRTYtdUgyWlc0ZGN4Z3pFc1A3X2FpbE1wWEdSY2Q2T0NZS2Q2al9ZQTBMTExNWUNySnlROERBbHZ1WWVOdlpESmZZOUhDeGVDaXVXVVpULXMxTGlvbktFWWRNWnFxYVJkQlZFZw?oc=5",
+      "date": "2026.10.09"
     },
     {
       "level": "MEDIUM",
-      "title_kr": "GLP-1 약물 확산이 홀리데이 의류 쇼핑 트렌드에 미치는 영향",
-      "title_en": "GLP-1 Drugs Reshaping Holiday Shopping and Apparel Fit Demands",
-      "body_kr": "체중 감량 약물인 GLP-1의 확산이 소비자의 의류 사이즈 및 핏 선호도 변화를 이끌며 올해 홀리데이 쇼핑 트렌드를 재구성하고 있습니다.",
-      "body_en": "The rise of GLP-1 weight loss drugs is reshaping holiday shopping by driving changes in consumer apparel sizing and fit preferences.",
-      "action_kr": "머천다이징 및 디자인 팀은 변화하는 체형 트렌드와 슬림 핏 수요에 맞춘 패턴 조정 및 샘플 개발을 검토하세요.",
-      "action_en": "Merchandising and design teams should review pattern adjustments and sample developments to align with shifting body shapes and slim fit demands.",
-      "source": "Fibre2Fashion",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQa2dVNXpBdWVTaDNvWDgzRzhvZk5Md2gwSUdYTGtqeUNrbVMtb0ZvSEVlRXRDS2RJQURRNE5TZVJXTFlmSUpJTzFhYjgybzR5QlpXMjlUVng5bWhqVkxfQ2dqSHFtNENQRmVUV214TC1NbkM5eFd2OTNZNkhVYUc4STQ5U1VITGFqY2s1STFLMDFlVWdqbm52a010cmpDTjVmUXJuTF9hcVZGdXN6LUFIT2xQUEhwV3oxSUFGeFZTV2JrNndLUnh0RkhTRF9rOFFJWjAw?oc=5",
-      "date": "2026.09.30"
-    },
-    {
-      "level": "MEDIUM",
-      "title_kr": "프리미엄 및 애슬레틱 수요에 따른 면 소삭스·기능성 의류 시장 성장",
-      "title_en": "Premiumization and Athletic Demand Drive Growth in Socks and High-Performance Apparel",
-      "body_kr": "프리미엄화와 애슬레틱 수요 증가로 인해 면 양말 및 고기능성 어패럴 시장의 성장세가 지속되고 있습니다.",
-      "body_en": "Market growth in cotton socks and high-performance apparel is accelerating due to ongoing premiumization and athletic demand.",
-      "action_kr": "영업 팀은 기능성 원사 및 프리미엄 소싱 라인업을 강화하여 애슬레틱 바이어 대상 제안을 확대하세요.",
-      "action_en": "Sales teams should strengthen functional yarn and premium sourcing lineups to expand proposals for athletic apparel buyers.",
-      "source": "IndexBox",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLTQ0SjhtQnV3bURGeDJVUndPYTZTWHZnSGJpM295ZjBibjlOamIyZGlIdTRKbHNzelZYbm11NzJmbDdLN1J6dUZrQXk2eFlYQXAxdG91RzdOY0sxUGs5Q2JTYTBtekJvQnFmOGVlWXdmQlJXMXdBZEtGX3FLcDJIS0ZQbXRrR1RDUW94ZEh1ak1xLWVaQmd4MFF6S3VBRTdURFNTZzdNNmg3YWdYVENNNlk3V2xSRVd6anc?oc=5",
-      "date": "2026.10.04"
+      "title_kr": "글로벌 레깅스 및 액티브웨어 시장의 지속적 성장세",
+      "title_en": "Continuous Growth in Global Leggings and Activewear Markets",
+      "body_kr": "Driven by rising activewear demand, the global leggings market is recording a steady CAGR, increasing the importance of functional fabric and apparel sourcing.",
+      "action_kr": "소싱 팀은 고성능 액티브웨어 및 레깅스 제작을 위한 기능성 소재 공급망을 다변화하고 단가 경쟁력을 확보하십시오.",
+      "action_en": "Sourcing teams should diversify functional material supply chains and secure cost competitiveness for high-performance activewear and leggings production.",
+      "source": "openPR.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSFREdWhvXzZMblhXM3h2b2NHQ215a2VhSVNndHNqblpMejl6bU1xTVoxaTZMMFZhYVZmYXlpQU9PYkNTR1pfWjFYcG5YNEVvc1JnTlA4VG9PTUVpTE93eU4wdGpzV1g0dW1mMFRNbUpqSXRuRXRsMlV6N3NSQTB4WndnNDhqeVNteG5aYXRaQlRYMUZ6TldTb1VuZ2E?oc=5",
+      "date": "2026.10.08"
     }
   ]
 }
