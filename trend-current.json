@@ -1,42 +1,44 @@
 {
   "ok": true,
-  "asOf": "2026-10-11T07:11:48.632Z",
-  "generatedDateKST": "2026-10-11",
+  "asOf": "2026-10-11T22:01:31.966Z",
+  "generatedDateKST": "2026-10-12",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "items": [
     {
+      "level": "HIGH",
+      "title_kr": "인도 시장 천연섬유 선호도 급증 및 대형 유통 확장",
+      "title_en": "India Natural Fiber Demand Surge & Retail Expansion",
+      "body_kr": "인도 소비자 중 85%가 천연섬유 제품에 더 많은 비용을 지불할 의향이 있는 것으로 나타났으며, 주요 패션 브랜드들의 대규모 매장 확장이 이어지고 있습니다.",
+      "body_en": "85 percent of Indian shoppers are willing to pay more for natural fibers, coinciding with rapid retail expansion by major fashion players across the market.",
+      "action_kr": "인도 및 남아시아 바이어 대상 소싱 제안 시 오가닉 코튼 및 천연섬유 혼방 소재 중심의 프리미엄 라인업을 강화하십시오.",
+      "action_en": "Strengthen organic cotton and natural fiber blended premium product lines when pitching sourcing proposals to South Asian buyers.",
+      "source": "Retail News Asia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdUJqcmVvNTYxMjNNYWd5RG1NR3hOdlllRkotaG9QaDE1eVZBWE1WUkYtTTF1bVVxWkxQV1pvSy1hVWRSLTFzQ2k2bW1OeW9QZEEtdmlxMWFDeHFkaVFuYi1rRE1aOE9JaDVjM2FVTHJkRjl4eVBRWFVRNDZCdEM0SnJSemhQOTRkTDI5TWY2MA?oc=5",
+      "date": "2026.10.11"
+    },
+    {
       "level": "MEDIUM",
-      "title_kr": "중앙아메리카 니어쇼어링 구조적 제약과 무역 물류 점검",
-      "title_en": "Central America Nearshoring Structural Constraints and Trade Logistics",
-      "body_kr": "중앙아메리카의 인구통계학적 우위보다 구조적 제약이 니어쇼어링에 더 큰 영향을 미치고 있어 공급망 다변화 시 물류 및 인프라 리스크를 면밀히 살펴야 합니다.",
-      "body_en": "Structural constraints in Central America are outweighing demographic advantages for nearshoring, requiring close review of logistics and infrastructure risks when diversifying supply chains.",
-      "action_kr": "소싱 팀은 중미 지역 생산라인 배정 시 현지 인프라 한계와 물류 지연 가능성을 반영하여 대체 로케이션을 검토하십시오.",
-      "action_en": "Sourcing teams should evaluate alternative locations by factoring in local infrastructure limits and potential logistics delays when allocating production lines in Central America.",
+      "title_kr": "메이시스(Macy's) 옴니채널 및 AI 기반 디지털 역량 강화",
+      "title_en": "Macy's Expands Omnichannel & AI Digital Capabilities",
+      "body_kr": "메이시스의 디지털 및 옴니채널 전략이 AI 기술 도입과 함께 탄력을 받으며 온라인 판매 구조를 개선하고 있습니다.",
+      "body_en": "Macy's digital push is gaining traction as AI and omnichannel efforts expand, streamlining their retail and online fulfillment processes.",
+      "action_kr": "디지털 재고 연동 및 신속한 풀필먼트 대응이 가능한 프로세스를 점검하고 바이어의 물류 효율화 요구에 선제적으로 대응하십시오.",
+      "action_en": "Audit digital inventory integration and fast fulfillment capabilities to proactively meet buyer logistics and efficiency demands.",
+      "source": "TradingView",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZDRUZXlDV0JzU2FqUElwSFphSEdCRVVKMHJub0JfMmZrQjdWS3FIbkJGbUE1NVhlWVJRQ2dSdEVPU0twUGtIQXFIYzdwTzNTRnc4bEJJa2FrVTQxWG5KRWRvVzBpYnZyNVpDNVVxWDlPaXRTRkllMkIyMFFoRjAtYjloTVN1c05qMW1UMTk0LTcxZkpQZkFxc0NyTjdtaTZUNVBzZUZYXzRHck9ULVh2UFpyTkxORFhVNjZNZWk4NzM?oc=5",
+      "date": "2026.09.29"
+    },
+    {
+      "level": "MEDIUM",
+      "title_kr": "중미(Central America) 니어쇼어링 트렌드 및 구조적 제약 요인",
+      "title_en": "Central America Nearshoring Dynamics and Constraints",
+      "body_kr": "중미 지역이 미국 무역 환경 변화 속에서 니어쇼어링 수혜를 입고 있으나, 인프라 등 구조적 제약이 여전히 존재합니다.",
+      "body_en": "Central America is gaining ground in US nearshoring, though structural constraints continue to weigh on long-term capacity expansion.",
+      "action_kr": "아시아 벤더로서 리드타임 단축 및 고부가가치 제품 차별화를 통해 중미 Sourcing과의 경쟁 우위를 유지하십시오.",
+      "action_en": "Maintain competitive advantages against Central American sourcing by emphasizing shorter lead times and high-value product differentiation.",
       "source": "RANE Worldview",
       "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMVJzQXhveVNwbFljOTNrWHNjTEZZQnY1dDdCdTUyZEFwMDYyQ3NwT0l5bFZ5WWtoSnJySXltaHNqVHdkNGJWSzJaRWRoQ3JFN2dkTld1a21ZQV9OWVNjYTVlQjBxeVV1bDd3ekVVZEdNRHg2dUxOME5NZmxBNmt4Q0V2VkRDSkVkMFJCblVrME50R2dFNUZvSFZyZVB3cWo0VllQVGlmU25zVENjcDFaakU3eEUyd3hqY1NKTi1LbGx2SDBYQ1pONnRLNlJ4bVZsODNlT2ZWWGhIQnN3NkpoYUZqY2hmMlk4QlUyc3V2bm5qUHVWT1RKcGl3VTA5MmtB?oc=5",
-      "date": "2026.10.08"
-    },
-    {
-      "level": "MEDIUM",
-      "title_kr": "인도 여성 어패럴 시장 성장세 가속화 및 리테일 확장",
-      "title_en": "Accelerated Growth and Retail Expansion in India Women Apparel Market",
-      "body_kr": "India's women apparel market is showing robust growth projected to expand significantly through 2032, driven by active retail network expansion from major brands.",
-      "action_kr": "영업 및 머천다이징 팀은 인도 내 급증하는 여성복 수요를 겨냥해 현지 파트너십과 로컬라이징된 제품 라인업을 강화하십시오.",
-      "action_en": "Sales and merchandising teams should strengthen local partnerships and localized product lineups targeting surging womenswear demand in India.",
-      "source": "PR Newswire UK",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVkNfWm4xVUtnREZ2Uk9xdXEteU44Q19ydFhsNUUta19JM2E4MmI2aUJ4SXEzT01wbXMzTl9QMHR5VHhEWGhYSDZtZ0NCNVRvc0FGQ0FqWktjb2VSWGlTQVFvb0pWOEtaR2xyQjl2ZVpXaWlzVWlGRTYtdUgyWlc0ZGN4Z3pFc1A3X2FpbE1wWEdSY2Q2T0NZS2Q2al9ZQTBMTExNWUNySnlROERBbHZ1WWVOdlpESmZZOUhDeGVDaXVXVVpULXMxTGlvbktFWWRNWnFxYVJkQlZFZw?oc=5",
-      "date": "2026.10.09"
-    },
-    {
-      "level": "MEDIUM",
-      "title_kr": "글로벌 레깅스 및 액티브웨어 시장의 지속적 성장세",
-      "title_en": "Continuous Growth in Global Leggings and Activewear Markets",
-      "body_kr": "Driven by rising activewear demand, the global leggings market is recording a steady CAGR, increasing the importance of functional fabric and apparel sourcing.",
-      "action_kr": "소싱 팀은 고성능 액티브웨어 및 레깅스 제작을 위한 기능성 소재 공급망을 다변화하고 단가 경쟁력을 확보하십시오.",
-      "action_en": "Sourcing teams should diversify functional material supply chains and secure cost competitiveness for high-performance activewear and leggings production.",
-      "source": "openPR.com",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSFREdWhvXzZMblhXM3h2b2NHQ215a2VhSVNndHNqblpMejl6bU1xTVoxaTZMMFZhYVZmYXlpQU9PYkNTR1pfWjFYcG5YNEVvc1JnTlA4VG9PTUVpTE93eU4wdGpzV1g0dW1mMFRNbUpqSXRuRXRsMlV6N3NSQTB4WndnNDhqeVNteG5aYXRaQlRYMUZ6TldTb1VuZ2E?oc=5",
       "date": "2026.10.08"
     }
   ]
