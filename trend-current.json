@@ -1,45 +1,57 @@
 {
   "ok": true,
-  "asOf": "2026-10-11T22:01:31.966Z",
-  "generatedDateKST": "2026-10-12",
+  "asOf": "2026-10-12T23:07:00.028Z",
+  "generatedDateKST": "2026-10-13",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "items": [
     {
       "level": "HIGH",
-      "title_kr": "인도 시장 천연섬유 선호도 급증 및 대형 유통 확장",
-      "title_en": "India Natural Fiber Demand Surge & Retail Expansion",
-      "body_kr": "인도 소비자 중 85%가 천연섬유 제품에 더 많은 비용을 지불할 의향이 있는 것으로 나타났으며, 주요 패션 브랜드들의 대규모 매장 확장이 이어지고 있습니다.",
-      "body_en": "85 percent of Indian shoppers are willing to pay more for natural fibers, coinciding with rapid retail expansion by major fashion players across the market.",
-      "action_kr": "인도 및 남아시아 바이어 대상 소싱 제안 시 오가닉 코튼 및 천연섬유 혼방 소재 중심의 프리미엄 라인업을 강화하십시오.",
-      "action_en": "Strengthen organic cotton and natural fiber blended premium product lines when pitching sourcing proposals to South Asian buyers.",
-      "source": "Retail News Asia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdUJqcmVvNTYxMjNNYWd5RG1NR3hOdlllRkotaG9QaDE1eVZBWE1WUkYtTTF1bVVxWkxQV1pvSy1hVWRSLTFzQ2k2bW1OeW9QZEEtdmlxMWFDeHFkaVFuYi1rRE1aOE9JaDVjM2FVTHJkRjl4eVBRWFVRNDZCdEM0SnJSemhQOTRkTDI5TWY2MA?oc=5",
-      "date": "2026.10.11"
+      "title_kr": "중앙아메리카 니어쇼어링 구조적 제약 심화 속 바이어 동향 대응",
+      "title_en": "Navigating Central America's Structural Constraints in Nearshoring",
+      "body_kr": "RANE Worldview 보고서에 따르면 중미 지역의 인구통계학적 이점이 심각한 구조적 제약에 의해 상쇄되고 있어, 현지 소싱 안정성에 차질이 발생할 수 있습니다.",
+      "body_en": "According to RANE Worldview, Central America's demographic advantages are being outweighed by structural constraints in nearshoring, posing risks to regional sourcing reliability.",
+      "action_kr": "영업 및 소싱팀은 중미산 물량의 리스크를 재평가하고 한국 본사의 아시아 생산기지(베트남·인도네시아 등)로의 대안 제안을 준비하십시오.",
+      "action_en": "Sales and sourcing teams should reassess volume risks in Central America and prepare alternative sourcing proposals leveraging Asian manufacturing hubs.",
+      "source": "RANE Worldview",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMVJzQXhveVNwbFljOTNrWHNjTEZZQnY1dDdCdTUyZEFwMDYyQ3NwT0l5bFZ5WWtoSnJySXltaHNqVHdkNGJWSzJaRWRoQ3JFN2dkTld1a21ZQV9OWVNjYTVlQjBxeVV1bDd3ekVVZEdNRHg2dUxOME5NZmxBNmt4Q0V2VkRDSkVkMFJCblVrME50R2dFNUZvSFZyZVB3cWo0VllQVGlmU25zVENjcDFaakU3eEUyd3hqY1NKTi1LbGx2SDBYQ1pONnRLNlJ4bVZsODNlT2ZWWGhIQnN3NkpoYUZqY2hmMlk4QlUyc3V2bm5qUHVWT1RKcGl3VTA5MmtB?oc=5",
+      "date": "2026.10.08"
     },
     {
       "level": "MEDIUM",
-      "title_kr": "메이시스(Macy's) 옴니채널 및 AI 기반 디지털 역량 강화",
-      "title_en": "Macy's Expands Omnichannel & AI Digital Capabilities",
-      "body_kr": "메이시스의 디지털 및 옴니채널 전략이 AI 기술 도입과 함께 탄력을 받으며 온라인 판매 구조를 개선하고 있습니다.",
-      "body_en": "Macy's digital push is gaining traction as AI and omnichannel efforts expand, streamlining their retail and online fulfillment processes.",
-      "action_kr": "디지털 재고 연동 및 신속한 풀필먼트 대응이 가능한 프로세스를 점검하고 바이어의 물류 효율화 요구에 선제적으로 대응하십시오.",
-      "action_en": "Audit digital inventory integration and fast fulfillment capabilities to proactively meet buyer logistics and efficiency demands.",
+      "title_kr": "메이시스(Macy's), AI 및 옴니채널 디지털 푸시 가속화",
+      "title_en": "Macy's Accelerates Digital Push with AI and Omnichannel Expansion",
+      "body_kr": "메이시스는 AI와 옴니채널 역량을 강화하며 디지털 부문에서 성장세를 보이고 있어 상품 소싱 및 온라인 맞춤형 제품에 대한 수요가 변화하고 있습니다.",
+      "body_en": "Macy's is expanding its digital push by leveraging AI and omnichannel capabilities, shifting demand dynamics for digital-first apparel merchandise.",
+      "action_kr": "메이시스 담당 영업팀은 AI 기반 온라인 판매 트렌드에 발맞추어 신속한 리드타임과 디지털 친화적 상품 구성을 제안하십시오.",
+      "action_en": "Macy's account sales teams should propose fast lead times and digitally-optimized product assortments aligned with their AI-driven retail push.",
       "source": "TradingView",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZDRUZXlDV0JzU2FqUElwSFphSEdCRVVKMHJub0JfMmZrQjdWS3FIbkJGbUE1NVhlWVJRQ2dSdEVPU0twUGtIQXFIYzdwTzNTRnc4bEJJa2FrVTQxWG5KRWRvVzBpYnZyNVpDNVVxWDlPaXRTRkllMkIyMFFoRjAtYjloTVN1c05qMW1UMTk0LTcxZkpQZkFxc0NyTjdtaTZUNVBzZUZYXzRHck9ULVh2UFpyTkxORFhVNjZNZWk4NzM?oc=5",
       "date": "2026.09.29"
     },
     {
       "level": "MEDIUM",
-      "title_kr": "중미(Central America) 니어쇼어링 트렌드 및 구조적 제약 요인",
-      "title_en": "Central America Nearshoring Dynamics and Constraints",
-      "body_kr": "중미 지역이 미국 무역 환경 변화 속에서 니어쇼어링 수혜를 입고 있으나, 인프라 등 구조적 제약이 여전히 존재합니다.",
-      "body_en": "Central America is gaining ground in US nearshoring, though structural constraints continue to weigh on long-term capacity expansion.",
-      "action_kr": "아시아 벤더로서 리드타임 단축 및 고부가가치 제품 차별화를 통해 중미 Sourcing과의 경쟁 우위를 유지하십시오.",
-      "action_en": "Maintain competitive advantages against Central American sourcing by emphasizing shorter lead times and high-value product differentiation.",
-      "source": "RANE Worldview",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMVJzQXhveVNwbFljOTNrWHNjTEZZQnY1dDdCdTUyZEFwMDYyQ3NwT0l5bFZ5WWtoSnJySXltaHNqVHdkNGJWSzJaRWRoQ3JFN2dkTld1a21ZQV9OWVNjYTVlQjBxeVV1bDd3ekVVZEdNRHg2dUxOME5NZmxBNmt4Q0V2VkRDSkVkMFJCblVrME50R2dFNUZvSFZyZVB3cWo0VllQVGlmU25zVENjcDFaakU3eEUyd3hqY1NKTi1LbGx2SDBYQ1pONnRLNlJ4bVZsODNlT2ZWWGhIQnN3NkpoYUZqY2hmMlk4QlUyc3V2bm5qUHVWT1RKcGl3VTA5MmtB?oc=5",
-      "date": "2026.10.08"
+      "title_kr": "인도 시장 천연섬유 선호도 급증에 따른 프리미엄 소싱 전략",
+      "title_en": "Surging Indian Demand for Natural Fibers Drives Premium Sourcing",
+      "body_kr": "소매 시장 조사에 따르면 인도 쇼핑객의 85%가 천연섬유 제품에 대해 더 높은 가격을 지불할 의향이 있는 것으로 나타나 프리미엄 소재 수요가 커지고 있습니다.",
+      "body_en": "Retail research shows that 85 percent of Indian shoppers will pay more for natural fibers, signaling a strong shift toward premium material sourcing.",
+      "action_kr": "머천다이징 팀은 인도 및 신흥 시장을 겨냥한 천연섬유 및 친환경 혼방 소재의 코스팅 및 제안 라인업을 강화하십시오.",
+      "action_en": "Merchandising teams should strengthen costing and styling lineups featuring natural fibers and eco-friendly blends tailored for growing emerging markets.",
+      "source": "Retail News Asia",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdUJqcmVvNTYxMjNNYWd5RG1NR3hOdlllRkotaG9QaDE1eVZBWE1WUkYtTTF1bVVxWkxQV1pvSy1hVWRSLTFzQ2k2bW1OeW9QZEEtdmlxMWFDeHFkaVFuYi1rRE1aOE9JaDVjM2FVTHJkRjl4eVBRWFVRNDZCdEM0SnJSemhQOTRkTDI5TWY2MA?oc=5",
+      "date": "2026.10.11"
+    },
+    {
+      "level": "MEDIUM",
+      "title_kr": "질단 액티브웨어(Gildan), 의류 수요 회복 속 시장 모멘텀 강화",
+      "title_en": "Gildan Activewear Gains Momentum Amid Apparel Demand Recovery",
+      "body_kr": "질단 액티브웨어는 의류 수요 회복세와 탄탄한 운영 전략에 힘입어 시장 입지를 확대하고 있으며, 베이직 및 액티브웨어 부문의 공급망 안정성이 부각되고 있습니다.",
+      "body_en": "Gildan Activewear is strengthening market momentum supported by apparel demand recovery and operational strategies, highlighting the need for stable basic and activewear supply chains.",
+      "action_kr": "영업팀은 액티브웨어 및 베이직 카테고리의 원가 경쟁력과 대량 생산 능력을 강조하여 바이어 수주 확대를 도모하십시오.",
+      "action_en": "Sales teams should leverage cost competitiveness and high-volume production capabilities in basic and activewear categories to secure buyer orders.",
+      "source": "kalkine.ca",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOempVWTktbklwbXF1eW1ESGNZZWdVYVMtcUwzZ0d4cDUyQjgxTGs0cG5uM0RtREJVNUJJTjc2MmQ3RlVZRnQ2N2dfdndXMmUtZ2x6MHJxMlNyVi15STBlSWVtY1A4Rnl4ejI5YU1lRndmZUg1akFBWV9TZnUtOUpsQ2o1clhmb2JEckkzSGZ3R2lkQjRvV1dDNWVkdVhqbHZVZk5lMkY1QXlwSVhtYUxIOGE1RnBiX3ZlQ2RxaU96azJIc2xpX3d5Zy01Y25JNFpNRTBIZmYtLTBOS1lDOVl6UUxkR0Q0Z2tZcElLOXBtVmwwZjQ?oc=5",
+      "date": "2026.09.29"
     }
   ]
 }
