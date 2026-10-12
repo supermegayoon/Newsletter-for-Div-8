@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "asOf": "2026-10-11T23:01:03.334Z",
+  "generatedDateKST": "2026-10-12",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-10-12",
+  "insight": {
+    "headline": {
+      "kr": "콜스 실적 방어용 가격 인하 단행, 어바렐앤피치는 연속 성장세 속 애슬레저 category 강화",
+      "en": "Kohl's Drops Prices to Defend Demand, While A&F Continues Growth Momentum with Athleisure Expansion"
+    },
+    "summary": {
+      "kr": "2026년 10월 12일 기준, 미국 의류 시장은 소비자 수요 둔화에 대응하여 Kohl's의 주요 품목 가격 인하 및 promotion 확대가 진행되는 한편, A&F는 지속적인 실적 호조와 브랜드 콜라보를 통해 강세를 이어가고 있습니다. 당사 영업팀은 브랜드별 가격 경쟁력 점검과 신규 sourcing 기회 발굴에 집중해야 합니다.",
+      "en": "As of October 12, 2026, the U.S. apparel market sees Kohl's cutting prices on key items and expanding promotions to counter softening consumer demand, while A&F maintains robust performance and expands activewear collaborations. The vendor sales team must closely monitor category pricing dynamics and pursue targeted sourcing opportunities."
+    },
+    "tags": [
+      "#KohlsPricing",
+      "#ANFGrowth",
+      "#MacysFulfillment",
+      "#ApparelSourcing"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "소비자 수요 둔화 대응을 위해 Deal Days promotion과 key item price drop을 단행하고 있으며, 베이비즈러스(Babies“R”Us) 숍인숍 확대로 유아동 category를 강화하고 있어 원가 경쟁력과 신규 유아복 sourcing 제안이 중요합니다.",
+        "en": "Kohl's is lowering prices on key items and expanding Deal Days promotions to counter fading consumer demand while expanding Babies“R”Us shop-in-shops, making cost competitiveness and infant apparel proposals crucial."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "15개 분기 연속 순매출 성장을 기록하며 견조한 흐름을 보이는 중이며, 피트니스 브랜드 배리스(Barry's)와의 퍼포먼스 콜라보를 통해 애슬레저 라인업을 적극 확장하고 있어 기술적 소재 벤치마킹이 필요합니다.",
+        "en": "A&F achieved 15 consecutive quarters of net sales growth and is expanding its activewear lineup through a performance collaboration with Barry's, requiring technical fabric benchmarking."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "DoorDash와의 on-demand delivery Partnership 확장 및 마이애미 지역 Holiday 시즌 대규모 매장 채용을 개시하며 옴니채널 물류와 offline 재고 소진 준비에 주력하고 있습니다.",
+        "en": "Macy's is expanding its omnichannel fulfillment via DoorDash and initiating large-scale holiday store hiring in Miami, focusing on quick delivery capabilities and offline inventory sell-through prep."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "A&F의 배리스 콜라보 및 YPB activewear 라인의 성공적인 런칭에 발맞추어, 고기능성 activewear 및 차별화된 애슬레저 스타일 제안서 준비",
+        "en": "Align with A&F's successful Barry's collaboration and YPB activewear momentum by preparing high-performance activewear and differentiated athleisure style proposals."
+      },
+      {
+        "kr": "Kohl's의 베이비즈러스 숍인숍 매장 확대 전략을 겨냥한 신규 유아용 아패럴 및 기프트 category sourcing 아이템 선제 제안",
+        "en": "Proactively pitch new infant apparel and gifting category sourcing options targeting Kohl's's expanded Babies“R”Us shop-in-shop store network."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "소비자 수요 둔화로 인해 Kohl's 등 주요 retail러들이 가격 인하 및 promotion 압박을 받고 있어, 벤더사의 margin 방어 및 원가 절감 요구가 거세질 수 있음.",
+      "en": "Soften consumer demand is prompting retailers like Kohl's to lower prices and expand promotions, increasing margin defense and cost-down pressures on vendor partners."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Kohl's의 최근 Price Drop 및 Deal Days promotion 확대에 따른 당사 공급 품목의 margin 영향 분석 및 대응 전략 수립",
+        "en": "Analyze the margin impact of Kohl's's recent price drops and expanded Deal Days promotions on current vendor styles and formulate a defense strategy."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "A&F의 YPB 및 퍼포먼스 activewear의 소재 구성과 봉제 디테일을 분석하여 차기 바잉 시즌 신규 제안서에 반영",
+        "en": "Analyze the fabric composition and construction details of A&F's YPB and performance activewear to incorporate into upcoming buyer proposals."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "Macy's의 Holiday 시즌 온offline 재고 소진 스케줄에 맞추어 샘플 납기 및 물류 배송 일정 점검",
+        "en": "Review sample lead times and shipping schedules in alignment with Macy's holiday season online and offline inventory sell-through timeline."
+      }
+    ]
+  }
+}
