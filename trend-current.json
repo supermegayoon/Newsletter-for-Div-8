@@ -1,57 +1,45 @@
 {
   "ok": true,
-  "asOf": "2026-10-12T23:07:00.028Z",
-  "generatedDateKST": "2026-10-13",
+  "asOf": "2026-10-13T23:16:07.310Z",
+  "generatedDateKST": "2026-10-14",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "items": [
     {
       "level": "HIGH",
-      "title_kr": "중앙아메리카 니어쇼어링 구조적 제약 심화 속 바이어 동향 대응",
-      "title_en": "Navigating Central America's Structural Constraints in Nearshoring",
-      "body_kr": "RANE Worldview 보고서에 따르면 중미 지역의 인구통계학적 이점이 심각한 구조적 제약에 의해 상쇄되고 있어, 현지 소싱 안정성에 차질이 발생할 수 있습니다.",
-      "body_en": "According to RANE Worldview, Central America's demographic advantages are being outweighed by structural constraints in nearshoring, posing risks to regional sourcing reliability.",
-      "action_kr": "영업 및 소싱팀은 중미산 물량의 리스크를 재평가하고 한국 본사의 아시아 생산기지(베트남·인도네시아 등)로의 대안 제안을 준비하십시오.",
-      "action_en": "Sales and sourcing teams should reassess volume risks in Central America and prepare alternative sourcing proposals leveraging Asian manufacturing hubs.",
-      "source": "RANE Worldview",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMVJzQXhveVNwbFljOTNrWHNjTEZZQnY1dDdCdTUyZEFwMDYyQ3NwT0l5bFZ5WWtoSnJySXltaHNqVHdkNGJWSzJaRWRoQ3JFN2dkTld1a21ZQV9OWVNjYTVlQjBxeVV1bDd3ekVVZEdNRHg2dUxOME5NZmxBNmt4Q0V2VkRDSkVkMFJCblVrME50R2dFNUZvSFZyZVB3cWo0VllQVGlmU25zVENjcDFaakU3eEUyd3hqY1NKTi1LbGx2SDBYQ1pONnRLNlJ4bVZsODNlT2ZWWGhIQnN3NkpoYUZqY2hmMlk4QlUyc3V2bm5qUHVWT1RKcGl3VTA5MmtB?oc=5",
-      "date": "2026.10.08"
-    },
-    {
-      "level": "MEDIUM",
-      "title_kr": "메이시스(Macy's), AI 및 옴니채널 디지털 푸시 가속화",
-      "title_en": "Macy's Accelerates Digital Push with AI and Omnichannel Expansion",
-      "body_kr": "메이시스는 AI와 옴니채널 역량을 강화하며 디지털 부문에서 성장세를 보이고 있어 상품 소싱 및 온라인 맞춤형 제품에 대한 수요가 변화하고 있습니다.",
-      "body_en": "Macy's is expanding its digital push by leveraging AI and omnichannel capabilities, shifting demand dynamics for digital-first apparel merchandise.",
-      "action_kr": "메이시스 담당 영업팀은 AI 기반 온라인 판매 트렌드에 발맞추어 신속한 리드타임과 디지털 친화적 상품 구성을 제안하십시오.",
-      "action_en": "Macy's account sales teams should propose fast lead times and digitally-optimized product assortments aligned with their AI-driven retail push.",
-      "source": "TradingView",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZDRUZXlDV0JzU2FqUElwSFphSEdCRVVKMHJub0JfMmZrQjdWS3FIbkJGbUE1NVhlWVJRQ2dSdEVPU0twUGtIQXFIYzdwTzNTRnc4bEJJa2FrVTQxWG5KRWRvVzBpYnZyNVpDNVVxWDlPaXRTRkllMkIyMFFoRjAtYjloTVN1c05qMW1UMTk0LTcxZkpQZkFxc0NyTjdtaTZUNVBzZUZYXzRHck9ULVh2UFpyTkxORFhVNjZNZWk4NzM?oc=5",
-      "date": "2026.09.29"
-    },
-    {
-      "level": "MEDIUM",
-      "title_kr": "인도 시장 천연섬유 선호도 급증에 따른 프리미엄 소싱 전략",
-      "title_en": "Surging Indian Demand for Natural Fibers Drives Premium Sourcing",
-      "body_kr": "소매 시장 조사에 따르면 인도 쇼핑객의 85%가 천연섬유 제품에 대해 더 높은 가격을 지불할 의향이 있는 것으로 나타나 프리미엄 소재 수요가 커지고 있습니다.",
-      "body_en": "Retail research shows that 85 percent of Indian shoppers will pay more for natural fibers, signaling a strong shift toward premium material sourcing.",
-      "action_kr": "머천다이징 팀은 인도 및 신흥 시장을 겨냥한 천연섬유 및 친환경 혼방 소재의 코스팅 및 제안 라인업을 강화하십시오.",
-      "action_en": "Merchandising teams should strengthen costing and styling lineups featuring natural fibers and eco-friendly blends tailored for growing emerging markets.",
-      "source": "Retail News Asia",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdUJqcmVvNTYxMjNNYWd5RG1NR3hOdlllRkotaG9QaDE1eVZBWE1WUkYtTTF1bVVxWkxQV1pvSy1hVWRSLTFzQ2k2bW1OeW9QZEEtdmlxMWFDeHFkaVFuYi1rRE1aOE9JaDVjM2FVTHJkRjl4eVBRWFVRNDZCdEM0SnJSemhQOTRkTDI5TWY2MA?oc=5",
+      "title_kr": "60개 무역 파트너 대상 트럼프 관세 부과 예고에 따른 소싱 다변화",
+      "title_en": "Trump's Sweeping Tariffs on 60 Trade Partners Require Sourcing Diversification",
+      "body_kr": "트럼프 전 미국 대통령이 60개 무역 파트너를 상대로 광범위한 관세 부과를 추진하면서 의류 및 텍스타일 소싱 비용에 중대한 불확실성이 발생했습니다.",
+      "body_en": "Trump is set to impose sweeping tariffs on 60 trade partners, creating major uncertainty for apparel and textile sourcing costs and vendor margins.",
+      "action_kr": "영향권 국가들의 관세 인상 시나리오에 대비해 베트남·인도 등 대체 생산지의 Sourcing Cap을 점검하고 Costing 구조를 재검토하세요.",
+      "action_en": "Audit sourcing capacities in alternative hubs like Vietnam and India, and review costing structures against potential tariff hikes.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa1BDcjdFRHFWaGlkYlMzZi1ZY2hCaVR5dGRpalctVTI1Q2poOGxFcXZqdmZfX2lqaVZxRmo3MWZIZ2ZUU0xCMm44OFdibDRCNF9BOVNmT1VHNURxR0tabkNtaVdoNTRaTW81cVIyVUdvanhBUS1rX3pEZFdyQmNSbDVDa0VMM2tPVGhYbDkwR1VhcUJJTDJXVmhNZVVVNi1L0gGmAUFVX3lxTE5UdFo2TDl4c1R2ZWRuX1ZxbTA3UmdwQnlrbVh1OXUyd1pucVlQS2dqY2VsbnRNSGt3WWljNkZ3V2kySmZNUzJ4WVBaT2NXSGRuUFlqRmx1UXNzSlEwZkV1MGRWVWxNbHdBcnY3Vm9CMVFqSWZxdnI3TkZqbWxValByNzBMRWxBR3BraFBtbEVuUFBvNDNpUVNBdWVkN3V6enc1YjlIWXc?oc=5",
       "date": "2026.10.11"
     },
     {
       "level": "MEDIUM",
-      "title_kr": "질단 액티브웨어(Gildan), 의류 수요 회복 속 시장 모멘텀 강화",
-      "title_en": "Gildan Activewear Gains Momentum Amid Apparel Demand Recovery",
-      "body_kr": "질단 액티브웨어는 의류 수요 회복세와 탄탄한 운영 전략에 힘입어 시장 입지를 확대하고 있으며, 베이직 및 액티브웨어 부문의 공급망 안정성이 부각되고 있습니다.",
-      "body_en": "Gildan Activewear is strengthening market momentum supported by apparel demand recovery and operational strategies, highlighting the need for stable basic and activewear supply chains.",
-      "action_kr": "영업팀은 액티브웨어 및 베이직 카테고리의 원가 경쟁력과 대량 생산 능력을 강조하여 바이어 수주 확대를 도모하십시오.",
-      "action_en": "Sales teams should leverage cost competitiveness and high-volume production capabilities in basic and activewear categories to secure buyer orders.",
-      "source": "kalkine.ca",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOempVWTktbklwbXF1eW1ESGNZZWdVYVMtcUwzZ0d4cDUyQjgxTGs0cG5uM0RtREJVNUJJTjc2MmQ3RlVZRnQ2N2dfdndXMmUtZ2x6MHJxMlNyVi15STBlSWVtY1A4Rnl4ejI5YU1lRndmZUg1akFBWV9TZnUtOUpsQ2o1clhmb2JEckkzSGZ3R2lkQjRvV1dDNWVkdVhqbHZVZk5lMkY1QXlwSVhtYUxIOGE1RnBiX3ZlQ2RxaU96azJIc2xpX3d5Zy01Y25JNFpNRTBIZmYtLTBOS1lDOVl6UUxkR0Q0Z2tZcElLOXBtVmwwZjQ?oc=5",
-      "date": "2026.09.29"
+      "title_kr": "GLP-1 체중 감량제 확산에 따른 스키니진 및 의류 핏 재조정",
+      "title_en": "Skinny Jeans Comeback in GLP-1 Era Requires Fit and Silhouette Adjustments",
+      "body_kr": "GLP-1 체중 감량 제제 확산 영향으로 의류 시장에서 스키니진 등 밀착 핏 트렌드가 다시 부상하고 있습니다.",
+      "body_en": "Driven by GLP-1 users, skinny jeans and form-fitting silhouettes are making a notable comeback, forcing retailers to rethink merchandising.",
+      "action_kr": "머천다이징 팀은 슬림 핏 및 스키니 데님 제품군 비중을 확대하고 패턴 및 사이즈 스펙을 재검토하세요.",
+      "action_en": "Merchandising teams should increase the share of slim-fit and skinny denim lines and update sizing specs accordingly.",
+      "source": "LAmag",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NbWVhRzBSVHN0STBTd0dfS2FaMXp2ZTZ1WjAxWENPeTkxWGV5ODJIWkxCU21tWlNTLXFyZ1NNazdMVGZoUTQyc2xKOXRFaHUxMVJmTVFHTzhoay1lTVJ3RndlWEtqNFVOeDBuUS1USUptMDdheVR3?oc=5",
+      "date": "2026.10.13"
+    },
+    {
+      "level": "MEDIUM",
+      "title_kr": "V마트 리테일, 비용 압박으로 Q3 가격 인상 검토",
+      "title_en": "V-Mart Retail Eyes Q3 Price Hikes Amid Cost Pressures",
+      "body_kr": "V마트 리테일이 지속되는 원가 상승 압박에 대응하기 위해 2027 회계연도 3분기 중 가격 인상을 추진하고 있습니다.",
+      "body_en": "V-Mart Retail is eyeing price hikes in Q3FY27 to combat mounting cost pressures, reflecting broader margin preservation strategies.",
+      "action_kr": "영업 팀은 바이어의 가격 인상 방침에 따른 오더 물량 변동을 모니터링하고 가성비 소싱 제안을 준비하세요.",
+      "action_en": "Sales teams should monitor order volume shifts following buyer price increases and prepare value-driven sourcing alternatives.",
+      "source": "Indian Retailer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRnJscUxIY2JSajNPRkVfd2pvQ1hqdS1aaXlYSTczb0FlUTh2cFRyeHUwaHNzZ2N4UnFaZHBPbXphaS1MNEJhWUVsOFdRdjhtM0dNVnhjcTcteTlaUzBDeC1HVVk1NHJIOEJaN2NfRUtqM2FOOHlseGRvR2ZOd2RYSzdLNHhVWERhMC1TRkg5cDdnWnNaRTN3?oc=5",
+      "date": "2026.10.09"
     }
   ]
 }
