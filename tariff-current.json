@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-10-12T07:55:57.673Z",
+  "asOf": "2026-10-13T08:52:25.900Z",
   "basis": "APPAREL MODE: current effective duty treatment for qualifying apparel; FTA/preference base duty reflected.",
   "mode": "APPAREL",
   "refreshStatus": "VERIFIED",
@@ -48,8 +48,8 @@
       "apparelEffectiveRate": 10,
       "currentAdditionalRate": 10,
       "status": "CURRENT",
-      "currentLabelKr": "의류 기준 Section 301 +10% · Textile/Apparel TRQ 메커니즘은 2026년 9월 1일 시행 예정으로 현재 PENDING",
-      "currentLabelEn": "Apparel Section 301 +10% · textile/apparel TRQ mechanism pending official implementation on September 1, 2026",
+      "currentLabelKr": "의류 기준 Section 301 +10% · Textile/Apparel TRQ 메커니즘은 2026년 9월 1일 시행 예정이었으나 현재 발효 시점 관련 추가 공지 필요 (PENDING)",
+      "currentLabelEn": "Apparel Section 301 +10% · textile/apparel TRQ mechanism pending official implementation notice",
       "components": [
         {
           "name": "Forced Labor Section 301 Duty",
@@ -69,8 +69,8 @@
       "trq": {
         "status": "PENDING",
         "effectiveDate": "2026-09-01",
-        "noteKr": "섬유 및 의류 TRQ는 2026년 9월 1일 시행 예정으로 현재 PENDING",
-        "noteEn": "Textile and apparel TRQs are pending implementation by September 1, 2026"
+        "noteKr": "섬유 및 의류 TRQ 메커니즘은 공식 시행 시점 확인 필요",
+        "noteEn": "Textile and apparel TRQ mechanism pending official implementation verification"
       },
       "pending": [
         {
@@ -97,8 +97,8 @@
       "apparelEffectiveRate": 10,
       "currentAdditionalRate": 10,
       "status": "CURRENT",
-      "currentLabelKr": "의류 기준 Section 301 +10% · Textile/Apparel TRQ 메커니즘은 2026년 9월 1일 시행 예정으로 현재 PENDING",
-      "currentLabelEn": "Apparel Section 301 +10% · textile/apparel TRQ mechanism pending official implementation on September 1, 2026",
+      "currentLabelKr": "의류 기준 Section 301 +10% · Textile/Apparel TRQ 메커니즘은 시행 시점 공식 공지 전까지 PENDING",
+      "currentLabelEn": "Apparel Section 301 +10% · textile/apparel TRQ mechanism pending official implementation",
       "components": [
         {
           "name": "Forced Labor Section 301 Duty",
@@ -118,8 +118,8 @@
       "trq": {
         "status": "PENDING",
         "effectiveDate": "2026-09-01",
-        "noteKr": "섬유 및 의류 TRQ는 2026년 9월 1일 시행 예정으로 현재 PENDING",
-        "noteEn": "Textile and apparel TRQs are pending implementation by September 1, 2026"
+        "noteKr": "섬유 및 의류 TRQ 메커니즘은 공식 시행 공지 전까지 PENDING",
+        "noteEn": "Textile and apparel TRQs are pending official implementation notice"
       },
       "pending": [
         {
@@ -146,8 +146,8 @@
       "apparelEffectiveRate": 10,
       "currentAdditionalRate": 10,
       "status": "CURRENT",
-      "currentLabelKr": "의류 기준 Section 301 +10% · Textile/Apparel TRQ 메커니즘은 2026년 9월 1일 시행 예정으로 현재 PENDING",
-      "currentLabelEn": "Apparel Section 301 +10% · textile/apparel TRQ mechanism pending official implementation on September 1, 2026",
+      "currentLabelKr": "의류 기준 Section 301 +10% · Textile/Apparel TRQ 메커니즘은 시행 시점 공식 공지 전까지 PENDING",
+      "currentLabelEn": "Apparel Section 301 +10% · textile/apparel TRQ mechanism pending official implementation",
       "components": [
         {
           "name": "Forced Labor Section 301 Duty",
@@ -167,8 +167,8 @@
       "trq": {
         "status": "PENDING",
         "effectiveDate": "2026-09-01",
-        "noteKr": "섬유 및 의류 TRQ는 2026년 9월 1일 시행 예정으로 현재 PENDING",
-        "noteEn": "Textile and apparel TRQs are pending implementation by September 1, 2026"
+        "noteKr": "섬유 및 의류 TRQ는 공식 시행 공지 전까지 PENDING",
+        "noteEn": "Textile and apparel TRQs are pending official implementation notice"
       },
       "pending": [
         {
