@@ -1,0 +1,114 @@
+{
+  "ok": true,
+  "generatedDateKST": "2026-10-13",
+  "asOf": "2026-10-12T23:01:15.839Z",
+  "schedule": "Mon-Fri 08:00 KST",
+  "windowDays": 7,
+  "analysisMode": "GEMINI",
+  "buyers": [
+    {
+      "buyer": "Kohl's",
+      "competitionLevel": "LOW",
+      "keyTakeaway": {
+        "kr": "제공된 최근 7일간의 증거가 없어 경쟁 활동을 파악할 수 없습니다.",
+        "en": "No competitive activity can be identified as no evidence was provided for the last 7 days."
+      },
+      "competitors": []
+    },
+    {
+      "buyer": "A&F / Hollister",
+      "competitionLevel": "LOW",
+      "keyTakeaway": {
+        "kr": "제공된 최근 7일간의 증거가 없어 경쟁 활동을 파악할 수 없습니다.",
+        "en": "No competitive activity can be identified as no evidence was provided for the last 7 days."
+      },
+      "competitors": []
+    },
+    {
+      "buyer": "Macy's",
+      "competitionLevel": "LOW",
+      "keyTakeaway": {
+        "kr": "제공된 최근 7일간의 증거가 없어 경쟁 활동을 파악할 수 없습니다.",
+        "en": "No competitive activity can be identified as no evidence was provided for the last 7 days."
+      },
+      "competitors": []
+    },
+    {
+      "buyer": "Ann Taylor",
+      "competitionLevel": "LOW",
+      "keyTakeaway": {
+        "kr": "제공된 최근 7일간의 증거가 없어 경쟁 활동을 파악할 수 없습니다.",
+        "en": "No competitive activity can be identified as no evidence was provided for the last 7 days."
+      },
+      "competitors": []
+    },
+    {
+      "buyer": "Talbot's",
+      "competitionLevel": "LOW",
+      "keyTakeaway": {
+        "kr": "제공된 최근 7일간의 증거가 없어 경쟁 활동을 파악할 수 없습니다.",
+        "en": "No competitive activity can be identified as no evidence was provided for the last 7 days."
+      },
+      "competitors": []
+    }
+  ],
+  "socialPulse": {
+    "ok": true,
+    "generatedDateKST": "2026-10-13",
+    "windowDays": 14,
+    "analysisMode": "GEMINI",
+    "brands": [
+      "Kohl's",
+      "A&F / Hollister",
+      "Macy's"
+    ],
+    "items": [
+      {
+        "brand": "A&F / Hollister",
+        "platform": "LinkedIn",
+        "signal": "COLLAB",
+        "date": "RECENT",
+        "headline": {
+          "kr": "YPB by Abercrombie, 배리스(Barry's)와 피트니스 콜라보레이션 런칭",
+          "en": "YPB by Abercrombie Partners with Barry's for New Activewear Collection"
+        },
+        "summary": {
+          "kr": "아베크롬비의 액티브웨어 라인인 YPB가 피트니스 스튜디오 배리스(Barry's)와 협업하여 기능성 소재와 대담한 레드 악센트를 적용한 퍼포먼스 컬렉션을 선보였습니다.",
+          "en": "Abercrombie's YPB activewear line teamed up with Barry's fitness studios to launch a co-designed performance collection featuring technical fabrics and bold red accents inspired by the iconic Red Room."
+        },
+        "whyItMatters": {
+          "kr": "애슬레저 및 짐웨어(Gym-wear) 카테고리의 지속적인 시장 수요를 보여주며, 피트니스 브랜드와의 파트너십을 통해 기능성 원단 및 테크니컬 디자인 역량이 더욱 중요해지고 있음을 시사합니다.",
+          "en": "It highlights the continued strong demand in the athleisure and gym-wear category, signaling that technical fabrics, performance specs, and fitness brand partnerships are key drivers for growth."
+        },
+        "action": {
+          "kr": "YPB의 최신 피트니스 협업 제품에 사용된 기능성 원단 스펙과 봉제 사양을 분석하고, 당사 퍼포먼스 라인 제안 시 벤치마킹 자료로 활용한다.",
+          "en": "Analyze the technical fabric specs and construction details of YPB's latest fitness collaboration items and use them as benchmarking references for our upcoming performance line proposals."
+        },
+        "sourceUrl": "https://www.linkedin.com/company/abercrombie-%26-fitch/"
+      },
+      {
+        "brand": "Macy's",
+        "platform": "LinkedIn",
+        "signal": "CAMPAIGN",
+        "date": "RECENT",
+        "headline": {
+          "kr": "블루밍데일즈, 리츠칼튼과 손잡고 '호텔 블루밍데일즈' 가을 캠페인 전개",
+          "en": "Bloomingdale's Launches 'Hotel Bloomingdale's' Fall Campaign with The Ritz-Carlton"
+        },
+        "summary": {
+          "kr": "블루밍데일즈가 5성급 호텔의 럭셔리한 경험에서 영감을 받은 가을 캠페인 '호텔 블루밍데일즈'를 런칭하고, 독점 AQUA x 니키 힐튼(Nicky Hilton) 캡슐 컬렉션을 포함한 매장 내 몰입형 리테일 경험을 선보였습니다.",
+          "en": "Bloomingdale's launched its fall campaign inspired by a five-star hotel stay, featuring immersive in-store retail experiences and an exclusive 26-piece AQUA x Nicky Hilton capsule collection in partnership with The Ritz-Carlton."
+        },
+        "whyItMatters": {
+          "kr": "백화점 채널에서 단순 상품 진열을 넘어 라이프스타일 경험을 결합한 테마형 캡슐 컬렉션과 인플루언서 협업이 고객 체류 시간 및 구매 전환율을 높이는 핵심 전략으로 작용하고 있습니다.",
+          "en": "It demonstrates that department stores are heavily leveraging themed experiential retail, capsule collections, and influencer partnerships to drive customer engagement and dwell time."
+        },
+        "action": {
+          "kr": "백화점 채널향 캡슐 컬렉션 기획 시, 이와 같은 라이프스타일 스토리텔링 요소와 독점 콜라보레이션 아이디어를 접목한 제안 패키지를 준비한다.",
+          "en": "Prepare a proposal package incorporating lifestyle storytelling elements and exclusive collaboration concepts tailored for department store channel capsule collections."
+        },
+        "sourceUrl": "https://www.linkedin.com/company/macy/"
+      }
+    ]
+  }
+}
