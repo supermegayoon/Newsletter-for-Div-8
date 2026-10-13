@@ -1,80 +1,80 @@
 {
   "ok": true,
-  "asOf": "2026-10-12T23:01:21.247Z",
-  "generatedDateKST": "2026-10-13",
+  "asOf": "2026-10-13T23:01:08.111Z",
+  "generatedDateKST": "2026-10-14",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-10-13",
+  "competitorDateKST": "2026-10-14",
   "insight": {
     "headline": {
-      "kr": "MACY'S·KOHL'S Partnership 및 가격 전략 다변화 속 애슬레저 중심 채널 확장 전략 강화",
-      "en": "Macy's and Kohl's Enhance Channel Strategies via Partnerships and Value-Driven Pricing"
+      "kr": "2026년 10월 14일 8담당 데일리 마켓 브리프: 주요 바이어 Holiday 및 스페셜티 협업 강화 속 경쟁사 동향 점검",
+      "en": "October 14, 2026 - Team 8 Daily Market Brief: Key Buyer Holiday and Specialty Collaborations Amid Intensified Competitor Actions"
     },
     "summary": {
-      "kr": "유통 파트너사들이 shop-in-shop 확장과 가성비 상품군 강화로 traffic 확보에 나서는 한편, 주요 브랜드들은 Collaboration과 캡슐 컬렉션으로 차별화를 꾀하고 있습니다. 환율은 소폭 하락하고 원자재는 안정세를 보이고 있습니다.",
-      "en": "Retail partners are driving traffic through shop-in-shop expansions and value pricing, while major brands leverage collaborations and capsule collections. Exchange rates dipped slightly while commodities remain stable."
+      "kr": "미국 주요 의류 retail러들이 Holiday 시즌 traffic 유치와 category 확장을 위해 독점 IP Collaboration과 activewear를 강화하고 있습니다. 코튼 가격(80.53 센트)과 원·달러 환율(1,334.13원)은 소폭 하락 안정세를 보이고 있으며, 애버크롬비(ANF)는 강력한 실적 모멘텀으로 주가가 3.4% 상승했습니다.",
+      "en": "Major U.S. apparel retailers are ramping up exclusive IP collaborations and activewear lines to capture holiday traffic and expand categories. Cotton prices ($80.53) and USD/KRW (1,334.13) show slight stabilizing declines, while Abercrombie (ANF) shares rose 3.4% on robust sales momentum."
     },
     "tags": [
-      "#Macys",
-      "#Kohls",
-      "#Abercrombie",
-      "#Activewear"
+      "#Team8Daily",
+      "#ApparelSourcing",
+      "#HolidayStrategy",
+      "#RetailIntelligence"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "핵심 상품군 가격 인하와 더불어 프로 스케이터 Greg Lutzka와의 협업 키즈 라인을 론칭하는 등 가성비와 키즈 category 경쟁력 확보에 주력하고 있습니다.",
-        "en": "Kohl's is prioritizing value pricing on key items and strengthening its kids' category through an affordable signature collection with pro skater Greg Lutzka."
+        "kr": "Kohl's is targeting family and kids demographics via kids' skating activewear and Babies“R”Us expansions, but slowing traffic has triggered widespread discounting, emphasizing the need for margin-defending, value-driven proposals.",
+        "en": "Kohl's is targeting family and kids demographics via kids' skating activewear and Babies“R”Us expansions, but slowing traffic has triggered widespread discounting, emphasizing the need for margin-defending, value-driven proposals."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "activewear 라인 YPB가 피트니스 스튜디오 Barry's와의 Collaboration을 통해 기능성 테크니컬 웨어와 퍼포먼스 라인업을 강화하고 있습니다.",
-        "en": "Abercrombie's YPB activewear line is reinforcing its performance offerings through a technical collaboration with fitness studio Barry's."
+        "kr": "피트니스 브랜드 배리스(Barry's)와 YPB Collaboration을 런칭하며 짐투웨어 라인업을 강화하고 있습니다. 15분기 연속 매출 성장세를 바탕으로 공격적인 오더 집행이 예상되므로 철저한 OTD와 FOB 단가 경쟁력이 필수입니다.",
+        "en": "A&F is strengthening its gym-to-wear lineup by launching a YPB collaboration with fitness brand Barry's. Backed by 15 consecutive quarters of sales growth, robust order allocation is expected, making tight OTD and FOB price competitiveness essential."
       },
       {
         "buyer": "Macy's",
-        "kr": "Green Acres 매장 내 Locker Room by Lids 입점 등 shop-in-shop Partnership을 확대하고 운영 효율성 개선으로 신용 전망이 상향되었습니다.",
-        "en": "Macy's expanded shop-in-shop partnerships by opening Locker Room by Lids at Green Acres, while improving operational efficiency and debt outlook."
+        "kr": "땡스기빙 데이 Parade 100주년 기념 헬로키티 exclusive 상품을 공개하며 연말 traffic 선점에 나섰습니다. 경쟁사인 노드스트롬의 단독 캡슐 라인 및 할인 공세에 대응해 당사도 트렌디한 단독 협업 아이템 제안이 필요합니다.",
+        "en": "Macy's unveiled exclusive Hello Kitty merchandise for the 100th Thanksgiving Day Parade to capture year-end traffic. Countering competitor Nordstrom's exclusive capsule drops and promos, our team should propose trendy, exclusive collaboration items."
       }
     ],
     "opportunities": [
       {
-        "kr": "Macy's의 shop-in-shop 및 activewear category 확장에 발맞춘 기능성 의류 및 스포츠 머천다이징 제안 기회 발굴",
-        "en": "Identify opportunities to pitch activewear and sports merchandising aligned with Macy's shop-in-shop expansion strategy."
+        "kr": "A&F의 YPB 및 activewear 라인업 확장 추세에 발맞추어 흡한속건, 고탄력 등 기능성 원단 sourcing 제안서 강화",
+        "en": "Strengthen functional fabric sourcing proposals (moisture-wicking, high stretch) aligning with A&F's expanding YPB and activewear lineups."
       },
       {
-        "kr": "A&F YPB의 Barry's 협업 사례를 벤치마킹하여 퍼포먼스 라인향 고기능성 원단 및 테크니컬 봉제 사양 제안 강화",
-        "en": "Enhance technical fabric and construction proposals for performance lines by benchmarking A&F YPB's Barry's collaboration."
+        "kr": "메이시스의 Holiday IP Collaboration 트렌드에 착안하여 독점 캐릭터 및 라이선스 의류 sourcing 아이템 선제 제안",
+        "en": "Proactively pitch exclusive character and licensed apparel sourcing items, inspired by Macy's holiday IP collaboration trends."
       },
       {
-        "kr": "Kohl's의 가성비 및 키즈 category sourcing 수요에 맞춘 경쟁력 있는 단가 구조의 키즈 시그니처 아이템 개발",
-        "en": "Develop cost-competitive kids' signature items tailored to Kohl's value-driven sourcing requirements."
+        "kr": "콜스 및 중저가 retail러들의 가성비 중심 promotion 기조에 대응하여 원가 절감형 핵심 베이직 스타일 제안 확대",
+        "en": "Expand cost-saving core basic style proposals to match the value-focused promotional stance of Kohl's and mass-market retailers."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "소비 심리 둔화에 따른 주요 유통사의 가격 인하 압박 및 철저한 margin 방어 요구 증대",
-      "en": "Increased pricing pressure from major retailers due to softening consumer demand and heightened margin defense requirements."
+      "kr": "주요 retail러들의 traffic 정체 및 할인 공세 심화로 인한 바이어들의 단가 인하 압박 및 margin 리스크 상존",
+      "en": "Persistent price-cutting pressure and margin risks for vendors driven by intensifying retailer discounting and slowing consumer traffic."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Macy's 내 activewear shop-in-shop 입점 브랜드들의 최근 sourcing 품목 및 가격대 분석 보고서 작성",
-        "en": "Draft an analysis report on recent sourcing items and price points for brands inside Macy's activewear shop-in-shops."
+        "kr": "A&F 오더 확대를 위한 FOB 단가 경쟁력 검토 및 제안서 작성",
+        "en": "Review FOB price competitiveness and draft proposals to secure expanded A&F orders."
       },
       {
         "owner": "Team 8",
-        "kr": "YPB 콜라보 제품군 스펙을 참고하여 당사 퍼포먼스 라인 신규 원단 벤치마킹 샘플 sourcing 진행",
-        "en": "Source benchmark fabric samples for our performance line inspired by YPB's collaboration specs."
+        "kr": "콜스 바이어 대상 유아동 및 가성비 베이직 라인 가을·겨울 추가 sourcing 아이템 발굴",
+        "en": "Identify additional fall/winter sourcing items for kids and value-basic lines targeting Kohl's buyers."
       },
       {
         "owner": "Team 8",
-        "kr": "Kohl's 가격 인하 기조에 대응하기 위한 원가 절감형 키즈 의류 대체 소재 sourcing 검토",
-        "en": "Review cost-saving alternative materials for kids' apparel to align with Kohl's price-cutting retail environment."
+        "kr": "코튼 가격 안정화 추세를 반영한 원단 공급처와의 단가 협상 및 OTD 준수 여부 점검",
+        "en": "Negotiate unit costs with fabric suppliers reflecting stabilizing cotton price trends and verify OTD compliance."
       }
     ]
   }
