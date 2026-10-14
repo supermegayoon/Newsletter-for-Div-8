@@ -1,13 +1,13 @@
 {
   "ok": true,
-  "asOf": "2026-10-13T23:00:34.087Z",
-  "generatedDateKST": "2026-10-14",
+  "asOf": "2026-10-14T23:00:30.593Z",
+  "generatedDateKST": "2026-10-15",
   "schedule": "08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "freshness": {
-    "within72h": 2,
-    "within7d": 4,
+    "within72h": 1,
+    "within7d": 2,
     "total": 4,
     "windowDays": 30
   },
@@ -15,30 +15,29 @@
     {
       "brand": "Macy's",
       "brandLabel": "Macy's",
-      "category_kr": "Collaboration / Event",
-      "category_en": "Collaboration / Event",
-      "date": "2026.10.13",
-      "title_kr": "Macy's, Thanksgiving Day Parade 100주년 기념 exclusive Hello Kitty merchandise 출시",
-      "title_en": "100th Macy's Thanksgiving Day Parade Welcomes Hello Kitty® with Brand New Balloon and Exclusive Product Collection",
-      "body_kr": "Macy's가 Thanksgiving Day Parade 100주년을 맞아 새로운 벌룬과 exclusive Hello Kitty merchandise 라인업을 공개했습니다. 연말 Holiday season을 앞두고 IP Collaboration을 활용한 traffic 유도와 단독 merchandise sourcing 전략에 참고할 필요가 있습니다.",
-      "body_en": "Macy's revealed a new balloon and exclusive Hello Kitty merchandise for the 100th Thanksgiving Day Parade. Vendors should note this IP collaboration strategy for driving holiday traffic and securing exclusive product lines.",
-      "source": "PR Newswire",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPZENIYmFwSkFFdlBSSEg1OW1QbGt0c1ZLWkQxT3NrRzJhQ2lrWjBRamQ5V2staDRmdFJIXzUtdExjcUFJd19Xb05BeHJhc0lPNFNKbnExaW9NZmZKZEE3dEo5U3U4bTFERV92U0E4b1YtZnlVZFNFN0Z0WnJSSkRYUzExLWl3ajlzZjlLYlRXdE5yQUFtYVQzVXpYaXFPZ05lV01uRFBGbW5hemZieTdWZFI5bEcwS1pFVHdMWmdsQ3RWeUpLNlZneDhhczE4V193djFVZHFwcjZpWkR3aU40Z0tBMjBVaC1Ca0pibUtIb3RPdUtUY1d3VURLZDY?oc=5",
-      "ageHours": 7.008005833333334
+      "category_kr": "Collaboration / Holiday",
+      "category_en": "Collaboration / Holiday",
+      "date": "2026.10.07",
+      "title_kr": "Macy's와 Disney가 Thanksgiving Day Parade 100주년 기념 Holiday Collection을 공개했습니다.",
+      "title_en": "Disney and Macy's debut Thanksgiving parade collection",
+      "body_kr": "Thanksgiving Day Parade의 100주년 역사를 담은 exclusive Disney Capsule Collection과 Holiday merchandise가 retail channel을 통해 출시되었습니다. IP 기반의 시즌 merchandise sourcing 및 holiday promotion 기획 시 참고할 만한 트렌드입니다.",
+      "body_en": "Macy's and Disney launched an exclusive holiday collection celebrating a century of parade history. This serves as a strong reference for IP-driven seasonal merchandise sourcing and holiday promotions.",
+      "source": "USA Today",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSXhCUVg4S1p3X0plS0NtMlhLNGpuYUxhcnFsSmcyZGhuSWdKVnZmT3ZBNExwSXpGRjVSNWlaOVhRVXRmUGFRQ3VLRm5iT2JjaTFVNlVCaXZ4aEQxcURDdTA0eDVBZ2YzTmc5OENxZG5QQ2JKTlBwdWd2WHVfRngwM3hzelEwSHh1SFM2Zm1SdzB2TDZNcWhuemF4bDh3dHBGVThwSnJNUm0?oc=5",
+      "ageHours": 172.4239352777778
     },
     {
       "brand": "Kohl's",
       "brandLabel": "Kohl's",
-      "category_kr": "Activewear / Partnership",
-      "category_en": "Activewear / Partnership",
+      "category_kr": "Kids / Activewear",
+      "category_en": "Kids / Activewear",
       "date": "2026.10.12",
-      "title_kr": "Kohl's, 프로 스케이터 Greg Lutzka와 손잡고 signature activewear Collection 출시",
+      "title_kr": "Kohl's, 키즈 스케이팅웨어 접근성 강화를 위한 signature collection 런칭",
       "title_en": "Greg Lutzka Launches Signature Collection at Kohl’s to Make Skating More Affordable for Kids",
-      "body_kr": "Kohl's가 프로 스케이터 Greg Lutzka와의 Partnership을 통해 아동용 스케이팅 activewear signature Collection을 론칭했습니다. 가성비 높은 sports category merchandise 확장을 통해 유아동 consumer demand를 공략하는 움직임입니다.",
-      "body_en": "Kohl's launched a kids' skating activewear signature collection in partnership with pro skater Greg Lutzka. This move targets young consumer demand by expanding affordable sports category merchandise.",
+      "body_kr": "Kohl's launched an affordable activewear signature collection for kids in partnership with pro skater Greg Lutzka. It offers valuable insights for budget-friendly kids' activewear category expansions.",
       "source": "Shredder News",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsLUJBNkRGc2ZJcGdtLXlQSmk4dDhLQ1FkUTZKTl9TNDFnMGtFbEF1TkZGZ05SMnc0R1dNTEpnOXRMdWJYTjZPV2tlb1ZFNFp2b3BvUzQzcE5YcUNYRzRpUWNkYWVNR0Vi?oc=5",
-      "ageHours": 30.815491666666667
+      "ageHours": 54.81473027777778
     },
     {
       "brand": "Kohl's",
@@ -46,27 +45,25 @@
       "category_kr": "Pricing / Promotion",
       "category_en": "Pricing / Promotion",
       "date": "2026.10.07",
-      "title_kr": "Kohl's, consumer traffic 정체 속 핵심 merchandise 가격 인하 및 promotion 강화",
+      "title_kr": "Kohl's, 고객 수요 둔화에 대응하여 key item 중심 가격 인하 단행",
       "title_en": "Kohl’s drops prices on key items as customer interest fades",
-      "body_kr": "Kohl's가 consumer demand 둔화에 대응해 주요 merchandise 가격을 인하하고 대규모 할인 promotion을 확대하고 있습니다. 치열해지는 retail 경쟁 속 inventory 소진과 sales 회복을 위한 가격 전략 변화를 주시해야 합니다.",
-      "body_en": "Kohl's is cutting prices on key merchandise and expanding discount promotions in response to slowing consumer demand. Vendors should monitor these pricing strategy shifts aimed at clearing inventory and recovering sales.",
+      "body_kr": "Kohl's is dropping prices on key merchandise and tightening promotions to counter fading consumer demand. It highlights current pricing pressures and inventory sell-through strategies across retail.",
       "source": "TheStreet",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOLXJaSTFZdUFfMWNvTDdDSEZkVnN4U1ZXOFFVYUlnUklyMTBQWGliNU52WkFrM2ZwSVpuc2FXYkhMbmx4d1VCUjZ6eFhOWEp6aWpBR1YtMHR4bFRYRlBvQUZFT1Vpbl9VZi1PZ3lSUU5ldEszZ2Z1ZGFHYVQ5VTE2SnRsZTBzempMQlE?oc=5",
-      "ageHours": 147.00799166666667
+      "ageHours": 171.00723027777778
     },
     {
       "brand": "Industry",
-      "brandLabel": "Wholesale Channel",
+      "brandLabel": "Wholesale / Earnings",
       "category_kr": "Wholesale / Earnings",
       "category_en": "Wholesale / Earnings",
       "date": "2026.10.08",
-      "title_kr": "Levi Strauss, 강력한 wholesale channel과 관세 환급 힘입어 실적 방어 및 guidance 상향",
+      "title_kr": "Levi's, tariff refunds와 wholesale 채널 성과에 힘입어 실적 방어",
       "title_en": "Wholesale, tariff refunds deliver for Levi’s in rough Q3",
-      "body_kr": "Levi's가 어려운 시장 환경 속에서도 wholesale channel의 선전과 관세 환급 효과로 3분기 실적을 방어하며 full-year earnings outlook을 상향 조정했습니다. 채널 다변화와 공급망 비용 관리가 브랜드 수익성에 미치는 영향을 보여주는 대목입니다.",
-      "body_en": "Levi's defended its Q3 earnings and raised its full-year outlook thanks to strong wholesale channel performance and tariff refunds. This highlights how channel diversification and supply chain cost management impact brand profitability.",
+      "body_kr": "Levi's successfully navigated a rough Q3 leveraging tariff refunds and strong wholesale channel performance, lifting its full-year guidance. This underscores the critical role of margin recovery and wholesale partnerships.",
       "source": "Retail Dive",
       "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc0MtQnV5ZHkxLWJGSEROeWhXeFZhRGFPcUtDQ0JIRnRmaDFMdGRyN2lmVlo5Wi1EN0pQa2gzUlhZMENCQkJaTzM5UmZGMGptdDBaekJySUEwbkJOd1ZHTHN4cXNYT29Td0gtMGR5Zy05bTRad1NvalBCRi14eXYtSGtadWxqVUNB?oc=5",
-      "ageHours": 126.44301638888889
+      "ageHours": 150.44230222222222
     }
   ]
 }
