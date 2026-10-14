@@ -1,80 +1,80 @@
 {
   "ok": true,
-  "asOf": "2026-10-13T23:01:08.111Z",
-  "generatedDateKST": "2026-10-14",
+  "asOf": "2026-10-14T23:01:01.108Z",
+  "generatedDateKST": "2026-10-15",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-10-14",
+  "competitorDateKST": "2026-10-15",
   "insight": {
     "headline": {
-      "kr": "2026년 10월 14일 8담당 데일리 마켓 브리프: 주요 바이어 Holiday 및 스페셜티 협업 강화 속 경쟁사 동향 점검",
-      "en": "October 14, 2026 - Team 8 Daily Market Brief: Key Buyer Holiday and Specialty Collaborations Amid Intensified Competitor Actions"
+      "kr": "2026년 10월 15일 8담당 데일리 마켓 브리프",
+      "en": "Team 8 Daily Market Brief - October 15, 2026"
     },
     "summary": {
-      "kr": "미국 주요 의류 retail러들이 Holiday 시즌 traffic 유치와 category 확장을 위해 독점 IP Collaboration과 activewear를 강화하고 있습니다. 코튼 가격(80.53 센트)과 원·달러 환율(1,334.13원)은 소폭 하락 안정세를 보이고 있으며, 애버크롬비(ANF)는 강력한 실적 모멘텀으로 주가가 3.4% 상승했습니다.",
-      "en": "Major U.S. apparel retailers are ramping up exclusive IP collaborations and activewear lines to capture holiday traffic and expand categories. Cotton prices ($80.53) and USD/KRW (1,334.13) show slight stabilizing declines, while Abercrombie (ANF) shares rose 3.4% on robust sales momentum."
+      "kr": "콜스는 가을 핵심 품목 가격 인하 및 베이비러스 숍 확장을 추진하며, 메이시스는 디즈니 콜라보와 Holiday 라인업을 공개했습니다. 경쟁사인 타겟과 아르지아의 공세 속에서 프리미엄 및 가치 중심 sourcing 전략이 요구됩니다.",
+      "en": "Kohl's cuts key item prices while expanding Babies“R”Us shops, and Macy's debuts Disney holiday collaborations. Amid aggressive competitor moves from Target and Aritzia, value-driven and premium sourcing strategies are critical."
     },
     "tags": [
-      "#Team8Daily",
-      "#ApparelSourcing",
-      "#HolidayStrategy",
-      "#RetailIntelligence"
+      "#Kohls",
+      "#Macys",
+      "#Abercrombie",
+      "#ApparelSourcing"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "Kohl's is targeting family and kids demographics via kids' skating activewear and Babies“R”Us expansions, but slowing traffic has triggered widespread discounting, emphasizing the need for margin-defending, value-driven proposals.",
-        "en": "Kohl's is targeting family and kids demographics via kids' skating activewear and Babies“R”Us expansions, but slowing traffic has triggered widespread discounting, emphasizing the need for margin-defending, value-driven proposals."
+        "kr": "유아용품 전문 숍인 베이비러스(Babies“R”Us)를 56개 매장에 추가 확장하며 패밀리 traffic 유도에 집중하고 있으며, 고객 수요 둔화에 대응하여 키 아이템 가격 인하를 단행했습니다.",
+        "en": "Expanding Babies“R”Us shops to 56 additional stores to drive family foot traffic, while implementing strategic price cuts on key items to counter softening consumer demand."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "피트니스 브랜드 배리스(Barry's)와 YPB Collaboration을 런칭하며 짐투웨어 라인업을 강화하고 있습니다. 15분기 연속 매출 성장세를 바탕으로 공격적인 오더 집행이 예상되므로 철저한 OTD와 FOB 단가 경쟁력이 필수입니다.",
-        "en": "A&F is strengthening its gym-to-wear lineup by launching a YPB collaboration with fitness brand Barry's. Backed by 15 consecutive quarters of sales growth, robust order allocation is expected, making tight OTD and FOB price competitiveness essential."
+        "kr": "피트니스 스튜디오 배리스(Barry's)와 YPB Collaboration을 런칭하며 기능성 activewear 경쟁력을 강화하고 있으며, 15개 분기 연속 매출 성장으로 안정적인 발주 체력을 유지하고 있습니다.",
+        "en": "Strengthening activewear positioning through the YPB x Barry's fitness collaboration, backed by 15 consecutive quarters of net sales growth signaling stable, robust order volumes."
       },
       {
         "buyer": "Macy's",
-        "kr": "땡스기빙 데이 Parade 100주년 기념 헬로키티 exclusive 상품을 공개하며 연말 traffic 선점에 나섰습니다. 경쟁사인 노드스트롬의 단독 캡슐 라인 및 할인 공세에 대응해 당사도 트렌디한 단독 협업 아이템 제안이 필요합니다.",
-        "en": "Macy's unveiled exclusive Hello Kitty merchandise for the 100th Thanksgiving Day Parade to capture year-end traffic. Countering competitor Nordstrom's exclusive capsule drops and promos, our team should propose trendy, exclusive collaboration items."
+        "kr": "디즈니와의 Thanksgiving Day Parade 100주년 기념 Holiday 컬렉션을 공개하며 IP 기반 시즌 머신다이징을 강화하고 있습니다.",
+        "en": "Boosting seasonal merchandising through an exclusive Disney Thanksgiving parade holiday collection, leveraging high-impact IP collaborations."
       }
     ],
     "opportunities": [
       {
-        "kr": "A&F의 YPB 및 activewear 라인업 확장 추세에 발맞추어 흡한속건, 고탄력 등 기능성 원단 sourcing 제안서 강화",
-        "en": "Strengthen functional fabric sourcing proposals (moisture-wicking, high stretch) aligning with A&F's expanding YPB and activewear lineups."
+        "kr": "콜스의 베이비러스 매장 확장 추세에 발맞추어 유아동 의류 및 베이직 기프트 세트 라인업을 선제적으로 제안합니다.",
+        "en": "Proactively pitch infant apparel and basic gift-set assortments aligned with Kohl's expanding Babies“R”Us store footprint."
       },
       {
-        "kr": "메이시스의 Holiday IP Collaboration 트렌드에 착안하여 독점 캐릭터 및 라이선스 의류 sourcing 아이템 선제 제안",
-        "en": "Proactively pitch exclusive character and licensed apparel sourcing items, inspired by Macy's holiday IP collaboration trends."
+        "kr": "아베크롬비 YPB 라인의 성공적인 activewear 트렌드에 착안하여 고기능성 패브릭 및 핏 스펙을 반영한 신규 퍼포먼스 의류 샘플을 개발합니다.",
+        "en": "Develop new performance apparel samples integrating high-tech functional fabrics and fit specs inspired by A&F's successful YPB activewear momentum."
       },
       {
-        "kr": "콜스 및 중저가 retail러들의 가성비 중심 promotion 기조에 대응하여 원가 절감형 핵심 베이직 스타일 제안 확대",
-        "en": "Expand cost-saving core basic style proposals to match the value-focused promotional stance of Kohl's and mass-market retailers."
+        "kr": "메이시스 및 블루밍데일즈의 캡슐 Collaboration 트렌드에 맞춰 인플루언서 및 IP 연계형 프라이빗 라벨(PL) 디자인 제안을 강화합니다.",
+        "en": "Strengthen influencer and IP-driven private label design proposals to capture department store capsule collaboration trends."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "주요 retail러들의 traffic 정체 및 할인 공세 심화로 인한 바이어들의 단가 인하 압박 및 margin 리스크 상존",
-      "en": "Persistent price-cutting pressure and margin risks for vendors driven by intensifying retailer discounting and slowing consumer traffic."
+      "kr": "타겟, 월마트, 아르지아 등 주요 경쟁사들의 공격적인 가을 할인 및 신규 매장 확장으로 인해 가격 경쟁 및 바이어 점유율 방어 압박이 가중되고 있습니다.",
+      "en": "Intensified fall promotional discounting and rapid store expansions from major competitors like Target, Walmart, and Aritzia heighten pricing pressure and market share defense."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "A&F 오더 확대를 위한 FOB 단가 경쟁력 검토 및 제안서 작성",
-        "en": "Review FOB price competitiveness and draft proposals to secure expanded A&F orders."
+        "kr": "콜스 키 아이템 가격 인하 전략에 대응하여 원가 절감형 대체 원단 및 생산 효율화 방안을 검토한다.",
+        "en": "Review cost-saving alternative fabrics and production efficiencies to align with Kohl's key-item price adjustment strategy."
       },
       {
         "owner": "Team 8",
-        "kr": "콜스 바이어 대상 유아동 및 가성비 베이직 라인 가을·겨울 추가 sourcing 아이템 발굴",
-        "en": "Identify additional fall/winter sourcing items for kids and value-basic lines targeting Kohl's buyers."
+        "kr": "아베크롬비/홀리스터 발주 물량 확대를 대비하여 주요 생산 라인의 캐파를 점검하고 납기 준수율을 철저히 관리한다.",
+        "en": "Audit production line capacities and ensure strict on-time delivery management for upcoming A&F and Hollister order volumes."
       },
       {
         "owner": "Team 8",
-        "kr": "코튼 가격 안정화 추세를 반영한 원단 공급처와의 단가 협상 및 OTD 준수 여부 점검",
-        "en": "Negotiate unit costs with fabric suppliers reflecting stabilizing cotton price trends and verify OTD compliance."
+        "kr": "메이시스 Holiday 및 IP Collaboration 트렌드 분석 보고서를 작성하여 다가오는 시즌 바이어 미팅에 활용한다.",
+        "en": "Draft an analysis report on Macy's holiday and IP collaboration trends for upcoming seasonal buyer meetings."
       }
     ]
   }
