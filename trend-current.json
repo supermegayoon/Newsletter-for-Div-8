@@ -1,45 +1,57 @@
 {
   "ok": true,
-  "asOf": "2026-10-13T23:16:07.310Z",
-  "generatedDateKST": "2026-10-14",
+  "asOf": "2026-10-15T00:29:49.550Z",
+  "generatedDateKST": "2026-10-15",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "items": [
     {
       "level": "HIGH",
-      "title_kr": "60개 무역 파트너 대상 트럼프 관세 부과 예고에 따른 소싱 다변화",
-      "title_en": "Trump's Sweeping Tariffs on 60 Trade Partners Require Sourcing Diversification",
-      "body_kr": "트럼프 전 미국 대통령이 60개 무역 파트너를 상대로 광범위한 관세 부과를 추진하면서 의류 및 텍스타일 소싱 비용에 중대한 불확실성이 발생했습니다.",
-      "body_en": "Trump is set to impose sweeping tariffs on 60 trade partners, creating major uncertainty for apparel and textile sourcing costs and vendor margins.",
-      "action_kr": "영향권 국가들의 관세 인상 시나리오에 대비해 베트남·인도 등 대체 생산지의 Sourcing Cap을 점검하고 Costing 구조를 재검토하세요.",
-      "action_en": "Audit sourcing capacities in alternative hubs like Vietnam and India, and review costing structures against potential tariff hikes.",
+      "title_kr": "미국 정부, 60개국 대상 광범위한 관세 부과 추진",
+      "title_en": "Trump set to impose sweeping tariffs on 60 trade partners",
+      "body_kr": "미국이 60개 교역국을 대상으로 전면적인 관세 부과를 추진하면서 소싱 및 마진 관리에 비상등이 켜졌습니다.",
+      "body_en": "The U.S. is set to impose sweeping tariffs on 60 trade partners, raising major concerns for sourcing and margin management.",
+      "action_kr": "영향권 내 국가들의 소싱 리스크를 재검토하고 관세 인상에 대비한 코스팅 시나리오를 즉시 수립하십시오.",
+      "action_en": "Review sourcing risks across affected countries and immediately prepare costing scenarios for potential tariff hikes.",
       "source": "ABC News - Breaking News, Latest News and Videos",
       "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa1BDcjdFRHFWaGlkYlMzZi1ZY2hCaVR5dGRpalctVTI1Q2poOGxFcXZqdmZfX2lqaVZxRmo3MWZIZ2ZUU0xCMm44OFdibDRCNF9BOVNmT1VHNURxR0tabkNtaVdoNTRaTW81cVIyVUdvanhBUS1rX3pEZFdyQmNSbDVDa0VMM2tPVGhYbDkwR1VhcUJJTDJXVmhNZVVVNi1L0gGmAUFVX3lxTE5UdFo2TDl4c1R2ZWRuX1ZxbTA3UmdwQnlrbVh1OXUyd1pucVlQS2dqY2VsbnRNSGt3WWljNkZ3V2kySmZNUzJ4WVBaT2NXSGRuUFlqRmx1UXNzSlEwZkV1MGRWVWxNbHdBcnY3Vm9CMVFqSWZxdnI3TkZqbWxValByNzBMRWxBR3BraFBtbEVuUFBvNDNpUVNBdWVkN3V6enc1YjlIWXc?oc=5",
-      "date": "2026.10.11"
+      "date": "2026.10.14"
     },
     {
-      "level": "MEDIUM",
-      "title_kr": "GLP-1 체중 감량제 확산에 따른 스키니진 및 의류 핏 재조정",
-      "title_en": "Skinny Jeans Comeback in GLP-1 Era Requires Fit and Silhouette Adjustments",
-      "body_kr": "GLP-1 체중 감량 제제 확산 영향으로 의류 시장에서 스키니진 등 밀착 핏 트렌드가 다시 부상하고 있습니다.",
-      "body_en": "Driven by GLP-1 users, skinny jeans and form-fitting silhouettes are making a notable comeback, forcing retailers to rethink merchandising.",
-      "action_kr": "머천다이징 팀은 슬림 핏 및 스키니 데님 제품군 비중을 확대하고 패턴 및 사이즈 스펙을 재검토하세요.",
-      "action_en": "Merchandising teams should increase the share of slim-fit and skinny denim lines and update sizing specs accordingly.",
+      "level": "HIGH",
+      "title_kr": "GLP-1 약물 확산에 따른 스키니진 등 의류 트렌드 변화",
+      "title_en": "Why Skinny Jeans Are Making a Comeback in the GLP-1 Era",
+      "body_kr": "GLP-1 체중감량제 복용 확산으로 소비자의 체형 변화가 일어나며 스키니진 등 슬림핏 의류 수요가 재부각되고 있습니다.",
+      "body_en": "The rise of GLP-1 weight-loss drugs is altering consumer body shapes, driving a comeback for skinny jeans and slim-fit apparel.",
+      "action_kr": "머천다이징 팀은 슬림핏 및 체형 맞춤형 데님 라인업 확대를 바이어에게 제안하십시오.",
+      "action_en": "Merchandising teams should pitch expanded slim-fit and body-contouring denim assortments to buyers.",
       "source": "LAmag",
       "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NbWVhRzBSVHN0STBTd0dfS2FaMXp2ZTZ1WjAxWENPeTkxWGV5ODJIWkxCU21tWlNTLXFyZ1NNazdMVGZoUTQyc2xKOXRFaHUxMVJmTVFHTzhoay1lTVJ3RndlWEtqNFVOeDBuUS1USUptMDdheVR3?oc=5",
       "date": "2026.10.13"
     },
     {
       "level": "MEDIUM",
-      "title_kr": "V마트 리테일, 비용 압박으로 Q3 가격 인상 검토",
-      "title_en": "V-Mart Retail Eyes Q3 Price Hikes Amid Cost Pressures",
-      "body_kr": "V마트 리테일이 지속되는 원가 상승 압박에 대응하기 위해 2027 회계연도 3분기 중 가격 인상을 추진하고 있습니다.",
-      "body_en": "V-Mart Retail is eyeing price hikes in Q3FY27 to combat mounting cost pressures, reflecting broader margin preservation strategies.",
-      "action_kr": "영업 팀은 바이어의 가격 인상 방침에 따른 오더 물량 변동을 모니터링하고 가성비 소싱 제안을 준비하세요.",
-      "action_en": "Sales teams should monitor order volume shifts following buyer price increases and prepare value-driven sourcing alternatives.",
-      "source": "Indian Retailer",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRnJscUxIY2JSajNPRkVfd2pvQ1hqdS1aaXlYSTczb0FlUTh2cFRyeHUwaHNzZ2N4UnFaZHBPbXphaS1MNEJhWUVsOFdRdjhtM0dNVnhjcTcteTlaUzBDeC1HVVk1NHJIOEJaN2NfRUtqM2FOOHlseGRvR2ZOd2RYSzdLNHhVWERhMC1TRkg5cDdnWnNaRTN3?oc=5",
-      "date": "2026.10.09"
+      "title_kr": "오프프라이스 유통사 로스 스토어즈, 공격적 신규 매장 확장",
+      "title_en": "Ross Stores Expands Footprint With 51 New Store Openings",
+      "body_kr": "로스 스토어가 51개의 신규 매장을 오픈하며 가치 중심 쇼핑객을 겨냥한 오프프라이스 채널 확장을 가속화하고 있습니다.",
+      "body_en": "Ross Stores is accelerating its off-price channel expansion targeting value-driven shoppers with 51 new store openings.",
+      "action_kr": "오프프라이스 채널 전용 저가 고마진 베이직 아이템 제안을 강화하고 물량 공급 능력을 점검하십시오.",
+      "action_en": "Strengthen value-focused product offerings tailored for off-price channels and review capacity to meet volume demands.",
+      "source": "TradingView",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMlpyWGt2SkVfNGdEUHFMNlhScUlTUFZCdlMteW1ibWRVVHltMk1MZi1ERGo0UG5ScnF2YmYyMnpwN1dJVUtueW5RXzl5OWxoMkp1am5VeUlXZTlIUmRxYkRlZUgwanRweHd2ZEFBNXlwajZWMXpadDExVUVOaEpfRkVwaEZEelFNY3BBRFFxSlRJTEZBdTcwVGdpODdkdlBfY0MzVkhOanhiaVEyanE2Nzln?oc=5",
+      "date": "2026.10.13"
+    },
+    {
+      "level": "MEDIUM",
+      "title_kr": "메이시스, AI 및 옴니채널 역량 강화로 디지털 푸시 가속화",
+      "title_en": "Macy's Digital Push Gains Traction as AI & Omnichannel Efforts Expand",
+      "body_kr": "메이시스가 인공지능(AI)과 옴니채널 투자를 확대하며 디지털 부문에서 가시적인 성과를 거두고 있습니다.",
+      "body_en": "Macy's is gaining digital traction by expanding investments in artificial intelligence and omnichannel retail capabilities.",
+      "action_kr": "디지털 재고 연동 및 빠른 리오더 대응을 위한 옴니채널 전용 물류 프로세스를 정비하십시오.",
+      "action_en": "Refine omnichannel-ready logistics processes to support digital inventory synchronization and fast reorders.",
+      "source": "TradingView",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZDRUZXlDV0JzU2FqUElwSFphSEdCRVVKMHJub0JfMmZrQjdWS3FIbkJGbUE1NVhlWVJRQ2dSdEVPU0twUGtIQXFIYzdwTzNTRnc4bEJJa2FrVTQxWG5KRWRvVzBpYnZyNVpDNVVxWDlPaXRTRkllMkIyMFFoRjAtYjloTVN1c05qMW1UMTk0LTcxZkpQZkFxc0NyTjdtaTZUNVBzZUZYXzRHck9ULVh2UFpyTkxORFhVNjZNZWk4NzM?oc=5",
+      "date": "2026.09.29"
     }
   ]
 }
