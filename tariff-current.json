@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-10-13T08:52:25.900Z",
+  "asOf": "2026-10-15T00:29:54.567Z",
   "basis": "APPAREL MODE: current effective duty treatment for qualifying apparel; FTA/preference base duty reflected.",
   "mode": "APPAREL",
   "refreshStatus": "VERIFIED",
@@ -118,7 +118,7 @@
       "trq": {
         "status": "PENDING",
         "effectiveDate": "2026-09-01",
-        "noteKr": "섬유 및 의류 TRQ 메커니즘은 공식 시행 공지 전까지 PENDING",
+        "noteKr": "섬유 및 의류 TRQ는 공식 시행 공지 전까지 PENDING",
         "noteEn": "Textile and apparel TRQs are pending official implementation notice"
       },
       "pending": [
