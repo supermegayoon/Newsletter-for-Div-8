@@ -2,34 +2,34 @@
   "source": "Weekly raw material report",
   "rawMaterials": {
     "usCotton": {
-      "price": 80.99,
-      "changePct": -1.81,
+      "price": 80.38,
+      "changePct": 0.16,
       "unit": "¢/lb",
       "comment": ""
     },
     "chinaCotton": {
-      "price": 117.84,
-      "changePct": -0.38,
+      "price": 117.79,
+      "changePct": 1,
       "unit": "¢/lb",
-      "comment": "중국 당국 비축면 경매와 수요둔화"
+      "comment": "신장 지역의 수확량 감소 및 재배 면적 축소 우려"
     },
     "indiaCotton": {
-      "price": 87.55,
-      "changePct": -2.09,
+      "price": 95.86,
+      "changePct": 3.98,
       "unit": "¢/lb",
-      "comment": "수출 수요 한파와 인도면화공사의 가격인하 정책"
+      "comment": "강우량 부족으로 인한 신곡 수확지연 우려"
     },
     "psf": {
-      "price": 58.75,
-      "changePct": -0.37,
+      "price": 61.37,
+      "changePct": 4.14,
       "unit": "¢/lb",
-      "comment": "방적업체의 보수적 원료구매"
+      "comment": "유가 상승과 주원료 (PTA,MEG) 및 물류 비용 급등"
     },
     "dty": {
-      "price": 70.42,
-      "changePct": -1.74,
+      "price": 70.67,
+      "changePct": 0.52,
       "unit": "¢/lb",
-      "comment": "국제유가 하락 및 의류 수요 부진"
+      "comment": "실제수요 부진으로 인한 가격 상승 제한"
     }
   },
   "yarn": {
@@ -40,9 +40,9 @@
     "vietnam": ""
   },
   "summary": {
-    "cotton": "미국, 중국, 인도 면화 가격 모두 하락세 기록",
-    "polyester": "국제유가 하락 및 수요 부진으로 PSF와 DTY 모두 약세",
+    "cotton": "미국, 중국, 인도 면화 모두 상승세를 보였으며, 특히 인도면은 수확 지연 우려로 크게 상승함.",
+    "polyester": "PSF는 유가 및 원료비 상승으로 급등세를 보였고, DTY는 수요 부진으로 상승폭이 제한됨.",
     "yarn": ""
   },
-  "updatedAt": "2026-10-02T07:26:15.624Z"
+  "updatedAt": "2026-10-16T07:01:44.924Z"
 }
