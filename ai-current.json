@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "asOf": "2026-10-16T07:01:54.637Z",
-  "generatedDateKST": "2026-10-16",
+  "asOf": "2026-10-19T01:45:21.129Z",
+  "generatedDateKST": "2026-10-19",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
@@ -11,66 +11,70 @@
   "competitorDateKST": "2026-10-16",
   "insight": {
     "headline": {
-      "kr": "Kohl's·Macy's 주가 반등 및 Holiday IP·밸류 전략 강화, A&F는 실적 호조 지속",
-      "en": "Kohl's and Macy's rally on holiday IP and value strategies while A&F maintains strong growth momentum"
+      "kr": "[2026-10-19 8담당 데일리 브리프] Kohl's·Macy's 판촉 강화 및 A&F 실적 호조에 따른 대응 전략",
+      "en": "[2026-10-19 Team 8 Daily Brief] Response Strategies for Kohl's/Macy's Promo Push and A&F Growth"
     },
     "summary": {
-      "kr": "미국 주요 retail러들이 Holiday 시즌을 앞두고 헬로키티 등 독점 IP 협업과 핵심 품목 가격 인하 전략을 본격화하고 있습니다. 환율은 1,341원대에서 보합세를 보이며, 경쟁사들은 디지털 AI 전환과 한정판 콜라보로 마켓셰어 확대를 추진 중입니다.",
-      "en": "Major U.S. retailers are rolling out exclusive IP collaborations like Hello Kitty and targeted price cuts ahead of the holiday season. The USD/KRW exchange rate holds steady near 1,341, while competitors push digital AI overhauls and limited-edition drops to capture market share."
+      "kr": "Kohl's와 Macy's가 Holiday 시즌 traffic 견인을 위해 가격 인하 및 100주년 기념 헬로키티 컬렉션 등 판촉을 확대하고 있으며, A&F는 지속적인 실적 성장을 기록 중입니다. 경쟁사의 공세에 맞서 가성비 sourcing과 프리미엄 exclusive 라인 대응이 필수적입니다.",
+      "en": "Kohl's and Macy's are scaling up promotions like price cuts and 100th anniversary Hello Kitty collections for the holiday season, while A&F continues its strong growth streak. Vendors must focus on cost-effective sourcing and premium capsule responsiveness to counter competitor pressure."
     },
     "tags": [
-      "#Kohl's",
-      "#Macy's",
-      "#Abercrombie",
+      "#Kohls",
+      "#ANF",
+      "#Macys",
       "#HolidayStrategy"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "수요 둔화 대응을 위해 핵심 품목 가격 인하를 단행하는 동시에, 프로 스케이터 Greg Lutzka와의 협업을 통해 가성비 아동용 activewear를 런칭하며 유아동 채널 경쟁력 강화에 나섰습니다.",
-        "en": "Kohl's has lowered key item prices to combat slowing demand while launching an affordable kids' activewear line with pro skater Greg Lutzka to strengthen its children's category footprint."
+        "kr": "수요 둔화 타개를 위해 key item 중심 가격 인하와 아동용 스케이트 activewear 라인을 런칭하며 가성비와 유아동 category 경쟁력을 동시에 강화하고 있습니다.",
+        "en": "Lowering key item prices and launching kids' skate activewear with Greg Lutzka to boost value propositions and expand accessible family categories."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "15개 분기 연속 순매출 성장과 연간 guidance 상향을 기록했으며, 피트니스 브랜드 Barry's와의 YPB activewear 콜라보를 통해 퍼포먼스 및 일상복 겸용 라인업을 강화하고 있습니다.",
-        "en": "Marking 15 consecutive quarters of net sales growth with a raised outlook, A&F is expanding its versatile performance apparel through a YPB activewear collaboration with fitness studio Barry's."
+        "kr": "15개 분기 연속 순매출 성장을 기록하며 guidance를 상향 조정했으며, Barry's와의 피트니스 콜라보를 통해 퍼포먼스 및 버사틀 실루엣을 확장하고 있습니다.",
+        "en": "Marking 15 consecutive quarters of net sales growth with upgraded outlooks, alongside activewear fitness collaborations like Barry's."
       },
       {
         "buyer": "Macy's",
-        "kr": "Thanksgiving Day Parade 100주년 기념 헬로키티 exclusive 컬렉션(23피스)을 공개하고 Green Acres점에 Locker Room by Lids를 오픈하는 등 Holiday traffic 유치와 매장 내 category 다변화에 주력하고 있습니다.",
-        "en": "Macy's is driving holiday traffic with a 23-piece exclusive Hello Kitty collection for the 100th parade and expanding in-store sports retail formats via Locker Room by Lids at Green Acres."
+        "kr": "추스데이 패레이드 100주년 기념 헬로키티 exclusive 컬렉션과 Locker Room by Lids offline 숍인숍 오픈으로 Holiday traffic 유치에 집중하고 있습니다.",
+        "en": "Focusing on holiday traffic via exclusive Hello Kitty collections for the 100th parade and expanding sports merchandise shop-in-shops like Lids."
       }
     ],
     "opportunities": [
       {
-        "kr": "Macy's 및 블루밍데일즈의 exclusive 캡슐 컬렉션 및 IP 협업 확대 기조에 발맞춰, 소량 다품종 프리미엄 콜라보 라인 개발안을 선제적으로 제안할 것.",
-        "en": "Proactively pitch small-batch, premium collaboration capsule concepts tailored to Macy's and Bloomingdale's growing focus on exclusive IP and lifestyle brand partnerships."
+        "kr": "Kohl's의 key item 가격 인하 기조에 발맞춰 원가 절감형 대체 소재 및 효율적 생산 공법 제안",
+        "en": "Propose cost-efficient alternative fabrics and optimized production methods to align with Kohl's price-drop strategy."
       },
       {
-        "kr": "A&F의 연이은 실적 호조와 guidance 상향에 맞춰, 다가오는 Holiday 및 차기 시즌 오더 물량 확대를 대비한 메인 공장 생산 캐파를 선점할 것.",
-        "en": "Secure main factory production capacity for upcoming holiday and next-season volume expansions, aligning with A&F's continued strong earnings growth and raised outlook."
+        "kr": "A&F의 지속적인 실적 호조 및 오더 확대 추세에 대비하여 메인 공장 생산 캐파 선제적 확보",
+        "en": "Secure primary factory production capacity proactively in anticipation of A&F's continued order volume expansion."
+      },
+      {
+        "kr": "Macy's 및 백화점 채널의 exclusive 캡슐 컬렉션 및 라이선스 IP 협업 상품군 소량 다품종 대응력 강화",
+        "en": "Enhance small-batch, multi-style responsiveness for Macy's and department store exclusive capsule collections and licensed IP collaborations."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "Kohl's의 key item 가격 인하 압박 및 경쟁사들의 공격적인 promotion으로 인한 margin 훼손 우려.",
-      "en": "Potential margin compression risks driven by Kohl's key-item price reductions and aggressive promotional moves by competing retailers."
+      "kr": "주요 retail러들의 가격 인하 및 promotion 압박 심화로 인한 벤더 margin 압력 존재",
+      "en": "Potential margin compression for vendors driven by intensifying retailer price cuts and promotional pressures."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "A&F Barry's 콜라보 라인의 기능성 패브릭 스펙을 분석하여 유사한 프리미엄 애슬레저 신규 소재 및 봉제 사양 제안서를 바이어팀에 공유할 것.",
-        "en": "Analyze the fabric specs of the A&F Barry's collaboration line and share new premium activewear material proposals with the buyer team."
+        "kr": "Kohl's향 key item 가격 경쟁력 확보를 위한 원가 절감형 소재 대안 리스트 작성 및 공유",
+        "en": "Compile and share cost-reduction material alternatives to support Kohl's key item pricing strategy."
       },
       {
         "owner": "Team 8",
-        "kr": "Kohl's의 가격 인하 정책에 대응하여 원가 절감형 대체 sourcing처 검토 및 margin 방어 대책을 수립할 것.",
-        "en": "Review cost-saving alternative sourcing options and formulate margin-defense strategies in response to Kohl's pricing adjustments."
+        "kr": "A&F Holiday 및 차시즌 오더 물량 증가에 따른 공장별 캐파 할당 현황 점검",
+        "en": "Review factory-by-factory capacity allocations for upcoming A&F holiday and next-season orders."
       },
       {
         "owner": "Team 8",
-        "kr": "Macy's exclusive 라인의 딜리버리 일정과 lead time 단축 방안을 점검하여 바이어 담당자와 조율할 것.",
-        "en": "Inspect delivery schedules and lead-time reduction plans for Macy's exclusive lines and coordinate with the buyer."
+        "kr": "Macy's 헬로키티 및 백화점 exclusive 라인의 딜리버리 일정 및 lead time 단축 방안 검토",
+        "en": "Evaluate delivery schedules and lead-time reduction plans for Macy's Hello Kitty and department store exclusive lines."
       }
     ]
   }
