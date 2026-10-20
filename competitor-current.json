@@ -1,88 +1,88 @@
 {
   "ok": true,
-  "generatedDateKST": "2026-10-20",
-  "asOf": "2026-10-19T23:00:54.266Z",
+  "generatedDateKST": "2026-10-21",
+  "asOf": "2026-10-20T23:00:44.065Z",
   "schedule": "Mon-Fri 08:00 KST",
   "windowDays": 7,
-  "analysisMode": "GEMINI",
+  "analysisMode": "RULE_FALLBACK",
   "buyers": [
     {
       "buyer": "Kohl's",
-      "competitionLevel": "MEDIUM",
+      "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "주요 경쟁사인 Target은 초고속 배달 서비스를 확장하며 편의성 중심의 경쟁을 심화시키고 있습니다.",
-        "en": "Key competitor Target is expanding ultra-fast delivery services, intensifying convenience-driven competition."
+        "kr": "Target, Target, Target 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for Target, Target, Target. Review the implications by buyer using the cited sources."
       },
       "competitors": [
         {
           "name": "Target",
-          "signal": "CHANNEL",
+          "signal": "PRODUCT",
           "move": {
-            "kr": "Target은 Uber Eats와의 파트너십을 통해 1시간 이내 의류 배달 서비스를 도입했습니다.",
-            "en": "Target launched an under-an-hour clothing delivery service through a partnership with Uber Eats."
+            "kr": "Do we really need clothes delivered in under an hour? Target’s Uber Eats deal is convenience culture gone wild - The Guardian",
+            "en": "Do we really need clothes delivered in under an hour? Target’s Uber Eats deal is convenience culture gone wild - The Guardian"
           },
           "whyItMatters": {
-            "kr": "소비자의 즉각적인 쇼핑 수요를 충족시키며 옴니채널 배달 경쟁에서 우위를 점하려 합니다.",
-            "en": "It captures immediate consumer demand and aims for an edge in omnichannel delivery competition."
+            "kr": "Kohl's과 유사한 고객층을 두고 경쟁하는 Target의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Target is relevant to Kohl's's competitive set and should be compared across product, pricing and promotion."
           },
           "action": {
-            "kr": "당사도 라스트마일 배달 파트너십을 강화하여 빠른 배송 속도를 확보해야 합니다.",
-            "en": "We should also strengthen last-mile delivery partnerships to secure fast fulfillment speeds."
+            "kr": "Target의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Target signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
           },
           "sources": [
             {
               "source": "The Guardian",
               "sourceTier": "GENERAL",
-              "date": "2026.10.19",
+              "date": "2026.10.20",
               "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMmFUS1lYNVhyQkRyaTRnY0kwWi1ZZzNZZDZiQVk2SS1MNkVWZzNib2ROdFNsNlZmV0hKUEFJM0wyaUIzd01ha1pmQTh6WjlITHpIYXRqRDU4c0lrMDNIV0hwMU9zanRtME1zaG5GN2dTWjdrV1BlZHJ0amU1STRzZlZaTUY4ZjA4U3UzRkMyTnp5SnE2Z2hEZzJMR2RRMWx5dG90MmxkM1BLMFBHc25TX0NGNmRDRDBZWDR0VVF5Zw?oc=5"
             }
           ]
         },
         {
           "name": "Target",
-          "signal": "STORE",
+          "signal": "PRODUCT",
           "move": {
-            "kr": "Target의 경쟁사인 Uniqlo가 인도 Thane 지역에 신규 매장을 오픈했습니다.",
-            "en": "Competitor Uniqlo opened its first store in Thane, India at Lake Shore."
+            "kr": "Korea stock slump tests retailers as year-end fashion and luxury demand softens - CHOSUNBIZ - Chosunbiz",
+            "en": "Korea stock slump tests retailers as year-end fashion and luxury demand softens - CHOSUNBIZ - Chosunbiz"
           },
           "whyItMatters": {
-            "kr": "글로벌 소매업체들의 오프라인 거점 확대가 가속화되고 있음을 보여줍니다.",
-            "en": "It demonstrates the acceleration of offline footprint expansion by global retailers."
+            "kr": "Kohl's과 유사한 고객층을 두고 경쟁하는 Target의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Target is relevant to Kohl's's competitive set and should be compared across product, pricing and promotion."
           },
           "action": {
-            "kr": "글로벌 매장 확장 트렌드를 모니터링하고 오프라인 매장의 효율성을 점검해야 합니다.",
-            "en": "Monitor global store expansion trends and evaluate offline store efficiency."
+            "kr": "Target의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Target signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
           },
           "sources": [
             {
-              "source": "Indian Retailer",
+              "source": "Chosunbiz",
               "sourceTier": "GENERAL",
-              "date": "2026.10.17",
-              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQ0R1alVqTTJ2SHFDMWpGMWJ4UUFCNzd2WmlaczNsdncyekdZWmktblptY19XV0NsTjVBMmlOdmtiMzVuYWZoeWZSdlNid3VBYmxQV3pxR3k0V25wb2s0TmZBUFZHcUM1bnV1RThleVRDN0JLckhXTDg5SkFrZkw3SElsWkx3ajhOcWE1NHE4MFVveGhoaGR4WmxsU0VMaUU?oc=5"
+              "date": "2026.10.20",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMNVk2ZEJVZlRaWnBpa2JhaUNjN0V5bXlqRVlRXzYtNnFJN2RpelotdV9wTzJzU2I1ZWVLWGowTVZSYkR1cW8xN1dWUlAwUmw0dHlORk0wYUp3eG02OURFU2lEdWpaWDU5N0NDYjZQZHNua29EaUJLeURvTk5kd2vSAZMBQVVfeXFMTWdZR3pzTlVrRHQ4Wk1CODZzaEIzOVZlQ01DRmNBUTRLMW1vUFNlcGV0cjQwdWpUc3dZSVJvLXpOZjl4M1F1U3VGV3hUWFlWWWRLbjAtWVc2SzJJSVFETVVrV3RZLVh3SjgxWTAtS05GVjV3YUJTVk8tXzZ6WlB3T3Q4dngtOXdvYWVoY0RWTG5MT0FV?oc=5"
             }
           ]
         },
         {
           "name": "Target",
-          "signal": "FINANCIAL",
+          "signal": "PRODUCT",
           "move": {
-            "kr": "2027 회계연도 2분기 실적 발표 이후 소매업 주요 기업들의 성과가 주목받고 있습니다.",
-            "en": "Major retailers' performance is being closely watched following Q2 FY27 earnings."
+            "kr": "PepsiCo, Inc. | History, Products, & Facts | Britannica Money - Britannica",
+            "en": "PepsiCo, Inc. | History, Products, & Facts | Britannica Money - Britannica"
           },
           "whyItMatters": {
-            "kr": "소매업계 전반의 수익성과 실적 건전성을 가늠하는 지표가 됩니다.",
-            "en": "It serves as an indicator to gauge overall profitability and financial health in the retail sector."
+            "kr": "Kohl's과 유사한 고객층을 두고 경쟁하는 Target의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Target is relevant to Kohl's's competitive set and should be compared across product, pricing and promotion."
           },
           "action": {
-            "kr": "당사의 다분기 재무 성과 목표를 재검토하고 수익성 중심 전략을 강화해야 합니다.",
-            "en": "Re-examine our multi-quarter financial targets and strengthen profitability-focused strategies."
+            "kr": "Target의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Target signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
           },
           "sources": [
             {
-              "source": "Trade Brains",
+              "source": "Britannica",
               "sourceTier": "GENERAL",
-              "date": "2026.10.17",
-              "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdDZrTnBSaVRzNzAxS0Fnd0p1enFNZ1lkM0xsRnpOdW5sZENBeFJRdU5zZHl5VV9oN2hJbGJCWExDbzkyN2ZMSTdnN0NubVZ0SXRiTEI5eF9KRHBiV1hZQW8yTE45T254eDZkSzRweEEtbmIyQWNQWFVrWXFLdFdZaE5adWVsZXdXbVVNRWJfRlUwbHp4TV9Obm1VdV9ONm1qdUczbldGVFNvSzdpWE4zTnVkR2dldlZRMEJ5Y0NoVnFoVENuVFYyQ3dUVUp1bTRBMUFZ?oc=5"
+              "date": "2026.10.16",
+              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd1FIYzNsd3hCR0E1RVVHVWg3ZVNSOFdITTBPaVRnUkd4M0tQamZtQUFFeHpKNDc1QU5sUXVPb19scVJKaDZPU21DVC1GN3lULTloRHVxM2wzeml1VXlYLVAyd1BUZlIzLU4zel9SbmxKZ1ZSbU1JZ1g5OWk2bFRGbzJHd1o?oc=5"
             }
           ]
         }
@@ -92,24 +92,72 @@
       "buyer": "A&F / Hollister",
       "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "Anthropologie 등 주요 경쟁사들이 DoorDash와의 제휴 및 감성적 홀리데이 마케팅을 전개하고 있습니다.",
-        "en": "Key competitors like Anthropologie are launching DoorDash partnerships and emotional holiday marketing."
+        "kr": "Urban Outfitters, Free People, Anthropologie 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for Urban Outfitters, Free People, Anthropologie. Review the implications by buyer using the cited sources."
       },
       "competitors": [
         {
-          "name": "Anthropologie",
-          "signal": "CHANNEL",
+          "name": "Urban Outfitters",
+          "signal": "PRODUCT",
           "move": {
-            "kr": "DoorDash와 제휴하여 홀리데이 시즌 즉시 배달 서비스 및 마케팅을 전개합니다.",
-            "en": "It partnered with DoorDash to roll out holiday season on-demand delivery services and marketing."
+            "kr": "Anthropologie’s holiday marketing seeks to balance emotion, business impact - Retail Dive",
+            "en": "Anthropologie’s holiday marketing seeks to balance emotion, business impact - Retail Dive"
           },
           "whyItMatters": {
-            "kr": "홀리데이 시즌의 빠른 쇼핑 수요를 온디맨드 방식으로 선점하려는 전략입니다.",
-            "en": "It is a strategy to capture fast holiday shopping demand through an on-demand model."
+            "kr": "A&F / Hollister과 유사한 고객층을 두고 경쟁하는 Urban Outfitters의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Urban Outfitters is relevant to A&F / Hollister's competitive set and should be compared across product, pricing and promotion."
           },
           "action": {
-            "kr": "당사도 주요 홀리데이 시즌에 맞춘 신속한 배달 채널 연계 방안을 마련해야 합니다.",
-            "en": "We should also prepare prompt delivery channel integrations tailored for key holiday seasons."
+            "kr": "Urban Outfitters의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Urban Outfitters signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "Retail Dive",
+              "sourceTier": "INDUSTRY",
+              "date": "2026.10.20",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQc0cwZUhRZTdpSlh2Z1ByTkFNWFdBM1hUX2wyZkZLalZRWWY3WVptSU4xS3cwMUp6Ml9YZlRTcENtM2lmQTJDZEJfSDB1Sno3MjhqYkpCVXRMdmQ4cTBRWXlkVFVUNHh0cHFuOWNNNFVMc0JfejVyS2lmSXFnUHE0T1UwdG9vaFE?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Free People",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "Anthropologie’s holiday marketing seeks to balance emotion, business impact - Retail Dive",
+            "en": "Anthropologie’s holiday marketing seeks to balance emotion, business impact - Retail Dive"
+          },
+          "whyItMatters": {
+            "kr": "A&F / Hollister과 유사한 고객층을 두고 경쟁하는 Free People의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Free People is relevant to A&F / Hollister's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Free People의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Free People signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "Retail Dive",
+              "sourceTier": "INDUSTRY",
+              "date": "2026.10.20",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQc0cwZUhRZTdpSlh2Z1ByTkFNWFdBM1hUX2wyZkZLalZRWWY3WVptSU4xS3cwMUp6Ml9YZlRTcENtM2lmQTJDZEJfSDB1Sno3MjhqYkpCVXRMdmQ4cTBRWXlkVFVUNHh0cHFuOWNNNFVMc0JfejVyS2lmSXFnUHE0T1UwdG9vaFE?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Anthropologie",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "‘Love Actually’ reunions, delivered by DoorDash: Inside Anthropologie’s holiday sales pitch - www.glossy.co",
+            "en": "‘Love Actually’ reunions, delivered by DoorDash: Inside Anthropologie’s holiday sales pitch - www.glossy.co"
+          },
+          "whyItMatters": {
+            "kr": "A&F / Hollister과 유사한 고객층을 두고 경쟁하는 Anthropologie의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Anthropologie is relevant to A&F / Hollister's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Anthropologie의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Anthropologie signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
           },
           "sources": [
             {
@@ -119,134 +167,86 @@
               "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMTBkNU9HZXpRM2dqTTRKLWlKbDJFUUtjMkRLaUhnNnRjTHJWTEtqS3oxQXRtbElzRzFqMm0tLU03VEJYd3Y5THQyOG5HR2M2WF9SakhKZ3hVLWtQMWZRa0lxbHRsektUcXI2Z0s1dGhKVm1taXNHMFJLR1RQTlFwMQ?oc=5"
             }
           ]
-        },
-        {
-          "name": "Anthropologie",
-          "signal": "PROMOTION",
-          "move": {
-            "kr": "감성과 비즈니스 성과를 동시에 추구하는 홀리데이 마케팅 캠페인을 발표했습니다.",
-            "en": "It announced a holiday marketing campaign balancing emotional resonance and business impact."
-          },
-          "whyItMatters": {
-            "kr": "브랜드 스토리텔링을 통해 홀리데이 시즌 고객 충성도를 높이고 매출을 견인합니다.",
-            "en": "It enhances customer loyalty and drives sales during the holiday season via brand storytelling."
-          },
-          "action": {
-            "kr": "감성적인 스토리텔링을 결합한 홀리데이 광고 및 프로모션 기획을 수립해야 합니다.",
-            "en": "Establish holiday advertising and promotional planning combined with emotional storytelling."
-          },
-          "sources": [
-            {
-              "source": "Marketing Dive",
-              "sourceTier": "GENERAL",
-              "date": "2026.10.19",
-              "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQlJjYnk0cEExck5GUGdzZklCTkpoMXlvaWs0Qld6VDIyRU1rVkJOcm1hV092ckhfdDZNUWVUNUdIc2dJU1g0eGE2cEJhZjV5eVotbDhmT0RqTHdEYnBnS3ROcnhtbUhNVTlha1dwd3liQXJJM3o5cE9sQkJQb1FCb1FZR2VSb1ZHd25kRXE2Q0IxdF9GM1JvdU1kVTFLRVB0RE5VbGtZanRPMHQtYU5OYjN6c3lzMVU?oc=5"
-            }
-          ]
-        },
-        {
-          "name": "American Eagle",
-          "signal": "FINANCIAL",
-          "move": {
-            "kr": "Aerie 브랜드의 성장성이 AEO의 시장 지위를 강화하는 요인으로 분석되고 있습니다.",
-            "en": "The growth momentum of the Aerie brand is analyzed as a factor strengthening AEO's market position."
-          },
-          "whyItMatters": {
-            "kr": "언더웨어 및 라운지웨어 카테고리의 확장이 전체 실적 성장을 주도하고 있음을 보여줍니다.",
-            "en": "It shows that the expansion of the underwear and loungewear categories is driving overall financial growth."
-          },
-          "action": {
-            "kr": "당사의 라운지웨어 및 이너웨어 라인업의 경쟁력을 재점검하고 마케팅을 강화해야 합니다.",
-            "en": "Re-evaluate the competitiveness of our loungewear and innerwear lineup and boost marketing."
-          },
-          "sources": [
-            {
-              "source": "Kalkine Media",
-              "sourceTier": "GENERAL",
-              "date": "2026.10.19",
-              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS3BoZHp3WTZCZWV2UEZBRmVDUEdLV2laWWtJU054U3NMQTI2MndvaVFIOHVCRjNvUEZsaTZoWG1FanJDNjN6eDhyZ0xpSnp6WWRtRmtWOEV2V2ZlTGwtUmxTb19jTVRHSmt3U0xDZXgwQ2xBRXMwU29TZG5FNTQ3bEN4SHdyNjM2bzZhWDdIb2xNMU96MEQzT29MZHNPVDVOa2ZMcWUxbllaUQ?oc=5"
-            }
-          ]
         }
       ]
     },
     {
       "buyer": "Macy's",
-      "competitionLevel": "MEDIUM",
+      "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "Nordstrom 등 경쟁사들이 다양한 가을 시즌 프로모션과 쿠폰 코드를 통해 고객 유치에 주력하고 있습니다.",
-        "en": "Competitors like Nordstrom are focusing on customer acquisition through various fall promotions and coupon codes."
+        "kr": "JCPenney, JCPenney, Nordstrom 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for JCPenney, JCPenney, Nordstrom. Review the implications by buyer using the cited sources."
       },
       "competitors": [
         {
-          "name": "Nordstrom",
-          "signal": "PROMOTION",
+          "name": "JCPenney",
+          "signal": "PRODUCT",
           "move": {
-            "kr": "10월 할인 행사와 연계된 쿠폰 코드 및 프로모션을 대거 선보였습니다.",
-            "en": "It rolled out a series of coupon codes and promotions tied to October discount events."
+            "kr": "JCPenney Coupon Codes & Discounts for October 2026 - StyleCaster",
+            "en": "JCPenney Coupon Codes & Discounts for October 2026 - StyleCaster"
           },
           "whyItMatters": {
-            "kr": "가을 시즌 쇼핑객들의 가격 민감도를 공략하여 트래픽을 선점하려는 전략입니다.",
-            "en": "It is a strategy to capture traffic by targeting price sensitivity among fall shoppers."
+            "kr": "Macy's과 유사한 고객층을 두고 경쟁하는 JCPenney의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by JCPenney is relevant to Macy's's competitive set and should be compared across product, pricing and promotion."
           },
           "action": {
-            "kr": "시즌 중반 프로모션 및 타겟 할인 쿠폰 발행을 통해 고객 이탈을 방지해야 합니다.",
-            "en": "Prevent customer churn through mid-season promotions and targeted discount coupon issuance."
+            "kr": "JCPenney의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this JCPenney signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
           },
           "sources": [
             {
               "source": "StyleCaster",
               "sourceTier": "GENERAL",
-              "date": "2026.10.15",
+              "date": "2026.10.20",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOS2JXVm9BSkxVZ29peVpPUFFYb2pldW1XRWdNakFtVlAtNWtRaDNiODMyTi1rM0k4UDFYWDhqSENWa1ppVDE5QjdRTzRjUldIT29TUHFRUHphV3VULUVQNUJqS3ZfdG5ndzdLenRJdEU5NDVOXzhPZTJTYjEtczlTUWxCM3ZnSHl6QUJiRDM1cmMyY0M2NFdsUndWUkhfeU9Q?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "JCPenney",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "Old Navy Coupon Codes & Discounts for October 2026 - StyleCaster",
+            "en": "Old Navy Coupon Codes & Discounts for October 2026 - StyleCaster"
+          },
+          "whyItMatters": {
+            "kr": "Macy's과 유사한 고객층을 두고 경쟁하는 JCPenney의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by JCPenney is relevant to Macy's's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "JCPenney의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this JCPenney signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "StyleCaster",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.20",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWlpXazJQRXBvTm9mNGk2WU9TcjB2SmxveUtNVU85LWw2LWc5VTVyRE51WjJZR0V5Z3JGT3NMLWhpV0drcm9ab3lYRG5ZQVdBZWhYNVM1Qjg0aTA5TlBrNTI3U2dSbUtEN05XUUpnNHFQdWdQTHdYZEcwV083b3R2UHBJd0ZjWGF6SUhCQzBZZnd3c1VpRXVOVUJyOHU1c0ZP?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Nordstrom",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "Nordstrom Coupon Codes & Discounts for October 2026 - StyleCaster",
+            "en": "Nordstrom Coupon Codes & Discounts for October 2026 - StyleCaster"
+          },
+          "whyItMatters": {
+            "kr": "Macy's과 유사한 고객층을 두고 경쟁하는 Nordstrom의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Nordstrom is relevant to Macy's's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Nordstrom의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Nordstrom signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "StyleCaster",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.16",
               "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOExPM3Y5dnZrRFlKX0paX1JZcHhZT29HNlVoUnhHNk5IcHdYZTNCenctREhjb3lhVE4wUjlLamxCWE9kUTFkUVN3d3E5aUg1N3FZaUtrRmJyR1ZqTGViZUYtdXlLczFBRU54aUdXOEt3M3FQZUw3bjM5VlJsWVlqeVptbHNjNWU2cU5jQWp1NVU1cVRxYl94T0pjaDVXRi1ienc?oc=5"
-            }
-          ]
-        },
-        {
-          "name": "Nordstrom",
-          "signal": "PRODUCT",
-          "move": {
-            "kr": "가을 시즌 독자들이 가장 많이 구매하는 인기 아이템 순위와 트렌드를 공개했습니다.",
-            "en": "It published rankings and trends of the most popular items bought by readers for the fall season."
-          },
-          "whyItMatters": {
-            "kr": "소비자들의 실제 구매 선호도를 반영하여 상품 기획 및 재고 운영에 인사이트를 줍니다.",
-            "en": "It reflects actual consumer purchasing preferences, providing insights for merchandising and inventory."
-          },
-          "action": {
-            "kr": "베스트셀러 아이템의 실시간 판매 데이터를 분석하여 당사 주력 상품군에 반영해야 합니다.",
-            "en": "Analyze real-time sales data of bestseller items and reflect them in our core product lines."
-          },
-          "sources": [
-            {
-              "source": "Who What Wear",
-              "sourceTier": "GENERAL",
-              "date": "2026.10.15",
-              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeVVPaUQzWDVaQ3VzTkxFQk85VzJCQkVXRVdWWjdsQnRKRHNid0NXUTN5YnhRaEdCTk1GU3cyaGpDS2k1OWU5QjlNaDBWUUxsWW5nZjBCV3NLUVFLZm5NS3Zza1NIYTVfa29zbl9jaEFXYWxXZTZKVEJOX2xiNThaLUlVN2lxejlKYV91VVNfUUM?oc=5"
-            }
-          ]
-        },
-        {
-          "name": "Nordstrom",
-          "signal": "PRODUCT",
-          "move": {
-            "kr": "피트니스 전문가들이 선정한 2026년 최고의 애슬레저 브랜드를 소개했습니다.",
-            "en": "It featured the best activewear brands of 2026 selected by fitness experts."
-          },
-          "whyItMatters": {
-            "kr": "애슬레저 및 웰니스 카테고리에서 소비자의 신뢰를 얻는 브랜드 라인업을 강화하고 있습니다.",
-            "en": "It strengthens the brand lineup gaining consumer trust in the activewear and wellness categories."
-          },
-          "action": {
-            "kr": "당사의 애슬레저 및 스포츠웨어 구색을 전문가 추천 트렌드에 맞춰 보완해야 합니다.",
-            "en": "Enhance our activewear and sportswear assortment in line with expert-recommended trends."
-          },
-          "sources": [
-            {
-              "source": "InStyle",
-              "sourceTier": "GENERAL",
-              "date": "2026.10.14",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzUGw4OXRRSUYxT001OXBTbUZXVlpyN3BzY3BHUUtzS2dxekwwanQ2cFk5elA5RGdudkh0UkFBT3doTzAyZTQ4Y0pEbWUzQ01tVVZ6V2g0U1hZYjNIQzg1Q21KT3lfRTExMTJFSFlPMXM?oc=5"
             }
           ]
         }
@@ -254,108 +254,74 @@
     },
     {
       "buyer": "Ann Taylor",
-      "competitionLevel": "MEDIUM",
+      "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "Banana Republic와 J.Crew 등 주요 경쟁사들이 가을 드레스 및 테일러드 수트 신상품을 적극 홍보하고 있습니다.",
-        "en": "Key competitors like Banana Republic and J.Crew are actively promoting fall dresses and tailored suit new arrivals."
+        "kr": "J.Crew, Banana Republic, Banana Republic 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for J.Crew, Banana Republic, Banana Republic. Review the implications by buyer using the cited sources."
       },
       "competitors": [
         {
-          "name": "Banana Republic",
+          "name": "J.Crew",
           "signal": "PRODUCT",
           "move": {
-            "kr": "가을 날씨에 어울리는 이달의 베스트 드레스 컬렉션을 집중 조명했습니다.",
-            "en": "It spotlighted the best dress collections of the month suited for fall weather."
+            "kr": "It's My Job to Find Amazing Shopping Picks—These 9 New Buys Are Too Good to Miss - Who What Wear",
+            "en": "It's My Job to Find Amazing Shopping Picks—These 9 New Buys Are Too Good to Miss - Who What Wear"
           },
           "whyItMatters": {
-            "kr": "오피스룩 및 캐주얼 원피스 수요를 타겟팅하여 여성복 카테고리 매출을 견인합니다.",
-            "en": "It drives revenue in the womenswear category by targeting office look and casual dress demand."
+            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 J.Crew의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by J.Crew is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
           },
           "action": {
-            "kr": "당사의 가을 드레스 및 오피스 웨어 라인업의 마케팅 노출을 확대해야 합니다.",
-            "en": "Expand marketing exposure for our fall dress and office wear line-up."
+            "kr": "J.Crew의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this J.Crew signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
           },
           "sources": [
             {
-              "source": "Vogue",
+              "source": "Who What Wear",
               "sourceTier": "GENERAL",
-              "date": "2026.10.15",
-              "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5WZkpQRVBNY2dhOW56XzhzcktWc1dGb0x0aGoybU9mYVhPaml4UmdWX0NNZUlCVkczLWFsMm9wX3FHSURXa3hIOUJiV3lIQQ?oc=5"
+              "date": "2026.10.19",
+              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05WlM1amVxRTRGZC1haGZ4SzJzeV9ONkpFY2hfLVpveElqTjBJSFlVMEN0ejFxUDNNUE93VXVuNGJQSWxZbEdRSDMydkhPTGRGdHhjdXFR?oc=5"
             }
           ]
         },
         {
           "name": "Banana Republic",
-          "signal": "PROMOTION",
+          "signal": "PRODUCT",
           "move": {
-            "kr": "주간 맨즈웨어 및 여성복 주요 상품에 대한 파격적인 할인 거래를 진행했습니다.",
-            "en": "It ran aggressive discount deals on key weekly menswear and womenswear items."
+            "kr": "The 21 Best Menswear Deals of the Week - GQ",
+            "en": "The 21 Best Menswear Deals of the Week - GQ"
           },
           "whyItMatters": {
-            "kr": "주말 쇼핑 트래픽을 유도하고 재고 회전율을 높이는 효과적인 프로모션 전략입니다.",
-            "en": "It is an effective promotional strategy to drive weekend shopping traffic and improve inventory turnover."
+            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 Banana Republic의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Banana Republic is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
           },
           "action": {
-            "kr": "주말 한정 할인 프로모션을 기획하여 구매 전환율을 높여야 합니다.",
-            "en": "Plan weekend-limited discount promotions to increase purchase conversion rates."
+            "kr": "Banana Republic의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Banana Republic signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
           },
           "sources": [
             {
               "source": "GQ",
               "sourceTier": "GENERAL",
-              "date": "2026.10.15",
+              "date": "2026.10.16",
               "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9jZE40ZDV0ODZEYnpxQ054cEc0NHlQb3M2bEh1TWY1dTNaV2lKeDBDVzR0S2JnbGY2WWJqZl9hd0o3NFdyblk2UmlaMWh2anJ3SHlHSzJVbXM3emlFMmRncw?oc=5"
             }
           ]
         },
         {
-          "name": "J.Crew",
+          "name": "Banana Republic",
           "signal": "PRODUCT",
           "move": {
-            "kr": "필수 수트 및 테일러드 의류 브랜드 가이드를 통해 클래식 패션 제안을 강화했습니다.",
-            "en": "It reinforced classic fashion offerings through essential suit and tailored apparel brand guides."
+            "kr": "Top fall sales 2026: Anthropologie, Crate & Barrel and more - Good Morning America",
+            "en": "Top fall sales 2026: Anthropologie, Crate & Barrel and more - Good Morning America"
           },
           "whyItMatters": {
-            "kr": "정장 및 비즈니스 캐주얼 카테고리에서 전문성과 브랜드 신뢰도를 구축합니다.",
-            "en": "It builds expertise and brand trust in the formal suit and business casual categories."
+            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 Banana Republic의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Banana Republic is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
           },
           "action": {
-            "kr": "당사의 비즈니스 테일러링 제품군의 품질과 스타일링 가이드를 보강해야 합니다.",
-            "en": "Bolster the quality and styling guides of our business tailoring product lines."
-          },
-          "sources": [
-            {
-              "source": "GQ",
-              "sourceTier": "GENERAL",
-              "date": "2026.10.14",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UdWU2cWc5d19XQkR1cDNIT0l4clExUGFEQ0loZmRDb3ZiTmhjYXBuNFlfSVp3NDcycDdwUEZLaXNNNm5BRWFpN2J1OGgyV0s5WUhN?oc=5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "buyer": "Talbot's",
-      "competitionLevel": "LOW",
-      "keyTakeaway": {
-        "kr": "Lands' End 등 주요 경쟁사가 가을 시즌 할인 행사에 참여하며 전통적인 리테일 프로모션을 유지하고 있습니다.",
-        "en": "Key competitors like Lands' End are participating in fall season discount events, maintaining traditional retail promotions."
-      },
-      "competitors": [
-        {
-          "name": "Lands' End",
-          "signal": "PROMOTION",
-          "move": {
-            "kr": "주요 미디어의 가을 시즌 탑 세일 기획전에 포함되어 할인 프로모션을 전개했습니다.",
-            "en": "It was featured in major media outlets' top fall season sale roundups, running discount promotions."
-          },
-          "whyItMatters": {
-            "kr": "클래식 및 헤리티지 브랜드 고객층을 대상으로 가을 시즌 판매를 촉진합니다.",
-            "en": "It stimulates fall season sales targeting customers of classic and heritage brands."
-          },
-          "action": {
-            "kr": "당사도 타겟층에 맞춘 가을 시즌 기획전 및 할인 행사를 지속적으로 전개해야 합니다.",
-            "en": "We should also continuously run fall promotional events and discounts tailored to our target audience."
+            "kr": "Banana Republic의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Banana Republic signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
           },
           "sources": [
             {
@@ -367,11 +333,20 @@
           ]
         }
       ]
+    },
+    {
+      "buyer": "Talbot's",
+      "competitionLevel": "LOW",
+      "keyTakeaway": {
+        "kr": "최근 7일 내 유의미한 competitor signal이 제한적입니다.",
+        "en": "Meaningful competitor signals were limited in the last 7 days."
+      },
+      "competitors": []
     }
   ],
   "socialPulse": {
     "ok": true,
-    "generatedDateKST": "2026-10-20",
+    "generatedDateKST": "2026-10-21",
     "windowDays": 14,
     "analysisMode": "GEMINI",
     "brands": [
@@ -386,20 +361,20 @@
         "signal": "COLLAB",
         "date": "RECENT",
         "headline": {
-          "kr": "YPB by Abercrombie, 배리스(Barry's)와 피트니스 콜라보레이션 런칭",
-          "en": "YPB by Abercrombie Launches Fitness Collaboration with Barry's"
+          "kr": "YPB by Abercrombie, Barry's와의 피트니스 콜라보레이션 런칭",
+          "en": "YPB by Abercrombie Launches New Fitness Collaboration with Barry's"
         },
         "summary": {
-          "kr": "애버크롬비앤피치는 피트니스 브랜드 배리스(Barry's)와의 협업을 통해 퍼포먼스 소재와 대담한 레드 악센트를 적용한 YPB 컬렉션을 온/오프라인 글로벌 75개 매장에 10월 1일 런칭했습니다.",
-          "en": "Abercrombie & Fitch launched its new YPB collection co-designed with Barry's, featuring performance fabrics and bold red accents, rolling out globally on October 1."
+          "kr": "애버크롬비의 피트니스 라인 YPB가 피트니스 스튜디오 배리스(Barry's)와 손잡고 퍼포먼스 소재와 대담한 레드 악센트를 적용한 공동 디자인 컬렉션을 10월 1일 런칭함.",
+          "en": "Abercrombie's YPB fitness line teamed up with Barry's to launch a co-designed collection featuring performance fabrics and bold red accents, launching October 1."
         },
         "whyItMatters": {
-          "kr": "애슬레저(Activewear) 카테고리에서 기능성과 트렌디한 디자인을 결합한 제품이 글로벌 스토어 트래픽을 견인하고 있음을 보여줍니다.",
-          "en": "Demonstrates that activewear blending functionality and trendy design continues to successfully drive global store traffic and brand engagement."
+          "kr": "애슬레저 및 액티브웨어 카테고리에서 브랜드 파트너십을 통한 디자인 차별화와 기능성 상품 수요가 지속적으로 입증되고 있음.",
+          "en": "Brand partnerships in the athleisure and activewear category continue to prove strong demand for differentiated designs and functional products."
         },
         "action": {
-          "kr": "당사 activewear 라인의 기능성 패브릭 소싱 경쟁력을 검토하고 향후 콜라보 제안을 위한 유사 머천다이징 트렌드를 분석할 것.",
-          "en": "Review sourcing competitiveness for activewear performance fabrics and analyze similar merchandising trends for upcoming vendor collaboration proposals."
+          "kr": "YPB x Barry's 콜라보 라인의 퍼포먼스 패브릭 스펙과 실루엣을 분석하여 당사 액티브웨어 제안에 반영할 것.",
+          "en": "Analyze the performance fabric specs and silhouettes of the YPB x Barry's collab line to incorporate into our upcoming activewear proposals."
         },
         "sourceUrl": "https://www.linkedin.com/company/abercrombie-%26-fitch/"
       },
@@ -409,43 +384,43 @@
         "signal": "FINANCIAL",
         "date": "RECENT",
         "headline": {
-          "kr": "애버크롬비, 15분기 연속 순매장 성장 달성 및 연간 가이던스 상향",
-          "en": "A&F Achieves 15th Consecutive Quarter of Net Sales Growth and Raises Full-Year Outlook"
+          "kr": "15개 분기 연속 순매출 성장 기록 및 연간 가이던스 상향",
+          "en": "Achieves 15th Consecutive Quarter of Net Sales Growth and Raises Full-Year Outlook"
         },
         "summary": {
-          "kr": "애버크롬비앤피치는 2분기 실적 발표에서 15분기 연속 순매장 성장을 기록하며 전 브랜드와 지역에서 고른 호실적을 거두어 연간 실적 전망을 상향 조정했습니다.",
-          "en": "Reporting its second-quarter results, Abercrombie & Fitch marked 15 consecutive quarters of net sales growth, raising its full-year net sales and bottom-line outlook."
+          "kr": "2분기 실적 발표에서 15개 분기 연속 순매출 성장을 달성했으며, 글로벌 브랜드의 견조한 실적을 바탕으로 연간 순매출 및 이익 전망치를 상향 조정함.",
+          "en": "Announced Q2 earnings marking 15 consecutive quarters of net sales growth and raised full-year net sales and bottom-line expectations."
         },
         "whyItMatters": {
-          "kr": "지속적인 실적 호조는 브랜드의 탄탄한 재고 회전과 공격적인 바잉 파워로 이어져 벤더사와의 안정적인 오더 물량 유지에 긍정적입니다.",
-          "en": "Consistent sales strength supports healthy inventory turnover and strong buying power, ensuring stable order volumes for key apparel vendors."
+          "kr": "A&F 그룹의 강력한 실적과 재고 회전율은 향후 공급망 확대 및 신규 스타일 소싱에 긍정적인 신호임.",
+          "en": "A&F Group's strong financial performance and inventory velocity signal positive momentum for expanded supply chain and new style sourcing."
         },
         "action": {
-          "kr": "A&F향 핵심 스타일의 재고 소진율(Sell-through) 추이를 모니터링하고 차기 시즌 오더 예측치를 벤더사 캐파(Capacity) 계획에 반영할 것.",
-          "en": "Monitor sell-through trends for core A&F styles and incorporate upcoming seasonal order forecasts into vendor capacity planning."
+          "kr": "A&F의 카테고리별 베스트셀러 트렌드를 모니터링하고 F/W 시즌 추가 오더 가능성에 대비해 원단 선발주 여부를 검토할 것.",
+          "en": "Monitor A&F's category-level bestseller trends and evaluate preliminary fabric sourcing to prepare for potential F/W season re-orders."
         },
         "sourceUrl": "https://www.linkedin.com/company/abercrombie-%26-fitch/"
       },
       {
         "brand": "Macy's",
         "platform": "LinkedIn",
-        "signal": "COLLAB",
+        "signal": "CAMPAIGN",
         "date": "RECENT",
         "headline": {
-          "kr": "블루밍데일즈, 더 리츠칼튼과 협업한 '호텔 블루밍데일즈' 캠페인 및 단독 캡슐 공개",
-          "en": "Bloomingdale's Launches 'Hotel Bloomingdale's' Campaign with The Ritz-Carlton and Exclusive Capsule"
+          "kr": "블루밍데일즈, 리츠칼튼 협업 '호텔 블루밍데일즈' 가을 캠페인 전개",
+          "en": "Bloomingdale's Launches Fall Campaign 'Hotel Bloomingdale's' in Partnership with The Ritz-Carlton"
         },
         "summary": {
-          "kr": "블루밍데일즈는 더 리츠칼튼(The Ritz-Carlton)과의 파트너십을 통해 5성급 호텔의 감성을 담은 '호텔 블루밍데일즈' 팝업 캠페인을 전개하며 니키 힐튼과의 단독 26피스 AQUA 컬렉션을 선보였습니다.",
-          "en": "Bloomingdale's introduced 'Hotel Bloomingdale's' in partnership with The Ritz-Carlton, featuring immersive pop-up windows and an exclusive 26-piece AQUA x Nicky Hilton collection."
+          "kr": "블루밍데일즈가 리츠칼튼과 협업하여 5성급 호텔의 감성을 담은 매장 디스플레이와 26피스 규모의 익스클루시브 'AQUA x 니키 힐튼' 컬렉션을 런칭함.",
+          "en": "Bloomingdale's partnered with The Ritz-Carlton for 'Hotel Bloomingdale's', featuring immersive retail windows and an exclusive 26-piece AQUA x Nicky Hilton collection."
         },
         "whyItMatters": {
-          "kr": "단독 브랜드 캡슐 컬렉션(Exclusive Capsule)과 체험형 매장 디스플레이를 결합하여 고객 체류 시간을 늘리고 프리미엄 의류 판매를 촉진하고 있습니다.",
-          "en": "Combines exclusive capsule collections with experiential retail displays to extend customer dwell time and drive premium apparel sales."
+          "kr": "백화점 채널에서 독점 캡슐 컬렉션과 라이프스타일 결합형 매장 인테리어가 고객 체류 시간과 객단가 상승을 견인하고 있음.",
+          "en": "Exclusive capsule collections and lifestyle-integrated store experiences are driving customer dwell time and higher average order value in department store channels."
         },
         "action": {
-          "kr": "단독 캡슐 라인(AQUA 등)의 디자인 구성과 딜리버리 스케줄을 분석하여 당사의 프라이빗 레이블(PL) 및 스페셜 콜라보 기획 역량에 벤치마킹할 것.",
-          "en": "Analyze design composition and delivery schedules of exclusive capsule lines (such as AQUA) to benchmark for our private label (PL) and special collaboration initiatives."
+          "kr": "익스클루시브 캡슐 컬렉션의 구성 방식과 협업 마케팅 사례를 분석하여 향후 백화점 바이어 제안서에 활용할 것.",
+          "en": "Analyze the structure of the exclusive capsule collection and co-marketing approach to utilize in upcoming department store buyer proposals."
         },
         "sourceUrl": "https://www.linkedin.com/company/macy/"
       }
