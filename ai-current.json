@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-10-20T02:49:45.367Z",
+  "asOf": "2026-10-20T02:50:12.368Z",
   "generatedDateKST": "2026-10-20",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
@@ -11,66 +11,66 @@
   "competitorDateKST": "2026-10-20",
   "insight": {
     "headline": {
-      "kr": "[8담당 데일리 브리프] A&F 호실적 및 브랜디드 콜라보 지속, Holiday 시즌 대비 배송 경쟁 심화",
-      "en": "[Team 8 Daily Brief] A&F Continues Strong Momentum & Collaborations; Holiday Delivery Competition Heats Up"
+      "kr": "[8담당] A&F 15분기 연속 성장세 지속 속 메이시스·콜스 Holiday 마케팅 및 물류 채널 확장 총력",
+      "en": "[Team 8] A&F Maintains 15-Quarter Growth Streak While Macy's and Kohl's Ramp Up Holiday Marketing & Channel Expansion"
     },
     "summary": {
-      "kr": "유가 하락세 속 면화 선물은 강보합세를 보였으며, 주요 바이어들은 Holiday 시즌을 겨냥한 IP 콜라보와 온디맨드(DoorDash 등) 배송 채널 확장에 집중하고 있습니다. A&F는 강력한 브랜드 모멘텀을 이어가고 있으며, Kohl's와 Macy's는 차별화된 라인업과 옴니채널 전략을 강화하고 있습니다.",
-      "en": "Cotton futures edged up amid dropping crude oil prices while major buyers ramp up IP collaborations and on-demand delivery channels (e.g., DoorDash) for the holiday season. A&F maintains robust brand momentum, while Kohl's and Macy's focus on differentiated assortments and omnichannel strategies."
+      "kr": "A&F는 강력한 브랜드 모멘텀과 프리미엄 포지셔닝으로 애널리스트 호평을 받으며 견조한 실적을 이어가고 있습니다. 메이시스는 Parade 100주년 디즈니 콜라보 및 DoorDash 입점으로 옴니채널을 강화하고 있으며, 콜스는 키즈 스케이트보드 activewear 런칭으로 가성비 수요를 공략 중입니다. 원·달러 환율은 1,330원대, 국제유가 및 면화 가격은 안정세를 보이고 있습니다.",
+      "en": "A&F continues strong performance backed by brand momentum and analyst praise. Macy's is expanding omnichannel reach via a Disney parade capsule and DoorDash partnership, while Kohl's targets value-driven demand with a kids' activewear line. USD/KRW holds near 1,330 with crude oil and cotton prices stabilizing."
     },
     "tags": [
       "#Team8Daily",
+      "#ApparelVendor",
       "#HolidaySeason",
-      "#Omnichannel",
-      "#VendorStrategy"
+      "#OmniChannel"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "스케이터 Greg Lutzka와의 키즈 activewear 시그니처 컬렉션을 통해 가성비와 sports category를 강화하고 있으며, 경쟁사 Target의 1시간 배송 등 라스트마일 경쟁에 대응 필요.",
-        "en": "Kohl's reinforced its value-driven activewear strategy with a kids' signature line alongside skater Greg Lutzka, while facing intensifying last-mile delivery competition from Target."
+        "kr": "스케이터 Greg Lutzka와의 협업을 통해 가성비 높은 키즈 activewear 시그니처 컬렉션을 런칭했습니다. 경쟁사인 Target이 Uber Eats를 통한 1시간 배송 확대 등 편의성 경쟁을 심화시키는 가운데, 콜스는 실속형 소비자층을 타깃으로 private brand 및 스포츠 category 방어에 집중하고 있습니다.",
+        "en": "Launched a budget-friendly kids' activewear signature collection with skater Greg Lutzka. As competitor Target intensifies convenience-driven competition via rapid delivery, Kohl's focuses on defending its value-driven sports category for younger demographics."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "15분기 연속 순매장 성장 및 Barry's와의 YPB 콜라보로 애슬레저 category 경쟁력을 입증함. 철저한 재고 관리와 가격 결정력으로 벤더사 오더 안정성 유지.",
-        "en": "A&F proved activewear strength via its Barry's YPB collaboration and 15 consecutive quarters of sales growth, ensuring stable vendor order volumes through disciplined inventory control."
+        "kr": "탁월한 pricing power와 엄격한 재고 관리로 Jefferies 등 월가로부터 강력한 지지를 받고 있으며, 배리스(Barry's)와의 YPB 콜라보 등으로 글로벌 traffic을 견인 중입니다. 주요 경쟁사인 Anthropologie의 DoorDash Holiday 배송 제휴 및 AEO Aerie의 언더웨어 확장 공세에 대응해 당사는 핵심 스타일의 sell-through 모니터링이 필요합니다.",
+        "en": "Backed by strong analyst support and disciplined inventory control, A&F drives global traffic via collaborations like YPB x Barry's. Amid competitor moves like Anthropologie's DoorDash partnership and Aerie's loungewear push, we must closely monitor core sell-through trends."
       },
       {
         "buyer": "Macy's",
-        "kr": "Thanskgiving Parade 100주년 기념 Disney 콜라보 및 DoorDash 입점을 통해 traffic 견인 및 옴니채널 fulfillment 다각화 추진.",
-        "en": "Macy's is driving traffic and diversifying fulfillment via a Disney Thanksgiving Parade 100th-anniversary collaboration and DoorDash partnership."
+        "kr": "추수감사절 Parade 100주년을 기념한 디즈니 exclusive 캡슐 컬렉션을 공개하고 DoorDash 공식 입점을 통해 당일 배송 및 O2O 서비스를 강화했습니다. 블루밍데일즈의 '호텔 블루밍데일즈' 팝업 등 체험형 마케팅과 Holiday 시즌 IP 협업을 통한 traffic 유치 전략이 돋보입니다.",
+        "en": "Launched an exclusive Disney capsule for the 100th Thanksgiving Parade and expanded rapid delivery via DoorDash. Macy's and Bloomingdale's are driving traffic through experiential retail pop-ups and holiday IP collaborations."
       }
     ],
     "opportunities": [
       {
-        "kr": "A&F 및 Macy's(블루밍데일즈 AQUA 라인 등)의 성공적인 콜라보 및 캡슐 컬렉션 기획을 벤치마킹하여 당사 PL 및 스페셜 오더 제안 시 적극 활용.",
-        "en": "Benchmark successful collaboration and capsule collection strategies from A&F and Macy's (e.g., Bloomingdale's AQUA line) for upcoming PL and special order proposals."
+        "kr": "메이시스의 디즈니 캡슐 및 블루밍데일즈의 AQUA x 니키 힐튼 라인 등 Holiday 시즌 exclusive IP 콜라보 트렌드에 맞춘 제안서 준비",
+        "en": "Prepare proactive vendor proposals tailored to holiday exclusive IP collaboration trends, following Macy's Disney capsule and Bloomingdale's AQUA lines."
       },
       {
-        "kr": "Holiday 시즌을 앞두고 온디맨드 배송 및 신속한 딜리버리 요구에 맞춘 벤더사 생산 캐파 및 물류 대응력 선제 점검.",
-        "en": "Proactively review vendor production capacity and logistics readiness to meet on-demand delivery and fast fulfillment demands ahead of the holiday season."
+        "kr": "A&F의 15분기 연속 성장 및 YPB activewear 라인의 글로벌 매장 확장에 발맞춘 기능성 퍼포먼스 패브릭 sourcing 및 벤더 캐파 선제 확보",
+        "en": "Secure vendor capacity and functional performance fabric sourcing in line with A&F's 15-quarter growth and global YPB activewear expansion."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "경쟁사들의 DoorDash 등 즉시 배송 및 Holiday 공격적 promotion 확대로 인해 시즌 중반 재고 소진 지연 리스크 존재.",
-      "en": "Risk of mid-season inventory slowdown due to competitors' aggressive instant delivery and holiday promotional expansions."
+      "kr": "Target 및 Anthropologie 등 주요 경쟁 retail러들의 DoorDash 기반 초고속 옴니채널 배송 확대로 인해 Holiday 시즌 벤더사의 납기 준수 및 빠른 lead time 요구 가중",
+      "en": "Intensified ultra-fast omnichannel delivery demands by competitors like Target and Anthropologie increase pressure on vendor lead times and strict on-time delivery for the holiday season."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "A&F향 핵심 스타일의 sell-through 추이를 모니터링하고 차기 시즌 오더 예측치를 벤더사 캐파 계획에 반영할 것.",
-        "en": "Monitor sell-through trends for core A&F styles and incorporate upcoming seasonal order forecasts into vendor capacity planning."
+        "kr": "A&F향 핵심 스타일의 주간 Sell-through 데이터 분석 및 차기 시즌 오더 예측치 반영",
+        "en": "Analyze weekly sell-through data for core A&F styles and incorporate upcoming seasonal order forecasts."
       },
       {
         "owner": "Team 8",
-        "kr": "Macy's와 Kohl's의 Holiday 시즌 IP 콜라보 및 가성비 category 확장에 대응하여 제안 상품군의 가격 경쟁력 및 소재 sourcing 점검.",
-        "en": "Review price competitiveness and material sourcing for proposed product lines in response to Macy's and Kohl's holiday IP collaborations and value-driven category expansions."
+        "kr": "메이시스 및 콜스의 Holiday 시즌 promotion 일정에 맞춘 샘플 딜리버리 및 납기 일정 최종 점검",
+        "en": "Finalize sample delivery schedules and lead times aligned with Macy's and Kohl's holiday promotion timelines."
       },
       {
         "owner": "Team 8",
-        "kr": "원면 가격(CTZ26) 및 환율 변동성에 따른 원가 영향을 분석하고 바이어별 단가 협상 시 선제적 대응 논리 준비.",
-        "en": "Analyze cost impacts from cotton futures (CTZ26) and FX volatility, preparing proactive negotiation logic for buyer unit pricing."
+        "kr": "환율(USD/KRW 1,330원대) 및 면화/유가 변동성에 따른 원가 절감 요인 및 margin 영향 정밀 검토",
+        "en": "Closely review cost-saving potentials and margin impacts driven by recent USD/KRW, cotton, and oil price fluctuations."
       }
     ]
   }
