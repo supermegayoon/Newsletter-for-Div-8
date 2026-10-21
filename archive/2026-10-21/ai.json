@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "asOf": "2026-10-20T23:00:49.852Z",
+  "generatedDateKST": "2026-10-21",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-10-21",
+  "insight": {
+    "headline": {
+      "kr": "메이시스 Holiday 캡슐 런칭 및 A&F 타겟 Partnership 주목… 환율 하락 속 원가 경쟁력 확보 집중",
+      "en": "Macy's Holiday Capsule Launch & A&F Target Partnership Focus Amid USD/KRW Decline"
+    },
+    "summary": {
+      "kr": "메이시스의 Thanksgiving Parade 기념 디즈니 콜라보와 A&F 홀리스터의 채널 확장 움직임이 활발한 가운데, 원/달러 환율이 하락(1,325.99원)하고 유가 및 면화 가격 변동성이 커지고 있어 철저한 margin 및 원가 관리가 요구됩니다.",
+      "en": "As Macy's debuts its Disney Thanksgiving parade capsule and A&F explores channel expansions, the USD/KRW exchange rate dipped to 1,325.99 alongside volatile oil and cotton prices, emphasizing the need for strict margin and cost control."
+    },
+    "tags": [
+      "#Team8Daily",
+      "#MacyDisneyCollab",
+      "#ANFTarget",
+      "#HolidaySourcing"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "Target 등 경쟁사의 퀵딜리버리 및 공격적 promotion에 대응하기 위해, 유아동 및 activewear category에서 가격 경쟁력을 갖춘 가성비 sourcing 제안이 필수적입니다.",
+        "en": "To counter rapid fulfillment and aggressive promos from competitors like Target, cost-effective sourcing proposals in kids' and activewear are essential."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "15개 분기 연속 매출 성장과 YPB 피트니스 라인의 성공에 힘입어 퍼포먼스 패브릭과 디자인 디테일이 가미된 activewear 품목의 추가 sourcing 가능성을 타진해야 합니다.",
+        "en": "Backed by 15 consecutive quarters of growth and the success of the YPB fitness line, explore additional sourcing for performance-fabric and detailed activewear."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "Thankgiving Day Parade 100주년 기념 디즈니 exclusive 캡슐과 같은 Holiday 시즌 단독 상품 기획 트렌드에 맞춰 벤더사 차원의 감각적인 콜라보 제안을 준비해야 합니다.",
+        "en": "Align with Macy's holiday season trend of exclusive capsule collections, such as the Disney parade drop, by preparing creative collaborative proposals."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "메이시스 및 블루밍데일즈 등 백화점 채널의 Holiday 시즌 exclusive 캡슐 Collaboration 수요를 타겟으로 한 선제적 디자인 제안",
+        "en": "Proactive design proposals targeting holiday-season exclusive capsule collaboration demand in department store channels like Macy's and Bloomingdale's."
+      },
+      {
+        "kr": "유가 및 면화 선물 가격 하락세를 활용한 F/W 및 Holiday 시즌 원단 선발주 및 원가 절감 협상 추진",
+        "en": "Leveraging declining crude oil and cotton futures to execute early fabric commitments and cost reduction negotiations for F/W and holiday lines."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "원/달러 환율 하락(1,325원대) 및 국제 유가 하락에 따른 바이어들의 단가 인하 압박 가중 우려",
+      "en": "Increased pressure from buyers for unit price reductions due to the declining USD/KRW exchange rate (1,325 range) and lower crude oil prices."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "메이시스 Holiday 디즈니 캡슐 및 백화점 exclusive 라인 벤치마킹 분석 자료 작성 및 공유",
+        "en": "Prepare and share benchmarking analysis on Macy's holiday Disney capsule and department store exclusive lines."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "A&F YPB activewear 라인의 퍼포먼스 소재 스펙을 분석하여 당사 신규 제안서에 반영",
+        "en": "Analyze performance fabric specs from A&F's YPB activewear line and integrate them into upcoming proposals."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "환율 하락에 따른 원가 영향도를 점검하고 주요 바이어별 시즌 오더 margin율 시뮬레이션 실시",
+        "en": "Review cost impacts from the lower exchange rate and run margin simulations for seasonal orders across key buyers."
+      }
+    ]
+  }
+}
