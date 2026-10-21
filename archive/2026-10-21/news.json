@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "asOf": "2026-10-20T23:00:36.422Z",
+  "generatedDateKST": "2026-10-21",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 3,
+    "within7d": 3,
+    "total": 5,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Collab / Holiday",
+      "category_en": "Collaboration & Holiday",
+      "date": "2026.10.19",
+      "title_kr": "Macy's, Thanksgiving Day Parade 기념 exclusive Disney Capsule Collection 출시",
+      "title_en": "Disney and Macy's Drop Thanksgiving Parade Collection Ahead of Holiday Season",
+      "body_kr": "Macy's가 Thanksgiving Day Parade 100주년을 맞아 exclusive Disney Capsule Collection과 Holiday merchandise를 공개하며 offline store 판매에 돌입했습니다. Holiday merchandise sourcing 및 Collaboration category 기획 시 벤더사들의 적극적인 레퍼런스 활용이 요구됩니다.",
+      "body_en": "Macy's launched an exclusive Disney Capsule Collection and holiday merchandise in stores celebrating the Thanksgiving Day Parade. Vendors should note this major retail collaboration as a benchmark for holiday season capsule strategies.",
+      "source": "SheKnows",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX2tFNHpjZWx1eFhyV0ltbVVtdGQya0VzaXpTbkZ0eEFnbU53elpxbUM2ekNoZUpFdHp5dkw3bmpKb0pfRkV4Z2Z2a2ltNmw4TDkzTERVTFdHcW9NR2dsdkRFbVY4QXpFZkVzcjBtcnJSWl9HM0I0LUZyWUJHQTduLW50RUxCQl9rTy1SS21Wa0w4TG9YZi1BUWdDcWlENUx5SlFKcExR?oc=5",
+      "ageHours": 29.208085
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Wholesale / Channel",
+      "category_en": "Wholesale & Channel Expansion",
+      "date": "2026.10.20",
+      "title_kr": "Abercrombie & Fitch의 Target partnership이 Hollister 성장 견인할까",
+      "title_en": "Can Abercrombie's Target Partnership Fuel Hollister's Growth?",
+      "body_kr": "Market analysts are evaluating how Abercrombie's strategic retail partnership can further accelerate Hollister's growth trajectory. Apparel vendors expanding wholesale channels should closely track these brand positioning dynamics.",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOU3NaOWpCSW84UXNTSUtrVzBhc0VqM200ZTVBemxnM2lHRUYwamlPTGtibE9vSV9iQjlFWDVvUXJCTTg2NW5WejAxRFRsSFRrTUEtLThRYTNyZDVLc1paU04zNl9TZWxxWHhaMElXS25PUFpwak5XMWNqdE1reU5QazJ1cklBZUJDV1NOUkdEUVVIWDVMSWtub1hmYXZTQjJhTTFNcUEta1ByT1QtZFFpbkxR?oc=5",
+      "ageHours": 6.758074722222222
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Earnings / Outlook",
+      "category_en": "Financial Outlook",
+      "date": "2026.10.20",
+      "title_kr": "S&P Global Ratings, Macy's credit outlook 수정… 주가 안정세 유지",
+      "title_en": "S&P Global Ratings Revises Macy's Outlook Amid Market Fluctuations",
+      "body_kr": "S&P Global Ratings has revised Macy's outlook, drawing attention to department store financial health. Vendor sales teams must monitor major retail credit and earnings guidance to assess inventory order stability.",
+      "source": "ad-hoc-news.de",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQUgxOUtpd2RrdGRINGNRdkdQQmdFTVpmMEpWbjgwTTFkUk1UQTlZLUlrQkRlY09ia3FiUTBPS29PS2VNSk1rdnB6bzVXNFRqOXBZZ1FKTGtjZEJtUHBwbVpCU1JhOW1EYnhOMHlLUm04RnZiek9MQlFIT2xCQlpHQjI1MG5SVzVJQ2lxS19ONEJfWjdxVGpPaG1rT1oxcFgwc3k4TEhKb203Mm9vMmNNY19udWpoS3Z4UmRUTHQwOHRSVGpSQ1Q3Y3RzTEJYMkU0MnlZ?oc=5",
+      "ageHours": 5.684751666666667
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Kids / Activewear",
+      "category_en": "Kids & Activewear",
+      "date": "2026.10.12",
+      "title_kr": "Greg Lutzka, 키즈 스케이팅 category 진입 위한 signature collection 출시",
+      "title_en": "Greg Lutzka Launches Signature Collection at Kohl’s for Kids",
+      "body_kr": "Kohl's introduced an affordable signature kids' skating and activewear collection in partnership with Greg Lutzka. This launch serves as a strong pricing and category expansion reference for children's activewear vendors.",
+      "source": "Shredder News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsLUJBNkRGc2ZJcGdtLXlQSmk4dDhLQ1FkUTZKTl9TNDFnMGtFbEF1TkZGZ05SMnc0R1dNTEpnOXRMdWJYTjZPV2tlb1ZFNFp2b3BvUzQzcE5YcUNYRzRpUWNkYWVNR0Vi?oc=5",
+      "ageHours": 198.81559194444444
+    },
+    {
+      "brand": "Levi Strauss",
+      "brandLabel": "Industry",
+      "category_kr": "Earnings / Denim",
+      "category_en": "Earnings & Guidance",
+      "date": "2026.10.08",
+      "title_kr": "Levi Strauss, 관세 환급 및 전략적 expansion 힘입어 full-year earnings outlook 상향",
+      "title_en": "Levi Strauss Lifts Full-Year Earnings Outlook Following Tariff Refunds and Expansion",
+      "body_kr": "Levi Strauss raised its full-year earnings outlook backed by tariff refunds and strategic retail expansion. This denim market momentum provides positive margin and sourcing insights for apparel vendor teams.",
+      "source": "The American Bazaar",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbWlxTXZtTm1GdkFJQ1V0LXhFS1ZabGtBXzBLZWNEWm4zOV9yWms2SXRUVGJ4U25UWTc2b0d1aHBiaWsxVmRYX1d4Vkl2OWtUN1k0akpNRmljVkh4ZTRQSDFNRFhLVnVURFlYNTFMbUNRZmozMDBNUkZmWTdwYVlmeXJscGt1U3d1QVlIdmZwN3VtSEhvYzRsM0p4cWJud0huQ2N0WW5MX3Rqa1ZHNWJ4UUNHVEt0OE5uLXYxLUl1OA?oc=5",
+      "ageHours": 304.00812333333334
+    }
+  ]
+}
