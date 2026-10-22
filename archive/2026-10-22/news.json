@@ -1,0 +1,100 @@
+{
+  "ok": true,
+  "asOf": "2026-10-21T23:00:36.010Z",
+  "generatedDateKST": "2026-10-22",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 4,
+    "within7d": 4,
+    "total": 6,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Holiday 전략",
+      "category_en": "Holiday Strategy",
+      "date": "2026.10.21",
+      "title_kr": "Kohl's, Holiday season 대비 명확한 pricing과 gift bundle 및 Uber Eats Partnership 도입",
+      "title_en": "Kohl's Leans into Clearer Pricing, Gift Bundles and Uber Eats for the Holidays",
+      "body_kr": "Kohl's가 다가오는 Holiday season을 맞아 명확한 pricing 전략과 gift bundle 구성, 그리고 Uber Eats와의 Partnership을 통한 convenience 강화에 나섰습니다. 이는 연말 peak 시즌 consumer demand를 자극하고 store traffic을 높이기 위한 핵심 merchandise 전략입니다.",
+      "body_en": "Kohl's is focusing on clear pricing, gift bundles, and an Uber Eats partnership to drive holiday traffic. This strategy aims to capture consumer demand and boost seasonal sales.",
+      "source": "Modern Retail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYXNNWUhtMnpvYkhIYV9nSGotUWtxZ09mQmNnLU9sMHVSZjJ6c0g1ZkJMbDU5ZW5JdEZfNlJCTU1xNVFyRVZxazZYeXhpRjFWejhONFF2NEZOdGtRb24yOHFzZzB6dy1zUExjUDhuc2VtMWpBcDd5Z19mM1NxNmYyMWhZQXIwSkVLNlVub0prRWRZa3RQeTdMVW1xVlc0UXN4TGRuby1palM3OFo5OUl6OEY2T3lnZw?oc=5",
+      "ageHours": 1.962061388888889
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Marketing",
+      "category_en": "Marketing Campaign",
+      "date": "2026.10.21",
+      "title_kr": "Kohl's, Holiday ad campaign 위해 배우 Ellie Kemper 다시 기용",
+      "title_en": "Kohl’s Brings Back Ellie Kemper for Holiday Ad Campaign",
+      "body_kr": "Kohl's가 연말 Holiday promotion을 위해 배우 Ellie Kemper를 내세운 새로운 ad campaign을 공개했습니다. 공격적인 마케팅을 통해 retail channel 내 브랜드 인지도를 높이고 merchandise sell-through를 견인할 계획입니다.",
+      "body_en": "Kohl's has brought back actress Ellie Kemper for its new holiday ad campaign. The marketing push aims to drive brand awareness and merchandise sell-through during the peak season.",
+      "source": "ADWEEK",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdk1ULWYtbTl2WDYwaHNxQnNDRmhyY0E4RnJSd0ZjSFdNZGg2X3p1ZVlyVGJUb1JiZjZ3cG5zbzM5dGVwVmszQWxWLXhST1dRb0ptYUxkRWplTnpTQzVHSEt1YzVNMHNFZ1JYa2pfX3EtcUVScXhfZmg3TlF1blJWYm55ZklET3hOZkk2QzltSk0?oc=5",
+      "ageHours": 6.3209502777777775
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Collaboration",
+      "category_en": "Collaboration & Event",
+      "date": "2026.10.19",
+      "title_kr": "Macy's, Thanksgiving Day Parade 100주년 기념 exclusive Disney Capsule Collection 출시",
+      "title_en": "Disney and Macy's Just Dropped a Thanksgiving Parade Collection, and It Hits Stores October 15",
+      "body_kr": "Macy's가 Thanksgiving Day Parade 100주년을 기념해 exclusive Disney Capsule Collection을 offline store에 전개했습니다. 연말 Holiday merchandise 확대를 통해 고객 유입과 category별 매출 극대화를 노리고 있습니다.",
+      "body_en": "Macy's released an exclusive Disney capsule collection in stores to celebrate the Thanksgiving Day Parade's 100th anniversary. The drop expands holiday merchandise to drive customer traffic.",
+      "source": "SheKnows",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX2tFNHpjZWx1eFhyV0ltbVVtdGQya0VzaXpTbkZ0eEFnbU53elpxbUM2ekNoZUpFdHp5dkw3bmpKb0pfRkV4Z2Z2a2ltNmw4TDkzTERVTFdHcW9NR2dsdkRFbVY4QXpFZkVzcjBtcnJSWl9HM0I0LUZyWUJHQTduLW50RUxCQl9rTy1SS21Wa0w4TG9YZi1BUWdDcWlENUx5SlFKcExR?oc=5",
+      "ageHours": 53.20786777777778
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Wholesale Channel",
+      "category_en": "Wholesale Expansion",
+      "date": "2026.10.20",
+      "title_kr": "Abercrombie & Fitch의 Target Partnership, Hollister 성장의 기폭제 될까",
+      "title_en": "Can Abercrombie's Target Partnership Fuel Hollister's Growth?",
+      "body_kr": "Abercrombie의 주요 retail channel 확장이 Hollister 브랜드의 전반적인 성장에 긍정적인 영향을 미칠지 업계의 관심이 집중되고 있습니다. 벤더사들은 주요 패션 브랜드의 wholesale Partnership 변화에 따른 마켓 반응을 모니터링해야 합니다.",
+      "body_en": "Industry analysts are examining whether Abercrombie's retail expansion can fuel Hollister's growth. Vendors should monitor how major mall brand wholesale partnerships impact market demand.",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOU3NaOWpCSW84UXNTSUtrVzBhc0VqM200ZTVBemxnM2lHRUYwamlPTGtibE9vSV9iQjlFWDVvUXJCTTg2NW5WejAxRFRsSFRrTUEtLThRYTNyZDVLc1paU04zNl9TZWxxWHhaMElXS25PUFpwak5XMWNqdE1reU5QazJ1cklBZUJDV1NOUkdEUVVIWDVMSWtub1hmYXZTQjJhTTFNcUEta1ByT1QtZFFpbkxR?oc=5",
+      "ageHours": 30.75784277777778
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Category Expansion",
+      "category_en": "Signature Collection",
+      "date": "2026.10.12",
+      "title_kr": "Greg Lutzka, Kids를 위한 가성비 스케이트 컬렉션 Kohl's에서 런칭",
+      "title_en": "Greg Lutzka Launches Signature Collection at Kohl’s to Make Skating More Affordable for Kids",
+      "body_kr": "프로 스케이터 Greg Lutzka가 kids activewear 및 스케이트 merchandise 라인을 Kohl's를 통해 선보였습니다. 가성비를 앞세운 아동용 category 확대로 틈새 수요 공략에 나섰습니다.",
+      "body_en": "Pro skater Greg Lutzka has launched an affordable skate merchandise line for kids at Kohl's. The collection expands the retailer's youth activewear category with value-driven pricing.",
+      "source": "Shredder News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsLUJBNkRGc2ZJcGdtLXlQSmk4dDhLQ1FkUTZKTl9TNDFnMGtFbEF1TkZGZ05SMnc0R1dNTEpnOXRMdWJYTjZPV2tlb1ZFNFp2b3BvUzQzcE5YcUNYRzRpUWNkYWVNR0Vi?oc=5",
+      "ageHours": 222.8153947222222
+    },
+    {
+      "brand": "Ann Taylor",
+      "brandLabel": "Ann Taylor",
+      "category_kr": "Digital & C-Suite",
+      "category_en": "Digital Leadership",
+      "date": "2026.10.01",
+      "title_kr": "KnitWell Group(Ann Taylor 모회사), Chief Digital and Customer Data Officer 선임",
+      "title_en": "KnitWell Group names chief digital and customer data officer",
+      "body_kr": "Ann Taylor의 모회사인 KnitWell Group이 E-commerce 역량 강화를 위해 새로운 디지털 임원을 영입했습니다. Omnichannel 데이터 분석을 통해 고객 맞춤형 merchandise 전략을 고도화할 방침입니다.",
+      "body_en": "Ann Taylor parent KnitWell Group has appointed a new digital and customer data executive. The move aims to strengthen e-commerce analytics and personalize omnichannel merchandise strategies.",
+      "source": "Retail Dive",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSXhPWUVES1lFSHdTZHhicFZ5MGlwWVFMNERmWTNHLXREV0Z6YW5CWnV1Z3Y3Qi1ELW1qQlkzcHpUUGotSGZmY25vZG5CUmtmSG9vQ094dEtPYU5hRFE3elh1VWxvQ044enhYU0wyN05Va0VXZ0ZJR3RKNmgzeDdvRURlWE5NSWZCRHZDSHhaaUpfMzZSSFJkUWM1dzRjcmZadWltZg?oc=5",
+      "ageHours": 496.00783972222223
+    }
+  ]
+}
