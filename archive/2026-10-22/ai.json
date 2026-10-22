@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-10-21T23:01:07.677Z",
+  "generatedDateKST": "2026-10-22",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-10-22",
+  "insight": {
+    "headline": {
+      "kr": "콜스·메이시스 Holiday 마케팅 강화 및 아베크롬비 15분기 연속 성장세 지속",
+      "en": "Kohl's & Macy's Boost Holiday Strategies While A&F Extends 15-Quarter Growth Streak"
+    },
+    "summary": {
+      "kr": "미국 유통가는 연말 Holiday 시즌을 겨냥해 가격 경쟁력 확보, 배송 서비스 제휴, 인플루언서 마케팅을 본격화하고 있습니다. 콜스는 Uber Eats와의 Partnership과 기프트 번들을 통해 traffic 유치에 나섰고, 메이시스는 Parade 100주년 디즈니 컬렉션으로 고객몰이에 돌입했습니다. 아베크롬비는 연속 매출 성장을 바탕으로 벤더사에 안정적인 오더와 적극적인 테크니컬 activewear sourcing을 요구하고 있습니다. 면화 가격은 소폭 상승한 반면 원유가는 하락 안정세를 보이고 있습니다.",
+      "en": "US retailers are accelerating holiday strategies with clear pricing, delivery partnerships, and influencer marketing. Kohl's introduced an Uber Eats tie-in and gift bundles, while Macy's dropped a Disney parade collection. A&F continues its strong sales momentum, demanding reliable capacity and technical activewear sourcing. Cotton prices ticked up slightly while crude oil eased."
+    },
+    "tags": [
+      "#HolidayStrategy",
+      "#RetailPartnership",
+      "#ActivewearGrowth",
+      "#SupplyChainOps"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "Uber Eats와의 제휴 및 명확한 가격 정책을 도입하여 Holiday 시즌 traffic 유치에 총력을 기울이고 있습니다. 타겟의 퀵커머스 공세에 대응해 옴니채널 배송 및 가성비 아이템 개발이 필수적입니다.",
+        "en": "Kohl's is leveraging an Uber Eats partnership and clear pricing to capture holiday traffic. Responding to Target's quick-commerce push, agile omnichannel fulfillment and value-driven items are vital."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "15분기 연속 매출 성장을 기록하며 guidance를 상향 조정했습니다. Barry's와의 YPB activewear 협업 등 고기능성 짐웨어 라인업 확대에 집중하고 있어 관련 테크니컬 패브릭 선제 제안이 유리합니다.",
+        "en": "A&F posted its 15th straight quarter of sales growth and raised its outlook. Focus on technical gym wear, such as the YPB activewear line, makes proactive functional fabric proposals highly relevant."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "Parade 100주년 디즈니 콜렉션과 블루밍데일즈의 럭셔리 라이프스타일 캠페인을 전개 중입니다. 감도 높은 프리미엄 캡슐 컬렉션 및 고margin PB 상품 제안 기회를 모색해야 합니다.",
+        "en": "Macy's is running the 100th parade Disney collection and Bloomingdale's luxury lifestyle campaigns. High-margin capsule collections and premium private label proposals should be explored."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "아베크롬비(YPB)의 activewear 라인 확장에 발맞추어 흡한속건 및 4방향 스트레치 기능성 소재를 적용한 짐웨어 샘플을 선제 제안합니다.",
+        "en": "Proactively pitch gym wear samples featuring moisture-wicking and 4-way stretch fabrics aligned with A&F's expanding YPB activewear line."
+      },
+      {
+        "kr": "콜스의 Holiday 기프트 번들 및 가성비 키즈 아카이브(스케이트 라인 등) 수요에 맞춘 세트 구성 아이템을 개발합니다.",
+        "en": "Develop bundled and value-driven apparel sets tailored for Kohl's holiday gift packages and youth category expansions."
+      },
+      {
+        "kr": "메이시스 및 블루밍데일즈의 럭셔리 라이프스타일 트렌드에 발맞춘 차별화된 프리미엄 캡슐 컬렉션 아이디어를 기획합니다.",
+        "en": "Design differentiated premium capsule collection concepts suited for Macy's and Bloomingdale's lifestyle-driven marketing campaigns."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "타겟의 우버 잇츠 제휴 및 경쟁사들의 공격적인 Holiday 할인 공세로 인해 유통 채널 내 가격 경쟁이 심화되고 있습니다.",
+      "en": "Intense holiday promotional discounting and competitor delivery tie-ins (e.g., Target's Uber Eats) heighten retail channel pressure."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "A&F 오더 물량 확대에 대비하여 주요 스타일 생산 캐파 및 원부자재 선발주 일정을 점검할 것.",
+        "en": "Review production capacity and coordinate early raw material bookings for anticipated A&F order volume growth."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "콜스 및 메이시스의 Holiday 시즌 납기 일정 준수를 위해 벤더 공장별 생산 진척도를 실시간 모니터링할 것.",
+        "en": "Monitor production progress across vendor factories in real-time to ensure strict compliance with Kohl's and Macy's holiday delivery schedules."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "원면 선물 가격 상승세에 따른 주요 원단 sourcing처의 단가 변동 리스크를 파악하고 대응책을 마련할 것.",
+        "en": "Assess raw material cost volatility risks from recent cotton futures increases and prepare mitigation plans with fabric mills."
+      }
+    ]
+  }
+}
