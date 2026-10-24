@@ -1,45 +1,57 @@
 {
   "ok": true,
-  "asOf": "2026-10-22T23:05:11.998Z",
-  "generatedDateKST": "2026-10-23",
+  "asOf": "2026-10-24T06:45:17.789Z",
+  "generatedDateKST": "2026-10-24",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "items": [
     {
       "level": "HIGH",
-      "title_kr": "미 USDA, 어패럴 관세와 미국산 면화 구매 연계 정책 추진",
+      "title_kr": "미국 코튼 구매 연계 어패럴 관세 정책 대두",
       "title_en": "USDA Links Apparel Tariffs to U.S. Cotton Purchases",
-      "body_kr": "미국 농무부(USDA)가 어패럴 관세와 미국산 면화 조달을 연계하는 정책 방향을 발표하며 원자재 소싱 기준에 새로운 변수가 발생했습니다.",
-      "body_en": "The USDA has linked apparel tariffs to U.S. cotton purchases, introducing a new strategic variable for raw material sourcing.",
-      "action_kr": "소싱 팀은 미국산 면화 사용 의무화 가능성에 대비해 원단 costing 및 공급망 대체안을 선제적으로 검토하십시오.",
-      "action_en": "Sourcing teams must proactively review fabric costing and supply chain alternatives to prepare for potential U.S. cotton usage mandates.",
+      "body_kr": "USDA가 어패럴 관세를 미국산 코튼 구매와 연계하는 정책 방향을 발표함에 따라 소싱 및 코튼 원사 조달 전략에 직접적인 영향이 예상됩니다.",
+      "body_en": "The USDA has linked apparel tariffs to U.S. cotton purchases, introducing a critical policy factor that will directly influence sourcing decisions and raw material costing.",
+      "action_kr": "미국산 코튼 사용 비율을 검토하고 바이어와의 코스팅 협상 시 원부자재 소싱 루트를 재점검할 것.",
+      "action_en": "Audit current U.S. cotton content utilization and prepare alternative costing scenarios with buyers to account for tariff-linked material requirements.",
       "source": "RFD-TV",
       "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTbi1rR3Q1blk3aDkzdVZiOE9jV1BJckZ3SUlqcDZzMjN5MlpMWUlnQk5qYTJabVpGLUNwdVpuN0pjU0hPOU9hdUNZa05fUTZ6SzRPaHVfbUhWS3k2eFdQdUw4M1o2bzAzU0p0ZzNpaUN4c0NxTkJTaHJLcG4?oc=5",
       "date": "2026.10.21"
     },
     {
-      "level": "MEDIUM",
-      "title_kr": "북인도 원면 가격 상승 속 면사 시장 혼조세 지속",
-      "title_en": "North Indian Cotton Yarn Sees Mixed Trend as Raw Cotton Firms Up",
-      "body_kr": "원면 가격이 강세를 보이면서 북인도 지역의 면사 시장이 혼조세를 보이고 있어 방적 및 직물 생산 원가 압박이 커지고 있습니다.",
-      "body_en": "As raw cotton prices firm up, the North Indian cotton yarn market shows a mixed trend, increasing production cost pressures for spinning and weaving.",
-      "action_kr": "영업 팀은 남아시아 지역 원단 및 원사 costing 시 변동성을 반영하고 마진 방어를 위한 가격 협상 전략을 수립하십시오.",
-      "action_en": "Sales teams should account for volatility when costing fabrics and yarns in South Asia and establish pricing negotiation strategies to defend margins.",
-      "source": "Fibre2Fashion",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOSTFzRTNnVXNOSHdFMl9qR1R2VURTMEl0Wk9Hdl9BVkJ2aURDcFEzbll5b2doQWExM1J0ZmZaVnlhM3Z3QlZOYnFnLTRrTHY5ZmtqaUhkMjJFNFctcjU3bEtob3lyd09saEtBT3dZOFNmT1hPRzZsaGcxVUZZc1F0cHJ3YllRc2xfMHFTOWZWUHl2MHZaV0dVRi1yNmlRcHNtV2d3QW1YS1Z0REdKRkFLaGZPOUlENXVmRXFVTHpvNTBrSmplYjhEOHZKN1paY282amtGX3pyRXdEelc5WXdFN1lxWkZsRWNUSXRKYkthODNCZw?oc=5",
-      "date": "2026.10.15"
+      "level": "HIGH",
+      "title_kr": "남아프리카공화국 AGOA 배제 가능성 대두",
+      "title_en": "South Africa Braces for Possible AGOA Exclusion",
+      "body_kr": "남아공의 AGOA(아프리카 성장 기회법) 배제 가능성이 제기되면서 아프리카 지역 생산 거점을 활용하는 의류 벤더들의 공급망 재편 압력이 커지고 있습니다.",
+      "body_en": "South Africa is bracing for a potential exclusion from AGOA, raising supply chain risks and forcing vendors to re-evaluate duty-free sourcing footprints in the region.",
+      "action_kr": "아프리카 지역 생산 캐파를 이용 중인 경우 타 국가로의 물량 분산 플랜을 선제적으로 수립할 것.",
+      "action_en": "Review alternative production capacities outside South Africa for current AGOA-reliant orders to mitigate sudden duty-free loss risks.",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQenJsR0Y1TG5INGFOeTNyeDZsaWxrVTVfaVJsRTQydVotLWZ5R3RKZUpRWjdteHJiWFN0dFFrbW1fM1NHTUV2cXlFUUhNbjhqTC01UTF2OVRnYkJHRThBODRtVmd1NXJCU01kR1pMZkdBc0ZzQXoyU2Ywbjk0MzZOcnZyd0ZCRzFwM2VRMHg0b2hudURIcEg2MDUzUWNhTHc?oc=5",
+      "date": "2026.10.19"
     },
     {
       "level": "MEDIUM",
-      "title_kr": "인도 어패럴 시장 2029년까지 1,460억 달러 규모로 급성장 전망",
-      "title_en": "India’s Apparel Market Poised to Surge from $96 Bn to $146 Bn by 2029",
-      "body_kr": "인도 어패럴 시장이 현재 960억 달러에서 2029년 1,460억 달러 규모로 성장이 예상되며, 현지 소매 확장세가 가속화되고 있습니다.",
-      "body_en": "India's apparel market is projected to surge from $96 billion to $146 billion by 2029, accelerating local retail expansion.",
-      "action_kr": "머천다이징 팀은 인도 내수 및 신흥 소매 브랜드들의 Tier II/III 도시 공략 트렌드에 맞춰 신규 바이어 제안 포트폴리오를 다각화하십시오.",
-      "action_en": "Merchandising teams should diversify buyer proposal portfolios to align with Tier II/III city expansion trends by domestic and emerging retail brands in India.",
-      "source": "Apparel Views",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNLTE4cWdMMFJGWUYzWkNZcmxDYTJ2bjhTYkdreF9TOFowaFBkQ3FPRHVTX0VVN21FMVNvSWdlS3E0V29aWGlsZ0hBYXg4OWZxY0FVd00zalJtWEZydWpJcUxkRnpkV0pwenB0SWN4ZG1fRVVVUExLSnlOYWpOSzd0MkFXcFVibG9kSmd0d1pJRkVLUXl1b25aMm1XRVJodHo3TWFkUHo0VnRvOFdDNWxmSEwyZ255a3M1ZV9QZ1BGV0VNa2M?oc=5",
-      "date": "2026.10.08"
+      "title_kr": "GLP-1 체중 감량 트렌드가 어패럴 수요 및 실루엣 변화 주도",
+      "title_en": "Tracking The GLP-1 Effect On Apparel and Skinny Jeans Comeback",
+      "body_kr": "GLP-1 약물 복용 확산에 따른 체중 감량 효과로 슬림 핏과 스키니 진 등 의류 실루엣과 바이어의 품목 구성에 변화가 감지되고 있습니다.",
+      "body_en": "The GLP-1 weight loss trend is driving shifts in apparel demand, notably pushing a comeback for skinny jeans and altering silhouette preferences across key retailers.",
+      "action_kr": "머천다이징 및 샘플 개발 시 슬림 핏 및 체형 밀착형 아이템의 비중을 높이고 바이어 트렌드 변화에 대응할 것.",
+      "action_en": "Adjust product development mixes to feature more fitted silhouettes and capitalize on the growing demand for body-conscious apparel categories.",
+      "source": "Howl.link",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFA1T0lEUmdmaVRzNFphM0E3N1pWTHZOYUJiR1lreFFoeV9nUFllME1qMV83S1RxcXFBT1hN?oc=5",
+      "date": "2026.10.20"
+    },
+    {
+      "level": "MEDIUM",
+      "title_kr": "인도 의류 시장 2029년까지 고속 성장 전망",
+      "title_en": "India’s Apparel Market Poised to Surge to $146 Bn by 2029",
+      "body_kr": "인도의 의류 시장이 2029년까지 1,460억 달러 규모로 급성장할 것으로 전망되며 글로벌 브랜드의 현지 리테일 확장 및 소싱 수요가 증가하고 있습니다.",
+      "body_en": "India's apparel market is projected to surge to $146 billion by 2029, signaling robust retail expansion and new sourcing opportunities for global vendors.",
+      "action_kr": "인도 내 리테일 확장세를 보이는 바이어들의 소싱 니즈를 파악하고 현지 파트너십 및 생산 인프라 경쟁력을 점검할 것.",
+      "action_en": "Engage buyers expanding aggressively into the Indian retail market to position vendor manufacturing capabilities for upcoming volume growth.",
+      "source": "Indian Retailer",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVzJiUWRuNFVnSDZKSlRLSm02R215VjVBWk13OWVOeVIzLTRtZzZDRU1kS0lyaGh4MHRzMVcwS2Y0WV9tNlRLZ3dhYks3dXVLUDU5QTZNZV8ycG0tMUtybldHZ2xpa1Fja0NUQzR1TjlxV0FxeDFlZUVMRjVvMHlyc0xxbmZzdnBsblU4ZlItXzhCcXFHSnB0VzI3SE9Fd1o3RVRuM2JXdkFCb19oejA4MUlLVjRxYVZJQy1qSFJ3?oc=5",
+      "date": "2026.10.20"
     }
   ]
 }
