@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-10-22T23:01:07.617Z",
+  "generatedDateKST": "2026-10-23",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-10-23",
+  "insight": {
+    "headline": {
+      "kr": "[8담당 데일리 브리프] 콜스 Holiday PB·홈웨어 마케팅 집중, Macy's 디즈니 Parade 콜라보로 traffic 견인",
+      "en": "[Team 8 Daily Brief] Kohl's Focuses on Holiday PB & Housewares, Macy's Drives Traffic with Disney Parade Collab"
+    },
+    "summary": {
+      "kr": "Kohl's는 Holiday 홈웨어 및 기프트 상품 promotion을 강화하고 PB 재정비를 추진 중이며, Macy's는 Thanksgiving Parade 기념 디즈니 캡슐 컬렉션을 런칭했습니다. 한편 A&F는 15분기 연속 순매출 성장과 YPB 피트니스 Collaboration을 발표하며 강세를 유지하고 있습니다. 당사 영업팀은 주요 바이어의 연말 Holiday 시즌 오더 및 빠른 reorder 대응에 집중해야 합니다.",
+      "en": "Kohl's is boosting holiday housewares and private brand promotions, while Macy's launched an exclusive Disney capsule collection for the Thanksgiving Parade. A&F maintains momentum with 15 consecutive quarters of net sales growth and the YPB fitness collaboration. The Team 8 sales team must focus on holiday season orders and agile reorder execution for key buyers."
+    },
+    "tags": [
+      "#Team8Daily",
+      "#HolidayPromotions",
+      "#ApparelSourcing",
+      "#RetailTrends"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "Holiday 시즌을 앞두고 'The North Kohl's' 캠페인과 함께 하우스웨어 및 기프트 merchandise 중심의 promotion을 전개 중이며, PB(Private Brand) 라인업 강화를 통해 가성비 수요를 공략하고 있습니다.",
+        "en": "Kohl's is rolling out the 'The North Kohl's' holiday campaign focusing on housewares and gift merchandise while reviving private brands to capture value-driven shopper demand."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "15분기 연속 순매출 성장을 달성하며 연간 guidance를 상향 조정했고, Barry's와의 YPB activewear Collaboration을 통해 기능성 상품군과 영 제너레이션 타겟 공략을 가속화하고 있습니다.",
+        "en": "A&F Co. achieved 15 consecutive quarters of net sales growth and raised full-year guidance, accelerating its youth and activewear footprint through the YPB x Barry's fitness collaboration."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "Thanksgiving Day Parade를 기념한 독점 디즈니 캡슐 컬렉션을 offline 및 E-commerce에 출시하여 초기 연말 traffic과 고객 참여를 적극적으로 유인하고 있습니다.",
+        "en": "Macy's released an exclusive Disney capsule collection celebrating the Thanksgiving Parade across stores and e-commerce, actively driving early year-end retail traffic and engagement."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "A&F의 지속적인 실적 호조 및 guidance 상향에 맞춰 핵심 스타일의 생산 캐파를 선제적으로 확보하고 원단 사전 예약을 검토합니다.",
+        "en": "Proactively secure production capacity and review greige fabric bookings for core styles aligned with A&F's strong performance and raised guidance."
+      },
+      {
+        "kr": "Kohl's의 Holiday 기프트 및 홈·리빙 category 수요 확대에 발맞추어 관련 어패럴 및 기프트 세트 상품 제안을 강화합니다.",
+        "en": "Enhance apparel and gift-set merchandise proposals to capture expanding demand from Kohl's holiday gift and home-living categories."
+      },
+      {
+        "kr": "데님 및 이지웨어 시장의 지속적인 트렌드에 대응하여 주요 거래선의 실시간 sell-through 데이터를 모니터링하고 신속한 reorder 프로세스를 구축합니다.",
+        "en": "Monitor real-time sell-through data from key accounts and establish swift reorder processes to capture ongoing denim and casualwear demand."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "경쟁사들의 공격적인 얼리버드 Holiday 마케팅 및 오프프라이스 채널 확대로 인해 연말 시즌 재고 소진 속도 및 가격 경쟁 압박이 가중되고 있습니다.",
+      "en": "Aggressive early-holiday marketing and off-price channel expansions by competitors are increasing inventory clearance speed and pricing pressure for the year-end season."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "A&F향 주요 스타일의 재고 소진율 및 추가 오더 가능 물량을 주간 단위로 점검한다.",
+        "en": "Audit weekly sell-through rates and potential add-on order volumes for key A&F styles."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "Kohl's의 Holiday PB 및 기프트 merchandise sourcing 제안서를 보완하고 적기 납기 일정을 재확인한다.",
+        "en": "Refine holiday PB and gift merchandise sourcing proposals for Kohl's and re-verify timely delivery schedules."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "데님 및 캐주얼 category의 거래선별 reorder 소요 시간을 단축하기 위한 협력업체 생산 라인을 점검한다.",
+        "en": "Review vendor production lines to shorten reorder lead times for denim and casual categories across accounts."
+      }
+    ]
+  }
+}
