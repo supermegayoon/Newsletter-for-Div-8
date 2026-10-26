@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "asOf": "2026-10-25T23:01:04.810Z",
+  "generatedDateKST": "2026-10-26",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-10-26",
+  "insight": {
+    "headline": {
+      "kr": "[8담당] 10월 26일 일일 마켓 브리프: Holiday 시즌 캠페인 본격화 및 데님·애슬레저 sourcing 전략 점검",
+      "en": "[Team 8] Daily Market Brief - Oct 26: Holiday Campaigns Kick Off & Denim/Activewear Sourcing Focus"
+    },
+    "summary": {
+      "kr": "주요 바이어들이 연말 Holiday 시즌 캠페인과 promotion을 본격 가동 중인 가운데, 데님 및 애슬레저 category의 margin 압박과 재고 관리 중요성이 대두되고 있습니다. 경쟁사들의 조기 할인 공세와 옴니채널 확장 시그널에 맞춘 선제적 대응이 필요합니다.",
+      "en": "As key buyers launch holiday campaigns and promotions, margin pressures and inventory controls in denim and activewear take center stage. Preemptive responses to competitor early discounting and omnichannel expansions are required."
+    },
+    "tags": [
+      "#HolidayCampaign",
+      "#DenimSourcing",
+      "#ActivewearCollab",
+      "#InventoryControl"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "'The North Kohl's' 캠페인을 통해 Holiday 기프트 상품 판매를 드라이브하고 있으며, 타겟과 월마트의 조기 번들 promotion 및 AI 쇼핑 혁신에 대응한 가치 중심 마케팅 검토가 요구됩니다.",
+        "en": "Driving holiday gift sales via 'The North Kohl's' campaign, requiring value-driven marketing strategies in response to Target and Walmart's early bundle promotions and AI shopping initiatives."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "15분기 연속 순매출 성장과 YPB x Barry's 퍼포먼스 Collaboration을 통해 애슬레저 입지를 확대 중이며, 향후 오더 물량 증가에 대비한 생산 캐파 확보가 필수적입니다.",
+        "en": "Expanding activewear presence through 15 consecutive quarters of net sales growth and the YPB x Barry's performance collaboration, making mill capacity securing essential for anticipated order growth."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "추수감사절 Parade를 위한 헬로키티 exclusive 디자인을 공개하며 traffic 유치에 나섰으나, 노드스트롬 등의 대규모 할인 공세와 오프프라이스 확장 시그널을 주시해야 합니다.",
+        "en": "Driving traffic with exclusive Hello Kitty designs for the Thanksgiving Day Parade, while keeping a close eye on massive discount offensives and off-price expansions from competitors like Nordstrom."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "A&F의 15분기 연속 성장에 따른 향후 시즌 발주 물량 확대에 선제적으로 대응하여 밀(Mill) 캐파 및 생산 라인 우선 확보",
+        "en": "Proactively secure mill capacity and production lines to prepare for expanded order volumes driven by A&F's 15 consecutive quarters of growth."
+      },
+      {
+        "kr": "데님 및 애슬레저 category(YPB 라인 등)의 원단 기능성 및 봉제 사양을 벤치마킹하여 고margin sourcing 제안 준비",
+        "en": "Prepare high-margin sourcing proposals by benchmarking fabric performance and construction specs in denim and activewear (such as the YPB line)."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "데님 category의 원가 상승 및 재고 관리 부담이 가중되는 가운데, 경쟁사들의 조기 블랙프라이데이 할인 공세로 인한 margin 압박 리스크 존재",
+      "en": "Margin pressure risks exist due to rising costs and complex inventory management in the denim category, compounded by early Black Friday discount offensives from competitors."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Holiday 베스트셀러 스타일의 재고 현황을 점검하고 매장 sell-through 속도에 맞춘 신속한 reorder 프로세스 가동",
+        "en": "Audit holiday best-seller inventory levels and operate a rapid reorder process aligned with in-store sell-through velocity."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "A&F 및 홀리스터 오더 확대를 대비하여 원단 수급 및 생산 캐파 점검 리포트 작성",
+        "en": "Prepare a fabric supply and production capacity check report in preparation for expanded A&F and Hollister orders."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "경쟁사(타겟, 노드스트롬 등)의 사전 블랙프라이데이 및 Holiday promotion 가격 전략 분석 및 대응 방안 수립",
+        "en": "Analyze pre-Black Friday and holiday promotion pricing strategies of competitors (Target, Nordstrom, etc.) and establish countermeasures."
+      }
+    ]
+  }
+}
