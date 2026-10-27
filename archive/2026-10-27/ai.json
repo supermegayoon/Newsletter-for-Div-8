@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-10-26T23:01:07.786Z",
+  "generatedDateKST": "2026-10-27",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-10-27",
+  "insight": {
+    "headline": {
+      "kr": "Kohl's·Macy's Holiday 캠페인 돌입, A&F 애슬레저 확장 속 경쟁 심화",
+      "en": "Kohl's and Macy's Launch Holiday Campaigns Amid Intensifying A&F-led Athleisure Competition"
+    },
+    "summary": {
+      "kr": "2026년 10월 27일 기준, 주요 바이어들이 연말 Holiday 시즌 캠페인과 promotion을 본격 가동했습니다. Kohl's는 'The North Kohl's' 캠페인으로 traffic 확보에 나섰고, Macy's는 제100회 추수감사절 Parade 기념 디즈니 콜라보를 선보였습니다. A&F는 배리스(Barry's)와의 activewear 협업 및 NFL Partnership을 통해 category를 확장 중입니다. 경쟁사 Target과 Nordstrom 역시 공격적인 사전 Holiday 할인과 매장 확장에 나서고 있어, 8담당 팀은 철저한 재고 소진 및 신속한 reorder 대응 체계를 유지해야 합니다.",
+      "en": "As of October 27, 2026, major buyers have initiated holiday campaigns and early promotions. Kohl's launched 'The North Kohl's' campaign to drive traffic, while Macy's introduced a Disney capsule collection for its 100th Thanksgiving Parade. A&F continues expanding via its Barry's activewear collaboration and NFL partnership. With competitors like Target and Nordstrom aggressively executing early holiday discounts and store expansions, Team 8 must maintain strict inventory management and agile re-order capabilities."
+    },
+    "tags": [
+      "#HolidayCampaign",
+      "#Athleisure",
+      "#InventoryStrategy",
+      "#VendorBrief"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "'The North Kohl's' Holiday 캠페인 론칭 및 10월 초 offline 방문객 9.6% 증가 등 초기 promotion 성과를 바탕으로 연말 시즌 traffic 확보에 집중하고 있습니다. Target과 JCPenney의 공격적인 조기 할인 공세에 대응해 promotion 상품의 신속한 재고 대응이 필수적입니다.",
+        "en": "Focusing on capturing holiday foot traffic following its 'The North Kohl's' campaign launch and a 9.6% rise in early October store visits. Quick inventory responsiveness for promotional goods is critical to counter Target and JCPenney's aggressive early discounting."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "피트니스 스튜디오 Barry's와의 협업 및 NFL 공식 패션 Partnership 확장을 통해 애슬레저 및 팬웨어 시장 지배력을 강화하고 있습니다. American Eagle 등 경쟁사의 10대 패션 의류 전환 공세 속에서 트렌디한 디자인 및 퍼포먼스 원단 sourcing의 중요성이 커지고 있습니다.",
+        "en": "Strengthening athleisure and fan-wear dominance through a collaboration with Barry's and an expanded NFL partnership. Amid teen fashion shifts and competition from American Eagle, trendy designs and performance fabric sourcing remain key."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "제100회 추수감사절 Parade 기념 디즈니 캡슐 컬렉션을 통해 store traffic 유도에 주력하고 있습니다. Nordstrom이 오프프라이스 매장을 공격적으로 확장하고 사전 세일에 돌입함에 따라, Macy's 백스스테이지(Backstage) 채널 연계 및 Holiday 납기 준수가 중요합니다.",
+        "en": "Driving store traffic via a Disney capsule collection celebrating the 100th Thanksgiving Parade. As Nordstrom aggressively expands off-price stores and pre-sales, aligning with Macy's Backstage channel and securing strict holiday delivery dates is essential."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "A&F의 Barry's 협업 및 YPB activewear 라인 확대에 발맞춰 기능성 퍼포먼스 원단 및 트렌디한 디자인 제안을 강화할 것.",
+        "en": "Enhance functional performance fabric and trendy design proposals in line with A&F's Barry's collaboration and expanded YPB activewear line."
+      },
+      {
+        "kr": "Kohl's와 Macy's의 Holiday 캠페인 전개에 따른 인기 품목 실시간 모니터링 및 신속한 reorder(Quick Response) 프로세스 가동.",
+        "en": "Activate real-time monitoring of popular items and establish quick response re-order processes driven by Kohl's and Macy's holiday campaigns."
+      },
+      {
+        "kr": "경쟁사들의 조기 할인 공세에 대응하여 바이어별 promotion 라인업의 단가 경쟁력 및 품질 최적화 검토.",
+        "en": "Review unit price competitiveness and quality optimization for buyer-specific promotional lineups to counter competitors' early discounting."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "Target, Nordstrom, JCPenney 등 주요 경쟁사들의 공격적인 프리 블랙프라이데이 및 Holiday 조기 할인 공세로 인한 바이어별 margin 압박 및 재고 소진 지연 리스크 존재.",
+      "en": "Risk of margin pressure and delayed inventory sell-through due to aggressive pre-Black Friday and early holiday discounting by key competitors like Target, Nordstrom, and JCPenney."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "바이어별 Holiday 및 프리 블랙프라이데이 promotion 상품의 선적 스케줄 및 납기 준수 여부 일일 점검.",
+        "en": "Daily monitoring of shipment schedules and delivery compliance for buyer holiday and pre-Black Friday promotional items."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "A&F YPB 및 스포츠 라이선스 의류 생산 시 요구되는 엄격한 품질 기준과 디자인 가이드라인 준수 여부 재확인.",
+        "en": "Re-verify compliance with strict quality standards and design guidelines required for A&F YPB and sports-licensed apparel production."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "Kohl's 및 Macy's의 초기 Holiday 판매 sell-through(Sell-through) 데이터를 실시간 분석하여 reorder 수요 예측 체계 가동.",
+        "en": "Analyze early holiday sell-through data from Kohl's and Macy's in real-time to operate a predictive re-order demand system."
+      }
+    ]
+  }
+}
