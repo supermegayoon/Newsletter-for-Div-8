@@ -1,80 +1,80 @@
 {
   "ok": true,
-  "asOf": "2026-10-27T23:01:19.760Z",
-  "generatedDateKST": "2026-10-28",
+  "asOf": "2026-10-28T23:01:05.953Z",
+  "generatedDateKST": "2026-10-29",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-10-28",
+  "competitorDateKST": "2026-10-29",
   "insight": {
     "headline": {
-      "kr": "[8담당 데일리 마켓 브리프] Holiday promotion 돌입 및 벤더 공급망 관리 강화 시점",
-      "en": "[Team 8 Daily Market Brief] Holiday Promotions Kick Off & Sourcing Supply Chain Focus"
+      "kr": "콜스·메이시스 Holiday 캠페인 본격 시동, 타깃의 공격적 promotion 대응 필요",
+      "en": "Kohl's & Macy's Kicks Off Holiday Campaigns; Countering Target's Aggressive Promotions Required"
     },
     "summary": {
-      "kr": "주요 백화점 및 유통 채널들이 Holiday 시즌 기획전과 마케팅을 본격화하고 있습니다. 면화 및 유가 등 원자재 가격이 하락세를 보이는 가운데, 벤더들은 적기 납품, 재고 관리 및 경쟁사 동향 모니터링에 집중해야 합니다.",
-      "en": "Major department stores and retail channels are kicking off holiday season promotions and marketing campaigns. As cotton and crude oil prices trend downward, vendors must focus on timely delivery, inventory management, and competitor tracking."
+      "kr": "2026년 10월 29일 기준, 환율(USD/KRW)이 1,341.69원으로 상승하고 유가 및 면화 가격 변동성이 지속되고 있습니다. Kohl's와 Macy's가 Holiday 캠페인 및 기프트 리스트를 공개하며 연말 시즌에 돌입한 가운데, 경쟁사인 Target의 공격적인 $30 추수감사절 밀 패키지 및 얼리버드 promotion에 대응한 가성비 및 차별화 전략이 시급합니다.",
+      "en": "As of October 29, 2026, the USD/KRW exchange rate rose to 1,341.69 with ongoing volatility in oil and cotton prices. Kohl's and Macy's have kicked off the year-end season with holiday campaigns and gift lists, while competitors like Target launched aggressive $30 Thanksgiving meal packages and early-bird promotions, necessitating urgent value and differentiation strategies."
     },
     "tags": [
-      "#Team8Daily",
-      "#HolidaySeason",
-      "#RetailTrends",
-      "#ApparelSourcing"
+      "#HolidayCampaign",
+      "#Kohl's",
+      "#Macy's",
+      "#TargetCompetition"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "새로운 가격 책정 전략과 'The North Kohl's' Holiday 캠페인 도입으로 매장 방문객과 디지털 traffic이 증가하고 있습니다. 경쟁사인 Target의 십대 소비재 동향을 주시하며 주력 상품의 reorder 가능 물량을 점검해야 합니다.",
-        "en": "Kohl's is seeing increased store traffic and digital engagement following a pricing strategy overhaul and the launch of 'The North Kohl's' holiday campaign. Monitor Target's teen consumer moves and review reorder capacities for core lines."
+        "kr": "Ellie Kemper 기용 등 'The North Kohl's' Holiday 캠페인을 전개하며, 가격 표시 방식 개편으로 고객 traffic이 증가하고 있습니다. 다만 Target의 350여 종 독점 해리포터 상품 및 공격적인 Holiday promotion에 대응해 독점 라이선스 및 기프트 상품군 강화가 필요합니다.",
+        "en": "Launching 'The North Kohl's' holiday campaign featuring Ellie Kemper, Kohl's is seeing increased traffic following price display revisions. However, to counter Target's 350+ exclusive Harry Potter items and aggressive holiday promotions, strengthening proprietary licensed and gift assortments is necessary."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "Barry's와의 YPB activewear 글로벌 Collaboration 및 NFL 팬 패션 Partnership을 통해 견조한 성장세를 이어가고 있습니다. 프리미엄 기능성 소재와 라이프스타일 어패럴 트렌드를 벤치마킹하여 제안력을 높여야 합니다.",
-        "en": "A&F continues solid growth through the YPB activewear collaboration with Barry's and expanded NFL fan fashion partnerships. Benchmark their technical fabrics and lifestyle apparel trends for upcoming pitches."
+        "kr": "피트니스 브랜드 'Barry's'와의 글로벌 activewear 콜라보 및 NFL 공식 Partnership을 강화하고 있습니다. Aritzia 등 경쟁사의 매장 확장 및 Free People의 FP 무브먼트 확장에 맞서 고기능성 스튜디오 웨어 및 팬덤 기반 라이선스 라인의 품질과 빠른 납기 대응이 요구됩니다.",
+        "en": "Strengthening global activewear collaborations with 'Barry's' and official NFL partnerships. Against store expansions by competitors like Aritzia and Free People's FP Movement, high-performance studio wear and fandom-based licensed lines require stringent quality and rapid lead times."
       },
       {
         "buyer": "Macy's",
-        "kr": "'Unwraps the Magic of Holiday Gifting' 기획전을 전개하며 기프트 상품 중심의 연말 대목 준비에 돌입했습니다. 경쟁사인 Nordstrom의 할인점 확장 등에 대응하여 Holiday 시즌 적기 납품과 재고 관리에 만전을 기해야 합니다.",
-        "en": "Macy's launched its 'Unwraps the Magic of Holiday Gifting' campaign to prepare for peak holiday shopping. In light of competitor Nordstrom's discount store expansion, ensure rigorous on-time delivery and inventory control."
+        "kr": "제100회 추수감사절 Parade와 함께 올해의 'Top 100 Gifts list'를 공개하며 Holiday 판촉에 돌입했습니다. Nordstrom Rack의 공격적인 오프프라이스 출점 및 사전 블랙프라이데이 세일에 대응하여 매장 입고 스케줄의 철저한 관리가 필수적입니다.",
+        "en": "Kicked off holiday promotions by releasing its 'Top 100 Gifts list' alongside the 100th Thanksgiving Day Parade. In response to Nordstrom Rack's aggressive off-price store openings and pre-Black Friday sales, meticulous monitoring of store delivery schedules is essential."
       }
     ],
     "opportunities": [
       {
-        "kr": "주요 유통 채널들의 Holiday 시즌 promotion 및 캠페인 확대에 발맞춘 신속한 추가 reorder 물량 선점",
-        "en": "Securing early reorder capacity in alignment with major retail channels' holiday promotion expansions and campaigns."
+        "kr": "Kohl's 및 Macy's의 Holiday 캠페인 개시에 따른 겨울 시즌 베스트셀러 및 기프트 아이템의 실시간 sell-through 분석을 통한 추가 reorder 확보",
+        "en": "Securing additional re-orders through real-time sell-through analysis of winter best-sellers and gift items following the holiday campaign launches of Kohl's and Macy's."
       },
       {
-        "kr": "A&F의 YPB 및 스포츠 콜라보 사례를 활용한 고부가가치 activewear 및 라이프스타일 상품 제안",
-        "en": "Leveraging A&F's YPB and sports collaboration models to pitch high-margin activewear and lifestyle products."
+        "kr": "A&F의 Barry's 콜라보 및 YPB activewear 라인 트렌드를 활용한 고기능성 스튜디오 웨어 신규 제안 아이템 기획",
+        "en": "Planning new high-performance studio wear proposal items leveraging trends from A&F's Barry's collaboration and YPB activewear lines."
       },
       {
-        "kr": "면화 가격 하락(CTZ26 -1.28%) 추세를 반영한 합리적인 원가 분석 및 FOB 경쟁력 확보",
-        "en": "Capitalizing on declining cotton prices (CTZ26 -1.28%) to optimize cost analysis and secure competitive FOB pricing."
+        "kr": "경쟁사들의 조기 블랙프라이데이 promotion에 대응한 가성비 번들 패키지 및 얼리버드 기획 상품 선제 제안",
+        "en": "Preemptively proposing value bundle packages and early-bird promotional items to counter competitors' early Black Friday promos."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "연말 시즌 Holiday 재고 소진 속도 변동성 및 경쟁사들의 공격적인 블랙프라이데이 선제 할인 공세에 따른 margin 압박 리스크 존재",
-      "en": "Potential margin pressure risks arising from holiday inventory turnover volatility and aggressive early Black Friday discounting by competitors."
+      "kr": "환율 상승(1,341원대)과 원자재 가격 변동성이 상존하며, Target 및 Nordstrom 등 주요 경쟁사들의 조기 블랙프라이데이 및 초가성비 promotion으로 인한 전통 백화점 채널의 traffic 잠식 우려가 존재합니다.",
+      "en": "Persistent exchange rate rise (1,341 KRW range) and raw material price volatility, alongside concerns over traditional department store traffic erosion caused by early Black Friday and hyper-value promotions from major competitors like Target and Nordstrom."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Kohl's 및 Macy's의 Holiday 캠페인 품목별 sell-through 동향 모니터링 및 납기 일정 재확인",
-        "en": "Monitor sell-through trends by item for Kohl's and Macy's holiday campaigns and re-verify delivery schedules."
+        "kr": "Kohl's 및 Macy's Holiday 시즌 주문 건의 물류 배송 스케줄 최종 점검 및 지연 리스크 선제 차단",
+        "en": "Finalize logistics delivery schedules for Kohl's and Macy's holiday season orders and proactively eliminate delay risks."
       },
       {
         "owner": "Team 8",
-        "kr": "경쟁사(Target, American Eagle, Nordstrom 등)의 최근 promotion 및 마켓 움직임 분석 자료 공유",
-        "en": "Compile and share analysis on recent promotional and market moves by competitors such as Target, American Eagle, and Nordstrom."
+        "kr": "A&F YPB 및 activewear 라인의 기능성 패브릭 sourcing 동향 분석 및 고기능성 스튜디오 웨어 샘플 준비",
+        "en": "Analyze performance fabric sourcing trends for A&F's YPB and activewear lines and prepare high-performance studio wear samples."
       },
       {
         "owner": "Team 8",
-        "kr": "데님 및 니트웨어 category의 원가 구성표 점검 및 하락한 원자재 가격 반영 방안 검토",
-        "en": "Review cost breakdown sheets for denim and knitwear categories and assess integration of lower raw material prices."
+        "kr": "타깃 및 노드스트롬의 사전 블랙프라이데이 공세에 대응한 바이어별 가성비 선물 세트 및 얼리버드 promotion 아이템 협의",
+        "en": "Discuss value gift sets and early-bird promotion items with buyers to counter pre-Black Friday offensives by Target and Nordstrom."
       }
     ]
   }
