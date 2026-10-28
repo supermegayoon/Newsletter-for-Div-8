@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-10-27T23:01:19.760Z",
+  "generatedDateKST": "2026-10-28",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-10-28",
+  "insight": {
+    "headline": {
+      "kr": "[8담당 데일리 마켓 브리프] Holiday promotion 돌입 및 벤더 공급망 관리 강화 시점",
+      "en": "[Team 8 Daily Market Brief] Holiday Promotions Kick Off & Sourcing Supply Chain Focus"
+    },
+    "summary": {
+      "kr": "주요 백화점 및 유통 채널들이 Holiday 시즌 기획전과 마케팅을 본격화하고 있습니다. 면화 및 유가 등 원자재 가격이 하락세를 보이는 가운데, 벤더들은 적기 납품, 재고 관리 및 경쟁사 동향 모니터링에 집중해야 합니다.",
+      "en": "Major department stores and retail channels are kicking off holiday season promotions and marketing campaigns. As cotton and crude oil prices trend downward, vendors must focus on timely delivery, inventory management, and competitor tracking."
+    },
+    "tags": [
+      "#Team8Daily",
+      "#HolidaySeason",
+      "#RetailTrends",
+      "#ApparelSourcing"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "새로운 가격 책정 전략과 'The North Kohl's' Holiday 캠페인 도입으로 매장 방문객과 디지털 traffic이 증가하고 있습니다. 경쟁사인 Target의 십대 소비재 동향을 주시하며 주력 상품의 reorder 가능 물량을 점검해야 합니다.",
+        "en": "Kohl's is seeing increased store traffic and digital engagement following a pricing strategy overhaul and the launch of 'The North Kohl's' holiday campaign. Monitor Target's teen consumer moves and review reorder capacities for core lines."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "Barry's와의 YPB activewear 글로벌 Collaboration 및 NFL 팬 패션 Partnership을 통해 견조한 성장세를 이어가고 있습니다. 프리미엄 기능성 소재와 라이프스타일 어패럴 트렌드를 벤치마킹하여 제안력을 높여야 합니다.",
+        "en": "A&F continues solid growth through the YPB activewear collaboration with Barry's and expanded NFL fan fashion partnerships. Benchmark their technical fabrics and lifestyle apparel trends for upcoming pitches."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "'Unwraps the Magic of Holiday Gifting' 기획전을 전개하며 기프트 상품 중심의 연말 대목 준비에 돌입했습니다. 경쟁사인 Nordstrom의 할인점 확장 등에 대응하여 Holiday 시즌 적기 납품과 재고 관리에 만전을 기해야 합니다.",
+        "en": "Macy's launched its 'Unwraps the Magic of Holiday Gifting' campaign to prepare for peak holiday shopping. In light of competitor Nordstrom's discount store expansion, ensure rigorous on-time delivery and inventory control."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "주요 유통 채널들의 Holiday 시즌 promotion 및 캠페인 확대에 발맞춘 신속한 추가 reorder 물량 선점",
+        "en": "Securing early reorder capacity in alignment with major retail channels' holiday promotion expansions and campaigns."
+      },
+      {
+        "kr": "A&F의 YPB 및 스포츠 콜라보 사례를 활용한 고부가가치 activewear 및 라이프스타일 상품 제안",
+        "en": "Leveraging A&F's YPB and sports collaboration models to pitch high-margin activewear and lifestyle products."
+      },
+      {
+        "kr": "면화 가격 하락(CTZ26 -1.28%) 추세를 반영한 합리적인 원가 분석 및 FOB 경쟁력 확보",
+        "en": "Capitalizing on declining cotton prices (CTZ26 -1.28%) to optimize cost analysis and secure competitive FOB pricing."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "연말 시즌 Holiday 재고 소진 속도 변동성 및 경쟁사들의 공격적인 블랙프라이데이 선제 할인 공세에 따른 margin 압박 리스크 존재",
+      "en": "Potential margin pressure risks arising from holiday inventory turnover volatility and aggressive early Black Friday discounting by competitors."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Kohl's 및 Macy's의 Holiday 캠페인 품목별 sell-through 동향 모니터링 및 납기 일정 재확인",
+        "en": "Monitor sell-through trends by item for Kohl's and Macy's holiday campaigns and re-verify delivery schedules."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "경쟁사(Target, American Eagle, Nordstrom 등)의 최근 promotion 및 마켓 움직임 분석 자료 공유",
+        "en": "Compile and share analysis on recent promotional and market moves by competitors such as Target, American Eagle, and Nordstrom."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "데님 및 니트웨어 category의 원가 구성표 점검 및 하락한 원자재 가격 반영 방안 검토",
+        "en": "Review cost breakdown sheets for denim and knitwear categories and assess integration of lower raw material prices."
+      }
+    ]
+  }
+}
