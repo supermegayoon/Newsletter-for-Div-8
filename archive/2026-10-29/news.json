@@ -1,0 +1,58 @@
+{
+  "ok": true,
+  "asOf": "2026-10-28T23:00:33.114Z",
+  "generatedDateKST": "2026-10-29",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 2,
+    "within7d": 3,
+    "total": 3,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Holiday Promotion",
+      "category_en": "Holiday Promotion",
+      "date": "2026.10.27",
+      "title_kr": "Macy's, Holiday campaign 본격 전개와 함께 Top 100 Gifts list 공개",
+      "title_en": "Macy's reveals Top 100 Gifts list as part of holiday campaign",
+      "body_kr": "Macy's가 Holiday season을 맞아 올해의 Top 100 Gifts list를 발표하며 본격적인 merchandise 판촉에 돌입했습니다. Vendor는 주요 백화점 채널의 Holiday gifting trend와 gift category별 수요 변화를 모니터링해야 합니다.",
+      "body_en": "Macy's released its Top 100 Gifts list as part of its holiday campaign kickoff. Vendors should monitor gifting trends and category demand across major department store channels.",
+      "source": "Chain Store Age",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMnBMNS12Vi13OG8xX21fSVZpTzRJbmhlekpMdEVXQ3lkOGdmNWVsdlZNVHZlczNlTjhoLTJ4NUtwOXp2eDFuWUR1WjRiR0RLT1ZrckRjbHJQaW1TV0NEZnBIbmgzaE9rbTFQb2t2U1dtY0FONEhSNDZWUUcxejRUOGE1TW9tV2M?oc=5",
+      "ageHours": 29.044905555555555
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Pricing Strategy",
+      "category_en": "Pricing Strategy",
+      "date": "2026.10.27",
+      "title_kr": "Kohl's, 가격 표시 방식 개편으로 초기 customer traffic 확대",
+      "title_en": "Kohl's is changing how it shows prices — and shoppers are already showing up in bigger numbers",
+      "body_kr": "Kohl's가 매장 내 pricing 표시 방식을 개편한 이후 더 많은 고객이 유입되며 긍정적인 traffic 반응을 얻고 있습니다. 가치 중심의 소비 환경에서 이러한 retail channel의 가격 소통 전략은 sell-through 속도에 직접적인 영향을 미칩니다.",
+      "body_en": "Kohl's is seeing increased customer traffic following a revision to its price display methods. Such pricing communication strategies in retail channels directly impact sell-through velocity.",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb2VnbkE3dy01Y0hhcXkxVm1GQjk4RDlrNjJTZXIwY2d1UExxYk54dHl6VWh2VV9hVVpXdmxGenl2YWJTSTBKZ0RDeGtvZGhIY19fTzBGT29NU3ozaTdkX0swdS1DSmJGb21FSW1KUkYyNWJpV3VPelR2UmF2LXlHN3BZdzdYVlkxeDFLd3lUaGFIa1VwZ09qcURUd0VkeTdNT1hv?oc=5",
+      "ageHours": 37.9896425
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Holiday Campaign",
+      "category_en": "Holiday Campaign",
+      "date": "2026.10.25",
+      "title_kr": "Kohl's, Ellie Kemper 기용 등 Holiday ad campaign 및 product lineup 발표",
+      "title_en": "Kohl's (KSS) Launches New Holiday Campaign And Product Lineup",
+      "body_kr": "Kohl's가 배우 Ellie Kemper와 함께 한 새로운 Holiday ad campaign과 함께 주요 product lineup을 전면 공개했습니다. Vendor는 본격적인 Holiday season을 대비해 관련 category의 추가 reorder 수요에 대비해야 합니다.",
+      "body_en": "Kohl's launched its new holiday ad campaign featuring Ellie Kemper alongside an updated product lineup. Vendors should prepare for potential reorder demand in key holiday categories.",
+      "source": "Simply Wall Street",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUlZ4RmNEWnNpbkdERzdick15Q2o0RkxmNXd5SkN6OWMtWUhDa3NkQWxHbk10YUdRaUZLMjBjQWdiR2JhUjFkOG1fU2x5RlFhTmlpZVp2T0lXUVJVWDduS0JTOHF6UmVUeW94QjFzZk1yYjh1R0FrSEFlMGxuRTI0ME10MGlLb25QeUw3UVBta0hBMTJlVFFvbl9VRmEydnF5YXh3YTRxZ1dIbnFlWFVaWUo4a2tiQXM20gG-AUFVX3lxTE9vbEdsMnBBUEF0NTdiRV9pZWhxNXphNGFNaHU5bDFMM09OZnJQYmprTURobmFVcFVxdEd2R0VCZzhGRlVWRzRoajRTRnVTaHJvdjgxNHpJY3lDanlTWkFmRTVmb2J2MkdjZkk4X1lhZ0RDMzBGVXdzMGhxUVBoRjNwV1E0R3pZUURORGZOVXdwRHZQMktuckh6VWFKN3ZzTXU1WXJ2X3ppc050ay1mRGNDQkF4ZnFILVU1Y3ppbnc?oc=5",
+      "ageHours": 82.42769805555555
+    }
+  ]
+}
