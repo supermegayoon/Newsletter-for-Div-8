@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-10-29T23:01:05.105Z",
+  "generatedDateKST": "2026-10-30",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-10-30",
+  "insight": {
+    "headline": {
+      "kr": "콜스·메이시스 Holiday 조기 오픈 및 기프트숍 런칭, 애슬레저 category 경쟁 심화",
+      "en": "Kohl's and Macy's Launch Early Holiday Shops and Gift Curation Amid Heightened Activewear Competition"
+    },
+    "summary": {
+      "kr": "미국 주요 바이어들이 Holiday 시즌을 겨냥해 조기 매장 오픈, 기프트숍 및 큐레이션 리스트를 공개하며 traffic 선점에 나섰습니다. 경쟁사들은 offline 거점 확장과 이색 Collaboration으로 대응하고 있어, 신속한 reorder 대응과 품질 관리가 필수적입니다.",
+      "en": "Major U.S. buyers are aggressively driving holiday traffic through early store openings, curated gift shops, and dedicated gift lists. With competitors expanding physical footprints and launching high-profile collaborations, rapid reorder execution and rigorous quality control are critical."
+    },
+    "tags": [
+      "#HolidaySeason",
+      "#KohlS",
+      "#Macys",
+      "#Activewear"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "위스콘신 전 매장 조기 오픈 및 'The North Kohl’s' Holiday 캠페인으로 offline traffic과 기프트 상품 판매를 적극 유도하고 있습니다.",
+        "en": "Kohl's opened Wisconsin stores early and launched 'The North Kohl’s' holiday campaign to actively drive offline traffic and boost gift merchandise sales."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "피트니스 브랜드 베리즈(Barry's)와의 YPB Collaboration 및 본사와 현장 리더 간의 Holiday 실행 전략 조율을 통해 옴니채널 성장을 도모하고 있습니다.",
+        "en": "A&F is driving omnichannel growth through the YPB activewear collaboration with Barry's and tight alignment between corporate teams and store leaders for the holidays."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "Top 100 Gifts list 공개 및 개편된 Santaland 운영을 통해 프리미엄 Holiday 쇼핑 경험과 category별 sell-through를 강화하고 있습니다.",
+        "en": "Macy's is enhancing the holiday shopping experience and category sell-through by releasing its Top 100 Gifts list and unveiling a revamped Santaland."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "주요 바이어의 Holiday 기프트 상품 및 스포츠 이벤트 관련 reorder 요청에 대비한 신속한 대응 체계 구축",
+        "en": "Establish rapid-response frameworks to handle quick-turn reorders for buyer holiday gift items and major sporting event merchandise."
+      },
+      {
+        "kr": "경쟁사의 activewear 및 라이프스타일 Collaboration 트렌드에 발맞춘 프리미엄 퍼포먼스 소재 샘플 선제 제안",
+        "en": "Proactively pitch premium performance fabric samples aligned with competitor activewear and lifestyle collaboration trends."
+      },
+      {
+        "kr": "조기 블랙프라이데이 및 Holiday promotion에 따른 매장 진열(VM) 및 패키징 가이드라인 사전 검수",
+        "en": "Pre-inspect store visual merchandising and packaging guidelines to match early Black Friday and holiday promotional schedules."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "경쟁사들의 공격적인 offline 매장 확장 및 조기 할인 공세로 인해 연말 재고 소진 및 margin 압박 우려 존재",
+      "en": "Aggressive physical store expansion and early discounting by competitors pose potential margin pressure and inventory clearance risks."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "콜스 및 메이시스의 Holiday 베스트셀러 스타일 추가 reorder 가능성(Quick Turn)에 대해 바이어 팀과 선제적 커뮤니케이션 진행",
+        "en": "Proactively communicate with buyer teams regarding quick-turn reorder capacity for Kohl's and Macy's top holiday bestselling styles."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "아버크롬비 YPB Collaboration 연계, 기능성 원단 및 봉제 디테일 분석을 통한 차별화된 애슬레저 샘플 개발 검토",
+        "en": "Review development of differentiated athleisure samples by analyzing functional fabrics and stitch details inspired by the A&F YPB collaboration."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "Holiday 시즌 납품 물량의 행거 및 패키징 상태가 브랜드별 매장 연출 표준에 완벽히 부합하는지 출고 전 최종 점검",
+        "en": "Perform pre-shipment quality checks to ensure holiday season hanging and packaging standards strictly match brand retail execution guidelines."
+      }
+    ]
+  }
+}
