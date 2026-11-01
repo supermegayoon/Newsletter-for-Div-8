@@ -1,80 +1,81 @@
 {
   "ok": true,
-  "asOf": "2026-10-29T23:01:05.105Z",
-  "generatedDateKST": "2026-10-30",
+  "asOf": "2026-11-01T23:01:07.174Z",
+  "generatedDateKST": "2026-11-02",
   "schedule": "Mon-Fri 08:00 KST",
-  "refreshStatus": "VERIFIED",
+  "refreshStatus": "RULE_FALLBACK",
   "stale": false,
-  "provider": "Google Gemini",
-  "model": "gemini-3.5-flash-lite",
+  "provider": "Rule Fallback",
+  "model": null,
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-10-30",
+  "competitorDateKST": "2026-11-02",
+  "fallbackReason": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
   "insight": {
     "headline": {
-      "kr": "콜스·메이시스 Holiday 조기 오픈 및 기프트숍 런칭, 애슬레저 category 경쟁 심화",
-      "en": "Kohl's and Macy's Launch Early Holiday Shops and Gift Curation Amid Heightened Activewear Competition"
+      "kr": "Kohl's, World Series merchandise 수요 대응 위해 위스콘신 내 offline store 조기 오픈",
+      "en": "Kohl's, World Series merchandise 수요 대응 위해 위스콘신 내 offline store 조기 오픈"
     },
     "summary": {
-      "kr": "미국 주요 바이어들이 Holiday 시즌을 겨냥해 조기 매장 오픈, 기프트숍 및 큐레이션 리스트를 공개하며 traffic 선점에 나섰습니다. 경쟁사들은 offline 거점 확장과 이색 Collaboration으로 대응하고 있어, 신속한 reorder 대응과 품질 관리가 필수적입니다.",
-      "en": "Major U.S. buyers are aggressively driving holiday traffic through early store openings, curated gift shops, and dedicated gift lists. With competitors expanding physical footprints and launching high-profile collaborations, rapid reorder execution and rigorous quality control are critical."
+      "kr": "오늘 Buyer News와 Competitor Intelligence를 기준으로 Kohl's, A&F/Hollister, Macy's의 주요 변화와 경쟁사 움직임을 함께 점검했습니다. Team 8은 상품, pricing, promotion 및 sourcing 관점에서 실제 제안으로 연결 가능한 signal을 우선 확인할 필요가 있습니다.",
+      "en": "Today's brief combines buyer news and competitor intelligence across Kohl's, A&F/Hollister and Macy's. Team 8 should prioritize actionable signals in product, pricing, promotion and sourcing."
     },
     "tags": [
-      "#HolidaySeason",
-      "#KohlS",
-      "#Macys",
-      "#Activewear"
+      "#BuyerNews",
+      "#Competitor",
+      "#Team8",
+      "#DailyBrief"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "위스콘신 전 매장 조기 오픈 및 'The North Kohl’s' Holiday 캠페인으로 offline traffic과 기프트 상품 판매를 적극 유도하고 있습니다.",
-        "en": "Kohl's opened Wisconsin stores early and launched 'The North Kohl’s' holiday campaign to actively drive offline traffic and boost gift merchandise sales."
+        "kr": "주요 경쟁사인 Target과 JCPenney, Macy's 등이 조기 블랙프라이데이 promotion과 어패럴 시장 경쟁력을 강화하고 있습니다.",
+        "en": "Key competitors like Target, JCPenney, and Macy's are intensifying early Black Friday promotions and apparel market competitiveness."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "피트니스 브랜드 베리즈(Barry's)와의 YPB Collaboration 및 본사와 현장 리더 간의 Holiday 실행 전략 조율을 통해 옴니채널 성장을 도모하고 있습니다.",
-        "en": "A&F is driving omnichannel growth through the YPB activewear collaboration with Barry's and tight alignment between corporate teams and store leaders for the holidays."
+        "kr": "Aritzia, Free People, American Eagle 등 주요 캐주얼 및 컨템포러리 경쟁사들이 연말 쇼핑 시즌을 겨냥한 마케팅을 본격화하고 있습니다.",
+        "en": "Major casual and contemporary competitors like Aritzia, Free People, and American Eagle are kicking off marketing targeting the year-end shopping season."
       },
       {
         "buyer": "Macy's",
-        "kr": "Top 100 Gifts list 공개 및 개편된 Santaland 운영을 통해 프리미엄 Holiday 쇼핑 경험과 category별 sell-through를 강화하고 있습니다.",
-        "en": "Macy's is enhancing the holiday shopping experience and category sell-through by releasing its Top 100 Gifts list and unveiling a revamped Santaland."
+        "kr": "Nordstrom과 JCPenney가 대규모 가을/얼리 블랙프라이데이 세일과 offline 매장 확장을 공격적으로 전개하고 있습니다.",
+        "en": "Nordstrom and JCPenney are aggressively rolling out large-scale fall/early Black Friday sales and offline store expansions."
       }
     ],
     "opportunities": [
       {
-        "kr": "주요 바이어의 Holiday 기프트 상품 및 스포츠 이벤트 관련 reorder 요청에 대비한 신속한 대응 체계 구축",
-        "en": "Establish rapid-response frameworks to handle quick-turn reorders for buyer holiday gift items and major sporting event merchandise."
+        "kr": "Holiday 시즌 초반 대응을 위한 얼리버드 promotion 및 단독 기획전 일정을 앞당겨야 합니다.",
+        "en": "Bring forward early-bird promotions and exclusive curation schedules for the early holiday season."
       },
       {
-        "kr": "경쟁사의 activewear 및 라이프스타일 Collaboration 트렌드에 발맞춘 프리미엄 퍼포먼스 소재 샘플 선제 제안",
-        "en": "Proactively pitch premium performance fabric samples aligned with competitor activewear and lifestyle collaboration trends."
+        "kr": "Holiday 시즌 틴즈 타겟 타이다이/데님 라인업에 대한 소셜 미디어 마케팅을 강화해야 합니다.",
+        "en": "Strengthen social media marketing for holiday season teen-targeted tie-dye and denim lineups."
       },
       {
-        "kr": "조기 블랙프라이데이 및 Holiday promotion에 따른 매장 진열(VM) 및 패키징 가이드라인 사전 검수",
-        "en": "Pre-inspect store visual merchandising and packaging guidelines to match early Black Friday and holiday promotional schedules."
+        "kr": "프리미엄 뷰티 및 디자이너 브랜드의 단독 기획전 및 로열티 고객 대상 혜택을 강화해야 합니다.",
+        "en": "Strengthen exclusive exhibitions of premium beauty and designer brands along with benefits for loyalty customers."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "경쟁사들의 공격적인 offline 매장 확장 및 조기 할인 공세로 인해 연말 재고 소진 및 margin 압박 우려 존재",
-      "en": "Aggressive physical store expansion and early discounting by competitors pose potential margin pressure and inventory clearance risks."
+      "kr": "일부 signal은 빠르게 변할 수 있으므로 source 원문 및 buyer 반응을 함께 확인해야 합니다.",
+      "en": "Some signals can change quickly, so validate source articles and buyer reactions before decisions."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "콜스 및 메이시스의 Holiday 베스트셀러 스타일 추가 reorder 가능성(Quick Turn)에 대해 바이어 팀과 선제적 커뮤니케이션 진행",
-        "en": "Proactively communicate with buyer teams regarding quick-turn reorder capacity for Kohl's and Macy's top holiday bestselling styles."
+        "kr": "오늘자 Buyer News와 competitor source 중 영업 제안으로 연결 가능한 1~2개 signal을 팀별로 선정합니다.",
+        "en": "Select 1-2 actionable buyer/competitor signals for each sales team."
       },
       {
         "owner": "Team 8",
-        "kr": "아버크롬비 YPB Collaboration 연계, 기능성 원단 및 봉제 디테일 분석을 통한 차별화된 애슬레저 샘플 개발 검토",
-        "en": "Review development of differentiated athleisure samples by analyzing functional fabrics and stitch details inspired by the A&F YPB collaboration."
+        "kr": "가격, product, promotion 관점에서 buyer별 차별화 제안 가능성을 검토합니다.",
+        "en": "Review differentiated proposals by buyer across pricing, product and promotion."
       },
       {
         "owner": "Team 8",
-        "kr": "Holiday 시즌 납품 물량의 행거 및 패키징 상태가 브랜드별 매장 연출 표준에 완벽히 부합하는지 출고 전 최종 점검",
-        "en": "Perform pre-shipment quality checks to ensure holiday season hanging and packaging standards strictly match brand retail execution guidelines."
+        "kr": "중요 signal은 다음 개발 및 costing 논의에 반영할 수 있도록 source와 함께 공유합니다.",
+        "en": "Share important signals with sources for upcoming development and costing discussions."
       }
     ]
   }
