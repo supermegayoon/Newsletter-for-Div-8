@@ -1,0 +1,86 @@
+{
+  "ok": true,
+  "asOf": "2026-11-01T23:00:34.562Z",
+  "generatedDateKST": "2026-11-02",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 3,
+    "within7d": 5,
+    "total": 5,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Promotion / Holiday",
+      "category_en": "Promotion / Holiday",
+      "date": "2026.10.31",
+      "title_kr": "Macy's, Friends and Family promotion을 통해 Coach 및 Levi's merchandise 최대 51% 할인 판매",
+      "title_en": "Macy's Offers Up to 51% Off Coach and Levi's During Friends and Family Promotion",
+      "body_kr": "Macy's가 주요 브랜드 merchandise를 대거 할인하는 Friends and Family promotion에 돌입했습니다. Holiday season 수요 선점을 위한 공격적인 pricing 전략으로 벤더들의 sell-through 모니터링이 필요합니다.",
+      "body_en": "Macy's launched its Friends and Family promotion featuring steep discounts on major brand merchandise. Vendors should monitor sell-through as an early indicator of holiday season demand.",
+      "source": "InStyle",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1XZEZsNlJNLUdUNi1WSktpTDVMaGRpNzM5Q3dKcjhpLWY5SVFmaXR1RC1wdmw2NXZUTEt2QnFaeVhfdDlLdjhhNUw4WlJ2U3ZUcTk1ZUtxbEtmVWFyLXQ3QzJMVXU1UHRWVnJzS21GQW1jSk8xMGc?oc=5",
+      "ageHours": 46.007753055555554
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Store / Merchandise",
+      "category_en": "Store / Merchandise",
+      "date": "2026.10.29",
+      "title_kr": "Kohl's, World Series merchandise 수요 대응 위해 위스콘신 내 offline store 조기 오픈",
+      "title_kr_en": "Kohl's Opens Wisconsin Stores Early for World Series Merchandise Demand",
+      "body_kr": "Kohl's가 지역 스포츠 이벤트 열기에 맞춰 offline store 영업시간을 조정하며 active merchandise 판매를 극대화하고 있습니다. 로컬 traffic 유도를 위한 신속한 stock 대응 사례입니다.",
+      "body_en": "Kohl's adjusted offline store hours to capture local sports championship demand. This highlights the importance of agile inventory responsiveness for sudden regional traffic spikes.",
+      "source": "WMTV 15 NEWS",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSEE2UG9pSC1ZYlJFbTRkN1p4SE1kdUpzQkVDYmI4QmV2ODZfVnFUVzdYYy1fTFBLN040U1lTLXJmbFNTaXpURE4wZ2pQYlVmUWt2WmwxaUp0QXQtM29tR19kSU9rZnN4S1VmS3hSbFdXbHVMSHlySWFaeWxXd0VGWEJFMkhySEtzS3o0LXQ1elkwV3RXcnFXcG1nb2EtZUpBckdfTl9FaHBGYmVTN0M5N0RoUGRHRExQSWd1Mjc5X1lUeVVNVEVZZXNBaGlhcUowMFVJMDhUTzjSAewBQVVfeXFMTTRDMGtMcU50b3lEdVZhNlVKRHdFZVZwN1hFcHlsdGdzTGc1NlZEcC1pQWlhdEhnLVd2UUhCWWVTQll3dVhaYzNmTDk3dGJod3RNd3lWck5PU0N2NTNuNWtwU0Q3eHpIWGl6dnMzRTVWYlBGV0hWUmNfdUNUaWFHdElkNVN3YUZwVWVfcVFEdWJRSHlxNkprZjkza01qZEhQTHI1MFBvQlNmeGNzWjZUb2N4OGh2dWV0WEloOFhHd0d0REJFMVZTMDRtZ1pkd3I5RVpZZHZkdzA3TFhwTmRXZkdDU2s3UWtEa2ZIYVg?oc=5",
+      "ageHours": 89.80772083333333
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Private Brand / Holiday",
+      "category_en": "Private Brand / Holiday",
+      "date": "2026.10.30",
+      "title_kr": "Kohl's, private brand 강화 및 11월 Holiday season savings event 발표",
+      "title_en": "Kohl's Unveils Private Brand Push and November Holiday Savings Events",
+      "body_kr": "Kohl's가 실적 반등을 위해 private brand 중심의 상품 머천다이징을 강화하고 있습니다. 본격적인 Holiday season 진입에 따라 대규모 promotion과 gift shop 경험을 제공할 예정입니다.",
+      "body_en": "Kohl's is doubling down on private brand merchandising to turn around sales. The retailer is rolling out major holiday promotions and gift shop experiences as the season begins.",
+      "source": "Kohl's",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRV9kS2dDM2RHR1FCS2h6YVVzckQ5cmRva2hXXzhOQ3pMaWRsT2tNUU51LUZnSGpJeWpXRU5TRXJCQW55UFZMN0ZoZTJyMS16aUtjRDRvYmFIUG14VlZyTlpjbkd3TThIbzJkc0xNOW5JXzlHZWF2MjJWMWxvV1JLaFhVcGVTNFM2bHY3M0lBMFZPajl3VVBUYnNDaHRzX0NCb1NITmx1RFM0b1ZCUmtranNVTGg5MEMwTlpOYTEzeWtELTZPVEE?oc=5",
+      "ageHours": 58.9643875
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Store / Holiday",
+      "category_en": "Store / Holiday",
+      "date": "2026.10.27",
+      "title_kr": "Macy's, Holiday gifting 시즌을 위한 매장 경험 및 gift shop 공개",
+      "title_en": "Macy's Unveils In-Store Experiences and Gift Shops for Holiday Gifting",
+      "body_kr": "Macy's가 연말 대목을 겨냥해 엄선된 merchandise와 차별화된 매장 연출을 선보였습니다. offline traffic을 견인할 category별 gift assortment 구성에 집중하고 있습니다.",
+      "body_en": "Macy's introduced curated merchandise and enhanced store displays targeting year-end shopping. The focus lies on category-specific gift assortments designed to drive offline traffic.",
+      "source": "Business Wire",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTE4weGZXQ2szamJsY3F3a243Z2c3LWwzV3dkYnB1czk0N0d5VUJTQXdVTGlHUEZsX0wxUlBuU1NXanlWaTJZQUhJZnNwQUN3TmUwYzQ5RWpmRHlVdFBMV3c1V1REelVXS3hKU2x4NkJ2LXVKSEZZOWRMczY4ZWd6RmpVcTQtYVN3YWNXYm5ualE1NjZIR0trREJIU0c5UVF4?oc=5",
+      "ageHours": 126.90775305555556
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Category / Product",
+      "category_en": "Category / Product",
+      "date": "2026.10.30",
+      "title_kr": "Hollister, 십대 소비자들의 크리스마스 위시리스트를 겨냥한 주요 apparel 아이템 제안",
+      "title_en": "Hollister Highlights Top Teen Apparel Picks for Christmas Wishlists",
+      "body_kr": "Hollister가 연말 시즌을 앞두고 십대 소비자들이 선호하는 트렌디한 apparel merchandise를 공개했습니다. 주력 category의 빠른 reorder와 재고 관리가 핵심 과제입니다.",
+      "body_en": "Hollister released its top apparel merchandise picks favored by teens for the upcoming holiday season. Rapid reorders and inventory management for core categories remain key.",
+      "source": "bestlifeonline.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hR2ZkU3I5UUo5Q2I2TENmVkZPZ1VxR0NaMWZVNnpRbHVjX3lVVG1kVEtDa3ppcnc5Q0lqSE5JMHp0eVN5WUVFbWFGMmROWkdrdmhVaWpkWFZFZzhJS2s5WUpyczBOS2Q1cUlR?oc=5",
+      "ageHours": 58.71188638888889
+    }
+  ]
+}
