@@ -1,57 +1,54 @@
 {
   "ok": true,
-  "asOf": "2026-10-29T23:09:26.030Z",
-  "generatedDateKST": "2026-10-30",
+  "asOf": "2026-11-02T00:03:08.516Z",
+  "generatedDateKST": "2026-11-02",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "items": [
     {
       "level": "HIGH",
-      "title_kr": "미국 면화 구매와 의류 관세 연계 정책 주목",
-      "title_en": "USDA Links Apparel Tariffs to U.S. Cotton Purchases",
-      "body_kr": "미국 농무부(USDA)가 의류 관세 정책과 미국산 면화 구매를 연계하는 방안을 발표함에 따라 향후 대미 의류 소싱 및 원자재 마진에 직접적인 영향이 예상됩니다.",
-      "body_en": "The USDA has linked apparel tariffs to U.S. cotton purchases, which will directly impact future U.S. apparel sourcing and raw material costing.",
-      "action_kr": "미국산 면화 사용 비중을 검토하고 바이어와의 코스팅(costing) 협상 시 관세 리스크에 대비한 원사 수급 시나리오를 수립하세요.",
-      "action_en": "Review the share of U.S. cotton usage and prepare yarn supply scenarios accounting for tariff risks during buyer costing negotiations.",
+      "title_kr": "미국 무역정책 변화 대응: 60개국 대상 광범위한 관세 부과 예고",
+      "title_en": "US Trade Policy Shift: Sweeping Tariffs Set for 60 Trading Partners",
+      "body_kr": "미국이 60개 교역국을 상대로 광범위한 관세 부과를 추진하면서 의류 및 섬유 소싱 다변화 전략 재검토가 불가피해졌습니다. 특히 소싱 지역별 Section 301 및 추가 관세 리스크에 대한 사전 대비가 요구됩니다.",
+      "body_en": "As the U.S. sets out to impose sweeping tariffs on 60 trading partners, apparel and textile sourcing strategies require immediate re-evaluation. Sourcing teams must proactively assess Section 301 and potential tariff risks across current production hubs.",
+      "action_kr": "영향권 국가 내 협력 공장의 capacity 및 costing 구조를 재점검하고, 관세 인상 시뮬레이션을 실행하세요.",
+      "action_en": "Review capacity and costing structures in affected vendor factories and run preliminary tariff hike simulations.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa1BDcjdFRHFWaGlkYlMzZi1ZY2hCaVR5dGRpalctVTI1Q2poOGxFcXZqdmZfX2lqaVZxRmo3MWZIZ2ZUU0xCMm44OFdibDRCNF9BOVNmT1VHNURxR0tabkNtaVdoNTRaTW81cVIyVUdvanhBUS1rX3pEZFdyQmNSbDVDa0VMM2tPVGhYbDkwR1VhcUJJTDJXVmhNZVVVNi1L0gGmAUFVX3lxTE5UdFo2TDl4c1R2ZWRuX1ZxbTA3UmdwPnlrbVh1OXUyd1pucVlQS2dqY2VsbnRNSGt3WWljNkZ3V2kySmZNUzJ4WVBaT2NXSGRuUFlqRmx1UXNzSlEwZkV1MGRWVWxNbHdBcnY3Vm9CMVFqSWZxdnI3TkZqbWxValByNzBMRWxBR3BraFBtbEVuUFBvNDNpUVNBdWVkN3V6enc1YjlIWXc?oc=5",
+      "date": "2026.10.31"
+    },
+    {
+      "level": "HIGH",
+      "title_kr": "CAFTA-DR 원산지 규정 및 관세 혜택 점검 필수",
+      "title_en": "Verify CAFTA-DR Origin Rules and Duty-Free Preferences",
+      "body_kr": "Updated guidelines regarding CAFTA-DR origin rules and member entry dates have been highlighted. Amid margin pressures from U.S. buyers, leveraging duty-free preferences in Central America remains a key sourcing advantage.",
+      "action_kr": "중미 협력 업체를 통한 CAFTA-DR 원산지 기준 충족 여부를 확인하고 오더 배분을 최적화하세요.",
+      "action_en": "Verify CAFTA-DR origin compliance with Central American partners and optimize order allocation accordingly.",
+      "source": "CASRAI",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE96UFhpd1pUNjNTX3JhbXM2SndpNGVacFJJU1kzUUR1QVg0M3ZJNnF0TDVEQUxGMXJKTUJDaTM2Qlh5V3lGSHU2Z3hR?oc=5",
+      "date": "2026.11.01"
+    },
+    {
+      "level": "MEDIUM",
+      "title_kr": "이커머스 규제 강화 및 Shein 밸류에이션 하락에 따른 시장 변화",
+      "title_en": "Market Shifts Following E-Commerce Crackdown and Shein Valuation Drop",
+      "body_kr": "E-commerce crackdowns on ultra-fast fashion platforms are biting, pulling down Shein's valuation. This shift is expected to influence inventory and sourcing strategies of traditional retailers and brand buyers.",
+      "action_kr": "바이어들의 리드타임 단축 및 소량 다품종 오더 요구 변화에 맞춘 대응 태세를 갖추세요.",
+      "action_en": "Prepare response strategies tailored to buyers' shifting demands for shorter lead times and flexible low-MOQ orders.",
+      "source": "ET Retail",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQb2d1VmZGYVpjaUFna1oyYlAxaWRxSjJybEpSWjFjR1ZVTWkxaTRHMFZIU2Q4NXdpdG5rai14b25Hb2EyS1RfNHVZSVF3dzhJM1RSSmxTMzJXdTlySWdQeFpUYjhhLUhmQWZaQXhNLW10dkotLU9LeWZJb1pEdFR0cVNuY3NRQnVJaG9CTWJibnllUVJsQ3hOVGJoZFB5c1RWX2pvSkluVGt6NlpKSE5BdDZIZ1BvSHBoNWVXNnpiNC1LOE92Wkt4Z0o2WWpYYThhcHI5OWNsc2JEaDEwazF4NFVoYUE4ZnPSAeIBQVVfeXFMUFlfMEZkNEVQLWJjVmFjeHN4REFHZEotV0JDNkotcXVrMVZPaUFBNU1idGplZEFidDNSNUJ6NTk1YWI0bkVPU2daVnE5NHFMZVpiRi1iRkhyNEVXNjBFdFV4S2R0cnlsOGZPNHZhX25ZZE1wdncwTGZNWFFZU1RobFhHT1Z2X0E3MUN4V3NXR1NPUS1wYTJtUklVYkRMb1F3ODhFRlVvenV3US1GUmptRndrOW02S1pvM0ZkODJGQkNwUW5PRUZSTEQwVFR3bmlzLTBfUjhjNXBBZm5YNlFHQTAxZw?oc=5",
+      "date": "2026.10.31"
+    },
+    {
+      "level": "MEDIUM",
+      "title_kr": "미국 면화 정책 및 코튼 가격 변동성에 따른 코스팅 관리",
+      "title_en": "Costing Management Amid USDA Cotton Policies and Price Volatility",
+      "body_kr": "USDA policies linking apparel tariffs to U.S. cotton purchases, alongside mixed trends in South Asian cotton yarn prices, persist. Heightened raw material volatility requires rigorous cost analysis.",
+      "action_kr": "오더 수주 시 원단 소스별(미국산 코튼 vs 대체 원사) 가격 변동폭을 반영하여 코스팅을 재산정하세요.",
+      "action_en": "Recalculate costing by factoring in price fluctuations across fabric sources (U.S. cotton vs. alternative yarns) during order intake.",
       "source": "RFD-TV",
       "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTbi1rR3Q1blk3aDkzdVZiOE9jV1BJckZ3SUlqcDZzMjN5MlpMWUlnQk5qYTJabVpGLUNwdVpuN0pjU0hPOU9hdUNZa05fUTZ6SzRPaHVfbUhWS3k2eFdQdUw4M1o2bzAzU0p0ZzNpaUN4c0NxTkJTaHJLcG4?oc=5",
       "date": "2026.10.21"
-    },
-    {
-      "level": "MEDIUM",
-      "title_kr": "타겟(Target)의 홈 텍스타일 디자인·가성비 강화 전략",
-      "title_en": "Target Puts Design and Value at the Heart of its Home Textiles Push",
-      "body_kr": "타겟이 홈 텍스타일 부문에서 디자인과 가성비를 앞세운 드라이브를 강화하고 있어 관련 홈패션 및 패브릭 카테고리의 벤더 소싱 기준이 높아질 것으로 보입니다.",
-      "body_en": "Target is emphasizing design and value in its home textiles push, which will raise sourcing benchmarks for home fashion and fabric categories.",
-      "action_kr": "가성비와 트렌디한 디자인을 모두 충족하는 홈 텍스타일 샘플을 선제적으로 제안하여 타겟 및 유사 리테일러 오더를 공략하세요.",
-      "action_en": "Proactively pitch home textile samples combining value and trendy design to target orders from Target and similar retailers.",
-      "source": "Fibre2Fashion",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOU2l3Y2kyVlMzaEZiUWU3eWtLNHJfbFl2R2dYM2daZ2hqTmc5dzZmYkxWSk1lRGp6ME5hcUQ1aHludEhTc0J1Rkp0VjRvdEZnbkdtalFSdW9YM2VwUlRfUjFXbE1BbWtUbjk1SmUzVUdhWmVPOURhZDdCOGpUMDFoWk5yTWtwTXNIUGpRSHR4MGQ0c1ZLdUkwdlExRWs3SHd1bjFleVpXemNGX1N6eDNwbjJPamhDZWFLQktZbnMyzVvMHZiWk1RUUVrOHJRYXVONkJBQXVvMzBCWnhGUUxoX1VLYjhFZGl1T3JrTUdTM01mTHdCUTlpc1NzNGlJdw?oc=5",
-      "date": "2026.10.29"
-    },
-    {
-      "level": "MEDIUM",
-      "title_kr": "GLP-1 의약품 대중화에 따른 스키니진 등 실루엣 변화",
-      "title_en": "Why Skinny Jeans Are Making a Comeback in the GLP-1 Era",
-      "body_kr": "체중 감량 트렌드(GLP-1 시대)의 영향으로 슬림한 핏의 의류 수요가 증가하며 스키니진 등 특정 실루엣이 다시 주목받고 있습니다.",
-      "body_en": "Driven by weight-loss trends in the GLP-1 era, demand for slim-fit apparel is growing, bringing silhouettes like skinny jeans back into focus.",
-      "action_kr": "데님 및우븐 팬츠 수주 시 슬림 실루엣 및 스트레치 원단 적용 비중을 확대하도록 영업 및 디자인 제안을 조정하세요.",
-      "action_en": "Adjust sales and design proposals to increase the share of slim silhouettes and stretch fabrics for upcoming denim and woven pants orders.",
-      "source": "LAmag",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NbWVhRzBSVHN0STBTd0dfS2FaMXp2ZTZ1WjAxWENPeTkxWGV5ODJIWkxCU21tWlNTLXFyZ1NNazdMVGZoUTQyc2xKOXRFaHUxMVJmTVFHTzhoay1lTVJ3RndlWEtqNFVOeDBuUS1USUptMDdheVR3?oc=5",
-      "date": "2026.10.13"
-    },
-    {
-      "level": "MEDIUM",
-      "title_kr": "인도 프리미엄·스트리트 패션 시장의 급성장세",
-      "title_en": "AAPE and Global Brands Expand Footprint in India's Growing Market",
-      "body_kr": "글로벌 스트리트 및 패스트패션 브랜드들이 인도 뉴델리 등 주요 거점에 오프라인 매장을 빠르게 확장하며 신흥 소싱 및 소비 시장으로 부상하고 있습니다.",
-      "body_en": "Global street and fast-fashion brands are rapidly expanding brick-and-mortar stores across key Indian hubs, emerging as a major sourcing and consumption market.",
-      "action_kr": "인도 시장에 진입하는 글로벌 브랜드 및 현지 유통 파트너를 대상으로 벤더 캐파(capacity) 홍보 및 신규 바이어 발굴을 추진하세요.",
-      "action_en": "Promote vendor capacity and target new buyers among global brands and local retail partners expanding into the Indian market.",
-      "source": "Indian Retailer",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUjA4cVNRelQ4REZ1WHJDX1VHNXNnZ0pyQXA4WUpDTUt4M1o4VWNjMWRkaU83QzFkdG5Wa3VORllIR3Yyak1WM2VmY3ZmQWFhblgwSjZvWXRSSFRqLUlYLVNyek9UeDhiZnFsZm43R1RVaFZuT1lHVlgyUWdOZGRMbEhMeFVHUkdsTTdxVG9Qbw?oc=5",
-      "date": "2026.10.27"
     }
   ]
 }
