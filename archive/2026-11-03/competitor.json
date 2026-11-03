@@ -1,0 +1,431 @@
+{
+  "ok": true,
+  "generatedDateKST": "2026-11-03",
+  "asOf": "2026-11-02T23:01:05.725Z",
+  "schedule": "Mon-Fri 08:00 KST",
+  "windowDays": 7,
+  "analysisMode": "GEMINI",
+  "buyers": [
+    {
+      "buyer": "Kohl's",
+      "competitionLevel": "MEDIUM",
+      "keyTakeaway": {
+        "kr": "주요 경쟁사인 Target과 JCPenney, Walmart가 블랙 프라이데이 및 홀리데이 시즌 프로모션을 조기에 가동하며 시장 선점에 나섰습니다.",
+        "en": "Key competitors including Target, JCPenney, and Walmart are launching early Black Friday and holiday promotions to capture early market share."
+      },
+      "competitors": [
+        {
+          "name": "Target",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "2026년 블랙 프라이데이 세일 및 할인 행사를 조기에 공개하며 홀리데이 쇼핑객 유치에 돌입했습니다.",
+            "en": "Unveiled early 2026 Black Friday sales and deals to attract holiday shoppers."
+          },
+          "whyItMatters": {
+            "kr": "타겟의 조기 프로모션 개시는 Kohl's의 핵심 고객층을 분산시키고 홀리데이 시즌 초기 매출 경쟁에 직접적인 압박을 줍니다.",
+            "en": "Target's early promotions divert Kohl's core customer base and put direct pressure on early holiday season sales competition."
+          },
+          "action": {
+            "kr": "Kohl's는 자체적인 얼리버드 블랙 프라이데이 프로모션과 차별화된 쿠폰 전략을 신속히 강화해야 합니다.",
+            "en": "Kohl's must quickly reinforce its own early-bird Black Friday promotions and differentiated coupon strategies."
+          },
+          "sources": [
+            {
+              "source": "BlackFriday.com",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.29",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41RmtwYkc1djFQUFo4V1dGRF9hSmRFYWEyN1NRLWZib18zM2dBa2xlQjIwSlBIVi1ETVNwZ0NqZHpwOE5XMDZ0ZWwzM3BsMjFXS3VjTzlNWjFqWFhNRkIxT3hLcWVvUVNXdU5NRQ?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "JCPenney",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "블랙 프라이데이 프리뷰 및 주말 패션 세일을 통해 공격적인 할인 공세를 펼치고 있습니다.",
+            "en": "Launching aggressive discount offensives through Black Friday previews and weekend fashion sales."
+          },
+          "whyItMatters": {
+            "kr": "동일한 백화점/아울렛 리테일 포지션을 공유하는 JCPenney의 할인 행사는 가격 민감도가 높은 소비자를 직접적으로 잠식합니다.",
+            "en": "JCPenney's discount events, sharing the same department/outlet retail position, directly cannibalize price-sensitive consumers."
+          },
+          "action": {
+            "kr": "의류 및 홈 카테고리의 번들 할인 및 로열티 멤버십 연계 프로모션을 확대해야 합니다.",
+            "en": "Expand bundle discounts and loyalty membership-linked promotions for apparel and home categories."
+          },
+          "sources": [
+            {
+              "source": "New York Post",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.30",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZTZwbVNHQ0k1OTE1WTMyWlVoOHduNkhUazVkaGZCZXVjMndDazBvQ25zN0xKZkRFRkpWeTk1QnR1anJ6YkpucHZVcWFpb3pUTk1nTGEwLWJPb0lDRXQtUVcydXpvY1JmeGJ2UlpCV3l4cGRqc1hjN29FT0FrMENzT1p2NGh6NzBMQnRTazlFZGhId3JPZzZRelZwUU02eG5m?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Walmart",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "2026년 홀리데이 쇼핑 변경 사항을 발표하고 일부 쇼퍼들에게 블랙 프라이데이 세일 얼리 액세스를 제공했습니다.",
+            "en": "Announced 2026 holiday shopping changes and provided early access to Black Friday sales for select shoppers."
+          },
+          "whyItMatters": {
+            "kr": "월마트의 대규모 얼리 액세스 프로그램은 가치 중심 소비자들이 홀리데이 시즌 초기에 예산을 소진하게 만듭니다.",
+            "en": "Walmart's massive early access program causes value-driven consumers to exhaust their budgets early in the holiday season."
+          },
+          "action": {
+            "kr": "가치 지향적 구매 고객을 위한 경쟁력 있는 초저가 상품(Value items) 구색을 강화해야 합니다.",
+            "en": "Strengthen the assortment of competitive value items for cost-conscious shoppers."
+          },
+          "sources": [
+            {
+              "source": "Yahoo",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.30",
+              "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRUREc2NjMTBxa3lsQlJyN3NfcF9IdnZtdWZmSjU1d2F6QzdBNEVMcGg3VjM3TVJvMUZCeUFtUnY2NUZZbjhiYm41YjMwS2toSlEtcUZzX0JDMktpc2dqaVpPWDlqNHJuRUttVElSWEVOdDJiSV9rZWg3NkpoN3c3STVkSHNFX0swVmxpMThiM0w2NHc?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "A&F / Hollister",
+      "competitionLevel": "HIGH",
+      "keyTakeaway": {
+        "kr": "Aritzia의 공격적인 매장 확장과 주요 캐주얼 경쟁사들의 얼리버드 프로모션이 십대 및 영유니폼 시장 경쟁을 심화시키고 있습니다.",
+        "en": "Aritzia's aggressive store expansion and early-bird promotions by key casual competitors are intensifying competition in the teen and young adult apparel market."
+      },
+      "competitors": [
+        {
+          "name": "Aritzia",
+          "signal": "STORE",
+          "move": {
+            "kr": "매장 오픈 확대와 제품군 확장을 통해 향후 5년 내 매출을 두 배로 늘리겠다는 성장 전략을 발표했습니다.",
+            "en": "Announced a growth strategy to double revenue in 5 years through store openings and product expansions."
+          },
+          "whyItMatters": {
+            "kr": "프리미엄 캐주얼 및 영페미닌 부문에서 Aritzia의 오프라인 입지 확장은 A&F의 타겟층 트래픽에 직접적인 위협이 됩니다.",
+            "en": "Aritzia's expanding offline presence in premium casual and young feminine segments poses a direct threat to A&F's target traffic."
+          },
+          "action": {
+            "kr": "매장 내 고객 경험을 개선하고, 소셜 미디어를 연계한 트렌디한 제품 라인업을 빠르게 보강해야 합니다.",
+            "en": "Improve in-store customer experiences and rapidly reinforce trendy product lineups tied to social media."
+          },
+          "sources": [
+            {
+              "source": "Retail Dive",
+              "sourceTier": "INDUSTRY",
+              "date": "2026.10.28",
+              "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPX19PVDhxUE9TTmRZbmhES3B6c0xNdmhfbDRCRjczLVUzb2E2MkhRVHBjYUNIYW9zMUNYVFRIWU9xLVpkcGk4NGtpUEQ1MlRnUEY0X2tJNEV2SzFSTXJDbTN4Y2Ryd3paSnlnWXhIOVZEQmNXZzdqTjJweE9HTWxMU05uOXYxNVRWOUVaNElmazh0NzRKQ2Y0d0Ewak9ZajBvVVRoRUhLN0ZkLW00?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "American Eagle",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "라운지웨어 및 언더웨어(Aerie 라인 등) 시장 내 입지를 공고히 하기 위한 카테고리 분석 및 마케팅을 지속하고 있습니다.",
+            "en": "Continuing category analysis and marketing to solidify its position in the loungewear and underwear markets."
+          },
+          "whyItMatters": {
+            "kr": "A&F의 홀리스터 및 언더웨어 관련 매출 영역과 직접 겹치며, 영유니폼 시장의 파이트쉐어를 다툽니다.",
+            "en": "Directly overlaps with A&F's Hollister and underwear-related revenue areas, competing for fight share in the young apparel market."
+          },
+          "action": {
+            "kr": "Hollister 브랜드의 컴포트 패브릭 및 라운지웨어 중심의 마케팅을 차별화해야 합니다.",
+            "en": "Differentiate Hollister brand's marketing focused on comfort fabrics and loungewear."
+          },
+          "sources": [
+            {
+              "source": "Market Research Future",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.31",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oc05xbUhaTk1ac3c3ekJhOWpUcURyU01xNkRwUTQxdmFveml5cEp1anY3WDNkVUsyZkJSRkNaRnpjcFUyMEx6bVZmakc2dmNDMG1Qcy1SNEtBMG5kTmh6TFM5XzV4RzJndmQzSzFCSnhoUjJSanpB?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Anthropologie",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "플러스 사이즈 의류 등 세분화된 고객층을 겨냥한 트렌디한 스타일과 에디터 추천 상품을 지속 노출하고 있습니다.",
+            "en": "Continuously showcasing trendy styles and editor-recommended items targeting segmented customer groups such as plus-size apparel."
+          },
+          "whyItMatters": {
+            "kr": "체형 다양성을 고려한 디자인 확대가 영 캐주얼 소비자들의 브랜드 충성도 이동에 영향을 줍니다.",
+            "en": "The expansion of designs considering body inclusivity influences the migration of brand loyalty among young casual consumers."
+          },
+          "action": {
+            "kr": "사이즈 스펙 다양화 및 감도 높은 스타일링 콘텐츠를 디지털 채널에 적극 반영해야 합니다.",
+            "en": "Actively reflect diversified sizing specs and high-sensitivity styling content on digital channels."
+          },
+          "sources": [
+            {
+              "source": "Who What Wear",
+              "sourceTier": "GENERAL",
+              "date": "2026.11.01",
+              "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZlhRSFU4VXVyUG1tc21VZi1oN28tUlVmdFJCclpYYTQ2VElJYmx0R1l3N0JJMWRDM0ZuZk9KRV9EOUJSaERNeEt0R0stZFlyU2Z3WU1OaFVJR21heGJBRndEZEJ4bklvcE4yZ3hmVFRPYzhhUnJGTnZhbVlqM0ZaaGNPSWxVX1R2eHJCbHgwbXh3QlJMYy1uLXRvdnZVRUhMSGc?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "Macy's",
+      "competitionLevel": "MEDIUM",
+      "keyTakeaway": {
+        "kr": "Nordstrom Rack의 신규 매장 확장과 오프프라이스/백화점 경쟁사들의 가을 세일 공세가 Macy's의 점유율을 압박하고 있습니다.",
+        "en": "Nordstrom Rack's new store expansion and autumn sales offensives by off-price/department store competitors are pressing Macy's market share."
+      },
+      "competitors": [
+        {
+          "name": "Nordstrom",
+          "signal": "STORE",
+          "move": {
+            "kr": "브런즈윅 스퀘어 등 주요 거점에 Nordstrom Rack 신규 매장을 그랜드 오프닝하고 추가 출점을 가속화하고 있습니다.",
+            "en": "Grand-opened new Nordstrom Rack stores in key locations like Brunswick Square and accelerated additional store openings."
+          },
+          "whyItMatters": {
+            "kr": "오프프라이스 채널의 공격적인 매장 확장은 Macy's 및 백화점 채널의 가격 민감 고객을 직접 흡수합니다.",
+            "en": "Aggressive store expansion in the off-price channel directly absorbs price-sensitive customers from Macy's and department store channels."
+          },
+          "action": {
+            "kr": "Macy's 자체 오프프라이스(Backstage) 연계 프로모션 및 온·오프라인 단독 혜택을 강화해야 합니다.",
+            "en": "Strengthen Macy's own off-price (Backstage) linked promotions and online/offline exclusive benefits."
+          },
+          "sources": [
+            {
+              "source": "TAPinto",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.27",
+              "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPdnNqbXhUaEtnRDJJd2ZObkt6WmE4b1F6aGZ4UWtqLWJDTXBxZm81WFFVeVZKUk5rdm9hSHJjYU1kLXZ3QXJBUHVBby1kNDBvQzBWSTVfd2o0VksxVU45Y2ZDQUUza3c3NWpMaU9BZ2tCRHF5Z1lCQTloYnY1bW1zbjFtamh2S2MwMktSVG1RLXZhdG1FQ3hOOGxwMDVnRmtCMGJxSDJyT3Q3Nkl4Rmx2cmxER3VhaFJrR01yQWFJNE1KcU83V3BkV0w1NTd6RTJsc0tIXzRWejBIYTk2a0NJbDVId05NTEtPMXdnSTAtMWN4NTJpNEhhbzMtYnY1dl84ZEJTWU5tcnZnQQ?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Nordstrom",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "최대 60 할인율을 내세운 대규모 가을 세일을 뷰티 및 선글라스 등 프리미엄 카테고리 중심로 진행했습니다.",
+            "en": "Executed a massive fall sale featuring up to 60% off, centered on premium categories like beauty and sunglasses."
+          },
+          "whyItMatters": {
+            "kr": "Macy's의 핵심 수익원인 프리미엄 뷰티 및 디자이너 브랜드 구매층의 이탈을 유발할 수 있습니다.",
+            "en": "Can trigger the churn of premium beauty and designer brand buyers, who are Macy's core revenue generators."
+          },
+          "action": {
+            "kr": "스타 프리미엄 브랜드 단독 콜라보레이션 및 뷰티 기프트 위드 퍼체이스(GWP) 혜택을 확대해야 합니다.",
+            "en": "Expand star premium brand exclusive collaborations and beauty Gift with Purchase (GWP) benefits."
+          },
+          "sources": [
+            {
+              "source": "The Hollywood Reporter",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.28",
+              "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZzByTlJVM2lNR19DdW00bWRDeFJ0ZFpEdUNIZnViZjc5emhrWDF0cFNqdVloZjlrLVl6RUZHbDYwcmZ3MWNiZTFXV3pNTFlFbTVXQjlKbFpqZFR1ZWJvVHNJb3BvT0NxN1JIYlZkMVRZVlVNMWpWUllYQVVpREEzdHZqRnR1dUU2b2o5V0paaGlsdUdPcms2US03MzJUY1hZUGVYOGp1ZFBwMktRMmp5M1d2cXJjTDVsMVFvcU1VanlWQQ?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "JCPenney",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "주말 할인 프로모션과 블랙 프라이데이 프리뷰 광고를 연계하여 소비자 유치 경쟁을 심화시켰습니다.",
+            "en": "Intensified consumer acquisition competition by linking weekend discount promotions with Black Friday preview ads."
+          },
+          "whyItMatters": {
+            "kr": "대중적 의류 및 홈 패션 부문에서 Macy's의 실속형 고객층과 수요가 겹칩니다.",
+            "en": "Overlaps with Macy's value-seeking customer base and demand in mainstream apparel and home fashion sectors."
+          },
+          "action": {
+            "kr": "스타 매장 및 온라인 몰에서 가성비 높은 의류 세트 상품 중심의 마케팅을 강화해야 합니다.",
+            "en": "Strengthen marketing focused on cost-effective apparel set items in star stores and online malls."
+          },
+          "sources": [
+            {
+              "source": "Refinery29",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.30",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE85OURreHlQM1czeTZkcE90WXZsQjZUUG1qNmpfZ05MZXVpX1FTT21ZT1FMLUJ5MUt5c1hUc0JzVGliVjlZcUVMamI3ekYzZC1JWHFxWjNqNVFVUTZrQTZ6WU1IemRQc1gwVWlLX0VHUVlyLW8?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "Ann Taylor",
+      "competitionLevel": "MEDIUM",
+      "keyTakeaway": {
+        "kr": "Banana Republic과 J.Crew 등 주요 오피스룩 및 프리미엄 캐주얼 경쟁사들이 신규 매장 오픈과 블랙 프라이데이 사전 세일로 공세를 취하고 있습니다.",
+        "en": "Major office-wear and premium casual competitors like Banana Republic and J.Crew are mounting offensives with new store openings and pre-Black Friday sales."
+      },
+      "competitors": [
+        {
+          "name": "Banana Republic",
+          "signal": "STORE",
+          "move": {
+            "kr": "델라웨어 지역 등에 홀리데이 쇼핑 시즌을 겨냥한 신규 매장을 오픈하며 오프라인 접점을 확대했습니다.",
+            "en": "Expanded offline touchpoints by opening new stores targeting the holiday shopping season in regions like Delaware."
+          },
+          "whyItMatters": {
+            "kr": "Ann Taylor의 핵심 타겟인 커리어 우먼 및 세련된 오피스룩 쇼핑객들의 발길을 분산시킬 수 있습니다.",
+            "en": "Can divert the traffic of career women and sophisticated office-wear shoppers, who are Ann Taylor's core targets."
+          },
+          "action": {
+            "kr": "Ann Taylor 매장 내 스타일링 서비스 및 VIP 고객 초청 쇼핑 이벤트를 강화해야 합니다.",
+            "en": "Strengthen styling services and VIP customer invitation shopping events within Ann Taylor stores."
+          },
+          "sources": [
+            {
+              "source": "Delawareonline.com",
+              "sourceTier": "GENERAL",
+              "date": "2026.11.02",
+              "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZEJZR25RX3UzTEx5TVNzMmNveExhYk9UdmFGX0p0YVpkQkRoLTd6eXp0ekhmeVkyQ2pOTFNIaW9uaUUyNTNHS04xUjRDZVZoWV94czlTb3U2X25GbUtXbFVCZG9JYVY2NDc5Zno3U2ZhdWdycXpDOWR2SFhUb1JoLWFyVm5MbzhzaTJ6dmU1Y3BCTjFJWXdyU2IyMXFrTFBUaHd0d1NtQmZYRkdaVGpUcGRtaUVic2N0cEhxR0VmVDBnSlN5WHZsb1FwSHBIaVN0QW5ia2IwQ0JBLTBBZ29jVkpXSm8?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Banana Republic",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "패션 매거진 및 에디터 추천을 연계한 얼리 블랙 프라이데이 의류 할인 프로모션을 전개했습니다.",
+            "en": "Deployed early Black Friday apparel discount promotions linked with fashion magazines and editor recommendations."
+          },
+          "whyItMatters": {
+            "kr": "프리미엄 테일러드 의류 및 아우터 카테고리에서 소비자의 구매 전환을 먼저 이끌어냅니다.",
+            "en": "Drives consumer purchase conversion ahead in premium tailored clothing and outerwear categories."
+          },
+          "action": {
+            "kr": "코트, 자켓 등 아우터 중심의 시그니처 아이템 프로모션을 조기에 선보여야 합니다.",
+            "en": "Introduce signature item promotions centered on outerwear such as coats and jackets early."
+          },
+          "sources": [
+            {
+              "source": "Vogue",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.28",
+              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE10M3N5LVpwVXkyTVdaOWhUV0llQ2syb0xwY1BSdnY1aU9jVlpKY01vTXlDcWs1TkFDYUNqSkZkQnlIY25ERTJZNktuTllmNHNxUTAtSjJTOWJvX0lzXzFZYmwycU9FSVV1U05hek4yeExYY3paYzZWN1RB?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "J.Crew",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "프레피 및 클래식 스타일의 사전 블랙 프라이데이 할인 코드를 발행하며 얼리버드 고객을 선점하고 있습니다.",
+            "en": "Issuing pre-Black Friday discount codes for preppy and classic styles to capture early-bird customers."
+          },
+          "whyItMatters": {
+            "kr": "직장인 및 클래식 캐주얼 웨어를 선호하는 여성 고객의 지출 여력을 빠르게 소진시키는 효과가 있습니다.",
+            "en": "It has the effect of rapidly exhausting the spending power of female customers who prefer workwear and classic casual wear."
+          },
+          "action": {
+            "kr": "오피스웨어와 스마트 캐주얼을 아우르는 코디 세트 할인 혜택을 부각해야 합니다.",
+            "en": "Highlight coordinated set discount benefits encompassing office wear and smart casual."
+          },
+          "sources": [
+            {
+              "source": "Vogue",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.27",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWldlNDI2WWxSUjVYWm9CWlhndkltODVSbl9pNjdwUGVxMjR6bl9VSTB1V1RLNUVpOGJuLS0zdHJQNE1SOFNHNXg5cy1XUVgtTTVTdWJpb2FrNlNuZ2ppbThuSUZ4bDdOUDdSMFBjeXVrSHdyQUJEMHlZS1NXRHBxWVJWU3RMWDNO?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "Talbot's",
+      "competitionLevel": "LOW",
+      "keyTakeaway": {
+        "kr": "주요 경쟁사인 J.Jill이 다운타운 버밍햄 등 상권에 신규 매장을 오픈하며 클래식 여성복 시장의 오프라인 접점을 넓히고 있습니다.",
+        "en": "Key competitor J.Jill is opening new stores in commercial districts like downtown Birmingham, expanding offline touchpoints in the classic womenswear market."
+      },
+      "competitors": [
+        {
+          "name": "J.Jill",
+          "signal": "STORE",
+          "move": {
+            "kr": "버밍햄 시내 중심가에 새로운 의류 매장을 오픈하며 지역 고객과의 오프라인 접점을 확대했습니다.",
+            "en": "Opened a new apparel store in downtown Birmingham, expanding offline touchpoints with local customers."
+          },
+          "whyItMatters": {
+            "kr": "시니어 및 성숙한 여성 고객층을 타겟으로 하는 Talbot's의 로컬 오프라인 매장 트래픽에 직접적인 영향을 미칩니다.",
+            "en": "Directly impacts Talbot's local offline store traffic targeting senior and mature female customer segments."
+          },
+          "action": {
+            "kr": "우수 고객(로열티 멤버) 대상 오프라인 초청 행사 및 맞춤형 피팅 서비스를 강화해야 합니다.",
+            "en": "Strengthen offline invitation events and personalized fitting services for loyal members."
+          },
+          "sources": [
+            {
+              "source": "Crain's Detroit",
+              "sourceTier": "GENERAL",
+              "date": "2026.11.02",
+              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSFhZX0M5QndsMGdLT1NoTmlUQ2NDN25xMjh0LTlRdS10ZExHVUZQb2RMMjZ0OEpKcjFLaXlvOWxtdElRNC1idm5NVWZheFctb1BLeXlIejVNUmxsLWEyUzJ5LW1QODNhS016S2NDc09FTVJJam53dTJEakpBT09VRndR?oc=5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "socialPulse": {
+    "ok": true,
+    "generatedDateKST": "2026-11-03",
+    "windowDays": 14,
+    "analysisMode": "GEMINI",
+    "brands": [
+      "Kohl's",
+      "A&F / Hollister",
+      "Macy's"
+    ],
+    "items": [
+      {
+        "brand": "Kohl's",
+        "platform": "LinkedIn",
+        "signal": "CAMPAIGN",
+        "date": "RECENT",
+        "headline": {
+          "kr": "홀스, 홀리데이 캠페인 '더 노스 콜스(The North Kohl’s)' 런칭",
+          "en": "Kohl's Launches Holiday Campaign 'The North Kohl’s'"
+        },
+        "summary": {
+          "kr": "고객에게 마법 같으면서도 스트레스 없는 홀리데이 쇼핑 경험을 제공하기 위해 온·오프라인 터치포인트 전반에 걸쳐 'The North Kohl's' 캠페인을 전개하고 있습니다.",
+          "en": "Kohl's is rolling out 'The North Kohl's' campaign across store and digital touchpoints to deliver a magical yet stress-free holiday shopping experience."
+        },
+        "whyItMatters": {
+          "kr": "홀리데이 시즌은 연중 최대 매출 성수기이므로, 마케팅 캠페인과 연계된 겨울 시즌 의류 및 기프트 상품의 초기 판매 속도와 재고 회전율을 모니터링해야 합니다.",
+          "en": "As the holiday season is a peak sales period, monitoring winter apparel and gift item sell-through velocity tied to this marketing campaign is critical."
+        },
+        "action": {
+          "kr": "홀리데이 시즌 인기 품목(니트웨어, 홈웨어 등)의 추가 리오더 가능 물량과 납기준수를 위한 벤더 측 생산 라인 현황을 점검한다.",
+          "en": "Review potential reorder capacity for peak holiday items (knitwear, loungewear) and check vendor production lines to ensure strict delivery compliance."
+        },
+        "sourceUrl": "https://www.linkedin.com/company/kohls-department-stores"
+      },
+      {
+        "brand": "A&F / Hollister",
+        "platform": "LinkedIn",
+        "signal": "COLLAB",
+        "date": "RECENT",
+        "headline": {
+          "kr": "아버크롬비, '배리스(Barry's)'와의 콜라보레이션 액티브웨어 라인 출시",
+          "en": "Abercrombie Launches Activewear Collaboration with Barry's"
+        },
+        "summary": {
+          "kr": "YPB by Abercrombie와 피트니스 스튜디오 배리스(Barry's)가 협업하여 퍼포먼스 패브릭과 대담한 레드 액센트를 활용한 우수한 기능성의 콜라보레이션 컬렉션을 선보였습니다.",
+          "en": "YPB by Abercrombie partnered with fitness studio Barry's to launch a performance-driven collaboration collection featuring high-performance fabrics and bold red accents."
+        },
+        "whyItMatters": {
+          "kr": "애슬레저 및 기능성 퍼포먼스웨어 카테고리의 시장 수요가 지속적으로 높으며, 브랜드 간 이색 협업이 트래픽과 객단가 상승을 견인하고 있습니다.",
+          "en": "Market demand for athleisure and functional performance wear remains high, and creative brand collaborations are effectively driving traffic and average order value."
+        },
+        "action": {
+          "kr": "기능성 애슬레저 원단(흡한속건, 4방향 스트레치 등)의 소싱 트렌드를 분석하고, 당사에서 제안 가능한 차기 퍼포먼스 캡슐 컬렉션 샘플을 준비한다.",
+          "en": "Analyze sourcing trends for functional athleisure fabrics (moisture-wicking, 4-way stretch) and prepare sample proposals for our upcoming performance capsule collection."
+        },
+        "sourceUrl": "https://www.linkedin.com/company/abercrombie-%26-fitch/"
+      }
+    ]
+  }
+}
