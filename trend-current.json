@@ -1,54 +1,57 @@
 {
   "ok": true,
-  "asOf": "2026-11-02T00:03:08.516Z",
-  "generatedDateKST": "2026-11-02",
+  "asOf": "2026-11-03T00:01:33.877Z",
+  "generatedDateKST": "2026-11-03",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "items": [
     {
       "level": "HIGH",
-      "title_kr": "미국 무역정책 변화 대응: 60개국 대상 광범위한 관세 부과 예고",
-      "title_en": "US Trade Policy Shift: Sweeping Tariffs Set for 60 Trading Partners",
-      "body_kr": "미국이 60개 교역국을 상대로 광범위한 관세 부과를 추진하면서 의류 및 섬유 소싱 다변화 전략 재검토가 불가피해졌습니다. 특히 소싱 지역별 Section 301 및 추가 관세 리스크에 대한 사전 대비가 요구됩니다.",
-      "body_en": "As the U.S. sets out to impose sweeping tariffs on 60 trading partners, apparel and textile sourcing strategies require immediate re-evaluation. Sourcing teams must proactively assess Section 301 and potential tariff risks across current production hubs.",
-      "action_kr": "영향권 국가 내 협력 공장의 capacity 및 costing 구조를 재점검하고, 관세 인상 시뮬레이션을 실행하세요.",
-      "action_en": "Review capacity and costing structures in affected vendor factories and run preliminary tariff hike simulations.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa1BDcjdFRHFWaGlkYlMzZi1ZY2hCaVR5dGRpalctVTI1Q2poOGxFcXZqdmZfX2lqaVZxRmo3MWZIZ2ZUU0xCMm44OFdibDRCNF9BOVNmT1VHNURxR0tabkNtaVdoNTRaTW81cVIyVUdvanhBUS1rX3pEZFdyQmNSbDVDa0VMM2tPVGhYbDkwR1VhcUJJTDJXVmhNZVVVNi1L0gGmAUFVX3lxTE5UdFo2TDl4c1R2ZWRuX1ZxbTA3UmdwPnlrbVh1OXUyd1pucVlQS2dqY2VsbnRNSGt3WWljNkZ3V2kySmZNUzJ4WVBaT2NXSGRuUFlqRmx1UXNzSlEwZkV1MGRWVWxNbHdBcnY3Vm9CMVFqSWZxdnI3TkZqbWxValByNzBMRWxBR3BraFBtbEVuUFBvNDNpUVNBdWVkN3V6enc1YjlIWXc?oc=5",
-      "date": "2026.10.31"
-    },
-    {
-      "level": "HIGH",
-      "title_kr": "CAFTA-DR 원산지 규정 및 관세 혜택 점검 필수",
-      "title_en": "Verify CAFTA-DR Origin Rules and Duty-Free Preferences",
-      "body_kr": "Updated guidelines regarding CAFTA-DR origin rules and member entry dates have been highlighted. Amid margin pressures from U.S. buyers, leveraging duty-free preferences in Central America remains a key sourcing advantage.",
-      "action_kr": "중미 협력 업체를 통한 CAFTA-DR 원산지 기준 충족 여부를 확인하고 오더 배분을 최적화하세요.",
-      "action_en": "Verify CAFTA-DR origin compliance with Central American partners and optimize order allocation accordingly.",
-      "source": "CASRAI",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE96UFhpd1pUNjNTX3JhbXM2SndpNGVacFJJU1kzUUR1QVg0M3ZJNnF0TDVEQUxGMXJKTUJDaTM2Qlh5V3lGSHU2Z3hR?oc=5",
-      "date": "2026.11.01"
-    },
-    {
-      "level": "MEDIUM",
-      "title_kr": "이커머스 규제 강화 및 Shein 밸류에이션 하락에 따른 시장 변화",
-      "title_en": "Market Shifts Following E-Commerce Crackdown and Shein Valuation Drop",
-      "body_kr": "E-commerce crackdowns on ultra-fast fashion platforms are biting, pulling down Shein's valuation. This shift is expected to influence inventory and sourcing strategies of traditional retailers and brand buyers.",
-      "action_kr": "바이어들의 리드타임 단축 및 소량 다품종 오더 요구 변화에 맞춘 대응 태세를 갖추세요.",
-      "action_en": "Prepare response strategies tailored to buyers' shifting demands for shorter lead times and flexible low-MOQ orders.",
+      "title_kr": "쉬인(Shein) IPO 밸류에이션 하락 압박 및 이커머스 규제 심화",
+      "title_en": "Shein IPO Faces Lower Valuation Pressure Amid E-Commerce Crackdown",
+      "body_kr": "초국경 이커머스에 대한 규제 압박이 거세지면서 쉬인의 IPO 밸류에이션이 하락하고 있어 저가 패스트패션 소싱 생태계 전반에 영향을 미치고 있습니다.",
+      "body_en": "Crackdowns on ultra-fast fashion e-commerce are weighing on Shein's IPO valuation, impacting low-cost sourcing ecosystems.",
+      "action_kr": "영업 및 머천다이징 팀은 이커머스 바이어들의 가격 압박 전략 변화에 대응하고 마진 구조를 재점검해야 합니다.",
+      "action_en": "Sales and merchandising teams must prepare for shifts in e-commerce buyer margin expectations and review cost structures.",
       "source": "ET Retail",
       "sourceUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQb2d1VmZGYVpjaUFna1oyYlAxaWRxSjJybEpSWjFjR1ZVTWkxaTRHMFZIU2Q4NXdpdG5rai14b25Hb2EyS1RfNHVZSVF3dzhJM1RSSmxTMzJXdTlySWdQeFpUYjhhLUhmQWZaQXhNLW10dkotLU9LeWZJb1pEdFR0cVNuY3NRQnVJaG9CTWJibnllUVJsQ3hOVGJoZFB5c1RWX2pvSkluVGt6NlpKSE5BdDZIZ1BvSHBoNWVXNnpiNC1LOE92Wkt4Z0o2WWpYYThhcHI5OWNsc2JEaDEwazF4NFVoYUE4ZnPSAeIBQVVfeXFMUFlfMEZkNEVQLWJjVmFjeHN4REFHZEotV0JDNkotcXVrMVZPaUFBNU1idGplZEFidDNSNUJ6NTk1YWI0bkVPU2daVnE5NHFMZVpiRi1iRkhyNEVXNjBFdFV4S2R0cnlsOGZPNHZhX25ZZE1wdncwTGZNWFFZU1RobFhHT1Z2X0E3MUN4V3NXR1NPUS1wYTJtUklVYkRMb1F3ODhFRlVvenV3US1GUmptRndrOW02S1pvM0ZkODJGQkNwUW5PRUZSTEQwVFR3bmlzLTBfUjhjNXBBZm5YNlFHQTAxZw?oc=5",
       "date": "2026.10.31"
     },
     {
       "level": "MEDIUM",
-      "title_kr": "미국 면화 정책 및 코튼 가격 변동성에 따른 코스팅 관리",
-      "title_en": "Costing Management Amid USDA Cotton Policies and Price Volatility",
-      "body_kr": "USDA policies linking apparel tariffs to U.S. cotton purchases, alongside mixed trends in South Asian cotton yarn prices, persist. Heightened raw material volatility requires rigorous cost analysis.",
-      "action_kr": "오더 수주 시 원단 소스별(미국산 코튼 vs 대체 원사) 가격 변동폭을 반영하여 코스팅을 재산정하세요.",
-      "action_en": "Recalculate costing by factoring in price fluctuations across fabric sources (U.S. cotton vs. alternative yarns) during order intake.",
+      "title_kr": "미국 농무부(USDA), 의류 관세와 미국산 면화 구매 연계 정책 추진",
+      "title_en": "USDA Links Apparel Tariffs to U.S. Cotton Purchases",
+      "body_kr": "미국 농무부가 의류 관세 정책을 미국산 면화 구매 실적과 연계하는 방안을 발표함에 따라 소싱 및 코스팅 전략에 직접적인 영향이 예상됩니다.",
+      "body_en": "The USDA has linked apparel tariff policies to U.S. cotton purchases, introducing new compliance factors for sourcing and costing.",
+      "action_kr": "소싱 팀더블체크: 미국산 면화 사용 비중을 확대하고 관련 관세 규정 변화에 맞춘 원단 공급망을 선제적으로 재조정하세요.",
+      "action_en": "Sourcing teams must evaluate U.S. cotton usage ratios and adjust raw material supply chains to align with potential tariff linkages.",
       "source": "RFD-TV",
       "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTbi1rR3Q1blk3aDkzdVZiOE9jV1BJckZ3SUlqcDZzMjN5MlpMWUlnQk5qYTJabVpGLUNwdVpuN0pjU0hPOU9hdUNZa05fUTZ6SzRPaHVfbUhWS3k2eFdQdUw4M1o2bzAzU0p0ZzNpaUN4c0NxTkJTaHJLcG4?oc=5",
       "date": "2026.10.21"
+    },
+    {
+      "level": "MEDIUM",
+      "title_kr": "아베크롬비의 타겟(Target) 파트너십과 홀리스터 성장 동력화",
+      "title_en": "Abercrombie's Target Partnership and Hollister Growth Potential",
+      "body_kr": "아베크롬비앤피코의 리테일 파트너십 확장이 홀리스터 브랜드의 성장 기회를 창출하며 주요 바이어들의 오더 볼륨 변화를 예고하고 있습니다.",
+      "body_en": "Abercrombie's retail partnerships are driving growth momentum for Hollister, signaling potential order volume expansions.",
+      "action_kr": "영업 팀은 홀리스터 및 주요 파트너 브랜드의 신규 라인업 오더 증가에 대비해 생산 capacity를 사전 확보하세요.",
+      "action_en": "Sales teams should coordinate with brand buyers to secure production capacity for upcoming partnership-driven inventory demands.",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOU3NaOWpCSW84UXNTSUtrVzBhc0VqM200ZTVBemxnM2lHRUYwamlPTGtibE9vSV9iQjlFWDVvUXJCTTg2NW5WejAxRFRsSFRrTUEtLThRYTNyZDVLc1paU04zNl9TZWxxWHhaMElXS25PUFpwak5XMWNqdE1reU5QazJ1cklBZUJDV1NOUkdEUVVIWDVMSWtub1hmYXZTQjJhTTFNcUEta1ByT1QtZFFpbkxR?oc=5",
+      "date": "2026.10.20"
+    },
+    {
+      "level": "LOW",
+      "title_kr": "베트남 섬유·의류 산업 2027년 전망: 더딘 수요 회복과 생산원가 상승",
+      "title_en": "Vietnam Textile 2027 Outlook: Slow Demand Recovery and Rising Costs",
+      "body_kr": "베트남 섬유 업계는 2027년까지 더딘 수요 회복과 지속적인 생산원가 상승 압박을 겪을 것으로 전망되어 글로벌 경쟁 구도에 변화가 예상됩니다.",
+      "body_en": "Vietnam's textile sector faces slow demand recovery and rising production costs heading into 2027, shifting competitive dynamics.",
+      "action_kr": "소싱 팀은 베트남 외 지역과의 코스팅 비교를 강화하고 다각화된 생산 기지 포트폴리오를 유지하세요.",
+      "action_en": "Sourcing teams should cross-compare costing benchmarks against alternative hubs outside Vietnam to protect target margins.",
+      "source": "Vietnam.vn",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZnFZRldDcHNwWmhmOXVwekJ0ZVJ2RFBrVE1yaDVCZzVFVGJZTFM5ekJSb2EtY09yaEEyQi04YTh4Sm1KLXpCckNhcXhLNTl3OUc3UHhKSmV2XzhwRGRKM3I1cWkwM0lKVGlSX2RpOVNlQ3gtNDQwcl9ORi03X3V2QVpJX0xzazh5OU4zSloyVGNyR0lyWGRDUg?oc=5",
+      "date": "2026.10.19"
     }
   ]
 }
