@@ -1,0 +1,100 @@
+{
+  "ok": true,
+  "asOf": "2026-11-02T23:00:40.001Z",
+  "generatedDateKST": "2026-11-03",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 2,
+    "within7d": 5,
+    "total": 6,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Gift Guide",
+      "category_en": "Gift Guide",
+      "date": "2026.11.02",
+      "title_kr": "Macy's, Holiday season 대비 Coach Classic brand gift guide 공개",
+      "title_en": "Macy's Unveils Coach Classic Brand Gift Guide for Holiday Season",
+      "body_kr": "Macy's가 Holiday season을 겨냥해 소비자들이 선호하는 Coach 브랜드의 클래식 merchandise gift guide를 선보였습니다. 연말 gift category 수요 선점을 위한 주요 브랜드의 promotion 동향을 모니터링해야 합니다.",
+      "body_en": "Macy's released a Coach classic merchandise gift guide for the holiday season. Sales teams should monitor brand promotions targeting year-end gift categories.",
+      "source": "ABC News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWEVXdGVJaFQ3SnZxQzFuUDZPaHJaZFlmeUtHTl9wOU1RNEo4QmoweU5nZHFabVI2LW5OZE82WDM0SUMwbE9BVTRQb1FKYXdlN3ZHOU1BRXNFTFllbjNINXRzR21vaERCeXo3YlBzb3NEMGFUZ0NTWXpPcFJsRE13SEEwSWRBRWQ10gGOAUFVX3lxTE5mNDZ1UWhPem5fbXJQUk1nMGdjOUgxOUlpNS02cURWQzBPS183dDVTUUdKNkdYOC1hekNRNGdMTVlCcVhWa2FWcUQ0X2I0XzR4SGdwYVBOQkJzdHNBdlZETGdQbkFUMm1QdDUxMGRfbktCN283c0hGaGJDblc1MU9RSThST1BtQlVNeUJxLUE?oc=5",
+      "ageHours": 0.32
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Promotion",
+      "category_en": "Promotion",
+      "date": "2026.11.02",
+      "title_kr": "Kohl's, 최대 70% 할인 포함 early Black Friday sale 일정 발표",
+      "title_en": "Kohl's Announces Early Black Friday Sale with Up to 70% Off",
+      "body_kr": "Kohl's가 최대 70% 할인 혜택을 담은 early Black Friday promotion 일정을 공개하며 연말 쇼핑 시즌에 돌입했습니다. 본격적인 Holiday promotion 경쟁에 따른 파트너사 물동량 및 reorder 추이를 점검해야 합니다.",
+      "body_en": "Kohl's launched early Black Friday promotion details featuring up to 70% discounts. Vendors should track inventory reorders driven by early holiday shopping competition.",
+      "source": "USA Today",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcnV4dk9OU1NvNzJ6VXRyLVNoOHBjMHRDRXA2eHY0aWJTQVpPX1lvRVdNS3ZBLUhEOHZ0MVZQWFZsTFg1M0tzRERydi1mbV95T3JpOVowWkFpcWlVTTFwVVo3d01lajhFbWptNUx1M3EwU2VWdWtTRWgyR2IxamtQQzhLT3Iwa3dudU9FdDN3VDYxZ0V2dlg1RG5tSFEyODNIUVhqWm16THBVdUFMdlFaV1F2MWNsNWgz?oc=5",
+      "ageHours": 17.95
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Holiday",
+      "category_en": "Holiday",
+      "date": "2026.10.30",
+      "title_kr": "Hollister, Christmas 시즌 10대 소비자 타겟 핵심 merchandise 제안",
+      "title_en": "Hollister Highlights Key Christmas Merchandise for Teens",
+      "body_kr": "Hollister가 올해 크리스마스 시즌을 맞아 10대 소비자들이 주목하는 주요 패션 아이템과 gift merchandise 리스트를 공개했습니다. 연말 10대 category 소비 트렌드와 주력 제품군 반응을 분석할 필요가 있습니다.",
+      "body_en": "Hollister released key Christmas merchandise lists targeted at teen consumers. Sales teams should analyze year-end teen category trends and product reactions.",
+      "source": "bestlifeonline.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hR2ZkU3I5UUo5Q2I2TENmVkZPZ1VxR0NaMWZVNnpRbHVjX3lVVG1kVEtDa3ppcnc5Q0lqSE5JMHp0eVN5WUVFbWFGMmROWkdrdmhVaWpkWFZFZzhJS2s5WUpyczBOS2Q1cUlR?oc=5",
+      "ageHours": 82.71
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Holiday",
+      "category_en": "Holiday",
+      "date": "2026.10.30",
+      "title_kr": "Kohl's, 11월 Holiday season 전개 위한 신규 savings event 개시",
+      "title_en": "Kohl's Kicks Off November Holiday Savings Events",
+      "body_kr": "Kohl's가 11월을 맞아 대규모 Holiday savings event와 기프트숍 운영에 본격적으로 돌입했습니다. 연말 쇼핑 시즌 초반 sell-through 지표와 주요 category별 반응을 밀착 모니터링해야 합니다.",
+      "body_en": "Kohl's launched large-scale holiday savings events and gift shops for November. Vendors need to closely monitor early holiday sell-through metrics and category responses.",
+      "source": "Kohl's",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRV9kS2dDM2RHR1FCS2h6YVVzckQ5cmRva2hXXzhOQ3pMaWRsT2tNUU51LUZnSGpJeWpXRU5TRXJCQW55UFZMN0ZoZTJyMS16aUtjRDRvYmFIUG14VlZyTlpjbkd3TThIbzJkc0xNOW5JXzlHZWF2MjJWMWxvV1JLaFhVcGVTNFM2bHY3M0lBMFZPajl3VVBUYnNDaHRzX0NCb1NITmx1RFM0b1ZCUmtranNVTGg5MEMwTlpOYTEzeWtELTZPVEE?oc=5",
+      "ageHours": 82.97
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Sports Merchandise",
+      "category_en": "Sports Merchandise",
+      "date": "2026.10.29",
+      "title_kr": "Kohl's, World Series 팬들의 merchandise 수요 대응 위해 매장 조기 오픈",
+      "title_en": "Kohl's Opens Early to Meet World Series Merchandise Demand",
+      "body_kr": "위스콘신 지역 Kohl's 매장들이 World Series 챔피언십 공식 merchandise 판매를 위해 영업시간을 조기 오픈했습니다. 스포츠 이벤트와 연계된 스페셜티 상품의 단기 재고 소진 및 reorder 흐름을 참고해야 합니다.",
+      "body_en": "Kohl's stores in Wisconsin opened early to handle World Series championship merchandise demand. Vendors can reference this for short-term inventory clearance and reorder flows linked to sports events.",
+      "source": "WMTV 15 NEWS",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSEE2UG9pSC1ZYlJFbTRkN1p4SE1kdUpzQkVDYmI4QmV2ODZfVnFUVzdYYy1fTFBLN040U1lTLXJmbFNTaXpURE4wZ2pQYlVmUWt2WmwxaUp0QXQtM29tR19kSU9rZnN4S1VmS3hSbFdXbHVMSHlySWFaeWxXd0VGWEJFMkhySEtzS3o0LXQ1elkwV3RXcnFXcG1nb2EtZUpBckdfTl9FaHBGYmVTN0M5N0RoUGRHRExQSWd1Mjc5X1lUeVVNVEVZZXNBaGlhcUowMFVJMDhUTzjSAewBQVVfeXFMTTRDMGtMcU50b3lEdVZhNlVKRHdFZVZwN1hFcHlsdGdzTGc1NlZEcC1pQWlhdEhnLVd2UUhCWWVTQll3dVhaYzNmTDk3dGJod3RNd3lWck5PU0N2NTNuNWtwU0Q3eHpIWGl6dnMzRTVWYlBGV0hWUmNfdUNUaWFHdElkNVN3YUZwVWVfcVFEdWJRSHlxNkprZjkza01yZEhQTHI1MFBvQlNmeGNzWjZUb2N4OGh2dWV0WEloOFhHd0d0REJFMVZTMDRtZ1pkd3I5RVpZZHZkdzA3TFhwTmRXZkdDU2s3UWtEa2ZIYVg?oc=5",
+      "ageHours": 113.81
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Holiday",
+      "category_en": "Holiday",
+      "date": "2026.10.22",
+      "title_kr": "Macy's, 2026년 연말 Holiday season 마케팅 및 매장 체험 프로그램 공개",
+      "title_en": "Macy's Unveils 2026 Holiday Season Marketing and In-Store Experiences",
+      "body_kr": "Macy's가 올해 연말 Holiday season을 맞아 offline store 중심의 대대적인 매장 경험 프로그램과 기프트 상품군을 발표했습니다. 연말 시즌 전체 retail traffic과 gift merchandise margin율 변화를 주시해야 합니다.",
+      "body_en": "Macy's announced extensive in-store holiday experiences and gift merchandise lines for the 2026 holiday season. Sales teams should watch holiday retail traffic and gift merchandise margins.",
+      "source": "MacysInc.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQci1KMVg4QnNMTEs2Zk5jSDhzXzhLOE1qWkRGM1FlbmIxcUNuNFR6N19sOFpieTcwWGhLM0ROOEZuOVdXM2VZS3M2alRybU1zYlc4N2JRQVBSSVF4S2d3cjhBN05vT2l1UFdXbWNVa0wyc3I5Ym1laTg3YTVRRmhEejh1T2ZKNnJ6QjdCcDVsRTk4M0FMZkRfTFlMcWlSX1hoVXlJcnJjTDZxdUhDeldDbUF5bkZSZw?oc=5",
+      "ageHours": 280.01
+    }
+  ]
+}
