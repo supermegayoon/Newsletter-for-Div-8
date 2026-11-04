@@ -1,0 +1,72 @@
+{
+  "ok": true,
+  "asOf": "2026-11-03T23:00:39.153Z",
+  "generatedDateKST": "2026-11-04",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 1,
+    "within7d": 3,
+    "total": 4,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Holiday promotion",
+      "category_en": "Holiday Promotion",
+      "date": "2026.11.02",
+      "title_kr": "Kohl's, 최대 70% 할인 포함 early Black Friday sale 돌입",
+      "title_en": "Kohl's reveals early Black Friday sale, including up to 70% off",
+      "body_kr": "Kohl's가 Holiday 시즌을 겨냥해 최대 70% 할인 혜택을 담은 early Black Friday sale을 전격 공개했습니다. 공격적인 promotion과 가격 정책 변화로 초기 traffic을 선점하려는 전략으로, 협력 업체들은 판매 추이에 따른 재고 reorder 대응을 준비해야 합니다.",
+      "body_en": "Kohl's launched an early Black Friday sale featuring up to 70% off to drive early holiday traffic. Vendors should monitor sell-through rates and prepare for potential reorders as aggressive promotions kick off.",
+      "source": "USA Today",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcnV4dk9OU1NvNzJ6VXRyLVNoOHBjMHRDRXA2eHY0aWJTQVpPX1lvRVdNS3ZBLUhEOHZ0MVZQWFZsTFg1M0tzRERydi1mbV95T3JpOVowWkFpcWlVTTFwVVo3d01lajhFbWptNUx1M3EwU2VWdWtTRWgyR2IxamtQQzhLT3Iwa3dudU9FdDN3VDYxZ0V2dlg1RG5tSFEyODNIUVhqWm16THBVdUFMdlFaV1F2MWNsNWgz?oc=5",
+      "ageHours": 42.00947277777778
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Holiday 머천다이징",
+      "category_en": "Holiday Merchandising",
+      "date": "2026.10.27",
+      "title_kr": "Macy's, Holiday 시즌을 위한 gift guide 및 merchandise 공개",
+      "title_en": "Macy’s Unwraps the Magic of Holiday Gifting",
+      "body_kr": "Macy's가 다가오는 Holiday 시즌을 맞아 본격적인 merchandise 라인업과 gift guide를 선보였습니다. 연말 쇼핑 시즌의 핵심 retail channel인 만큼, 주요 category별 sell-through 추이를 주시하여 향후 sourcing 및 물동량 관리에 반영해야 합니다.",
+      "body_en": "Macy's unveiled its comprehensive holiday gift guide and merchandise lineup to kick off the gifting season. Vendors must track key category performance across this vital retail channel to optimize inventory management.",
+      "source": "Nasdaq",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd0lFdlJtUEJMSktlOVJmRVlKbzlDSTc5akI5YkU2RmdELS1qNUNqdXVyMm0xT21XdjRQYWNXTVQyNFBlZHkzSnJnZXUzVmdiel9PNGU2QnluT014M0hrX3VkXzhaS0NtamVLMDI0Ym1INzVFX3M0OHFKYWN0ZmFCUXl3U0lvdzZHamc4?oc=5",
+      "ageHours": 174.90948722222223
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Consumer Demand",
+      "category_en": "Consumer Demand",
+      "date": "2026.10.30",
+      "title_kr": "Hollister, 십대 소비자들이 가장 원하는 크리스마스 선물 아이템 발표",
+      "title_en": "7 Hollister Finds Teens Actually Want for Christmas This Year",
+      "body_kr": "Hollister가 Holiday 시즌을 겨냥해 십대 소비자들에게 가장 인기 있는 apparel 품목들을 선정해 공개했습니다. 탄탄한 브랜드 모멘텀을 바탕으로 한 소비자 수요 집중이 예상되므로, 관련 activewear 및 캐주얼 category의 재고 상황을 점검해야 합니다.",
+      "body_en": "Hollister highlighted top teen-favorite apparel items for the upcoming Christmas shopping season. Backed by strong brand momentum, vendors should closely track inventory and reorder cadence for high-demand categories.",
+      "source": "bestlifeonline.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hR2ZkU3I5UUo5Q2I2TENmVkZPZ1VxR0NaMWZVNnpRbHVjX3lVVG1kVEtDa3ppcnc5Q0lqSE5JMHp0eVN5WUVFbWFGMmROWkdrdmhVaWpkWFZFZzhJS2s5WUpyczBOS2Q1cUlR?oc=5",
+      "ageHours": 106.71359222222222
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Store Operations",
+      "category_en": "Store Operations",
+      "date": "2026.10.30",
+      "title_kr": "Kohl's, 11월 Holiday 시즌을 위한 대규모 Savings Events 발표",
+      "title_en": "Now Arriving at The North Kohl’s: November Holiday Savings Events",
+      "body_kr": "Kohl's가 11월 한 달간 offline store와 E-commerce 채널을 아우르는 대규모 Holiday promotion 계획을 발표했습니다. 본격적인 연말 쇼핑 시즌 돌입에 따라 파트너사들은 원활한 제품 공급과 추가 물량 대응 태세를 유지해야 합니다.",
+      "body_en": "Kohl's announced comprehensive November holiday savings events spanning both offline stores and E-commerce channels. As the peak shopping season begins, vendors must ensure smooth fulfillment and agile inventory support.",
+      "source": "Kohl's Corporate",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNM0x0RTNTb1phMW1nc0ViNnUzZ2pPSjN6QV9DNjBUUXl3NXc5SXhtakxzelN2clBtbEgzeThScF9pWm11STJYdnVjTEFTVVUwTlRlMlM2dl9UNVltLTlvd3hEdGtzVDF2Wkg4ZkZ5RW1sSTU5N1A5TV8wUzlUTzFHdUlaRXdpQ3daeHh3Zk5EWDE2TmNwM3JuRlZKVC0?oc=5",
+      "ageHours": 107.00502805555556
+    }
+  ]
+}
