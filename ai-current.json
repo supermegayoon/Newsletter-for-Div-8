@@ -1,80 +1,81 @@
 {
   "ok": true,
-  "asOf": "2026-11-03T23:01:08.865Z",
-  "generatedDateKST": "2026-11-04",
+  "asOf": "2026-11-04T23:00:58.555Z",
+  "generatedDateKST": "2026-11-05",
   "schedule": "Mon-Fri 08:00 KST",
-  "refreshStatus": "VERIFIED",
+  "refreshStatus": "RULE_FALLBACK",
   "stale": false,
-  "provider": "Google Gemini",
-  "model": "gemini-3.5-flash-lite",
+  "provider": "Rule Fallback",
+  "model": null,
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-11-04",
+  "competitorDateKST": "2026-11-05",
+  "fallbackReason": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
   "insight": {
     "headline": {
-      "kr": "2026년 11월 4일 8담당 데일리 마켓 브리프: Holiday 시즌 조기 promotion 돌입 및 경쟁사 공세 심화",
-      "en": "Nov 4, 2026 Team 8 Daily Market Brief: Early Holiday Promotions Launch Amid Intensifying Competitor Moves"
+      "kr": "Licensed IP 및 athleisure 트렌드 확산으로 Kids Hoodies Set market 성장세 지속",
+      "en": "Kids Hoodies Set Market Driven by Licensed IP and Athleisure Growth."
     },
     "summary": {
-      "kr": "Kohl's와 Macy's 등이 최대 70% 할인 및 기프팅 가이드를 앞세워 Holiday 시즌 얼리버드 판매에 돌입했습니다. 타겟, 노드스트롬 등 주요 경쟁사들도 offline 확장과 대규모 세일로 고객 선점에 나서고 있어, 당사 영업팀은 실시간 판매 추이 모니터링과 긴급 reorder 대응 체계 점검이 시급합니다.",
-      "en": "Kohl's and Macy's have kicked off early holiday sales featuring up to 70% off and gift guides. With key competitors like Target and Nordstrom aggressively expanding and discounting, our sales team must monitor real-time sell-through and ensure agile chase order readiness."
+      "kr": "오늘 Buyer News와 Competitor Intelligence를 기준으로 Kohl's, A&F/Hollister, Macy's의 주요 변화와 경쟁사 움직임을 함께 점검했습니다. Team 8은 상품, pricing, promotion 및 sourcing 관점에서 실제 제안으로 연결 가능한 signal을 우선 확인할 필요가 있습니다.",
+      "en": "Today's brief combines buyer news and competitor intelligence across Kohl's, A&F/Hollister and Macy's. Team 8 should prioritize actionable signals in product, pricing, promotion and sourcing."
     },
     "tags": [
-      "#HolidaySeason",
-      "#BlackFriday",
-      "#RetailTrends",
-      "#Team8Daily"
+      "#BuyerNews",
+      "#Competitor",
+      "#Team8",
+      "#DailyBrief"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "최대 70% 할인 및 'The North Kohl's' 캠페인을 전개하며 초기 Holiday traffic 확보에 집중하고 있습니다. Target과 JCPenney 역시 얼리버드 세일을 앞당겨 진행 중이므로 초기 판매량에 따른 민첩한 재고 reorder 대응이 필수적입니다.",
-        "en": "Kohl's is driving early traffic via up to 70% off and 'The North Kohl's' campaign. As Target and JCPenney also accelerate early-bird sales, vendors must prepare for agile reorders based on initial sell-through velocity."
+        "kr": "타겟과 메이시스 등 주요 경쟁사들의 연말 Holiday 쇼핑 시즌 및 블랙 프라이데이 조기 promotion 경쟁이 심화되고 있습니다.",
+        "en": "Competition is intensifying as key rivals like Target and Macy's ramp up early holiday and Black Friday promotional campaigns."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "Hollister의 십대 타겟 크리스마스 아이템 선정과 A&F의 YPB x Barry's activewear 콜라보 런칭 등 제품 모멘텀이 매우 강합니다. Aritzia의 공격적인 offline 매장 확장세에 대응하여 디자인 및 기능성 sourcing력을 강화해야 합니다.",
-        "en": "Strong product momentum continues with Hollister's teen Christmas picks and A&F's global launch of the YPB x Barry's activewear collection. Vendors should benchmark these performance details against aggressive competitor store expansions like Aritzia."
+        "kr": "아메리칸 이글, 프리 피플 등 주요 캐주얼 및 영 컨템포러리 경쟁사들이 얼리버드 Holiday promotion과 마케팅을 확대하고 있습니다.",
+        "en": "Main casual and young contemporary competitors like American Eagle and Free People are expanding early holiday promos and marketing."
       },
       {
         "buyer": "Macy's",
-        "kr": "Holiday 기프트 가이드 공개와 함께 본격적인 연말 머천다이징에 돌입했습니다. Nordstrom의 최대 60% 가을·겨울 세일 공세에 맞서 백화점 채널 내 category별 실적 추이를 면밀히 추적하고 물동량 최적화가 필요합니다.",
-        "en": "Macy's unveiled its holiday gift guide to kick off gifting season. Amid Nordstrom's aggressive up to 60% off fall clearance sales, vendors must closely track department store category performance and optimize inventory flows."
+        "kr": "노드스트롬과 제이씨페니 등 주요 백화점 경쟁사들이 가을 주말 세일 및 얼리버드 블랙 프라이데이 promotion에 집중하고 있습니다.",
+        "en": "Key department store rivals like Nordstrom and JCPenney are focusing heavily on fall weekend sales and early Black Friday promotions."
       }
     ],
     "opportunities": [
       {
-        "kr": "주요 바이어들의 Holiday 얼리버드 및 블랙프라이데이 promotion 조기화에 따른 추가 reorder(Chase order) 물량 선점",
-        "en": "Capture potential chase orders driven by buyers accelerating early-bird Black Friday and holiday promotions."
+        "kr": "콜스 역시 도심형 매장 및 offline 경험 개선 전략을 점검해야 합니다.",
+        "en": "Kohl's should evaluate its urban store format and in-store experiential strategies."
       },
       {
-        "kr": "A&F의 YPB x Barry's 콜라보 및 기능성 원단 트렌드에 맞춘 당사 애슬레저 및 퍼포먼스 의류 제안 강화",
-        "en": "Strengthen our activewear proposals by aligning with performance fabric and collaboration trends seen in A&F's YPB line."
+        "kr": "Holiday 시즌 라운지웨어 및 이너웨어 컬렉션의 마케팅을 강화해야 합니다.",
+        "en": "Step up marketing for holiday loungewear and intimates collections."
       },
       {
-        "kr": "백화점 채널(Macy's 등)의 기프팅 category 실시간 판매 데이터를 활용한 품목별 믹스 조정",
-        "en": "Optimize product category mix leveraging real-time gifting sales data across department store channels like Macy's."
+        "kr": "메이시스의 프리미엄 브랜드 셀렉션에 대한 차별화된 할인 promotion을 기획해야 합니다.",
+        "en": "Design targeted promotions highlighting Macy's exclusive premium brand assortment."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "경쟁사들의 조기 대규모 할인 공세(Nordstrom 최대 60% 할인, Target/JCPenney promotion)로 인한 당사 주력 아이템 margin 압박 및 초기 재고 소진 지연 가능성",
-      "en": "Potential margin pressure and delayed initial inventory turnover due to aggressive early discounting by competitors (e.g., Nordstrom up to 60% off, Target/JCPenney promos)."
+      "kr": "일부 signal은 빠르게 변할 수 있으므로 source 원문 및 buyer 반응을 함께 확인해야 합니다.",
+      "en": "Some signals can change quickly, so validate source articles and buyer reactions before decisions."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Kohl's 및 Macy's의 Holiday promotion 초기 판매 추이(Sell-through)를 일별 모니터링하고 긴급 reorder 대응 계획 수립",
-        "en": "Monitor daily sell-through of early holiday promotions for Kohl's and Macy's and establish rapid chase order protocols."
+        "kr": "오늘자 Buyer News와 competitor source 중 영업 제안으로 연결 가능한 1~2개 signal을 팀별로 선정합니다.",
+        "en": "Select 1-2 actionable buyer/competitor signals for each sales team."
       },
       {
         "owner": "Team 8",
-        "kr": "A&F 및 Hollister의 신규 activewear 및 십대 타겟 아이템 sourcing 스펙을 분석하여 향후 제안서에 반영",
-        "en": "Analyze sourcing specs of A&F and Hollister's new activewear and teen apparel lines to incorporate into upcoming pitches."
+        "kr": "가격, product, promotion 관점에서 buyer별 차별화 제안 가능성을 검토합니다.",
+        "en": "Review differentiated proposals by buyer across pricing, product and promotion."
       },
       {
         "owner": "Team 8",
-        "kr": "환율 변동성(USD/KRW) 및 원자재(면화, 유가) 시세를 반영한 원가 절감 및 납기 일정 리스크 점검",
-        "en": "Review cost reduction and delivery schedule risks reflecting foreign exchange volatility (USD/KRW) and raw material trends (cotton, crude oil)."
+        "kr": "중요 signal은 다음 개발 및 costing 논의에 반영할 수 있도록 source와 함께 공유합니다.",
+        "en": "Share important signals with sources for upcoming development and costing discussions."
       }
     ]
   }
