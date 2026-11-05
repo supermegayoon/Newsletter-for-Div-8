@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "asOf": "2026-11-04T23:00:58.555Z",
-  "generatedDateKST": "2026-11-05",
+  "asOf": "2026-11-05T15:15:10.981Z",
+  "generatedDateKST": "2026-11-06",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "RULE_FALLBACK",
   "stale": false,
