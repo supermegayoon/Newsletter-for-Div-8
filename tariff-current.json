@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-11-04T05:15:16.710Z",
+  "asOf": "2026-11-05T08:15:17.206Z",
   "basis": "APPAREL MODE: current effective duty treatment for qualifying apparel; FTA/preference base duty reflected.",
   "mode": "APPAREL",
   "refreshStatus": "VERIFIED",
@@ -19,7 +19,7 @@
           "rate": 12.5,
           "status": "CURRENT",
           "effectiveDate": "2026-07-23",
-          "noteKr": "강제노동 조사 대상 기타 국가에 대한 12.5%",
+          "noteKr": "강제노동 조사 대상 기타 국가에 대한 12.5% 추가관세",
           "noteEn": "12.5% rate applicable to other investigated economies under Forced Labor Section 301 final action"
         }
       ],
