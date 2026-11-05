@@ -1,0 +1,456 @@
+{
+  "ok": true,
+  "generatedDateKST": "2026-11-05",
+  "asOf": "2026-11-04T23:00:56.238Z",
+  "schedule": "Mon-Fri 08:00 KST",
+  "windowDays": 7,
+  "analysisMode": "GEMINI",
+  "buyers": [
+    {
+      "buyer": "Kohl's",
+      "competitionLevel": "MEDIUM",
+      "keyTakeaway": {
+        "kr": "타겟과 메이시스 등 주요 경쟁사들의 연말 홀리데이 쇼핑 시즌 및 블랙 프라이데이 조기 프로모션 경쟁이 심화되고 있습니다.",
+        "en": "Competition is intensifying as key rivals like Target and Macy's ramp up early holiday and Black Friday promotional campaigns."
+      },
+      "competitors": [
+        {
+          "name": "Target",
+          "signal": "STORE",
+          "move": {
+            "kr": "타겟 소호 매장이 하층부를 보다가(Bodega) 컨셉의 쇼핑 공간으로 리뉴얼되었습니다.",
+            "en": "Target Soho rebuilt its lower level as a bodega-inspired shopping destination."
+          },
+          "whyItMatters": {
+            "kr": "오프라인 매장의 경험적 가치를 높여 도심권 소비자들의 매장 방문 유도에 유리합니다.",
+            "en": "Enhances experiential retail value in urban markets, driving customer foot traffic."
+          },
+          "action": {
+            "kr": "콜스 역시 도심형 매장 및 오프라인 경험 개선 전략을 점검해야 합니다.",
+            "en": "Kohl's should evaluate its urban store format and in-store experiential strategies."
+          },
+          "sources": [
+            {
+              "source": "freeyork",
+              "sourceTier": "GENERAL",
+              "date": "2026.11.04",
+              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTE05UURXNWtWV0pjVzhmYjgwNHhVY3VtdkVFSzNCWGcyaURtTHMyZkZKQWU3YjJ0d1pCZzhsLVNQQzhXVjZ0aDd3Zk5TeFB1Y0VxZnByYU9mdkRINnVzREJZVV9aQnpVS0txMlVXdXFIRGNmUWZ1VHhUMEUwVDA0QU5YOVZtbGNzSU5SaWNOYw?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Target",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "타겟이 블랙 프라이데이 사전 할인 일정을 유출 및 공개하며 조기 할인 경쟁에 돌입했습니다.",
+            "en": "Target leaked and announced early Black Friday sale dates, initiating early promotional competition."
+          },
+          "whyItMatters": {
+            "kr": "소비자들의 홀리데이 시즌 쇼핑 시점을 앞당겨 경쟁사의 연말 매출을 선점하려는 전략입니다.",
+            "en": "Accelerates consumer holiday shopping timelines to capture early seasonal sales."
+          },
+          "action": {
+            "kr": "콜스도 이에 대응하여 홀리데이 프로모션 캘린더를 앞당겨 집행해야 합니다.",
+            "en": "Kohl's must respond by pulling forward its own holiday promotional calendar."
+          },
+          "sources": [
+            {
+              "source": "Yahoo",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.28",
+              "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMnVBSjk1UVQyNGFtYy1uRmtwS093c0hDcGZVT05wT29WdmtSYm01VUtITWw4MGRNSWNqaS1SRVNMeVp1cWx0elhsTmJSQmI5NDV6dl9sRTdUQ05MX0dMUHNMb1BGRnduTkpvUDhoNXFDdXJJRlpnTTc1d19KaHlzWWJHZE9IallFNUEybDYyRmZ3UQ?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Macy's",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "메이시스가 가을 시즌 세일 및 조기 블랙 프라이데이 프로모션을 전개하고 있습니다.",
+            "en": "Macy's rolled out top fall sales and early Black Friday discounts."
+          },
+          "whyItMatters": {
+            "kr": "동종 백화점·유통 채널 간 고객 유치 경쟁이 가열되고 있습니다.",
+            "en": "Intensifies cross-channel customer acquisition battle among department store rivals."
+          },
+          "action": {
+            "kr": "온·오프라인 통합 쿠폰 및 할인 혜택을 강화하여 가격 경쟁력을 유지해야 합니다.",
+            "en": "Strengthen omnichannel couponing and discounts to maintain price competitiveness."
+          },
+          "sources": [
+            {
+              "source": "Good Morning America",
+              "sourceTier": "GENERAL",
+              "date": "2026.11.04",
+              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UX3IyN1lJWUhtTWNhNDNXZG94QUZfY3N6SWV4Nk9NdzV5V0lKX001eHpDS1J1TGFQYk9jNkFUY0dQZFhvVGgzRHNXR2Z4OHgwSlFMSjhnMWszelNsaE44TEVoeVVIVkUtWFo4cWZBejkxVnhPeGlNc0EyUdIBgAFBVV95cUxNZGRsdzFXbkdXSGdLMGljSlhfTzBfYXE5cm1hZUswb3oyaHJESm1hREQyUGd6d3NxS0k5aE1NZ1BHMGZ5V3NLWTNiRko3UWdVQ1BkaXprOHJCY01JSmJFRVQ3YXpoNGFySkIwR0ljM01JMzhQWWtjLXFremppZ3YtRQ?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "A&F / Hollister",
+      "competitionLevel": "HIGH",
+      "keyTakeaway": {
+        "kr": "아메리칸 이글, 프리 피플 등 주요 캐주얼 및 영 컨템포러리 경쟁사들이 얼리버드 홀리데이 프로모션과 마케팅을 확대하고 있습니다.",
+        "en": "Main casual and young contemporary competitors like American Eagle and Free People are expanding early holiday promos and marketing."
+      },
+      "competitors": [
+        {
+          "name": "American Eagle",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "라운지웨어 및 언더웨어 시장에서의 입지를 다지며 관련 상품군 동향이 주목받고 있습니다.",
+            "en": "Maintaining strong market positioning within the loungewear and U.S. lingerie landscape."
+          },
+          "whyItMatters": {
+            "kr": "A&F의 핵심 타겟층인 젊은 소비자의 컴포트웨어 수요를 직접적으로 잠식합니다.",
+            "en": "Directly threatens youth comfortwear market share targeted by A&F."
+          },
+          "action": {
+            "kr": "홀리데이 시즌 라운지웨어 및 이너웨어 컬렉션의 마케팅을 강화해야 합니다.",
+            "en": "Step up marketing for holiday loungewear and intimates collections."
+          },
+          "sources": [
+            {
+              "source": "Market Research Future",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.31",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oc05xbUhaTk1ac3c3ekJhOWpUcURyU01xNkRwUTQxdmFveml5cEp1anY3WDNkVUsyZkJSRkNaRnpjcFUyMEx6bVZmakc2dmNDMG1Qcy1SNEtBMG5kTmh6TFM5XzV4RzJndmQzSzFCSnhoUjJSanpB?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Free People",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "프리 피플이 블랙 프라이데이 조기 할인 행사 및 쿠폰 프로모션을 개시했습니다.",
+            "en": "Free People launched early Black Friday deals and coupon discount events."
+          },
+          "whyItMatters": {
+            "kr": "보헤미안 및 영 보헤미안 감성의 여성복 고객층을 조기에 선점하려는 전략입니다.",
+            "en": "Aims to capture young bohemian-style womenswear shoppers early in the season."
+          },
+          "action": {
+            "kr": "홀리데이 시즌 타겟 프로모션 라인업을 앞당겨 대응해야 합니다.",
+            "en": "Accelerate holiday promotion rollouts to counter early customer acquisition."
+          },
+          "sources": [
+            {
+              "source": "Forbes",
+              "sourceTier": "GENERAL",
+              "date": "2026.11.02",
+              "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeGJvRTBLbFpLNl8tcldyNGhHZVQxWVR2MEh3ZTBFYVBZLUg5ZUJWTGVDcXBJc0JIbVRDckhpTDN4NzlEZVAyTHV6dUNUeDA3bTNUZ09wMlRsYzZITnhibE56Z0lLVFdFSTVEZ3pxdnV2VUl3ZXdaYXhjQ3ZwVy1OZmZ1UHN1XzVMOHRn?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Anthropologie",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "앤스로폴로지가 블랙 프라이데이 패션 얼리 딜 및 다양한 콜라보레이션 상품을 선보였습니다.",
+            "en": "Anthropologie introduced early Black Friday fashion deals and curated brand collaborations."
+          },
+          "whyItMatters": {
+            "kr": "라이프스타일 및 프리미엄 캐주얼 쇼핑객들의 지출을 조기에 흡수하고 있습니다.",
+            "en": "Captures discretionary spending from lifestyle and premium casual shoppers ahead of peak season."
+          },
+          "action": {
+            "kr": "독창적인 단독 콜라보레이션 및 홀리데이 기프트 상품 마케팅을 대조해야 합니다.",
+            "en": "Counter with exclusive collaborative product drops and holiday gifting campaigns."
+          },
+          "sources": [
+            {
+              "source": "Refinery29",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.29",
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzaV9oSHVIYllfV0JBTXVGbkZxSUpmMmVNSll2SGp6d1JmbnlpQ1FDLVRkTHBIQkh3aVZ3U2JXWU9zZ0phUlMzc0xUV2JfLUMxd21CUWI2c2FwbkhFMUNPN1V2Tk9GcDA?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "Macy's",
+      "competitionLevel": "MEDIUM",
+      "keyTakeaway": {
+        "kr": "노드스트롬과 제이씨페니 등 주요 백화점 경쟁사들이 가을 주말 세일 및 얼리버드 블랙 프라이데이 프로모션에 집중하고 있습니다.",
+        "en": "Key department store rivals like Nordstrom and JCPenney are focusing heavily on fall weekend sales and early Black Friday promotions."
+      },
+      "competitors": [
+        {
+          "name": "Nordstrom",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "노드스트롬이 홈, 뷰티, 의류 카테고리를 아우르는 대규모 쿠폰 및 할인 혜택을 진행 중입니다.",
+            "en": "Nordstrom rolled out aggressive coupons and steep discounts across top home, beauty, and apparel brands."
+          },
+          "whyItMatters": {
+            "kr": "고소득 및 프리미엄 백화점 고객의 이탈을 유발할 수 있습니다.",
+            "en": "Risks drawing affluent and premium department store customers away."
+          },
+          "action": {
+            "kr": "메이시스의 프리미엄 브랜드 셀렉션에 대한 차별화된 할인 프로모션을 기획해야 합니다.",
+            "en": "Design targeted promotions highlighting Macy's exclusive premium brand assortment."
+          },
+          "sources": [
+            {
+              "source": "Forbes",
+              "sourceTier": "GENERAL",
+              "date": "2026.11.02",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcEJwa3loS0RFb1Uwb1JqQlczZE10MXVHUG9GN19UcHBFNmdmYVoySHhUNFl3Yk1tYkVUa3Q3YU5JV042R1dYNEF0emFKZ29MRG53TnpmRVM1SmdOc28xWmVZcEFJNjhLaHd6SS00cE1udHJTaVBVQWVtZE9DcTR3Q0EwWGxFUQ?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "JCPenney",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "제이씨페니가 블랙 프라이데이 사전 인사이더 정보 및 대규모 주말 세일을 예고했습니다.",
+            "en": "JCPenney previewed insider details for upcoming major Black Friday sales and weekend events."
+          },
+          "whyItMatters": {
+            "kr": "가성비 중시 백화점 쇼핑객들을 조기에 확보하여 연말 시즌 점유율을 높이고 있습니다.",
+            "en": "Secures value-driven department store shoppers early to build holiday market share."
+          },
+          "action": {
+            "kr": "가성비 품목 중심의 얼리버드 세일즈 메시지를 강화해야 합니다.",
+            "en": "Reinforce value-oriented early-bird sales messaging."
+          },
+          "sources": [
+            {
+              "source": "New York Post",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.30",
+              "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZTZwbVNHQ0k1OTE1WTMyWlVoOHduNkhUazVkaGZCZXVjMndDazBvQ25zN0xKZkRFRkpWeTk1QnR1anJ6YkpucHZVcWFpb3pUTk1nTGEwLWJPb0lDRXQtUVcydXpvY1JmeGJ2UlpCV3l4cGRqc1hjN29FT0FrMENzT1p2NGh6NzBMQnRTazlFZGhId3JPZzZRelZwUU02eG5m?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Nordstrom",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "가을 시즌 인기 품목 및 오피스웨어(드레스 셔츠 등) 스타일링 제안을 강화했습니다.",
+            "en": "Highlighted top popular fall items and professional dress shirt styling for career wear."
+          },
+          "whyItMatters": {
+            "kr": "직장인 및 캐주얼 오피스웨어 수요층의 구매 전환율을 높이고 있습니다.",
+            "en": "Boosts purchase conversion among professional and smart-casual segments."
+          },
+          "action": {
+            "kr": "오피스/캐주얼 복합 연말 스타일링 큐레이션을 웹사이트와 매장에 반영해야 합니다.",
+            "en": "Incorporate professional and casual holiday styling curation across digital and store channels."
+          },
+          "sources": [
+            {
+              "source": "GQ",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.30",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1VQ2kwOFRnZVFwMEU1X3pmRU5XUjBuZHdyekN4TUhHU1BYWXJ0ZmFDSkU3ZlctVjVSRkRLamtaMnE5amFmeU9aOHBNTTZZYldLRVhEaE1haV9XcEU?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "Ann Taylor",
+      "competitionLevel": "MEDIUM",
+      "keyTakeaway": {
+        "kr": "바나나 리퍼블릭, 제이 크루 등 주요 오피스웨어 경쟁사들이 연말 홀리데이 컬렉션을 선제적으로 론칭하고 있습니다.",
+        "en": "Key office-appropriate apparel competitors like Banana Republic and J.Crew are proactively launching holiday collections."
+      },
+      "competitors": [
+        {
+          "name": "Banana Republic",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "바나나 리퍼블릭이 홀리데이 감성을 담은 신규 컬렉션을 공식 롤아웃했습니다.",
+            "en": "Banana Republic officially rolled out its holiday-themed collection and festive campaigns."
+          },
+          "whyItMatters": {
+            "kr": "Ann Taylor의 핵심 고객층인 커리어우먼 및 프리미엄 데일리룩 수요를 선점합니다.",
+            "en": "Captures demand from career women and premium daily wear shoppers central to Ann Taylor."
+          },
+          "action": {
+            "kr": "연말 파티룩 및 포멀웨어 라인업의 마케팅을 조기에 전개해야 합니다.",
+            "en": "Launch early marketing for holiday partywear and formal-casual crossover lines."
+          },
+          "sources": [
+            {
+              "source": "MediaPost",
+              "sourceTier": "GENERAL",
+              "date": "2026.11.04",
+              "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVnh6cTVKT0RObGVpd1F3d0J2VV92Ni1CcXNJOXB4SmpqQmR6RjcxX2dsMEEyVlBGTmJ5ZnRtNGM0SjBWOFh4NjZidWlWanhKeUFlTXVjV084TmI4T1Zxamk3NDhtRDcza2FHT0FYbU5yMWI2LXI5ZG5NQzFtTGdqRFVqNkZOclVHNFM3V3pUR2NnSHRSQ1d3TG9TTmluOUZrbmFSYnhyQW0?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Banana Republic",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "얼리버드 맨스웨어 및 추동 시즌 세일을 연이어 진행하고 있습니다.",
+            "en": "Rolled out early Black Friday menswear deals and ongoing fall clearance markdowns."
+          },
+          "whyItMatters": {
+            "kr": "시즌 말 재고 소진과 연말 쇼핑객 조기 유치를 동시에 달성하고 있습니다.",
+            "en": "Achieves simultaneous end-of-season inventory clearance and early holiday shopper acquisition."
+          },
+          "action": {
+            "kr": "여성복 및 커리어 라인업에 대한 매력적인 프로모션 번들링을 구성해야 합니다.",
+            "en": "Construct compelling promotional bundling for womenswear and career lines."
+          },
+          "sources": [
+            {
+              "source": "GQ",
+              "sourceTier": "GENERAL",
+              "date": "2026.10.29",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wNHo4OFczdmlSODZJNkI3OUJVcFZqb0E2Z2hiSXBmZktJd2dCMENJMERidEYyazVlcTY1ekFtTHk3RkFieVBieHNvcVFncjl2TEh5d0RKRWtMSlFwcTFmdw?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "White House Black Market",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "화이트 하우스 블랙 마켓이 조기 블랙 프라이데이 할인 행사에 돌입했습니다.",
+            "en": "White House Black Market introduced early Black Friday discount offers."
+          },
+          "whyItMatters": {
+            "kr": "유사한 타겟층을 공유하는 브랜드 간의 할인 경쟁이 가속화되고 있습니다.",
+            "en": "Accelerates promotional competition among brands sharing closely aligned target demographics."
+          },
+          "action": {
+            "kr": "충성 고객 대상 단독 프리세일 프로모션을 마련하여 이탈을 방지해야 합니다.",
+            "en": "Deploy exclusive pre-sale promotions targeted at loyal customers to prevent churn."
+          },
+          "sources": [
+            {
+              "source": "Forbes",
+              "sourceTier": "GENERAL",
+              "date": "2026.11.02",
+              "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeGJvRTBLbFpLNl8tcldyNGhHZVQxWVR2MEh3ZTBFYVBZLUg5ZUJWTGVDcXBJc0JIbVRDckhpTDN4NzlEZVAyTHV6dUNUeDA3bTNUZ09wMlRsYzZITnhibE56Z0lLVFdFSTVEZ3pxdnV2VUl3ZXdaYXhjQ3ZwVy1OZmZ1UHN1XzVMOHRn?oc=5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buyer": "Talbot's",
+      "competitionLevel": "LOW",
+      "keyTakeaway": {
+        "kr": "제이질(J.Jill) 및 랜즈엔드(Lands' End) 등 전통 클래식 경쟁사들은 신규 매장 출점과 카테고리 확장에 집중하고 있습니다.",
+        "en": "Traditional classic competitors like J.Jill and Lands' End are focusing on new store openings and category expansions."
+      },
+      "competitors": [
+        {
+          "name": "J.Jill",
+          "signal": "STORE",
+          "move": {
+            "kr": "미시간주 버밍햄 다운타운에 신규 의류 매장을 오픈했습니다.",
+            "en": "Opened a new apparel retail store in downtown Birmingham, Michigan."
+          },
+          "whyItMatters": {
+            "kr": "핵심 타겟층이 밀집한 지역 상권에서 오프라인 접점을 확대하고 있습니다.",
+            "en": "Expands physical retail footprint in key high-density demographic markets."
+          },
+          "action": {
+            "kr": "탈보트의 주요 지역 매장 주변 타겟 마케팅 및 로열티 프로그램을 점검해야 합니다.",
+            "en": "Review local store-level target marketing and loyalty programs in competing regions."
+          },
+          "sources": [
+            {
+              "source": "Crain's Detroit",
+              "sourceTier": "GENERAL",
+              "date": "2026.11.02",
+              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSFhZX0M5QndsMGdLT1NoTmlUQ2NDN25xMjh0LTlRdS10ZExHVUZQb2RMMjZ0OEpKcjFLaXlvOWxtdElRNC1idm5NVWZheFctb1BLeXlIejVNUmxsLWEyUzJ5LW1QODNhS016S2NDc09FTVJJam53dTJEakpBT09VRndR?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Lands' End",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "애슬레저 및 키즈 후디 시장 등 캐주얼 상품군 성장에 발맞춘 제품 라인업을 강화하고 있습니다.",
+            "en": "Enhancing product portfolios aligned with the growing athleisure and casual hoodie markets."
+          },
+          "whyItMatters": {
+            "kr": "클래식 고객층의 캐주얼 및 편안한 홈웨어 수요 변화에 민첩하게 대응하고 있습니다.",
+            "en": "Agile response to shifting consumer preferences toward comfort and casual classic wear."
+          },
+          "action": {
+            "kr": "탈보트의 캐주얼 및 홈웨어 라이프스타일 상품 라인업 경쟁력을 보완해야 합니다.",
+            "en": "Bolster Talbot's casual and lifestyle apparel assortment competitiveness."
+          },
+          "sources": [
+            {
+              "source": "IndexBox",
+              "sourceTier": "GENERAL",
+              "date": "2026.11.04",
+              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYVExTS1vWXJMdGJ6bXJhREZNekl1NUR2d04xaHVBb1drR01DVmY3Wk5Bc2lYNkJXVXNSeU5qRjF3NWVYc1FwREU3ZVNkWmpUMzNrVkd4YkZsQndzRXdSTUVZeTVULVRseXRKNVdid3hDdG9Qb0I2dzZ5c29ueDd2bl9kdnZaUERsb0JWRkJ4endXejg0TmgwMGNHNW5wMHpEUm1maklxaWJTMko5RUVJUzdCZXZXMzVXVjgzeVg1TkcyTE9vSXJR?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Lands' End",
+          "signal": "PROMOTION",
+          "move": {
+            "kr": "블랙 프라이데이 및 연말 시즌 할인 가이드라인을 사전 공지하며 프로모션 준비에 착수했습니다.",
+            "en": "Published expert deals guides and early preparation guidelines for Black Friday."
+          },
+          "whyItMatters": {
+            "kr": "온라인 채널 중심의 연말 쇼핑객 유치 경쟁에서 우위를 선점하려는 전략입니다.",
+            "en": "Aims to secure early positioning in digital channel holiday shopping acquisition."
+          },
+          "action": {
+            "kr": "탈보트의 이커머스 전용 홀리데이 프로모션 계획을 조속히 확정해야 합니다.",
+            "en": "Finalize Talbot's e-commerce specific holiday promotional strategy promptly."
+          },
+          "sources": [
+            {
+              "source": "CNN",
+              "sourceTier": "GENERAL",
+              "date": "2026.11.02",
+              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSlBlYUcyS21iTGdfcXlQMTZtdWZkUXdxSXZ4bEJ5ZEcwc3dNSXlQMndiaUlmZVdYb3RyaDVMSm0wQXFiR0RYcWVzR3Y5bmh5ZmFUWkFOR0pzZnpHVFJpWVVEMWFRQTE2aWpHb0p0cU9IdlVMc0lndVF4SzJfNmVLVGZ3UQ?oc=5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "socialPulse": {
+    "ok": true,
+    "generatedDateKST": "2026-11-05",
+    "windowDays": 14,
+    "analysisMode": "GEMINI",
+    "brands": [
+      "Kohl's",
+      "A&F / Hollister",
+      "Macy's"
+    ],
+    "items": [
+      {
+        "brand": "Macy's",
+        "platform": "Official",
+        "signal": "STRATEGY",
+        "date": "2026.11.04",
+        "headline": {
+          "kr": "메이시스, 최신 리테일 전략 발표 및 실적 모멘텀 강화",
+          "en": "Macy's Unveils Latest Retail Strategy to Drive Business Momentum"
+        },
+        "summary": {
+          "kr": "메이시스는 최근 발표된 실적 콜 및 리테일 전략을 통해 수익성 개선과 매장 및 디지털 채널 통합 운영에 집중하고 있습니다.",
+          "en": "Macy's is focusing on profitability and the integration of store and digital channels through its recent earnings call and retail strategy updates."
+        },
+        "whyItMatters": {
+          "kr": "메이시스의 새로운 리테일 전략은 바이어들의 오더 배분과 마진 압박에 직접적인 영향을 미치므로, 상품 단가 및 카테고리 효율성을 빠르게 점검해야 합니다.",
+          "en": "Macy's updated retail strategy directly impacts buyer order allocations and margin pressures, requiring a swift review of product pricing and category efficiency."
+        },
+        "action": {
+          "kr": "메이시스 담당 영업팀은 최신 리테일 전략에 발맞추어 고마진 베이직 아이템 및 주력 카테고리 제안서를 재정비하고 바이어 미팅을 즉시 추진할 것.",
+          "en": "The Macy's sales team must realign high-margin basic items and core category proposals with the latest retail strategy and immediately schedule buyer meetings."
+        },
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMnlVQ2RpdnAxZXV4ZFFRLXoybVdXcUlwaTNNa3R2dWgxNy14cjJzZ3Utb0dhZERTMUdZMDRSb19UUGZrNkFkc1g0Qkg2dnVKSUtvbjROTUsyWTFKZ0ZVZ3ptYmhxbmFxa0NfWm1tWkZzRUllVXEtcDhieWNxSTktOEIxQ0hkbjBMMmxpaFlqb25WMFA5TDhB?oc=5"
+      }
+    ]
+  }
+}
