@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "asOf": "2026-11-05T15:15:10.981Z",
+  "asOf": "2026-11-05T23:00:43.671Z",
   "generatedDateKST": "2026-11-06",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "RULE_FALLBACK",
@@ -8,7 +8,7 @@
   "provider": "Rule Fallback",
   "model": null,
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-11-05",
+  "competitorDateKST": "2026-11-06",
   "fallbackReason": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
   "insight": {
     "headline": {
@@ -28,32 +28,32 @@
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "타겟과 메이시스 등 주요 경쟁사들의 연말 Holiday 쇼핑 시즌 및 블랙 프라이데이 조기 promotion 경쟁이 심화되고 있습니다.",
-        "en": "Competition is intensifying as key rivals like Target and Macy's ramp up early holiday and Black Friday promotional campaigns."
+        "kr": "Target, Target, Target 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for Target, Target, Target. Review the implications by buyer using the cited sources."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "아메리칸 이글, 프리 피플 등 주요 캐주얼 및 영 컨템포러리 경쟁사들이 얼리버드 Holiday promotion과 마케팅을 확대하고 있습니다.",
-        "en": "Main casual and young contemporary competitors like American Eagle and Free People are expanding early holiday promos and marketing."
+        "kr": "Anthropologie, Urban Outfitters, Free People 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for Anthropologie, Urban Outfitters, Free People. Review the implications by buyer using the cited sources."
       },
       {
         "buyer": "Macy's",
-        "kr": "노드스트롬과 제이씨페니 등 주요 백화점 경쟁사들이 가을 주말 세일 및 얼리버드 블랙 프라이데이 promotion에 집중하고 있습니다.",
-        "en": "Key department store rivals like Nordstrom and JCPenney are focusing heavily on fall weekend sales and early Black Friday promotions."
+        "kr": "Nordstrom, Nordstrom, Nordstrom 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for Nordstrom, Nordstrom, Nordstrom. Review the implications by buyer using the cited sources."
       }
     ],
     "opportunities": [
       {
-        "kr": "콜스 역시 도심형 매장 및 offline 경험 개선 전략을 점검해야 합니다.",
-        "en": "Kohl's should evaluate its urban store format and in-store experiential strategies."
+        "kr": "Target의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+        "en": "Use this Target signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
       },
       {
-        "kr": "Holiday 시즌 라운지웨어 및 이너웨어 컬렉션의 마케팅을 강화해야 합니다.",
-        "en": "Step up marketing for holiday loungewear and intimates collections."
+        "kr": "Anthropologie의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+        "en": "Use this Anthropologie signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
       },
       {
-        "kr": "메이시스의 프리미엄 브랜드 셀렉션에 대한 차별화된 할인 promotion을 기획해야 합니다.",
-        "en": "Design targeted promotions highlighting Macy's exclusive premium brand assortment."
+        "kr": "Nordstrom의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+        "en": "Use this Nordstrom signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
       }
     ],
     "risk": {
