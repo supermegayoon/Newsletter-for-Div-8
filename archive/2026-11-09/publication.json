@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "status": "PUBLISHED",
+  "issueDateKST": "2026-11-09",
+  "issueNumber": 61,
+  "issueLabel": "제61호",
+  "schedule": "Mon-Fri 08:00 KST",
+  "publishedAt": "2026-11-08T23:00:58.848Z",
+  "previousIssueDateKST": "2026-11-05",
+  "components": {
+    "marketDateKST": "2026-11-09",
+    "marketDataDate": "2026-11-06",
+    "newsDateKST": "2026-11-09",
+    "competitorDateKST": "2026-11-09",
+    "aiDateKST": "2026-11-09",
+    "aiUsesCompetitorIntelligence": true
+  }
+}
