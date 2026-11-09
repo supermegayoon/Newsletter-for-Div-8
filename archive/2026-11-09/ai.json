@@ -1,0 +1,75 @@
+{
+  "ok": true,
+  "asOf": "2026-11-08T23:00:57.537Z",
+  "generatedDateKST": "2026-11-09",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-11-09",
+  "insight": {
+    "headline": {
+      "kr": "주요 바이어 얼리 블랙프라이데이 조기 돌입 및 경쟁사 공세 속 대응 전략",
+      "en": "Key Buyers Launch Early Black Friday Sales Amid Intense Competitor Pressure"
+    },
+    "summary": {
+      "kr": "Kohl's와 Macy's 등 주요 바이어가 최대 70% 할인 및 랄프로렌 등 인기 브랜드의 얼리 블랙프라이데이 세일을 조기 개시한 가운데, Target, Nordstrom 등 경쟁사들의 공격적인 promotion으로 백화점 및 영캐주얼 채널의 margin 방어와 traffic 경쟁이 심화되고 있습니다.",
+      "en": "Major buyers like Kohl's and Macy's have launched early Black Friday sales with up to 70% discounts and popular brand items like Ralph Lauren, while intense promotional pushes from competitors like Target and Nordstrom heighten traffic and margin competition across department store and teen retail channels."
+    },
+    "tags": [
+      "#BlackFriday",
+      "#HolidaySeason",
+      "#RetailCompetition",
+      "#InventoryManagement"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "Target과 JCPenney의 공격적인 얼리 블랙프라이데이 조기 개시에 맞서 최대 70% 할인 promotion을 돌입했으나, 실적에 대한 보수적 전망과 함께 투자의견이 Neutral로 하향되어 reorder 물량 보수적 조정에 대비해야 합니다.",
+        "en": "Facing aggressive early Black Friday launches by Target and JCPenney, Kohl's initiated promotions of up to 70% off. However, with a neutral analyst downgrade ahead of earnings, vendors must prepare for cautious reorder adjustments."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "Hollister가 십대 소비자를 위한 크리스마스 기프트 아이템을 공개한 가운데, Urban Outfitters와 Free People 등 경쟁사들이 주말 할인과 지속가능성 컬렉션을 확대하며 영캐주얼 시장 점유율 경쟁이 가열되고 있습니다.",
+        "en": "As Hollister highlights curated Christmas gift items for teens, competitors like Urban Outfitters and Free People are intensifying young apparel market competition with weekend sales and sustainable collections."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "Ralph Lauren 등 인기 브랜드 및 주얼리 중심의 얼리 블랙프라이데이 딜을 개시하고 시즌 인력을 대거 채용하며 offline traffic 선점에 주력하고 있으나, Nordstrom의 최대 60% 디자이너 할인 공세에 대응한 margin 관리가 필수적입니다.",
+        "en": "Macy's is prioritizing offline traffic capture through early Black Friday deals on Ralph Lauren and jewelry alongside seasonal hiring, though rigorous margin management is essential against Nordstrom's up-to-60% designer discounts."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "Identify early reorder demand by tracking initial inventory sell-through rates driven by buyers' early Black Friday promotional pushes"
+      },
+      {
+        "kr": "Strengthen tailored holiday gift category pitches aligned with premium brand trends such as Ralph Lauren"
+      }
+    ],
+    "risk": {
+      "level": "HIGH",
+      "kr": "경쟁사들의 공격적인 얼리 블랙프라이데이 조기 할인(Target, Nordstrom 등)으로 인한 바이어들의 margin 압박 및 보수적인 reorder 조정 리스크 상존",
+      "en": "Persistent risk of buyer margin pressure and conservative reorder adjustments driven by aggressive early Black Friday discounts from competitors like Target and Nordstrom"
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Kohl's 및 Macy's의 얼리 블랙프라이데이 category별 sell-through 데이터 실시간 모니터링 및 공유",
+        "en": "Monitor and share real-time category sell-through data for Kohl's and Macy's early Black Friday promotions"
+      },
+      {
+        "owner": "Team 8",
+        "kr": "영캐주얼(Hollister 등) 및 백화점 바이어 대상 Holiday 시즌 추가 reorder 가능성 점검",
+        "en": "Assess potential holiday season add-on reorders with young apparel and department store buyers"
+      },
+      {
+        "owner": "Team 8",
+        "kr": "경쟁사 promotion 동향(Target, Nordstrom 등)을 반영한 벤더사 margin 방어 및 코스트 다운 전략 수립",
+        "en": "Establish vendor margin defense and cost-down strategies incorporating competitor promotion trends from Target, Nordstrom, etc."
+      }
+    ]
+  }
+}
