@@ -1,80 +1,80 @@
 {
   "ok": true,
-  "asOf": "2026-11-09T23:01:04.559Z",
-  "generatedDateKST": "2026-11-10",
+  "asOf": "2026-11-10T23:01:03.553Z",
+  "generatedDateKST": "2026-11-11",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-11-10",
+  "competitorDateKST": "2026-11-11",
   "insight": {
     "headline": {
-      "kr": "Holiday 시즌 대비 얼리 블랙프라이데이 promotion 본격화 및 경쟁사 대응 전략 점검",
-      "en": "Early Black Friday Promotions Kick Off for Holiday Season with Competitor Strategies in Focus"
+      "kr": "2026년 11월 11일 8담당 데일리 마켓 브리프: Holiday 시즌 조기 블랙프라이데이 promotion 총력전",
+      "en": "Team 8 Daily Market Brief - Nov 11, 2026: All-Out Early Black Friday Promotions for the Holiday Season"
     },
     "summary": {
-      "kr": "미국 주요 retail러들이 Holiday 시즌을 겨냥해 조기 블랙프라이데이 promotion과 파격적인 할인을 전개하며 traffic 확보에 총력을 기울이고 있습니다. 당사 영업팀은 경쟁사 동향에 발맞춘 재고 회전율 점검과 바이어 맞춤형 제안이 필요합니다.",
-      "en": "Major U.S. retailers are ramping up early Black Friday promotions and aggressive discounts to capture holiday traffic. Our sales team must closely monitor inventory turnover and align buyer proposals with competitive market signals."
+      "kr": "주요 유통업체들이 Holiday 시즌을 겨냥해 공격적인 얼리 블랙프라이데이 할인과 IP 기반 상품 구색을 확대하고 있습니다. Target, JCPenney 등 경쟁사들의 공세에 대응해 8담당 바이어별 재고 회전율 점검과 차별화된 마케팅 전략이 요구됩니다.",
+      "en": "Major retailers are expanding aggressive early Black Friday discounts and IP-driven merchandise assortments for the holiday season. In response to competitor pushes from Target and JCPenney, Team 8 buyers must closely monitor inventory turnover and execute differentiated marketing strategies."
     },
     "tags": [
       "#BlackFriday",
       "#HolidaySeason",
       "#RetailPromotions",
-      "#Team8Daily"
+      "#InventoryStrategy"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "Hallmark와의 Partnership을 통한 Disney Christmas Movie Collection 등 IP 기반 머천다이징을 확장 중이며, 최대 70% 할인 폭의 얼리 블랙프라이데이 세일로 traffic 유입을 가속화하고 있습니다.",
-        "en": "Expanding IP-based merchandising via partnerships with Hallmark, such as the Disney Christmas Movie Collection, while accelerating traffic intake with early Black Friday sales offering up to 70% off."
+        "kr": "Hallmark와의 partnership을 통한 Disney Christmas Movie Collection 등 IP 기반 merchandise를 확장하며 경쟁력을 높이고 있습니다. 동시에 경쟁사 Target과 JCPenney의 조기 블랙프라이데이 공세에 맞서 핵심 의류 category의 조기 할인 promotion 강화가 요구됩니다.",
+        "en": "Kohl's is boosting competitiveness by expanding IP-based merchandise, such as the Disney Christmas Movie Collection via its Hallmark partnership. To counter early Black Friday pushes from rivals Target and JCPenney, strengthening early discount promotions in core apparel categories is essential."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "Q4 실적 발표를 완료하고 탄탄한 재고 관리와 margin 방어 기조를 유지 중이며, 경쟁사들의 promotion 공세 속에서 브랜드 정체성과 Holiday 라인업 준비에 집중하고 있습니다.",
-        "en": "Maintaining solid inventory control and margin defense following Q4 earnings announcements, focusing on brand identity and holiday lineup readiness amid intense competitor promotions."
+        "kr": "Q4 earnings call을 통해 탄탄한 재고 관리와 margin 방어 기조를 확인했습니다. Urban Outfitters 등 경쟁사들이 공급망 기술 고도화로 원가 가시성을 확보하는 흐름 속에서, 당사도 Holiday 라운지웨어 및 스웨트류 중심의 기획전과 신속한 대응 체계를 점검해야 합니다.",
+        "en": "A&F highlighted solid inventory management and margin defense during its Q4 earnings call. As competitors like Urban Outfitters upgrade supply chain technology for cost visibility, Team 8 must review holiday loungewear and sweatshirt promotions alongside rapid response capabilities."
       },
       {
         "buyer": "Macy's",
-        "kr": "파인 주얼리 및 디자이너 브랜드 merchandise를 포함한 공격적인 얼리 블랙프라이데이 판촉을 전개하며, 백화점 채널 내 조기 수요 선점을 도모하고 있습니다.",
-        "en": "Deploying aggressive early Black Friday promotions featuring fine jewelry and designer merchandise to secure early demand within the department store channel."
+        "kr": "파인 주얼리와 디자이너 merchandise를 포함한 early Black Friday discount를 전개하며 초기 traffic 확보에 집중하고 있습니다. Nordstrom 등의 조기 할인 공세에 대응하여 단독 디자이너 브랜드와 주얼리 중심의 차별화된 promotion 가시화를 추진해야 합니다.",
+        "en": "Macy's is focusing on early traffic acquisition by launching early Black Friday discounts featuring fine jewelry and designer merchandise. Countering Nordstrom's early discount drives requires emphasizing Macy's strengths in exclusive designer brands and jewelry-focused promotions."
       }
     ],
     "opportunities": [
       {
-        "kr": "경쟁사들의 조기 Holiday promotion 확산에 맞춰, 당사 협력 바이어들의 category별 sell-through 데이터를 조기 분석하여 reorder 및 추가 promotion 기회 선점",
-        "en": "Capitalize on early holiday promotions by analyzing category sell-through data early to secure reorder and additional promotional opportunities with partner buyers."
+        "kr": "Macy's 및 Kohl's의 조기 블랙프라이데이 promotion에 맞춰 의류 category의 재고 소진 추이를 분석하고 신속한 reorder 대응 체계를 구축합니다.",
+        "en": "Analyze apparel inventory sell-through trends in sync with Macy's and Kohl's early Black Friday promotions and establish swift reorder capabilities."
       },
       {
-        "kr": "IP 기반 굿즈 및셔츠·스웨터 등 핵심 겨울 시즌 상품의 조기 재고 소진율을 모니터링하여 베스트셀러 품목 중심의 추가 공급 제안",
-        "en": "Monitor early sell-through rates for core winter items such as IP-based goods and sweaters, proposing supplementary supply focused on bestseller lines."
+        "kr": "A&F의 NFL Partnership 및 Holiday 스웨트류 수요 확장에 발맞추어, 스포츠·캐주얼 연계형 아이템의 기획 제안을 선제적으로 준비합니다.",
+        "en": "Proactively prepare proposal items tied to sports and casual wear, aligning with A&F's NFL partnership and expanding demand for holiday sweatshirts."
       },
       {
-        "kr": "백화점 및 대형 retail 채널의 프리미엄 및 디자이너 협업 라인업 수요에 대응한 맞춤형 스타일 제안 강화",
-        "en": "Strengthen tailored style proposals responding to demand for premium and designer collaboration lines across department store and major retail channels."
+        "kr": "경쟁사들의 공격적인 가격 공세에 대응하여 PB 및 가성비 의류 라인의 margin 구조를 점검하고 차별화된 promotion 패키지를 제안합니다.",
+        "en": "Review the margin structure of private label and value apparel lines against competitor pricing pressure and propose differentiated promotional packages."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "경쟁사(Target, Nordstrom 등)의 최대 60~70%에 달하는 공격적인 가격 할인 공세로 인한 당사 주요 바이어의 매출 분산 및 margin 압박 리스크 존재",
-      "en": "Risk of sales dispersion and margin pressure on our key buyers due to aggressive discounting (up to 60-70%) by competitors like Target and Nordstrom."
+      "kr": "경쟁사들의 전방위적 조기 블랙프라이데이 할인 공세로 인해 연말 쇼핑객 분산 및 margin 압박 리스크가 존재합니다.",
+      "en": "Dispersed holiday shoppers and margin pressure risks exist due to widespread early Black Friday discounting by key competitors."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Macy's 및 Kohl's의 얼리 블랙프라이데이 promotion 품목별 sell-through 추이를 일일 단위로 모니터링 및 공유",
-        "en": "Monitor and share daily sell-through trends by item for early Black Friday promotions at Macy's and Kohl's."
+        "kr": "바이어별(Kohl's, Macy's 등) 얼리 블랙프라이데이 promotion 품목의 실시간 sell-through 데이터를 모니터링하고 피드백을 공유합니다.",
+        "en": "Monitor real-time sell-through data of early Black Friday promotional items for each buyer (Kohl's, Macy's, etc.) and share feedback."
       },
       {
         "owner": "Team 8",
-        "kr": "경쟁사 promotion 동향(Nordstrom, Target 등)을 반영한 바이어 미팅 아젠다 수립 및 대응 전략 검토",
-        "en": "Formulate buyer meeting agendas and review response strategies reflecting competitor promotional trends (Nordstrom, Target, etc.)."
+        "kr": "경쟁사 동향을 반영하여 Holiday 시즌에 대비한 라운지웨어 및 스웨트류의 추가 오더 가능 물량을 사전 점검합니다.",
+        "en": "Pre-check available reorder capacities for loungewear and sweatshirts ahead of the holiday season, reflecting competitor movements."
       },
       {
         "owner": "Team 8",
-        "kr": "Holiday 시즌 추가 reorder 및 긴급 생산 투입 가능 물량에 대한 내부 공장 및 밴더 사내 조율 실시",
-        "en": "Coordinate internally with factories and vendors regarding potential holiday season reorders and urgent production capacity."
+        "kr": "환율 하락 및 코튼 가격 변동성에 따른 원가 구조 변화를 분석하고 바이어 협상 시 대응 전략을 수립합니다.",
+        "en": "Analyze cost structure changes driven by KRW appreciation and cotton price volatility, and establish negotiation strategies for buyers."
       }
     ]
   }
