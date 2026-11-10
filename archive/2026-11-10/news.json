@@ -1,0 +1,66 @@
+{
+  "ok": true,
+  "asOf": "2026-11-09T23:00:35.929Z",
+  "generatedDateKST": "2026-11-10",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 2,
+    "within7d": 4,
+    "total": 4,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Early Black Friday promotion",
+      "category_en": "Promotion",
+      "date": "2026.11.09",
+      "title_kr": "Macy's, Holiday season 대비 early Black Friday promotion 전개로 traffic 확보 공조",
+      "title_en": "Macy's drives early traffic with aggressive Black Friday promotions for the Holiday season",
+      "body_kr": "Macy's가 Holiday season을 겨냥해 파인 주얼리와 디자이너 merchandise를 포함한 early Black Friday discount를 시작했습니다. 당사 vendor들은 이러한 retail channel의 조기 판촉 행사에 맞춰 재고 회전율과 sell-through 모니터링을 강화해야 합니다.",
+      "body_en": "Macy's has launched early Black Friday discounts featuring fine jewelry and designer merchandise ahead of the Holiday season. Vendor teams should monitor inventory turnover and sell-through closely in response to these early retail channel promotions.",
+      "source": "New York Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNWFWRnNMelZVRExCWmZ6eEdSWVl5dEhpcHdocUdQTlZlZW51S1B0WG0wc1VfcWpta0tyc0cyNG1BbDUyNXFXNjlhNkFSQjY2MG14Q005R0JmaFIxOVJoX2Z1RjhqcEFjQnE0NnEzRXQzQUFzazd2Qm1hYlhKc3N3U2VZS1RWbmN3?oc=5",
+      "ageHours": 5.31
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Holiday merchandise",
+      "category_en": "Merchandise",
+      "date": "2026.11.06",
+      "title_kr": "Kohl's, Hallmark와 Partnership으로 Disney Christmas Movie Collection merchandise 확장",
+      "body_kr": "Kohl's가 Hallmark와의 partnership을 통해 Holiday merchandise인 Disney Christmas Movie Collection을 선보이며 category 경쟁력을 높이고 있습니다. IP 기반의 seasonal merchandise sourcing 확대는 향후 wholesale 파트너들의 실적 개선에 긍정적인 신호입니다.",
+      "source": "Mickey Visit",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOU1pObDNMZEEzX084dTZPWTEtWGJULVBKaHZHVUFveGMwSFc0bmpmQkNqbXpNc216a3ZXRmFjVWM1SkVBUktBM0RxUHYzal80S25DN1MyZ2UxZnExOUV1bkx1NTNOemczSHd1VTFLTjFCNTNzRXE1QnRJa01OVVRRNW1EWUR4cEZtWFV6Q3liNDh2S3RJWGEwT05HaS1uY005?oc=5",
+      "ageHours": 75.2
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Earnings & Guidance",
+      "category_en": "Earnings",
+      "date": "2026.11.09",
+      "title_kr": "Abercrombie & Fitch Co., Q4 earnings call 진행하며 Holiday season 대비",
+      "body_kr": "Abercrombie & Fitch가 Q4 earnings call을 통해 실적 발표와 함께 다가오는 Holiday season 전략을 점검했습니다. 브랜드의 탄탄한 재고 관리와 margin 방어 기조는 협력 vendor들의 향후 production planning에 중요한 지표가 됩니다.",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPXzRhYnItOENRQU1DQ3pzZW5NWkE3UWZ5VnlNcEtsWHpTRW9mTk10ME0yM1M1dmdKVHZxMmVLQXlXUzduWmZTdTh3VlM3Um11bElkTzJ0YTBjQTVIVFB0bWpQdlByT1IxcmZnM0tFMmdWMjBTSGNWbDdVWXNncE5ORHNmZVdRUjljZWNXcF9LNl9pUQ?oc=5",
+      "ageHours": 17.2
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Holiday promotion",
+      "category_en": "Promotion",
+      "date": "2026.11.04",
+      "title_kr": "Kohl's, 최대 70% 할인 포함한 early Black Friday sale 돌입",
+      "body_kr": "Kohl's가 최대 70% 할인 혜택을 내세우며 early Black Friday sale을 본격적으로 시작했습니다. 공격적인 pricing과 promotion 전개에 따라 retail store의 traffic 유입 속도와 category별 재고 소진 추이를 면밀히 주시해야 합니다.",
+      "source": "USA Today",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcnV4dk9OU1NvNzJ6VXRyLVNoOHBjMHRDRXA2eHY0aWJTQVpPX1lvRVdNS3ZBLUhEOHZ0MVZQWFZsTFg1M0tzRERydi1mbV95T3JpOVowWkFpcWlVTTFwVVo3d01lajhFbWptNUx1M3EwU2VWdWtTRWgyR2IxamtQQzhLT3Iwa3dudU9FdDN3VDYxZ0V2dlg1RG5tSFEyODNIUVhqWm16THBVdUFMdlFaV1F2MWNsNWgz?oc=5",
+      "ageHours": 128.7
+    }
+  ]
+}
