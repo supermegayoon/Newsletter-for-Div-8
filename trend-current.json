@@ -1,57 +1,54 @@
 {
   "ok": true,
-  "asOf": "2026-11-10T23:38:24.425Z",
-  "generatedDateKST": "2026-11-11",
+  "asOf": "2026-11-11T23:44:04.513Z",
+  "generatedDateKST": "2026-11-12",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "items": [
     {
       "level": "HIGH",
-      "title_kr": "미 의회 구도 변화 속 방글라데시 등 개발도상 아시아 소싱 압박 지속",
-      "title_en": "New US Congress Brings Little Relief for Sourcing in Bangladesh and Developing Asia",
-      "body_kr": "새로운 미 의회가 출범했으나 방글라데시를 포함한 개발도상 아시아 지역의 의류 소싱 환경에는 실질적인 관세 구제나 완화 조치가 부족한 상황입니다.",
-      "body_en": "A new US Congress has brought little trade relief or tariff reduction for apparel sourcing in Bangladesh and developing Asia.",
-      "action_kr": "방글라데시 및 아시아 주요 공장의 capacity 배분을 재검토하고, 리스크 분산을 위해 다변화된 sourcing 포트폴리오를 제안하십시오.",
-      "action_en": "Reassess capacity allocation in Bangladesh and key Asian hubs, and propose a diversified sourcing portfolio to mitigate tariff risks.",
-      "source": "The Daily Star",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNmRsYXRLOFFJQ1Q1STRISmU4VC1SVkFiN001ZE5zbnlYQTZ0STRTRHVnanBSU0RHM01hR3hfRUFVMVAyYzJiMG9lU1AtRU81MnhqTFBTc0o2dlg3WXpZNG9iVnBXY1JiOWVxTmNGbjdNRkdPY0NEblVOWjFoTEpQNGZCYjBBQXVNM3ZiVDZDMHBxSUxzNmpIS3ZmWjJiTVR0c2hRaWxMNkM1VktJRFZQTzBkNHlIRFZUQ08wMjRxYUdVcnZyc0JNTTZSM1QtWHBL?oc=5",
-      "date": "2026.11.10"
-    },
-    {
-      "level": "HIGH",
-      "title_kr": "미국 면화 정책과 연계된 의류 관세 움직임 대응",
-      "title_en": "US Cotton Purchasing Plan Tied to Apparel Tariffs",
-      "body_kr": "미국 정부가 의류 관세 계획을 미국산 면화 구매와 연계하는 정책적 움직임을 보이고 있어 코스팅 및 원단 소싱 전략에 직접적인 영향이 예상됩니다.",
-      "body_en": "US agricultural and trade policy links apparel tariffs directly to the procurement of US-grown cotton, impacting costing and fabric sourcing strategies.",
-      "action_kr": "미국산 면화 사용 조건부 관세 혜택 가능성을 염두에 두고 원단 공급망의 raw material 조달 구조를 파악하십시오.",
-      "action_en": "Analyze raw material supply chains to prepare for potential tariff advantages linked to US cotton usage.",
+      "title_kr": "미국 면화 관세 계획과 의류 소싱 영향 분석",
+      "title_en": "USDA Links Apparel Tariffs to U.S. Cotton Purchases",
+      "body_kr": "USDA가 의류 관세와 미국산 면화 구매 연계를 추진하면서 대미 의류 소싱 및 코스팅에 직접적인 영향이 예상됩니다.",
+      "body_en": "The USDA has linked apparel tariffs to U.S. cotton purchases, signaling potential cost and sourcing shifts for vendors utilizing American cotton.",
+      "action_kr": "소싱팀은 미국산 면화 사용 비중을 점검하고 원가(costing) 영향도를 사전 시뮬레이션해야 합니다.",
+      "action_en": "Sourcing teams must review U.S. cotton usage ratios and pre-simulate costing impacts ahead of buyer negotiations.",
       "source": "RFD-TV",
       "sourceUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBTbi1rR3Q1blk3aDkzdVZiOE9jV1BJckZ3SUlqcDZzMjN5MlpMWUlnQk5qYTJabVpGLUNwdVpuN0pjU0hPOU9hdUNZa05fUTZ6SzRPaHVfbUhWS3k2eFdQdUw4M1o2bzAzU0p0ZzNpaUN4c0NxTkJTaHJLcG4?oc=5",
       "date": "2026.10.21"
     },
     {
-      "level": "MEDIUM",
-      "title_kr": "60개 교역국 대상 광범위한 관세 부과 예고에 따른 선제적 대비",
-      "title_en": "Trump Set to Impose Sweeping Tariffs on 60 Trade Partners",
-      "body_kr": "미국이 주요 교역국들을 상대로 광범위한 관세 부과를 추진하면서 의류 수입 전반의 마진 압박 우려가 커지고 있습니다.",
-      "body_en": "Sweeping tariffs planned against dozens of trade partners threaten to squeeze margins across major apparel importing lanes.",
-      "action_kr": "바이어별 가격 협상 시 관세 변동성에 대비한 시나리오별 costing 옵션을 준비하고 영업 마진을 방어하십시오.",
-      "action_en": "Prepare scenario-based costing options for buyer negotiations to protect operating margins against potential tariff volatility.",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa1BDcjdFRHFWaGlkYlMzZi1ZY2hCaVR5dGRpalctVTI1Q2poOGxFcXZqdmZfX2lqaVZxRmo3MWZIZ2ZUU0xCMm44OFdibDRCNF9BOVNmT1VHNURxR0tabkNtaVdoNTRaTW81cVIyVUdvanhBUS1rX3pEZFdyQmNSbDVDa0VMM2tPVGhYbDkwR1VhcUJJTDJXVmhNZVVVNi1L0gGmAUFVX3lxTE5UdFo2TDl4c1R2ZWRuX1ZxbTA3UmdwQnlrbVh1OXUyd1pucVlQS2dqY2VsbnRNSGt3WWljNkZ3V2kySmZNUzJ4WVBaT2NXSGRuUFlqRmx1UXNzSlEwZkV1MGRWVWxNbHdBcnY3Vm9CMVFqSWZxdnI3TkZqbWxValByNzBMRWxBR3BraFBtbEVuUFBvNDNpUVNBdWVkN3V6enc1YjlIWXc?oc=5",
-      "date": "2026.11.07"
+      "level": "HIGH",
+      "title_kr": "미국 의회 개편과 방글라데시 등 개발도상 아시아 소싱 환경",
+      "title_en": "A new US Congress, but little relief for Bangladesh and developing Asia",
+      "body_kr": "Despite a new US Congress, developing Asian apparel sourcing hubs like Bangladesh see little immediate relief regarding trade or tariff reliefs.",
+      "action_kr": "영업팀은 방글라데시 및 아시아 타국 생산 기지의 캐파(capacity) 변동성과 리드타임을 재점검하고 바이어 리스크를 분산해야 합니다.",
+      "action_en": "Sales teams should re-verify capacity flexibility and lead times across alternative Asian production hubs to mitigate buyer risks.",
+      "source": "The Daily Star",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNmRsYXRLOFFJQ1Q1STRISmU4VC1SVkFiN001ZE5zbnlYQTZ0STRTRHVnanBSU0RHM01hR3hfRUFVMVAyYzJiMG9lU1AtRU81MnhqTFBTc0o2dlg3WXpZNG9iVnBXY1JiOWVxTmNGbjdNRkdPY0NEblVOWjFoTEpQNGZCYjBBQXVNM3ZiVDZDMHBxSUxzNmpIS3ZmWjJiTVR0c2hRaWxMNkM1VktJRFZQTzBkNHlIRFZUQ08wMjRxYUdVcnZyc0JNTTZSM1QtWHBL?oc=5",
+      "date": "2026.11.10"
     },
     {
       "level": "MEDIUM",
-      "title_kr": "멘즈 복서 브리프 시장 프리미엄화 및 기능성 원단 수요 확대",
-      "title_en": "Men Boxer Briefs Market Driven by Premiumization and Performance Fabrics",
-      "body_kr": "멘즈 언더웨어 시장에서 프리미엄화와 기능성 원단에 대한 수요가 지속적으로 성장하며 새로운 제품 믹스 기회를 제공하고 있습니다.",
-      "body_en": "Growing demand for premiumization and performance fabrics in the men's boxer briefs market creates new product mix opportunities.",
-      "action_kr": "기능성 흡한속건 및 고탄력 퍼포먼스 패브릭을 활용한 남성 언더웨어 신규 스타일 제안을 바이어에게 적극 타진하십시오.",
-      "action_en": "Proactively pitch new men's underwear styles utilizing moisture-wicking and high-stretch performance fabrics to buyers.",
-      "source": "IndexBox",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMXdZT0VWU2pBMWdkRVotb01iMjRsTWZIRnBFb0cyZDZXNTBFYjNRX2N4elpkbjZfR2poVFRZazZOMGlPWGpXbkg3czNMR1BmMnYwVm55dllBY1pkU2VKdkdWYUFtTHMwd2dZVTJabHVnTUpBcUQ4NFg1eE9DcWR0QVZfdHJBX2dBckNEeXpwMy1iY3JxYzdPanFQWUhrVUV1OHExM3NvWUsyby1SUzlqT2FnS1VQR2JpNDMxMXdfQ19vYW1yRUVv?oc=5",
-      "date": "2026.11.09"
+      "title_kr": "미국 면화 타협안: 베트남 대비 아시아 4개국 경쟁력 점검",
+      "title_en": "US cotton tariff plan: Will 4 Asian rivals gain on Vietnam in 2027?",
+      "body_kr": "Shifting U.S. cotton tariff frameworks raise questions on whether regional competitors can outmaneuver Vietnam in 2027 sourcing allocations.",
+      "action_kr": "머천다이징 및 영업팀은 베트남 및 경쟁국 간 관세·원가 우위를 비교하여 바이어 제안 전략을 수정해야 합니다.",
+      "action_en": "Merchandising and sales teams must benchmark tariff and costing advantages between Vietnam and rival countries to adjust buyer proposals.",
+      "source": "Fibre2Fashion",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRXM1VGZlS013R1FCb3BmZjlOUjNKQ2s1SGozdkI5aUplaUtNbnZReGdraWlLeTR1X2tLUjNMLU8tRlM5UWRtOXJQcEE3OGtVOGd5OEU2M19JTmVCS1M5d2JPczI2ZFNfZWFRbWFucFQ5aUllMmRKcE5sS3dWUzJWYkFUaEFIMFdVVDhmN3ZTR2NaYi1GSkU2TGlhRmRlOFJxTjY5Wjd1TjA3MHJLNnZvbmwwSVNlTWVXdEVuZ2lJd1dQcVJKQTJ3Ui1jVGtHX3JLOEtjdEZkdWU1XzNXVm1QeUFrc1Y?oc=5",
+      "date": "2026.11.05"
+    },
+    {
+      "level": "MEDIUM",
+      "title_kr": "미국 소비 심리 호조 전망과 패션 리테일 랠리 대응",
+      "title_en": "As Midterms Approach, US Consumer Anxiety Is High — But Fashion Is Set to Rally",
+      "body_kr": "Despite elevated consumer anxiety around midterms, fashion retail is poised to rally, pointing to potential order rebounds from key accounts.",
+      "action_kr": "영업팀은 주요 미국 바이어들의 홀리데이 및 내년 시즌 베이직/캐주얼 아이템 추가 발주 수요를 선제적으로 파악해야 합니다.",
+      "action_en": "Sales teams should proactively target major U.S. buyers for impending holiday and seasonal re-orders on casualwear items.",
+      "source": "Vogue",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdjJZMHNCbVpYbkRxenJLdDVjTG1nNGVUX3NFc2l3enhLbEg4RDd3UWxmN1VtVVZvdUNIcGlIZm14V3g5RGlRdm5kVmxfamxmaDdwZThINVR4WUVXNld2MnNncHJrU1Qtd0FGVl9pdW9SRmhYLVVDNG4zVTdnQ040UUlTRERLU1JLakxuUnA0WnZreUh4cWlCcWdmeFFwSGVaUGJpbkJHeWItZw?oc=5",
+      "date": "2026.11.02"
     }
   ]
 }
