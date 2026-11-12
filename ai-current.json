@@ -1,80 +1,76 @@
 {
   "ok": true,
-  "asOf": "2026-11-12T04:56:05.991Z",
-  "generatedDateKST": "2026-11-12",
+  "asOf": "2026-11-12T23:00:46.548Z",
+  "generatedDateKST": "2026-11-13",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-11-12",
+  "competitorDateKST": "2026-11-13",
   "insight": {
     "headline": {
-      "kr": "2026년 11월 12일 8담당 데일리 마켓 브리프: 주요 백화점 및 브랜드 연말 Holiday promotion 돌입",
-      "en": "8th Department Daily Market Brief - Nov 12, 2026: Major Retailers Launch Early Holiday Promotions"
+      "kr": "Macy's 및 Kohl's 조기 Holiday promotion 돌입 속, A&F 실적 기대감 지속",
+      "en": "Macy's and Kohl's Launch Early Holiday Promos While A&F Expects Strong Earnings"
     },
     "summary": {
-      "kr": "Kohl's와 Macy's 등 주요 바이어들이 조기 블랙프라이데이 및 100주년 추석 Parade 등 Holiday 시즌 promotion을 본격화하고 있습니다. Abercrombie & Fitch는 긍정적인 실적 기대감 속에서 견조한 margin 방어를 이어가고 있으며, 8담당 영업팀은 연말 재고 소진 추이와 경쟁사 동향을 면밀히 모니터링해야 합니다.",
-      "en": "Major buyers like Kohl's and Macy's are kicking off holiday promotions, including early Black Friday sales and milestone Thanksgiving parade events. Abercrombie & Fitch maintains strong earnings expectations and solid margin defense, requiring Team 8 to closely monitor year-end inventory sell-through and competitor moves."
+      "kr": "Macy's가 블랙프라이데이를 앞두고 랄프로렌 등 최대 60% 조기 할인을 개시했으며, Kohl's도 최대 70% 세일 및 Holiday 콜라보 상품을 선보였습니다. 반면 A&F는 UBS의 목표주가 상향 등 탄탄한 margin 구조를 바탕으로 긍정적인 실적 전망을 유지하고 있습니다.",
+      "en": "Macy's initiated early holiday discounts of up to 60% on Ralph Lauren ahead of Black Friday, and Kohl's rolled out deep 70% off early sales with holiday collabs. Meanwhile, A&F maintains strong earnings momentum, supported by raised price targets and robust margins."
     },
     "tags": [
-      "#Kohls",
-      "#AbercrombieFitch",
-      "#Macys",
-      "#BlackFriday"
+      "#HolidayPromotion",
+      "#BlackFriday",
+      "#VendorStrategy",
+      "#RetailTrends"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "최대 70 할인율의 조기 블랙프라이데이 promotion을 전격 공개하고 Hallmark의 디즈니 크리스마스 컬렉션을 런칭하며 초기 재고 소진과 traffic 확보에 주력하고 있습니다.",
-        "en": "Kohl's has launched an early Black Friday promotion with up to 70% discounts and introduced the Hallmark Disney Christmas collection to drive store traffic and accelerate early inventory clearance."
+        "kr": "최대 70%에 달하는 공격적인 조기 블랙프라이데이 promotion과 Hallmark/Disney IP 협업을 진행 중입니다. 경쟁사 Target의 동향을 감안하여 traffic 유도형 상품과 재고 회전율 점검이 필수적입니다.",
+        "en": "Running aggressive early Black Friday promotions of up to 70% off along with Hallmark/Disney IP collaborations. In light of Target's moves, vendors must monitor traffic-driving items and inventory turnover closely."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "UBS 등 투자은행의 목표주가 상향 조정 속에서 분기 실적 기대감이 고조되고 있으며, 견조한 margin 방어와 온·offline 채널의 탄탄한 수요를 바탕으로 호실적이 전망됩니다.",
-        "en": "Abercrombie & Fitch is seeing rising quarterly earnings expectations backed by upward price target revisions from financial institutions like UBS, driven by solid margin defense and steady omnichannel demand."
+        "kr": "UBS의 목표주가 상향 조정에서 보듯 견고한 margin과 리포지셔닝 효과가 지속되고 있습니다. American Eagle 등 경쟁사의 동향을 주시하며 지속 가능한 성공적인 브랜드 Partnership 벤치마크로 활용해야 합니다.",
+        "en": "Continuing strong margins and repositioning success, as reflected in UBS's price target hike. Vendors should benchmark A&F's strategies while keeping an eye on competitor moves like American Eagle."
       },
       {
         "buyer": "Macy's",
-        "kr": "제100회 추스트마스(Thanksgiving Day) Parade를 앞두고 대규모 Holiday merchandise 출시 및 마케팅을 준비 중이며, 연말 traffic 증대를 통한 category별 sell-through 확대를 도모하고 있습니다.",
-        "en": "Macy's is preparing major holiday merchandise drops ahead of its milestone 100th Thanksgiving Day Parade, aiming to boost store traffic and category sell-through during the crucial year-end retail window."
+        "kr": "제100회 추수감사절 Parade와 연계한 대규모 마케팅과 함께 랄프로렌 최대 60% 조기 할인을 전개하고 있습니다. Nordstrom 등의 경쟁 움직임 속에서 category별 sell-through 추이 파악이 중요합니다.",
+        "en": "Executing massive marketing around the 100th Thanksgiving Day Parade alongside early up to 60% discounts on Ralph Lauren. Tracking category sell-through is critical amid competitive signals from Nordstrom."
       }
     ],
     "opportunities": [
       {
-        "kr": "Kohl's 및 Macy's의 조기 블랙프라이데이 및 Holiday promotion 반응을 분석하여, 성과가 우수한 category의 reorder 및 차기 시즌 추가 물량 제안 기회로 활용합니다.",
-        "en": "Analyze early Black Friday and holiday promotion responses from Kohl's and Macy's to identify high-performing categories for potential reorders and upcoming season volume expansions."
+        "kr": "조기 Holiday promotion에 따른 reorder 및 베스트셀러 품목의 재고 소진 속도를 신속히 파악하여 추가 생산 물량 선점",
+        "kr_en": "Quickly track inventory depletion and best-seller velocity driven by early holiday promotions to secure follow-on production capacity."
       },
       {
-        "kr": "A&F의 견조한 실적 흐름과 margin 방어 전략을 벤치마킹하여, 당사 주력 아우터 및 우븐 아이템의 원가 경쟁력 제안 및 margin 협상력을 강화합니다.",
-        "en": "Benchmark A&F's solid margin defense strategy to strengthen cost-competitiveness proposals and margin negotiation power for our core outer and woven items."
-      },
-      {
-        "kr": "경쟁사(Target, Nordstrom, American Eagle 등)의 조기 할인 공세에 대응하여, 바이어별 맞춤형 promotion 지원 방안 및 단기 소진용 상품 기획을 선제적으로 제안합니다.",
-        "en": "Proactively propose customized promotional support and short-term inventory clearance assortment plans to buyers in response to early discounting by competitors like Target, Nordstrom, and American Eagle."
+        "kr": "Kohl's 및 주요 유통사의 IP 콜라보 및 Holiday 시즌 전용 상품 수요 증가에 맞춘 맞춤형 제안 강화",
+        "en": "Enhance tailored proposals to capture growing demand for IP collaborations and holiday-exclusive merchandise across major retailers."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "백화점 채널의 조기 대규모 할인 경쟁 심화로 인한 margin 압박 및 환율 변동성(USD/KRW 1,336원대) 리스크 상존",
-      "en": "Ongoing margin pressure due to intensified early discounting competition across department store channels and volatility in foreign exchange rates (USD/KRW around 1,336)."
+      "kr": "연말 조기 대규모 할인이 전개되면서 벤더사의 margin 압박 및 재고 회전율 저하 리스크가 상존합니다.",
+      "en": "Early aggressive holiday discounting across retailers introduces risks of margin compression and slower inventory turnover for vendors."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Kohl's 및 Macy's의 Holiday 시즌 초기 sell-through 데이터를 일별로 모니터링하고 재고 소진 속도 점검",
-        "en": "Monitor daily sell-through data and inventory clearance speed for Kohl's and Macy's during the initial holiday season."
+        "kr": "Macy's 및 Kohl's의 조기 promotion category별 sell-through 데이터 일일 모니터링",
+        "en": "Monitor daily sell-through data by category for Macy's and Kohl's early promotional rollouts."
       },
       {
         "owner": "Team 8",
-        "kr": "Target, Nordstrom 등 주요 경쟁사의 가격 정책 및 초기 블랙프라이데이 promotion 동향 분석 공유",
-        "en": "Analyze and share pricing policies and early Black Friday promotional trends from key competitors such as Target and Nordstrom."
+        "kr": "A&F 성공 요인(margin 구조, 브랜드 Partnership)을 반영한 하반기/내년 시즌 제안서 보완",
+        "en": "Refine upcoming season proposals by incorporating A&F's successful margin structure and brand partnership strategies."
       },
       {
         "owner": "Team 8",
-        "kr": "바이어별 차기 시즌 어패럴 assortment 제안서에 경쟁사 동향 분석 결과 반영 및 원가 절감 전략 수립",
-        "en": "Incorporate competitor analysis findings into upcoming apparel assortment proposals for each buyer and establish cost-reduction strategies."
+        "kr": "환율 변동성(USD/KRW) 및 원자재(면화, 유가) 가격 추이에 따른 납품 단가 및 원가 영향 점검",
+        "en": "Review cost and pricing impacts based on fluctuations in foreign exchange (USD/KRW) and raw materials (cotton, crude oil)."
       }
     ]
   }
