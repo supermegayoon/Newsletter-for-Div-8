@@ -1,80 +1,80 @@
 {
   "ok": true,
-  "asOf": "2026-11-13T04:31:10.570Z",
-  "generatedDateKST": "2026-11-13",
+  "asOf": "2026-11-15T23:00:59.298Z",
+  "generatedDateKST": "2026-11-16",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "provider": "Google Gemini",
   "model": "gemini-3.5-flash-lite",
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-11-13",
+  "competitorDateKST": "2026-11-16",
   "insight": {
     "headline": {
-      "kr": "Macy's와 Kohl's의 공격적인 조기 Holiday promotion과 A&F의 견조한 실적 전망 속 벤더사의 재고 및 margin 전략 점검",
-      "en": "Vendors must navigate aggressive early holiday promotions from Macy's and Kohl's alongside strong profit forecasts for Abercrombie & Fitch."
+      "kr": "메이시스 AI 영업 현장 확대 및 주요 바이어 얼리 블랙프라이데이 본격 돌입",
+      "en": "Macy's Expands In-Store AI Assistants While Key Buyers Launch Early Black Friday Sales"
     },
     "summary": {
-      "kr": "Macy's와 Kohl's가 블랙프라이데이 이전부터 최대 60~70% 할인을 시작하며 조기 traffic 선점에 나섰습니다. 반면 UBS는 A&F의 브랜드 리포지셔닝과 margin 구조를 긍정적으로 평가하며 목표주가를 상향했습니다. 원유 가격 상승과 환율 변동성 속에서 벤더사는 조기 할인에 따른 category별 sell-through를 철저히 모니터링해야 합니다.",
-      "en": "Macy's and Kohl's have kicked off early Black Friday discounts of up to 60-70% to capture holiday traffic. Meanwhile, UBS raised its price target on A&F, reflecting strong margin structures and brand repositioning. Vendors must monitor category sell-through closely amid fluctuating input costs and early promotions."
+      "kr": "2026년 11월 16일 기준, 메이시스는 online의 AI 쇼핑 어시스턴트를 offline 매장 영업 팀까지 확대하여 옴니채널 역량을 강화하고 있습니다. 또한 콜스와 메이시스를 비롯한 주요 바이어들은 연말 대목을 겨냥해 조기 블랙프라이데이 promotion에 돌입했으며, 경쟁사들의 공세에 대응한 선제적인 재고 회전 및 margin 관리 전략이 요구됩니다.",
+      "en": "As of November 16, 2026, Macy's is enhancing its omnichannel capabilities by expanding its online AI shopping assistant to in-store retail teams. Major buyers like Kohl's and Macy's have also kicked off early Black Friday promotions for the holiday peak, requiring proactive inventory turnover and margin management strategies against competitor pushes."
     },
     "tags": [
-      "#HolidayPromotion",
       "#BlackFriday",
-      "#InventoryManagement",
-      "#Team8Daily"
+      "#Omnichannel",
+      "#InventoryTurnover",
+      "#Team8"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "최대 70% 할인 및 Hallmark의 Disney 크리스마스 컬렉션 도입으로 traffic 유도에 집중하고 있습니다. 경쟁사인 Target의 동향을 주시하며, 가격 경쟁 속에서도 margin을 방어할 수 있는 상품 구성이 필요합니다.",
-        "en": "Kohl's is driving traffic with early Black Friday discounts up to 70% and Hallmark's Disney Christmas collection. Keeping an eye on Target's moves, vendors must balance aggressive pricing with strict margin protection."
+        "kr": "경쟁사인 타겟과 제이씨페니의 공격적인 조기 promotion 공세 속에서 자체 블랙프라이데이 딜을 공개하며 연말 traffic 확보에 주력하고 있습니다.",
+        "en": "Kohl's has released its Black Friday deals lineup to secure holiday traffic amid aggressive early promotions from competitors Target and JCPenney."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "UBS의 목표주가 상향 조정에서 보듯 견조한 margin 구조와 브랜드 리포지셔닝이 성장을 견인하고 있습니다. NFL 등 라이선스 및 category 확장 전략에 맞춘 발빠른 대응이 유효합니다.",
-        "en": "Reflected by UBS's price target hike, A&F's strong margin structure and brand repositioning continue to drive growth. Quick adaptation to their expanded licensing and multi-category strategies remains key."
+        "kr": "월스트리트의 긍정적인 실적 전망과 IB들의 목표가 상향 조정 속에서 탄탄한 성장세를 보이며 향후 reorder 및 sourcing 확대에 긍정적인 시그널을 보내고 있습니다.",
+        "en": "A&F is showing solid growth backed by strong market expectations and IB price target upward revisions, signaling favorable potential for reorders and sourcing."
       },
       {
         "buyer": "Macy's",
-        "kr": "Ralph Lauren 상품 최대 60% 조기 할인 및 제100회 Thanksgiving Day Parade를 통해 초기 Holiday 수요 선점에 나섰습니다. 할인 기간 동안의 재고 소진 속도를 모니터링해야 합니다.",
-        "en": "Macy's is capturing early holiday demand with up to 60% off Ralph Lauren merchandise and the historic 100th Thanksgiving Day Parade rollout. Inventory depletion speeds during these early promotions must be closely monitored."
+        "kr": "online AI 쇼핑 어시스턴트를 offline 매장 현장까지 확장하고 얼리 블랙프라이데이 세일을 대규모로 전개하여 Q4 재고 소진 속도를 가속화하고 있습니다.",
+        "en": "Macy's is accelerating Q4 inventory clearance by extending its online AI shopping assistant to in-store teams and launching a massive early Black Friday sale."
       }
     ],
     "opportunities": [
       {
-        "kr": "Holiday 조기 promotion에 반응하는 category별 sell-through 데이터를 분석하여 재주문 및 reorder 가능성을 선제적으로 제안합니다.",
-        "en": "Analyze category-specific sell-through data reacting to early holiday promotions to proactively pitch chase-order and reorder opportunities."
+        "kr": "메이시스의 offline AI 어시스턴트 도입에 발맞춰 매장 내 sell-through가 우수한 인기 품목에 대한 신속한 reorder 제안",
+        "en": "Propose prompt reorders for high sell-through items in alignment with Macy's in-store AI assistant rollout."
       },
       {
-        "kr": "A&F 및 주요 백화점 채널의 성공적인 브랜드 협업 및 라이선스 확장 사례를 벤치마킹하여 당사 신규 제안서에 반영합니다.",
-        "en": "Benchmark successful brand collaborations and licensing expansion cases from A&F and major department store channels to enhance upcoming proposals."
+        "kr": "콜스의 블랙프라이데이 promotion 품목 리스트를 분석하여 margin 최적화된 대체 상품 및 번들 구성 제안",
+        "en": "Analyze Kohl's Black Friday promotion lineup to propose margin-optimized alternative items and bundle configurations."
       },
       {
-        "kr": "원유 및 면화 가격 변동에 따른 원가 압박을 점검하고, 시즌 말 margin 방어를 위한 대체 소재 및 원가 절감 아이디어를 준비합니다.",
-        "en": "Review cost pressures driven by crude oil and cotton price fluctuations, preparing alternative sourcing and cost-saving ideas to protect end-of-season margins."
+        "kr": "A&F의 실적 호조 및 긍정적 어닝 모멘텀에 연동하여 신규 스타일 개발 및 추가 sourcing 기회 발굴",
+        "en": "Identify new style development and additional sourcing opportunities tied to A&F's strong earnings momentum."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "백화점 채널의 과도한 조기 할인 경쟁은 벤더사의 margin 압박 및 재고 회전율 저하로 이어질 수 있어 세심한 관리가 필요합니다.",
-      "en": "Excessive early promotional discounting by department store buyers could pressure vendor margins and impact inventory turnover, requiring careful management."
+      "kr": "경쟁사들의 조기 할인 및 백화점 채널 간 가격 경쟁 심화로 인한 Q4 margin 압박 및 재고 소진 지연 리스크 존재",
+      "en": "Risk of Q4 margin pressure and delayed inventory clearance due to competitors' early discounting and intensified pricing competition across department store channels."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Kohl's 및 Macy's의 조기 블랙프라이데이 promotion에 따른 주간 판매 및 재고 소진 속도를 점검합니다.",
-        "en": "Monitor weekly sales and inventory depletion rates following early Black Friday promotions at Kohl's and Macy's."
+        "kr": "메이시스 및 콜스의 얼리 블랙프라이데이 판매 추이 및 category별 sell-through 일일 모니터링 실시",
+        "en": "Conduct daily monitoring of early Black Friday sales trends and category-wise sell-through for Macy's and Kohl's."
       },
       {
         "owner": "Team 8",
-        "kr": "Target 및 American Eagle 등 주요 경쟁사의 가격 및 상품 전략 변동 사항을 바이어 제안 시 참고 자료로 정리합니다.",
-        "en": "Compile shifts in pricing and product strategies from key competitors like Target and American Eagle for upcoming buyer proposals."
+        "kr": "경쟁사(타겟, 노드스트롬 등)의 promotion 동향을 반영한 당사 대응 가격 및 promotion 전략 수립",
+        "en": "Formulate responsive pricing and promotional strategies incorporating competitor moves from Target and Nordstrom."
       },
       {
         "owner": "Team 8",
-        "kr": "환율(USD/KRW) 및 원자재(면화, 유가) 변동 추이를 반영하여 하반기 생산 원가 및 수익성 시뮬레이션을 업데이트합니다.",
-        "en": "Update second-half production cost and profitability simulations reflecting recent fluctuations in USD/KRW exchange rates and raw material prices."
+        "kr": "A&F Q4 실적 기대감에 따른 후속 오더 스케줄 조율 및 생산 라인 사전 점검",
+        "en": "Coordinate follow-up order schedules and pre-inspect production lines in response to A&F's Q4 earnings expectations."
       }
     ]
   }
