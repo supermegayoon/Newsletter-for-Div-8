@@ -1,0 +1,96 @@
+{
+  "ok": true,
+  "source": "Yahoo Finance daily snapshot",
+  "schedule": "08:00 KST",
+  "snapshotDateKST": "2026-11-16",
+  "marketDataDate": "2026-11-13",
+  "updatedAt": "2026-11-15T23:00:24.661Z",
+  "status": "success",
+  "data": {
+    "KSS": {
+      "symbol": "KSS",
+      "price": 24,
+      "previousClose": 23.5,
+      "changePct": 2.127659574468085,
+      "dataDate": "2026-11-13",
+      "currency": "USD",
+      "exchangeName": "NYQ",
+      "marketState": null,
+      "regularMarketTime": 1794603671,
+      "shortName": "Kohl's Corporation"
+    },
+    "ANF": {
+      "symbol": "ANF",
+      "price": 148.8800048828125,
+      "previousClose": 150.49000549316406,
+      "changePct": -1.0698388940019647,
+      "dataDate": "2026-11-13",
+      "currency": "USD",
+      "exchangeName": "NYQ",
+      "marketState": null,
+      "regularMarketTime": 1794603732,
+      "shortName": "Abercrombie & Fitch Company"
+    },
+    "M": {
+      "symbol": "M",
+      "price": 24.700000762939453,
+      "previousClose": 24.329999923706055,
+      "changePct": 1.520759722127604,
+      "dataDate": "2026-11-13",
+      "currency": "USD",
+      "exchangeName": "NYQ",
+      "marketState": null,
+      "regularMarketTime": 1794603603,
+      "shortName": "Macy's Inc"
+    },
+    "KRW=X": {
+      "symbol": "KRW=X",
+      "price": 1335.9100341796875,
+      "previousClose": 1333.780029296875,
+      "changePct": 0.15969686425244864,
+      "dataDate": "2026-11-15",
+      "currency": "KRW",
+      "exchangeName": "CCY",
+      "marketState": null,
+      "regularMarketTime": 1794783622,
+      "shortName": "USD/KRW"
+    },
+    "CTZ26.NYB": {
+      "symbol": "CTZ26.NYB",
+      "price": 78.68000030517578,
+      "previousClose": 78.66999816894531,
+      "changePct": 0.012714041519346388,
+      "dataDate": "2026-11-13",
+      "currency": "USX",
+      "exchangeName": "NYB",
+      "marketState": null,
+      "regularMarketTime": 1794597597,
+      "shortName": "Cotton Dec 26"
+    },
+    "CL=F": {
+      "symbol": "CL=F",
+      "price": 88.55999755859375,
+      "previousClose": 88.73999786376953,
+      "changePct": -0.20284010537402905,
+      "dataDate": "2026-11-13",
+      "currency": "USD",
+      "exchangeName": "NYM",
+      "marketState": null,
+      "regularMarketTime": 1794607200,
+      "shortName": "Crude Oil Dec 26"
+    },
+    "BZ=F": {
+      "symbol": "BZ=F",
+      "price": 95.83999633789062,
+      "previousClose": 95.81999969482422,
+      "changePct": 0.02086896590491889,
+      "dataDate": "2026-11-13",
+      "currency": "USD",
+      "exchangeName": "NYM",
+      "marketState": null,
+      "regularMarketTime": 1794607170,
+      "shortName": "Brent Crude Oil Last Day Financ"
+    }
+  },
+  "errors": {}
+}
