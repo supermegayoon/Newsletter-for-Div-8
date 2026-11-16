@@ -1,0 +1,81 @@
+{
+  "ok": true,
+  "asOf": "2026-11-15T23:00:59.298Z",
+  "generatedDateKST": "2026-11-16",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-11-16",
+  "insight": {
+    "headline": {
+      "kr": "메이시스 AI 영업 현장 확대 및 주요 바이어 얼리 블랙프라이데이 본격 돌입",
+      "en": "Macy's Expands In-Store AI Assistants While Key Buyers Launch Early Black Friday Sales"
+    },
+    "summary": {
+      "kr": "2026년 11월 16일 기준, 메이시스는 online의 AI 쇼핑 어시스턴트를 offline 매장 영업 팀까지 확대하여 옴니채널 역량을 강화하고 있습니다. 또한 콜스와 메이시스를 비롯한 주요 바이어들은 연말 대목을 겨냥해 조기 블랙프라이데이 promotion에 돌입했으며, 경쟁사들의 공세에 대응한 선제적인 재고 회전 및 margin 관리 전략이 요구됩니다.",
+      "en": "As of November 16, 2026, Macy's is enhancing its omnichannel capabilities by expanding its online AI shopping assistant to in-store retail teams. Major buyers like Kohl's and Macy's have also kicked off early Black Friday promotions for the holiday peak, requiring proactive inventory turnover and margin management strategies against competitor pushes."
+    },
+    "tags": [
+      "#BlackFriday",
+      "#Omnichannel",
+      "#InventoryTurnover",
+      "#Team8"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "경쟁사인 타겟과 제이씨페니의 공격적인 조기 promotion 공세 속에서 자체 블랙프라이데이 딜을 공개하며 연말 traffic 확보에 주력하고 있습니다.",
+        "en": "Kohl's has released its Black Friday deals lineup to secure holiday traffic amid aggressive early promotions from competitors Target and JCPenney."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "월스트리트의 긍정적인 실적 전망과 IB들의 목표가 상향 조정 속에서 탄탄한 성장세를 보이며 향후 reorder 및 sourcing 확대에 긍정적인 시그널을 보내고 있습니다.",
+        "en": "A&F is showing solid growth backed by strong market expectations and IB price target upward revisions, signaling favorable potential for reorders and sourcing."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "online AI 쇼핑 어시스턴트를 offline 매장 현장까지 확장하고 얼리 블랙프라이데이 세일을 대규모로 전개하여 Q4 재고 소진 속도를 가속화하고 있습니다.",
+        "en": "Macy's is accelerating Q4 inventory clearance by extending its online AI shopping assistant to in-store teams and launching a massive early Black Friday sale."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "메이시스의 offline AI 어시스턴트 도입에 발맞춰 매장 내 sell-through가 우수한 인기 품목에 대한 신속한 reorder 제안",
+        "en": "Propose prompt reorders for high sell-through items in alignment with Macy's in-store AI assistant rollout."
+      },
+      {
+        "kr": "콜스의 블랙프라이데이 promotion 품목 리스트를 분석하여 margin 최적화된 대체 상품 및 번들 구성 제안",
+        "en": "Analyze Kohl's Black Friday promotion lineup to propose margin-optimized alternative items and bundle configurations."
+      },
+      {
+        "kr": "A&F의 실적 호조 및 긍정적 어닝 모멘텀에 연동하여 신규 스타일 개발 및 추가 sourcing 기회 발굴",
+        "en": "Identify new style development and additional sourcing opportunities tied to A&F's strong earnings momentum."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "경쟁사들의 조기 할인 및 백화점 채널 간 가격 경쟁 심화로 인한 Q4 margin 압박 및 재고 소진 지연 리스크 존재",
+      "en": "Risk of Q4 margin pressure and delayed inventory clearance due to competitors' early discounting and intensified pricing competition across department store channels."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "메이시스 및 콜스의 얼리 블랙프라이데이 판매 추이 및 category별 sell-through 일일 모니터링 실시",
+        "en": "Conduct daily monitoring of early Black Friday sales trends and category-wise sell-through for Macy's and Kohl's."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "경쟁사(타겟, 노드스트롬 등)의 promotion 동향을 반영한 당사 대응 가격 및 promotion 전략 수립",
+        "en": "Formulate responsive pricing and promotional strategies incorporating competitor moves from Target and Nordstrom."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "A&F Q4 실적 기대감에 따른 후속 오더 스케줄 조율 및 생산 라인 사전 점검",
+        "en": "Coordinate follow-up order schedules and pre-inspect production lines in response to A&F's Q4 earnings expectations."
+      }
+    ]
+  }
+}
