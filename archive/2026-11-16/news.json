@@ -1,0 +1,72 @@
+{
+  "ok": true,
+  "asOf": "2026-11-15T23:00:32.639Z",
+  "generatedDateKST": "2026-11-16",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 3,
+    "within7d": 4,
+    "total": 4,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Digital Transformation / AI",
+      "category_en": "Technology",
+      "date": "2026.11.13",
+      "title_kr": "Macy's, E-commerce에 도입했던 AI Shopping Assistant를 offline store 현장 팀까지 확대 적용",
+      "title_en": "Macy's Extends Its AI Shopping Assistant From Online to In-Store Teams",
+      "body_kr": "Macy's가 online 고객 대상이던 AI Shopping Assistant를 offline store 영업 현장까지 확장하며 retail omni-channel 역량을 강화합니다. vendor 입장에서는 매장 내 merchandise 추천 효율성 제고와 sell-through 긍정적 영향에 주목해야 합니다.",
+      "body_en": "Macy's extends its AI Shopping Assistant from online to in-store teams to enhance retail operations. Vendors should monitor how in-store tech adoption impacts merchandise sell-through.",
+      "source": "TradingView",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNlBzNHFYd0diakZ3YjF5cFVhM01FY1JsRzk3Q05pT3pSZ1FVNUVBejc1TXlZa203WUlKTkRfYWhnZ2tMQzRwNks5WmJuV0M0cjQydFlVSkdWeC1SYk5FLVZzcG55bUpoQ2lENFhxR3R5Q1FmOVZUN2gzV1lfRGhOWDdBZGFQZGVBSFRJZXZrRnYwR25henA4cWFJUTAyNWVaaU1IZGswdnJ2dDFFcDZCTUpqMGJ2ck51bW5JbGF3dlk5cEZR?oc=5",
+      "ageHours": 59.7907825
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Pricing & Promotion",
+      "category_en": "Pricing",
+      "date": "2026.11.13",
+      "title_kr": "Macy's, Holiday season 조기 진입 위해 early Black Friday sale 대규모 돌입",
+      "title_en": "Is Macy’s having a moment? Early Black Friday sale has diamonds, designers and more deals",
+      "body_kr": "Macy's가 Holiday season을 겨냥해 jewelry 및 designer category를 중심으로 공격적인 early Black Friday promotion을 전개하고 있습니다. 초기 consumer demand 선점을 위한 이번 조기 할인 행사는 Q4 inventory 소진 속도에 직접적인 영향을 미칠 것입니다.",
+      "body_en": "Macy's launched an early Black Friday sale featuring major designer and jewelry deals to capture early holiday demand. This aggressive pricing strategy will directly influence Q4 inventory clearance rates.",
+      "source": "New York Post",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNWFWRnNMelZVRExCWmZ6eEdSWVl5dEhpcHdocUdQTlZlZW51S1B0WG0wc1VfcWpta0tyc0cyNG1BbDUyNXFXNjlhNkFSQjY2MG14Q005R0JmaFIxOVJoX2Z1RjhqcEFjQnE0NnEzRXQzQUFzazd2Qm1hYlhKc3N3U2VZS1RWbmN3?oc=5",
+      "ageHours": 54.5407825
+    },
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Pricing & Promotion",
+      "category_en": "Promotion",
+      "date": "2026.11.13",
+      "title_kr": "Kohl's, 연말 대목 대비 Black Friday Sale 2026 주요 deal 세부 내용 공개",
+      "title_en": "Kohl’s Black Friday Sale & Deals 2026",
+      "body_kr": "Kohl's가 Holiday shopping 대목을 맞아 2026년 Black Friday 주요 promotion 라인업을 발표했습니다. 당사 vendor들은 주요 category별 discount 폭과 merchandise 회전율 변화를 면밀히 모니터링해야 합니다.",
+      "body_en": "Kohl's released its key Black Friday promotion lineup ahead of the holiday shopping peak. Our vendors should closely monitor discount depths and inventory turnover changes across key categories.",
+      "source": "BlackFriday.com",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzNUw1b2gxdmVEY1Z0UkU0a3pVRi1ZTWtBbkl3X21sOUl3UDZ3U0x0emVRbjVLaGJpUEt4U3VQV2NiQ3dvQkwxY0NyVEg0M2UxcXRScGN0cnplR2RpcU8zLUdfeWxQX3NtVEJr?oc=5",
+      "ageHours": 65.74078222222222
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Financial Outlook",
+      "category_en": "Earnings",
+      "date": "2026.11.12",
+      "title_kr": "Abercrombie & Fitch, Wall Street 기대감 속 Q4 FY2026 earnings call transcript 공개",
+      "title_en": "ABERCROMBIE & FITCH CO. R (AFT.HA) Q4 FY2026 earnings call transcript",
+      "body_kr": "Abercrombie & Fitch가 강력한 실적 전망을 바탕으로 Q4 실적 발표 컨퍼런스 콜을 진행했습니다. 주요 IB들의 price target 상향 조정이 이어진 만큼, 향후 sourcing 및 reorder 계획에 긍정적 시그널이 예상됩니다.",
+      "body_en": "Abercrombie & Fitch hosted its Q4 earnings call amid strong market expectations and upward price target revisions by major investment banks. This positive momentum signals favorable reorder and sourcing potential.",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPXzRhYnItOENRQU1DQ3pzZW5NWkE3UWZ5VnlNcEtsWHpTRW9mTk10ME0yM1M1dmdKVHZxMmVLQXlXUzduWmZTdTh3VlM3Um11bElkTzJ0YTBjQTVIVFB0bWpQdlByT1IxcmZnM0tFMmdWMjBTSGNWbDdVWXNncE5ORHNmZVdRUjljZWNXcF9LNl9pUQ?oc=5",
+      "ageHours": 82.34716555555555
+    }
+  ]
+}
