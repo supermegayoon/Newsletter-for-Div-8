@@ -1,57 +1,45 @@
 {
   "ok": true,
-  "asOf": "2026-11-15T23:45:50.254Z",
-  "generatedDateKST": "2026-11-16",
+  "asOf": "2026-11-16T23:47:52.852Z",
+  "generatedDateKST": "2026-11-17",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "items": [
     {
       "level": "HIGH",
-      "title_kr": "미국 면화 관세 계획 및 아시아 소싱 영향",
-      "title_en": "US Cotton Tariff Plan & Asian Sourcing Impact",
-      "body_kr": "USDA가 의류 관세를 미국산 면화 구매와 연계하는 방안을 다루며, 베트남 및 주요 4개 아시아 경쟁국 간의 소싱 구도에 변화가 예상됩니다.",
-      "body_en": "The USDA is linking apparel tariffs to U.S. cotton purchases, which is expected to shift the sourcing dynamics between Vietnam and four competing Asian countries.",
-      "action_kr": "미국산 면화 사용 조건부 관세 혜택을 반영하여 바이어별 costing 시뮬레이션을 재검토하고 소싱 포트폴리오를 조정하세요.",
-      "action_en": "Review costing simulations by buyer to account for U.S. cotton purchase conditions and adjust sourcing portfolios accordingly.",
-      "source": "Fibre2Fashion",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPekdyTjd6R0hseXV6VDM0Z3Z5VXQ4dnFWdFNub3Vfb1B3MkJaeGdYaUgtelFXZ3NqWHJXUV9xenZPYUV2dU52ZDBzS3NXWi1pUWtrZG5RSEdvT2JiLThEQ3BVVHFUVHZQXzNtZTF4QlE1WktLSEg0eDBxSWhTOFZsREpodXE1cHJXNHo0VjJHb3d2UWlkaU1WMTNUdUFkUmRLd2kzRFBXeUtRbnJuX3Q5WDFrZUdHTVhMOFpkckRVb0dkNGtPUGZBbkYwbWY5OHFmRllmQ1JEQ0h6emJYNWxIWlU1eGJuUQ?oc=5",
-      "date": "2026.11.04"
+      "title_kr": "미국-인도 무역 협상 관세 우위 확보 동향",
+      "title_en": "US Assures India of Tariff Edge in Trade Deal",
+      "body_kr": "미국이 인도와의 무역 협상에서 아시아 경쟁국 대비 관세 우위를 보장함에 따라, 인도 스소싱 및 의류 제조 부문의 가격 경쟁력 변동에 선제적 대비가 필요합니다.",
+      "body_en": "As the US assures India of a tariff edge over Asian rivals in their trade deal, sourcing teams must prepare for shifts in regional apparel pricing and competitiveness.",
+      "action_kr": "인도 지역의 협력 공장 Sourcing Capa를 점검하고, 향후 Costing 변동성에 대비해 대안 포트폴리오를 구성하세요.",
+      "action_en": "Audit sourcing capacity in India and build alternative sourcing portfolios to prepare for potential costing shifts.",
+      "source": "MLQ.ai",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMFVKYlZrLUZFcXNBZG9PYjhxVWlPbVBYUE81RGQ4REN3N1VydjVFb19nMVdoQWdQNDR5ZTN2TVdNWHBScm5uMWU4ZG93aGd5aUw0cS1NS0NiZnRqQjhxbGNMNnRsdmFtS2JxTEM4SXlpbzhLTy0tLUFFZDRoalgtT3doT2VBdHhOdkhhS1dpYUxpNG1weHd3y3NCcEtuUmE3RmxrMzY0UWJuSnZTdzhURWgtdw?oc=5",
+      "date": "2026.11.13"
     },
     {
       "level": "MEDIUM",
-      "title_kr": "미국 중간선거 이후 인도와의 무역 협상 정체 지속",
-      "title_en": "India Trade Deal Remains in Limbo Post-US Midterms",
-      "body_kr": "미국 워싱턴의 정치 지형 변화에도 불구하고 인도의 대미 무역 협상은 여전히 진전 없이 교착 상태에 머물러 있습니다.",
-      "body_en": "Despite political shifts in Washington following the U.S. midterms, India's trade deal with the U.S. remains deadlocked in limbo.",
-      "action_kr": "인도 산지 의존도가 높은 품목에 대해 관세 리스크를 평가하고 대체 생산 캐파(capacity)를 사전 점검하세요.",
-      "action_en": "Evaluate tariff risks for items heavily reliant on Indian production hubs and pre-check alternative production capacity.",
-      "source": "India Weekly",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOczVkUldtcW1oQS1GUEFPNkgtWDNrMlhQcjhrT0VDcVBoMi1URm5UN0hZQW9jdDZNdWM1YXE3empEUHNqM3pLRWR2VEducDhSeGU0bm43Mk1aWnZNZW9pUXBrZ2F1dDVvSGgyeFdpNGZKZEsxOEpCYW9iTlk5ZHlMeXZfdw?oc=5",
-      "date": "2026.11.12"
+      "title_kr": "방글라데시 수출 회복력 및 관세율 외 이슈 대두",
+      "title_en": "Building Bangladesh's Export Resilience Beyond Tariff Rates",
+      "body_kr": "방글라데시 의류 산업이 단순 관세율을 넘어 수출 회복력과 공급망 안정성 확보에 주력하고 있습니다.",
+      "body_en": "Bangladesh's apparel sector is focusing on export resilience and supply chain stability beyond just tariff rates.",
+      "action_kr": "방글라데시 벤더들의 납기 준수율과 리드타임 안정성을 재검토하고 메인 오더 배분 시 반영하세요.",
+      "action_en": "Review lead-time stability and on-time delivery performance for Bangladesh vendors when allocating main orders.",
+      "source": "The New Nation",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE50NTVIUVZnOGlvWFRkSDZRZWlRcHhWaEZSUHdJN19URHVEdFVGWlNXYmdKT0o3akczTkpmb3FQc1hKbHMxcDhsVWZULWFzZkk?oc=5",
+      "date": "2026.11.16"
     },
     {
       "level": "MEDIUM",
-      "title_kr": "방글라데시 등 개발도상 아시아 국가 관세 구제 난항",
-      "title_en": "Limited Tariff Relief for Bangladesh and Developing Asia",
-      "body_kr": "새로운 미 의회가 출범했음에도 방글라데시를 포함한 개발도상 아시아 의류 수출국들에게 실질적인 관세 및 무역 구제 혜택은 요원한 상황입니다.",
-      "body_en": "Even with a new U.S. Congress in session, meaningful tariff and trade relief for Bangladesh and developing Asian apparel exporters remains limited.",
-      "action_kr": "방글라데시 소싱 물량에 대한 마진 압박에 대비하여 벤더 차원의 코스팅 최적화 방안을 마련하세요.",
-      "action_en": "Prepare for margin pressures on Bangladesh-sourced volumes by developing vendor-level costing optimization strategies.",
-      "source": "The Daily Star",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNmRsYXRLOFFJQ1Q1STRISmU4VC1SVkFiN001ZE5zbnlYQTZ0STRTRHVnanBSU0RHM01hR3hfRUFVMVAyYzJiMG9lU1AtRU81MnhqTFBTc0o2dlg3WXpZNG9iVnBXY1JiOWVxTmNGbjdNRkdPY0NEblVOWjFoTEpQNGZCYjBBQXVNM3ZiVDZDMHBxSUxzNmpIS3ZmWjJiTVR0c2hRaWxMNkM1VktJRFZQTzBkNHlIRFZUQ08wMjRxYUdVcnZyc0JNTTZSM1QtWHBL?oc=5",
-      "date": "2026.11.10"
-    },
-    {
-      "level": "MEDIUM",
-      "title_kr": "애슬레저 및 홈 웰니스 트렌드 기반 스포츠브래지어·컴프레션 삭스 수요 확대",
-      "title_en": "Athleisure & Wellness Drive Sports Bra and Compression Socks Demand",
-      "body_kr": "홈 웰니스와 리커버리 수요 및 지속적인 애슬레저 인기에 힘입어 컴프레션 삭스와 여성용 스포츠브래지어 시장의 장기 성장이 전망됩니다.",
-      "body_en": "Driven by home wellness, recovery demand, and ongoing athleisure popularity, long-term growth is projected for compression socks and women's sports bras.",
-      "action_kr": "기능성 홈 웨어 및 애슬레저 카테고리 제안 시 고기능성 원사와 회복 기능성 소싱 옵션을 적극 제안하세요.",
-      "action_en": "Proactively pitch high-performance yarns and recovery-focused sourcing options when presenting functional home wear and athleisure categories.",
-      "source": "IndexBox",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMHlQbWxOdU9qTU9nUGtzRzVmQWc1Tl9aVFZ5U0RoYkw5QzJOLURXWVdZTF9kU1ZtVUdVVlJMdkw5b05FSnVMQmdxQzN3THZUaUVpWWl4UXd3dFA2bk9jeDVZTVZPY2FhQmdTakJ1V3l1RjFvVjJtamU1Y0ZFdjdpSVJzTmJCVUsxTDFzV09qRW1WVXVqUkxlMEtudnBnN2JvdC0xNXZ2SHQ0bDBEWmdJV1c4NTQ5c0FGTmppaXM4ZWFZZ1Fib2Zv?oc=5",
-      "date": "2026.11.15"
+      "title_kr": "Abercrombie & Fitch(ANF) 주가 및 홀리스터 성장 전략",
+      "title_en": "ANF Stock and Hollister Growth Strategies",
+      "body_kr": "아버크롬비앤피치(ANF)의 주가 동향과 홀리스터 브랜드의 파트너십 기반 성장 전략이 주목받고 있습니다.",
+      "body_en": "Abercrombie & Fitch's stock updates and Hollister's partnership-driven growth strategies are drawing market focus.",
+      "action_kr": "ANF 및 홀리스터 담당 영업팀은 바이어의 타겟 파트너십 확장 전략에 맞춰 신규 카테고리 제안을 준비하세요.",
+      "action_en": "Sales teams handling ANF and Hollister should prepare new category proposals aligned with the buyer's partnership expansion strategy.",
+      "source": "Yahoo! Finance Canada",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBtckJLQWtNUlJFbDM2V2NpNHFWVUMxSWcyVDJDSDNfRUhfVS02dl9JMVU0X3UwWXVLSXZZSWUwa0ZMakRueG04RjV3aHBDejRT?oc=5",
+      "date": "2026.11.16"
     }
   ]
 }
