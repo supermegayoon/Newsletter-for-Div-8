@@ -223,7 +223,7 @@ footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--line);}
 .si-note{font-size:11px;line-height:1.55;padding:12px;border:1px solid var(--line);border-radius:8px;color:var(--muted);margin-bottom:15px}
 .si-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.si-card{border:1px solid var(--line);border-radius:10px;padding:16px;min-width:0}.si-card-header{display:flex;align-items:center;justify-content:space-between;gap:5px;font-size:12px}.si-card-header span{color:var(--muted);font-size:10px}.si-card-desc,.si-highlight{font-size:12.5px;line-height:1.6;margin:11px 0}.si-primary-link{display:inline-block;background:var(--accent-tint);border-radius:7px;color:var(--accent);font-size:12px;font-weight:700;padding:8px 10px}.si-mini{font-size:10px;color:var(--muted);line-height:1.5;margin-top:10px}
 .si-evidence-head,.si-news-head{display:flex;justify-content:space-between;gap:10px;align-items:center;margin:22px 0 10px}.si-evidence-head h4{font-size:14px}.si-evidence-head span,.si-news-head span{font-size:10px;color:var(--muted)}
-.si-evidence{display:flex;flex-direction:column;gap:9px}.si-signal{display:flex;gap:12px;border:1px solid var(--line);border-radius:10px;padding:15px}.si-number{font:700 12px var(--mono);color:var(--accent);flex:none}.si-signal-body{flex:1;min-width:0}.si-tagline{display:flex;gap:10px;align-items:center;font-size:11px}.si-tagline span{font-size:10px;color:var(--accent)}.si-signal h5{font-size:13px;line-height:1.5;margin:7px 0}.si-signal p{font-size:12px;color:var(--muted);line-height:1.55}.si-action{background:var(--accent-tint);padding:10px 11px;border-radius:8px;margin:10px 0;font-size:12px;line-height:1.55}.si-links{display:flex;gap:10px;flex-wrap:wrap;font-size:11px}.si-source-link{font-size:11px;text-decoration:underline}.si-empty{font-size:12px;color:var(--muted);background:var(--panel2);padding:14px;border-radius:9px}
+.si-evidence{display:flex;flex-direction:column;gap:9px}.si-signal{display:flex;gap:12px;border:1px solid var(--line);border-radius:10px;padding:15px}.si-number{font:700 12px var(--mono);color:var(--accent);flex:none}.si-signal-body{flex:1;min-width:0}.si-tagline{display:flex;gap:10px;align-items:center;font-size:11px}.si-tagline span{font-size:10px;color:var(--accent)}.si-signal h5{font-size:13px;line-height:1.5;margin:7px 0}.si-signal p{font-size:12px;color:var(--muted);line-height:1.55}.si-action{background:var(--accent-tint);padding:10px 11px;border-radius:8px;margin:10px 0;font-size:12px;line-height:1.55}.si-links{display:flex;gap:10px;flex-wrap:wrap;font-size:11px}.si-source-link{font-size:11px;text-decoration:underline}.si-empty{font-size:12px;color:var(--muted);background:var(--panel2);padding:14px;border-radius:9px}.si-empty strong{display:block;font-size:13px;color:var(--text);margin-bottom:5px}.si-post-text{white-space:pre-wrap;overflow-wrap:anywhere;color:var(--text)!important;margin:10px 0 14px}
 .si-news{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.si-news>div{padding:12px;border:1px solid var(--line);border-radius:9px}.si-news b{font-size:12px}.si-news p{font-size:11px;color:var(--muted);margin:7px 0}
 @media(max-width:760px){.si-shell{padding:15px}.si-grid,.si-news{grid-template-columns:1fr}.si-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.si-heading{flex-direction:column}.si-evidence-head{align-items:flex-start;flex-direction:column}}
 
@@ -244,6 +244,7 @@ footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--line);}
   </div>
   <nav class="side-nav">
     <a href="#top"       class="ic-link"><span class="ic">◎</span><span class="kr">오늘의 브리핑</span><span class="en">Today's Brief</span></a>
+    <a href="#ai-insight-card" class="ic-link"><span class="ic">✦</span><span class="kr">AI Insight</span><span class="en">AI Insight</span></a>
     <a href="#action"    class="ic-link"><span class="ic">✓</span><span class="kr">트렌드 레이더</span><span class="en">Trend Radar</span></a>
     <a href="#social-intelligence" class="ic-link"><span class="ic">◉</span><span class="kr">Social Intelligence</span><span class="en">Social Intelligence</span></a>
     <a href="#news"      class="ic-link"><span class="ic">▤</span><span class="kr">브랜드 뉴스</span><span class="en">Brand News</span></a>
@@ -362,7 +363,14 @@ footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--line);}
         <div class="action-box"><span class="alabel">Action</span><p class="kr">8월 중순~하순 소량·반복 출하 대응 캐파를 COP별로 사전 확보.</p><p class="en">Pre-secure per-COP capacity for smaller, repeated shipments in mid-to-late August.</p></div>
       </div>
 
-      <!-- NEWS FEED -->
+      <!-- SOCIAL INTELLIGENCE: verified official posts only -->
+      <div class="sec-eyebrow" id="social-intelligence">SOCIAL INTELLIGENCE</div>
+      <div class="sec-title"><span class="kr">Buyer Social Intelligence</span><span class="en">Buyer Social Intelligence</span></div>
+      <div class="sec-intro"><span class="kr">원문과 게시 날짜가 확인된 공식 소셜 게시물</span><span class="en">Official social posts with verified source links and dates</span></div>
+      <div id="social-intelligence-panel" class="si-shell" aria-live="polite"><p style="font-size:12px;color:var(--muted)">Social Intelligence 불러오는 중…</p></div>
+
+
+            <!-- NEWS FEED -->
       <div class="sec-eyebrow" id="news"><span class="kr">브랜드 뉴스</span><span class="en">Brand News</span></div>
       <div class="sec-title"><span class="kr">메인 브랜드 뉴스 피드</span><span class="en">Main Brand News Feed</span></div>
 
@@ -378,12 +386,6 @@ footer{margin-top:56px;padding-top:24px;border-top:1px solid var(--line);}
       <div class="news-panel" id="news-panel"></div>
 
       
-      <!-- SOCIAL INTELLIGENCE: data provenance and commercial implications -->
-      <div class="sec-eyebrow" id="social-intelligence">SOCIAL INTELLIGENCE</div>
-      <div class="sec-title"><span class="kr">Buyer Social Intelligence</span><span class="en">Buyer Social Intelligence</span></div>
-      <div class="sec-intro"><span class="kr">LinkedIn 공식 채널 모니터링과 공개 근거 기반 Buyer 전략 분석</span><span class="en">Official channel watch with evidence-based buyer and competitor implications</span></div>
-      <div id="social-intelligence-panel" class="si-shell" aria-live="polite"><p style="font-size:12px;color:var(--muted)">Social Intelligence 불러오는 중…</p></div>
-
 <!-- BRAND DIRECTION -->
       <div class="sec-eyebrow" id="direction"><span class="kr">브랜드 포지셔닝</span><span class="en">Brand Direction</span></div>
       <div class="sec-title"><span class="kr">브랜드별 현재 방향</span><span class="en">Current Direction, By Brand</span></div>
@@ -676,7 +678,7 @@ renderFX();
 <script src="trend-client.js"></script>
 <script src="raw-material-admin.js"></script>
 <script src="direction-source-client.js?v=20260814"></script>
-<script src="competitor-client.js?v=20260817"></script>
-<script src="social-intelligence-client.js?v=20261118"></script>
+<script src="competitor-client.js?v=20261118"></script>
+<script src="social-intelligence-client.js?v=20261118-2"></script>
 </body>
 </html>
