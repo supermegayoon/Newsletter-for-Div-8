@@ -63,13 +63,24 @@
   document.head.appendChild(s)
  }
 
- function socialCard(x){const li=/linkedin/i.test(x.platform||"");return `<div class="dir-card social-card"><div class="social-meta"><span class="social-brand">${e(x.brand)}</span><span class="social-platform ${li?"linkedin":""}">${e(x.platform||"Official")}</span><span class="dtag">${e(x.signal||"SIGNAL")}</span><span class="social-date">${e(x.date||"")}</span></div><h4>${e(p(x.headline))}</h4><p class="social-summary">${e(p(x.summary))}</p><div class="social-actions"><div class="social-smallbox"><b>WHY IT MATTERS</b><p>${e(p(x.whyItMatters))}</p></div><div class="social-smallbox"><b>TEAM 8 ACTION</b><p>${e(p(x.action))}</p></div></div>${x.sourceUrl?`<a class="social-open" target="_blank" rel="noopener" href="${e(x.sourceUrl)}">${li?"LinkedIn":"Official source"} ↗</a>`:""}</div>`}
+ function socialCard(x){
+  const labels={LinkedIn:"LinkedIn",Facebook:"Facebook",Official:en()?"Official release":"공식 발표",News:en()?"News":"뉴스"};
+  const kind=labels[x.platform]||labels.News;
+  const why=p(x.whyItMatters),action=p(x.action);
+  const box=(label,value)=>value?`<div class="social-smallbox"><b>${label}</b><p>${e(value)}</p></div>`:"";
+  const href=/^https:\/\//i.test(x.sourceUrl||"")?x.sourceUrl:"";
+  return `<div class="dir-card social-card">
+   <div class="social-meta"><span class="social-brand">${e(x.brand)}</span><span class="social-platform ${x.platform==="LinkedIn"?"linkedin":""}">${e(kind)}</span><span class="dtag">${e(x.signal||"UPDATE")}</span><span class="social-date">${e(x.date||"")}</span></div>
+   <h4>${e(p(x.headline))}</h4><p class="social-summary">${e(p(x.summary))}</p>
+   ${(why||action)?`<div class="social-actions">${box("WHY IT MATTERS",why)}${box("TEAM 8 ACTION",action)}</div>`:""}
+   ${href?`<a class="social-open" target="_blank" rel="noopener noreferrer" href="${e(href)}">${e(x.publisher||kind)} ↗</a>`:""}</div>`;
+ }
 
  function drawSocial(){
   socialStyle();const r=socialRoot(),all=D?.socialPulse?.items||[],items=S==="all"?all:all.filter(x=>x.brand===S);
   if(!all.length){r.innerHTML=`<div class="sec-eyebrow">SOCIAL PULSE</div><div class="sec-title">${en()?"Brand Social Signals":"브랜드 Social Signal"}</div><div class="sec-intro">${en()?"No meaningful social signals were found in the current window.":"현재 기간 내 영업적으로 의미 있는 Social signal이 없습니다."}</div>`;return}
-  const brands=["all","Kohl's","A&F / Hollister","Macy's"];
-  r.innerHTML=`<div class="sec-eyebrow">SOCIAL PULSE</div><div class="sec-title">${en()?"What the Brands Are Saying Now":"브랜드가 지금 직접 강조하는 것"}</div><p class="sec-intro">${en()?"Highlights commercially useful signals from Kohl's, A&F/Hollister and Macy's own social/corporate activity — filtered for product, collaboration, campaign, strategy and commercial direction.":"Kohl's · A&F/Hollister · Macy's의 LinkedIn/공식 활동 중 product, collaboration, campaign, strategy 등 영업적으로 의미 있는 내용만 선별합니다."}</p><div class="filter-row">${brands.map(b=>`<button class="chip ${S===b?"active":""}" data-s="${e(b)}">${b==="all"?(en()?"All":"전체"):e(b)}</button>`).join("")}</div><div class="dir-grid">${items.map(socialCard).join("")}</div><div style="font-size:9px;color:var(--muted);margin-top:8px;">${en()?`Shared daily signal · ${e(D?.socialPulse?.generatedDateKST||D?.generatedDateKST||"")} · ${e(D?.socialPulse?.analysisMode||"")}`:`Daily 공용 Signal · ${e(D?.socialPulse?.generatedDateKST||D?.generatedDateKST||"")} · ${e(D?.socialPulse?.analysisMode||"")}`}</div>`;
+  const brands=["all",...(D?.socialPulse?.brands?.length?D.socialPulse.brands:[...new Set(all.map(x=>x.brand))])];
+  r.innerHTML=`<div class="sec-eyebrow">SOCIAL PULSE</div><div class="sec-title">${en()?"Buyer and Brand Updates":"바이어별 브랜드 동향"}</div><p class="sec-intro">${en()?"Daily apparel signals from public social posts, official releases and news.":"공개 소셜 게시물, 공식 발표, 뉴스에서 상품·협업·캠페인·유통 동향을 매일 선별합니다."}</p><div class="filter-row">${brands.map(b=>`<button class="chip ${S===b?"active":""}" data-s="${e(b)}">${b==="all"?(en()?"All":"전체"):e(b)}</button>`).join("")}</div><div class="dir-grid">${items.length?items.map(socialCard).join(""):`<p class="sec-intro">${en()?"No items for this buyer in this edition.":"이번 발행에 이 바이어의 소식이 없습니다."}</p>`}</div><div style="font-size:9px;color:var(--muted);margin-top:8px;">${en()?`Shared daily signal · ${e(D?.socialPulse?.generatedDateKST||D?.generatedDateKST||"")} · ${e(D?.socialPulse?.analysisMode||"")}`:`Daily 공용 Signal · ${e(D?.socialPulse?.generatedDateKST||D?.generatedDateKST||"")} · ${e(D?.socialPulse?.analysisMode||"")}`}</div>`;
   r.querySelectorAll("[data-s]").forEach(x=>x.onclick=()=>{S=x.dataset.s;drawSocial()})
  }
 

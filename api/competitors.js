@@ -3,9 +3,7 @@
 // No new Vercel API route is created.
 // Social Pulse is folded into the existing /api/competitors function.
 //
-// Focus brands: Kohl's, A&F / Hollister, Macy's
-// Priority source: public LinkedIn company page
-// Fallback source: official/corporate news signals
+// Search for public social posts and use official releases and news as additional sources.
 // Shared cache: competitor-current.json
 // Same KST-day visitors share the saved result.
 
@@ -25,22 +23,15 @@ const BUYERS=[
 ];
 
 const SOCIAL_BRANDS=[
- {
-  key:"kohls",label:"Kohl's",
-  linkedin:"https://www.linkedin.com/company/kohls-department-stores",
-  officialQuery:'Kohl\'s corporate apparel campaign product private brand store earnings'
- },
- {
-  key:"af",label:"A&F / Hollister",
-  linkedin:"https://www.linkedin.com/company/abercrombie-%26-fitch/",
-  officialQuery:'Abercrombie Fitch Hollister corporate apparel collaboration product campaign earnings'
- },
- {
-  key:"macys",label:"Macy's",
-  linkedin:"https://www.linkedin.com/company/macy/",
-  officialQuery:'Macy\'s Inc corporate apparel fashion campaign product earnings stores'
- }
+ {label:"Kohl's",query:"Kohl's",linkedIn:["kohls-department-stores"],facebook:["kohls"],domains:["kohls.com"]},
+ {label:"A&F / Hollister",query:'("Abercrombie & Fitch" OR Hollister)',linkedIn:["abercrombie-&-fitch","hollister-co."],facebook:["abercrombie","hollister"],domains:["abercrombie.com","hollisterco.com"]},
+ {label:"Macy's",query:"Macy's",linkedIn:["macy"],facebook:["macys"],domains:["macys.com","macysinc.com"]},
+ {label:"Ann Taylor",query:'"Ann Taylor"',linkedIn:["ann-taylor"],facebook:["anntaylor"],domains:["anntaylor.com","knitwellgroup.com"]},
+ {label:"Talbot's",query:"Talbots",linkedIn:["talbots"],facebook:["talbots"],domains:["talbots.com","knitwellgroup.com"]}
 ];
+
+const SOCIAL_WINDOW_DAYS=14;
+const SOCIAL_TOPICS=["PRODUCT","COLLAB","CAMPAIGN","STRATEGY","FINANCIAL","STORE","DIGITAL","LEADERSHIP"];
 
 const kst=()=>new Intl.DateTimeFormat("en-CA",{
  timeZone:"Asia/Seoul",year:"numeric",month:"2-digit",day:"2-digit"
@@ -231,210 +222,190 @@ EVIDENCE=${JSON.stringify(packs)}`;
 
 // ---------------- SOCIAL PULSE ----------------
 
-function htmlVisibleText(html=""){
- return clean(
-  html
-   .replace(/<svg[\s\S]*?<\/svg>/gi," ")
-   .replace(/<noscript[\s\S]*?<\/noscript>/gi," ")
- )
+function socialDate(value){
+ const time=typeof value==='number'?value:Date.parse(value);
+ if(!Number.isFinite(time))return "";
+ const today=Date.parse(kst());
+ const date=new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Seoul",year:"numeric",month:"2-digit",day:"2-digit"}).format(time);
+ const age=(today-Date.parse(date))/86400000;
+ return age>=0&&age<SOCIAL_WINDOW_DAYS?date:"";
 }
 
-async function fetchLinkedInPublic(b){
- const r=await fetch(b.linkedin,{
-  headers:{
-   "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/131 Safari/537.36",
-   "Accept-Language":"en-US,en;q=0.9"
-  },
-  redirect:"follow"
- });
- if(!r.ok)throw Error(`LinkedIn ${r.status}`);
- const html=await r.text();
- const visible=htmlVisibleText(html);
- if(!visible||visible.length<500)throw Error("LinkedIn public text unavailable");
-
- // LinkedIn public pages normally expose an Updates section.
- // Take only a bounded section to control Gemini tokens.
- let idx=visible.toLowerCase().indexOf("updates");
- let excerpt=idx>=0?visible.slice(idx,idx+16000):visible.slice(0,16000);
-
- return{
-  brand:b.label,
-  sourceType:"LINKEDIN",
-  profileUrl:b.linkedin,
-  raw:excerpt
- }
+function httpsUrl(value){
+ try{
+  const url=new URL(value);
+  return url.protocol==="https:"&&!url.username&&!url.password&&!url.port?url:null;
+ }catch{return null}
 }
 
-async function officialSocialFallback(b){
- const q=`${b.officialQuery} when:14d`;
- const r=await fetch(`https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=en-US&gl=US&ceid=US:en`,{
-  headers:{"User-Agent":"Mozilla/5.0"}
- });
- if(!r.ok)throw Error(`Official fallback RSS ${r.status}`);
- const xml=await r.text();
- const items=[...xml.matchAll(/<item>([\s\S]*?)<\/item>/gi)].map(m=>m[1]).map(x=>({
-  title:tag(x,"title"),
-  date:tag(x,"pubDate"),
-  source:source(x).name||"Google News",
-  url:link(x),
-  description:tag(x,"description")
- })).filter(x=>x.title).slice(0,8);
-
- return{
-  brand:b.label,
-  sourceType:"OFFICIAL_FALLBACK",
-  profileUrl:b.linkedin,
-  raw:JSON.stringify(items)
+function socialPost(value){
+ const url=httpsUrl(value);
+ if(!url)return null;
+ let path;
+ try{path=decodeURIComponent(url.pathname).replace(/\/$/,"").toLowerCase()}catch{return null}
+ if(["linkedin.com","www.linkedin.com"].includes(url.hostname)){
+  const match=path.match(/^\/posts\/([^/]+)_.*-activity-(\d{19})-[^/]+$/);
+  if(match){
+   const brand=SOCIAL_BRANDS.find(b=>b.linkedIn.includes(match[1]));
+   if(brand)return {brand:brand.label,platform:"LinkedIn",date:socialDate(Number(BigInt(match[2])>>22n)),key:path};
+  }
  }
+ if(["facebook.com","www.facebook.com","m.facebook.com"].includes(url.hostname)){
+  const match=path.match(/^\/([^/]+)\/(posts|videos|permalink)\/([a-z0-9]+)$/);
+  if(match){
+   const brand=SOCIAL_BRANDS.find(b=>b.facebook.includes(match[1]));
+   if(brand)return {brand:brand.label,platform:"Facebook",key:path};
+  }
+ }
+ return null;
+}
+
+async function groundingUrl(value){
+ const url=httpsUrl(value);
+ if(!url)return "";
+ if(url.hostname!=="vertexaisearch.cloud.google.com")return url.href;
+ if(!url.pathname.startsWith("/grounding-api-redirect/"))return "";
+ try{
+  const result=await fetch(url,{redirect:"manual",signal:AbortSignal.timeout(3200)});
+  return httpsUrl(result.headers.get("location"))?.href||"";
+ }catch{return ""}
+}
+
+async function discoverSocialPosts(){
+ if(!process.env.GEMINI_API_KEY)return [];
+ const brands=SOCIAL_BRANDS.map(b=>[b.label,b.linkedIn.map(x=>"linkedin.com/posts/"+encodeURIComponent(x)),b.facebook.map(x=>"facebook.com/"+x+"/posts")]);
+ const prompt="Search Google for public posts from these official LinkedIn and Facebook accounts covering the last 14 days through "+kst()+". Search across all five brands. Seek product, collaborations, seasonal merchandising, campaigns, and channel moves. Cite each original post in your response. Only use individual posts with accessible factual context and a publication date, not profiles, employee posts or news. For each result put a single JSON object on its own line with keys url, date (YYYY-MM-DD), title, summary (English). If the publication date or original post is unavailable omit it. Do not use article dates or search result crawl dates. Accounts: "+JSON.stringify(brands);
+ const r=await fetch(BASE+"/"+encodeURIComponent(MODEL)+":generateContent",{
+  method:"POST",headers:{"x-goog-api-key":process.env.GEMINI_API_KEY,"Content-Type":"application/json"},
+  body:JSON.stringify({contents:[{parts:[{text:prompt}]}],tools:[{google_search:{}}],generationConfig:{maxOutputTokens:2600}}),
+  signal:AbortSignal.timeout(16000)
+ });
+ if(!r.ok)throw Error("Social search "+r.status);
+ const candidate=(await r.json()).candidates?.[0];
+ const metadata=candidate?.groundingMetadata;
+ const chunks=metadata?.groundingChunks||[];
+ const indexes=[...new Set((metadata?.groundingSupports||[]).flatMap(s=>s.groundingChunkIndices||[]))].slice(0,16);
+ const citations=await Promise.all(indexes.map(i=>groundingUrl(chunks[i]?.web?.uri)));
+ const grounded=new Set(citations.map(url=>socialPost(url)?.key).filter(Boolean));
+ const items=[];
+ for(const part of candidate?.content?.parts||[]){
+  if(part.thought||typeof part.text!=="string")continue;
+  for(const line of part.text.split("\n")){
+   const json=line.match(/\{.*\}/)?.[0];
+   if(!json)continue;
+   let row;
+   try{row=JSON.parse(json)}catch{continue}
+   const post=socialPost(row.url);
+   if(!post||!grounded.has(post.key))continue;
+   const date=post.platform==="LinkedIn"?post.date:/^\d{4}-\d{2}-\d{2}$/.test(row.date||"")?socialDate(row.date):"";
+   const title=clean(row.title).slice(0,200),description=clean(row.summary).slice(0,450);
+   if(!date||!title||!description)continue;
+   items.push({...post,date,title,description,url:httpsUrl(row.url).origin+httpsUrl(row.url).pathname});
+  }
+ }
+ return items;
+}
+
+async function socialNews(brand){
+ const query=brand.query+" (apparel OR collection OR collaboration OR campaign OR merchandising OR stores OR digital) when:"+SOCIAL_WINDOW_DAYS+"d";
+ const r=await fetch("https://news.google.com/rss/search?q="+encodeURIComponent(query)+"&hl=en-US&gl=US&ceid=US:en",{
+  signal:AbortSignal.timeout(6500)
+ });
+ if(!r.ok)throw Error("Social news RSS "+r.status);
+ return [...(await r.text()).matchAll(/<item>([\s\S]*?)<\/item>/gi)].flatMap(([,item])=>{
+  const title=tag(item,"title");
+  if(/\b(hiring|careers?|interns?|vacanc(?:y|ies)|job opening)\b/i.test(title))return [];
+  const date=socialDate(tag(item,"pubDate"));
+  const url=httpsUrl(link(item));
+  const publisher=source(item);
+  const domain=httpsUrl(publisher.url)?.hostname||"";
+  const official=brand.domains.some(d=>domain===d||domain.endsWith("."+d));
+  if(!title||!date||!url)return [];
+  return [{
+   brand:brand.label,platform:official?"Official":"News",date,title,
+   description:tag(item,"description").slice(0,350),url:url.href,key:url.href,
+   publisher:publisher.name
+  }];
+ }).slice(0,8);
+}
+
+function uniqueSocial(items){
+ const urls=new Set(),headlines=new Set();
+ return items.filter(item=>{
+  const title=item.title.toLowerCase().replace(/\s+-\s+[^-]+$/,"").replace(/[^a-z0-9가-힣]/g,"");
+  if(urls.has(item.key)||headlines.has(title))return false;
+  urls.add(item.key);
+  headlines.add(title);
+  return true;
+ });
 }
 
 async function collectSocialEvidence(){
- const out=[];
- for(const b of SOCIAL_BRANDS){
-  try{
-   out.push(await fetchLinkedInPublic(b))
-  }catch(e){
-   try{
-    out.push(await officialSocialFallback(b))
-   }catch(e2){
-    out.push({brand:b.label,sourceType:"UNAVAILABLE",profileUrl:b.linkedin,raw:""})
-   }
-  }
- }
- return out
-}
-
-function socialFallbackSeed(){
- return[
-  {
-   brand:"Kohl's",platform:"LinkedIn",signal:"CAMPAIGN",
-   date:"2026.09.07",
-   headline:{kr:"Kohl's So-Back Studio로 BTS campaign 경험 확대",en:"Kohl's Extends BTS Campaign Through the So-Back Studio"},
-   summary:{kr:"Kohl's는 New York에서 'We Are So Back (To School)' campaign과 연결된 interactive pop-up을 소개하며 첫 등교일의 self-expression과 confidence를 강조했습니다.",en:"Kohl's highlighted an interactive New York pop-up tied to its 'We Are So Back (To School)' campaign, emphasizing self-expression and confidence around the first day of school."},
-   whyItMatters:{kr:"단순 price promotion보다 experience와 self-expression을 결합한 BTS storytelling을 강화하는 흐름입니다.",en:"The signal points to BTS storytelling that blends experience and self-expression rather than relying only on price promotion."},
-   action:{kr:"Kids/Tek Gear 제안 시 product story와 styling/graphic concept을 campaign theme에 연결할 수 있는 option을 준비.",en:"For Kids/Tek Gear proposals, prepare product stories and styling/graphic concepts that can connect to campaign themes."},
-   sourceUrl:"https://www.linkedin.com/company/kohls-department-stores"
-  },
-  {
-   brand:"A&F / Hollister",platform:"LinkedIn",signal:"COLLAB",
-   date:"2026.09.13",
-   headline:{kr:"A&F, NFL Fashion Partnership를 multi-category로 확대",en:"A&F Expands Its NFL Fashion Partnership Across Categories"},
-   summary:{kr:"A&F는 NFL Official Fashion Partner 2년차를 강조하며 men's, women's뿐 아니라 kids, baby, toddler까지 assortment를 확대하고 Fanatics·NFLShop·stadium store distribution을 넓혔습니다.",en:"A&F highlighted year two as an Official Fashion Partner of the NFL, expanding assortments across men's, women's, kids, baby and toddler while broadening distribution through Fanatics, NFLShop and stadium stores."},
-   whyItMatters:{kr:"Sports × Fashion이 seasonal capsule이 아니라 category와 channel을 넓히는 성장 platform으로 발전하고 있습니다.",en:"Sports × Fashion is developing from a seasonal capsule into a broader category and channel growth platform."},
-   action:{kr:"Kids/Baby까지 확장 가능한 licensed graphic, fleece, jersey-inspired program과 빠른 drop 대응 capability를 제안 포인트로 준비.",en:"Prepare licensed graphic, fleece and jersey-inspired programs that can extend into Kids/Baby, with fast drop-response capability."},
-   sourceUrl:"https://www.linkedin.com/company/abercrombie-%26-fitch/"
-  },
-  {
-   brand:"Macy's",platform:"LinkedIn",signal:"FINANCIAL",
-   date:"2026.09.13",
-   headline:{kr:"Macy's, Q2 customer response 개선과 full-year outlook 상향 강조",en:"Macy's Highlights Better Q2 Customer Response and Raised Full-Year Outlook"},
-   summary:{kr:"Macy's는 newness, compelling assortment, Reimagine stores와 digital investment가 Q2 성과를 견인했고 full-year outlook을 상향했다고 공유했습니다.",en:"Macy's said newness, compelling assortments, Reimagine stores and digital investments helped drive Q2 performance and supported a higher full-year outlook."},
-   whyItMatters:{kr:"Buyer가 단순 inventory 축소보다 newness와 differentiated assortment에 다시 투자할 여지가 커지는 signal입니다.",en:"The signal suggests more room to invest in newness and differentiated assortments rather than focusing only on inventory reduction."},
-   action:{kr:"Macy's 제안은 opening price만 강조하기보다 differentiated fabric/detail과 빠른 newness 제안을 함께 준비.",en:"For Macy's, pair opening-price options with differentiated fabric/detail ideas and faster newness proposals."},
-   sourceUrl:"https://www.linkedin.com/company/macy/"
-  }
- ]
+ const results=await Promise.allSettled([discoverSocialPosts(),...SOCIAL_BRANDS.map(socialNews)]);
+ const sources=results.flatMap(r=>r.status==="fulfilled"?r.value:[]);
+ const priority={LinkedIn:0,Facebook:0,Official:1,News:2};
+ sources.sort((a,b)=>priority[a.platform]-priority[b.platform]||b.date.localeCompare(a.date));
+ return uniqueSocial(sources).map((source,index)=>({...source,id:index+1}));
 }
 
 async function synthSocial(evidence){
  if(!process.env.GEMINI_API_KEY)throw Error("GEMINI_API_KEY missing");
-
- const prompt=`You are creating "SOCIAL PULSE" for a Korean apparel vendor sales team.
-
-FOCUS ONLY:
-- Kohl's
-- A&F / Hollister
-- Macy's
-
-INPUT may contain public LinkedIn company-page text. If LinkedIn was unavailable, it may contain official/corporate recent-news fallback evidence.
-
-GOAL:
-Select up to TWO meaningful recent signals per brand, but only signals relevant to apparel sales/merchandising/sourcing.
-
-HIGH VALUE:
-PRODUCT, COLLAB, CAMPAIGN, STRATEGY, FINANCIAL, STORE, DIGITAL, LEADERSHIP if it changes commercial direction.
-
-LOW VALUE / OMIT:
-generic hiring, employee anniversaries, charity, generic culture posts, congratulations without a commercial implication.
-
-For each selected signal:
-- summarize what the brand itself is emphasizing
-- explain Why It Matters for an apparel vendor
-- give one specific TEAM 8 ACTION
-- never invent facts or dates
-- if evidence is weak, return fewer items
-- Korean should sound like a Korean apparel sales manager, using natural English business terms where appropriate.
-
-Return JSON ONLY:
-{"items":[
- {
-  "brand":"Kohl's|A&F / Hollister|Macy's",
-  "platform":"LinkedIn|Official",
-  "signal":"PRODUCT|COLLAB|CAMPAIGN|STRATEGY|FINANCIAL|STORE|DIGITAL|LEADERSHIP",
-  "date":"YYYY.MM.DD or RECENT",
-  "headline":{"kr":"","en":""},
-  "summary":{"kr":"","en":""},
-  "whyItMatters":{"kr":"","en":""},
-  "action":{"kr":"","en":""},
-  "sourceUrl":"use the supplied LinkedIn profile URL or exact official URL when available"
- }
-]}
-
-EVIDENCE=${JSON.stringify(evidence)}`;
-
- const r=await fetch(`${BASE}/${encodeURIComponent(MODEL)}:generateContent`,{
-  method:"POST",
-  headers:{"x-goog-api-key":process.env.GEMINI_API_KEY,"Content-Type":"application/json"},
-  body:JSON.stringify({
-   contents:[{parts:[{text:prompt}]}],
-   generationConfig:{temperature:.15,maxOutputTokens:4200,responseMimeType:"application/json"}
-  })
+ const prompt="Write Social Pulse for a Korean apparel sales team using only the provided source items. Prefer verified LinkedIn/Facebook posts, then corporate releases and trade news. Choose up to two genuinely different topics per brand and represent every brand with useful evidence. Cover apparel products, campaigns, collabs, merchandising, channel or sourcing changes. Omit generic hiring, profiles, charity or repetitive earnings. Choose one source ID per story and mention only facts in that source. Never invent dates or copy URLs into the output. Use natural Korean with familiar business English and an English translation. Return JSON: {\"items\":[{\"id\":1,\"signal\":\"PRODUCT|COLLAB|CAMPAIGN|STRATEGY|FINANCIAL|STORE|DIGITAL|LEADERSHIP\",\"headline\":{\"kr\":\"\",\"en\":\"\"},\"summary\":{\"kr\":\"\",\"en\":\"\"},\"whyItMatters\":{\"kr\":\"\",\"en\":\"\"},\"action\":{\"kr\":\"\",\"en\":\"\"}}]}. Sources: "+JSON.stringify(evidence.map(({id,brand,platform,date,title,description})=>({id,brand,platform,date,title,description})));
+ const r=await fetch(BASE+"/"+encodeURIComponent(MODEL)+":generateContent",{
+  method:"POST",headers:{"x-goog-api-key":process.env.GEMINI_API_KEY,"Content-Type":"application/json"},
+  body:JSON.stringify({contents:[{parts:[{text:prompt}]}],generationConfig:{temperature:.15,maxOutputTokens:5500,responseMimeType:"application/json"}}),
+  signal:AbortSignal.timeout(16500)
  });
  const j=await r.json();
- if(!r.ok)throw Error(j?.error?.message||`Gemini ${r.status}`);
+ if(!r.ok)throw Error("Social Pulse summary "+r.status);
  const parsed=JSON.parse(text(j));
  if(!Array.isArray(parsed.items))throw Error("Social Pulse JSON incomplete");
+ return parsed.items;
+}
 
- // Keep max 2 per brand / max 6 overall
- const counts={},items=[];
- for(const x of parsed.items){
-  if(!SOCIAL_BRANDS.some(b=>b.label===x.brand))continue;
-  counts[x.brand]=counts[x.brand]||0;
-  if(counts[x.brand]>=2)continue;
-  counts[x.brand]++;
-  items.push(x);
+function formatSocial(evidence,analysis){
+ const byId=new Map(analysis.filter(x=>x&&SOCIAL_TOPICS.includes(x.signal)&&typeof x.headline?.kr==="string"&&x.headline.kr.trim()).map(x=>[Number(x.id),x]));
+ const localized=value=>({kr:typeof value?.kr==="string"?value.kr:"",en:typeof value?.en==="string"?value.en:""});
+ const first=[],second=[];
+ for(const b of SOCIAL_BRANDS){
+  const all=evidence.filter(x=>x.brand===b.label);
+  const candidates=all.filter(x=>x.platform!=="News"||byId.has(x.id));
+  const primary=candidates[0]||all[0];
+  if(!primary)continue;
+  first.push(primary);
+  const primaryTopic=byId.get(primary.id)?.signal;
+  const next=candidates.find(x=>x.id!==primary.id&&byId.has(x.id)&&byId.get(x.id).signal!==primaryTopic);
+  if(next)second.push(next);
  }
- if(!items.length)throw Error("No useful Social Pulse signals");
- return items.slice(0,6)
+ return [...first,...second].slice(0,8).map(source=>{
+  const x=byId.get(source.id);
+  return {
+   brand:source.brand,platform:source.platform,date:source.date,sourceUrl:source.url,publisher:source.publisher,
+   signal:x?.signal||"UPDATE",
+   headline:x?localized(x.headline):{kr:source.title,en:source.title},
+   summary:x?localized(x.summary):{kr:source.description,en:source.description},
+   whyItMatters:localized(x?.whyItMatters),action:localized(x?.action)
+  };
+ });
 }
 
 async function buildSocial(){
  const evidence=await collectSocialEvidence();
- try{
-  const items=await synthSocial(evidence);
-  return{
-   ok:true,
-   generatedDateKST:kst(),
-   windowDays:14,
-   analysisMode:"GEMINI",
-   brands:["Kohl's","A&F / Hollister","Macy's"],
-   items
-  }
- }catch(e){
-  return{
-   ok:true,
-   generatedDateKST:kst(),
-   windowDays:14,
-   analysisMode:"SEED_FALLBACK",
-   brands:["Kohl's","A&F / Hollister","Macy's"],
-   warning:e.message,
-   items:socialFallbackSeed()
-  }
+ let analysis=[];
+ if(evidence.length){
+  try{analysis=await synthSocial(evidence)}catch{}
  }
+ return {
+  ok:true,generatedDateKST:kst(),windowDays:SOCIAL_WINDOW_DAYS,
+  analysisMode:analysis.length?"GEMINI":"SOURCE_ONLY",
+  brands:SOCIAL_BRANDS.map(b=>b.label),
+  items:formatSocial(evidence,analysis)
+ };
 }
 
 async function build(){
- const [packs,social]=await Promise.all([collect(),buildSocial()]);
+ const socialPromise=buildSocial();
+ const packs=await collect();
  let buyers,mode="GEMINI";
  try{buyers=await synthAll(packs)}
  catch(e){buyers=packs.map(p=>fallbackBuyer(p.buyer,p.evidence));mode="RULE_FALLBACK"}
@@ -447,7 +418,7 @@ async function build(){
   windowDays:7,
   analysisMode:mode,
   buyers,
-  socialPulse:social
+  socialPulse:await socialPromise
  }
 }
 
@@ -466,7 +437,7 @@ module.exports=async(req,res)=>{
  // IMPORTANT:
  // Old snapshots created before Social Pulse existed are rebuilt once,
  // even if generatedDateKST is already today.
- const hasSocial=Array.isArray(old?.socialPulse?.items)&&old.socialPulse.items.length>0;
+ const hasSocial=Array.isArray(old?.socialPulse?.items);
 
  if(!forced&&old?.generatedDateKST===kst()&&hasSocial)
   return res.status(200).json({...old,servedFrom:"saved"});
