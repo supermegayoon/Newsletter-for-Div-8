@@ -1,3 +1,21 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "buyer": "kohls",
+      "verified": true,
+      "platform": "LinkedIn",
+      "accountUrl": "https://www.linkedin.com/company/kohls-department-stores/",
+      "sourceUrl": "https://www.linkedin.com/posts/kohls-department-stores_lifeatkohls-activity-7510353457376215040-7MG5",
+      "publishedAt": "2026-09-28",
+      "text": "콜스는 밀워키에서 여러 매장을 담당하는 현장 리더들과 연말 쇼핑 시즌 준비를 점검했다고 공유했습니다. 함께 소개한 CEO 마이클 벤더의 글에서는 매장 팀 간 실행의 일관성과 고객 경험을 강조했습니다.",
+      "signal": {
+        "kr": "연말 시즌에 매장마다 일관된 실행을 강조합니다.",
+        "en": "Kohl’s is emphasizing consistent execution across stores for the holiday season."
+      },
+      "action": {
+        "kr": "연말 핵심 스타일별 추가 생산 가능 물량과 리오더 납기를 정리해 콜스 팀에 제안할 수 있도록 준비합니다.",
+        "en": "Prepare backup capacity and reorder lead times for key holiday styles to discuss with the Kohl’s team."
+      }
+    }
+  ]
 }
