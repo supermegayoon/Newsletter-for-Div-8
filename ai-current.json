@@ -1,80 +1,81 @@
 {
   "ok": true,
-  "asOf": "2026-11-17T23:00:58.990Z",
-  "generatedDateKST": "2026-11-18",
+  "asOf": "2026-11-18T23:00:42.090Z",
+  "generatedDateKST": "2026-11-19",
   "schedule": "Mon-Fri 08:00 KST",
-  "refreshStatus": "VERIFIED",
+  "refreshStatus": "RULE_FALLBACK",
   "stale": false,
-  "provider": "Google Gemini",
-  "model": "gemini-3.5-flash-lite",
+  "provider": "Rule Fallback",
+  "model": null,
   "usesCompetitorIntelligence": true,
-  "competitorDateKST": "2026-11-18",
+  "competitorDateKST": "2026-11-19",
+  "fallbackReason": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
   "insight": {
     "headline": {
-      "kr": "콜스 Uber Eats 배송 확대 및 메이시스 AI 어시스턴트 도입... Holiday 시즌 온·offline 경쟁 심화",
-      "en": "Kohl's expands Uber Eats delivery and Macy's rolls out in-store AI assistants as holiday omnichannel competition intensifies"
+      "kr": "Kohl's, Uber Eats와 Partnership을 통해 전국 단위 on-demand delivery 서비스 런칭",
+      "en": "Uber partners with Kohl’s to launch nationwide on-demand delivery"
     },
     "summary": {
-      "kr": "주요 바이어들이 Holiday 시즌을 맞아 옴니컬라와 풀필먼트 경쟁을 가속화하고 있습니다. 타겟 등 경쟁사들의 조기 블랙프라이데이 공세에 맞서 콜스는 딜리버리를 강화하고, 메이시스는 offline 매장까지 AI를 확장하며 판매율 제고에 총력전을 펼치고 있습니다.",
-      "en": "Major buyers are accelerating omnichannel and fulfillment competition for the holiday season. Countering early Black Friday pushes from rivals like Target, Kohl's is scaling delivery services and Macy's is expanding AI tools to physical stores to drive sell-through."
+      "kr": "오늘 Buyer News와 Competitor Intelligence를 기준으로 Kohl's, A&F/Hollister, Macy's의 주요 변화와 경쟁사 움직임을 함께 점검했습니다. Team 8은 상품, pricing, promotion 및 sourcing 관점에서 실제 제안으로 연결 가능한 signal을 우선 확인할 필요가 있습니다.",
+      "en": "Today's brief combines buyer news and competitor intelligence across Kohl's, A&F/Hollister and Macy's. Team 8 should prioritize actionable signals in product, pricing, promotion and sourcing."
     },
     "tags": [
-      "#BlackFriday",
-      "#Omnichannel",
-      "#HolidaySeason",
-      "#RetailTech"
+      "#BuyerNews",
+      "#Competitor",
+      "#Team8",
+      "#DailyBrief"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "전국 1,100여 개 매장을 기반으로 한 Uber Eats 즉시 배송 Partnership을 개시했습니다. 타겟 등 경쟁사의 조기 블랙프라이데이 promotion에 대응해 연말 Holiday 풀필먼트 및 배송 경쟁력을 대폭 끌어올리고 있습니다.",
-        "en": "Launched a nationwide instant delivery partnership with Uber Eats across 1,100+ stores. It is significantly boosting holiday fulfillment and delivery capabilities in response to early Black Friday promotions from rivals like Target."
+        "kr": "Target, Target, Target 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for Target, Target, Target. Review the implications by buyer using the cited sources."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "오는 11월 24일 Q3 실적 발표를 앞두고 있으며, Z세대 타겟 브랜드 모멘텀 유지에 주력하고 있습니다. 아메리칸 이글 및 어반 아웃피터스의 offline 매장 확장 공세 속에서 차별화된 영 컨템퍼러리 전략이 요구됩니다.",
-        "en": "Preparing for its Q3 earnings report on November 24, focusing on sustaining Gen Z brand momentum. Amid brick-and-mortar expansion pushes by American Eagle and Urban Outfitters, differentiated young contemporary strategies are required."
+        "kr": "Aritzia, American Eagle, Free People 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for Aritzia, American Eagle, Free People. Review the implications by buyer using the cited sources."
       },
       {
         "buyer": "Macy's",
-        "kr": "online에 한정되었던 AI 쇼핑 어시스턴트를 offline 매장 영업 현장까지 전면 확대 도입했습니다. 매장 내 스타일링 추천과 고객 응대 효율성을 높여 12월 2일 Q3 실적 발표를 앞두고 sell-through 개선을 도모하고 있습니다.",
-        "en": "Expanded its AI shopping assistant from online to in-store retail teams. By enhancing in-store styling recommendations and customer service efficiency, it aims to improve sell-through ahead of its Dec 2 Q3 earnings release."
+        "kr": "Nordstrom, Nordstrom, Dillard's 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for Nordstrom, Nordstrom, Dillard's. Review the implications by buyer using the cited sources."
       }
     ],
     "opportunities": [
       {
-        "kr": "콜스의 Uber Eats 즉시 배송 및 풀필먼트 확대에 맞추어, reorder 및 신속 납기가 가능한 Holiday 베스트셀러 아이템의 추가 공급을 제안합니다.",
-        "en": "Propose additional supply of holiday best-seller items capable of quick re-orders and rapid delivery to align with Kohl's expanded Uber Eats fulfillment."
+        "kr": "Target의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+        "en": "Use this Target signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
       },
       {
-        "kr": "메이시스의 offline AI 쇼핑 어시스턴트 도입에 발맞추어, 매장 내 시각적 소구력이 뛰어난 트렌디한 어패럴 상품군과 머천다이징 패키지를 제안합니다.",
-        "en": "Leverage Macy's in-store AI assistant rollout by proposing trendy apparel lines and merchandising packages with high visual in-store appeal."
+        "kr": "Aritzia의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+        "en": "Use this Aritzia signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
       },
       {
-        "kr": "경쟁사들의 조기 블랙프라이데이 공세에 대응하여, 주요 바이어들의 주력 category별 특가 promotion용 베이직 및 트렌드 의류 sourcing 확대를 타진합니다.",
-        "en": "Explore expanded sourcing of basic and trend apparel for special promotional events across key buyer categories to counter rivals' early Black Friday campaigns."
+        "kr": "Nordstrom의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+        "en": "Use this Nordstrom signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
       }
     ],
     "risk": {
-      "level": "HIGH",
-      "kr": "타겟, 제이씨페니, 노드스트롬 등 주요 유통 경쟁사들의 대규모 조기 블랙프라이데이 할인 공세로 인해 바이어들의 가격 인하 압박과 재고 회전율 부담이 최고조에 달하고 있습니다.",
-      "en": "Intense early Black Friday discount campaigns from major retail competitors like Target, JCPenney, and Nordstrom are pushing buyer pricing pressures and inventory turnover burdens to peak levels."
+      "level": "MEDIUM",
+      "kr": "일부 signal은 빠르게 변할 수 있으므로 source 원문 및 buyer 반응을 함께 확인해야 합니다.",
+      "en": "Some signals can change quickly, so validate source articles and buyer reactions before decisions."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "콜스의 Uber Eats 연계 배송 확산에 따른 Holiday 시즌 긴급 reorder 대응 재고 현황을 파악합니다.",
-        "en": "Review emergency holiday season re-order inventory status in response to Kohl's expanded Uber Eats delivery rollout."
+        "kr": "오늘자 Buyer News와 competitor source 중 영업 제안으로 연결 가능한 1~2개 signal을 팀별로 선정합니다.",
+        "en": "Select 1-2 actionable buyer/competitor signals for each sales team."
       },
       {
         "owner": "Team 8",
-        "kr": "메이시스의 offline 매장 AI 도입에 적합한 매장 진열 최적화 상품 및 제안서를 점검합니다.",
-        "en": "Audit store display-optimized products and proposals suited for Macy's in-store AI integration."
+        "kr": "가격, product, promotion 관점에서 buyer별 차별화 제안 가능성을 검토합니다.",
+        "en": "Review differentiated proposals by buyer across pricing, product and promotion."
       },
       {
         "owner": "Team 8",
-        "kr": "주요 경쟁사들의 블랙프라이데이 가격 할인 및 promotion 동향을 모니터링하고 바이어별 대응 룩을 준비합니다.",
-        "en": "Monitor major competitors' Black Friday pricing and promotional trends to prepare responsive apparel looks for each buyer."
+        "kr": "중요 signal은 다음 개발 및 costing 논의에 반영할 수 있도록 source와 함께 공유합니다.",
+        "en": "Share important signals with sources for upcoming development and costing discussions."
       }
     ]
   }
