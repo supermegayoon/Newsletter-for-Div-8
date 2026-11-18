@@ -1,45 +1,45 @@
 {
   "ok": true,
-  "asOf": "2026-11-16T23:47:52.852Z",
-  "generatedDateKST": "2026-11-17",
+  "asOf": "2026-11-18T01:30:58.945Z",
+  "generatedDateKST": "2026-11-18",
   "refreshStatus": "VERIFIED",
   "stale": false,
   "items": [
     {
       "level": "HIGH",
-      "title_kr": "미국-인도 무역 협상 관세 우위 확보 동향",
-      "title_en": "US Assures India of Tariff Edge in Trade Deal",
-      "body_kr": "미국이 인도와의 무역 협상에서 아시아 경쟁국 대비 관세 우위를 보장함에 따라, 인도 스소싱 및 의류 제조 부문의 가격 경쟁력 변동에 선제적 대비가 필요합니다.",
-      "body_en": "As the US assures India of a tariff edge over Asian rivals in their trade deal, sourcing teams must prepare for shifts in regional apparel pricing and competitiveness.",
-      "action_kr": "인도 지역의 협력 공장 Sourcing Capa를 점검하고, 향후 Costing 변동성에 대비해 대안 포트폴리오를 구성하세요.",
-      "action_en": "Audit sourcing capacity in India and build alternative sourcing portfolios to prepare for potential costing shifts.",
-      "source": "MLQ.ai",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMFVKYlZrLUZFcXNBZG9PYjhxVWlPbVBYUE81RGQ4REN3N1VydjVFb19nMVdoQWdQNDR5ZTN2TVdNWHBScm5uMWU4ZG93aGd5aUw0cS1NS0NiZnRqQjhxbGNMNnRsdmFtS2JxTEM4SXlpbzhLTy0tLUFFZDRoalgtT3doT2VBdHhOdkhhS1dpYUxpNG1weHd3y3NCcEtuUmE3RmxrMzY0UWJuSnZTdzhURWgtdw?oc=5",
-      "date": "2026.11.13"
-    },
-    {
-      "level": "MEDIUM",
-      "title_kr": "방글라데시 수출 회복력 및 관세율 외 이슈 대두",
-      "title_en": "Building Bangladesh's Export Resilience Beyond Tariff Rates",
-      "body_kr": "방글라데시 의류 산업이 단순 관세율을 넘어 수출 회복력과 공급망 안정성 확보에 주력하고 있습니다.",
-      "body_en": "Bangladesh's apparel sector is focusing on export resilience and supply chain stability beyond just tariff rates.",
-      "action_kr": "방글라데시 벤더들의 납기 준수율과 리드타임 안정성을 재검토하고 메인 오더 배분 시 반영하세요.",
-      "action_en": "Review lead-time stability and on-time delivery performance for Bangladesh vendors when allocating main orders.",
-      "source": "The New Nation",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE50NTVIUVZnOGlvWFRkSDZRZWlRcHhWaEZSUHdJN19URHVEdFVGWlNXYmdKT0o3akczTkpmb3FQc1hKbHMxcDhsVWZULWFzZkk?oc=5",
+      "title_kr": "트럼프 행정부, 60개 교역국 상대로 광범위한 관세 부과 추진",
+      "title_en": "Trump Set to Impose Sweeping Tariffs on 60 Trade Partners",
+      "body_kr": "트럼프 행정부가 60개 교역국을 대상으로 전면적인 관세 부과를 추진하면서 글로벌 apparel 공급망과 Sourcing 전략에 큰 불확실성이 커지고 있습니다.",
+      "body_en": "Trump is set to impose sweeping tariffs on 60 trade partners, raising major uncertainty for global apparel supply chains and sourcing strategies.",
+      "action_kr": "Sourcing 팀은 주요 생산 국가별 Section 301 및 관세 리스크를 시뮬레이션하고, Costing 변동성에 대비해 원부자재 다변화 계획을 수립하십시오.",
+      "action_en": "Sourcing teams must simulate Section 301 and tariff risks by production country and establish raw material diversification plans for costing volatility.",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa1BDcjdFRHFWaGlkYlMzZi1ZY2hCaVR5dGRpalctVTI1Q2poOGxFcXZqdmZfX2lqaVZxRmo3MWZIZ2ZUU0xCMm44OFdibDRCNF9BOVNmT1VHNURxR0tabkNtaVdoNTRaTW81cVIyVUdvanhBUS1rX3pEZFdyQmNSbDVDa0VMM2tPVGhYbDkwR1VhcUJJTDJXVmhNZVVVNi1L0gGmAUFVX3lxTE5UdFo2TDl4c1R2ZWRuX1ZxbTA3UmdwQnlrbVh1OXUyd1pucVlQS2dqY2VsbnRNSGt3WWljNkZ3V2kySmZNUzJ4WVBaT2NXSGRuUFlqRmx1UXNzSlEwZkV1MGRWVWxNbHdBcnY3Vm9CMVFqSWZxdnI3TkZqbWxValByNzBMRWxBR3BraFBtbEVuUFBvNDNpUVNBdWVkN3V6enc1YjlIWXc?oc=5",
       "date": "2026.11.16"
     },
     {
       "level": "MEDIUM",
-      "title_kr": "Abercrombie & Fitch(ANF) 주가 및 홀리스터 성장 전략",
-      "title_en": "ANF Stock and Hollister Growth Strategies",
-      "body_kr": "아버크롬비앤피치(ANF)의 주가 동향과 홀리스터 브랜드의 파트너십 기반 성장 전략이 주목받고 있습니다.",
-      "body_en": "Abercrombie & Fitch's stock updates and Hollister's partnership-driven growth strategies are drawing market focus.",
-      "action_kr": "ANF 및 홀리스터 담당 영업팀은 바이어의 타겟 파트너십 확장 전략에 맞춰 신규 카테고리 제안을 준비하세요.",
-      "action_en": "Sales teams handling ANF and Hollister should prepare new category proposals aligned with the buyer's partnership expansion strategy.",
-      "source": "Yahoo! Finance Canada",
-      "sourceUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBtckJLQWtNUlJFbDM2V2NpNHFWVUMxSWcyVDJDSDNfRUhfVS02dl9JMVU0X3UwWXVLSXZZSWUwa0ZMakRueG04RjV3aHBDejRT?oc=5",
-      "date": "2026.11.16"
+      "title_kr": "Gen Z 패션 트렌드: '오버사이즈 의류' 수요 급증",
+      "title_en": "Comfort Meets Style: Why Oversized Clothing Is Dominating Gen Z Fashion",
+      "body_kr": "편안함과 스타일을 모두 중시하는 Gen Z 소비자들 사이에서 오버사이즈 의류가 핵심 패션 트렌드로 자리 잡고 있습니다.",
+      "body_en": "Oversized clothing is dominating Gen Z fashion as consumers heavily prioritize a blend of comfort and style.",
+      "action_kr": "Merchandising 팀은 후디, 스웨트셔츠, 오버사이즈 재킷 등 관련 품목의 실루엣과 핏 스펙을 조정하여 신규 오더를 준비하십시오.",
+      "action_en": "Merchandising teams should adjust silhouette and fit specs for items like hoodies, sweatshirts, and oversized jackets to prepare for new orders.",
+      "source": "Business News This Week",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOOEZsbEZveE52MDZicVh5bW96NEF1WFVGNTl3dnBPZjh3WHN2OFljdXo2VnRDeUV6NjVNNFJ6TFRsMFp0SnFCVk5OYTFoN2txSmZlSW15djJfVFNCRl9rTF9Oc0ExZmJTWDVNLUNIcnh4VjYxRmVDMkRpdFYyMWMtTzZIN19GLXJabE1kMEQtMnFzMUJSRVpLeTNLeHNKS0U5RDZXYWVhbHhuTnNsYVE?oc=5",
+      "date": "2026.11.17"
+    },
+    {
+      "level": "MEDIUM",
+      "title_kr": "아버크롬비-타겟 파트너십과 홀리스터 성장 전략",
+      "title_en": "Can Abercrombie's Target Partnership Fuel Hollister's Growth?",
+      "body_kr": "Abercrombie의 주요 유통 파트너십 확장이 홀리스터 브랜드의 성장 동력으로 작용하며 주요 바이어들의 오더 전략에 영향을 미치고 있습니다.",
+      "body_en": "Abercrombie's major retail partnership expansion is acting as a growth driver for the Hollister brand, impacting key buyer ordering strategies.",
+      "action_kr": "Sales 팀은 홀리스터 및 관련 바이어의 품목별 발주 확대 가능성을 점검하고, 시즌 대응 Capacity를 선제적으로 확보하십시오.",
+      "action_en": "Sales teams should review order expansion potential by item for Hollister and related buyers, and secure seasonal capacity proactively.",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOU3NaOWpCSW84UXNTSUtrVzBhc0VqM200ZTVBemxnM2lHRUYwamlPTGtibE9vSV9iQjlFWDVvUXJCTTg2NW5WejAxRFRsSFRrTUEtLThRYTNyZDVLc1paU04zNl9TZWxxWHhaMElXS25PUFpwak5XMWNqdE1reU5QazJ1cklBZUJDV1NOUkdEUVVIWDVMSWtub1hmYXZTQjJhTTFNcUEta1ByT1QtZFFpbkxR?oc=5",
+      "date": "2026.10.20"
     }
   ]
 }
