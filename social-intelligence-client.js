@@ -2,10 +2,10 @@
 (()=>{
   const profiles=[
     {id:"kohls",name:"Kohl's",url:"https://www.linkedin.com/company/kohls-department-stores/",official:true},
-    {id:"af",name:"A&F / Hollister",url:"https://www.linkedin.com/search/results/companies/?keywords=Abercrombie%20%26%20Fitch",official:false},
-    {id:"macys",name:"Macy's",url:"https://www.linkedin.com/search/results/companies/?keywords=Macy%27s",official:false},
-    {id:"anntaylor",name:"Ann Taylor",url:"https://www.linkedin.com/search/results/companies/?keywords=Ann%20Taylor",official:false},
-    {id:"talbots",name:"Talbot's",url:"https://www.linkedin.com/search/results/companies/?keywords=Talbots",official:false}
+    {"id":"af","name":"A&F / Hollister","url":"https://www.linkedin.com/company/abercrombie-%26-fitch/","official":true},
+    {"id":"macys","name":"Macy's","url":"https://www.linkedin.com/company/macy/","official":true},
+    {"id":"anntaylor","name":"Ann Taylor","url":"https://www.linkedin.com/company/ann-taylor/","official":true},
+    {"id":"talbots","name":"Talbot's","url":"https://www.linkedin.com/company/talbots/","official":true}
   ];
   const root=document.getElementById("social-intelligence-panel");
   if(!root)return;
@@ -27,9 +27,9 @@
     const profile=profiles.find(x=>x.id===selected);
     const items=posts.filter(x=>x.buyer===selected).sort((a,b)=>b.publishedAt.localeCompare(a.publishedAt)).slice(0,10);
     root.innerHTML=
-      '<div class="si-heading"><div><div class="si-eyebrow">SOCIAL INTELLIGENCE</div><h3>'+label("공식 소셜 게시물","Official Social Posts")+'</h3><p>'+label("원문 링크와 게시 날짜가 확인된 공식 게시물만 표시합니다.","Only official posts with a verified source link and publication date appear here.")+'</p></div></div>'+
+      '<div class="si-heading"><div><div class="si-eyebrow">SOCIAL INTELLIGENCE</div><h3>'+label("공식 소셜 게시물","Official Social Posts")+'</h3><p>'+label("확인한 공개 게시물을 수동으로 등록합니다.","Public posts are added after manual review.")+'</p></div></div>'+
       '<div class="si-tabs" role="tablist" aria-label="Buyer selection">'+profiles.map(x=>'<button type="button" role="tab" aria-selected="'+(x.id===selected)+'" class="si-tab'+(x.id===selected?' active':'')+'" data-social-buyer="'+x.id+'">'+esc(x.name)+'</button>').join("")+'</div>'+
-      '<div class="si-evidence-head"><h4>'+esc(profile.name)+' · '+label("최신 공식 게시물","Latest Official Posts")+'</h4><span>'+items.length+' '+label("건","posts")+'</span></div>'+
+      '<div class="si-evidence-head"><h4>'+esc(profile.name)+' · '+label("확인된 공식 게시물","Verified Official Posts")+'</h4><span>'+items.length+' '+label("건","posts")+'</span></div>'+
       (items.length?'<div class="si-evidence">'+items.map((p,i)=>
         '<article class="si-signal"><div class="si-number">'+String(i+1).padStart(2,"0")+'</div><div class="si-signal-body">'+
         '<div class="si-tagline"><b>'+esc(p.platform)+'</b><span>'+esc(p.publishedAt)+'</span></div>'+
