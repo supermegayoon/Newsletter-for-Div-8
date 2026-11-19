@@ -1,0 +1,58 @@
+{
+  "ok": true,
+  "asOf": "2026-11-18T23:00:33.937Z",
+  "generatedDateKST": "2026-11-19",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 3,
+    "within7d": 3,
+    "total": 3,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Partnership / Fulfillment",
+      "category_en": "Partnership / Fulfillment",
+      "date": "2026.11.18",
+      "title_kr": "Kohl's, Uber Eats와 Partnership을 통해 전국 단위 on-demand delivery 서비스 런칭",
+      "title_en": "Uber partners with Kohl’s to launch nationwide on-demand delivery",
+      "body_kr": "Kohl's가 Uber Eats와의 Partnership을 통해 미국 전역에서 on-demand delivery 서비스를 시작하며 retail channel을 확장했습니다. 휴가철 빠른 배송 수요를 공략하는 이번 채널 다변화는 향후 merchandise sell-through와 customer reach 강화에 긍정적인 영향을 미칠 것으로 기대됩니다.",
+      "body_en": "Kohl's has launched nationwide on-demand delivery through a partnership with Uber Eats to capture fast delivery demand. This channel expansion is expected to enhance customer reach and merchandise sell-through during the peak holiday season.",
+      "source": "Fashion United",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOa1ZlTkxIemh2OXR5dlN1M3A4aTJuUTB3TmNXRDJCRndDOUVtUlBEUTB3ZzAtM3pqdHRrQkxDZEdkbW1RWUVOTVVKamIzWG9FQ0ZHYzFJM2d0MmpRZkJ4NnBzXzNma001SjBTa2c1QXdzdHpCNFhmSzFwTld3alBVZm9qSXJyaFd5dEFIM2RHTVVWRXF3NExfdlRDN0pLdGpkeHQxbFpHY3NuVjZtbWQza2RzcktxUzg?oc=5",
+      "ageHours": 13.56
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Holiday / Merchandise",
+      "category_en": "Holiday / Merchandise",
+      "date": "2026.11.18",
+      "title_kr": "Macy's, Thanksgiving Day Parade 100주년 기념 exclusive Disney Capsule Collection 출시",
+      "title_en": "How Macy’s is turning its 100th parade into an exclusive holiday merchandise platform",
+      "body_kr": "Macy's가 Thanksgiving Day Parade 100주년을 기념해 exclusive Disney Capsule Collection을 포함한 다채로운 Holiday merchandise를 공개했습니다. 상징적인 IP를 활용한 이번 프로젝트는 연말 retail traffic과 consumer demand를 견인하는 핵심 sourcing 전략으로 작용하고 있습니다.",
+      "body_en": "Macy's has unveiled an exclusive Disney Capsule Collection and holiday merchandise to celebrate the 100th Thanksgiving Day Parade. This iconic IP-driven initiative serves as a core strategy to drive retail traffic and consumer demand.",
+      "source": "Fashion United",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRWFsRnlSNkt4cmVhcThqd1VLcndZQlc2eHEyTV9tUmd6RHc5VVd6bkJfNW16bkF6VlN3N0RETURpaU5oNDM1OTdfNEZjdlFRbVpDMFJrR194WkwxX1c2MXBDR2tVN08yT09YZ2dzdzFRMmV5NVBWaHNPb19zbkVnQmNLRWZtR29aWThvZFg4WGtnLUVvd0V5aHNDY0JsRGwtdU1hSzNxcWFOVG9zc2lRZ0pZa216c2RycWMtWThIQlR0d0t6TDE0dlE3dENHMmlzX2JV?oc=5",
+      "ageHours": 16.52
+    },
+    {
+      "brand": "Abercrombie & Fitch",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Earnings / Outlook",
+      "category_en": "Earnings / Outlook",
+      "date": "2026.11.18",
+      "title_kr": "Abercrombie & Fitch, Q3 실적 발표를 앞두고 실적 호조 전망 속 주가 상승세",
+      "title_en": "Abercrombie & Fitch Q3 Preview: Stock Outperformance Warranted, Shares Fairly Valued",
+      "body_kr": "Abercrombie & Fitch가 Q3 실적 발표를 앞두고 시장의 긍정적인 전망과 함께 주가 상승세를 기록했습니다. 브랜드의 지속적인 turnaround와 강력한 category별 sell-through가 이번 분기 실적 훈풍을 이끌 것으로 평가받고 있습니다.",
+      "body_en": "Abercrombie & Fitch saw positive stock momentum ahead of its Q3 earnings release amid upbeat market forecasts. The brand's ongoing turnaround and strong category sell-through are expected to drive favorable quarterly results.",
+      "source": "Seeking Alpha",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeHZIWUdfLVktUTVmN19XajJLLXVwVjBaT0t1c2JDWFNuaHl4OURLaTBGNVBvY0tPYTJTRWs0Y004Rkt0UWh3ZUlqWi1JNkVPNjJUc05STktJUE5PVjhLTXE0S1Rjck5BT3BSX0dKYUpHMGJ1TVZ3OFVzbXFoS3dlcTdrMkU4aFZzQXhjMjBMLU1iUVJ4SzJhU0RGTkFBNjg3ZHJNVlRLNk9sOHpBeTBQcTNqTzk4NlpVUENDdG13?oc=5",
+      "ageHours": 3.7
+    }
+  ]
+}
