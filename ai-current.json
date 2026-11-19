@@ -1,81 +1,80 @@
 {
   "ok": true,
-  "asOf": "2026-11-18T23:00:42.090Z",
+  "asOf": "2026-11-19T04:27:54.761Z",
   "generatedDateKST": "2026-11-19",
   "schedule": "Mon-Fri 08:00 KST",
-  "refreshStatus": "RULE_FALLBACK",
+  "refreshStatus": "VERIFIED",
   "stale": false,
-  "provider": "Rule Fallback",
-  "model": null,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
   "usesCompetitorIntelligence": true,
   "competitorDateKST": "2026-11-19",
-  "fallbackReason": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
   "insight": {
     "headline": {
-      "kr": "Kohl's, Uber Eats와 Partnership을 통해 전국 단위 on-demand delivery 서비스 런칭",
-      "en": "Uber partners with Kohl’s to launch nationwide on-demand delivery"
+      "kr": "콜스 배송 채널 확장 및 메이시스 Parade 100주년 IP 협업, A&F 실적 호조 속 Holiday 시즌 준비 본격화",
+      "en": "Kohl's expands delivery channels and Macy's celebrates parade centennial, while A&F rides positive earnings momentum into the holiday season"
     },
     "summary": {
-      "kr": "오늘 Buyer News와 Competitor Intelligence를 기준으로 Kohl's, A&F/Hollister, Macy's의 주요 변화와 경쟁사 움직임을 함께 점검했습니다. Team 8은 상품, pricing, promotion 및 sourcing 관점에서 실제 제안으로 연결 가능한 signal을 우선 확인할 필요가 있습니다.",
-      "en": "Today's brief combines buyer news and competitor intelligence across Kohl's, A&F/Hollister and Macy's. Team 8 should prioritize actionable signals in product, pricing, promotion and sourcing."
+      "kr": "Kohl's가 Uber Eats와의 Partnership으로 온디맨드 배송을 강화하고, Macy's는 Parade 100주년 디즈니 캡슐 컬렉션을 공개했습니다. 한편 A&F는 호실적 기대감 속 주가 상승세를 보였으며, 면화 및 유가 하락이 원가 압박을 완화하는 요인으로 작용하고 있습니다.",
+      "en": "Kohl's expands on-demand delivery via Uber Eats, while Macy's unveils a Disney capsule for its 100th parade. A&F sees positive momentum ahead of earnings, alongside declining cotton and crude prices easing cost pressures."
     },
     "tags": [
-      "#BuyerNews",
-      "#Competitor",
-      "#Team8",
-      "#DailyBrief"
+      "#HolidaySeason",
+      "#KohlsDelivery",
+      "#MacysParade",
+      "#ApparelSourcing"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "Target, Target, Target 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
-        "en": "Recent signals were found for Target, Target, Target. Review the implications by buyer using the cited sources."
+        "kr": "Uber Eats Partnership을 통한 전국 단위 당일 배송 런칭으로 빠른 배송 수요를 공략 중이며, 경쟁사 Target의 7.1% 매출 증가세에 대응하기 위한 Holiday promotion과 assortment 점검이 필수적입니다.",
+        "en": "Capturing fast delivery demand via nationwide on-demand delivery with Uber Eats; requires holiday promotion and assortment reviews to compete with Target's recent 7.1% sales jump."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "Aritzia, American Eagle, Free People 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
-        "en": "Recent signals were found for Aritzia, American Eagle, Free People. Review the implications by buyer using the cited sources."
+        "kr": "Q3 실적 호조 전망과 지속적인 브랜드 턴어라운드에 힘입어 상승세를 유지하고 있으며, 데덤 신규 2층 매장 오픈 등 offline 거점 확장을 통해 주력 category sell-through를 극대화하고 있습니다.",
+        "en": "Sustaining momentum amid positive Q3 expectations and brand turnaround, maximizing core category sell-through through physical expansions like the new two-level store in Dedham."
       },
       {
         "buyer": "Macy's",
-        "kr": "Nordstrom, Nordstrom, Dillard's 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
-        "en": "Recent signals were found for Nordstrom, Nordstrom, Dillard's. Review the implications by buyer using the cited sources."
+        "kr": "Thanksgiving Day Parade 100주년을 기념하는 독점 디즈니 캡슐 컬렉션을 런칭하여 연말 traffic을 견인하고 있으며, IP 연계 Holiday 머천다이징 전략을 본격 가동 중입니다.",
+        "en": "Driving year-end traffic with an exclusive Disney capsule collection celebrating the 100th Thanksgiving Day Parade, executing an IP-driven holiday merchandising strategy."
       }
     ],
     "opportunities": [
       {
-        "kr": "Target의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-        "en": "Use this Target signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+        "kr": "면화 선물 가격(-2.96%)과 원유 가격(-4.79%)의 동반 하락을 활용하여 향후 시즌 원가 경쟁력 확보 및 바이어 제안 가격 조정 검토",
+        "en": "Leverage concurrent drops in cotton futures (-2.96%) and crude oil (-4.79%) to secure cost competitiveness and review pricing proposals for upcoming seasons."
       },
       {
-        "kr": "Aritzia의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-        "en": "Use this Aritzia signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+        "kr": "Macy's의 IP 콜라보 및 Kohl's의 패밀리 잠옷·스웨터 50% 할인 트렌드에 발맞춘 기프트용 아이템 및 홈웨어 sourcing 제안 강화",
+        "en": "Strengthen sourcing proposals for giftable items and homewear aligned with Macy's IP collaborations and Kohl's family sleepwear/sweater promotions."
       },
       {
-        "kr": "Nordstrom의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-        "en": "Use this Nordstrom signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+        "kr": "A&F의 주력 실루엣과 백화점 채널의 블랙프라이데이 조기 할인 품목(블라우스, 크레이프 팬츠 등)을 분석하여 후속 오더 대응력 제고",
+        "en": "Analyze A&F core silhouettes and early Black Friday apparel deals (e.g., blouses, crepe trousers) to enhance responsiveness for follow-up orders."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "일부 signal은 빠르게 변할 수 있으므로 source 원문 및 buyer 반응을 함께 확인해야 합니다.",
-      "en": "Some signals can change quickly, so validate source articles and buyer reactions before decisions."
+      "kr": "핵심 바이어들의 Holiday 시즌 경쟁(Target 등과의 각축전)이 심화되는 가운데, 환율 변동성(1,332원대)과 빠른 reorder 납기 요구에 대한 면밀한 모니터링이 필요합니다.",
+      "en": "Intensifying holiday competition among key buyers (such as Target) alongside foreign exchange volatility (around 1,332 KRW/USD) and fast reorder lead-time demands requires close monitoring."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "오늘자 Buyer News와 competitor source 중 영업 제안으로 연결 가능한 1~2개 signal을 팀별로 선정합니다.",
-        "en": "Select 1-2 actionable buyer/competitor signals for each sales team."
+        "kr": "Kohl's의 Uber Eats 딜리버리 연계 및 Target의 최근 promotion 동향을 반영한 Holiday 핵심 품목 assortment 검토 보고서 작성",
+        "en": "Draft a holiday core assortment review report reflecting Kohl's Uber Eats delivery integration and Target's recent promotional trends."
       },
       {
         "owner": "Team 8",
-        "kr": "가격, product, promotion 관점에서 buyer별 차별화 제안 가능성을 검토합니다.",
-        "en": "Review differentiated proposals by buyer across pricing, product and promotion."
+        "kr": "Macy's Parade 100주년 기념 Disney Capsule과 같은 IP 기반 상품의 다음 시즌 바이어 제안 아이템 기획안 준비",
+        "en": "Prepare IP-driven product proposals for next season's buyer meetings, benchmarking Macy's 100th parade Disney capsule."
       },
       {
         "owner": "Team 8",
-        "kr": "중요 signal은 다음 개발 및 costing 논의에 반영할 수 있도록 source와 함께 공유합니다.",
-        "en": "Share important signals with sources for upcoming development and costing discussions."
+        "kr": "최근 하락세를 보인 원면 및 원자재 시세를 반영하여 주요 스타일의 원가 구조 재점검 및 가격 경쟁력 확보",
+        "en": "Re-examine cost structures of key styles reflecting recent drops in cotton and raw material prices to secure pricing competitiveness."
       }
     ]
   }
