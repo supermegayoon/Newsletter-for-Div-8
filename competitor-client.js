@@ -66,13 +66,14 @@
  function socialCard(x){
   const labels={LinkedIn:"LinkedIn",Facebook:"Facebook",Official:en()?"Official release":"공식 발표",News:en()?"News":"뉴스"};
   const kind=labels[x.platform]||labels.News;
+  const sourceOnly=x.sourceOnly||D?.socialPulse?.analysisMode==="SOURCE_ONLY";
   const why=p(x.whyItMatters),action=p(x.action);
   const box=(label,value)=>value?`<div class="social-smallbox"><b>${label}</b><p>${e(value)}</p></div>`:"";
   const href=/^https:\/\//i.test(x.sourceUrl||"")?x.sourceUrl:"";
   return `<div class="dir-card social-card">
    <div class="social-meta"><span class="social-brand">${e(x.brand)}</span><span class="social-platform ${x.platform==="LinkedIn"?"linkedin":""}">${e(kind)}</span><span class="dtag">${e(x.signal||"UPDATE")}</span><span class="social-date">${e(x.date||"")}</span></div>
-   <h4>${e(p(x.headline))}</h4><p class="social-summary">${e(p(x.summary))}</p>
-   ${(why||action)?`<div class="social-actions">${box("WHY IT MATTERS",why)}${box("TEAM 8 ACTION",action)}</div>`:""}
+   <h4>${e(sourceOnly&&!en()?"한국어 해석 미완료":p(x.headline))}</h4>${sourceOnly&&!en()?`<p class="social-summary">아래 링크에서 영문 원문을 확인할 수 있습니다.</p>`:p(x.summary)?`<p class="social-summary">${e(p(x.summary))}</p>`:""}
+   ${(why||action)?`<div class="social-actions">${box(en()?"WHY IT MATTERS":"영업 시사점",why)}${box(en()?"TEAM 8 ACTION":"8담당 실행 제안",action)}</div>`:""}
    ${href?`<a class="social-open" target="_blank" rel="noopener noreferrer" href="${e(href)}">${e(x.publisher||kind)} ↗</a>`:""}</div>`;
  }
 

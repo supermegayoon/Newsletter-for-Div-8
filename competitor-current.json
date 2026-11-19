@@ -421,7 +421,7 @@
     "ok": true,
     "generatedDateKST": "2026-11-19",
     "windowDays": 14,
-    "analysisMode": "SOURCE_ONLY",
+    "analysisMode": "EDITORIAL",
     "brands": [
       "Kohl's",
       "A&F / Hollister",
@@ -434,120 +434,96 @@
         "brand": "Kohl's",
         "platform": "Official",
         "date": "2026-11-18",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcXhEQWxFaFdjeUZTR1JWdmlUUDJhQVJPV3ZHRmpWVXUzdVFHT3VEQWdLbjBxMDkzZ1BOZlI4XzUzMTBRc01CTUdzQWd0MzNualI2bkd5OWphYjZxYWh3QjFoMlhEV2k0YmQ4V1pBeS1wVHpBbVpBMzVuQzc4dUtleWo1VmE3QUd6SHZNTw?oc=5",
+        "sourceUrl": "https://corporate.kohls.com/news/kohls-unveils-black-friday-deals-starting-at-50-off",
         "publisher": "Kohl's Corporate",
-        "signal": "UPDATE",
+        "signal": "CAMPAIGN",
         "headline": {
-          "kr": "Kohl’s Unveils Black Friday Deals Starting at 50% Off - Kohl's Corporate",
-          "en": "Kohl’s Unveils Black Friday Deals Starting at 50% Off - Kohl's Corporate"
+          "kr": "콜스, 블랙프라이데이에 여성 스웨터·패밀리 잠옷 50% 할인",
+          "en": "Kohl’s highlights 50% off sweaters and family pajamas"
         },
         "summary": {
-          "kr": "Kohl’s Unveils Black Friday Deals Starting at 50% Off &nbsp;&nbsp; Kohl's Corporate",
-          "en": "Kohl’s Unveils Black Friday Deals Starting at 50% Off &nbsp;&nbsp; Kohl's Corporate"
+          "kr": "콜스는 11월 22일부터 여성·주니어 스웨터와 패밀리 매칭 잠옷을 50% 할인한다고 발표했습니다.",
+          "en": "Kohl’s announced 50% off women’s and juniors’ sweaters and matching family pajamas in its Black Friday event starting November 22."
         },
         "whyItMatters": {
-          "kr": "",
-          "en": ""
+          "kr": "니트와 패밀리 잠옷이 이번 행사에 포함된 만큼 다음 시즌 제안에서 가격대와 시즌 그래픽을 함께 검토할 만합니다.",
+          "en": "The promotion makes both categories useful benchmarks for seasonal pricing and design."
         },
         "action": {
-          "kr": "",
-          "en": ""
+          "kr": "여성 니트와 패밀리 잠옷의 목표 판매가별 원가와 리오더 납기를 정리하세요.",
+          "en": "Prepare cost and reorder lead-time options for sweaters and family sleepwear at key price points."
         }
       },
       {
         "brand": "A&F / Hollister",
         "platform": "News",
-        "date": "2026-11-19",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbGtRZXhLX1RIOEFBcG9RUEtuQ0RUWm5TOU84eU5oYlNqczdOYWtQcTNlTk5mT1FVSFN1SWktYVBLY2hCZWVHY1Q1N3FFRk1fMFZtcklqaWZqM2h1WHhKckRlTkJmZ21hcUJtcUU0V3k4anFSSEthM24ta3hoUTlLUjBCZElBYXJVMFlYUXN6NHZBSHlZVG1QU2twam5fd2s?oc=5",
+        "date": "2026-11-18",
+        "sourceUrl": "https://bostonrealestatetimes.com/abercrombie-fitch-opens-two-level-store-at-dedhams-legacy-place/",
         "publisher": "Boston Real Estate Times",
-        "signal": "UPDATE",
+        "signal": "STORE",
         "headline": {
-          "kr": "Abercrombie & Fitch Opens Two-Level Store at Dedham’s Legacy Place - Boston Real Estate Times",
-          "en": "Abercrombie & Fitch Opens Two-Level Store at Dedham’s Legacy Place - Boston Real Estate Times"
+          "kr": "A&F, 매사추세츠 데덤에 2층 매장 오픈",
+          "en": "A&F opens a two-level store in Dedham"
         },
         "summary": {
-          "kr": "Abercrombie & Fitch Opens Two-Level Store at Dedham’s Legacy Place &nbsp;&nbsp; Boston Real Estate Times",
-          "en": "Abercrombie & Fitch Opens Two-Level Store at Dedham’s Legacy Place &nbsp;&nbsp; Boston Real Estate Times"
+          "kr": "A&F가 데덤의 레거시 플레이스에 2층 매장을 열었습니다.",
+          "en": "Abercrombie & Fitch opened a two-level store at Legacy Place in Dedham, Massachusetts."
         },
         "whyItMatters": {
-          "kr": "",
-          "en": ""
+          "kr": "신규 매장 진열을 보면 A&F가 어떤 상품군을 고객에게 앞세우는지 파악할 수 있습니다.",
+          "en": "The new store offers a way to see which categories A&F puts in front of shoppers."
         },
         "action": {
-          "kr": "",
-          "en": ""
+          "kr": "매장 사진과 온라인 신상품을 대조해 주력 실루엣과 가격대를 정리하세요.",
+          "en": "Compare store photos with online new arrivals to identify featured silhouettes and price points."
         }
       },
       {
         "brand": "Macy's",
         "platform": "News",
         "date": "2026-11-19",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMDRpbThQOFZZeFB3dmktUDg3RHRGNFdNUVdYeU1aNkhJVmlDaXdGUjdYaGJMVE1GNXJ5RmMxWkNSSkpxeWpudjdJNDAyeXdpVGpzemdhMU5Kd0pQVEQzbi04QVN3bjNXM1RIdkdIYTFPWjNDNFF6MGloZXE3aHY3UkdrTm1lQ0cxTHg3RWY0cWpfcVMzdXNCdVpBQUJIeGExZl9V0gGjAUFVX3lxTE4wNGltOFA4Vll4UHd2aS1QODdEdEY0V01RV1h5TVo2SElWaUNpd0ZSN1hoYkxUTUY1cnlGYzFaQ1JKSnF5am52N0k0MDJ5d2lUanN6Z2ExTkp3SlBURDNuLThBU3duM1czVEh2R0hhMU9aM0M0UXowaWhlcTdodjdSR2tObWVDRzFMeDdFZjRxal9xUzN1c0J1WkFBQkh4YTFmX1U?oc=5",
+        "sourceUrl": "https://www.newswise.com/articles/why-macy-s-spent-100-years-building-an-ad-it-can-t-directly-measure",
         "publisher": "Newswise",
-        "signal": "UPDATE",
+        "signal": "CAMPAIGN",
         "headline": {
-          "kr": "Why Macy’s Spent 100 Years Building an Ad It Can’t Directly Measure | Newswise - Newswise",
-          "en": "Why Macy’s Spent 100 Years Building an Ad It Can’t Directly Measure | Newswise - Newswise"
+          "kr": "메이시스 추수감사절 퍼레이드가 만드는 연말 브랜드 효과",
+          "en": "What Macy’s Thanksgiving parade does for its holiday brand"
         },
         "summary": {
-          "kr": "Why Macy’s Spent 100 Years Building an Ad It Can’t Directly Measure | Newswise &nbsp;&nbsp; Newswise",
-          "en": "Why Macy’s Spent 100 Years Building an Ad It Can’t Directly Measure | Newswise &nbsp;&nbsp; Newswise"
+          "kr": "버지니아텍 마케팅 연구진은 메이시스 퍼레이드의 효과를 단기 매출뿐 아니라 도달 범위와 브랜드 인식으로 봐야 한다고 설명했습니다.",
+          "en": "A Virginia Tech marketing expert argues that the parade’s reach and brand impact matter alongside short-term sales."
         },
         "whyItMatters": {
-          "kr": "",
-          "en": ""
+          "kr": "퍼레이드와 매장·상품 캠페인이 어떻게 이어지는지 보면 메이시스가 연말에 강조하는 테마를 파악할 수 있습니다.",
+          "en": "Tracking how the parade connects with stores and products can surface Macy’s holiday themes."
         },
         "action": {
-          "kr": "",
-          "en": ""
+          "kr": "매장과 온라인에서 퍼레이드 연계 상품이 어떻게 노출되는지 확인하고, 다음 시즌 기프트용 상품 콘셉트를 정리하세요.",
+          "en": "Review parade-linked merchandise online and in stores before shaping next season’s giftable apparel concepts."
         }
       },
       {
         "brand": "Ann Taylor",
         "platform": "News",
-        "date": "2026-11-18",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HeVZhNnliQWYwT3p6UmNwazl0ZjVBUlRLTkN6dElqMzkxbElUYkI4V3Z0Y2JfV3U5VlZYM1VMeVBZVzlVdm1FbnN4WEJzVHM1MjhKN0Jud0xjQzgtT1FHNm9DdDBDYkhpNkN0aV9lMXJQVG5GcGsw?oc=5",
+        "date": "2026-11-17",
+        "sourceUrl": "https://www.glamour.com/story/black-friday-clothing-deals-11-17-2026",
         "publisher": "Glamour",
-        "signal": "UPDATE",
+        "signal": "PRODUCT",
         "headline": {
-          "kr": "12 Early Black Friday Clothing Deals I’m Adding to Cart Today - Glamour",
-          "en": "12 Early Black Friday Clothing Deals I’m Adding to Cart Today - Glamour"
+          "kr": "Ann Taylor, 조기 블랙프라이데이에 블라우스와 크레이프 팬츠 할인",
+          "en": "Ann Taylor tops and crepe trousers appear in early Black Friday deals"
         },
         "summary": {
-          "kr": "12 Early Black Friday Clothing Deals I’m Adding to Cart Today &nbsp;&nbsp; Glamour",
-          "en": "12 Early Black Friday Clothing Deals I’m Adding to Cart Today &nbsp;&nbsp; Glamour"
+          "kr": "Glamour는 Ann Taylor의 셔링 모크넥 톱과 스트레이트 크레이프 팬츠가 약 30% 할인됐다고 보도했습니다.",
+          "en": "Glamour reported roughly 30% off a shirred mock-neck top and straight crepe trousers from Ann Taylor."
         },
         "whyItMatters": {
-          "kr": "",
-          "en": ""
+          "kr": "오피스와 모임에 모두 입을 수 있는 상하의의 행사 가격대를 비교할 수 있는 사례입니다.",
+          "en": "The items offer a reference for promotional prices on styles that work for the office and social events."
         },
         "action": {
-          "kr": "",
-          "en": ""
-        }
-      },
-      {
-        "brand": "Talbot's",
-        "platform": "News",
-        "date": "2026-11-18",
-        "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLTV0TlJBc0VTbjBGekNDYjRxeWJOQWh3SlBCeHlqNTFlYU5iYU81WWROZ1RrQUdKS3l1Z0tvbkUzUFJueDl4SE82dFQ5dXRNaHlBUXRSdGU4RVE3aFVmNWdDeFZuR2trcE1XQXJ0MUp4d2dxWUowcWRGa0FteUxETzdTVlJsWXl0MGNRQ21vR2hUV1lDUVNDd1k1MkNZNGVl?oc=5",
-        "publisher": "Business News Wales",
-        "signal": "UPDATE",
-        "headline": {
-          "kr": "The Crown Estate Visit Puts Port Talbot’s Engineering Future in Focus - Business News Wales",
-          "en": "The Crown Estate Visit Puts Port Talbot’s Engineering Future in Focus - Business News Wales"
-        },
-        "summary": {
-          "kr": "The Crown Estate Visit Puts Port Talbot’s Engineering Future in Focus &nbsp;&nbsp; Business News Wales",
-          "en": "The Crown Estate Visit Puts Port Talbot’s Engineering Future in Focus &nbsp;&nbsp; Business News Wales"
-        },
-        "whyItMatters": {
-          "kr": "",
-          "en": ""
-        },
-        "action": {
-          "kr": "",
-          "en": ""
+          "kr": "셔링 톱과 유연한 크레이프 팬츠를 세트로 구성하고 정상가와 행사 가격 기준으로 각각 원가를 산출하세요.",
+          "en": "Cost a coordinated shirred top and fluid crepe trouser at both regular and promotional price points."
         }
       }
     ]
