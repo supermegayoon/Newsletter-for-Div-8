@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "generatedDateKST": "2026-11-19",
-  "asOf": "2026-11-18T23:00:39.406Z",
+  "generatedDateKST": "2026-11-20",
+  "asOf": "2026-11-19T23:00:56.280Z",
   "schedule": "Mon-Fri 08:00 KST",
   "windowDays": 7,
   "analysisMode": "RULE_FALLBACK",
@@ -42,8 +42,8 @@
           "name": "Target",
           "signal": "PRODUCT",
           "move": {
-            "kr": "Target Enters Holiday Season With Pop Culture Momentum - ADWEEK",
-            "en": "Target Enters Holiday Season With Pop Culture Momentum - ADWEEK"
+            "kr": "Black Friday 2026: Everything to know, including the best live deals - ABC7 New York",
+            "en": "Black Friday 2026: Everything to know, including the best live deals - ABC7 New York"
           },
           "whyItMatters": {
             "kr": "Kohl's과 유사한 고객층을 두고 경쟁하는 Target의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
@@ -55,10 +55,10 @@
           },
           "sources": [
             {
-              "source": "ADWEEK",
+              "source": "ABC7 New York",
               "sourceTier": "GENERAL",
-              "date": "2026.11.19",
-              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQlgtX1dDbDlDZUw0QlAwYnVoVzdBbDk3N09JU2ZzMk1qbmlXOTE0NkhQUXVlYmxqbDhqZm1vbllFZEoweHY5bThaUmYxUXo2Vmh5LWxFWUJwSjBlY0Y4eW9pWXhsMlJwb21MMFR5Z2xuem9XQmxsRlZHWHhkUzBacUVPZ2dFbXpxNDlYT2ppank?oc=5"
+              "date": "2026.11.20",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORGtsTFlLTVdGS2RUSFF3VjFUdUtDckxDN3duaE04T2xvRDBCZWw1RXFpQTY2OFJVOFN0amliYkJOSG8tcWotTWJWWjZpNmhBYkh6VV90S3BTek5SMDZPeVJjSkxqTmNVYi00RFRicTFfODMwalhUanVNOWlVa1J2dGZBQmxxczNqX0k5aVpyOHhOS1poQkl5TURSYWxmd9IBngFBVV95cUxORGtsTFlLTVdGS2RUSFF3VjFUdUtDckxDN3duaE04T2xvRDBCZWw1RXFpQTY2OFJVOFN0amliYkJOSG8tcWotTWJWWjZpNmhBYkh6VV90S3BTek5SMDZPeVJjSkxqTmNVYi00RFRicTFfODMwalhUanVNOWlVa1J2dGZBQmxxczNqX0k5aVpyOHhOS1poQkl5TURSYWxmdw?oc=5"
             }
           ]
         },
@@ -66,8 +66,8 @@
           "name": "Target",
           "signal": "PRODUCT",
           "move": {
-            "kr": "Target’s revival is a work in progress - Star Tribune",
-            "en": "Target’s revival is a work in progress - Star Tribune"
+            "kr": "Black Friday deals 2026 are already here. Where to shop early - Democrat and Chronicle",
+            "en": "Black Friday deals 2026 are already here. Where to shop early - Democrat and Chronicle"
           },
           "whyItMatters": {
             "kr": "Kohl's과 유사한 고객층을 두고 경쟁하는 Target의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
@@ -79,10 +79,10 @@
           },
           "sources": [
             {
-              "source": "Star Tribune",
+              "source": "Democrat and Chronicle",
               "sourceTier": "GENERAL",
-              "date": "2026.11.18",
-              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOXhCQkVaVDMxSkFaU3RHeVZZWHNja0ZrbXJ1bHlJVjZoeFJmUk41bTNuMFduZGpFR2ItaTlBeDRQbmpJcC0wZ2lnLXdERGNIU3pLMEo4eFpuTnlXX0x6cUlMeV9DMmNrWGpGY2tQaHJKclEtM2g4b2pfbEpWb21zNllReHVWb1RRWWdIdEpMeWRMOXA4QkNiWlRJM3A1dw?oc=5"
+              "date": "2026.11.19",
+              "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMExBU0RGOWJpaUFUdkwyTFdDVjd5dXlYMFlZeFBqN1hOS2pSNlRxXzJJb1pucDd1NHNZV3hFcEdJOWhoU1V0SUhGcm56SThoVFJjNEpSS2N4LTU3WWdZRDJCM3FtQVFJOEdPanZCQUNWX2otMm5tSVMzXzNtdG9MQVdSNzJGXzdGVTBpcnZ5dXRmcFNtTFR1cFZwZUU0R2dZWll5LXhxQzJldHpDV1JvNUVwdmczOFJ2WkV3TkdOVGxRWjhLWWxr?oc=5"
             }
           ]
         }
@@ -92,8 +92,8 @@
       "buyer": "A&F / Hollister",
       "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "Aritzia, American Eagle, Free People 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
-        "en": "Recent signals were found for Aritzia, American Eagle, Free People. Review the implications by buyer using the cited sources."
+        "kr": "Aritzia, American Eagle, American Eagle 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for Aritzia, American Eagle, American Eagle. Review the implications by buyer using the cited sources."
       },
       "competitors": [
         {
@@ -124,6 +124,30 @@
           "name": "American Eagle",
           "signal": "PRODUCT",
           "move": {
+            "kr": "American Eagle Outfitters, Inc. (AEO) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+            "en": "American Eagle Outfitters, Inc. (AEO) Stock Price, News, Quote & History - Yahoo! Finance Canada"
+          },
+          "whyItMatters": {
+            "kr": "A&F / Hollister과 유사한 고객층을 두고 경쟁하는 American Eagle의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by American Eagle is relevant to A&F / Hollister's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "American Eagle의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this American Eagle signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "Yahoo! Finance Canada",
+              "sourceTier": "GENERAL",
+              "date": "2026.11.19",
+              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5vNHdBUzNrbURCM3VPNkRWS1ZYdHo3ZFQxbFlHQ0ltMTdnYzhOclJLOURZM3JHd05EVVl1aWJrMzRrSWhyanBWdFBnb2MzV24x?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "American Eagle",
+          "signal": "PRODUCT",
+          "move": {
             "kr": "The 53 Best Black Friday Deals To Shop This Week - Forbes",
             "en": "The 53 Best Black Friday Deals To Shop This Week - Forbes"
           },
@@ -143,30 +167,6 @@
               "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWDA2QV93bEJlY0ZqcDRvV1JySVR3Ul83T2RlOHAweU1NNWxvLU1Iay1xNXpWcWQySWpHQnlrNkNMeUVvc21JTThhSmhWV0xLak02X0ZYbUtRS2Y5TzJsY0oyenlLNTU0UXlGOTlObUFZUHNuN3hhazdielN2NU52QUlwdUdJX3ZQZDZJ?oc=5"
             }
           ]
-        },
-        {
-          "name": "Free People",
-          "signal": "PRODUCT",
-          "move": {
-            "kr": "12 Early Black Friday Clothing Deals I’m Adding to Cart Today - Glamour",
-            "en": "12 Early Black Friday Clothing Deals I’m Adding to Cart Today - Glamour"
-          },
-          "whyItMatters": {
-            "kr": "A&F / Hollister과 유사한 고객층을 두고 경쟁하는 Free People의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Free People is relevant to A&F / Hollister's competitive set and should be compared across product, pricing and promotion."
-          },
-          "action": {
-            "kr": "Free People의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Free People signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
-          },
-          "sources": [
-            {
-              "source": "Glamour",
-              "sourceTier": "GENERAL",
-              "date": "2026.11.18",
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HeVZhNnliQWYwT3p6UmNwazl0ZjVBUlRLTkN6dElqMzkxbElUYkI4V3Z0Y2JfV3U5VlZYM1VMeVBZVzlVdm1FbnN4WEJzVHM1MjhKN0Jud0xjQzgtT1FHNm9DdDBDYkhpNkN0aV9lMXJQVG5GcGsw?oc=5"
-            }
-          ]
         }
       ]
     },
@@ -174,16 +174,16 @@
       "buyer": "Macy's",
       "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "Nordstrom, Nordstrom, Dillard's 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
-        "en": "Recent signals were found for Nordstrom, Nordstrom, Dillard's. Review the implications by buyer using the cited sources."
+        "kr": "Nordstrom, Nordstrom, Nordstrom 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for Nordstrom, Nordstrom, Nordstrom. Review the implications by buyer using the cited sources."
       },
       "competitors": [
         {
           "name": "Nordstrom",
           "signal": "PRODUCT",
           "move": {
-            "kr": "US' Nordstrom Rack plans second Nebraska store for fall 2027 - Fibre2Fashion",
-            "en": "US' Nordstrom Rack plans second Nebraska store for fall 2027 - Fibre2Fashion"
+            "kr": "Surprise! Nordstrom Launched Its Epic Black Friday Sale Early—These 31 Chic Items Will Sell Out by Next Week - Who What Wear",
+            "en": "Surprise! Nordstrom Launched Its Epic Black Friday Sale Early—These 31 Chic Items Will Sell Out by Next Week - Who What Wear"
           },
           "whyItMatters": {
             "kr": "Macy's과 유사한 고객층을 두고 경쟁하는 Nordstrom의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
@@ -195,10 +195,10 @@
           },
           "sources": [
             {
-              "source": "Fibre2Fashion",
+              "source": "Who What Wear",
               "sourceTier": "GENERAL",
-              "date": "2026.11.18",
-              "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWnZKcFhEZlZoR1pZZEdKVUt1YUZTbzB0R0hWR21ENWcxNWVMR1h3UnVFdXZNNFJBZ1pLMmpwUUtWejB2cERjaGNMaVNiZWdYd0N6aFVHN0FRUDhCaHRUdWgtMzFKSWtMa2M3b0RvOUx3MHFPZkNTUnozeFEtVjhHNG1TR19FSTVjd2prWWo2Y3FSaHRfeGo2d1N0UjBCcGxkeEtidWhzOWNQV0k3c2JoSkF5elpHbENkdkEzRmN2NWQtajhhMG1qdmFZSTJmV3JGRjhhMGV4QQ?oc=5"
+              "date": "2026.11.17",
+              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNXBnYzdwRHhkeEtaYkhRRVdHSTJLeDc4QWo2ZnlZUmZpR0Nwa0lXbG9GMXZZR3RqSEVXNkY4VFp5WXliNDlxOWZ1aTRCZmF4cW5ZY3RIcHF5b2w2RWtNeUJUNTFOQnpjLWhaWjVxTVFFU3gyd1NxMnpfRTN5b2xDSl95RQ?oc=5"
             }
           ]
         },
@@ -206,8 +206,8 @@
           "name": "Nordstrom",
           "signal": "PRODUCT",
           "move": {
-            "kr": "12 Early Black Friday Clothing Deals I’m Adding to Cart Today - Glamour",
-            "en": "12 Early Black Friday Clothing Deals I’m Adding to Cart Today - Glamour"
+            "kr": "The 53 Best Black Friday Deals To Shop This Week - Forbes",
+            "en": "The 53 Best Black Friday Deals To Shop This Week - Forbes"
           },
           "whyItMatters": {
             "kr": "Macy's과 유사한 고객층을 두고 경쟁하는 Nordstrom의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
@@ -219,34 +219,34 @@
           },
           "sources": [
             {
-              "source": "Glamour",
+              "source": "Forbes",
               "sourceTier": "GENERAL",
               "date": "2026.11.18",
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HeVZhNnliQWYwT3p6UmNwazl0ZjVBUlRLTkN6dElqMzkxbElUYkI4V3Z0Y2JfV3U5VlZYM1VMeVBZVzlVdm1FbnN4WEJzVHM1MjhKN0Jud0xjQzgtT1FHNm9DdDBDYkhpNkN0aV9lMXJQVG5GcGsw?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWDA2QV93bEJlY0ZqcDRvV1JySVR3Ul83T2RlOHAweU1NNWxvLU1Iay1xNXpWcWQySWpHQnlrNkNMeUVvc21JTThhSmhWV0xLak02X0ZYbUtRS2Y5TzJsY0oyenlLNTU0UXlGOTlObUFZUHNuN3hhazdielN2NU52QUlwdUdJX3ZQZDZJ?oc=5"
             }
           ]
         },
         {
-          "name": "Dillard's",
+          "name": "Nordstrom",
           "signal": "PRODUCT",
           "move": {
-            "kr": "Where to Shop the Best Menswear in Little Rock - Little Rock Soiree",
-            "en": "Where to Shop the Best Menswear in Little Rock - Little Rock Soiree"
+            "kr": "Nordstrom Coupons: Save Up To 70% Across All Categories Ahead Of Black Friday - Forbes",
+            "en": "Nordstrom Coupons: Save Up To 70% Across All Categories Ahead Of Black Friday - Forbes"
           },
           "whyItMatters": {
-            "kr": "Macy's과 유사한 고객층을 두고 경쟁하는 Dillard's의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Dillard's is relevant to Macy's's competitive set and should be compared across product, pricing and promotion."
+            "kr": "Macy's과 유사한 고객층을 두고 경쟁하는 Nordstrom의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Nordstrom is relevant to Macy's's competitive set and should be compared across product, pricing and promotion."
           },
           "action": {
-            "kr": "Dillard's의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Dillard's signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "Nordstrom의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Nordstrom signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
           },
           "sources": [
             {
-              "source": "Little Rock Soiree",
+              "source": "Forbes",
               "sourceTier": "GENERAL",
-              "date": "2026.11.19",
-              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdGEtTm10UVZsdjYxa2g5cWhsQ0ZHOXdQUzFBX1JpVnVBc20zY3VUdEc3djBJWDdhdFl3QzFJRDY2ck5hWUlhd1RCZi1BcTNiS2Q0cFJoRHdSbDJIS3ZhY2RrU1NvWnJuRTdJTHNkSmhRdkNOZkF5cWpFTmhFdndNelotenVId1JrWVJIbkdCZVE?oc=5"
+              "date": "2026.11.17",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcEJwa3loS0RFb1Uwb1JqQlczZE10MXVHUG9GN19UcHBFNmdmYVoySHhUNFl3Yk1tYkVUa3Q3YU5JV042R1dYNEF0emFKZ29MRG53TnpmRVM1SmdOc28xWmVZcEFJNjhLaHd6SS00cE1udHJTaVBVQWVtZE9DcTR3Q0EwWGxFUQ?oc=5"
             }
           ]
         }
@@ -256,10 +256,58 @@
       "buyer": "Ann Taylor",
       "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "Banana Republic, J.Crew, Banana Republic 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
-        "en": "Recent signals were found for Banana Republic, J.Crew, Banana Republic. Review the implications by buyer using the cited sources."
+        "kr": "Banana Republic, Banana Republic, Banana Republic 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for Banana Republic, Banana Republic, Banana Republic. Review the implications by buyer using the cited sources."
       },
       "competitors": [
+        {
+          "name": "Banana Republic",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "12 Early Black Friday Clothing Deals I’m Adding to Cart Today - Glamour",
+            "en": "12 Early Black Friday Clothing Deals I’m Adding to Cart Today - Glamour"
+          },
+          "whyItMatters": {
+            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 Banana Republic의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Banana Republic is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Banana Republic의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Banana Republic signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "Glamour",
+              "sourceTier": "GENERAL",
+              "date": "2026.11.18",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HeVZhNnliQWYwT3p6UmNwazl0ZjVBUlRLTkN6dElqMzkxbElUYkI4V3Z0Y2JfV3U5VlZYM1VMeVBZVzlVdm1FbnN4WEJzVHM1MjhKN0Jud0xjQzgtT1FHNm9DdDBDYkhpNkN0aV9lMXJQVG5GcGsw?oc=5"
+            }
+          ]
+        },
+        {
+          "name": "Banana Republic",
+          "signal": "PRODUCT",
+          "move": {
+            "kr": "Old Navy’s $8B Business Model Secrets (2026 Analysis) - FourWeekMBA",
+            "en": "Old Navy’s $8B Business Model Secrets (2026 Analysis) - FourWeekMBA"
+          },
+          "whyItMatters": {
+            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 Banana Republic의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Banana Republic is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
+          },
+          "action": {
+            "kr": "Banana Republic의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Banana Republic signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+          },
+          "sources": [
+            {
+              "source": "FourWeekMBA",
+              "sourceTier": "GENERAL",
+              "date": "2026.11.17",
+              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CWW1KeHJ5eGdORDQxclZGVWZOSXJYY096U3NBbmFfN1dSbU9rakJJM2ZGUVJvT1hoQ2RBR1FoVFFJZE11T3o2anM2Q0VLOUFvd0c3RVZyYlNoVXFs?oc=5"
+            }
+          ]
+        },
         {
           "name": "Banana Republic",
           "signal": "PRODUCT",
@@ -283,54 +331,6 @@
               "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNEk4TzhOMTRROTVLYmlhOU05eWlaTUJGUnB1Q3RCSjFOMllkS3BxR1hMSFhIbEF3TGw0ejVLV1Y5S3FUU1N5ZUdKQmJqc21rNzVHSWVKdmZIZXpVTzZ3NG0wU1Bwb3NBTkw3TzlQdEp5LUh0c2RzRkhvUVktVDBqbGs2MWlvTkdndXZKMjl0TVcwNUxRUmxlY0NkX1N6aFBqckdPVg?oc=5"
             }
           ]
-        },
-        {
-          "name": "J.Crew",
-          "signal": "PRODUCT",
-          "move": {
-            "kr": "Daydream's New AI Stylist Can Shop, Build Outfits and Track Deals While You Sleep - Fashion Times UK",
-            "en": "Daydream's New AI Stylist Can Shop, Build Outfits and Track Deals While You Sleep - Fashion Times UK"
-          },
-          "whyItMatters": {
-            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 J.Crew의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by J.Crew is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
-          },
-          "action": {
-            "kr": "J.Crew의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this J.Crew signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
-          },
-          "sources": [
-            {
-              "source": "Fashion Times UK",
-              "sourceTier": "GENERAL",
-              "date": "2026.11.18",
-              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQlV3dWNkRjVCejBRRWcxRmxlbU9pbldrak9xRXdnTENiemhjRzlFYVlwSnZCYU1UQmFDa1J1NWgyYjdlamxVOUdBcW9uRWJxeEF5cHB2YkdJMzBVeTF5QThHOHBjTWRCVTc2Q3YtNHpTbnJqelRxMnlHaHM0RFRMSTBSSzJXNWRqcVE?oc=5"
-            }
-          ]
-        },
-        {
-          "name": "Banana Republic",
-          "signal": "PRODUCT",
-          "move": {
-            "kr": "12 Early Black Friday Clothing Deals I’m Adding to Cart Today - Glamour",
-            "en": "12 Early Black Friday Clothing Deals I’m Adding to Cart Today - Glamour"
-          },
-          "whyItMatters": {
-            "kr": "Ann Taylor과 유사한 고객층을 두고 경쟁하는 Banana Republic의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by Banana Republic is relevant to Ann Taylor's competitive set and should be compared across product, pricing and promotion."
-          },
-          "action": {
-            "kr": "Banana Republic의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this Banana Republic signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
-          },
-          "sources": [
-            {
-              "source": "Glamour",
-              "sourceTier": "GENERAL",
-              "date": "2026.11.18",
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HeVZhNnliQWYwT3p6UmNwazl0ZjVBUlRLTkN6dElqMzkxbElUYkI4V3Z0Y2JfV3U5VlZYM1VMeVBZVzlVdm1FbnN4WEJzVHM1MjhKN0Jud0xjQzgtT1FHNm9DdDBDYkhpNkN0aV9lMXJQVG5GcGsw?oc=5"
-            }
-          ]
         }
       ]
     },
@@ -338,8 +338,8 @@
       "buyer": "Talbot's",
       "competitionLevel": "HIGH",
       "keyTakeaway": {
-        "kr": "J.Jill, J.Jill, J.Jill 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
-        "en": "Recent signals were found for J.Jill, J.Jill, J.Jill. Review the implications by buyer using the cited sources."
+        "kr": "J.Jill, Lands' End, Lands' End 관련 최근 signal을 확인했습니다. 최신 source 기반으로 buyer별 대응 포인트를 점검할 필요가 있습니다.",
+        "en": "Recent signals were found for J.Jill, Lands' End, Lands' End. Review the implications by buyer using the cited sources."
       },
       "competitors": [
         {
@@ -367,50 +367,50 @@
           ]
         },
         {
-          "name": "J.Jill",
+          "name": "Lands' End",
           "signal": "PRODUCT",
           "move": {
-            "kr": "J. Jill’s CEO on How the Clothing Retailer Is Leveraging Creators and AI to Drive Growth - U.S. Chamber of Commerce",
-            "en": "J. Jill’s CEO on How the Clothing Retailer Is Leveraging Creators and AI to Drive Growth - U.S. Chamber of Commerce"
+            "kr": "Top Black Friday fashion deals: UGG, Coach, Madewell and more - Good Morning America",
+            "en": "Top Black Friday fashion deals: UGG, Coach, Madewell and more - Good Morning America"
           },
           "whyItMatters": {
-            "kr": "Talbot's과 유사한 고객층을 두고 경쟁하는 J.Jill의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by J.Jill is relevant to Talbot's's competitive set and should be compared across product, pricing and promotion."
+            "kr": "Talbot's과 유사한 고객층을 두고 경쟁하는 Lands' End의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Lands' End is relevant to Talbot's's competitive set and should be compared across product, pricing and promotion."
           },
           "action": {
-            "kr": "J.Jill의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this J.Jill signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "Lands' End의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Lands' End signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
           },
           "sources": [
             {
-              "source": "U.S. Chamber of Commerce",
+              "source": "Good Morning America",
               "sourceTier": "GENERAL",
-              "date": "2026.11.13",
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fdVRNNThfVWVsa1RyV1gxNkxJTUxaMUlPU002LW9DX1NDNE01eWlYb2ZvN0wyTFNOZnJ5ZXRvUnBkMmpZZEU4SGxObFBiVWtqUWdLMGdjLXpDNm54dXRlTlRwVEZmWHZvRzlzbzUtZEZSdw?oc=5"
+              "date": "2026.11.20",
+              "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR2d5X2FKV200Ym9LU1g0Yk1URW9wbGZCS1pmazZNSTE4aXpIdHhWSFRld1JSeXlLVzNjWG1KZXkxR3dWcjFuaUVHVHViWElHejhPRGhKV1VLSWg3ak96S2VaM09mMFRkOG90UGtFbWZjeFkyaGE4dUNaZ0FValZLazRvZjlfXzNWRXc2Y2V1akTSAZYBQVVfeXFMTTJpMXlmaXpGdjdQc2dCUk82cTZCd0liRDYzZTk2YkE0aXBWY1lvcW04UXNfckl3SVAyeWNydU5sa2l2MjhIeHF1V1B4NC1qdEJQN2FtQzdEQTFvV0N6SlBPa2UwemVzdDR3SGl6aHJuMldhd2RNQ241U05JMzVGZHRnbjNyUlIzZnBqMXBGQ0h3dWJ3ekp3?oc=5"
             }
           ]
         },
         {
-          "name": "J.Jill",
+          "name": "Lands' End",
           "signal": "PRODUCT",
           "move": {
-            "kr": "Capri CEO and Lululemon top team: this week’s fashion retail people moves - Drapers",
-            "en": "Capri CEO and Lululemon top team: this week’s fashion retail people moves - Drapers"
+            "kr": "These Black Friday Sales Have Already Been Announced — Plus, Early Deals To Shop Now - TODAY.com",
+            "en": "These Black Friday Sales Have Already Been Announced — Plus, Early Deals To Shop Now - TODAY.com"
           },
           "whyItMatters": {
-            "kr": "Talbot's과 유사한 고객층을 두고 경쟁하는 J.Jill의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
-            "en": "Recent movement by J.Jill is relevant to Talbot's's competitive set and should be compared across product, pricing and promotion."
+            "kr": "Talbot's과 유사한 고객층을 두고 경쟁하는 Lands' End의 최근 움직임으로, 상품·가격·promotion 방향을 비교할 필요가 있습니다.",
+            "en": "Recent movement by Lands' End is relevant to Talbot's's competitive set and should be compared across product, pricing and promotion."
           },
           "action": {
-            "kr": "J.Jill의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
-            "en": "Use this J.Jill signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
+            "kr": "Lands' End의 최근 움직임을 다음 buyer 제안 및 assortment review 시 참고하고 직접적인 대응 필요 여부를 확인합니다.",
+            "en": "Use this Lands' End signal in the next buyer proposal and assortment review, and assess whether a direct response is needed."
           },
           "sources": [
             {
-              "source": "Drapers",
+              "source": "TODAY.com",
               "sourceTier": "GENERAL",
-              "date": "2026.11.12",
-              "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWUF5aElCUTlVQ3F6MVV5dGlTaXdPNW5KdlVCbVI4VWVXbVRpbFU1dEF5MUxKM09XYi1BOU53NmMzMXMxR1E4T1NRTThaOFpQWEpYbnJpWmlDYTloMkhTckd4TTlnZ09CY0pkanVzbnJKQUh4V3l1a09RSUMzRXhzQlF0d2p1N1FoNkczUDZOdjRGRjdIWVpLTE9yMGc2MXhNbWcxQ1dQbE9zTF9yNnc?oc=5"
+              "date": "2026.11.20",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5TSUVKaUlhc3Y0TWUxb3pNbDlfYU1vMmJFRHYwYVRoYWpzXzFnbVVGSEY0aDJPRzlUOGt5NUs1LVJZWWtoUkdwaDAtME5Lc21hbnFwek5PcXdSQmdMYUo1Z1dWX2dCMnBBdUlxanhB?oc=5"
             }
           ]
         }
@@ -419,9 +419,9 @@
   ],
   "socialPulse": {
     "ok": true,
-    "generatedDateKST": "2026-11-19",
+    "generatedDateKST": "2026-11-20",
     "windowDays": 14,
-    "analysisMode": "EDITORIAL",
+    "analysisMode": "GEMINI",
     "brands": [
       "Kohl's",
       "A&F / Hollister",
@@ -432,99 +432,77 @@
     "items": [
       {
         "brand": "Kohl's",
-        "platform": "Official",
-        "date": "2026-11-18",
-        "sourceUrl": "https://corporate.kohls.com/news/kohls-unveils-black-friday-deals-starting-at-50-off",
-        "publisher": "Kohl's Corporate",
-        "signal": "CAMPAIGN",
-        "headline": {
-          "kr": "콜스, 블랙프라이데이에 여성 스웨터·패밀리 잠옷 50% 할인",
-          "en": "Kohl’s highlights 50% off sweaters and family pajamas"
-        },
-        "summary": {
-          "kr": "콜스는 11월 22일부터 여성·주니어 스웨터와 패밀리 매칭 잠옷을 50% 할인한다고 발표했습니다.",
-          "en": "Kohl’s announced 50% off women’s and juniors’ sweaters and matching family pajamas in its Black Friday event starting November 22."
-        },
-        "whyItMatters": {
-          "kr": "니트와 패밀리 잠옷이 이번 행사에 포함된 만큼 다음 시즌 제안에서 가격대와 시즌 그래픽을 함께 검토할 만합니다.",
-          "en": "The promotion makes both categories useful benchmarks for seasonal pricing and design."
-        },
-        "action": {
-          "kr": "여성 니트와 패밀리 잠옷의 목표 판매가별 원가와 리오더 납기를 정리하세요.",
-          "en": "Prepare cost and reorder lead-time options for sweaters and family sleepwear at key price points."
-        }
-      },
-      {
-        "brand": "A&F / Hollister",
         "platform": "News",
-        "date": "2026-11-18",
-        "sourceUrl": "https://bostonrealestatetimes.com/abercrombie-fitch-opens-two-level-store-at-dedhams-legacy-place/",
-        "publisher": "Boston Real Estate Times",
-        "signal": "STORE",
+        "date": "2026-11-19",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd2dVdWNnbjVzSTZSRjVVRUhWY0ljbkk4RTVjZGkzR2hPT0RCU2xfX3F0RmRnU25XS0VlQy1OdlctY2ViVGJ1OUhHLWdwWGhfc0FsckVab19zVC1IbEpqQXg0UHVOSUFwNFFCM1g3V2hMbWYwdVBNd0NhUWs5Y3kxU2UyY2NIODcxQXZvcTdub25uRGxC0gGoAUFVX3lxTFBDNHA2QW1aNmFyZHBHanRWSVh1bzRmam9IN1pVTS1GbERCRDhsX2w4YWc3a2NWLXN6NW9EMWV4bm1LejJmNlZ6dHdzZ2RFQ0w5M0h3VUFVNE42NVBvVFp5d0d4WFliVDVwNFlmX0U2TDN6MjBOVFloYjlISFNEdExqalhBamxjR191Szh2emhvLVZOcWN2RDFQMURRMmQzLU13RkpWWGVLUg?oc=5",
+        "publisher": "Cleveland.com",
+        "signal": "STRATEGY",
         "headline": {
-          "kr": "A&F, 매사추세츠 데덤에 2층 매장 오픈",
-          "en": "A&F opens a two-level store in Dedham"
+          "kr": "콜스, 우uber Eats와 제휴해 온디맨드 배달 서비스 개시",
+          "en": "Kohl's Launches On-Demand Delivery Through Partnership with Uber Eats"
         },
         "summary": {
-          "kr": "A&F가 데덤의 레거시 플레이스에 2층 매장을 열었습니다.",
-          "en": "Abercrombie & Fitch opened a two-level store at Legacy Place in Dedham, Massachusetts."
+          "kr": "콜스가 우버 Eats 플랫폼을 통해 제품을 판매 및 배달할 수 있는 온디맨드 서비스를 발표했다.",
+          "en": "Kohl's announced an on-demand delivery service allowing customers to shop products via the Uber Eats platform."
         },
         "whyItMatters": {
-          "kr": "신규 매장 진열을 보면 A&F가 어떤 상품군을 고객에게 앞세우는지 파악할 수 있습니다.",
-          "en": "The new store offers a way to see which categories A&F puts in front of shoppers."
+          "kr": "이러한 파트너십은 패션 리테일러들이 전통적인 매장 판매를 넘어 즉시 배송이 가능한 신규 디지털 채널을 선점하고 있음을 보여준다.",
+          "en": "This partnership demonstrates that fashion retailers are capturing new digital channels with instant delivery capabilities beyond traditional store sales."
         },
         "action": {
-          "kr": "매장 사진과 온라인 신상품을 대조해 주력 실루엣과 가격대를 정리하세요.",
-          "en": "Compare store photos with online new arrivals to identify featured silhouettes and price points."
+          "kr": "영업팀은 우버 이츠 제휴 사례를 분석하여 당사 브랜드의 즉시 배송 및 퀵커머스 입점 가능성을 검토하라.",
+          "en": "The sales team should analyze the Uber Eats partnership case and evaluate the potential entry of our brand into quick-commerce and instant delivery."
         }
       },
       {
         "brand": "Macy's",
         "platform": "News",
         "date": "2026-11-19",
-        "sourceUrl": "https://www.newswise.com/articles/why-macy-s-spent-100-years-building-an-ad-it-can-t-directly-measure",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMDRpbThQOFZZeFB3dmktUDg3RHRGNFdNUVdYeU1aNkhJVmlDaXdGUjdYaGJMVE1GNXJ5RmMxWkNSSkpxeWpudjdJNDAyeXdpVGpzemdhMU5Kd0pQVEQzbi04QVN3bjNXM1RIdkdIYTFPWjNDNFF6MGloZXE3aHY3UkdrTm1lQ0cxTHg3RWY0cWpfcVMzdXNCdVpBQUJIeGExZl9V0gGjAUFVX3lxTE4wNGltOFA4Vll4UHd2aS1QODdEdEY0V01RV1h5TVo2SElWaUNpd0ZSN1hoYkxUTUY1cnlGYzFaQ1JKSnF5am52N0k0MDJ5d2lUanN6Z2ExTkp3SlBURDNuLThBU3duM1czVEh2R0hhMU9aM0M0UXowaWhlcTdodjdSR2tObWVDRzFMeDdFZjRxal9xUzN1c0J1WkFBQkh4YTFmX1U?oc=5",
         "publisher": "Newswise",
-        "signal": "CAMPAIGN",
+        "signal": "UPDATE",
         "headline": {
-          "kr": "메이시스 추수감사절 퍼레이드가 만드는 연말 브랜드 효과",
-          "en": "What Macy’s Thanksgiving parade does for its holiday brand"
+          "kr": "",
+          "en": "Why Macy’s Spent 100 Years Building an Ad It Can’t Directly Measure | Newswise - Newswise"
         },
         "summary": {
-          "kr": "버지니아텍 마케팅 연구진은 메이시스 퍼레이드의 효과를 단기 매출뿐 아니라 도달 범위와 브랜드 인식으로 봐야 한다고 설명했습니다.",
-          "en": "A Virginia Tech marketing expert argues that the parade’s reach and brand impact matter alongside short-term sales."
+          "kr": "",
+          "en": ""
         },
         "whyItMatters": {
-          "kr": "퍼레이드와 매장·상품 캠페인이 어떻게 이어지는지 보면 메이시스가 연말에 강조하는 테마를 파악할 수 있습니다.",
-          "en": "Tracking how the parade connects with stores and products can surface Macy’s holiday themes."
+          "kr": "",
+          "en": ""
         },
         "action": {
-          "kr": "매장과 온라인에서 퍼레이드 연계 상품이 어떻게 노출되는지 확인하고, 다음 시즌 기프트용 상품 콘셉트를 정리하세요.",
-          "en": "Review parade-linked merchandise online and in stores before shaping next season’s giftable apparel concepts."
-        }
+          "kr": "",
+          "en": ""
+        },
+        "sourceOnly": true
       },
       {
-        "brand": "Ann Taylor",
+        "brand": "Talbot's",
         "platform": "News",
         "date": "2026-11-17",
-        "sourceUrl": "https://www.glamour.com/story/black-friday-clothing-deals-11-17-2026",
-        "publisher": "Glamour",
-        "signal": "PRODUCT",
+        "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSk1GeDBiam1BbkFyaVFGMm5kUUZvbU9rWVpfbHJabklGdVNmdzVhNmJieThjSGxOTzY2WFdoMWhpbkc1ckY1enZXb1d4MF9wNTN3SlIwMDh1cl9QYUtJS2x6MC1LQmhWejBMQnA1alhhZDFIdC1EQmRqQjNkeEtGV0NyWGFWeWQtN2hranEyM1VFbFRQNEZMN2ZuenpGTHViZGZDN1FIZC1mX1E?oc=5",
+        "publisher": "Portada-online.com",
+        "signal": "UPDATE",
         "headline": {
-          "kr": "Ann Taylor, 조기 블랙프라이데이에 블라우스와 크레이프 팬츠 할인",
-          "en": "Ann Taylor tops and crepe trousers appear in early Black Friday deals"
+          "kr": "",
+          "en": "General Mill’s New Operating Model, Talbots, Gilead, Johnnie Walker… - Portada-online.com"
         },
         "summary": {
-          "kr": "Glamour는 Ann Taylor의 셔링 모크넥 톱과 스트레이트 크레이프 팬츠가 약 30% 할인됐다고 보도했습니다.",
-          "en": "Glamour reported roughly 30% off a shirred mock-neck top and straight crepe trousers from Ann Taylor."
+          "kr": "",
+          "en": ""
         },
         "whyItMatters": {
-          "kr": "오피스와 모임에 모두 입을 수 있는 상하의의 행사 가격대를 비교할 수 있는 사례입니다.",
-          "en": "The items offer a reference for promotional prices on styles that work for the office and social events."
+          "kr": "",
+          "en": ""
         },
         "action": {
-          "kr": "셔링 톱과 유연한 크레이프 팬츠를 세트로 구성하고 정상가와 행사 가격 기준으로 각각 원가를 산출하세요.",
-          "en": "Cost a coordinated shirred top and fluid crepe trouser at both regular and promotional price points."
-        }
+          "kr": "",
+          "en": ""
+        },
+        "sourceOnly": true
       }
     ]
   }
