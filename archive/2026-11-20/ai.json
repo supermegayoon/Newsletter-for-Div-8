@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "asOf": "2026-11-19T23:01:02.088Z",
+  "generatedDateKST": "2026-11-20",
+  "schedule": "Mon-Fri 08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "provider": "Google Gemini",
+  "model": "gemini-3.5-flash-lite",
+  "usesCompetitorIntelligence": true,
+  "competitorDateKST": "2026-11-20",
+  "insight": {
+    "headline": {
+      "kr": "콜스 우버이츠 제휴 및 홀리스터 매장 확장 속 Holiday 시즌 수요 대비",
+      "en": "Kohl's Uber Eats Partnership & Hollister Store Expansion Ahead of Holiday Season"
+    },
+    "summary": {
+      "kr": "주요 retail러들이 Holiday 시즌을 앞두고 온디맨드 배송 확대와 offline 매장 확장을 추진하며 경쟁력을 강화하고 있습니다. 당 영업팀은 경쟁사 동향을 반영한 맞춤형 제안이 필요합니다.",
+      "en": "Major retailers are strengthening competitiveness through on-demand delivery expansion and offline store openings ahead of the holiday season. The sales team needs customized proposals reflecting competitor moves."
+    },
+    "tags": [
+      "#Kohls",
+      "#Hollister",
+      "#Macys",
+      "#HolidaySeason"
+    ],
+    "buyerInsights": [
+      {
+        "buyer": "Kohl's",
+        "kr": "Uber Eats Partnership을 통한 전국 온디맨드 배송 서비스를 런칭하여 Holiday traffic과 판매율을 견인할 계획입니다. 경쟁사인 Target의 공세에 대응한 상품 및 promotion 검토가 필수적입니다.",
+        "en": "Launched nationwide on-demand delivery via an Uber Eats partnership to drive holiday traffic and sell-through. Reviewing products and promotions to counter competitor Target's push is essential."
+      },
+      {
+        "buyer": "A&F / Hollister",
+        "kr": "Leicestershire Highcross에 첫 offline 매장을 오픈하며 십대 소비자 타겟 retail 발판을 강화하고 있습니다. Aritzia 및 American Eagle 등 경쟁사의 동향을 주시해야 합니다.",
+        "en": "Opened its first offline store in Highcross, Leicestershire, strengthening its retail footprint targeting teen consumers. Monitoring competitors like Aritzia and American Eagle is necessary."
+      },
+      {
+        "buyer": "Macy's",
+        "kr": "Q3 실적 발표를 앞두고 초기 Holiday promotion 성과와 재고 효율성이 주목받고 있습니다. Nordstrom의 조기 블랙프라이데이 세일에 대응한 전략 점검이 요구됩니다.",
+        "en": "Early holiday promotion performance and inventory efficiency are in focus ahead of the Q3 earnings release. A strategy review to counter Nordstrom's early Black Friday sale is required."
+      }
+    ],
+    "opportunities": [
+      {
+        "kr": "콜스의 우버이츠 제휴 등 퀵커머스 및 즉시 배송 트렌드에 발맞춘 신속한 풀필먼트 대응 상품 기획 제안",
+        "en": "Proposing quick-fulfillment product planning aligned with quick-commerce and instant delivery trends such as Kohl's's Uber Eats partnership."
+      },
+      {
+        "kr": "TJX 등 오프프라이스 채널의 연간 가이드 상향 조정을 활용한 추가 reorder 및 신규 물량 확보 공략",
+        "en": "Targeting additional reorders and securing new volume by leveraging upgraded annual guidance from off-price channels like TJX."
+      }
+    ],
+    "risk": {
+      "level": "MEDIUM",
+      "kr": "Target, Nordstrom 등 주요 경쟁사들의 조기 블랙프라이데이 할인 공세로 인한 바이어별 margin 압박 및 재고 소진 리스크",
+      "en": "Margin pressure and inventory clearance risks for buyers due to early Black Friday promotional pushes by major competitors like Target and Nordstrom."
+    },
+    "actions": [
+      {
+        "owner": "Team 8",
+        "kr": "Target 및 Nordstrom의 블랙프라이데이 promotion 동향을 분석하여 각 바이어별 어소트먼트 제안에 반영",
+        "en": "Analyze Black Friday promotion trends of Target and Nordstrom and reflect them in assortment proposals for each buyer."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "콜스의 온디맨드 배송 확대에 따른 Holiday 베스트셀러 재고 가용성 실시간 점검",
+        "en": "Real-time review of holiday bestseller inventory availability following Kohl's's expansion of on-demand delivery."
+      },
+      {
+        "owner": "Team 8",
+        "kr": "홀리스터 신규 매장 오픈에 따른 주말 판매 추이 모니터링 및 reorder 수요 선제 파악",
+        "en": "Monitor weekend sales trends following Hollister's new store opening and proactively identify reorder demand."
+      }
+    ]
+  }
+}
