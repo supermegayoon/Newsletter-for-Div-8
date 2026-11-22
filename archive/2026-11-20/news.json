@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "asOf": "2026-11-19T23:00:33.295Z",
+  "generatedDateKST": "2026-11-20",
+  "schedule": "08:00 KST",
+  "refreshStatus": "VERIFIED",
+  "stale": false,
+  "freshness": {
+    "within72h": 4,
+    "within7d": 4,
+    "total": 4,
+    "windowDays": 30
+  },
+  "items": [
+    {
+      "brand": "Kohl's",
+      "brandLabel": "Kohl's",
+      "category_kr": "Retail Channel",
+      "category_en": "Retail Channel",
+      "date": "2026.11.19",
+      "title_kr": "Kohl's, Uber Eats와 Partnership 체결해 nationwide on-demand retail delivery 시작",
+      "title_en": "Kohl's Partners With Uber Eats for Nationwide Retail Delivery",
+      "body_kr": "Kohl's가 Uber Eats와의 Partnership을 통해 미국 전역에서 on-demand merchandise delivery 서비스를 런칭했습니다. Holiday season을 앞두고 빠르고 편리한 fulfillment channel을 확보하여 추가 traffic과 sell-through를 견인할 전망입니다.",
+      "body_en": "Kohl's launched nationwide on-demand merchandise delivery through a partnership with Uber Eats. This fulfillment channel aims to capture incremental traffic and boost sell-through ahead of the holiday season.",
+      "source": "Trend Hunter",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1wYXhINERLbFBIamcxdlNVN1Y2ODdEOVB2SW5CaVpBaUdMYkpfZDZrSEJCcXExY2VuYmU3eVk5Q3EwNGdYRmVBVjI4ZDN0aDVIbTVuY3p0bXJ6UkxNMWZHeFpwOExhTzFXcExXVE90RnlDcUJDMENXZmRB?oc=5",
+      "ageHours": 14.25817611111111
+    },
+    {
+      "brand": "A&F / Hollister",
+      "brandLabel": "A&F / Hollister",
+      "category_kr": "Store Expansion",
+      "category_en": "Store",
+      "date": "2026.11.19",
+      "title_kr": "Hollister, Highcross에 Leicestershire 첫 offline store 오픈",
+      "title_en": "Hollister opens first store in Leicestershire at Highcross",
+      "body_kr": "Hollister opened its first offline store in Leicestershire at the Highcross shopping center. This expansion strengthens its retail footprint and targets teen consumers for holiday merchandise sales.",
+      "source": "Completely Retail News",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeDVyNDNJWnBzSDVLXzZjWWRiektGTTJzQXFmSnpEcTNVbnlKbW91bzZhTmROeHVBazFQR2hkdVppRkJveHFQQ1N6Zkg3ZmNJVUNsbllWQzJWOUdMblpjMDRXWDRteGhZVG9NM2NhRVpqWUNDdHBMWlQ2MGxHSzZrWWxaY1FKQWs2VFMzc2x6MldTaGo5RmNoV1p6NA?oc=5",
+      "ageHours": 11.492595555555555
+    },
+    {
+      "brand": "Macy's",
+      "brandLabel": "Macy's",
+      "category_kr": "Earnings & Guidance",
+      "category_en": "Earnings",
+      "date": "2026.11.19",
+      "title_kr": "Macy's, Q3 earnings 발표 앞두고 주가 상승세 및 실적 기대감 고조",
+      "title_en": "Macy's Stock Gains Attention Ahead Of Earnings Beat Test",
+      "body_kr": "Macy's stock gained attention ahead of its Q3 earnings release. Early holiday promotion performance and merchandise inventory efficiency will be key factors in meeting market expectations.",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNazE0cEs4R04xWUtQRW91Rm5tOW1fb25mWEtUaFVtMXNRSmpuVWM4SVZJQmllTUl6WTlxN0E4NVpCcWdsLV9tVU5JaXJtUTRja25mdF9LV2VabjFnaURQWHNobG9Qc2piMGxFZmhQSnlqV1FISUJPU2FPNUR0VTQ3cGRiN2FzNHh1UmlFYXd1TFlEb29CMDRFSGt5MnlPQWs?oc=5",
+      "ageHours": 11.802329444444444
+    },
+    {
+      "brand": "TJX",
+      "brandLabel": "Industry",
+      "category_kr": "Earnings & Guidance",
+      "category_en": "Earnings",
+      "date": "2026.11.18",
+      "title_kr": "Off-price retailer TJX, 견조한 holiday demand 힘입어 연간 guidance 상향 조정",
+      "title_en": "Off-price retailer TJX lifts annual forecast on strong holiday demand, shares jump",
+      "body_kr": "TJX lifted its annual forecast and saw shares jump, driven by strong holiday consumer demand. This robust preference for off-price retail channels signals positive reorder potential for vendor partners.",
+      "source": "KFGO",
+      "sourceUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLUhvZDItM0xMcmtLRzBLeXdoRUFwNWc5dEMxN2pqdTEyMi14Tm1zOXJPS1lpdnRCYkVmNEo5VXVOaFpudnJiQ0pwaE5SV2tZaEFzc2poYVZ0eENpM2FTbmpXT0hiaWhPTm92MmRJSWRWYW1OdEVGOEtDclJMVXkzXzJDeWFhSEFEZTVZ?oc=5",
+      "ageHours": 32.10902333333333
+    }
+  ]
+}
