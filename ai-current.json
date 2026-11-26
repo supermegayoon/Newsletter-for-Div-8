@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "asOf": "2026-11-19T23:01:02.088Z",
-  "generatedDateKST": "2026-11-20",
+  "asOf": "2026-11-26T07:10:38.473Z",
+  "generatedDateKST": "2026-11-26",
   "schedule": "Mon-Fri 08:00 KST",
   "refreshStatus": "VERIFIED",
   "stale": false,
@@ -11,66 +11,70 @@
   "competitorDateKST": "2026-11-20",
   "insight": {
     "headline": {
-      "kr": "콜스 우버이츠 제휴 및 홀리스터 매장 확장 속 Holiday 시즌 수요 대비",
-      "en": "Kohl's Uber Eats Partnership & Hollister Store Expansion Ahead of Holiday Season"
+      "kr": "[팀8 일일 마켓 브리프] Holiday 시즌 수요 기대 속 주요 retail러 온디맨드 배송 및 offline 확장 가속화",
+      "en": "[Team 8 Daily Market Brief] Retailers Accelerate On-Demand Delivery & Store Expansion Amid Holiday Demand Momentum"
     },
     "summary": {
-      "kr": "주요 retail러들이 Holiday 시즌을 앞두고 온디맨드 배송 확대와 offline 매장 확장을 추진하며 경쟁력을 강화하고 있습니다. 당 영업팀은 경쟁사 동향을 반영한 맞춤형 제안이 필요합니다.",
-      "en": "Major retailers are strengthening competitiveness through on-demand delivery expansion and offline store openings ahead of the holiday season. The sales team needs customized proposals reflecting competitor moves."
+      "kr": "Kohl's의 Uber Eats 제휴, Hollister의 신규 매장 오픈, Macy's의 실적 기대감이 감지되는 가운데, 경쟁사인 Target과 Nordstrom의 조기 블랙프라이데이 promotion 공세가 거세지고 있습니다. 면화 가격 상승세와 환율 변동성에 주의하며 Holiday 오더 대응이 필요합니다.",
+      "en": "As Kohl's partners with Uber Eats, Hollister opens a new store, and Macy's builds earnings anticipation, competitors like Target and Nordstrom are aggressively launching early Black Friday promotions. Careful monitoring of cotton prices and FX volatility is required for holiday order execution."
     },
     "tags": [
-      "#Kohls",
-      "#Hollister",
-      "#Macys",
-      "#HolidaySeason"
+      "#Team8DailyBrief",
+      "#HolidayRetail2026",
+      "#KohlsiOS",
+      "#CompetitorIntel"
     ],
     "buyerInsights": [
       {
         "buyer": "Kohl's",
-        "kr": "Uber Eats Partnership을 통한 전국 온디맨드 배송 서비스를 런칭하여 Holiday traffic과 판매율을 견인할 계획입니다. 경쟁사인 Target의 공세에 대응한 상품 및 promotion 검토가 필수적입니다.",
-        "en": "Launched nationwide on-demand delivery via an Uber Eats partnership to drive holiday traffic and sell-through. Reviewing products and promotions to counter competitor Target's push is essential."
+        "kr": "Uber Eats와의 제휴를 통해 미국 전역 온디맨드 배송을 시작했습니다. 경쟁사인 Target의 매출 성장세와 조기 할인 공세에 대응하기 위해 신속한 풀필먼트와 가성비 중심의 상품 제안이 요구됩니다.",
+        "en": "Launched nationwide on-demand delivery via partnership with Uber Eats. To counter competitor Target's sales growth and early promotional push, agile fulfillment and value-driven assortment proposals are required."
       },
       {
         "buyer": "A&F / Hollister",
-        "kr": "Leicestershire Highcross에 첫 offline 매장을 오픈하며 십대 소비자 타겟 retail 발판을 강화하고 있습니다. Aritzia 및 American Eagle 등 경쟁사의 동향을 주시해야 합니다.",
-        "en": "Opened its first offline store in Highcross, Leicestershire, strengthening its retail footprint targeting teen consumers. Monitoring competitors like Aritzia and American Eagle is necessary."
+        "kr": "Highcross 쇼핑센터에 Leicestershire 첫 offline 매장을 오픈하며 십대 소비자 공략을 강화하고 있습니다. 경쟁사인 Aritzia 및 American Eagle의 공격적인 마케팅에 맞서 트렌디한 Holiday 상품 공급이 필수적입니다.",
+        "en": "Strengthened teen consumer targeting by opening its first offline store in Leicestershire at Highcross. Supplying trendy holiday merchandise is essential to compete against aggressive marketing from Aritzia and American Eagle."
       },
       {
         "buyer": "Macy's",
-        "kr": "Q3 실적 발표를 앞두고 초기 Holiday promotion 성과와 재고 효율성이 주목받고 있습니다. Nordstrom의 조기 블랙프라이데이 세일에 대응한 전략 점검이 요구됩니다.",
-        "en": "Early holiday promotion performance and inventory efficiency are in focus ahead of the Q3 earnings release. A strategy review to counter Nordstrom's early Black Friday sale is required."
+        "kr": "Q3 실적 발표를 앞두고 초기 Holiday promotion 성과와 재고 효율성에 이목이 집중되고 있습니다. Nordstrom의 조기 블랙프라이데이 할인 공세에 대응하는 재고 회전율 점검이 중요합니다.",
+        "en": "Attention is focused on early holiday promotion performance and inventory efficiency ahead of Q3 earnings. Monitoring inventory turnover is crucial to respond to Nordstrom's early Black Friday discount push."
       }
     ],
     "opportunities": [
       {
-        "kr": "콜스의 우버이츠 제휴 등 퀵커머스 및 즉시 배송 트렌드에 발맞춘 신속한 풀필먼트 대응 상품 기획 제안",
-        "en": "Proposing quick-fulfillment product planning aligned with quick-commerce and instant delivery trends such as Kohl's's Uber Eats partnership."
+        "kr": "offline 매장 확장을 지속하는 Hollister 및 A&F를 대상으로 Holiday reorder 및 신규 category 확대를 위한 스타일 제안 추진",
+        "en": "Pitch style proposals for holiday reorders and new category expansion targeting Hollister and A&F as they continue offline store expansion."
       },
       {
-        "kr": "TJX 등 오프프라이스 채널의 연간 가이드 상향 조정을 활용한 추가 reorder 및 신규 물량 확보 공략",
-        "en": "Targeting additional reorders and securing new volume by leveraging upgraded annual guidance from off-price channels like TJX."
+        "kr": "오프프라이스 채널(TJX 등)의 연간 가이드 상향 기조에 발맞춰 당사 미판매 재고 소진을 위한 벤더 연계 promotion 검토",
+        "en": "Review vendor-linked promotions to clear unsold inventory in alignment with off-price channels (such as TJX) raising their annual guidance."
+      },
+      {
+        "kr": "Kohl's의 퀵커머스 및 온디맨드 배송 채널 다변화에 발맞춘 신속한 납기 대응 및 드롭쉬핑 적합 상품 구성 검토",
+        "en": "Review fast-delivery compliance and drop-ship compatible product lineups in line with Kohl's's diversification into quick-commerce and on-demand delivery channels."
       }
     ],
     "risk": {
       "level": "MEDIUM",
-      "kr": "Target, Nordstrom 등 주요 경쟁사들의 조기 블랙프라이데이 할인 공세로 인한 바이어별 margin 압박 및 재고 소진 리스크",
-      "en": "Margin pressure and inventory clearance risks for buyers due to early Black Friday promotional pushes by major competitors like Target and Nordstrom."
+      "kr": "코튼 선물 가격 상승(1.24%) 및 주요 경쟁사들의 조기 블랙프라이데이 할인 경쟁 격화로 인한 margin 압박 리스크 존재",
+      "en": "Margin compression risk driven by rising cotton futures prices (+1.24%) and intense early Black Friday discounting by major competitors."
     },
     "actions": [
       {
         "owner": "Team 8",
-        "kr": "Target 및 Nordstrom의 블랙프라이데이 promotion 동향을 분석하여 각 바이어별 어소트먼트 제안에 반영",
-        "en": "Analyze Black Friday promotion trends of Target and Nordstrom and reflect them in assortment proposals for each buyer."
+        "kr": "Target, Nordstrom 등 주요 경쟁사의 조기 할인 품목 및 가격대 분석 리포트 작성 및 공유",
+        "en": "Draft and share an analysis report on early discount items and price points of major competitors like Target and Nordstrom."
       },
       {
         "owner": "Team 8",
-        "kr": "콜스의 온디맨드 배송 확대에 따른 Holiday 베스트셀러 재고 가용성 실시간 점검",
-        "en": "Real-time review of holiday bestseller inventory availability following Kohl's's expansion of on-demand delivery."
+        "kr": "원면 가격 상승(코튼 선물 75.90 센트)에 따른 원가 영향 분석 및 바이어별 단가 협상 시나리오 점검",
+        "en": "Analyze cost impacts from rising raw cotton prices (Cotton futures at 75.90 cents) and review unit price negotiation scenarios per buyer."
       },
       {
         "owner": "Team 8",
-        "kr": "홀리스터 신규 매장 오픈에 따른 주말 판매 추이 모니터링 및 reorder 수요 선제 파악",
-        "en": "Monitor weekend sales trends following Hollister's new store opening and proactively identify reorder demand."
+        "kr": "Hollister 및 Kohl's 대상 Holiday 시즌 인-시즌 reorder 가능 물량 및 선적 일정 사전 확보",
+        "en": "Secure in-season holiday reorder quantities and shipment schedules in advance for Hollister and Kohl's."
       }
     ]
   }
